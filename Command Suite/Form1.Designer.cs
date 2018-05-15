@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Summary = new System.Windows.Forms.TabPage();
@@ -57,21 +58,21 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.incNo = new System.Windows.Forms.TextBox();
+            this.incTime = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.incCommander = new System.Windows.Forms.TextBox();
+            this.incLocation = new System.Windows.Forms.TextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.araON = new System.Windows.Forms.Label();
             this.araOFF = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.incType = new System.Windows.Forms.ComboBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.methane = new System.Windows.Forms.TabPage();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -82,13 +83,13 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.majorincident = new System.Windows.Forms.TextBox();
+            this.exactlocation = new System.Windows.Forms.TextBox();
+            this.typeofincident = new System.Windows.Forms.TextBox();
+            this.hazards = new System.Windows.Forms.TextBox();
+            this.accessandegress = new System.Windows.Forms.TextBox();
+            this.noofcasualties = new System.Windows.Forms.TextBox();
+            this.emergencyservices = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -103,6 +104,11 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.oN20minReminderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oN60minReminderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.turnARAReminderOFFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.digitalclock = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -184,6 +190,10 @@
             // 
             // setARAReminderToolStripMenuItem
             // 
+            this.setARAReminderToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.oN20minReminderToolStripMenuItem,
+            this.oN60minReminderToolStripMenuItem,
+            this.turnARAReminderOFFToolStripMenuItem});
             this.setARAReminderToolStripMenuItem.Name = "setARAReminderToolStripMenuItem";
             this.setARAReminderToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
             this.setARAReminderToolStripMenuItem.Text = "Set ARA Reminder";
@@ -393,23 +403,23 @@
             this.label7.TabIndex = 13;
             this.label7.Text = "Date";
             // 
-            // textBox1
+            // incNo
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(318, 811);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(165, 22);
-            this.textBox1.TabIndex = 14;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.incNo.Location = new System.Drawing.Point(318, 811);
+            this.incNo.Name = "incNo";
+            this.incNo.Size = new System.Drawing.Size(165, 22);
+            this.incNo.TabIndex = 14;
+            this.incNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox3
+            // incTime
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox3.Location = new System.Drawing.Point(318, 872);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(165, 22);
-            this.textBox3.TabIndex = 16;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.incTime.Location = new System.Drawing.Point(318, 872);
+            this.incTime.Name = "incTime";
+            this.incTime.Size = new System.Drawing.Size(165, 22);
+            this.incTime.TabIndex = 16;
+            this.incTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // dateTimePicker1
             // 
@@ -455,23 +465,24 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "Inc Location";
             // 
-            // textBox2
+            // incCommander
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox2.Location = new System.Drawing.Point(672, 811);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(227, 22);
-            this.textBox2.TabIndex = 21;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incCommander.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.incCommander.Location = new System.Drawing.Point(672, 811);
+            this.incCommander.Name = "incCommander";
+            this.incCommander.Size = new System.Drawing.Size(227, 22);
+            this.incCommander.TabIndex = 21;
+            this.incCommander.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox5
+            // incLocation
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox5.Location = new System.Drawing.Point(672, 872);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(263, 22);
-            this.textBox5.TabIndex = 23;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incLocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.incLocation.Location = new System.Drawing.Point(672, 872);
+            this.incLocation.Name = "incLocation";
+            this.incLocation.Size = new System.Drawing.Size(263, 22);
+            this.incLocation.TabIndex = 23;
+            this.incLocation.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.incLocation.TextChanged += new System.EventHandler(this.incLocation_TextChanged);
             // 
             // pictureBox3
             // 
@@ -488,11 +499,11 @@
             this.label11.BackColor = System.Drawing.Color.Silver;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(1087, 874);
+            this.label11.Location = new System.Drawing.Point(1129, 875);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(201, 17);
+            this.label11.Size = new System.Drawing.Size(123, 17);
             this.label11.TabIndex = 25;
-            this.label11.Text = "TIME SPENT AT INCIDENT";
+            this.label11.Text = "CURRENT TIME";
             // 
             // pictureBox4
             // 
@@ -539,21 +550,22 @@
             this.araOFF.TabIndex = 29;
             this.araOFF.Text = "ON";
             // 
-            // comboBox1
+            // incType
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.incType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.incType.FormattingEnabled = true;
+            this.incType.Items.AddRange(new object[] {
             "",
             "House Fire",
             "Car Fire",
             "Animal Rescue",
             "Hazmat Spill",
             "CBRN"});
-            this.comboBox1.Location = new System.Drawing.Point(672, 839);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(227, 24);
-            this.comboBox1.TabIndex = 0;
+            this.incType.Location = new System.Drawing.Point(672, 839);
+            this.incType.Name = "incType";
+            this.incType.Size = new System.Drawing.Size(227, 24);
+            this.incType.TabIndex = 0;
+            this.incType.SelectedIndexChanged += new System.EventHandler(this.incType_SelectedIndexChanged);
             // 
             // pictureBox5
             // 
@@ -573,13 +585,13 @@
             this.methane.Controls.Add(this.label22);
             this.methane.Controls.Add(this.label21);
             this.methane.Controls.Add(this.label20);
-            this.methane.Controls.Add(this.textBox11);
-            this.methane.Controls.Add(this.textBox10);
-            this.methane.Controls.Add(this.textBox9);
-            this.methane.Controls.Add(this.textBox8);
-            this.methane.Controls.Add(this.textBox7);
-            this.methane.Controls.Add(this.textBox6);
-            this.methane.Controls.Add(this.textBox4);
+            this.methane.Controls.Add(this.emergencyservices);
+            this.methane.Controls.Add(this.noofcasualties);
+            this.methane.Controls.Add(this.accessandegress);
+            this.methane.Controls.Add(this.hazards);
+            this.methane.Controls.Add(this.typeofincident);
+            this.methane.Controls.Add(this.exactlocation);
+            this.methane.Controls.Add(this.majorincident);
             this.methane.Controls.Add(this.label19);
             this.methane.Controls.Add(this.label18);
             this.methane.Controls.Add(this.label17);
@@ -689,74 +701,74 @@
             this.label19.TabIndex = 7;
             this.label19.Text = "E";
             // 
-            // textBox4
+            // majorincident
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(196, 152);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(318, 38);
-            this.textBox4.TabIndex = 8;
+            this.majorincident.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.majorincident.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.majorincident.Location = new System.Drawing.Point(196, 152);
+            this.majorincident.Name = "majorincident";
+            this.majorincident.Size = new System.Drawing.Size(869, 38);
+            this.majorincident.TabIndex = 8;
             // 
-            // textBox6
+            // exactlocation
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(196, 235);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(318, 38);
-            this.textBox6.TabIndex = 9;
+            this.exactlocation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.exactlocation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exactlocation.Location = new System.Drawing.Point(196, 235);
+            this.exactlocation.Name = "exactlocation";
+            this.exactlocation.Size = new System.Drawing.Size(869, 38);
+            this.exactlocation.TabIndex = 9;
             // 
-            // textBox7
+            // typeofincident
             // 
-            this.textBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(196, 315);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(318, 38);
-            this.textBox7.TabIndex = 10;
+            this.typeofincident.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.typeofincident.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.typeofincident.Location = new System.Drawing.Point(196, 315);
+            this.typeofincident.Name = "typeofincident";
+            this.typeofincident.Size = new System.Drawing.Size(869, 38);
+            this.typeofincident.TabIndex = 10;
             // 
-            // textBox8
+            // hazards
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(196, 404);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(318, 38);
-            this.textBox8.TabIndex = 11;
+            this.hazards.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.hazards.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hazards.Location = new System.Drawing.Point(196, 404);
+            this.hazards.Name = "hazards";
+            this.hazards.Size = new System.Drawing.Size(869, 38);
+            this.hazards.TabIndex = 11;
             // 
-            // textBox9
+            // accessandegress
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(196, 495);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(318, 38);
-            this.textBox9.TabIndex = 12;
+            this.accessandegress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.accessandegress.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.accessandegress.Location = new System.Drawing.Point(196, 495);
+            this.accessandegress.Name = "accessandegress";
+            this.accessandegress.Size = new System.Drawing.Size(869, 38);
+            this.accessandegress.TabIndex = 12;
             // 
-            // textBox10
+            // noofcasualties
             // 
-            this.textBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(196, 569);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(318, 38);
-            this.textBox10.TabIndex = 13;
+            this.noofcasualties.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.noofcasualties.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noofcasualties.Location = new System.Drawing.Point(196, 569);
+            this.noofcasualties.Name = "noofcasualties";
+            this.noofcasualties.Size = new System.Drawing.Size(869, 38);
+            this.noofcasualties.TabIndex = 13;
             // 
-            // textBox11
+            // emergencyservices
             // 
-            this.textBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(196, 653);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(318, 38);
-            this.textBox11.TabIndex = 14;
+            this.emergencyservices.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.emergencyservices.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emergencyservices.Location = new System.Drawing.Point(196, 653);
+            this.emergencyservices.Name = "emergencyservices";
+            this.emergencyservices.Size = new System.Drawing.Size(869, 38);
+            this.emergencyservices.TabIndex = 14;
             // 
             // label20
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label20.Location = new System.Drawing.Point(520, 152);
+            this.label20.Location = new System.Drawing.Point(203, 132);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(311, 17);
             this.label20.TabIndex = 15;
@@ -766,7 +778,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.BackColor = System.Drawing.Color.IndianRed;
-            this.label21.Location = new System.Drawing.Point(520, 235);
+            this.label21.Location = new System.Drawing.Point(203, 213);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(270, 17);
             this.label21.TabIndex = 16;
@@ -776,7 +788,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.LightGreen;
-            this.label22.Location = new System.Drawing.Point(526, 315);
+            this.label22.Location = new System.Drawing.Point(203, 296);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(173, 17);
             this.label22.TabIndex = 17;
@@ -786,7 +798,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.BackColor = System.Drawing.Color.IndianRed;
-            this.label23.Location = new System.Drawing.Point(526, 404);
+            this.label23.Location = new System.Drawing.Point(203, 386);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(212, 17);
             this.label23.TabIndex = 18;
@@ -796,7 +808,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label24.Location = new System.Drawing.Point(520, 495);
+            this.label24.Location = new System.Drawing.Point(203, 477);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(317, 17);
             this.label24.TabIndex = 19;
@@ -806,7 +818,7 @@
             // 
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.IndianRed;
-            this.label25.Location = new System.Drawing.Point(526, 569);
+            this.label25.Location = new System.Drawing.Point(203, 552);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(403, 17);
             this.label25.TabIndex = 20;
@@ -816,7 +828,7 @@
             // 
             this.label26.AutoSize = true;
             this.label26.BackColor = System.Drawing.Color.LightGreen;
-            this.label26.Location = new System.Drawing.Point(520, 653);
+            this.label26.Location = new System.Drawing.Point(203, 633);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(568, 17);
             this.label26.TabIndex = 21;
@@ -886,26 +898,64 @@
             this.pictureBox13.TabIndex = 37;
             this.pictureBox13.TabStop = false;
             // 
+            // oN20minReminderToolStripMenuItem
+            // 
+            this.oN20minReminderToolStripMenuItem.Name = "oN20minReminderToolStripMenuItem";
+            this.oN20minReminderToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
+            this.oN20minReminderToolStripMenuItem.Text = "ON -20min Reminder";
+            this.oN20minReminderToolStripMenuItem.Click += new System.EventHandler(this.oN20minReminderToolStripMenuItem_Click);
+            // 
+            // oN60minReminderToolStripMenuItem
+            // 
+            this.oN60minReminderToolStripMenuItem.Name = "oN60minReminderToolStripMenuItem";
+            this.oN60minReminderToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
+            this.oN60minReminderToolStripMenuItem.Text = "ON - 60min Reminder";
+            this.oN60minReminderToolStripMenuItem.Click += new System.EventHandler(this.oN60minReminderToolStripMenuItem_Click);
+            // 
+            // turnARAReminderOFFToolStripMenuItem
+            // 
+            this.turnARAReminderOFFToolStripMenuItem.Name = "turnARAReminderOFFToolStripMenuItem";
+            this.turnARAReminderOFFToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
+            this.turnARAReminderOFFToolStripMenuItem.Text = "Turn ARA reminders OFF";
+            this.turnARAReminderOFFToolStripMenuItem.Click += new System.EventHandler(this.turnARAReminderOFFToolStripMenuItem_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            // 
+            // digitalclock
+            // 
+            this.digitalclock.AutoSize = true;
+            this.digitalclock.BackColor = System.Drawing.Color.Silver;
+            this.digitalclock.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.digitalclock.ForeColor = System.Drawing.Color.Red;
+            this.digitalclock.Location = new System.Drawing.Point(1106, 824);
+            this.digitalclock.Name = "digitalclock";
+            this.digitalclock.Size = new System.Drawing.Size(168, 44);
+            this.digitalclock.TabIndex = 0;
+            this.digitalclock.Text = "00:00:00";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1299, 906);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.digitalclock);
+            this.Controls.Add(this.incType);
             this.Controls.Add(this.araOFF);
             this.Controls.Add(this.araON);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.incLocation);
+            this.Controls.Add(this.incCommander);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.incTime);
+            this.Controls.Add(this.incNo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -977,21 +1027,21 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox incNo;
+        private System.Windows.Forms.TextBox incTime;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox incCommander;
+        private System.Windows.Forms.TextBox incLocation;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label araON;
         private System.Windows.Forms.Label araOFF;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox incType;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.TabPage methane;
         private System.Windows.Forms.PictureBox pictureBox6;
@@ -1002,13 +1052,13 @@
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox emergencyservices;
+        private System.Windows.Forms.TextBox noofcasualties;
+        private System.Windows.Forms.TextBox accessandegress;
+        private System.Windows.Forms.TextBox hazards;
+        private System.Windows.Forms.TextBox typeofincident;
+        private System.Windows.Forms.TextBox exactlocation;
+        private System.Windows.Forms.TextBox majorincident;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label17;
@@ -1023,6 +1073,11 @@
         private System.Windows.Forms.PictureBox pictureBox11;
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.ToolStripMenuItem oN20minReminderToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oN60minReminderToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem turnARAReminderOFFToolStripMenuItem;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label digitalclock;
     }
 }
 
