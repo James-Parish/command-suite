@@ -606,7 +606,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(359, 15);
+            this.pictureBox6.Location = new System.Drawing.Point(364, 15);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(485, 112);
             this.pictureBox6.TabIndex = 0;
