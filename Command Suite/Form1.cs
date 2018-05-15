@@ -203,7 +203,12 @@ namespace Command_Suite
             t.Start();
 
             // -------------------------------------------------
-           
+
+
+            datenow.Text = DateTime.Now.ToString("dd/MM/yyy");
+
+
+
 
             // this will make the program go full screen on the device.
             this.TopMost = true;
