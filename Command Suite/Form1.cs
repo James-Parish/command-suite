@@ -8,15 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Command_Suite
 {
     public partial class Form1 : Form
     {
 
-
+        
 
         Timer t = new Timer();
-      
+       
     
 
 
@@ -183,10 +184,16 @@ namespace Command_Suite
         }
 
 
+
         private void saveIncidentReportToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+           //-- here will save the incident
         }
+
+
+        
+
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -194,8 +201,14 @@ namespace Command_Suite
             t.Interval = 1000; // timer interval
             t.Tick += new EventHandler(this.t_Tick);
             t.Start();
-            // -------------------------------------------------
 
+            // -------------------------------------------------
+           
+
+            // this will make the program go full screen on the device.
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
 
 
         }
@@ -231,9 +244,30 @@ namespace Command_Suite
         {
             araON.Visible = true;
             araOFF.Visible = false;
+
+          
+
+            
+
         }
 
         private void label55_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            
+        }
+
+        private void digitalclock_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label179_Click(object sender, EventArgs e)
         {
 
         }
