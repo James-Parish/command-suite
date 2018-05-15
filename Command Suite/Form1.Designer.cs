@@ -287,6 +287,20 @@
             this.label169 = new System.Windows.Forms.Label();
             this.label170 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.label171 = new System.Windows.Forms.Label();
+            this.label172 = new System.Windows.Forms.Label();
+            this.label173 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.label174 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -312,6 +326,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -333,6 +348,20 @@
             // 
             // Summary
             // 
+            this.Summary.Controls.Add(this.textBox4);
+            this.Summary.Controls.Add(this.textBox3);
+            this.Summary.Controls.Add(this.textBox2);
+            this.Summary.Controls.Add(this.textBox1);
+            this.Summary.Controls.Add(this.label174);
+            this.Summary.Controls.Add(this.comboBox5);
+            this.Summary.Controls.Add(this.comboBox4);
+            this.Summary.Controls.Add(this.comboBox3);
+            this.Summary.Controls.Add(this.comboBox2);
+            this.Summary.Controls.Add(this.comboBox1);
+            this.Summary.Controls.Add(this.label173);
+            this.Summary.Controls.Add(this.label172);
+            this.Summary.Controls.Add(this.label171);
+            this.Summary.Controls.Add(this.pictureBox22);
             this.Summary.Controls.Add(this.label93);
             this.Summary.Controls.Add(this.label94);
             this.Summary.Controls.Add(this.label99);
@@ -3089,6 +3118,171 @@
             this.pictureBox21.TabIndex = 139;
             this.pictureBox21.TabStop = false;
             // 
+            // pictureBox22
+            // 
+            this.pictureBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.pictureBox22.Location = new System.Drawing.Point(355, 26);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(517, 280);
+            this.pictureBox22.TabIndex = 208;
+            this.pictureBox22.TabStop = false;
+            // 
+            // label171
+            // 
+            this.label171.AutoSize = true;
+            this.label171.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label171.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label171.Location = new System.Drawing.Point(436, 120);
+            this.label171.Name = "label171";
+            this.label171.Size = new System.Drawing.Size(112, 17);
+            this.label171.TabIndex = 209;
+            this.label171.Text = "Sectors in use";
+            // 
+            // label172
+            // 
+            this.label172.AutoSize = true;
+            this.label172.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label172.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label172.Location = new System.Drawing.Point(500, 37);
+            this.label172.Name = "label172";
+            this.label172.Size = new System.Drawing.Size(225, 25);
+            this.label172.TabIndex = 210;
+            this.label172.Text = "Incident Sectors + TM";
+            // 
+            // label173
+            // 
+            this.label173.AutoSize = true;
+            this.label173.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label173.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label173.Location = new System.Drawing.Point(436, 84);
+            this.label173.Name = "label173";
+            this.label173.Size = new System.Drawing.Size(109, 17);
+            this.label173.TabIndex = 211;
+            this.label173.Text = "Tactical Mode";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "",
+            "OFFENSIVE",
+            "DEFENSIVE"});
+            this.comboBox1.Location = new System.Drawing.Point(556, 81);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(143, 24);
+            this.comboBox1.TabIndex = 212;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "",
+            "Sector 1",
+            "Sector 2",
+            "Sector 3",
+            "Sector 4",
+            "Water Sector",
+            "BA Sector",
+            "Welfare Sector",
+            "Command Sector"});
+            this.comboBox2.Location = new System.Drawing.Point(439, 147);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 24);
+            this.comboBox2.TabIndex = 213;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "",
+            "Sector 1",
+            "Sector 2",
+            "Sector 3",
+            "Sector 4",
+            "Water Sector",
+            "BA Sector",
+            "Welfare Sector",
+            "Command Sector"});
+            this.comboBox3.Location = new System.Drawing.Point(439, 177);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 24);
+            this.comboBox3.TabIndex = 214;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Items.AddRange(new object[] {
+            "",
+            "Sector 1",
+            "Sector 2",
+            "Sector 3",
+            "Sector 4",
+            "Water Sector",
+            "BA Sector",
+            "Welfare Sector",
+            "Command Sector"});
+            this.comboBox4.Location = new System.Drawing.Point(439, 207);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(121, 24);
+            this.comboBox4.TabIndex = 215;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Items.AddRange(new object[] {
+            "",
+            "Sector 1",
+            "Sector 2",
+            "Sector 3",
+            "Sector 4",
+            "Water Sector",
+            "BA Sector",
+            "Welfare Sector",
+            "Command Sector"});
+            this.comboBox5.Location = new System.Drawing.Point(439, 240);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(121, 24);
+            this.comboBox5.TabIndex = 216;
+            // 
+            // label174
+            // 
+            this.label174.AutoSize = true;
+            this.label174.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label174.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label174.Location = new System.Drawing.Point(625, 120);
+            this.label174.Name = "label174";
+            this.label174.Size = new System.Drawing.Size(153, 17);
+            this.label174.TabIndex = 217;
+            this.label174.Text = "Sectors Commander";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(625, 147);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(166, 22);
+            this.textBox1.TabIndex = 218;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(625, 177);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(166, 22);
+            this.textBox2.TabIndex = 219;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(625, 207);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(166, 22);
+            this.textBox3.TabIndex = 220;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(625, 240);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(166, 22);
+            this.textBox4.TabIndex = 221;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -3156,6 +3350,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -3420,6 +3615,20 @@
         private System.Windows.Forms.Label label96;
         private System.Windows.Forms.Label label97;
         private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label174;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label173;
+        private System.Windows.Forms.Label label172;
+        private System.Windows.Forms.Label label171;
+        private System.Windows.Forms.PictureBox pictureBox22;
     }
 }
 
