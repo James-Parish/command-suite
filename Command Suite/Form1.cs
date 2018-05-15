@@ -16,5 +16,20 @@ namespace Command_Suite
         {
             InitializeComponent();
         }
+
+        private void saveIncidentReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void methane_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
