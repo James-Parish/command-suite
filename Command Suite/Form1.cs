@@ -354,7 +354,190 @@ namespace Command_Suite
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            // officers calculations
+            //in
+
+            if (string.IsNullOrWhiteSpace(textBox207.Text))
+            {
+                textBox251.Text = "0";
+            }
+            else
+            {
+                textBox251.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox210.Text))
+            {
+                textBox250.Text = "0";
+            }
+            else
+            {
+                textBox250.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox214.Text))
+            {
+                textBox249.Text = "0";
+            }
+            else
+            {
+                textBox249.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox218.Text))
+            {
+                textBox248.Text = "0";
+            }
+            else
+            {
+                textBox248.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox222.Text))
+            {
+                textBox247.Text = "0";
+            }
+            else
+            {
+                textBox247.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox226.Text))
+            {
+                textBox246.Text = "0";
+            }
+            else
+            {
+                textBox246.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox230.Text))
+            {
+                textBox245.Text = "0";
+            }
+            else
+            {
+                textBox245.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox234.Text))
+            {
+                textBox244.Text = "0";
+            }
+            else
+            {
+                textBox244.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox238.Text))
+            {
+                textBox243.Text = "0";
+            }
+            else
+            {
+                textBox243.Text = "1";
+            }
+
+
+            int o1 = Int32.Parse(textBox251.Text);
+            int o2 = Int32.Parse(textBox250.Text);
+            int o3 = Int32.Parse(textBox249.Text);
+            int o4 = Int32.Parse(textBox248.Text);
+            int o5 = Int32.Parse(textBox247.Text);
+            int o6 = Int32.Parse(textBox246.Text);
+            int o7 = Int32.Parse(textBox245.Text);
+            int o8 = Int32.Parse(textBox244.Text);
+            int o9 = Int32.Parse(textBox243.Text);
+
+            textBox241.Text = (o1 + o2 + o3 + o4 + o5 + o6 + o7 + o8 + o9).ToString();
+            officerQTY.Text = textBox241.Text;
+
+            //officer out
+
+            if (string.IsNullOrWhiteSpace(textBox208.Text))
+            {
+                textBox260.Text = "0";
+            }
+            else
+            {
+                textBox260.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox209.Text))
+            {
+                textBox259.Text = "0";
+            }
+            else
+            {
+                textBox259.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox213.Text))
+            {
+                textBox258.Text = "0";
+            }
+            else
+            {
+                textBox258.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox217.Text))
+            {
+                textBox257.Text = "0";
+            }
+            else
+            {
+                textBox257.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox221.Text))
+            {
+                textBox256.Text = "0";
+            }
+            else
+            {
+                textBox256.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox225.Text))
+            {
+                textBox255.Text = "0";
+            }
+            else
+            {
+                textBox255.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox229.Text))
+            {
+                textBox254.Text = "0";
+            }
+            else
+            {
+                textBox254.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox233.Text))
+            {
+                textBox253.Text = "0";
+            }
+            else
+            {
+                textBox253.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox237.Text))
+            {
+                textBox252.Text = "0";
+            }
+            else
+            {
+                textBox252.Text = "1";
+            }
+
+            int of1 = Int32.Parse(textBox260.Text);
+            int of2 = Int32.Parse(textBox259.Text);
+            int of3 = Int32.Parse(textBox258.Text);
+            int of4 = Int32.Parse(textBox257.Text);
+            int of5 = Int32.Parse(textBox256.Text);
+            int of6 = Int32.Parse(textBox255.Text);
+            int of7 = Int32.Parse(textBox254.Text);
+            int of8 = Int32.Parse(textBox253.Text);
+            int of9 = Int32.Parse(textBox252.Text);
+
+            textBox242.Text = (of1 + of2 + of3 + of4 + of5 + of6 + of7 + of8 + of9).ToString();
+
+
+
+
+
+
+
+
             // applicance calculations
 
 
@@ -521,8 +704,12 @@ namespace Command_Suite
 
             int appliancetotals = Int32.Parse(appTotal.Text);
             int applianceout = Int32.Parse(textBox204.Text);
+            int officerOut = Int32.Parse(textBox242.Text);
+            int officerin = Int32.Parse(textBox241.Text);
 
             liveTotalFAppliances.Text = (appliancetotals - applianceout).ToString();
+            liveTotalFPersonnel.Text = (officerin - officerOut).ToString();
+
             //
             //
             //
