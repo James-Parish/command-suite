@@ -41,7 +41,7 @@ namespace Command_Suite
             //------------------------------------------------------------------------------------------------------------------------------------
 
             //  tabControl1.TabPages.Remove(Calculations);
-
+            //  tabControl1.TabPages.Remove(otbcalculation);
             
 
 
@@ -356,6 +356,9 @@ namespace Command_Suite
         {
             
             // applicance calculations
+
+
+            //IN
             if (string.IsNullOrWhiteSpace(app1in.Text))
             {
                 textBox185.Text = "0";
@@ -433,12 +436,93 @@ namespace Command_Suite
             appTotal.Text = (a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8).ToString();
             pumpingQTY.Text = appTotal.Text;
 
+            // OUT
+            if (string.IsNullOrWhiteSpace(app1out.Text))
+            {
+                textBox195.Text = "0";
+            }
+            else
+            {
+                textBox195.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app2out.Text))
+            {
+                textBox196.Text = "0";
+            }
+            else
+            {
+                textBox196.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app3out.Text))
+            {
+                textBox197.Text = "0";
+            }
+            else
+            {
+                textBox197.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app4out.Text))
+            { 
+                textBox198.Text = "0";
+            }
+            else
+            {
+                textBox198.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app5out.Text))
+            {
+                textBox199.Text = "0";
+            }
+            else
+            {
+                textBox199.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app6out.Text))
+            {
+                textBox200.Text = "0";
+            }
+            else
+            {
+                textBox200.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app7out.Text))
+            {
+                textBox201.Text = "0";
+            }
+            else
+            {
+                textBox201.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(app8out.Text))
+            {
+                textBox202.Text = "0";
+            }
+            else
+            {
+                textBox202.Text = "1";
+            }
+
+            int a1out = Int32.Parse(textBox195.Text);
+            int a2out = Int32.Parse(textBox196.Text);
+            int a3out = Int32.Parse(textBox197.Text);
+            int a4out = Int32.Parse(textBox198.Text);
+            int a5out = Int32.Parse(textBox199.Text);
+            int a6out = Int32.Parse(textBox200.Text);
+            int a7out = Int32.Parse(textBox201.Text);
+            int a8out = Int32.Parse(textBox202.Text);
+
+            textBox204.Text = (a1out + a2out + a3out + a4out + a5out + a6out + a7out + a8out).ToString();
+
             // 
             //
             //
             //
             // HERE IS THE WORKING OUS FOR THE LIVE TOTALS (MAY NEED TO PARSE INT32 FROM CFRS AND OTB TO GET CALCULATION.
-            liveTotalFAppliances.Text = appTotal.Text;
+
+            int appliancetotals = Int32.Parse(appTotal.Text);
+            int applianceout = Int32.Parse(textBox204.Text);
+
+            liveTotalFAppliances.Text = (appliancetotals - applianceout).ToString();
             //
             //
             //
@@ -40979,6 +41063,11 @@ namespace Command_Suite
                 app86.Items.Add("FF Paul Morehen");
                 app86.Items.Add("FF Richard Stebbing");
             }
+        }
+
+        private void appTotal_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 

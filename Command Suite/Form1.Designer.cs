@@ -601,7 +601,6 @@
             this.pictureBox53 = new System.Windows.Forms.PictureBox();
             this.label429 = new System.Windows.Forms.Label();
             this.pictureBox52 = new System.Windows.Forms.PictureBox();
-            this.label428 = new System.Windows.Forms.Label();
             this.label427 = new System.Windows.Forms.Label();
             this.label416 = new System.Windows.Forms.Label();
             this.textBox164 = new System.Windows.Forms.TextBox();
@@ -918,6 +917,20 @@
             this.textBox190 = new System.Windows.Forms.TextBox();
             this.textBox191 = new System.Windows.Forms.TextBox();
             this.textBox192 = new System.Windows.Forms.TextBox();
+            this.textBox195 = new System.Windows.Forms.TextBox();
+            this.textBox196 = new System.Windows.Forms.TextBox();
+            this.textBox197 = new System.Windows.Forms.TextBox();
+            this.textBox198 = new System.Windows.Forms.TextBox();
+            this.textBox199 = new System.Windows.Forms.TextBox();
+            this.textBox200 = new System.Windows.Forms.TextBox();
+            this.textBox201 = new System.Windows.Forms.TextBox();
+            this.textBox202 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox204 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.otbcalculation = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -993,6 +1006,7 @@
             this.tabControl1.Controls.Add(this.otheragencies);
             this.tabControl1.Controls.Add(this.methane);
             this.tabControl1.Controls.Add(this.Calculations);
+            this.tabControl1.Controls.Add(this.otbcalculation);
             this.tabControl1.Location = new System.Drawing.Point(12, 31);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -7304,6 +7318,19 @@
             // 
             // Calculations
             // 
+            this.Calculations.Controls.Add(this.label33);
+            this.Calculations.Controls.Add(this.textBox204);
+            this.Calculations.Controls.Add(this.label32);
+            this.Calculations.Controls.Add(this.label31);
+            this.Calculations.Controls.Add(this.label30);
+            this.Calculations.Controls.Add(this.textBox195);
+            this.Calculations.Controls.Add(this.textBox196);
+            this.Calculations.Controls.Add(this.textBox197);
+            this.Calculations.Controls.Add(this.textBox198);
+            this.Calculations.Controls.Add(this.textBox199);
+            this.Calculations.Controls.Add(this.textBox200);
+            this.Calculations.Controls.Add(this.textBox201);
+            this.Calculations.Controls.Add(this.textBox202);
             this.Calculations.Controls.Add(this.textBox189);
             this.Calculations.Controls.Add(this.textBox190);
             this.Calculations.Controls.Add(this.textBox191);
@@ -7327,7 +7354,6 @@
             this.Calculations.Controls.Add(this.pictureBox53);
             this.Calculations.Controls.Add(this.label429);
             this.Calculations.Controls.Add(this.pictureBox52);
-            this.Calculations.Controls.Add(this.label428);
             this.Calculations.Controls.Add(this.label427);
             this.Calculations.Controls.Add(this.label416);
             this.Calculations.Controls.Add(this.textBox164);
@@ -7716,17 +7742,6 @@
             this.pictureBox52.TabIndex = 520;
             this.pictureBox52.TabStop = false;
             // 
-            // label428
-            // 
-            this.label428.AutoSize = true;
-            this.label428.BackColor = System.Drawing.Color.White;
-            this.label428.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label428.Location = new System.Drawing.Point(561, 440);
-            this.label428.Name = "label428";
-            this.label428.Size = new System.Drawing.Size(145, 20);
-            this.label428.TabIndex = 519;
-            this.label428.Text = "OTB Appliances";
-            // 
             // label427
             // 
             this.label427.AutoSize = true;
@@ -7734,9 +7749,9 @@
             this.label427.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label427.Location = new System.Drawing.Point(503, 10);
             this.label427.Name = "label427";
-            this.label427.Size = new System.Drawing.Size(156, 20);
+            this.label427.Size = new System.Drawing.Size(168, 20);
             this.label427.TabIndex = 518;
-            this.label427.Text = "CFRS Appliances";
+            this.label427.Text = "CFRS Calculations";
             // 
             // label416
             // 
@@ -10356,10 +10371,10 @@
             // 
             // pictureBox43
             // 
-            this.pictureBox43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.pictureBox43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.pictureBox43.Location = new System.Drawing.Point(232, 335);
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(230, 102);
+            this.pictureBox43.Size = new System.Drawing.Size(276, 143);
             this.pictureBox43.TabIndex = 559;
             this.pictureBox43.TabStop = false;
             // 
@@ -10376,10 +10391,11 @@
             // 
             // appTotal
             // 
-            this.appTotal.Location = new System.Drawing.Point(293, 401);
+            this.appTotal.Location = new System.Drawing.Point(244, 438);
             this.appTotal.Name = "appTotal";
-            this.appTotal.Size = new System.Drawing.Size(100, 22);
+            this.appTotal.Size = new System.Drawing.Size(52, 22);
             this.appTotal.TabIndex = 561;
+            this.appTotal.TextChanged += new System.EventHandler(this.appTotal_TextChanged);
             // 
             // textBox185
             // 
@@ -10436,6 +10452,122 @@
             this.textBox192.Name = "textBox192";
             this.textBox192.Size = new System.Drawing.Size(23, 22);
             this.textBox192.TabIndex = 566;
+            // 
+            // textBox195
+            // 
+            this.textBox195.Location = new System.Drawing.Point(434, 398);
+            this.textBox195.Name = "textBox195";
+            this.textBox195.Size = new System.Drawing.Size(23, 22);
+            this.textBox195.TabIndex = 577;
+            // 
+            // textBox196
+            // 
+            this.textBox196.Location = new System.Drawing.Point(405, 398);
+            this.textBox196.Name = "textBox196";
+            this.textBox196.Size = new System.Drawing.Size(23, 22);
+            this.textBox196.TabIndex = 576;
+            // 
+            // textBox197
+            // 
+            this.textBox197.Location = new System.Drawing.Point(380, 398);
+            this.textBox197.Name = "textBox197";
+            this.textBox197.Size = new System.Drawing.Size(23, 22);
+            this.textBox197.TabIndex = 575;
+            // 
+            // textBox198
+            // 
+            this.textBox198.Location = new System.Drawing.Point(351, 398);
+            this.textBox198.Name = "textBox198";
+            this.textBox198.Size = new System.Drawing.Size(23, 22);
+            this.textBox198.TabIndex = 574;
+            // 
+            // textBox199
+            // 
+            this.textBox199.Location = new System.Drawing.Point(322, 398);
+            this.textBox199.Name = "textBox199";
+            this.textBox199.Size = new System.Drawing.Size(23, 22);
+            this.textBox199.TabIndex = 573;
+            // 
+            // textBox200
+            // 
+            this.textBox200.Location = new System.Drawing.Point(293, 398);
+            this.textBox200.Name = "textBox200";
+            this.textBox200.Size = new System.Drawing.Size(23, 22);
+            this.textBox200.TabIndex = 572;
+            // 
+            // textBox201
+            // 
+            this.textBox201.Location = new System.Drawing.Point(268, 398);
+            this.textBox201.Name = "textBox201";
+            this.textBox201.Size = new System.Drawing.Size(23, 22);
+            this.textBox201.TabIndex = 571;
+            // 
+            // textBox202
+            // 
+            this.textBox202.Location = new System.Drawing.Point(239, 398);
+            this.textBox202.Name = "textBox202";
+            this.textBox202.Size = new System.Drawing.Size(23, 22);
+            this.textBox202.TabIndex = 570;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(463, 373);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(24, 20);
+            this.label30.TabIndex = 578;
+            this.label30.Text = "in";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(463, 398);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(35, 20);
+            this.label31.TabIndex = 579;
+            this.label31.Text = "out";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Location = new System.Drawing.Point(298, 438);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(24, 20);
+            this.label32.TabIndex = 580;
+            this.label32.Text = "in";
+            // 
+            // textBox204
+            // 
+            this.textBox204.Location = new System.Drawing.Point(333, 440);
+            this.textBox204.Name = "textBox204";
+            this.textBox204.Size = new System.Drawing.Size(52, 22);
+            this.textBox204.TabIndex = 581;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(398, 438);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(35, 20);
+            this.label33.TabIndex = 582;
+            this.label33.Text = "out";
+            // 
+            // otbcalculation
+            // 
+            this.otbcalculation.Location = new System.Drawing.Point(4, 25);
+            this.otbcalculation.Name = "otbcalculation";
+            this.otbcalculation.Size = new System.Drawing.Size(1267, 703);
+            this.otbcalculation.TabIndex = 9;
+            this.otbcalculation.Text = "otbCalculations";
+            this.otbcalculation.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -11196,7 +11328,6 @@
         private System.Windows.Forms.PictureBox pictureBox53;
         private System.Windows.Forms.Label label429;
         private System.Windows.Forms.PictureBox pictureBox52;
-        private System.Windows.Forms.Label label428;
         private System.Windows.Forms.Label label427;
         private System.Windows.Forms.Label label416;
         private System.Windows.Forms.TextBox textBox164;
@@ -11440,6 +11571,20 @@
         private System.Windows.Forms.TextBox appTotal;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.PictureBox pictureBox43;
+        private System.Windows.Forms.TextBox textBox195;
+        private System.Windows.Forms.TextBox textBox196;
+        private System.Windows.Forms.TextBox textBox197;
+        private System.Windows.Forms.TextBox textBox198;
+        private System.Windows.Forms.TextBox textBox199;
+        private System.Windows.Forms.TextBox textBox200;
+        private System.Windows.Forms.TextBox textBox201;
+        private System.Windows.Forms.TextBox textBox202;
+        private System.Windows.Forms.TextBox textBox204;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TabPage otbcalculation;
     }
 }
 
