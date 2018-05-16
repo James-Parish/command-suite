@@ -270,7 +270,7 @@ namespace Command_Suite
 
             datenow.Text = DateTime.Now.ToString("dd/MM/yyy");
 
-
+            incTime.Text = DateTime.Now.ToString("HH:mm");
 
 
             // this will make the program go full screen on the device.
