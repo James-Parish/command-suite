@@ -222,8 +222,160 @@ namespace Command_Suite
             textBox10.Text = "0";
             textBox11.Text = "0";
             textBox12.Text = "0";
+// appliance 3
+            textBox59.Text = "0";
+            textBox60.Text = "0";
+            textBox61.Text = "0";
+            textBox62.Text = "0";
+            textBox63.Text = "0";
+            textBox64.Text = "0";
+            textBox65.Text = "0";
+            textBox66.Text = "0";
+            textBox67.Text = "0";
+            textBox68.Text = "0";
+            textBox69.Text = "0";
+            textBox70.Text = "0";
+            textBox71.Text = "0";
+            textBox72.Text = "0";
+            textBox73.Text = "0";
+            textBox74.Text = "0";
+            textBox75.Text = "0";
+            textBox76.Text = "0";
+            textBox77.Text = "0";
+            textBox78.Text = "0";
+            textBox79.Text = "0";
+// appliance 4
+            textBox80.Text = "0";
+            textBox81.Text = "0";
+            textBox82.Text = "0";
+            textBox83.Text = "0";
+            textBox84.Text = "0";
+            textBox85.Text = "0";
+            textBox86.Text = "0";
+            textBox87.Text = "0";
+            textBox88.Text = "0";
+            textBox89.Text = "0";
+            textBox90.Text = "0";
+            textBox91.Text = "0";
+            textBox92.Text = "0";
+            textBox93.Text = "0";
+            textBox94.Text = "0";
+            textBox95.Text = "0";
+            textBox96.Text = "0";
+            textBox97.Text = "0";
+            textBox98.Text = "0";
+            textBox99.Text = "0";
+            textBox100.Text = "0";
+// appliance 5
+            textBox101.Text = "0";
+            textBox102.Text = "0";
+            textBox103.Text = "0";
+            textBox104.Text = "0";
+            textBox105.Text = "0";
+            textBox106.Text = "0";
+            textBox107.Text = "0";
+            textBox108.Text = "0";
+            textBox109.Text = "0";
+            textBox110.Text = "0";
+            textBox111.Text = "0";
+            textBox112.Text = "0";
+            textBox113.Text = "0";
+            textBox114.Text = "0";
+            textBox115.Text = "0";
+            textBox116.Text = "0";
+            textBox117.Text = "0";
+            textBox118.Text = "0";
+            textBox119.Text = "0";
+            textBox120.Text = "0";
+            textBox121.Text = "0";
+ // appliance 6
+            textBox122.Text = "0";
+            textBox123.Text = "0";
+            textBox124.Text = "0";
+            textBox125.Text = "0";
+            textBox126.Text = "0";
+            textBox127.Text = "0";
+            textBox128.Text = "0";
+            textBox129.Text = "0";
+            textBox130.Text = "0";
+            textBox131.Text = "0";
+            textBox132.Text = "0";
+            textBox133.Text = "0";
+            textBox134.Text = "0";
+            textBox135.Text = "0";
+            textBox136.Text = "0";
+            textBox137.Text = "0";
+            textBox138.Text = "0";
+            textBox139.Text = "0";
+            textBox140.Text = "0";
+            textBox141.Text = "0";
+            textBox142.Text = "0";
+// appliance 7
+            textBox143.Text = "0";
+            textBox144.Text = "0";
+            textBox145.Text = "0";
+            textBox146.Text = "0";
+            textBox147.Text = "0";
+            textBox148.Text = "0";
+            textBox149.Text = "0";
+            textBox150.Text = "0";
+            textBox151.Text = "0";
+            textBox152.Text = "0";
+            textBox153.Text = "0";
+            textBox154.Text = "0";
+            textBox155.Text = "0";
+            textBox156.Text = "0";
+            textBox157.Text = "0";
+            textBox158.Text = "0";
+            textBox159.Text = "0";
+            textBox160.Text = "0";
+            textBox161.Text = "0";
+            textBox162.Text = "0";
+            textBox163.Text = "0";
+// appliance 8
+            textBox164.Text = "0";
+            textBox165.Text = "0";
+            textBox166.Text = "0";
+            textBox167.Text = "0";
+            textBox168.Text = "0";
+            textBox169.Text = "0";
+            textBox170.Text = "0";
+            textBox171.Text = "0";
+            textBox172.Text = "0";
+            textBox173.Text = "0";
+            textBox174.Text = "0";
+            textBox175.Text = "0";
+            textBox176.Text = "0";
+            textBox177.Text = "0";
+            textBox178.Text = "0";
+            textBox179.Text = "0";
+            textBox180.Text = "0";
+            textBox181.Text = "0";
+            textBox182.Text = "0";
+            textBox183.Text = "0";
+            textBox184.Text = "0";
+            // other agencies
+            textBox440.Text = "0";
+            textBox439.Text = "0";
+            textBox438.Text = "0";
+            textBox437.Text = "0";
+            textBox436.Text = "0";
+            textBox435.Text = "0";
+            textBox434.Text = "0";
+            textBox433.Text = "0";
+            textBox432.Text = "0";
+            textBox442.Text = "0";
+            textBox431.Text = "0";
+            textBox430.Text = "0";
+            textBox429.Text = "0";
+            textBox428.Text = "0";
+            textBox427.Text = "0";
+            textBox426.Text = "0";
+            textBox425.Text = "0";
+            textBox424.Text = "0";
+            textBox423.Text = "0";
+            textBox441.Text = "0"; 
 
-           
 
 
 
@@ -354,6 +506,199 @@ namespace Command_Suite
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // other agency calculations
+            //in
+            // officers calculations
+            //in
+
+            if (string.IsNullOrWhiteSpace(textBox411.Text))
+            {
+                textBox440.Text = "0";
+            }
+            else
+            {
+                textBox440.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox407.Text))
+            {
+                textBox439.Text = "0";
+            }
+            else
+            {
+                textBox439.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox403.Text))
+            {
+                textBox438.Text = "0";
+            }
+            else
+            {
+                textBox438.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox399.Text))
+            {
+                textBox437.Text = "0";
+            }
+            else
+            {
+                textBox437.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox395.Text))
+            {
+                textBox436.Text = "0";
+            }
+            else
+            {
+                textBox436.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox391.Text))
+            {
+                textBox435.Text = "0";
+            }
+            else
+            {
+                textBox435.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox387.Text))
+            {
+                textBox434.Text = "0";
+            }
+            else
+            {
+                textBox434.Text = "1";
+            }
+           
+            if (string.IsNullOrWhiteSpace(textBox383.Text))
+            {
+                textBox433.Text = "0";
+            }
+            else
+            {
+                textBox433.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox379.Text))
+            {
+                textBox432.Text = "0";
+            }
+            else
+            {
+                textBox432.Text = "1";
+            }
+
+
+            int oa1 = Int32.Parse(textBox440.Text);
+            int oa2 = Int32.Parse(textBox439.Text);
+            int oa3 = Int32.Parse(textBox438.Text);
+            int oa4 = Int32.Parse(textBox437.Text);
+            int oa5 = Int32.Parse(textBox436.Text);
+            int oa6 = Int32.Parse(textBox435.Text);
+            int oa7 = Int32.Parse(textBox434.Text);
+            int oa8 = Int32.Parse(textBox433.Text);
+            int oa9 = Int32.Parse(textBox432.Text);
+
+            textBox442.Text = (oa1 + oa2 + oa3 + oa4 + oa5 + oa6 + oa7 + oa8 + oa9).ToString();
+            oaQTY.Text = textBox442.Text;
+
+
+            // other agency calculations
+            //out
+            // officers calculations
+            //out
+
+            if (string.IsNullOrWhiteSpace(textBox410.Text))
+            {
+                textBox431.Text = "0";
+            }
+            else
+            {
+                textBox431.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox406.Text))
+            {
+                textBox430.Text = "0";
+            }
+            else
+            {
+                textBox430.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox402.Text))
+            {
+                textBox429.Text = "0";
+            }
+            else
+            {
+                textBox429.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox398.Text))
+            {
+                textBox428.Text = "0";
+            }
+            else
+            {
+                textBox428.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox394.Text))
+            {
+                textBox427.Text = "0";
+            }
+            else
+            {
+                textBox427.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox390.Text))
+            {
+                textBox426.Text = "0";
+            }
+            else
+            {
+                textBox426.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox386.Text))
+            {
+                textBox425.Text = "0";
+            }
+            else
+            {
+                textBox425.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox382.Text))
+            {
+                textBox424.Text = "0";
+            }
+            else
+            {
+                textBox424.Text = "1";
+            }
+            if (string.IsNullOrWhiteSpace(textBox378.Text))
+            {
+                textBox423.Text = "0";
+            }
+            else
+            {
+                textBox423.Text = "1";
+            }
+            
+
+       
+
+            int oa10 = Int32.Parse(textBox431.Text);
+            int oa11 = Int32.Parse(textBox430.Text);
+            int oa12 = Int32.Parse(textBox429.Text);
+            int oa13 = Int32.Parse(textBox428.Text);
+            int oa14 = Int32.Parse(textBox427.Text);
+            int oa15 = Int32.Parse(textBox426.Text);
+            int oa16 = Int32.Parse(textBox425.Text);
+            int oa17 = Int32.Parse(textBox424.Text);
+            int oa18 = Int32.Parse(textBox423.Text);
+
+            textBox441.Text = (oa10 + oa11 + oa12 + oa13 + oa14 + oa15 + oa16 + oa17 + oa18).ToString();
+          
+
+
+
+
+
+
             // officers calculations
             //in
 
@@ -707,8 +1052,56 @@ namespace Command_Suite
             int officerOut = Int32.Parse(textBox242.Text);
             int officerin = Int32.Parse(textBox241.Text);
 
+            int app1FF = Int32.Parse(textBox9.Text);
+            int app2FF = Int32.Parse(textBox12.Text);
+            int app3FF = Int32.Parse(textBox61.Text);
+            int app4FF = Int32.Parse(textBox82.Text);
+            int app5FF = Int32.Parse(textBox103.Text);
+            int app6FF = Int32.Parse(textBox124.Text);
+            int app7FF = Int32.Parse(textBox145.Text);
+            int app8FF = Int32.Parse(textBox166.Text);
+
+            int app1cc = Int32.Parse(textBox8.Text);
+            int app2cc = Int32.Parse(textBox11.Text);
+            int app3cc = Int32.Parse(textBox60.Text);
+            int app4cc = Int32.Parse(textBox81.Text);
+            int app5cc = Int32.Parse(textBox102.Text);
+            int app6cc = Int32.Parse(textBox123.Text);
+            int app7cc = Int32.Parse(textBox144.Text);
+            int app8cc = Int32.Parse(textBox165.Text);
+
+            int app1wc = Int32.Parse(textBox7.Text);
+            int app2wc = Int32.Parse(textBox10.Text);
+            int app3wc = Int32.Parse(textBox59.Text);
+            int app4wc = Int32.Parse(textBox80.Text);
+            int app5wc = Int32.Parse(textBox101.Text);
+            int app6wc = Int32.Parse(textBox122.Text);
+            int app7wc = Int32.Parse(textBox143.Text);
+            int app8wc = Int32.Parse(textBox164.Text);
+
+            int csin = Int32.Parse(textBox241.Text);
+            int csout = Int32.Parse(textBox242.Text);
+            //cfrs personnel
+            int cfrsff = Int32.Parse(ffQTY.Text);
+            int cfrscc = Int32.Parse(CCQTY.Text);
+            int cfrswc = Int32.Parse(wcQTY.Text);
+            //other agencies
+            int oain = Int32.Parse(textBox442.Text);
+            int oaout = Int32.Parse(textBox441.Text);
+
+            //CFRS TOTALS
+            ffQTY.Text = (app1FF + app2FF + app3FF + app4FF + app5FF + app6FF + app7FF + app8FF).ToString();
+            CCQTY.Text = (app1cc + app2cc + app3cc + app4cc + app5cc + app6cc + app7cc + app8cc).ToString();
+            wcQTY.Text = (app1wc + app2wc + app3wc + app4wc + app5wc + app6wc + app7wc + app8wc).ToString();
+
+            commandSupQTY.Text = (csin).ToString();
+
+            //LIVE TOTALS
             liveTotalFAppliances.Text = (appliancetotals - applianceout).ToString();
-            liveTotalFPersonnel.Text = (officerin - officerOut).ToString();
+            liveTotalFPersonnel.Text = (officerin - officerOut + cfrsff + cfrscc + cfrswc).ToString();
+            liveTotalOtherAgencies.Text = (oain - oaout).ToString();
+          
+            
 
             //
             //
@@ -1036,7 +1429,976 @@ namespace Command_Suite
 
 
             // ---------------------------------------------------------------------------------------
+            // CFRS appliance 3 calculations.
+            //oic
+            if (app3oic.Text.Contains("FF") == true)
+            {
+                textBox79.Text = "1";
+                textBox73.Text = "0";
+                textBox67.Text = "0";
 
+            }
+            else if (app3oic.Text.Contains("CC") == true)
+            {
+                textBox73.Text = "1";
+                textBox79.Text = "0";
+                textBox67.Text = "0";
+
+            }
+            else if (app3oic.Text.Contains("WC") == true)
+            {
+                textBox67.Text = "1";
+                textBox73.Text = "0";
+                textBox79.Text = "0";
+
+            }
+            //driver
+            if (app3driver.Text.Contains("FF") == true)
+            {
+                textBox78.Text = "1";
+                textBox72.Text = "0";
+                textBox66.Text = "0";
+
+            }
+            else if (app3driver.Text.Contains("CC") == true)
+            {
+                textBox72.Text = "1";
+                textBox78.Text = "0";
+                textBox66.Text = "0";
+
+            }
+            else if (app3driver.Text.Contains("WC") == true)
+            {
+                textBox66.Text = "1";
+                textBox78.Text = "0";
+                textBox72.Text = "0";
+
+
+            }
+            //ba1
+            if (app3ba1.Text.Contains("FF") == true)
+            {
+                textBox77.Text = "1";
+                textBox71.Text = "0";
+                textBox65.Text = "0";
+
+            }
+            else if (app3ba1.Text.Contains("CC") == true)
+            {
+                textBox71.Text = "1";
+                textBox77.Text = "0";
+                textBox65.Text = "0";
+
+            }
+            else if (app3ba1.Text.Contains("WC") == true)
+            {
+                textBox65.Text = "1";
+                textBox71.Text = "0";
+                textBox77.Text = "0";
+
+            }
+            //ba2
+            if (app3ba2.Text.Contains("FF") == true)
+            {
+                textBox76.Text = "1";
+                textBox70.Text = "0";
+                textBox64.Text = "0";
+
+            }
+            else if (app3ba2.Text.Contains("CC") == true)
+            {
+                textBox70.Text = "1";
+                textBox76.Text = "0";
+                textBox64.Text = "0";
+
+            }
+            else if (app3ba2.Text.Contains("WC") == true)
+            {
+                textBox64.Text = "1";
+                textBox70.Text = "0";
+                textBox76.Text = "0";
+
+            }
+            //eco
+            if (app3eco.Text.Contains("FF") == true)
+            {
+                textBox75.Text = "1";
+                textBox69.Text = "0";
+                textBox63.Text = "0";
+
+            }
+            else if (app3eco.Text.Contains("CC") == true)
+            {
+                textBox69.Text = "1";
+                textBox75.Text = "0";
+                textBox63.Text = "0";
+
+            }
+            else if (app3eco.Text.Contains("WC") == true)
+            {
+                textBox63.Text = "1";
+                textBox69.Text = "0";
+                textBox75.Text = "0";
+
+            }
+            //6
+            if (app36.Text.Contains("FF") == true)
+            {
+                textBox74.Text = "1";
+                textBox68.Text = "0";
+                textBox62.Text = "0";
+
+            }
+            else if (app36.Text.Contains("CC") == true)
+            {
+                textBox68.Text = "1";
+                textBox74.Text = "0";
+                textBox62.Text = "0";
+
+            }
+            else if (app36.Text.Contains("WC") == true)
+            {
+                textBox62.Text = "1";
+                textBox68.Text = "0";
+                textBox74.Text = "0";
+
+            }
+            // -- additions
+            int oic3ff = Int32.Parse(textBox79.Text);
+            int driver3ff = Int32.Parse(textBox78.Text);
+            int ba13ff = Int32.Parse(textBox77.Text);
+            int ba23ff = Int32.Parse(textBox76.Text);
+            int eco3ff = Int32.Parse(textBox75.Text);
+            int pos3ff = Int32.Parse(textBox74.Text);
+            int oic3cc = Int32.Parse(textBox73.Text);
+            int driver3cc = Int32.Parse(textBox72.Text);
+            int ba13cc = Int32.Parse(textBox71.Text);
+            int ba23cc = Int32.Parse(textBox70.Text);
+            int eco3cc = Int32.Parse(textBox69.Text);
+            int pos3cc = Int32.Parse(textBox68.Text);
+            int oic3wc = Int32.Parse(textBox67.Text);
+            int driver3wc = Int32.Parse(textBox66.Text);
+            int ba13wc = Int32.Parse(textBox65.Text);
+            int ba23wc = Int32.Parse(textBox64.Text);
+            int eco3wc = Int32.Parse(textBox63.Text);
+            int pos3wc = Int32.Parse(textBox62.Text);
+
+            textBox61.Text = (oic3ff + driver3ff + ba13ff + ba23ff + eco3ff + pos3ff).ToString();
+            textBox60.Text = (oic3cc + driver3cc + ba13cc + ba23cc + eco3cc + pos3cc).ToString();
+            textBox59.Text = (oic3wc + driver3wc + ba13wc + ba23wc + eco3wc + pos3wc).ToString();
+
+
+            // ---------------------------------------------------------------------------------------
+
+            // CFRS appliance 4 calculations.
+            //oic
+            if (app4oic.Text.Contains("FF") == true)
+            {
+                textBox100.Text = "1";
+                textBox94.Text = "0";
+                textBox88.Text = "0";
+
+            }
+            else if (app4oic.Text.Contains("CC") == true)
+            {
+                textBox94.Text = "1";
+                textBox100.Text = "0";
+                textBox88.Text = "0";
+
+            }
+            else if (app4oic.Text.Contains("WC") == true)
+            {
+                textBox88.Text = "1";
+                textBox94.Text = "0";
+                textBox100.Text = "0";
+
+            }
+            //driver
+            if (app4driver.Text.Contains("FF") == true)
+            {
+                textBox99.Text = "1";
+                textBox93.Text = "0";
+                textBox87.Text = "0";
+
+            }
+            else if (app4driver.Text.Contains("CC") == true)
+            {
+                textBox93.Text = "1";
+                textBox99.Text = "0";
+                textBox87.Text = "0";
+
+            }
+            else if (app4driver.Text.Contains("WC") == true)
+            {
+                textBox87.Text = "1";
+                textBox93.Text = "0";
+                textBox99.Text = "0";
+
+
+            }
+            //ba1
+            if (app4ba1.Text.Contains("FF") == true)
+            {
+                textBox98.Text = "1";
+                textBox92.Text = "0";
+                textBox86.Text = "0";
+
+            }
+            else if (app4ba1.Text.Contains("CC") == true)
+            {
+                textBox92.Text = "1";
+                textBox98.Text = "0";
+                textBox86.Text = "0";
+
+            }
+            else if (app4ba1.Text.Contains("WC") == true)
+            {
+                textBox86.Text = "1";
+                textBox92.Text = "0";
+                textBox98.Text = "0";
+
+            }
+            //ba2
+            if (app4ba2.Text.Contains("FF") == true)
+            {
+                textBox97.Text = "1";
+                textBox91.Text = "0";
+                textBox85.Text = "0";
+
+            }
+            else if (app4ba2.Text.Contains("CC") == true)
+            {
+                textBox91.Text = "1";
+                textBox97.Text = "0";
+                textBox85.Text = "0";
+
+            }
+            else if (app4ba2.Text.Contains("WC") == true)
+            {
+                textBox85.Text = "1";
+                textBox91.Text = "0";
+                textBox97.Text = "0";
+
+            }
+            //eco
+            if (app4eco.Text.Contains("FF") == true)
+            {
+                textBox96.Text = "1";
+                textBox90.Text = "0";
+                textBox84.Text = "0";
+
+            }
+            else if (app4eco.Text.Contains("CC") == true)
+            {
+                textBox90.Text = "1";
+                textBox96.Text = "0";
+                textBox84.Text = "0";
+
+            }
+            else if (app4eco.Text.Contains("WC") == true)
+            {
+                textBox84.Text = "1";
+                textBox90.Text = "0";
+                textBox96.Text = "0";
+
+            }
+            //6
+            if (app46.Text.Contains("FF") == true)
+            {
+                textBox95.Text = "1";
+                textBox89.Text = "0";
+                textBox83.Text = "0";
+
+            }
+            else if (app46.Text.Contains("CC") == true)
+            {
+                textBox89.Text = "1";
+                textBox95.Text = "0";
+                textBox83.Text = "0";
+
+            }
+            else if (app46.Text.Contains("WC") == true)
+            {
+                textBox83.Text = "1";
+                textBox95.Text = "0";
+                textBox89.Text = "0";
+
+            }
+            // -- additions
+            int oic4ff = Int32.Parse(textBox100.Text);
+            int driver4ff = Int32.Parse(textBox99.Text);
+            int ba14ff = Int32.Parse(textBox98.Text);
+            int ba24ff = Int32.Parse(textBox97.Text);
+            int eco4ff = Int32.Parse(textBox96.Text);
+            int pos4ff = Int32.Parse(textBox95.Text);
+            int oic4cc = Int32.Parse(textBox94.Text);
+            int driver4cc = Int32.Parse(textBox93.Text);
+            int ba14cc = Int32.Parse(textBox92.Text);
+            int ba24cc = Int32.Parse(textBox91.Text);
+            int eco4cc = Int32.Parse(textBox90.Text);
+            int pos4cc = Int32.Parse(textBox89.Text);
+            int oic4wc = Int32.Parse(textBox88.Text);
+            int driver4wc = Int32.Parse(textBox87.Text);
+            int ba14wc = Int32.Parse(textBox86.Text);
+            int ba24wc = Int32.Parse(textBox85.Text);
+            int eco4wc = Int32.Parse(textBox84.Text);
+            int pos4wc = Int32.Parse(textBox83.Text);
+
+            textBox82.Text = (oic4ff + driver4ff + ba14ff + ba24ff + eco4ff + pos4ff).ToString();
+            textBox81.Text = (oic4cc + driver4cc + ba14cc + ba24cc + eco4cc + pos4cc).ToString();
+            textBox80.Text = (oic4wc + driver4wc + ba14wc + ba24wc + eco4wc + pos4wc).ToString();
+
+
+            // ---------------------------------------------------------------------------------------
+
+            // CFRS appliance 5 calculations.
+            //oic
+            if (app5oic.Text.Contains("FF") == true)
+            {
+                textBox121.Text = "1";
+                textBox115.Text = "0";
+                textBox109.Text = "0";
+
+            }
+            else if (app5oic.Text.Contains("CC") == true)
+            {
+                textBox115.Text = "1";
+                textBox121.Text = "0";
+                textBox109.Text = "0";
+
+            }
+            else if (app5oic.Text.Contains("WC") == true)
+            {
+                textBox109.Text = "1";
+                textBox115.Text = "0";
+                textBox121.Text = "0";
+
+            }
+            //driver
+            if (app5driver.Text.Contains("FF") == true)
+            {
+                textBox120.Text = "1";
+                textBox114.Text = "0";
+                textBox108.Text = "0";
+
+            }
+            else if (app5driver.Text.Contains("CC") == true)
+            {
+                textBox114.Text = "1";
+                textBox120.Text = "0";
+                textBox108.Text = "0";
+
+            }
+            else if (app5driver.Text.Contains("WC") == true)
+            {
+                textBox108.Text = "1";
+                textBox114.Text = "0";
+                textBox120.Text = "0";
+
+
+            }
+            //ba1
+            if (app5ba1.Text.Contains("FF") == true)
+            {
+                textBox119.Text = "1";
+                textBox113.Text = "0";
+                textBox107.Text = "0";
+
+            }
+            else if (app5ba1.Text.Contains("CC") == true)
+            {
+                textBox113.Text = "1";
+                textBox119.Text = "0";
+                textBox107.Text = "0";
+
+            }
+            else if (app5ba1.Text.Contains("WC") == true)
+            {
+                textBox107.Text = "1";
+                textBox113.Text = "0";
+                textBox119.Text = "0";
+
+            }
+            //ba2
+            if (app5ba2.Text.Contains("FF") == true)
+            {
+                textBox118.Text = "1";
+                textBox112.Text = "0";
+                textBox106.Text = "0";
+
+            }
+            else if (app5ba2.Text.Contains("CC") == true)
+            {
+                textBox112.Text = "1";
+                textBox118.Text = "0";
+                textBox106.Text = "0";
+
+            }
+            else if (app5ba2.Text.Contains("WC") == true)
+            {
+                textBox106.Text = "1";
+                textBox112.Text = "0";
+                textBox118.Text = "0";
+
+            }
+            //eco
+            if (app5eco.Text.Contains("FF") == true)
+            {
+                textBox117.Text = "1";
+                textBox111.Text = "0";
+                textBox105.Text = "0";
+
+            }
+            else if (app5eco.Text.Contains("CC") == true)
+            {
+                textBox111.Text = "1";
+                textBox117.Text = "0";
+                textBox105.Text = "0";
+
+            }
+            else if (app5eco.Text.Contains("WC") == true)
+            {
+                textBox105.Text = "1";
+                textBox111.Text = "0";
+                textBox117.Text = "0";
+
+            }
+            //6
+            if (app56.Text.Contains("FF") == true)
+            {
+                textBox116.Text = "1";
+                textBox110.Text = "0";
+                textBox104.Text = "0";
+            
+            }
+            else if (app56.Text.Contains("CC") == true)
+            {
+                textBox110.Text = "1";
+                textBox116.Text = "0";
+                textBox104.Text = "0";
+
+            }
+            else if (app56.Text.Contains("WC") == true)
+            {
+                textBox104.Text = "1";
+                textBox116.Text = "0";
+                textBox110.Text = "0";
+
+            }
+            // -- additions
+            int oic5ff = Int32.Parse(textBox121.Text);
+            int driver5ff = Int32.Parse(textBox120.Text);
+            int ba15ff = Int32.Parse(textBox119.Text);
+            int ba25ff = Int32.Parse(textBox118.Text);
+            int eco5ff = Int32.Parse(textBox117.Text);
+            int pos5ff = Int32.Parse(textBox116.Text);
+            int oic5cc = Int32.Parse(textBox115.Text);
+            int driver5cc = Int32.Parse(textBox114.Text);
+            int ba15cc = Int32.Parse(textBox113.Text);
+            int ba25cc = Int32.Parse(textBox112.Text);
+            int eco5cc = Int32.Parse(textBox111.Text);
+            int pos5cc = Int32.Parse(textBox110.Text);
+            int oic5wc = Int32.Parse(textBox109.Text);
+            int driver5wc = Int32.Parse(textBox108.Text);
+            int ba15wc = Int32.Parse(textBox107.Text);
+            int ba25wc = Int32.Parse(textBox106.Text);
+            int eco5wc = Int32.Parse(textBox105.Text);
+            int pos5wc = Int32.Parse(textBox104.Text);
+
+            textBox103.Text = (oic5ff + driver5ff + ba15ff + ba25ff + eco5ff + pos5ff).ToString();
+            textBox102.Text = (oic5cc + driver5cc + ba15cc + ba25cc + eco5cc + pos5cc).ToString();
+            textBox101.Text = (oic5wc + driver5wc + ba15wc + ba25wc + eco5wc + pos5wc).ToString();
+
+
+            // ---------------------------------------------------------------------------------------
+
+            // CFRS appliance 6 calculations.
+            //oic
+            if (app6oic.Text.Contains("FF") == true)
+            {
+                textBox142.Text = "1";
+                textBox136.Text = "0";
+                textBox130.Text = "0";
+
+            }
+            else if (app6oic.Text.Contains("CC") == true)
+            {
+                textBox136.Text = "1";
+                textBox142.Text = "0";
+                textBox130.Text = "0";
+
+            }
+            else if (app6oic.Text.Contains("WC") == true)
+            {
+                textBox130.Text = "1";
+                textBox136.Text = "0";
+                textBox142.Text = "0";
+
+            }
+            //driver
+            if (app6driver.Text.Contains("FF") == true)
+            {
+                textBox141.Text = "1";
+                textBox135.Text = "0";
+                textBox129.Text = "0";
+
+            }
+            else if (app6driver.Text.Contains("CC") == true)
+            {
+                textBox135.Text = "1";
+                textBox141.Text = "0";
+                textBox129.Text = "0";
+
+            }
+            else if (app6driver.Text.Contains("WC") == true)
+            {
+                textBox129.Text = "1";
+                textBox135.Text = "0";
+                textBox141.Text = "0";
+
+
+            }
+            //ba1
+            if (app6ba1.Text.Contains("FF") == true)
+            {
+                textBox140.Text = "1";
+                textBox134.Text = "0";
+                textBox128.Text = "0";
+
+            }
+            else if (app6ba1.Text.Contains("CC") == true)
+            {
+                textBox134.Text = "1";
+                textBox140.Text = "0";
+                textBox128.Text = "0";
+
+            }
+            else if (app6ba1.Text.Contains("WC") == true)
+            {
+                textBox128.Text = "1";
+                textBox134.Text = "0";
+                textBox140.Text = "0";
+
+            }
+            //ba2
+            if (app6ba2.Text.Contains("FF") == true)
+            {
+                textBox139.Text = "1";
+                textBox133.Text = "0";
+                textBox127.Text = "0";
+
+            }
+            else if (app6ba2.Text.Contains("CC") == true)
+            {
+                textBox133.Text = "1";
+                textBox139.Text = "0";
+                textBox127.Text = "0";
+
+            }
+            else if (app6ba2.Text.Contains("WC") == true)
+            {
+                textBox127.Text = "1";
+                textBox133.Text = "0";
+                textBox139.Text = "0";
+
+            }
+            //eco
+            if (app6eco.Text.Contains("FF") == true)
+            {
+                textBox138.Text = "1";
+                textBox132.Text = "0";
+                textBox126.Text = "0";
+
+            }
+            else if (app6eco.Text.Contains("CC") == true)
+            {
+                textBox132.Text = "1";
+                textBox138.Text = "0";
+                textBox126.Text = "0";
+
+            }
+            else if (app6eco.Text.Contains("WC") == true)
+            {
+                textBox126.Text = "1";
+                textBox132.Text = "0";
+                textBox138.Text = "0";
+
+            }
+            //6
+            if (app66.Text.Contains("FF") == true)
+            {
+                textBox137.Text = "1";
+                textBox131.Text = "0";
+                textBox125.Text = "0";
+
+            }
+            else if (app66.Text.Contains("CC") == true)
+            {
+                textBox131.Text = "1";
+                textBox137.Text = "0";
+                textBox125.Text = "0";
+
+            }
+            else if (app66.Text.Contains("WC") == true)
+            {
+                textBox125.Text = "1";
+                textBox137.Text = "0";
+                textBox131.Text = "0";
+
+            }
+            // -- additions
+            int oic6ff = Int32.Parse(textBox142.Text);
+            int driver6ff = Int32.Parse(textBox141.Text);
+            int ba16ff = Int32.Parse(textBox140.Text);
+            int ba26ff = Int32.Parse(textBox139.Text);
+            int eco6ff = Int32.Parse(textBox138.Text);
+            int pos6ff = Int32.Parse(textBox137.Text);
+            int oic6cc = Int32.Parse(textBox136.Text);
+            int driver6cc = Int32.Parse(textBox135.Text);
+            int ba16cc = Int32.Parse(textBox134.Text);
+            int ba26cc = Int32.Parse(textBox133.Text);
+            int eco6cc = Int32.Parse(textBox132.Text);
+            int pos6cc = Int32.Parse(textBox131.Text);
+            int oic6wc = Int32.Parse(textBox130.Text);
+            int driver6wc = Int32.Parse(textBox129.Text);
+            int ba16wc = Int32.Parse(textBox128.Text);
+            int ba26wc = Int32.Parse(textBox127.Text);
+            int eco6wc = Int32.Parse(textBox126.Text);
+            int pos6wc = Int32.Parse(textBox125.Text);
+
+            textBox124.Text = (oic6ff + driver6ff + ba16ff + ba26ff + eco6ff + pos6ff).ToString();
+            textBox123.Text = (oic6cc + driver6cc + ba16cc + ba26cc + eco6cc + pos6cc).ToString();
+            textBox122.Text = (oic6wc + driver6wc + ba16wc + ba26wc + eco6wc + pos6wc).ToString();
+
+
+            // ---------------------------------------------------------------------------------------
+
+            // CFRS appliance 7 calculations.
+            //oic
+            if (app7oic.Text.Contains("FF") == true)
+            {
+                textBox163.Text = "1";
+                textBox157.Text = "0";
+                textBox151.Text = "0";
+
+            }
+            else if (app7oic.Text.Contains("CC") == true)
+            {
+                textBox157.Text = "1";
+                textBox163.Text = "0";
+                textBox151.Text = "0";
+
+            }
+            else if (app7oic.Text.Contains("WC") == true)
+            {
+                textBox151.Text = "1";
+                textBox157.Text = "0";
+                textBox163.Text = "0";
+
+            }
+            //driver
+            if (app7driver.Text.Contains("FF") == true)
+            {
+                textBox162.Text = "1";
+                textBox156.Text = "0";
+                textBox150.Text = "0";
+
+            }
+            else if (app7driver.Text.Contains("CC") == true)
+            {
+                textBox156.Text = "1";
+                textBox150.Text = "0";
+                textBox162.Text = "0";
+
+            }
+            else if (app7driver.Text.Contains("WC") == true)
+            {
+                textBox150.Text = "1";
+                textBox156.Text = "0";
+                textBox162.Text = "0";
+
+
+            }
+            //ba1
+            if (app7ba1.Text.Contains("FF") == true)
+            {
+                textBox161.Text = "1";
+                textBox155.Text = "0";
+                textBox149.Text = "0";
+
+            }
+            else if (app7ba1.Text.Contains("CC") == true)
+            {
+                textBox155.Text = "1";
+                textBox161.Text = "0";
+                textBox149.Text = "0";
+
+            }
+            else if (app7ba1.Text.Contains("WC") == true)
+            {
+                textBox149.Text = "1";
+                textBox161.Text = "0";
+                textBox155.Text = "0";
+
+            }
+            //ba2
+            if (app7ba2.Text.Contains("FF") == true)
+            {
+                textBox160.Text = "1";
+                textBox154.Text = "0";
+                textBox148.Text = "0";
+
+            }
+            else if (app7ba2.Text.Contains("CC") == true)
+            {
+                textBox154.Text = "1";
+                textBox148.Text = "0";
+                textBox160.Text = "0";
+
+            }
+            else if (app7ba2.Text.Contains("WC") == true)
+            {
+                textBox148.Text = "1";
+                textBox154.Text = "0";
+                textBox160.Text = "0";
+
+            }
+            //eco
+            if (app7eco.Text.Contains("FF") == true)
+            {
+                textBox159.Text = "1";
+                textBox153.Text = "0";
+                textBox147.Text = "0";
+
+            }
+            else if (app7eco.Text.Contains("CC") == true)
+            {
+                textBox153.Text = "1";
+                textBox147.Text = "0";
+                textBox159.Text = "0";
+
+            }
+            else if (app7eco.Text.Contains("WC") == true)
+            {
+                textBox147.Text = "1";
+                textBox153.Text = "0";
+                textBox159.Text = "0";
+
+            }
+            //6
+            if (app76.Text.Contains("FF") == true)
+            {
+                textBox158.Text = "1";
+                textBox152.Text = "0";
+                textBox146.Text = "0";
+
+            }
+            else if (app76.Text.Contains("CC") == true)
+            {
+                textBox152.Text = "1";
+                textBox158.Text = "0";
+                textBox146.Text = "0";
+
+            }
+            else if (app76.Text.Contains("WC") == true)
+            {
+                textBox146.Text = "1";
+                textBox158.Text = "0";
+                textBox152.Text = "0";
+
+            }
+            // -- additions
+            int oic7ff = Int32.Parse(textBox163.Text);
+            int driver7ff = Int32.Parse(textBox162.Text);
+            int ba17ff = Int32.Parse(textBox161.Text);
+            int ba27ff = Int32.Parse(textBox160.Text);
+            int eco7ff = Int32.Parse(textBox159.Text);
+            int pos7ff = Int32.Parse(textBox158.Text);
+            int oic7cc = Int32.Parse(textBox157.Text);
+            int driver7cc = Int32.Parse(textBox156.Text);
+            int ba17cc = Int32.Parse(textBox155.Text);
+            int ba27cc = Int32.Parse(textBox154.Text);
+            int eco7cc = Int32.Parse(textBox153.Text);
+            int pos7cc = Int32.Parse(textBox152.Text);
+            int oic7wc = Int32.Parse(textBox151.Text);
+            int driver7wc = Int32.Parse(textBox150.Text);
+            int ba17wc = Int32.Parse(textBox149.Text);
+            int ba27wc = Int32.Parse(textBox148.Text);
+            int eco7wc = Int32.Parse(textBox147.Text);
+            int pos7wc = Int32.Parse(textBox146.Text);
+
+            textBox145.Text = (oic7ff + driver7ff + ba17ff + ba27ff + eco7ff + pos7ff).ToString();
+            textBox144.Text = (oic7cc + driver7cc + ba17cc + ba27cc + eco7cc + pos7cc).ToString();
+            textBox143.Text = (oic7wc + driver7wc + ba17wc + ba27wc + eco7wc + pos7wc).ToString();
+
+
+            // ---------------------------------------------------------------------------------------
+
+
+
+            // CFRS appliance 7 calculations.
+            //oic
+            if (app8oic.Text.Contains("FF") == true)
+            {
+                textBox184.Text = "1";
+                textBox178.Text = "0";
+                textBox172.Text = "0";
+
+            }
+            else if (app8oic.Text.Contains("CC") == true)
+            {
+                textBox178.Text = "1";
+                textBox172.Text = "0";
+                textBox184.Text = "0";
+
+            }
+            else if (app8oic.Text.Contains("WC") == true)
+            {
+                textBox172.Text = "1";
+                textBox178.Text = "0";
+                textBox184.Text = "0";
+
+            }
+            //driver
+            if (app8driver.Text.Contains("FF") == true)
+            {
+                textBox183.Text = "1";
+                textBox177.Text = "0";
+                textBox171.Text = "0";
+
+            }
+            else if (app8driver.Text.Contains("CC") == true)
+            {
+                textBox177.Text = "1";
+                textBox171.Text = "0";
+                textBox183.Text = "0";
+
+            }
+            else if (app8driver.Text.Contains("WC") == true)
+            {
+                textBox171.Text = "1";
+                textBox177.Text = "0";
+                textBox183.Text = "0";
+
+
+            }
+            //ba1
+            if (app8ba1.Text.Contains("FF") == true)
+            {
+                textBox182.Text = "1";
+                textBox176.Text = "0";
+                textBox170.Text = "0";
+
+            }
+            else if (app8ba1.Text.Contains("CC") == true)
+            {
+                textBox176.Text = "1";
+                textBox182.Text = "0";
+                textBox170.Text = "0";
+
+            }
+            else if (app8ba1.Text.Contains("WC") == true)
+            {
+                textBox170.Text = "1";
+                textBox176.Text = "0";
+                textBox182.Text = "0";
+
+            }
+            //ba2
+            if (app8ba2.Text.Contains("FF") == true)
+            {
+                textBox181.Text = "1";
+                textBox175.Text = "0";
+                textBox169.Text = "0";
+
+            }
+            else if (app8ba2.Text.Contains("CC") == true)
+            {
+                textBox175.Text = "1";
+                textBox181.Text = "0";
+                textBox169.Text = "0";
+
+            }
+            else if (app8ba2.Text.Contains("WC") == true)
+            {
+                textBox169.Text = "1";
+                textBox181.Text = "0";
+                textBox175.Text = "0";
+
+            }
+            //eco
+            if (app8eco.Text.Contains("FF") == true)
+            {
+                textBox180.Text = "1";
+                textBox174.Text = "0";
+                textBox168.Text = "0";
+
+            }
+            else if (app8eco.Text.Contains("CC") == true)
+            {
+                textBox174.Text = "1";
+                textBox180.Text = "0";
+                textBox168.Text = "0";
+
+            }
+            else if (app8eco.Text.Contains("WC") == true)
+            {
+                textBox168.Text = "1";
+                textBox174.Text = "0";
+                textBox180.Text = "0";
+
+            }
+            //6
+            if (app86.Text.Contains("FF") == true)
+            {
+                textBox179.Text = "1";
+                textBox173.Text = "0";
+                textBox167.Text = "0";
+
+            }
+            else if (app86.Text.Contains("CC") == true)
+            {
+                textBox173.Text = "1";
+                textBox179.Text = "0";
+                textBox167.Text = "0";
+
+            }
+            else if (app86.Text.Contains("WC") == true)
+            {
+                textBox167.Text = "1";
+                textBox179.Text = "0";
+                textBox173.Text = "0";
+
+            }
+            // -- additions
+            int oic8ff = Int32.Parse(textBox184.Text);
+            int driver8ff = Int32.Parse(textBox183.Text);
+            int ba18ff = Int32.Parse(textBox182.Text);
+            int ba28ff = Int32.Parse(textBox181.Text);
+            int eco8ff = Int32.Parse(textBox180.Text);
+            int pos8ff = Int32.Parse(textBox179.Text);
+            int oic8cc = Int32.Parse(textBox178.Text);
+            int driver8cc = Int32.Parse(textBox177.Text);
+            int ba18cc = Int32.Parse(textBox176.Text);
+            int ba28cc = Int32.Parse(textBox175.Text);
+            int eco8cc = Int32.Parse(textBox174.Text);
+            int pos8cc = Int32.Parse(textBox173.Text);
+            int oic8wc = Int32.Parse(textBox172.Text);
+            int driver8wc = Int32.Parse(textBox171.Text);
+            int ba18wc = Int32.Parse(textBox170.Text);
+            int ba28wc = Int32.Parse(textBox169.Text);
+            int eco8wc = Int32.Parse(textBox168.Text);
+            int pos8wc = Int32.Parse(textBox167.Text);
+
+            textBox166.Text = (oic8ff + driver8ff + ba18ff + ba28ff + eco8ff + pos8ff).ToString();
+            textBox165.Text = (oic8cc + driver8cc + ba18cc + ba28cc + eco8cc + pos8cc).ToString();
+            textBox164.Text = (oic8wc + driver8wc + ba18wc + ba28wc + eco8wc + pos8wc).ToString();
+
+
+
+
+
+            //---------------------------------------------------------------------------------------------------------
             cfrspos1.Text = app1.Text;
             cfrspos2.Text = app2.Text;
             cfrspos3.Text = app3.Text;
@@ -41255,6 +42617,10073 @@ namespace Command_Suite
         private void appTotal_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void generateReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //                                                                                                                               \\
+            //                                                                                                                               \\
+            //                          IN THIS SECTION THE PDF CREATION WILL TAKE PLACE.                                                    \\
+            //                          THE PDF WILL INCLUDE ALL DATA GATHERED FROM THE INCIDENT.                                            \\
+            //                                                                                                                               \\
+            //                                                                                                                               \\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+            //-------------------------------------------------------------------------------------------------------------------------------\\
+        }
+
+
+        // 
+        //
+        // THIS IS THE SETTINGS FOR COMMAND SUPPORT APPLIANCES
+        private void csapp2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (csapp2.Text == "C27P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Kevin Partridge");
+                csapp2oic.Items.Add("CC Lee Harris");
+                csapp2oic.Items.Add("FF Matt Arthur");
+                csapp2oic.Items.Add("FF Marc Bynoe");
+                csapp2oic.Items.Add("FF Jason Green");
+                csapp2oic.Items.Add("FF Josh Muir");
+                csapp2oic.Items.Add("FF Graham Mullane");
+                csapp2oic.Items.Add("FF James Parish");
+                csapp2oic.Items.Add("FF Steven Rackley");
+                csapp2oic.Items.Add("---");
+                csapp2oic.Items.Add("WC Gareth Boyd");
+                csapp2oic.Items.Add("WC Trevor Lindsay");
+                csapp2oic.Items.Add("WC Stocekr Standen");
+                csapp2oic.Items.Add("WC Jon Wade");
+                csapp2oic.Items.Add("CC Steve Conway");
+                csapp2oic.Items.Add("CC Lee harris");
+                csapp2oic.Items.Add("CC Adrian Strowger");
+                csapp2oic.Items.Add("CC John Tyrell");
+                csapp2oic.Items.Add("FF Rob Austin");
+                csapp2oic.Items.Add("FF Dave Barrett");
+                csapp2oic.Items.Add("FF Jordan Cadogan");
+                csapp2oic.Items.Add("FF Leon Collins");
+                csapp2oic.Items.Add("FF Craig Fishpoole");
+                csapp2oic.Items.Add("FF Becky Freeman");
+                csapp2oic.Items.Add("FF Graham George");
+                csapp2oic.Items.Add("FF Dale Gibson");
+                csapp2oic.Items.Add("FF Claire Harrington");
+                csapp2oic.Items.Add("FF Robin Hodgson");
+                csapp2oic.Items.Add("FF Richard Hamilton");
+                csapp2oic.Items.Add("FF Ben Howells");
+                csapp2oic.Items.Add("FF Danny Johnston");
+                csapp2oic.Items.Add("FF James Pearce");
+                csapp2oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2oic.Items.Add("FF Liam Siddons");
+                csapp2oic.Items.Add("FF Georgina Sturgess");
+                csapp2oic.Items.Add("FF Christian Theobald");
+                csapp2oic.Items.Add("FF Richard Walton");
+                csapp2oic.Items.Add("FF Paul Whitaker");
+                csapp2oic.Items.Add("FF Matt Woodcock");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Kevin Partridge");
+                csapp2driver.Items.Add("CC Lee Harris");
+                csapp2driver.Items.Add("FF Matt Arthur");
+                csapp2driver.Items.Add("FF Marc Bynoe");
+                csapp2driver.Items.Add("FF Jason Green");
+                csapp2driver.Items.Add("FF Josh Muir");
+                csapp2driver.Items.Add("FF Graham Mullane");
+                csapp2driver.Items.Add("FF James Parish");
+                csapp2driver.Items.Add("FF Steven Rackley");
+                csapp2driver.Items.Add("---");
+                csapp2driver.Items.Add("WC Gareth Boyd");
+                csapp2driver.Items.Add("WC Trevor Lindsay");
+                csapp2driver.Items.Add("WC Stocekr Standen");
+                csapp2driver.Items.Add("WC Jon Wade");
+                csapp2driver.Items.Add("CC Steve Conway");
+                csapp2driver.Items.Add("CC Lee harris");
+                csapp2driver.Items.Add("CC Adrian Strowger");
+                csapp2driver.Items.Add("CC John Tyrell");
+                csapp2driver.Items.Add("FF Rob Austin");
+                csapp2driver.Items.Add("FF Dave Barrett");
+                csapp2driver.Items.Add("FF Jordan Cadogan");
+                csapp2driver.Items.Add("FF Leon Collins");
+                csapp2driver.Items.Add("FF Craig Fishpoole");
+                csapp2driver.Items.Add("FF Becky Freeman");
+                csapp2driver.Items.Add("FF Graham George");
+                csapp2driver.Items.Add("FF Dale Gibson");
+                csapp2driver.Items.Add("FF Claire Harrington");
+                csapp2driver.Items.Add("FF Robin Hodgson");
+                csapp2driver.Items.Add("FF Richard Hamilton");
+                csapp2driver.Items.Add("FF Ben Howells");
+                csapp2driver.Items.Add("FF Danny Johnston");
+                csapp2driver.Items.Add("FF James Pearce");
+                csapp2driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2driver.Items.Add("FF Liam Siddons");
+                csapp2driver.Items.Add("FF Georgina Sturgess");
+                csapp2driver.Items.Add("FF Christian Theobald");
+                csapp2driver.Items.Add("FF Richard Walton");
+                csapp2driver.Items.Add("FF Paul Whitaker");
+                csapp2driver.Items.Add("FF Matt Woodcock");
+                //BA1
+                csapp2ba1.Items.Add("WC Kevin Partridge");
+                csapp2ba1.Items.Add("CC Lee Harris");
+                csapp2ba1.Items.Add("FF Matt Arthur");
+                csapp2ba1.Items.Add("FF Marc Bynoe");
+                csapp2ba1.Items.Add("FF Jason Green");
+                csapp2ba1.Items.Add("FF Josh Muir");
+                csapp2ba1.Items.Add("FF Graham Mullane");
+                csapp2ba1.Items.Add("FF James Parish");
+                csapp2ba1.Items.Add("FF Steven Rackley");
+                csapp2ba1.Items.Add("---");
+                csapp2ba1.Items.Add("WC Gareth Boyd");
+                csapp2ba1.Items.Add("WC Trevor Lindsay");
+                csapp2ba1.Items.Add("WC Stocekr Standen");
+                csapp2ba1.Items.Add("WC Jon Wade");
+                csapp2ba1.Items.Add("CC Steve Conway");
+                csapp2ba1.Items.Add("CC Lee harris");
+                csapp2ba1.Items.Add("CC Adrian Strowger");
+                csapp2ba1.Items.Add("CC John Tyrell");
+                csapp2ba1.Items.Add("FF Rob Austin");
+                csapp2ba1.Items.Add("FF Dave Barrett");
+                csapp2ba1.Items.Add("FF Jordan Cadogan");
+                csapp2ba1.Items.Add("FF Leon Collins");
+                csapp2ba1.Items.Add("FF Craig Fishpoole");
+                csapp2ba1.Items.Add("FF Becky Freeman");
+                csapp2ba1.Items.Add("FF Graham George");
+                csapp2ba1.Items.Add("FF Dale Gibson");
+                csapp2ba1.Items.Add("FF Claire Harrington");
+                csapp2ba1.Items.Add("FF Robin Hodgson");
+                csapp2ba1.Items.Add("FF Richard Hamilton");
+                csapp2ba1.Items.Add("FF Ben Howells");
+                csapp2ba1.Items.Add("FF Danny Johnston");
+                csapp2ba1.Items.Add("FF James Pearce");
+                csapp2ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba1.Items.Add("FF Liam Siddons");
+                csapp2ba1.Items.Add("FF Georgina Sturgess");
+                csapp2ba1.Items.Add("FF Christian Theobald");
+                csapp2ba1.Items.Add("FF Richard Walton");
+                csapp2ba1.Items.Add("FF Paul Whitaker");
+                csapp2ba1.Items.Add("FF Matt Woodcock");
+                //BA2
+                csapp2ba2.Items.Add("WC Kevin Partridge");
+                csapp2ba2.Items.Add("CC Lee Harris");
+                csapp2ba2.Items.Add("FF Matt Arthur");
+                csapp2ba2.Items.Add("FF Marc Bynoe");
+                csapp2ba2.Items.Add("FF Jason Green");
+                csapp2ba2.Items.Add("FF Josh Muir");
+                csapp2ba2.Items.Add("FF Graham Mullane");
+                csapp2ba2.Items.Add("FF James Parish");
+                csapp2ba2.Items.Add("FF Steven Rackley");
+                csapp2ba2.Items.Add("---");
+                csapp2ba2.Items.Add("WC Gareth Boyd");
+                csapp2ba2.Items.Add("WC Trevor Lindsay");
+                csapp2ba2.Items.Add("WC Stocekr Standen");
+                csapp2ba2.Items.Add("WC Jon Wade");
+                csapp2ba2.Items.Add("CC Steve Conway");
+                csapp2ba2.Items.Add("CC Lee harris");
+                csapp2ba2.Items.Add("CC Adrian Strowger");
+                csapp2ba2.Items.Add("CC John Tyrell");
+                csapp2ba2.Items.Add("FF Rob Austin");
+                csapp2ba2.Items.Add("FF Dave Barrett");
+                csapp2ba2.Items.Add("FF Jordan Cadogan");
+                csapp2ba2.Items.Add("FF Leon Collins");
+                csapp2ba2.Items.Add("FF Craig Fishpoole");
+                csapp2ba2.Items.Add("FF Becky Freeman");
+                csapp2ba2.Items.Add("FF Graham George");
+                csapp2ba2.Items.Add("FF Dale Gibson");
+                csapp2ba2.Items.Add("FF Claire Harrington");
+                csapp2ba2.Items.Add("FF Robin Hodgson");
+                csapp2ba2.Items.Add("FF Richard Hamilton");
+                csapp2ba2.Items.Add("FF Ben Howells");
+                csapp2ba2.Items.Add("FF Danny Johnston");
+                csapp2ba2.Items.Add("FF James Pearce");
+                csapp2ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba2.Items.Add("FF Liam Siddons");
+                csapp2ba2.Items.Add("FF Georgina Sturgess");
+                csapp2ba2.Items.Add("FF Christian Theobald");
+                csapp2ba2.Items.Add("FF Richard Walton");
+                csapp2ba2.Items.Add("FF Paul Whitaker");
+                csapp2ba2.Items.Add("FF Matt Woodcock");
+                //ECO
+                csapp2eco.Items.Add("WC Kevin Partridge");
+                csapp2eco.Items.Add("CC Lee Harris");
+                csapp2eco.Items.Add("FF Matt Arthur");
+                csapp2eco.Items.Add("FF Marc Bynoe");
+                csapp2eco.Items.Add("FF Jason Green");
+                csapp2eco.Items.Add("FF Josh Muir");
+                csapp2eco.Items.Add("FF Graham Mullane");
+                csapp2eco.Items.Add("FF James Parish");
+                csapp2eco.Items.Add("FF Steven Rackley");
+                csapp2eco.Items.Add("---");
+                csapp2eco.Items.Add("WC Gareth Boyd");
+                csapp2eco.Items.Add("WC Trevor Lindsay");
+                csapp2eco.Items.Add("WC Stocekr Standen");
+                csapp2eco.Items.Add("WC Jon Wade");
+                csapp2eco.Items.Add("CC Steve Conway");
+                csapp2eco.Items.Add("CC Lee harris");
+                csapp2eco.Items.Add("CC Adrian Strowger");
+                csapp2eco.Items.Add("CC John Tyrell");
+                csapp2eco.Items.Add("FF Rob Austin");
+                csapp2eco.Items.Add("FF Dave Barrett");
+                csapp2eco.Items.Add("FF Jordan Cadogan");
+                csapp2eco.Items.Add("FF Leon Collins");
+                csapp2eco.Items.Add("FF Craig Fishpoole");
+                csapp2eco.Items.Add("FF Becky Freeman");
+                csapp2eco.Items.Add("FF Graham George");
+                csapp2eco.Items.Add("FF Dale Gibson");
+                csapp2eco.Items.Add("FF Claire Harrington");
+                csapp2eco.Items.Add("FF Robin Hodgson");
+                csapp2eco.Items.Add("FF Richard Hamilton");
+                csapp2eco.Items.Add("FF Ben Howells");
+                csapp2eco.Items.Add("FF Danny Johnston");
+                csapp2eco.Items.Add("FF James Pearce");
+                csapp2eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2eco.Items.Add("FF Liam Siddons");
+                csapp2eco.Items.Add("FF Georgina Sturgess");
+                csapp2eco.Items.Add("FF Christian Theobald");
+                csapp2eco.Items.Add("FF Richard Walton");
+                csapp2eco.Items.Add("FF Paul Whitaker");
+                csapp2eco.Items.Add("FF Matt Woodcock");
+                //6
+                csapp26.Items.Add("WC Kevin Partridge");
+                csapp26.Items.Add("CC Lee Harris");
+                csapp26.Items.Add("FF Matt Arthur");
+                csapp26.Items.Add("FF Marc Bynoe");
+                csapp26.Items.Add("FF Jason Green");
+                csapp26.Items.Add("FF Josh Muir");
+                csapp26.Items.Add("FF Graham Mullane");
+                csapp26.Items.Add("FF James Parish");
+                csapp26.Items.Add("FF Steven Rackley");
+                csapp26.Items.Add("---");
+                csapp26.Items.Add("WC Gareth Boyd");
+                csapp26.Items.Add("WC Trevor Lindsay");
+                csapp26.Items.Add("WC Stocekr Standen");
+                csapp26.Items.Add("WC Jon Wade");
+                csapp26.Items.Add("CC Steve Conway");
+                csapp26.Items.Add("CC Lee harris");
+                csapp26.Items.Add("CC Adrian Strowger");
+                csapp26.Items.Add("CC John Tyrell");
+                csapp26.Items.Add("FF Rob Austin");
+                csapp26.Items.Add("FF Dave Barrett");
+                csapp26.Items.Add("FF Jordan Cadogan");
+                csapp26.Items.Add("FF Leon Collins");
+                csapp26.Items.Add("FF Craig Fishpoole");
+                csapp26.Items.Add("FF Becky Freeman");
+                csapp26.Items.Add("FF Graham George");
+                csapp26.Items.Add("FF Dale Gibson");
+                csapp26.Items.Add("FF Claire Harrington");
+                csapp26.Items.Add("FF Robin Hodgson");
+                csapp26.Items.Add("FF Richard Hamilton");
+                csapp26.Items.Add("FF Ben Howells");
+                csapp26.Items.Add("FF Danny Johnston");
+                csapp26.Items.Add("FF James Pearce");
+                csapp26.Items.Add("FF Tom Quinn-Nicholls");
+                csapp26.Items.Add("FF Liam Siddons");
+                csapp26.Items.Add("FF Georgina Sturgess");
+                csapp26.Items.Add("FF Christian Theobald");
+                csapp26.Items.Add("FF Richard Walton");
+                csapp26.Items.Add("FF Paul Whitaker");
+                csapp26.Items.Add("FF Matt Woodcock");
+
+            }
+            else if (csapp2.Text == "C27P5")
+            {
+
+                //OIC
+                csapp2oic.Items.Add("WC Gareth Boyd");
+                csapp2oic.Items.Add("WC Trevor Lindsay");
+                csapp2oic.Items.Add("WC Stocekr Standen");
+                csapp2oic.Items.Add("WC Jon Wade");
+                csapp2oic.Items.Add("CC Steve Conway");
+                csapp2oic.Items.Add("CC Lee harris");
+                csapp2oic.Items.Add("CC Adrian Strowger");
+                csapp2oic.Items.Add("CC John Tyrell");
+                csapp2oic.Items.Add("FF Rob Austin");
+                csapp2oic.Items.Add("FF Dave Barrett");
+                csapp2oic.Items.Add("FF Jordan Cadogan");
+                csapp2oic.Items.Add("FF Leon Collins");
+                csapp2oic.Items.Add("FF Craig Fishpoole");
+                csapp2oic.Items.Add("FF Becky Freeman");
+                csapp2oic.Items.Add("FF Graham George");
+                csapp2oic.Items.Add("FF Dale Gibson");
+                csapp2oic.Items.Add("FF Claire Harrington");
+                csapp2oic.Items.Add("FF Robin Hodgson");
+                csapp2oic.Items.Add("FF Richard Hamilton");
+                csapp2oic.Items.Add("FF Ben Howells");
+                csapp2oic.Items.Add("FF Danny Johnston");
+                csapp2oic.Items.Add("FF James Pearce");
+                csapp2oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2oic.Items.Add("FF Liam Siddons");
+                csapp2oic.Items.Add("FF Georgina Sturgess");
+                csapp2oic.Items.Add("FF Christian Theobald");
+                csapp2oic.Items.Add("FF Richard Walton");
+                csapp2oic.Items.Add("FF Paul Whitaker");
+                csapp2oic.Items.Add("FF Matt Woodcock");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Gareth Boyd");
+                csapp2driver.Items.Add("WC Trevor Lindsay");
+                csapp2driver.Items.Add("WC Stocekr Standen");
+                csapp2driver.Items.Add("WC Jon Wade");
+                csapp2driver.Items.Add("CC Steve Conway");
+                csapp2driver.Items.Add("CC Lee harris");
+                csapp2driver.Items.Add("CC Adrian Strowger");
+                csapp2driver.Items.Add("CC John Tyrell");
+                csapp2driver.Items.Add("FF Rob Austin");
+                csapp2driver.Items.Add("FF Dave Barrett");
+                csapp2driver.Items.Add("FF Jordan Cadogan");
+                csapp2driver.Items.Add("FF Leon Collins");
+                csapp2driver.Items.Add("FF Craig Fishpoole");
+                csapp2driver.Items.Add("FF Becky Freeman");
+                csapp2driver.Items.Add("FF Graham George");
+                csapp2driver.Items.Add("FF Dale Gibson");
+                csapp2driver.Items.Add("FF Claire Harrington");
+                csapp2driver.Items.Add("FF Robin Hodgson");
+                csapp2driver.Items.Add("FF Richard Hamilton");
+                csapp2driver.Items.Add("FF Ben Howells");
+                csapp2driver.Items.Add("FF Danny Johnston");
+                csapp2driver.Items.Add("FF James Pearce");
+                csapp2driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2driver.Items.Add("FF Liam Siddons");
+                csapp2driver.Items.Add("FF Georgina Sturgess");
+                csapp2driver.Items.Add("FF Christian Theobald");
+                csapp2driver.Items.Add("FF Richard Walton");
+                csapp2driver.Items.Add("FF Paul Whitaker");
+                csapp2driver.Items.Add("FF Matt Woodcock");
+                //BA1
+                csapp2ba1.Items.Add("WC Gareth Boyd");
+                csapp2ba1.Items.Add("WC Trevor Lindsay");
+                csapp2ba1.Items.Add("WC Stocekr Standen");
+                csapp2ba1.Items.Add("WC Jon Wade");
+                csapp2ba1.Items.Add("CC Steve Conway");
+                csapp2ba1.Items.Add("CC Lee harris");
+                csapp2ba1.Items.Add("CC Adrian Strowger");
+                csapp2ba1.Items.Add("CC John Tyrell");
+                csapp2ba1.Items.Add("FF Rob Austin");
+                csapp2ba1.Items.Add("FF Dave Barrett");
+                csapp2ba1.Items.Add("FF Jordan Cadogan");
+                csapp2ba1.Items.Add("FF Leon Collins");
+                csapp2ba1.Items.Add("FF Craig Fishpoole");
+                csapp2ba1.Items.Add("FF Becky Freeman");
+                csapp2ba1.Items.Add("FF Graham George");
+                csapp2ba1.Items.Add("FF Dale Gibson");
+                csapp2ba1.Items.Add("FF Claire Harrington");
+                csapp2ba1.Items.Add("FF Robin Hodgson");
+                csapp2ba1.Items.Add("FF Richard Hamilton");
+                csapp2ba1.Items.Add("FF Ben Howells");
+                csapp2ba1.Items.Add("FF Danny Johnston");
+                csapp2ba1.Items.Add("FF James Pearce");
+                csapp2ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba1.Items.Add("FF Liam Siddons");
+                csapp2ba1.Items.Add("FF Georgina Sturgess");
+                csapp2ba1.Items.Add("FF Christian Theobald");
+                csapp2ba1.Items.Add("FF Richard Walton");
+                csapp2ba1.Items.Add("FF Paul Whitaker");
+                csapp2ba1.Items.Add("FF Matt Woodcock");
+                //BA2
+                csapp2ba2.Items.Add("WC Gareth Boyd");
+                csapp2ba2.Items.Add("WC Trevor Lindsay");
+                csapp2ba2.Items.Add("WC Stocekr Standen");
+                csapp2ba2.Items.Add("WC Jon Wade");
+                csapp2ba2.Items.Add("CC Steve Conway");
+                csapp2ba2.Items.Add("CC Lee harris");
+                csapp2ba2.Items.Add("CC Adrian Strowger");
+                csapp2ba2.Items.Add("CC John Tyrell");
+                csapp2ba2.Items.Add("FF Rob Austin");
+                csapp2ba2.Items.Add("FF Dave Barrett");
+                csapp2ba2.Items.Add("FF Jordan Cadogan");
+                csapp2ba2.Items.Add("FF Leon Collins");
+                csapp2ba2.Items.Add("FF Craig Fishpoole");
+                csapp2ba2.Items.Add("FF Becky Freeman");
+                csapp2ba2.Items.Add("FF Graham George");
+                csapp2ba2.Items.Add("FF Dale Gibson");
+                csapp2ba2.Items.Add("FF Claire Harrington");
+                csapp2ba2.Items.Add("FF Robin Hodgson");
+                csapp2ba2.Items.Add("FF Richard Hamilton");
+                csapp2ba2.Items.Add("FF Ben Howells");
+                csapp2ba2.Items.Add("FF Danny Johnston");
+                csapp2ba2.Items.Add("FF James Pearce");
+                csapp2ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba2.Items.Add("FF Liam Siddons");
+                csapp2ba2.Items.Add("FF Georgina Sturgess");
+                csapp2ba2.Items.Add("FF Christian Theobald");
+                csapp2ba2.Items.Add("FF Richard Walton");
+                csapp2ba2.Items.Add("FF Paul Whitaker");
+                csapp2ba2.Items.Add("FF Matt Woodcock");
+                //ECO
+                csapp2eco.Items.Add("WC Gareth Boyd");
+                csapp2eco.Items.Add("WC Trevor Lindsay");
+                csapp2eco.Items.Add("WC Stocekr Standen");
+                csapp2eco.Items.Add("WC Jon Wade");
+                csapp2eco.Items.Add("CC Steve Conway");
+                csapp2eco.Items.Add("CC Lee harris");
+                csapp2eco.Items.Add("CC Adrian Strowger");
+                csapp2eco.Items.Add("CC John Tyrell");
+                csapp2eco.Items.Add("FF Rob Austin");
+                csapp2eco.Items.Add("FF Dave Barrett");
+                csapp2eco.Items.Add("FF Jordan Cadogan");
+                csapp2eco.Items.Add("FF Leon Collins");
+                csapp2eco.Items.Add("FF Craig Fishpoole");
+                csapp2eco.Items.Add("FF Becky Freeman");
+                csapp2eco.Items.Add("FF Graham George");
+                csapp2eco.Items.Add("FF Dale Gibson");
+                csapp2eco.Items.Add("FF Claire Harrington");
+                csapp2eco.Items.Add("FF Robin Hodgson");
+                csapp2eco.Items.Add("FF Richard Hamilton");
+                csapp2eco.Items.Add("FF Ben Howells");
+                csapp2eco.Items.Add("FF Danny Johnston");
+                csapp2eco.Items.Add("FF James Pearce");
+                csapp2eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2eco.Items.Add("FF Liam Siddons");
+                csapp2eco.Items.Add("FF Georgina Sturgess");
+                csapp2eco.Items.Add("FF Christian Theobald");
+                csapp2eco.Items.Add("FF Richard Walton");
+                csapp2eco.Items.Add("FF Paul Whitaker");
+                csapp2eco.Items.Add("FF Matt Woodcock");
+                //6
+                csapp26.Items.Add("WC Gareth Boyd");
+                csapp26.Items.Add("WC Trevor Lindsay");
+                csapp26.Items.Add("WC Stocekr Standen");
+                csapp26.Items.Add("WC Jon Wade");
+                csapp26.Items.Add("CC Steve Conway");
+                csapp26.Items.Add("CC Lee harris");
+                csapp26.Items.Add("CC Adrian Strowger");
+                csapp26.Items.Add("CC John Tyrell");
+                csapp26.Items.Add("FF Rob Austin");
+                csapp26.Items.Add("FF Dave Barrett");
+                csapp26.Items.Add("FF Jordan Cadogan");
+                csapp26.Items.Add("FF Leon Collins");
+                csapp26.Items.Add("FF Craig Fishpoole");
+                csapp26.Items.Add("FF Becky Freeman");
+                csapp26.Items.Add("FF Graham George");
+                csapp26.Items.Add("FF Dale Gibson");
+                csapp26.Items.Add("FF Claire Harrington");
+                csapp26.Items.Add("FF Robin Hodgson");
+                csapp26.Items.Add("FF Richard Hamilton");
+                csapp26.Items.Add("FF Ben Howells");
+                csapp26.Items.Add("FF Danny Johnston");
+                csapp26.Items.Add("FF James Pearce");
+                csapp26.Items.Add("FF Tom Quinn-Nicholls");
+                csapp26.Items.Add("FF Liam Siddons");
+                csapp26.Items.Add("FF Georgina Sturgess");
+                csapp26.Items.Add("FF Christian Theobald");
+                csapp26.Items.Add("FF Richard Walton");
+                csapp26.Items.Add("FF Paul Whitaker");
+                csapp26.Items.Add("FF Matt Woodcock");
+            }
+            else if (csapp2.Text == "C07P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Simon Muir");
+                csapp2oic.Items.Add("CC Martin Claydon");
+                csapp2oic.Items.Add("CC Anthony Estall");
+                csapp2oic.Items.Add("CC Marcus Rawlinson");
+                csapp2oic.Items.Add("FF Lenny Gray");
+                csapp2oic.Items.Add("FF Garry Ward");
+                csapp2oic.Items.Add("FF Philip Hubbard");
+                csapp2oic.Items.Add("FF Warren Langford");
+                csapp2oic.Items.Add("FF Sam Hall");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Simon Muir");
+                csapp2driver.Items.Add("CC Martin Claydon");
+                csapp2driver.Items.Add("CC Anthony Estall");
+                csapp2driver.Items.Add("CC Marcus Rawlinson");
+                csapp2driver.Items.Add("FF Lenny Gray");
+                csapp2driver.Items.Add("FF Garry Ward");
+                csapp2driver.Items.Add("FF Philip Hubbard");
+                csapp2driver.Items.Add("FF Warren Langford");
+                csapp2driver.Items.Add("FF Sam Hall");
+                //BA1
+                csapp2ba1.Items.Add("WC Simon Muir");
+                csapp2ba1.Items.Add("CC Martin Claydon");
+                csapp2ba1.Items.Add("CC Anthony Estall");
+                csapp2ba1.Items.Add("CC Marcus Rawlinson");
+                csapp2ba1.Items.Add("FF Lenny Gray");
+                csapp2ba1.Items.Add("FF Garry Ward");
+                csapp2ba1.Items.Add("FF Philip Hubbard");
+                csapp2ba1.Items.Add("FF Warren Langford");
+                csapp2ba1.Items.Add("FF Sam Hall");
+                //BA2
+                csapp2ba2.Items.Add("WC Simon Muir");
+                csapp2ba2.Items.Add("CC Martin Claydon");
+                csapp2ba2.Items.Add("CC Anthony Estall");
+                csapp2ba2.Items.Add("CC Marcus Rawlinson");
+                csapp2ba2.Items.Add("FF Lenny Gray");
+                csapp2ba2.Items.Add("FF Garry Ward");
+                csapp2ba2.Items.Add("FF Philip Hubbard");
+                csapp2ba2.Items.Add("FF Warren Langford");
+                csapp2ba2.Items.Add("FF Sam Hall");
+                //ECO
+                csapp2eco.Items.Add("WC Simon Muir");
+                csapp2eco.Items.Add("CC Martin Claydon");
+                csapp2eco.Items.Add("CC Anthony Estall");
+                csapp2eco.Items.Add("CC Marcus Rawlinson");
+                csapp2eco.Items.Add("FF Lenny Gray");
+                csapp2eco.Items.Add("FF Garry Ward");
+                csapp2eco.Items.Add("FF Philip Hubbard");
+                csapp2eco.Items.Add("FF Warren Langford");
+                csapp2eco.Items.Add("FF Sam Hall");
+                //6
+                csapp26.Items.Add("WC Simon Muir");
+                csapp26.Items.Add("CC Martin Claydon");
+                csapp26.Items.Add("CC Anthony Estall");
+                csapp26.Items.Add("CC Marcus Rawlinson");
+                csapp26.Items.Add("FF Lenny Gray");
+                csapp26.Items.Add("FF Garry Ward");
+                csapp26.Items.Add("FF Philip Hubbard");
+                csapp26.Items.Add("FF Warren Langford");
+                csapp26.Items.Add("FF Sam Hall");
+            }
+
+            else if (csapp2.Text == "C01P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Richard Powell");
+                csapp2oic.Items.Add("WC Rob Foreman");
+                csapp2oic.Items.Add("WC Tony Burton");
+                csapp2oic.Items.Add("WC Simon Muir");
+                csapp2oic.Items.Add("CC Jason Leach");
+                csapp2oic.Items.Add("CC Jon Smith");
+                csapp2oic.Items.Add("CC Steve O'Brien");
+                csapp2oic.Items.Add("CC Karl jarvis");
+                csapp2oic.Items.Add("CC Jon Blowyer");
+                csapp2oic.Items.Add("CC Scott Newbon");
+                csapp2oic.Items.Add("CC Ben Leigh-Brown");
+                csapp2oic.Items.Add("CC Stephen Griffiths");
+                csapp2oic.Items.Add("CC Scott Fretwell");
+                csapp2oic.Items.Add("CC Paul Stephens");
+                csapp2oic.Items.Add("CC Mark Coupar");
+                csapp2oic.Items.Add("CC Adam King");
+                csapp2oic.Items.Add("FF Lee Beard");
+                csapp2oic.Items.Add("FF Jed Cole");
+                csapp2oic.Items.Add("FF Guy Austin");
+                csapp2oic.Items.Add("FF Evan Fisher");
+                csapp2oic.Items.Add("FF Alex Hallam");
+                csapp2oic.Items.Add("FF Martin Harding");
+                csapp2oic.Items.Add("FF Simon Marks");
+                csapp2oic.Items.Add("FF Peter Murphy");
+                csapp2oic.Items.Add("FF Phil Walmsley");
+                csapp2oic.Items.Add("FF Steve Wilson");
+                csapp2oic.Items.Add("FF John Wolfe");
+                csapp2oic.Items.Add("FF Mark Harris");
+                csapp2oic.Items.Add("FF Steve Clement");
+                csapp2oic.Items.Add("FF Christine Fisher");
+                csapp2oic.Items.Add("FF Mark Goldsmith");
+                csapp2oic.Items.Add("FF Paul Langford");
+                csapp2oic.Items.Add("FF Shaun Maccoll");
+                csapp2oic.Items.Add("FF Drew Scott");
+                csapp2oic.Items.Add("FF Jo Shippey");
+                csapp2oic.Items.Add("FF Myles Strickland");
+                csapp2oic.Items.Add("FF Ross Turner");
+                csapp2oic.Items.Add("FF Richard Gethin");
+                csapp2oic.Items.Add("FF Chelsey Bailey");
+                csapp2oic.Items.Add("FF Callum Hodgkin");
+                csapp2oic.Items.Add("FF Ben Anstee");
+                csapp2oic.Items.Add("FF Tom Barratt");
+                csapp2oic.Items.Add("FF Jonathan Cowling");
+                csapp2oic.Items.Add("FF Andrew Ellington");
+                csapp2oic.Items.Add("FF Cameron Mathews");
+                csapp2oic.Items.Add("FF Dominic Mould");
+                csapp2oic.Items.Add("FF Dave Oura");
+                csapp2oic.Items.Add("FF George White");
+                csapp2oic.Items.Add("FF Jasper Vidot");
+                csapp2oic.Items.Add("FF Richard Petch");
+                csapp2oic.Items.Add("FF Rik Green");
+                csapp2oic.Items.Add("FF Ali Thompson");
+                csapp2oic.Items.Add("FF Dale Allen");
+                csapp2oic.Items.Add("FF Hannah Archdeacon");
+                csapp2oic.Items.Add("FF Ed Bailey");
+                csapp2oic.Items.Add("FF Nick Brown");
+                csapp2oic.Items.Add("FF Jon Diver");
+                csapp2oic.Items.Add("FF Dan Foster");
+                csapp2oic.Items.Add("FF Phil Hyland");
+                csapp2oic.Items.Add("FF Paul Joy");
+                csapp2oic.Items.Add("FF Neil Kerr");
+                csapp2oic.Items.Add("FF Harry Storton");
+                csapp2oic.Items.Add("FF Sam Gartside");
+                csapp2oic.Items.Add("FF Peter Cram");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Richard Powell");
+                csapp2driver.Items.Add("WC Rob Foreman");
+                csapp2driver.Items.Add("WC Tony Burton");
+                csapp2driver.Items.Add("WC Simon Muir");
+                csapp2driver.Items.Add("CC Jason Leach");
+                csapp2driver.Items.Add("CC Jon Smith");
+                csapp2driver.Items.Add("CC Steve O'Brien");
+                csapp2driver.Items.Add("CC Karl jarvis");
+                csapp2driver.Items.Add("CC Jon Blowyer");
+                csapp2driver.Items.Add("CC Scott Newbon");
+                csapp2driver.Items.Add("CC Ben Leigh-Brown");
+                csapp2driver.Items.Add("CC Stephen Griffiths");
+                csapp2driver.Items.Add("CC Scott Fretwell");
+                csapp2driver.Items.Add("CC Paul Stephens");
+                csapp2driver.Items.Add("CC Mark Coupar");
+                csapp2driver.Items.Add("CC Adam King");
+                csapp2driver.Items.Add("FF Lee Beard");
+                csapp2driver.Items.Add("FF Jed Cole");
+                csapp2driver.Items.Add("FF Guy Austin");
+                csapp2driver.Items.Add("FF Evan Fisher");
+                csapp2driver.Items.Add("FF Alex Hallam");
+                csapp2driver.Items.Add("FF Martin Harding");
+                csapp2driver.Items.Add("FF Simon Marks");
+                csapp2driver.Items.Add("FF Peter Murphy");
+                csapp2driver.Items.Add("FF Phil Walmsley");
+                csapp2driver.Items.Add("FF Steve Wilson");
+                csapp2driver.Items.Add("FF John Wolfe");
+                csapp2driver.Items.Add("FF Mark Harris");
+                csapp2driver.Items.Add("FF Steve Clement");
+                csapp2driver.Items.Add("FF Christine Fisher");
+                csapp2driver.Items.Add("FF Mark Goldsmith");
+                csapp2driver.Items.Add("FF Paul Langford");
+                csapp2driver.Items.Add("FF Shaun Maccoll");
+                csapp2driver.Items.Add("FF Drew Scott");
+                csapp2driver.Items.Add("FF Jo Shippey");
+                csapp2driver.Items.Add("FF Myles Strickland");
+                csapp2driver.Items.Add("FF Ross Turner");
+                csapp2driver.Items.Add("FF Richard Gethin");
+                csapp2driver.Items.Add("FF Chelsey Bailey");
+                csapp2driver.Items.Add("FF Callum Hodgkin");
+                csapp2driver.Items.Add("FF Ben Anstee");
+                csapp2driver.Items.Add("FF Tom Barratt");
+                csapp2driver.Items.Add("FF Jonathan Cowling");
+                csapp2driver.Items.Add("FF Andrew Ellington");
+                csapp2driver.Items.Add("FF Cameron Mathews");
+                csapp2driver.Items.Add("FF Dominic Mould");
+                csapp2driver.Items.Add("FF Dave Oura");
+                csapp2driver.Items.Add("FF George White");
+                csapp2driver.Items.Add("FF Jasper Vidot");
+                csapp2driver.Items.Add("FF Richard Petch");
+                csapp2driver.Items.Add("FF Rik Green");
+                csapp2driver.Items.Add("FF Ali Thompson");
+                csapp2driver.Items.Add("FF Dale Allen");
+                csapp2driver.Items.Add("FF Hannah Archdeacon");
+                csapp2driver.Items.Add("FF Ed Bailey");
+                csapp2driver.Items.Add("FF Nick Brown");
+                csapp2driver.Items.Add("FF Jon Diver");
+                csapp2driver.Items.Add("FF Dan Foster");
+                csapp2driver.Items.Add("FF Phil Hyland");
+                csapp2driver.Items.Add("FF Paul Joy");
+                csapp2driver.Items.Add("FF Neil Kerr");
+                csapp2driver.Items.Add("FF Harry Storton");
+                csapp2driver.Items.Add("FF Sam Gartside");
+                csapp2driver.Items.Add("FF Peter Cram");
+                //BA1
+                csapp2ba1.Items.Add("WC Richard Powell");
+                csapp2ba1.Items.Add("WC Rob Foreman");
+                csapp2ba1.Items.Add("WC Tony Burton");
+                csapp2ba1.Items.Add("WC Simon Muir");
+                csapp2ba1.Items.Add("CC Jason Leach");
+                csapp2ba1.Items.Add("CC Jon Smith");
+                csapp2ba1.Items.Add("CC Steve O'Brien");
+                csapp2ba1.Items.Add("CC Karl jarvis");
+                csapp2ba1.Items.Add("CC Jon Blowyer");
+                csapp2ba1.Items.Add("CC Scott Newbon");
+                csapp2ba1.Items.Add("CC Ben Leigh-Brown");
+                csapp2ba1.Items.Add("CC Stephen Griffiths");
+                csapp2ba1.Items.Add("CC Scott Fretwell");
+                csapp2ba1.Items.Add("CC Paul Stephens");
+                csapp2ba1.Items.Add("CC Mark Coupar");
+                csapp2ba1.Items.Add("CC Adam King");
+                csapp2ba1.Items.Add("FF Lee Beard");
+                csapp2ba1.Items.Add("FF Jed Cole");
+                csapp2ba1.Items.Add("FF Guy Austin");
+                csapp2ba1.Items.Add("FF Evan Fisher");
+                csapp2ba1.Items.Add("FF Alex Hallam");
+                csapp2ba1.Items.Add("FF Martin Harding");
+                csapp2ba1.Items.Add("FF Simon Marks");
+                csapp2ba1.Items.Add("FF Peter Murphy");
+                csapp2ba1.Items.Add("FF Phil Walmsley");
+                csapp2ba1.Items.Add("FF Steve Wilson");
+                csapp2ba1.Items.Add("FF John Wolfe");
+                csapp2ba1.Items.Add("FF Mark Harris");
+                csapp2ba1.Items.Add("FF Steve Clement");
+                csapp2ba1.Items.Add("FF Christine Fisher");
+                csapp2ba1.Items.Add("FF Mark Goldsmith");
+                csapp2ba1.Items.Add("FF Paul Langford");
+                csapp2ba1.Items.Add("FF Shaun Maccoll");
+                csapp2ba1.Items.Add("FF Drew Scott");
+                csapp2ba1.Items.Add("FF Jo Shippey");
+                csapp2ba1.Items.Add("FF Myles Strickland");
+                csapp2ba1.Items.Add("FF Ross Turner");
+                csapp2ba1.Items.Add("FF Richard Gethin");
+                csapp2ba1.Items.Add("FF Chelsey Bailey");
+                csapp2ba1.Items.Add("FF Callum Hodgkin");
+                csapp2ba1.Items.Add("FF Ben Anstee");
+                csapp2ba1.Items.Add("FF Tom Barratt");
+                csapp2ba1.Items.Add("FF Jonathan Cowling");
+                csapp2ba1.Items.Add("FF Andrew Ellington");
+                csapp2ba1.Items.Add("FF Cameron Mathews");
+                csapp2ba1.Items.Add("FF Dominic Mould");
+                csapp2ba1.Items.Add("FF Dave Oura");
+                csapp2ba1.Items.Add("FF George White");
+                csapp2ba1.Items.Add("FF Jasper Vidot");
+                csapp2ba1.Items.Add("FF Richard Petch");
+                csapp2ba1.Items.Add("FF Rik Green");
+                csapp2ba1.Items.Add("FF Ali Thompson");
+                csapp2ba1.Items.Add("FF Dale Allen");
+                csapp2ba1.Items.Add("FF Hannah Archdeacon");
+                csapp2ba1.Items.Add("FF Ed Bailey");
+                csapp2ba1.Items.Add("FF Nick Brown");
+                csapp2ba1.Items.Add("FF Jon Diver");
+                csapp2ba1.Items.Add("FF Dan Foster");
+                csapp2ba1.Items.Add("FF Phil Hyland");
+                csapp2ba1.Items.Add("FF Paul Joy");
+                csapp2ba1.Items.Add("FF Neil Kerr");
+                csapp2ba1.Items.Add("FF Harry Storton");
+                csapp2ba1.Items.Add("FF Sam Gartside");
+                csapp2ba1.Items.Add("FF Peter Cram");
+                //BA2
+                csapp2ba2.Items.Add("WC Richard Powell");
+                csapp2ba2.Items.Add("WC Rob Foreman");
+                csapp2ba2.Items.Add("WC Tony Burton");
+                csapp2ba2.Items.Add("WC Simon Muir");
+                csapp2ba2.Items.Add("CC Jason Leach");
+                csapp2ba2.Items.Add("CC Jon Smith");
+                csapp2ba2.Items.Add("CC Steve O'Brien");
+                csapp2ba2.Items.Add("CC Karl jarvis");
+                csapp2ba2.Items.Add("CC Jon Blowyer");
+                csapp2ba2.Items.Add("CC Scott Newbon");
+                csapp2ba2.Items.Add("CC Ben Leigh-Brown");
+                csapp2ba2.Items.Add("CC Stephen Griffiths");
+                csapp2ba2.Items.Add("CC Scott Fretwell");
+                csapp2ba2.Items.Add("CC Paul Stephens");
+                csapp2ba2.Items.Add("CC Mark Coupar");
+                csapp2ba2.Items.Add("CC Adam King");
+                csapp2ba2.Items.Add("FF Lee Beard");
+                csapp2ba2.Items.Add("FF Jed Cole");
+                csapp2ba2.Items.Add("FF Guy Austin");
+                csapp2ba2.Items.Add("FF Evan Fisher");
+                csapp2ba2.Items.Add("FF Alex Hallam");
+                csapp2ba2.Items.Add("FF Martin Harding");
+                csapp2ba2.Items.Add("FF Simon Marks");
+                csapp2ba2.Items.Add("FF Peter Murphy");
+                csapp2ba2.Items.Add("FF Phil Walmsley");
+                csapp2ba2.Items.Add("FF Steve Wilson");
+                csapp2ba2.Items.Add("FF John Wolfe");
+                csapp2ba2.Items.Add("FF Mark Harris");
+                csapp2ba2.Items.Add("FF Steve Clement");
+                csapp2ba2.Items.Add("FF Christine Fisher");
+                csapp2ba2.Items.Add("FF Mark Goldsmith");
+                csapp2ba2.Items.Add("FF Paul Langford");
+                csapp2ba2.Items.Add("FF Shaun Maccoll");
+                csapp2ba2.Items.Add("FF Drew Scott");
+                csapp2ba2.Items.Add("FF Jo Shippey");
+                csapp2ba2.Items.Add("FF Myles Strickland");
+                csapp2ba2.Items.Add("FF Ross Turner");
+                csapp2ba2.Items.Add("FF Richard Gethin");
+                csapp2ba2.Items.Add("FF Chelsey Bailey");
+                csapp2ba2.Items.Add("FF Callum Hodgkin");
+                csapp2ba2.Items.Add("FF Ben Anstee");
+                csapp2ba2.Items.Add("FF Tom Barratt");
+                csapp2ba2.Items.Add("FF Jonathan Cowling");
+                csapp2ba2.Items.Add("FF Andrew Ellington");
+                csapp2ba2.Items.Add("FF Cameron Mathews");
+                csapp2ba2.Items.Add("FF Dominic Mould");
+                csapp2ba2.Items.Add("FF Dave Oura");
+                csapp2ba2.Items.Add("FF George White");
+                csapp2ba2.Items.Add("FF Jasper Vidot");
+                csapp2ba2.Items.Add("FF Richard Petch");
+                csapp2ba2.Items.Add("FF Rik Green");
+                csapp2ba2.Items.Add("FF Ali Thompson");
+                csapp2ba2.Items.Add("FF Dale Allen");
+                csapp2ba2.Items.Add("FF Hannah Archdeacon");
+                csapp2ba2.Items.Add("FF Ed Bailey");
+                csapp2ba2.Items.Add("FF Nick Brown");
+                csapp2ba2.Items.Add("FF Jon Diver");
+                csapp2ba2.Items.Add("FF Dan Foster");
+                csapp2ba2.Items.Add("FF Phil Hyland");
+                csapp2ba2.Items.Add("FF Paul Joy");
+                csapp2ba2.Items.Add("FF Neil Kerr");
+                csapp2ba2.Items.Add("FF Harry Storton");
+                csapp2ba2.Items.Add("FF Sam Gartside");
+                csapp2ba2.Items.Add("FF Peter Cram");
+                //ECO
+                csapp2eco.Items.Add("WC Richard Powell");
+                csapp2eco.Items.Add("WC Rob Foreman");
+                csapp2eco.Items.Add("WC Tony Burton");
+                csapp2eco.Items.Add("WC Simon Muir");
+                csapp2eco.Items.Add("CC Jason Leach");
+                csapp2eco.Items.Add("CC Jon Smith");
+                csapp2eco.Items.Add("CC Steve O'Brien");
+                csapp2eco.Items.Add("CC Karl jarvis");
+                csapp2eco.Items.Add("CC Jon Blowyer");
+                csapp2eco.Items.Add("CC Scott Newbon");
+                csapp2eco.Items.Add("CC Ben Leigh-Brown");
+                csapp2eco.Items.Add("CC Stephen Griffiths");
+                csapp2eco.Items.Add("CC Scott Fretwell");
+                csapp2eco.Items.Add("CC Paul Stephens");
+                csapp2eco.Items.Add("CC Mark Coupar");
+                csapp2eco.Items.Add("CC Adam King");
+                csapp2eco.Items.Add("FF Lee Beard");
+                csapp2eco.Items.Add("FF Jed Cole");
+                csapp2eco.Items.Add("FF Guy Austin");
+                csapp2eco.Items.Add("FF Evan Fisher");
+                csapp2eco.Items.Add("FF Alex Hallam");
+                csapp2eco.Items.Add("FF Martin Harding");
+                csapp2eco.Items.Add("FF Simon Marks");
+                csapp2eco.Items.Add("FF Peter Murphy");
+                csapp2eco.Items.Add("FF Phil Walmsley");
+                csapp2eco.Items.Add("FF Steve Wilson");
+                csapp2eco.Items.Add("FF John Wolfe");
+                csapp2eco.Items.Add("FF Mark Harris");
+                csapp2eco.Items.Add("FF Steve Clement");
+                csapp2eco.Items.Add("FF Christine Fisher");
+                csapp2eco.Items.Add("FF Mark Goldsmith");
+                csapp2eco.Items.Add("FF Paul Langford");
+                csapp2eco.Items.Add("FF Shaun Maccoll");
+                csapp2eco.Items.Add("FF Drew Scott");
+                csapp2eco.Items.Add("FF Jo Shippey");
+                csapp2eco.Items.Add("FF Myles Strickland");
+                csapp2eco.Items.Add("FF Ross Turner");
+                csapp2eco.Items.Add("FF Richard Gethin");
+                csapp2eco.Items.Add("FF Chelsey Bailey");
+                csapp2eco.Items.Add("FF Callum Hodgkin");
+                csapp2eco.Items.Add("FF Ben Anstee");
+                csapp2eco.Items.Add("FF Tom Barratt");
+                csapp2eco.Items.Add("FF Jonathan Cowling");
+                csapp2eco.Items.Add("FF Andrew Ellington");
+                csapp2eco.Items.Add("FF Cameron Mathews");
+                csapp2eco.Items.Add("FF Dominic Mould");
+                csapp2eco.Items.Add("FF Dave Oura");
+                csapp2eco.Items.Add("FF George White");
+                csapp2eco.Items.Add("FF Jasper Vidot");
+                csapp2eco.Items.Add("FF Richard Petch");
+                csapp2eco.Items.Add("FF Rik Green");
+                csapp2eco.Items.Add("FF Ali Thompson");
+                csapp2eco.Items.Add("FF Dale Allen");
+                csapp2eco.Items.Add("FF Hannah Archdeacon");
+                csapp2eco.Items.Add("FF Ed Bailey");
+                csapp2eco.Items.Add("FF Nick Brown");
+                csapp2eco.Items.Add("FF Jon Diver");
+                csapp2eco.Items.Add("FF Dan Foster");
+                csapp2eco.Items.Add("FF Phil Hyland");
+                csapp2eco.Items.Add("FF Paul Joy");
+                csapp2eco.Items.Add("FF Neil Kerr");
+                csapp2eco.Items.Add("FF Harry Storton");
+                csapp2eco.Items.Add("FF Sam Gartside");
+                csapp2eco.Items.Add("FF Peter Cram");
+                //6
+                csapp26.Items.Add("WC Richard Powell");
+                csapp26.Items.Add("WC Rob Foreman");
+                csapp26.Items.Add("WC Tony Burton");
+                csapp26.Items.Add("WC Simon Muir");
+                csapp26.Items.Add("CC Jason Leach");
+                csapp26.Items.Add("CC Jon Smith");
+                csapp26.Items.Add("CC Steve O'Brien");
+                csapp26.Items.Add("CC Karl jarvis");
+                csapp26.Items.Add("CC Jon Blowyer");
+                csapp26.Items.Add("CC Scott Newbon");
+                csapp26.Items.Add("CC Ben Leigh-Brown");
+                csapp26.Items.Add("CC Stephen Griffiths");
+                csapp26.Items.Add("CC Scott Fretwell");
+                csapp26.Items.Add("CC Paul Stephens");
+                csapp26.Items.Add("CC Mark Coupar");
+                csapp26.Items.Add("CC Adam King");
+                csapp26.Items.Add("FF Lee Beard");
+                csapp26.Items.Add("FF Jed Cole");
+                csapp26.Items.Add("FF Guy Austin");
+                csapp26.Items.Add("FF Evan Fisher");
+                csapp26.Items.Add("FF Alex Hallam");
+                csapp26.Items.Add("FF Martin Harding");
+                csapp26.Items.Add("FF Simon Marks");
+                csapp26.Items.Add("FF Peter Murphy");
+                csapp26.Items.Add("FF Phil Walmsley");
+                csapp26.Items.Add("FF Steve Wilson");
+                csapp26.Items.Add("FF John Wolfe");
+                csapp26.Items.Add("FF Mark Harris");
+                csapp26.Items.Add("FF Steve Clement");
+                csapp26.Items.Add("FF Christine Fisher");
+                csapp26.Items.Add("FF Mark Goldsmith");
+                csapp26.Items.Add("FF Paul Langford");
+                csapp26.Items.Add("FF Shaun Maccoll");
+                csapp26.Items.Add("FF Drew Scott");
+                csapp26.Items.Add("FF Jo Shippey");
+                csapp26.Items.Add("FF Myles Strickland");
+                csapp26.Items.Add("FF Ross Turner");
+                csapp26.Items.Add("FF Richard Gethin");
+                csapp26.Items.Add("FF Chelsey Bailey");
+                csapp26.Items.Add("FF Callum Hodgkin");
+                csapp26.Items.Add("FF Ben Anstee");
+                csapp26.Items.Add("FF Tom Barratt");
+                csapp26.Items.Add("FF Jonathan Cowling");
+                csapp26.Items.Add("FF Andrew Ellington");
+                csapp26.Items.Add("FF Cameron Mathews");
+                csapp26.Items.Add("FF Dominic Mould");
+                csapp26.Items.Add("FF Dave Oura");
+                csapp26.Items.Add("FF George White");
+                csapp26.Items.Add("FF Jasper Vidot");
+                csapp26.Items.Add("FF Richard Petch");
+                csapp26.Items.Add("FF Rik Green");
+                csapp26.Items.Add("FF Ali Thompson");
+                csapp26.Items.Add("FF Dale Allen");
+                csapp26.Items.Add("FF Hannah Archdeacon");
+                csapp26.Items.Add("FF Ed Bailey");
+                csapp26.Items.Add("FF Nick Brown");
+                csapp26.Items.Add("FF Jon Diver");
+                csapp26.Items.Add("FF Dan Foster");
+                csapp26.Items.Add("FF Phil Hyland");
+                csapp26.Items.Add("FF Paul Joy");
+                csapp26.Items.Add("FF Neil Kerr");
+                csapp26.Items.Add("FF Harry Storton");
+                csapp26.Items.Add("FF Sam Gartside");
+                csapp26.Items.Add("FF Peter Cram");
+            }
+            else if (csapp2.Text == "C01P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Richard Powell");
+                csapp2oic.Items.Add("WC Rob Foreman");
+                csapp2oic.Items.Add("WC Tony Burton");
+                csapp2oic.Items.Add("WC Simon Muir");
+                csapp2oic.Items.Add("CC Jason Leach");
+                csapp2oic.Items.Add("CC Jon Smith");
+                csapp2oic.Items.Add("CC Steve O'Brien");
+                csapp2oic.Items.Add("CC Karl jarvis");
+                csapp2oic.Items.Add("CC Jon Blowyer");
+                csapp2oic.Items.Add("CC Scott Newbon");
+                csapp2oic.Items.Add("CC Ben Leigh-Brown");
+                csapp2oic.Items.Add("CC Stephen Griffiths");
+                csapp2oic.Items.Add("CC Scott Fretwell");
+                csapp2oic.Items.Add("CC Paul Stephens");
+                csapp2oic.Items.Add("CC Mark Coupar");
+                csapp2oic.Items.Add("CC Adam King");
+                csapp2oic.Items.Add("FF Lee Beard");
+                csapp2oic.Items.Add("FF Jed Cole");
+                csapp2oic.Items.Add("FF Guy Austin");
+                csapp2oic.Items.Add("FF Evan Fisher");
+                csapp2oic.Items.Add("FF Alex Hallam");
+                csapp2oic.Items.Add("FF Martin Harding");
+                csapp2oic.Items.Add("FF Simon Marks");
+                csapp2oic.Items.Add("FF Peter Murphy");
+                csapp2oic.Items.Add("FF Phil Walmsley");
+                csapp2oic.Items.Add("FF Steve Wilson");
+                csapp2oic.Items.Add("FF John Wolfe");
+                csapp2oic.Items.Add("FF Mark Harris");
+                csapp2oic.Items.Add("FF Steve Clement");
+                csapp2oic.Items.Add("FF Christine Fisher");
+                csapp2oic.Items.Add("FF Mark Goldsmith");
+                csapp2oic.Items.Add("FF Paul Langford");
+                csapp2oic.Items.Add("FF Shaun Maccoll");
+                csapp2oic.Items.Add("FF Drew Scott");
+                csapp2oic.Items.Add("FF Jo Shippey");
+                csapp2oic.Items.Add("FF Myles Strickland");
+                csapp2oic.Items.Add("FF Ross Turner");
+                csapp2oic.Items.Add("FF Richard Gethin");
+                csapp2oic.Items.Add("FF Chelsey Bailey");
+                csapp2oic.Items.Add("FF Callum Hodgkin");
+                csapp2oic.Items.Add("FF Ben Anstee");
+                csapp2oic.Items.Add("FF Tom Barratt");
+                csapp2oic.Items.Add("FF Jonathan Cowling");
+                csapp2oic.Items.Add("FF Andrew Ellington");
+                csapp2oic.Items.Add("FF Cameron Mathews");
+                csapp2oic.Items.Add("FF Dominic Mould");
+                csapp2oic.Items.Add("FF Dave Oura");
+                csapp2oic.Items.Add("FF George White");
+                csapp2oic.Items.Add("FF Jasper Vidot");
+                csapp2oic.Items.Add("FF Richard Petch");
+                csapp2oic.Items.Add("FF Rik Green");
+                csapp2oic.Items.Add("FF Ali Thompson");
+                csapp2oic.Items.Add("FF Dale Allen");
+                csapp2oic.Items.Add("FF Hannah Archdeacon");
+                csapp2oic.Items.Add("FF Ed Bailey");
+                csapp2oic.Items.Add("FF Nick Brown");
+                csapp2oic.Items.Add("FF Jon Diver");
+                csapp2oic.Items.Add("FF Dan Foster");
+                csapp2oic.Items.Add("FF Phil Hyland");
+                csapp2oic.Items.Add("FF Paul Joy");
+                csapp2oic.Items.Add("FF Neil Kerr");
+                csapp2oic.Items.Add("FF Harry Storton");
+                csapp2oic.Items.Add("FF Sam Gartside");
+                csapp2oic.Items.Add("FF Peter Cram");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Richard Powell");
+                csapp2driver.Items.Add("WC Rob Foreman");
+                csapp2driver.Items.Add("WC Tony Burton");
+                csapp2driver.Items.Add("WC Simon Muir");
+                csapp2driver.Items.Add("CC Jason Leach");
+                csapp2driver.Items.Add("CC Jon Smith");
+                csapp2driver.Items.Add("CC Steve O'Brien");
+                csapp2driver.Items.Add("CC Karl jarvis");
+                csapp2driver.Items.Add("CC Jon Blowyer");
+                csapp2driver.Items.Add("CC Scott Newbon");
+                csapp2driver.Items.Add("CC Ben Leigh-Brown");
+                csapp2driver.Items.Add("CC Stephen Griffiths");
+                csapp2driver.Items.Add("CC Scott Fretwell");
+                csapp2driver.Items.Add("CC Paul Stephens");
+                csapp2driver.Items.Add("CC Mark Coupar");
+                csapp2driver.Items.Add("CC Adam King");
+                csapp2driver.Items.Add("FF Lee Beard");
+                csapp2driver.Items.Add("FF Jed Cole");
+                csapp2driver.Items.Add("FF Guy Austin");
+                csapp2driver.Items.Add("FF Evan Fisher");
+                csapp2driver.Items.Add("FF Alex Hallam");
+                csapp2driver.Items.Add("FF Martin Harding");
+                csapp2driver.Items.Add("FF Simon Marks");
+                csapp2driver.Items.Add("FF Peter Murphy");
+                csapp2driver.Items.Add("FF Phil Walmsley");
+                csapp2driver.Items.Add("FF Steve Wilson");
+                csapp2driver.Items.Add("FF John Wolfe");
+                csapp2driver.Items.Add("FF Mark Harris");
+                csapp2driver.Items.Add("FF Steve Clement");
+                csapp2driver.Items.Add("FF Christine Fisher");
+                csapp2driver.Items.Add("FF Mark Goldsmith");
+                csapp2driver.Items.Add("FF Paul Langford");
+                csapp2driver.Items.Add("FF Shaun Maccoll");
+                csapp2driver.Items.Add("FF Drew Scott");
+                csapp2driver.Items.Add("FF Jo Shippey");
+                csapp2driver.Items.Add("FF Myles Strickland");
+                csapp2driver.Items.Add("FF Ross Turner");
+                csapp2driver.Items.Add("FF Richard Gethin");
+                csapp2driver.Items.Add("FF Chelsey Bailey");
+                csapp2driver.Items.Add("FF Callum Hodgkin");
+                csapp2driver.Items.Add("FF Ben Anstee");
+                csapp2driver.Items.Add("FF Tom Barratt");
+                csapp2driver.Items.Add("FF Jonathan Cowling");
+                csapp2driver.Items.Add("FF Andrew Ellington");
+                csapp2driver.Items.Add("FF Cameron Mathews");
+                csapp2driver.Items.Add("FF Dominic Mould");
+                csapp2driver.Items.Add("FF Dave Oura");
+                csapp2driver.Items.Add("FF George White");
+                csapp2driver.Items.Add("FF Jasper Vidot");
+                csapp2driver.Items.Add("FF Richard Petch");
+                csapp2driver.Items.Add("FF Rik Green");
+                csapp2driver.Items.Add("FF Ali Thompson");
+                csapp2driver.Items.Add("FF Dale Allen");
+                csapp2driver.Items.Add("FF Hannah Archdeacon");
+                csapp2driver.Items.Add("FF Ed Bailey");
+                csapp2driver.Items.Add("FF Nick Brown");
+                csapp2driver.Items.Add("FF Jon Diver");
+                csapp2driver.Items.Add("FF Dan Foster");
+                csapp2driver.Items.Add("FF Phil Hyland");
+                csapp2driver.Items.Add("FF Paul Joy");
+                csapp2driver.Items.Add("FF Neil Kerr");
+                csapp2driver.Items.Add("FF Harry Storton");
+                csapp2driver.Items.Add("FF Sam Gartside");
+                csapp2driver.Items.Add("FF Peter Cram");
+                //BA1
+                csapp2ba1.Items.Add("WC Richard Powell");
+                csapp2ba1.Items.Add("WC Rob Foreman");
+                csapp2ba1.Items.Add("WC Tony Burton");
+                csapp2ba1.Items.Add("WC Simon Muir");
+                csapp2ba1.Items.Add("CC Jason Leach");
+                csapp2ba1.Items.Add("CC Jon Smith");
+                csapp2ba1.Items.Add("CC Steve O'Brien");
+                csapp2ba1.Items.Add("CC Karl jarvis");
+                csapp2ba1.Items.Add("CC Jon Blowyer");
+                csapp2ba1.Items.Add("CC Scott Newbon");
+                csapp2ba1.Items.Add("CC Ben Leigh-Brown");
+                csapp2ba1.Items.Add("CC Stephen Griffiths");
+                csapp2ba1.Items.Add("CC Scott Fretwell");
+                csapp2ba1.Items.Add("CC Paul Stephens");
+                csapp2ba1.Items.Add("CC Mark Coupar");
+                csapp2ba1.Items.Add("CC Adam King");
+                csapp2ba1.Items.Add("FF Lee Beard");
+                csapp2ba1.Items.Add("FF Jed Cole");
+                csapp2ba1.Items.Add("FF Guy Austin");
+                csapp2ba1.Items.Add("FF Evan Fisher");
+                csapp2ba1.Items.Add("FF Alex Hallam");
+                csapp2ba1.Items.Add("FF Martin Harding");
+                csapp2ba1.Items.Add("FF Simon Marks");
+                csapp2ba1.Items.Add("FF Peter Murphy");
+                csapp2ba1.Items.Add("FF Phil Walmsley");
+                csapp2ba1.Items.Add("FF Steve Wilson");
+                csapp2ba1.Items.Add("FF John Wolfe");
+                csapp2ba1.Items.Add("FF Mark Harris");
+                csapp2ba1.Items.Add("FF Steve Clement");
+                csapp2ba1.Items.Add("FF Christine Fisher");
+                csapp2ba1.Items.Add("FF Mark Goldsmith");
+                csapp2ba1.Items.Add("FF Paul Langford");
+                csapp2ba1.Items.Add("FF Shaun Maccoll");
+                csapp2ba1.Items.Add("FF Drew Scott");
+                csapp2ba1.Items.Add("FF Jo Shippey");
+                csapp2ba1.Items.Add("FF Myles Strickland");
+                csapp2ba1.Items.Add("FF Ross Turner");
+                csapp2ba1.Items.Add("FF Richard Gethin");
+                csapp2ba1.Items.Add("FF Chelsey Bailey");
+                csapp2ba1.Items.Add("FF Callum Hodgkin");
+                csapp2ba1.Items.Add("FF Ben Anstee");
+                csapp2ba1.Items.Add("FF Tom Barratt");
+                csapp2ba1.Items.Add("FF Jonathan Cowling");
+                csapp2ba1.Items.Add("FF Andrew Ellington");
+                csapp2ba1.Items.Add("FF Cameron Mathews");
+                csapp2ba1.Items.Add("FF Dominic Mould");
+                csapp2ba1.Items.Add("FF Dave Oura");
+                csapp2ba1.Items.Add("FF George White");
+                csapp2ba1.Items.Add("FF Jasper Vidot");
+                csapp2ba1.Items.Add("FF Richard Petch");
+                csapp2ba1.Items.Add("FF Rik Green");
+                csapp2ba1.Items.Add("FF Ali Thompson");
+                csapp2ba1.Items.Add("FF Dale Allen");
+                csapp2ba1.Items.Add("FF Hannah Archdeacon");
+                csapp2ba1.Items.Add("FF Ed Bailey");
+                csapp2ba1.Items.Add("FF Nick Brown");
+                csapp2ba1.Items.Add("FF Jon Diver");
+                csapp2ba1.Items.Add("FF Dan Foster");
+                csapp2ba1.Items.Add("FF Phil Hyland");
+                csapp2ba1.Items.Add("FF Paul Joy");
+                csapp2ba1.Items.Add("FF Neil Kerr");
+                csapp2ba1.Items.Add("FF Harry Storton");
+                csapp2ba1.Items.Add("FF Sam Gartside");
+                csapp2ba1.Items.Add("FF Peter Cram");
+                //BA2
+                csapp2ba2.Items.Add("WC Richard Powell");
+                csapp2ba2.Items.Add("WC Rob Foreman");
+                csapp2ba2.Items.Add("WC Tony Burton");
+                csapp2ba2.Items.Add("WC Simon Muir");
+                csapp2ba2.Items.Add("CC Jason Leach");
+                csapp2ba2.Items.Add("CC Jon Smith");
+                csapp2ba2.Items.Add("CC Steve O'Brien");
+                csapp2ba2.Items.Add("CC Karl jarvis");
+                csapp2ba2.Items.Add("CC Jon Blowyer");
+                csapp2ba2.Items.Add("CC Scott Newbon");
+                csapp2ba2.Items.Add("CC Ben Leigh-Brown");
+                csapp2ba2.Items.Add("CC Stephen Griffiths");
+                csapp2ba2.Items.Add("CC Scott Fretwell");
+                csapp2ba2.Items.Add("CC Paul Stephens");
+                csapp2ba2.Items.Add("CC Mark Coupar");
+                csapp2ba2.Items.Add("CC Adam King");
+                csapp2ba2.Items.Add("FF Lee Beard");
+                csapp2ba2.Items.Add("FF Jed Cole");
+                csapp2ba2.Items.Add("FF Guy Austin");
+                csapp2ba2.Items.Add("FF Evan Fisher");
+                csapp2ba2.Items.Add("FF Alex Hallam");
+                csapp2ba2.Items.Add("FF Martin Harding");
+                csapp2ba2.Items.Add("FF Simon Marks");
+                csapp2ba2.Items.Add("FF Peter Murphy");
+                csapp2ba2.Items.Add("FF Phil Walmsley");
+                csapp2ba2.Items.Add("FF Steve Wilson");
+                csapp2ba2.Items.Add("FF John Wolfe");
+                csapp2ba2.Items.Add("FF Mark Harris");
+                csapp2ba2.Items.Add("FF Steve Clement");
+                csapp2ba2.Items.Add("FF Christine Fisher");
+                csapp2ba2.Items.Add("FF Mark Goldsmith");
+                csapp2ba2.Items.Add("FF Paul Langford");
+                csapp2ba2.Items.Add("FF Shaun Maccoll");
+                csapp2ba2.Items.Add("FF Drew Scott");
+                csapp2ba2.Items.Add("FF Jo Shippey");
+                csapp2ba2.Items.Add("FF Myles Strickland");
+                csapp2ba2.Items.Add("FF Ross Turner");
+                csapp2ba2.Items.Add("FF Richard Gethin");
+                csapp2ba2.Items.Add("FF Chelsey Bailey");
+                csapp2ba2.Items.Add("FF Callum Hodgkin");
+                csapp2ba2.Items.Add("FF Ben Anstee");
+                csapp2ba2.Items.Add("FF Tom Barratt");
+                csapp2ba2.Items.Add("FF Jonathan Cowling");
+                csapp2ba2.Items.Add("FF Andrew Ellington");
+                csapp2ba2.Items.Add("FF Cameron Mathews");
+                csapp2ba2.Items.Add("FF Dominic Mould");
+                csapp2ba2.Items.Add("FF Dave Oura");
+                csapp2ba2.Items.Add("FF George White");
+                csapp2ba2.Items.Add("FF Jasper Vidot");
+                csapp2ba2.Items.Add("FF Richard Petch");
+                csapp2ba2.Items.Add("FF Rik Green");
+                csapp2ba2.Items.Add("FF Ali Thompson");
+                csapp2ba2.Items.Add("FF Dale Allen");
+                csapp2ba2.Items.Add("FF Hannah Archdeacon");
+                csapp2ba2.Items.Add("FF Ed Bailey");
+                csapp2ba2.Items.Add("FF Nick Brown");
+                csapp2ba2.Items.Add("FF Jon Diver");
+                csapp2ba2.Items.Add("FF Dan Foster");
+                csapp2ba2.Items.Add("FF Phil Hyland");
+                csapp2ba2.Items.Add("FF Paul Joy");
+                csapp2ba2.Items.Add("FF Neil Kerr");
+                csapp2ba2.Items.Add("FF Harry Storton");
+                csapp2ba2.Items.Add("FF Sam Gartside");
+                csapp2ba2.Items.Add("FF Peter Cram");
+                //ECO
+                csapp2eco.Items.Add("WC Richard Powell");
+                csapp2eco.Items.Add("WC Rob Foreman");
+                csapp2eco.Items.Add("WC Tony Burton");
+                csapp2eco.Items.Add("WC Simon Muir");
+                csapp2eco.Items.Add("CC Jason Leach");
+                csapp2eco.Items.Add("CC Jon Smith");
+                csapp2eco.Items.Add("CC Steve O'Brien");
+                csapp2eco.Items.Add("CC Karl jarvis");
+                csapp2eco.Items.Add("CC Jon Blowyer");
+                csapp2eco.Items.Add("CC Scott Newbon");
+                csapp2eco.Items.Add("CC Ben Leigh-Brown");
+                csapp2eco.Items.Add("CC Stephen Griffiths");
+                csapp2eco.Items.Add("CC Scott Fretwell");
+                csapp2eco.Items.Add("CC Paul Stephens");
+                csapp2eco.Items.Add("CC Mark Coupar");
+                csapp2eco.Items.Add("CC Adam King");
+                csapp2eco.Items.Add("FF Lee Beard");
+                csapp2eco.Items.Add("FF Jed Cole");
+                csapp2eco.Items.Add("FF Guy Austin");
+                csapp2eco.Items.Add("FF Evan Fisher");
+                csapp2eco.Items.Add("FF Alex Hallam");
+                csapp2eco.Items.Add("FF Martin Harding");
+                csapp2eco.Items.Add("FF Simon Marks");
+                csapp2eco.Items.Add("FF Peter Murphy");
+                csapp2eco.Items.Add("FF Phil Walmsley");
+                csapp2eco.Items.Add("FF Steve Wilson");
+                csapp2eco.Items.Add("FF John Wolfe");
+                csapp2eco.Items.Add("FF Mark Harris");
+                csapp2eco.Items.Add("FF Steve Clement");
+                csapp2eco.Items.Add("FF Christine Fisher");
+                csapp2eco.Items.Add("FF Mark Goldsmith");
+                csapp2eco.Items.Add("FF Paul Langford");
+                csapp2eco.Items.Add("FF Shaun Maccoll");
+                csapp2eco.Items.Add("FF Drew Scott");
+                csapp2eco.Items.Add("FF Jo Shippey");
+                csapp2eco.Items.Add("FF Myles Strickland");
+                csapp2eco.Items.Add("FF Ross Turner");
+                csapp2eco.Items.Add("FF Richard Gethin");
+                csapp2eco.Items.Add("FF Chelsey Bailey");
+                csapp2eco.Items.Add("FF Callum Hodgkin");
+                csapp2eco.Items.Add("FF Ben Anstee");
+                csapp2eco.Items.Add("FF Tom Barratt");
+                csapp2eco.Items.Add("FF Jonathan Cowling");
+                csapp2eco.Items.Add("FF Andrew Ellington");
+                csapp2eco.Items.Add("FF Cameron Mathews");
+                csapp2eco.Items.Add("FF Dominic Mould");
+                csapp2eco.Items.Add("FF Dave Oura");
+                csapp2eco.Items.Add("FF George White");
+                csapp2eco.Items.Add("FF Jasper Vidot");
+                csapp2eco.Items.Add("FF Richard Petch");
+                csapp2eco.Items.Add("FF Rik Green");
+                csapp2eco.Items.Add("FF Ali Thompson");
+                csapp2eco.Items.Add("FF Dale Allen");
+                csapp2eco.Items.Add("FF Hannah Archdeacon");
+                csapp2eco.Items.Add("FF Ed Bailey");
+                csapp2eco.Items.Add("FF Nick Brown");
+                csapp2eco.Items.Add("FF Jon Diver");
+                csapp2eco.Items.Add("FF Dan Foster");
+                csapp2eco.Items.Add("FF Phil Hyland");
+                csapp2eco.Items.Add("FF Paul Joy");
+                csapp2eco.Items.Add("FF Neil Kerr");
+                csapp2eco.Items.Add("FF Harry Storton");
+                csapp2eco.Items.Add("FF Sam Gartside");
+                csapp2eco.Items.Add("FF Peter Cram");
+                //6
+                csapp26.Items.Add("WC Richard Powell");
+                csapp26.Items.Add("WC Rob Foreman");
+                csapp26.Items.Add("WC Tony Burton");
+                csapp26.Items.Add("WC Simon Muir");
+                csapp26.Items.Add("CC Jason Leach");
+                csapp26.Items.Add("CC Jon Smith");
+                csapp26.Items.Add("CC Steve O'Brien");
+                csapp26.Items.Add("CC Karl jarvis");
+                csapp26.Items.Add("CC Jon Blowyer");
+                csapp26.Items.Add("CC Scott Newbon");
+                csapp26.Items.Add("CC Ben Leigh-Brown");
+                csapp26.Items.Add("CC Stephen Griffiths");
+                csapp26.Items.Add("CC Scott Fretwell");
+                csapp26.Items.Add("CC Paul Stephens");
+                csapp26.Items.Add("CC Mark Coupar");
+                csapp26.Items.Add("CC Adam King");
+                csapp26.Items.Add("FF Lee Beard");
+                csapp26.Items.Add("FF Jed Cole");
+                csapp26.Items.Add("FF Guy Austin");
+                csapp26.Items.Add("FF Evan Fisher");
+                csapp26.Items.Add("FF Alex Hallam");
+                csapp26.Items.Add("FF Martin Harding");
+                csapp26.Items.Add("FF Simon Marks");
+                csapp26.Items.Add("FF Peter Murphy");
+                csapp26.Items.Add("FF Phil Walmsley");
+                csapp26.Items.Add("FF Steve Wilson");
+                csapp26.Items.Add("FF John Wolfe");
+                csapp26.Items.Add("FF Mark Harris");
+                csapp26.Items.Add("FF Steve Clement");
+                csapp26.Items.Add("FF Christine Fisher");
+                csapp26.Items.Add("FF Mark Goldsmith");
+                csapp26.Items.Add("FF Paul Langford");
+                csapp26.Items.Add("FF Shaun Maccoll");
+                csapp26.Items.Add("FF Drew Scott");
+                csapp26.Items.Add("FF Jo Shippey");
+                csapp26.Items.Add("FF Myles Strickland");
+                csapp26.Items.Add("FF Ross Turner");
+                csapp26.Items.Add("FF Richard Gethin");
+                csapp26.Items.Add("FF Chelsey Bailey");
+                csapp26.Items.Add("FF Callum Hodgkin");
+                csapp26.Items.Add("FF Ben Anstee");
+                csapp26.Items.Add("FF Tom Barratt");
+                csapp26.Items.Add("FF Jonathan Cowling");
+                csapp26.Items.Add("FF Andrew Ellington");
+                csapp26.Items.Add("FF Cameron Mathews");
+                csapp26.Items.Add("FF Dominic Mould");
+                csapp26.Items.Add("FF Dave Oura");
+                csapp26.Items.Add("FF George White");
+                csapp26.Items.Add("FF Jasper Vidot");
+                csapp26.Items.Add("FF Richard Petch");
+                csapp26.Items.Add("FF Rik Green");
+                csapp26.Items.Add("FF Ali Thompson");
+                csapp26.Items.Add("FF Dale Allen");
+                csapp26.Items.Add("FF Hannah Archdeacon");
+                csapp26.Items.Add("FF Ed Bailey");
+                csapp26.Items.Add("FF Nick Brown");
+                csapp26.Items.Add("FF Jon Diver");
+                csapp26.Items.Add("FF Dan Foster");
+                csapp26.Items.Add("FF Phil Hyland");
+                csapp26.Items.Add("FF Paul Joy");
+                csapp26.Items.Add("FF Neil Kerr");
+                csapp26.Items.Add("FF Harry Storton");
+                csapp26.Items.Add("FF Sam Gartside");
+                csapp26.Items.Add("FF Peter Cram");
+            }
+            else if (csapp2.Text == "C01P5")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Richard Powell");
+                csapp2oic.Items.Add("WC Rob Foreman");
+                csapp2oic.Items.Add("WC Tony Burton");
+                csapp2oic.Items.Add("WC Simon Muir");
+                csapp2oic.Items.Add("CC Jason Leach");
+                csapp2oic.Items.Add("CC Jon Smith");
+                csapp2oic.Items.Add("CC Steve O'Brien");
+                csapp2oic.Items.Add("CC Karl jarvis");
+                csapp2oic.Items.Add("CC Jon Blowyer");
+                csapp2oic.Items.Add("CC Scott Newbon");
+                csapp2oic.Items.Add("CC Ben Leigh-Brown");
+                csapp2oic.Items.Add("CC Stephen Griffiths");
+                csapp2oic.Items.Add("CC Scott Fretwell");
+                csapp2oic.Items.Add("CC Paul Stephens");
+                csapp2oic.Items.Add("CC Mark Coupar");
+                csapp2oic.Items.Add("CC Adam King");
+                csapp2oic.Items.Add("FF Lee Beard");
+                csapp2oic.Items.Add("FF Jed Cole");
+                csapp2oic.Items.Add("FF Guy Austin");
+                csapp2oic.Items.Add("FF Evan Fisher");
+                csapp2oic.Items.Add("FF Alex Hallam");
+                csapp2oic.Items.Add("FF Martin Harding");
+                csapp2oic.Items.Add("FF Simon Marks");
+                csapp2oic.Items.Add("FF Peter Murphy");
+                csapp2oic.Items.Add("FF Phil Walmsley");
+                csapp2oic.Items.Add("FF Steve Wilson");
+                csapp2oic.Items.Add("FF John Wolfe");
+                csapp2oic.Items.Add("FF Mark Harris");
+                csapp2oic.Items.Add("FF Steve Clement");
+                csapp2oic.Items.Add("FF Christine Fisher");
+                csapp2oic.Items.Add("FF Mark Goldsmith");
+                csapp2oic.Items.Add("FF Paul Langford");
+                csapp2oic.Items.Add("FF Shaun Maccoll");
+                csapp2oic.Items.Add("FF Drew Scott");
+                csapp2oic.Items.Add("FF Jo Shippey");
+                csapp2oic.Items.Add("FF Myles Strickland");
+                csapp2oic.Items.Add("FF Ross Turner");
+                csapp2oic.Items.Add("FF Richard Gethin");
+                csapp2oic.Items.Add("FF Chelsey Bailey");
+                csapp2oic.Items.Add("FF Callum Hodgkin");
+                csapp2oic.Items.Add("FF Ben Anstee");
+                csapp2oic.Items.Add("FF Tom Barratt");
+                csapp2oic.Items.Add("FF Jonathan Cowling");
+                csapp2oic.Items.Add("FF Andrew Ellington");
+                csapp2oic.Items.Add("FF Cameron Mathews");
+                csapp2oic.Items.Add("FF Dominic Mould");
+                csapp2oic.Items.Add("FF Dave Oura");
+                csapp2oic.Items.Add("FF George White");
+                csapp2oic.Items.Add("FF Jasper Vidot");
+                csapp2oic.Items.Add("FF Richard Petch");
+                csapp2oic.Items.Add("FF Rik Green");
+                csapp2oic.Items.Add("FF Ali Thompson");
+                csapp2oic.Items.Add("FF Dale Allen");
+                csapp2oic.Items.Add("FF Hannah Archdeacon");
+                csapp2oic.Items.Add("FF Ed Bailey");
+                csapp2oic.Items.Add("FF Nick Brown");
+                csapp2oic.Items.Add("FF Jon Diver");
+                csapp2oic.Items.Add("FF Dan Foster");
+                csapp2oic.Items.Add("FF Phil Hyland");
+                csapp2oic.Items.Add("FF Paul Joy");
+                csapp2oic.Items.Add("FF Neil Kerr");
+                csapp2oic.Items.Add("FF Harry Storton");
+                csapp2oic.Items.Add("FF Sam Gartside");
+                csapp2oic.Items.Add("FF Peter Cram");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Richard Powell");
+                csapp2driver.Items.Add("WC Rob Foreman");
+                csapp2driver.Items.Add("WC Tony Burton");
+                csapp2driver.Items.Add("WC Simon Muir");
+                csapp2driver.Items.Add("CC Jason Leach");
+                csapp2driver.Items.Add("CC Jon Smith");
+                csapp2driver.Items.Add("CC Steve O'Brien");
+                csapp2driver.Items.Add("CC Karl jarvis");
+                csapp2driver.Items.Add("CC Jon Blowyer");
+                csapp2driver.Items.Add("CC Scott Newbon");
+                csapp2driver.Items.Add("CC Ben Leigh-Brown");
+                csapp2driver.Items.Add("CC Stephen Griffiths");
+                csapp2driver.Items.Add("CC Scott Fretwell");
+                csapp2driver.Items.Add("CC Paul Stephens");
+                csapp2driver.Items.Add("CC Mark Coupar");
+                csapp2driver.Items.Add("CC Adam King");
+                csapp2driver.Items.Add("FF Lee Beard");
+                csapp2driver.Items.Add("FF Jed Cole");
+                csapp2driver.Items.Add("FF Guy Austin");
+                csapp2driver.Items.Add("FF Evan Fisher");
+                csapp2driver.Items.Add("FF Alex Hallam");
+                csapp2driver.Items.Add("FF Martin Harding");
+                csapp2driver.Items.Add("FF Simon Marks");
+                csapp2driver.Items.Add("FF Peter Murphy");
+                csapp2driver.Items.Add("FF Phil Walmsley");
+                csapp2driver.Items.Add("FF Steve Wilson");
+                csapp2driver.Items.Add("FF John Wolfe");
+                csapp2driver.Items.Add("FF Mark Harris");
+                csapp2driver.Items.Add("FF Steve Clement");
+                csapp2driver.Items.Add("FF Christine Fisher");
+                csapp2driver.Items.Add("FF Mark Goldsmith");
+                csapp2driver.Items.Add("FF Paul Langford");
+                csapp2driver.Items.Add("FF Shaun Maccoll");
+                csapp2driver.Items.Add("FF Drew Scott");
+                csapp2driver.Items.Add("FF Jo Shippey");
+                csapp2driver.Items.Add("FF Myles Strickland");
+                csapp2driver.Items.Add("FF Ross Turner");
+                csapp2driver.Items.Add("FF Richard Gethin");
+                csapp2driver.Items.Add("FF Chelsey Bailey");
+                csapp2driver.Items.Add("FF Callum Hodgkin");
+                csapp2driver.Items.Add("FF Ben Anstee");
+                csapp2driver.Items.Add("FF Tom Barratt");
+                csapp2driver.Items.Add("FF Jonathan Cowling");
+                csapp2driver.Items.Add("FF Andrew Ellington");
+                csapp2driver.Items.Add("FF Cameron Mathews");
+                csapp2driver.Items.Add("FF Dominic Mould");
+                csapp2driver.Items.Add("FF Dave Oura");
+                csapp2driver.Items.Add("FF George White");
+                csapp2driver.Items.Add("FF Jasper Vidot");
+                csapp2driver.Items.Add("FF Richard Petch");
+                csapp2driver.Items.Add("FF Rik Green");
+                csapp2driver.Items.Add("FF Ali Thompson");
+                csapp2driver.Items.Add("FF Dale Allen");
+                csapp2driver.Items.Add("FF Hannah Archdeacon");
+                csapp2driver.Items.Add("FF Ed Bailey");
+                csapp2driver.Items.Add("FF Nick Brown");
+                csapp2driver.Items.Add("FF Jon Diver");
+                csapp2driver.Items.Add("FF Dan Foster");
+                csapp2driver.Items.Add("FF Phil Hyland");
+                csapp2driver.Items.Add("FF Paul Joy");
+                csapp2driver.Items.Add("FF Neil Kerr");
+                csapp2driver.Items.Add("FF Harry Storton");
+                csapp2driver.Items.Add("FF Sam Gartside");
+                csapp2driver.Items.Add("FF Peter Cram");
+                //BA1
+                csapp2ba1.Items.Add("WC Richard Powell");
+                csapp2ba1.Items.Add("WC Rob Foreman");
+                csapp2ba1.Items.Add("WC Tony Burton");
+                csapp2ba1.Items.Add("WC Simon Muir");
+                csapp2ba1.Items.Add("CC Jason Leach");
+                csapp2ba1.Items.Add("CC Jon Smith");
+                csapp2ba1.Items.Add("CC Steve O'Brien");
+                csapp2ba1.Items.Add("CC Karl jarvis");
+                csapp2ba1.Items.Add("CC Jon Blowyer");
+                csapp2ba1.Items.Add("CC Scott Newbon");
+                csapp2ba1.Items.Add("CC Ben Leigh-Brown");
+                csapp2ba1.Items.Add("CC Stephen Griffiths");
+                csapp2ba1.Items.Add("CC Scott Fretwell");
+                csapp2ba1.Items.Add("CC Paul Stephens");
+                csapp2ba1.Items.Add("CC Mark Coupar");
+                csapp2ba1.Items.Add("CC Adam King");
+                csapp2ba1.Items.Add("FF Lee Beard");
+                csapp2ba1.Items.Add("FF Jed Cole");
+                csapp2ba1.Items.Add("FF Guy Austin");
+                csapp2ba1.Items.Add("FF Evan Fisher");
+                csapp2ba1.Items.Add("FF Alex Hallam");
+                csapp2ba1.Items.Add("FF Martin Harding");
+                csapp2ba1.Items.Add("FF Simon Marks");
+                csapp2ba1.Items.Add("FF Peter Murphy");
+                csapp2ba1.Items.Add("FF Phil Walmsley");
+                csapp2ba1.Items.Add("FF Steve Wilson");
+                csapp2ba1.Items.Add("FF John Wolfe");
+                csapp2ba1.Items.Add("FF Mark Harris");
+                csapp2ba1.Items.Add("FF Steve Clement");
+                csapp2ba1.Items.Add("FF Christine Fisher");
+                csapp2ba1.Items.Add("FF Mark Goldsmith");
+                csapp2ba1.Items.Add("FF Paul Langford");
+                csapp2ba1.Items.Add("FF Shaun Maccoll");
+                csapp2ba1.Items.Add("FF Drew Scott");
+                csapp2ba1.Items.Add("FF Jo Shippey");
+                csapp2ba1.Items.Add("FF Myles Strickland");
+                csapp2ba1.Items.Add("FF Ross Turner");
+                csapp2ba1.Items.Add("FF Richard Gethin");
+                csapp2ba1.Items.Add("FF Chelsey Bailey");
+                csapp2ba1.Items.Add("FF Callum Hodgkin");
+                csapp2ba1.Items.Add("FF Ben Anstee");
+                csapp2ba1.Items.Add("FF Tom Barratt");
+                csapp2ba1.Items.Add("FF Jonathan Cowling");
+                csapp2ba1.Items.Add("FF Andrew Ellington");
+                csapp2ba1.Items.Add("FF Cameron Mathews");
+                csapp2ba1.Items.Add("FF Dominic Mould");
+                csapp2ba1.Items.Add("FF Dave Oura");
+                csapp2ba1.Items.Add("FF George White");
+                csapp2ba1.Items.Add("FF Jasper Vidot");
+                csapp2ba1.Items.Add("FF Richard Petch");
+                csapp2ba1.Items.Add("FF Rik Green");
+                csapp2ba1.Items.Add("FF Ali Thompson");
+                csapp2ba1.Items.Add("FF Dale Allen");
+                csapp2ba1.Items.Add("FF Hannah Archdeacon");
+                csapp2ba1.Items.Add("FF Ed Bailey");
+                csapp2ba1.Items.Add("FF Nick Brown");
+                csapp2ba1.Items.Add("FF Jon Diver");
+                csapp2ba1.Items.Add("FF Dan Foster");
+                csapp2ba1.Items.Add("FF Phil Hyland");
+                csapp2ba1.Items.Add("FF Paul Joy");
+                csapp2ba1.Items.Add("FF Neil Kerr");
+                csapp2ba1.Items.Add("FF Harry Storton");
+                csapp2ba1.Items.Add("FF Sam Gartside");
+                csapp2ba1.Items.Add("FF Peter Cram");
+                //BA2
+                csapp2ba2.Items.Add("WC Richard Powell");
+                csapp2ba2.Items.Add("WC Rob Foreman");
+                csapp2ba2.Items.Add("WC Tony Burton");
+                csapp2ba2.Items.Add("WC Simon Muir");
+                csapp2ba2.Items.Add("CC Jason Leach");
+                csapp2ba2.Items.Add("CC Jon Smith");
+                csapp2ba2.Items.Add("CC Steve O'Brien");
+                csapp2ba2.Items.Add("CC Karl jarvis");
+                csapp2ba2.Items.Add("CC Jon Blowyer");
+                csapp2ba2.Items.Add("CC Scott Newbon");
+                csapp2ba2.Items.Add("CC Ben Leigh-Brown");
+                csapp2ba2.Items.Add("CC Stephen Griffiths");
+                csapp2ba2.Items.Add("CC Scott Fretwell");
+                csapp2ba2.Items.Add("CC Paul Stephens");
+                csapp2ba2.Items.Add("CC Mark Coupar");
+                csapp2ba2.Items.Add("CC Adam King");
+                csapp2ba2.Items.Add("FF Lee Beard");
+                csapp2ba2.Items.Add("FF Jed Cole");
+                csapp2ba2.Items.Add("FF Guy Austin");
+                csapp2ba2.Items.Add("FF Evan Fisher");
+                csapp2ba2.Items.Add("FF Alex Hallam");
+                csapp2ba2.Items.Add("FF Martin Harding");
+                csapp2ba2.Items.Add("FF Simon Marks");
+                csapp2ba2.Items.Add("FF Peter Murphy");
+                csapp2ba2.Items.Add("FF Phil Walmsley");
+                csapp2ba2.Items.Add("FF Steve Wilson");
+                csapp2ba2.Items.Add("FF John Wolfe");
+                csapp2ba2.Items.Add("FF Mark Harris");
+                csapp2ba2.Items.Add("FF Steve Clement");
+                csapp2ba2.Items.Add("FF Christine Fisher");
+                csapp2ba2.Items.Add("FF Mark Goldsmith");
+                csapp2ba2.Items.Add("FF Paul Langford");
+                csapp2ba2.Items.Add("FF Shaun Maccoll");
+                csapp2ba2.Items.Add("FF Drew Scott");
+                csapp2ba2.Items.Add("FF Jo Shippey");
+                csapp2ba2.Items.Add("FF Myles Strickland");
+                csapp2ba2.Items.Add("FF Ross Turner");
+                csapp2ba2.Items.Add("FF Richard Gethin");
+                csapp2ba2.Items.Add("FF Chelsey Bailey");
+                csapp2ba2.Items.Add("FF Callum Hodgkin");
+                csapp2ba2.Items.Add("FF Ben Anstee");
+                csapp2ba2.Items.Add("FF Tom Barratt");
+                csapp2ba2.Items.Add("FF Jonathan Cowling");
+                csapp2ba2.Items.Add("FF Andrew Ellington");
+                csapp2ba2.Items.Add("FF Cameron Mathews");
+                csapp2ba2.Items.Add("FF Dominic Mould");
+                csapp2ba2.Items.Add("FF Dave Oura");
+                csapp2ba2.Items.Add("FF George White");
+                csapp2ba2.Items.Add("FF Jasper Vidot");
+                csapp2ba2.Items.Add("FF Richard Petch");
+                csapp2ba2.Items.Add("FF Rik Green");
+                csapp2ba2.Items.Add("FF Ali Thompson");
+                csapp2ba2.Items.Add("FF Dale Allen");
+                csapp2ba2.Items.Add("FF Hannah Archdeacon");
+                csapp2ba2.Items.Add("FF Ed Bailey");
+                csapp2ba2.Items.Add("FF Nick Brown");
+                csapp2ba2.Items.Add("FF Jon Diver");
+                csapp2ba2.Items.Add("FF Dan Foster");
+                csapp2ba2.Items.Add("FF Phil Hyland");
+                csapp2ba2.Items.Add("FF Paul Joy");
+                csapp2ba2.Items.Add("FF Neil Kerr");
+                csapp2ba2.Items.Add("FF Harry Storton");
+                csapp2ba2.Items.Add("FF Sam Gartside");
+                csapp2ba2.Items.Add("FF Peter Cram");
+                //ECO
+                csapp2eco.Items.Add("WC Richard Powell");
+                csapp2eco.Items.Add("WC Rob Foreman");
+                csapp2eco.Items.Add("WC Tony Burton");
+                csapp2eco.Items.Add("WC Simon Muir");
+                csapp2eco.Items.Add("CC Jason Leach");
+                csapp2eco.Items.Add("CC Jon Smith");
+                csapp2eco.Items.Add("CC Steve O'Brien");
+                csapp2eco.Items.Add("CC Karl jarvis");
+                csapp2eco.Items.Add("CC Jon Blowyer");
+                csapp2eco.Items.Add("CC Scott Newbon");
+                csapp2eco.Items.Add("CC Ben Leigh-Brown");
+                csapp2eco.Items.Add("CC Stephen Griffiths");
+                csapp2eco.Items.Add("CC Scott Fretwell");
+                csapp2eco.Items.Add("CC Paul Stephens");
+                csapp2eco.Items.Add("CC Mark Coupar");
+                csapp2eco.Items.Add("CC Adam King");
+                csapp2eco.Items.Add("FF Lee Beard");
+                csapp2eco.Items.Add("FF Jed Cole");
+                csapp2eco.Items.Add("FF Guy Austin");
+                csapp2eco.Items.Add("FF Evan Fisher");
+                csapp2eco.Items.Add("FF Alex Hallam");
+                csapp2eco.Items.Add("FF Martin Harding");
+                csapp2eco.Items.Add("FF Simon Marks");
+                csapp2eco.Items.Add("FF Peter Murphy");
+                csapp2eco.Items.Add("FF Phil Walmsley");
+                csapp2eco.Items.Add("FF Steve Wilson");
+                csapp2eco.Items.Add("FF John Wolfe");
+                csapp2eco.Items.Add("FF Mark Harris");
+                csapp2eco.Items.Add("FF Steve Clement");
+                csapp2eco.Items.Add("FF Christine Fisher");
+                csapp2eco.Items.Add("FF Mark Goldsmith");
+                csapp2eco.Items.Add("FF Paul Langford");
+                csapp2eco.Items.Add("FF Shaun Maccoll");
+                csapp2eco.Items.Add("FF Drew Scott");
+                csapp2eco.Items.Add("FF Jo Shippey");
+                csapp2eco.Items.Add("FF Myles Strickland");
+                csapp2eco.Items.Add("FF Ross Turner");
+                csapp2eco.Items.Add("FF Richard Gethin");
+                csapp2eco.Items.Add("FF Chelsey Bailey");
+                csapp2eco.Items.Add("FF Callum Hodgkin");
+                csapp2eco.Items.Add("FF Ben Anstee");
+                csapp2eco.Items.Add("FF Tom Barratt");
+                csapp2eco.Items.Add("FF Jonathan Cowling");
+                csapp2eco.Items.Add("FF Andrew Ellington");
+                csapp2eco.Items.Add("FF Cameron Mathews");
+                csapp2eco.Items.Add("FF Dominic Mould");
+                csapp2eco.Items.Add("FF Dave Oura");
+                csapp2eco.Items.Add("FF George White");
+                csapp2eco.Items.Add("FF Jasper Vidot");
+                csapp2eco.Items.Add("FF Richard Petch");
+                csapp2eco.Items.Add("FF Rik Green");
+                csapp2eco.Items.Add("FF Ali Thompson");
+                csapp2eco.Items.Add("FF Dale Allen");
+                csapp2eco.Items.Add("FF Hannah Archdeacon");
+                csapp2eco.Items.Add("FF Ed Bailey");
+                csapp2eco.Items.Add("FF Nick Brown");
+                csapp2eco.Items.Add("FF Jon Diver");
+                csapp2eco.Items.Add("FF Dan Foster");
+                csapp2eco.Items.Add("FF Phil Hyland");
+                csapp2eco.Items.Add("FF Paul Joy");
+                csapp2eco.Items.Add("FF Neil Kerr");
+                csapp2eco.Items.Add("FF Harry Storton");
+                csapp2eco.Items.Add("FF Sam Gartside");
+                csapp2eco.Items.Add("FF Peter Cram");
+                //6
+                csapp26.Items.Add("WC Richard Powell");
+                csapp26.Items.Add("WC Rob Foreman");
+                csapp26.Items.Add("WC Tony Burton");
+                csapp26.Items.Add("WC Simon Muir");
+                csapp26.Items.Add("CC Jason Leach");
+                csapp26.Items.Add("CC Jon Smith");
+                csapp26.Items.Add("CC Steve O'Brien");
+                csapp26.Items.Add("CC Karl jarvis");
+                csapp26.Items.Add("CC Jon Blowyer");
+                csapp26.Items.Add("CC Scott Newbon");
+                csapp26.Items.Add("CC Ben Leigh-Brown");
+                csapp26.Items.Add("CC Stephen Griffiths");
+                csapp26.Items.Add("CC Scott Fretwell");
+                csapp26.Items.Add("CC Paul Stephens");
+                csapp26.Items.Add("CC Mark Coupar");
+                csapp26.Items.Add("CC Adam King");
+                csapp26.Items.Add("FF Lee Beard");
+                csapp26.Items.Add("FF Jed Cole");
+                csapp26.Items.Add("FF Guy Austin");
+                csapp26.Items.Add("FF Evan Fisher");
+                csapp26.Items.Add("FF Alex Hallam");
+                csapp26.Items.Add("FF Martin Harding");
+                csapp26.Items.Add("FF Simon Marks");
+                csapp26.Items.Add("FF Peter Murphy");
+                csapp26.Items.Add("FF Phil Walmsley");
+                csapp26.Items.Add("FF Steve Wilson");
+                csapp26.Items.Add("FF John Wolfe");
+                csapp26.Items.Add("FF Mark Harris");
+                csapp26.Items.Add("FF Steve Clement");
+                csapp26.Items.Add("FF Christine Fisher");
+                csapp26.Items.Add("FF Mark Goldsmith");
+                csapp26.Items.Add("FF Paul Langford");
+                csapp26.Items.Add("FF Shaun Maccoll");
+                csapp26.Items.Add("FF Drew Scott");
+                csapp26.Items.Add("FF Jo Shippey");
+                csapp26.Items.Add("FF Myles Strickland");
+                csapp26.Items.Add("FF Ross Turner");
+                csapp26.Items.Add("FF Richard Gethin");
+                csapp26.Items.Add("FF Chelsey Bailey");
+                csapp26.Items.Add("FF Callum Hodgkin");
+                csapp26.Items.Add("FF Ben Anstee");
+                csapp26.Items.Add("FF Tom Barratt");
+                csapp26.Items.Add("FF Jonathan Cowling");
+                csapp26.Items.Add("FF Andrew Ellington");
+                csapp26.Items.Add("FF Cameron Mathews");
+                csapp26.Items.Add("FF Dominic Mould");
+                csapp26.Items.Add("FF Dave Oura");
+                csapp26.Items.Add("FF George White");
+                csapp26.Items.Add("FF Jasper Vidot");
+                csapp26.Items.Add("FF Richard Petch");
+                csapp26.Items.Add("FF Rik Green");
+                csapp26.Items.Add("FF Ali Thompson");
+                csapp26.Items.Add("FF Dale Allen");
+                csapp26.Items.Add("FF Hannah Archdeacon");
+                csapp26.Items.Add("FF Ed Bailey");
+                csapp26.Items.Add("FF Nick Brown");
+                csapp26.Items.Add("FF Jon Diver");
+                csapp26.Items.Add("FF Dan Foster");
+                csapp26.Items.Add("FF Phil Hyland");
+                csapp26.Items.Add("FF Paul Joy");
+                csapp26.Items.Add("FF Neil Kerr");
+                csapp26.Items.Add("FF Harry Storton");
+                csapp26.Items.Add("FF Sam Gartside");
+                csapp26.Items.Add("FF Peter Cram");
+            }
+            else if (csapp2.Text == "C23P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Mark Edgley");
+                csapp2oic.Items.Add("CC Roger Nunn");
+                csapp2oic.Items.Add("CC Paul Stephens");
+                csapp2oic.Items.Add("CC Robert Edwards");
+                csapp2oic.Items.Add("FF David Brooks");
+                csapp2oic.Items.Add("FF Kevin Carpenter");
+                csapp2oic.Items.Add("FF Alexander Crysanthou");
+                csapp2oic.Items.Add("FF Nigel James");
+                csapp2oic.Items.Add("FF Nick Mumford");
+                csapp2oic.Items.Add("FF Gary Smalley");
+                csapp2oic.Items.Add("FF Chole Housden");
+                csapp2oic.Items.Add("FF Ben Howells");
+                csapp2oic.Items.Add("FF Steve White");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Mark Edgley");
+                csapp2driver.Items.Add("CC Roger Nunn");
+                csapp2driver.Items.Add("CC Paul Stephens");
+                csapp2driver.Items.Add("CC Robert Edwards");
+                csapp2driver.Items.Add("FF David Brooks");
+                csapp2driver.Items.Add("FF Kevin Carpenter");
+                csapp2driver.Items.Add("FF Alexander Crysanthou");
+                csapp2driver.Items.Add("FF Nigel James");
+                csapp2driver.Items.Add("FF Nick Mumford");
+                csapp2driver.Items.Add("FF Gary Smalley");
+                csapp2driver.Items.Add("FF Chole Housden");
+                csapp2driver.Items.Add("FF Ben Howells");
+                csapp2driver.Items.Add("FF Steve White");
+                //BA1
+                csapp2ba1.Items.Add("WC Mark Edgley");
+                csapp2ba1.Items.Add("CC Roger Nunn");
+                csapp2ba1.Items.Add("CC Paul Stephens");
+                csapp2ba1.Items.Add("CC Robert Edwards");
+                csapp2ba1.Items.Add("FF David Brooks");
+                csapp2ba1.Items.Add("FF Kevin Carpenter");
+                csapp2ba1.Items.Add("FF Alexander Crysanthou");
+                csapp2ba1.Items.Add("FF Nigel James");
+                csapp2ba1.Items.Add("FF Nick Mumford");
+                csapp2ba1.Items.Add("FF Gary Smalley");
+                csapp2ba1.Items.Add("FF Chole Housden");
+                csapp2ba1.Items.Add("FF Ben Howells");
+                csapp2ba1.Items.Add("FF Steve White");
+                //BA2
+                csapp2ba2.Items.Add("WC Mark Edgley");
+                csapp2ba2.Items.Add("CC Roger Nunn");
+                csapp2ba2.Items.Add("CC Paul Stephens");
+                csapp2ba2.Items.Add("CC Robert Edwards");
+                csapp2ba2.Items.Add("FF David Brooks");
+                csapp2ba2.Items.Add("FF Kevin Carpenter");
+                csapp2ba2.Items.Add("FF Alexander Crysanthou");
+                csapp2ba2.Items.Add("FF Nigel James");
+                csapp2ba2.Items.Add("FF Nick Mumford");
+                csapp2ba2.Items.Add("FF Gary Smalley");
+                csapp2ba2.Items.Add("FF Chole Housden");
+                csapp2ba2.Items.Add("FF Ben Howells");
+                csapp2ba2.Items.Add("FF Steve White");
+                //ECO
+                csapp2eco.Items.Add("WC Mark Edgley");
+                csapp2eco.Items.Add("CC Roger Nunn");
+                csapp2eco.Items.Add("CC Paul Stephens");
+                csapp2eco.Items.Add("CC Robert Edwards");
+                csapp2eco.Items.Add("FF David Brooks");
+                csapp2eco.Items.Add("FF Kevin Carpenter");
+                csapp2eco.Items.Add("FF Alexander Crysanthou");
+                csapp2eco.Items.Add("FF Nigel James");
+                csapp2eco.Items.Add("FF Nick Mumford");
+                csapp2eco.Items.Add("FF Gary Smalley");
+                csapp2eco.Items.Add("FF Chole Housden");
+                csapp2eco.Items.Add("FF Ben Howells");
+                csapp2eco.Items.Add("FF Steve White");
+                //6
+                csapp26.Items.Add("WC Mark Edgley");
+                csapp26.Items.Add("CC Roger Nunn");
+                csapp26.Items.Add("CC Paul Stephens");
+                csapp26.Items.Add("CC Robert Edwards");
+                csapp26.Items.Add("FF David Brooks");
+                csapp26.Items.Add("FF Kevin Carpenter");
+                csapp26.Items.Add("FF Alexander Crysanthou");
+                csapp26.Items.Add("FF Nigel James");
+                csapp26.Items.Add("FF Nick Mumford");
+                csapp26.Items.Add("FF Gary Smalley");
+                csapp26.Items.Add("FF Chole Housden");
+                csapp26.Items.Add("FF Ben Howells");
+                csapp26.Items.Add("FF Steve White");
+            }
+            else if (csapp2.Text == "C02P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Julian Bridgeman");
+                csapp2oic.Items.Add("CC Jason Leach");
+                csapp2oic.Items.Add("CC Stephen Tibbett");
+                csapp2oic.Items.Add("FF Chris Cornell");
+                csapp2oic.Items.Add("FF Ben Anstee");
+                csapp2oic.Items.Add("FF Daniel Granger");
+                csapp2oic.Items.Add("FF Roger Pake");
+                csapp2oic.Items.Add("FF Matthew Scruby");
+                csapp2oic.Items.Add("FF Ian Grimshaw");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Julian Bridgeman");
+                csapp2driver.Items.Add("CC Jason Leach");
+                csapp2driver.Items.Add("CC Stephen Tibbett");
+                csapp2driver.Items.Add("FF Chris Cornell");
+                csapp2driver.Items.Add("FF Ben Anstee");
+                csapp2driver.Items.Add("FF Daniel Granger");
+                csapp2driver.Items.Add("FF Roger Pake");
+                csapp2driver.Items.Add("FF Matthew Scruby");
+                csapp2driver.Items.Add("FF Ian Grimshaw");
+                //BA1
+                csapp2ba1.Items.Add("WC Julian Bridgeman");
+                csapp2ba1.Items.Add("CC Jason Leach");
+                csapp2ba1.Items.Add("CC Stephen Tibbett");
+                csapp2ba1.Items.Add("FF Chris Cornell");
+                csapp2ba1.Items.Add("FF Ben Anstee");
+                csapp2ba1.Items.Add("FF Daniel Granger");
+                csapp2ba1.Items.Add("FF Roger Pake");
+                csapp2ba1.Items.Add("FF Matthew Scruby");
+                csapp2ba1.Items.Add("FF Ian Grimshaw");
+                //BA2
+                csapp2ba2.Items.Add("WC Julian Bridgeman");
+                csapp2ba2.Items.Add("CC Jason Leach");
+                csapp2ba2.Items.Add("CC Stephen Tibbett");
+                csapp2ba2.Items.Add("FF Chris Cornell");
+                csapp2ba2.Items.Add("FF Ben Anstee");
+                csapp2ba2.Items.Add("FF Daniel Granger");
+                csapp2ba2.Items.Add("FF Roger Pake");
+                csapp2ba2.Items.Add("FF Matthew Scruby");
+                csapp2ba2.Items.Add("FF Ian Grimshaw");
+                //ECO
+                csapp2eco.Items.Add("WC Julian Bridgeman");
+                csapp2eco.Items.Add("CC Jason Leach");
+                csapp2eco.Items.Add("CC Stephen Tibbett");
+                csapp2eco.Items.Add("FF Chris Cornell");
+                csapp2eco.Items.Add("FF Ben Anstee");
+                csapp2eco.Items.Add("FF Daniel Granger");
+                csapp2eco.Items.Add("FF Roger Pake");
+                csapp2eco.Items.Add("FF Matthew Scruby");
+                csapp2eco.Items.Add("FF Ian Grimshaw");
+                //6
+                csapp26.Items.Add("WC Julian Bridgeman");
+                csapp26.Items.Add("CC Jason Leach");
+                csapp26.Items.Add("CC Stephen Tibbett");
+                csapp26.Items.Add("FF Chris Cornell");
+                csapp26.Items.Add("FF Ben Anstee");
+                csapp26.Items.Add("FF Daniel Granger");
+                csapp26.Items.Add("FF Roger Pake");
+                csapp26.Items.Add("FF Matthew Scruby");
+                csapp26.Items.Add("FF Ian Grimshaw");
+            }
+            else if (csapp2.Text == "C05P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("-----DAY CREW------");
+                csapp2oic.Items.Add("WC Jim Sharp");
+                csapp2oic.Items.Add("CC Laura Barrow");
+                csapp2oic.Items.Add("FF Darren Fox");
+                csapp2oic.Items.Add("FF Jason Keel");
+                csapp2oic.Items.Add("FF Chris Parker");
+                csapp2oic.Items.Add("FF David Bainsfair");
+                csapp2oic.Items.Add("FF Calum Coomes");
+                csapp2oic.Items.Add("-----ON CALL-------");
+                csapp2oic.Items.Add("WC Wayne Pringle");
+                csapp2oic.Items.Add("CC Phil Hyland");
+                csapp2oic.Items.Add("FF Philip Benton");
+                csapp2oic.Items.Add("FF Duncan Fraser");
+                csapp2oic.Items.Add("FF Patrick Whitton");
+                csapp2oic.Items.Add("FF Nick Keymar");
+                csapp2oic.Items.Add("FF Darren Fox");
+                csapp2oic.Items.Add("FF Hannah Goodchild");
+                csapp2oic.Items.Add("FF Liam Mountford");
+                csapp2oic.Items.Add("FF Jon Wade");
+                csapp2oic.Items.Add("FF Naomi Hudson");
+                csapp2oic.Items.Add("FF Paul Hudson");
+                csapp2oic.Items.Add("FF Nick Lake");
+                csapp2oic.Items.Add("FF James Parker");
+
+                //DRIVER
+                csapp2driver.Items.Add("-----DAY CREW------");
+                csapp2driver.Items.Add("WC Jim Sharp");
+                csapp2driver.Items.Add("CC Laura Barrow");
+                csapp2driver.Items.Add("FF Darren Fox");
+                csapp2driver.Items.Add("FF Jason Keel");
+                csapp2driver.Items.Add("FF Chris Parker");
+                csapp2driver.Items.Add("FF David Bainsfair");
+                csapp2driver.Items.Add("FF Calum Coomes");
+                csapp2driver.Items.Add("-----ON CALL-------");
+                csapp2driver.Items.Add("WC Wayne Pringle");
+                csapp2driver.Items.Add("CC Phil Hyland");
+                csapp2driver.Items.Add("FF Philip Benton");
+                csapp2driver.Items.Add("FF Duncan Fraser");
+                csapp2driver.Items.Add("FF Patrick Whitton");
+                csapp2driver.Items.Add("FF Nick Keymar");
+                csapp2driver.Items.Add("FF Darren Fox");
+                csapp2driver.Items.Add("FF Hannah Goodchild");
+                csapp2driver.Items.Add("FF Liam Mountford");
+                csapp2driver.Items.Add("FF Jon Wade");
+                csapp2driver.Items.Add("FF Naomi Hudson");
+                csapp2driver.Items.Add("FF Paul Hudson");
+                csapp2driver.Items.Add("FF Nick Lake");
+                csapp2driver.Items.Add("FF James Parker");
+                //BA1
+                csapp2ba1.Items.Add("-----DAY CREW------");
+                csapp2ba1.Items.Add("WC Jim Sharp");
+                csapp2ba1.Items.Add("CC Laura Barrow");
+                csapp2ba1.Items.Add("FF Darren Fox");
+                csapp2ba1.Items.Add("FF Jason Keel");
+                csapp2ba1.Items.Add("FF Chris Parker");
+                csapp2ba1.Items.Add("FF David Bainsfair");
+                csapp2ba1.Items.Add("FF Calum Coomes");
+                csapp2ba1.Items.Add("-----ON CALL-------");
+                csapp2ba1.Items.Add("WC Wayne Pringle");
+                csapp2ba1.Items.Add("CC Phil Hyland");
+                csapp2ba1.Items.Add("FF Philip Benton");
+                csapp2ba1.Items.Add("FF Duncan Fraser");
+                csapp2ba1.Items.Add("FF Patrick Whitton");
+                csapp2ba1.Items.Add("FF Nick Keymar");
+                csapp2ba1.Items.Add("FF Darren Fox");
+                csapp2ba1.Items.Add("FF Hannah Goodchild");
+                csapp2ba1.Items.Add("FF Liam Mountford");
+                csapp2ba1.Items.Add("FF Jon Wade");
+                csapp2ba1.Items.Add("FF Naomi Hudson");
+                csapp2ba1.Items.Add("FF Paul Hudson");
+                csapp2ba1.Items.Add("FF Nick Lake");
+                csapp2ba1.Items.Add("FF James Parker");
+                //BA2
+                csapp2ba2.Items.Add("-----DAY CREW------");
+                csapp2ba2.Items.Add("WC Jim Sharp");
+                csapp2ba2.Items.Add("CC Laura Barrow");
+                csapp2ba2.Items.Add("FF Darren Fox");
+                csapp2ba2.Items.Add("FF Jason Keel");
+                csapp2ba2.Items.Add("FF Chris Parker");
+                csapp2ba2.Items.Add("FF David Bainsfair");
+                csapp2ba2.Items.Add("FF Calum Coomes");
+                csapp2ba2.Items.Add("-----ON CALL-------");
+                csapp2ba2.Items.Add("WC Wayne Pringle");
+                csapp2ba2.Items.Add("CC Phil Hyland");
+                csapp2ba2.Items.Add("FF Philip Benton");
+                csapp2ba2.Items.Add("FF Duncan Fraser");
+                csapp2ba2.Items.Add("FF Patrick Whitton");
+                csapp2ba2.Items.Add("FF Nick Keymar");
+                csapp2ba2.Items.Add("FF Darren Fox");
+                csapp2ba2.Items.Add("FF Hannah Goodchild");
+                csapp2ba2.Items.Add("FF Liam Mountford");
+                csapp2ba2.Items.Add("FF Jon Wade");
+                csapp2ba2.Items.Add("FF Naomi Hudson");
+                csapp2ba2.Items.Add("FF Paul Hudson");
+                csapp2ba2.Items.Add("FF Nick Lake");
+                csapp2ba2.Items.Add("FF James Parker");
+                //ECO
+                csapp2eco.Items.Add("-----DAY CREW------");
+                csapp2eco.Items.Add("WC Jim Sharp");
+                csapp2eco.Items.Add("CC Laura Barrow");
+                csapp2eco.Items.Add("FF Darren Fox");
+                csapp2eco.Items.Add("FF Jason Keel");
+                csapp2eco.Items.Add("FF Chris Parker");
+                csapp2eco.Items.Add("FF David Bainsfair");
+                csapp2eco.Items.Add("FF Calum Coomes");
+                csapp2eco.Items.Add("-----ON CALL-------");
+                csapp2eco.Items.Add("WC Wayne Pringle");
+                csapp2eco.Items.Add("CC Phil Hyland");
+                csapp2eco.Items.Add("FF Philip Benton");
+                csapp2eco.Items.Add("FF Duncan Fraser");
+                csapp2eco.Items.Add("FF Patrick Whitton");
+                csapp2eco.Items.Add("FF Nick Keymar");
+                csapp2eco.Items.Add("FF Darren Fox");
+                csapp2eco.Items.Add("FF Hannah Goodchild");
+                csapp2eco.Items.Add("FF Liam Mountford");
+                csapp2eco.Items.Add("FF Jon Wade");
+                csapp2eco.Items.Add("FF Naomi Hudson");
+                csapp2eco.Items.Add("FF Paul Hudson");
+                csapp2eco.Items.Add("FF Nick Lake");
+                csapp2eco.Items.Add("FF James Parker");
+                //6
+                csapp26.Items.Add("-----DAY CREW------");
+                csapp26.Items.Add("WC Jim Sharp");
+                csapp26.Items.Add("CC Laura Barrow");
+                csapp26.Items.Add("FF Darren Fox");
+                csapp26.Items.Add("FF Jason Keel");
+                csapp26.Items.Add("FF Chris Parker");
+                csapp26.Items.Add("FF David Bainsfair");
+                csapp26.Items.Add("FF Calum Coomes");
+                csapp26.Items.Add("-----ON CALL-------");
+                csapp26.Items.Add("WC Wayne Pringle");
+                csapp26.Items.Add("CC Phil Hyland");
+                csapp26.Items.Add("FF Philip Benton");
+                csapp26.Items.Add("FF Duncan Fraser");
+                csapp26.Items.Add("FF Patrick Whitton");
+                csapp26.Items.Add("FF Nick Keymar");
+                csapp26.Items.Add("FF Darren Fox");
+                csapp26.Items.Add("FF Hannah Goodchild");
+                csapp26.Items.Add("FF Liam Mountford");
+                csapp26.Items.Add("FF Jon Wade");
+                csapp26.Items.Add("FF Naomi Hudson");
+                csapp26.Items.Add("FF Paul Hudson");
+                csapp26.Items.Add("FF Nick Lake");
+                csapp26.Items.Add("FF James Parker");
+            }
+            else if (csapp2.Text == "C05P5")
+            {
+                //OIC
+                csapp2oic.Items.Add("-----DAY CREW------");
+                csapp2oic.Items.Add("WC Jim Sharp");
+                csapp2oic.Items.Add("CC Laura Barrow");
+                csapp2oic.Items.Add("FF Darren Fox");
+                csapp2oic.Items.Add("FF Jason Keel");
+                csapp2oic.Items.Add("FF Chris Parker");
+                csapp2oic.Items.Add("FF David Bainsfair");
+                csapp2oic.Items.Add("FF Calum Coomes");
+                csapp2oic.Items.Add("-----ON CALL-------");
+                csapp2oic.Items.Add("WC Wayne Pringle");
+                csapp2oic.Items.Add("CC Phil Hyland");
+                csapp2oic.Items.Add("FF Philip Benton");
+                csapp2oic.Items.Add("FF Duncan Fraser");
+                csapp2oic.Items.Add("FF Patrick Whitton");
+                csapp2oic.Items.Add("FF Nick Keymar");
+                csapp2oic.Items.Add("FF Darren Fox");
+                csapp2oic.Items.Add("FF Hannah Goodchild");
+                csapp2oic.Items.Add("FF Liam Mountford");
+                csapp2oic.Items.Add("FF Jon Wade");
+                csapp2oic.Items.Add("FF Naomi Hudson");
+                csapp2oic.Items.Add("FF Paul Hudson");
+                csapp2oic.Items.Add("FF Nick Lake");
+                csapp2oic.Items.Add("FF James Parker");
+
+                //DRIVER
+                csapp2driver.Items.Add("-----DAY CREW------");
+                csapp2driver.Items.Add("WC Jim Sharp");
+                csapp2driver.Items.Add("CC Laura Barrow");
+                csapp2driver.Items.Add("FF Darren Fox");
+                csapp2driver.Items.Add("FF Jason Keel");
+                csapp2driver.Items.Add("FF Chris Parker");
+                csapp2driver.Items.Add("FF David Bainsfair");
+                csapp2driver.Items.Add("FF Calum Coomes");
+                csapp2driver.Items.Add("-----ON CALL-------");
+                csapp2driver.Items.Add("WC Wayne Pringle");
+                csapp2driver.Items.Add("CC Phil Hyland");
+                csapp2driver.Items.Add("FF Philip Benton");
+                csapp2driver.Items.Add("FF Duncan Fraser");
+                csapp2driver.Items.Add("FF Patrick Whitton");
+                csapp2driver.Items.Add("FF Nick Keymar");
+                csapp2driver.Items.Add("FF Darren Fox");
+                csapp2driver.Items.Add("FF Hannah Goodchild");
+                csapp2driver.Items.Add("FF Liam Mountford");
+                csapp2driver.Items.Add("FF Jon Wade");
+                csapp2driver.Items.Add("FF Naomi Hudson");
+                csapp2driver.Items.Add("FF Paul Hudson");
+                csapp2driver.Items.Add("FF Nick Lake");
+                csapp2driver.Items.Add("FF James Parker");
+                //BA1
+                csapp2ba1.Items.Add("-----DAY CREW------");
+                csapp2ba1.Items.Add("WC Jim Sharp");
+                csapp2ba1.Items.Add("CC Laura Barrow");
+                csapp2ba1.Items.Add("FF Darren Fox");
+                csapp2ba1.Items.Add("FF Jason Keel");
+                csapp2ba1.Items.Add("FF Chris Parker");
+                csapp2ba1.Items.Add("FF David Bainsfair");
+                csapp2ba1.Items.Add("FF Calum Coomes");
+                csapp2ba1.Items.Add("-----ON CALL-------");
+                csapp2ba1.Items.Add("WC Wayne Pringle");
+                csapp2ba1.Items.Add("CC Phil Hyland");
+                csapp2ba1.Items.Add("FF Philip Benton");
+                csapp2ba1.Items.Add("FF Duncan Fraser");
+                csapp2ba1.Items.Add("FF Patrick Whitton");
+                csapp2ba1.Items.Add("FF Nick Keymar");
+                csapp2ba1.Items.Add("FF Darren Fox");
+                csapp2ba1.Items.Add("FF Hannah Goodchild");
+                csapp2ba1.Items.Add("FF Liam Mountford");
+                csapp2ba1.Items.Add("FF Jon Wade");
+                csapp2ba1.Items.Add("FF Naomi Hudson");
+                csapp2ba1.Items.Add("FF Paul Hudson");
+                csapp2ba1.Items.Add("FF Nick Lake");
+                csapp2ba1.Items.Add("FF James Parker");
+                //BA2
+                csapp2ba2.Items.Add("-----DAY CREW------");
+                csapp2ba2.Items.Add("WC Jim Sharp");
+                csapp2ba2.Items.Add("CC Laura Barrow");
+                csapp2ba2.Items.Add("FF Darren Fox");
+                csapp2ba2.Items.Add("FF Jason Keel");
+                csapp2ba2.Items.Add("FF Chris Parker");
+                csapp2ba2.Items.Add("FF David Bainsfair");
+                csapp2ba2.Items.Add("FF Calum Coomes");
+                csapp2ba2.Items.Add("-----ON CALL-------");
+                csapp2ba2.Items.Add("WC Wayne Pringle");
+                csapp2ba2.Items.Add("CC Phil Hyland");
+                csapp2ba2.Items.Add("FF Philip Benton");
+                csapp2ba2.Items.Add("FF Duncan Fraser");
+                csapp2ba2.Items.Add("FF Patrick Whitton");
+                csapp2ba2.Items.Add("FF Nick Keymar");
+                csapp2ba2.Items.Add("FF Darren Fox");
+                csapp2ba2.Items.Add("FF Hannah Goodchild");
+                csapp2ba2.Items.Add("FF Liam Mountford");
+                csapp2ba2.Items.Add("FF Jon Wade");
+                csapp2ba2.Items.Add("FF Naomi Hudson");
+                csapp2ba2.Items.Add("FF Paul Hudson");
+                csapp2ba2.Items.Add("FF Nick Lake");
+                csapp2ba2.Items.Add("FF James Parker");
+                //ECO
+                csapp2eco.Items.Add("-----DAY CREW------");
+                csapp2eco.Items.Add("WC Jim Sharp");
+                csapp2eco.Items.Add("CC Laura Barrow");
+                csapp2eco.Items.Add("FF Darren Fox");
+                csapp2eco.Items.Add("FF Jason Keel");
+                csapp2eco.Items.Add("FF Chris Parker");
+                csapp2eco.Items.Add("FF David Bainsfair");
+                csapp2eco.Items.Add("FF Calum Coomes");
+                csapp2eco.Items.Add("-----ON CALL-------");
+                csapp2eco.Items.Add("WC Wayne Pringle");
+                csapp2eco.Items.Add("CC Phil Hyland");
+                csapp2eco.Items.Add("FF Philip Benton");
+                csapp2eco.Items.Add("FF Duncan Fraser");
+                csapp2eco.Items.Add("FF Patrick Whitton");
+                csapp2eco.Items.Add("FF Nick Keymar");
+                csapp2eco.Items.Add("FF Darren Fox");
+                csapp2eco.Items.Add("FF Hannah Goodchild");
+                csapp2eco.Items.Add("FF Liam Mountford");
+                csapp2eco.Items.Add("FF Jon Wade");
+                csapp2eco.Items.Add("FF Naomi Hudson");
+                csapp2eco.Items.Add("FF Paul Hudson");
+                csapp2eco.Items.Add("FF Nick Lake");
+                csapp2eco.Items.Add("FF James Parker");
+                //6
+                csapp26.Items.Add("-----DAY CREW------");
+                csapp26.Items.Add("WC Jim Sharp");
+                csapp26.Items.Add("CC Laura Barrow");
+                csapp26.Items.Add("FF Darren Fox");
+                csapp26.Items.Add("FF Jason Keel");
+                csapp26.Items.Add("FF Chris Parker");
+                csapp26.Items.Add("FF David Bainsfair");
+                csapp26.Items.Add("FF Calum Coomes");
+                csapp26.Items.Add("-----ON CALL-------");
+                csapp26.Items.Add("WC Wayne Pringle");
+                csapp26.Items.Add("CC Phil Hyland");
+                csapp26.Items.Add("FF Philip Benton");
+                csapp26.Items.Add("FF Duncan Fraser");
+                csapp26.Items.Add("FF Patrick Whitton");
+                csapp26.Items.Add("FF Nick Keymar");
+                csapp26.Items.Add("FF Darren Fox");
+                csapp26.Items.Add("FF Hannah Goodchild");
+                csapp26.Items.Add("FF Liam Mountford");
+                csapp26.Items.Add("FF Jon Wade");
+                csapp26.Items.Add("FF Naomi Hudson");
+                csapp26.Items.Add("FF Paul Hudson");
+                csapp26.Items.Add("FF Nick Lake");
+                csapp26.Items.Add("FF James Parker");
+            }
+            else if (csapp2.Text == "C11P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Andrew Davis");
+                csapp2oic.Items.Add("CC Jason Gore");
+                csapp2oic.Items.Add("CC Richard petch");
+                csapp2oic.Items.Add("FF Holly Golder");
+                csapp2oic.Items.Add("FF Adam Newman");
+                csapp2oic.Items.Add("FF Kevin Hall");
+                csapp2oic.Items.Add("FF Will Stevens");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Andrew Davis");
+                csapp2driver.Items.Add("CC Jason Gore");
+                csapp2driver.Items.Add("CC Richard petch");
+                csapp2driver.Items.Add("FF Holly Golder");
+                csapp2driver.Items.Add("FF Adam Newman");
+                csapp2driver.Items.Add("FF Kevin Hall");
+                csapp2driver.Items.Add("FF Will Stevens");
+                //BA1
+                csapp2ba1.Items.Add("WC Andrew Davis");
+                csapp2ba1.Items.Add("CC Jason Gore");
+                csapp2ba1.Items.Add("CC Richard petch");
+                csapp2ba1.Items.Add("FF Holly Golder");
+                csapp2ba1.Items.Add("FF Adam Newman");
+                csapp2ba1.Items.Add("FF Kevin Hall");
+                csapp2ba1.Items.Add("FF Will Stevens");
+                //BA2
+                csapp2ba2.Items.Add("WC Andrew Davis");
+                csapp2ba2.Items.Add("CC Jason Gore");
+                csapp2ba2.Items.Add("CC Richard petch");
+                csapp2ba2.Items.Add("FF Holly Golder");
+                csapp2ba2.Items.Add("FF Adam Newman");
+                csapp2ba2.Items.Add("FF Kevin Hall");
+                csapp2ba2.Items.Add("FF Will Stevens");
+                //ECO
+                csapp2eco.Items.Add("WC Andrew Davis");
+                csapp2eco.Items.Add("CC Jason Gore");
+                csapp2eco.Items.Add("CC Richard petch");
+                csapp2eco.Items.Add("FF Holly Golder");
+                csapp2eco.Items.Add("FF Adam Newman");
+                csapp2eco.Items.Add("FF Kevin Hall");
+                csapp2eco.Items.Add("FF Will Stevens");
+                //6
+                csapp26.Items.Add("WC Andrew Davis");
+                csapp26.Items.Add("CC Jason Gore");
+                csapp26.Items.Add("CC Richard petch");
+                csapp26.Items.Add("FF Holly Golder");
+                csapp26.Items.Add("FF Adam Newman");
+                csapp26.Items.Add("FF Kevin Hall");
+                csapp26.Items.Add("FF Will Stevens");
+            }
+            else if (csapp2.Text == "C26P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Jeremy Corney");
+                csapp2oic.Items.Add("CC John Wolfe");
+                csapp2oic.Items.Add("FF Russell Gooderham");
+                csapp2oic.Items.Add("FF Stuart Cox");
+                csapp2oic.Items.Add("FF Robert Davies");
+                csapp2oic.Items.Add("FF Louise Halsall");
+                csapp2oic.Items.Add("FF Adam Woodbine");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Jeremy Corney");
+                csapp2driver.Items.Add("CC John Wolfe");
+                csapp2driver.Items.Add("FF Russell Gooderham");
+                csapp2driver.Items.Add("FF Stuart Cox");
+                csapp2driver.Items.Add("FF Robert Davies");
+                csapp2driver.Items.Add("FF Louise Halsall");
+                csapp2driver.Items.Add("FF Adam Woodbine");
+                //BA1
+                csapp2ba1.Items.Add("WC Jeremy Corney");
+                csapp2ba1.Items.Add("CC John Wolfe");
+                csapp2ba1.Items.Add("FF Russell Gooderham");
+                csapp2ba1.Items.Add("FF Stuart Cox");
+                csapp2ba1.Items.Add("FF Robert Davies");
+                csapp2ba1.Items.Add("FF Louise Halsall");
+                csapp2ba1.Items.Add("FF Adam Woodbine");
+                //BA2
+                csapp2ba2.Items.Add("WC Jeremy Corney");
+                csapp2ba2.Items.Add("CC John Wolfe");
+                csapp2ba2.Items.Add("FF Russell Gooderham");
+                csapp2ba2.Items.Add("FF Stuart Cox");
+                csapp2ba2.Items.Add("FF Robert Davies");
+                csapp2ba2.Items.Add("FF Louise Halsall");
+                csapp2ba2.Items.Add("FF Adam Woodbine");
+                //ECO
+                csapp2eco.Items.Add("WC Jeremy Corney");
+                csapp2eco.Items.Add("CC John Wolfe");
+                csapp2eco.Items.Add("FF Russell Gooderham");
+                csapp2eco.Items.Add("FF Stuart Cox");
+                csapp2eco.Items.Add("FF Robert Davies");
+                csapp2eco.Items.Add("FF Louise Halsall");
+                csapp2eco.Items.Add("FF Adam Woodbine");
+                //6
+                csapp26.Items.Add("WC Jeremy Corney");
+                csapp26.Items.Add("CC John Wolfe");
+                csapp26.Items.Add("FF Russell Gooderham");
+                csapp26.Items.Add("FF Stuart Cox");
+                csapp26.Items.Add("FF Robert Davies");
+                csapp26.Items.Add("FF Louise Halsall");
+                csapp26.Items.Add("FF Adam Woodbine");
+            }
+            else if (csapp2.Text == "C09P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Lee Allen");
+                csapp2oic.Items.Add("CC Sebastian Croot");
+                csapp2oic.Items.Add("FF Jack Anderson");
+                csapp2oic.Items.Add("FF Stephen Jackson");
+                csapp2oic.Items.Add("FF Gary Doggett");
+                csapp2oic.Items.Add("FF Alan Baker");
+                csapp2oic.Items.Add("FF John Reynolds");
+                csapp2oic.Items.Add("FF Benjamin Sams");
+                csapp2oic.Items.Add("FF Ben Walbanke-Taylor");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Lee Allen");
+                csapp2driver.Items.Add("CC Sebastian Croot");
+                csapp2driver.Items.Add("FF Jack Anderson");
+                csapp2driver.Items.Add("FF Stephen Jackson");
+                csapp2driver.Items.Add("FF Gary Doggett");
+                csapp2driver.Items.Add("FF Alan Baker");
+                csapp2driver.Items.Add("FF John Reynolds");
+                csapp2driver.Items.Add("FF Benjamin Sams");
+                csapp2driver.Items.Add("FF Ben Walbanke-Taylor");
+                //BA1
+                csapp2ba1.Items.Add("WC Lee Allen");
+                csapp2ba1.Items.Add("CC Sebastian Croot");
+                csapp2ba1.Items.Add("FF Jack Anderson");
+                csapp2ba1.Items.Add("FF Stephen Jackson");
+                csapp2ba1.Items.Add("FF Gary Doggett");
+                csapp2ba1.Items.Add("FF Alan Baker");
+                csapp2ba1.Items.Add("FF John Reynolds");
+                csapp2ba1.Items.Add("FF Benjamin Sams");
+                csapp2ba1.Items.Add("FF Ben Walbanke-Taylor");
+                //BA2
+                csapp2ba2.Items.Add("WC Lee Allen");
+                csapp2ba2.Items.Add("CC Sebastian Croot");
+                csapp2ba2.Items.Add("FF Jack Anderson");
+                csapp2ba2.Items.Add("FF Stephen Jackson");
+                csapp2ba2.Items.Add("FF Gary Doggett");
+                csapp2ba2.Items.Add("FF Alan Baker");
+                csapp2ba2.Items.Add("FF John Reynolds");
+                csapp2ba2.Items.Add("FF Benjamin Sams");
+                csapp2ba2.Items.Add("FF Ben Walbanke-Taylor");
+                //ECO
+                csapp2eco.Items.Add("WC Lee Allen");
+                csapp2eco.Items.Add("CC Sebastian Croot");
+                csapp2eco.Items.Add("FF Jack Anderson");
+                csapp2eco.Items.Add("FF Stephen Jackson");
+                csapp2eco.Items.Add("FF Gary Doggett");
+                csapp2eco.Items.Add("FF Alan Baker");
+                csapp2eco.Items.Add("FF John Reynolds");
+                csapp2eco.Items.Add("FF Benjamin Sams");
+                csapp2eco.Items.Add("FF Ben Walbanke-Taylor");
+                //6
+                csapp26.Items.Add("WC Lee Allen");
+                csapp26.Items.Add("CC Sebastian Croot");
+                csapp26.Items.Add("FF Jack Anderson");
+                csapp26.Items.Add("FF Stephen Jackson");
+                csapp26.Items.Add("FF Gary Doggett");
+                csapp26.Items.Add("FF Alan Baker");
+                csapp26.Items.Add("FF John Reynolds");
+                csapp26.Items.Add("FF Benjamin Sams");
+                csapp26.Items.Add("FF Ben Walbanke-Taylor");
+            }
+            else if (csapp2.Text == "C04P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Clive Allen");
+                csapp2oic.Items.Add("CC Paul Oakes");
+                csapp2oic.Items.Add("CC Andrew Harrison");
+                csapp2oic.Items.Add("CC Malcolm Cornwell");
+                csapp2oic.Items.Add("FF Roy Kent");
+                csapp2oic.Items.Add("FF Mark Lewis");
+                csapp2oic.Items.Add("FF Andrew Lister");
+                csapp2oic.Items.Add("FF David Murfitt");
+                csapp2oic.Items.Add("FF Adam Peacock");
+                csapp2oic.Items.Add("FF Ian Peacock");
+                csapp2oic.Items.Add("FF Andrew Boughen");
+                csapp2oic.Items.Add("FF James Sharp");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Clive Allen");
+                csapp2driver.Items.Add("CC Paul Oakes");
+                csapp2driver.Items.Add("CC Andrew Harrison");
+                csapp2driver.Items.Add("CC Malcolm Cornwell");
+                csapp2driver.Items.Add("FF Roy Kent");
+                csapp2driver.Items.Add("FF Mark Lewis");
+                csapp2driver.Items.Add("FF Andrew Lister");
+                csapp2driver.Items.Add("FF David Murfitt");
+                csapp2driver.Items.Add("FF Adam Peacock");
+                csapp2driver.Items.Add("FF Ian Peacock");
+                csapp2driver.Items.Add("FF Andrew Boughen");
+                csapp2driver.Items.Add("FF James Sharp");
+                //BA1
+                csapp2ba1.Items.Add("WC Clive Allen");
+                csapp2ba1.Items.Add("CC Paul Oakes");
+                csapp2ba1.Items.Add("CC Andrew Harrison");
+                csapp2ba1.Items.Add("CC Malcolm Cornwell");
+                csapp2ba1.Items.Add("FF Roy Kent");
+                csapp2ba1.Items.Add("FF Mark Lewis");
+                csapp2ba1.Items.Add("FF Andrew Lister");
+                csapp2ba1.Items.Add("FF David Murfitt");
+                csapp2ba1.Items.Add("FF Adam Peacock");
+                csapp2ba1.Items.Add("FF Ian Peacock");
+                csapp2ba1.Items.Add("FF Andrew Boughen");
+                csapp2ba1.Items.Add("FF James Sharp");
+                //BA2
+                csapp2ba2.Items.Add("WC Clive Allen");
+                csapp2ba2.Items.Add("CC Paul Oakes");
+                csapp2ba2.Items.Add("CC Andrew Harrison");
+                csapp2ba2.Items.Add("CC Malcolm Cornwell");
+                csapp2ba2.Items.Add("FF Roy Kent");
+                csapp2ba2.Items.Add("FF Mark Lewis");
+                csapp2ba2.Items.Add("FF Andrew Lister");
+                csapp2ba2.Items.Add("FF David Murfitt");
+                csapp2ba2.Items.Add("FF Adam Peacock");
+                csapp2ba2.Items.Add("FF Ian Peacock");
+                csapp2ba2.Items.Add("FF Andrew Boughen");
+                csapp2ba2.Items.Add("FF James Sharp");
+                //ECO
+                csapp2eco.Items.Add("WC Clive Allen");
+                csapp2eco.Items.Add("CC Paul Oakes");
+                csapp2eco.Items.Add("CC Andrew Harrison");
+                csapp2eco.Items.Add("CC Malcolm Cornwell");
+                csapp2eco.Items.Add("FF Roy Kent");
+                csapp2eco.Items.Add("FF Mark Lewis");
+                csapp2eco.Items.Add("FF Andrew Lister");
+                csapp2eco.Items.Add("FF David Murfitt");
+                csapp2eco.Items.Add("FF Adam Peacock");
+                csapp2eco.Items.Add("FF Ian Peacock");
+                csapp2eco.Items.Add("FF Andrew Boughen");
+                csapp2eco.Items.Add("FF James Sharp");
+                //6
+                csapp26.Items.Add("WC Clive Allen");
+                csapp26.Items.Add("CC Paul Oakes");
+                csapp26.Items.Add("CC Andrew Harrison");
+                csapp26.Items.Add("CC Malcolm Cornwell");
+                csapp26.Items.Add("FF Roy Kent");
+                csapp26.Items.Add("FF Mark Lewis");
+                csapp26.Items.Add("FF Andrew Lister");
+                csapp26.Items.Add("FF David Murfitt");
+                csapp26.Items.Add("FF Adam Peacock");
+                csapp26.Items.Add("FF Ian Peacock");
+                csapp26.Items.Add("FF Andrew Boughen");
+                csapp26.Items.Add("FF James Sharp");
+            }
+            else if (csapp2.Text == "C22P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Mark Milner");
+                csapp2oic.Items.Add("CC Roland Rimmer");
+                csapp2oic.Items.Add("FF Steve Bissett");
+                csapp2oic.Items.Add("FF Anthony Burton");
+                csapp2oic.Items.Add("FF Matthew Lacey");
+                csapp2oic.Items.Add("FF Mark Minns");
+                csapp2oic.Items.Add("FF Ashley Bullman");
+                csapp2oic.Items.Add("FF Jon Grieves");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Mark Milner");
+                csapp2driver.Items.Add("CC Roland Rimmer");
+                csapp2driver.Items.Add("FF Steve Bissett");
+                csapp2driver.Items.Add("FF Anthony Burton");
+                csapp2driver.Items.Add("FF Matthew Lacey");
+                csapp2driver.Items.Add("FF Mark Minns");
+                csapp2driver.Items.Add("FF Ashley Bullman");
+                csapp2driver.Items.Add("FF Jon Grieves");
+                //BA1
+                csapp2ba1.Items.Add("WC Mark Milner");
+                csapp2ba1.Items.Add("CC Roland Rimmer");
+                csapp2ba1.Items.Add("FF Steve Bissett");
+                csapp2ba1.Items.Add("FF Anthony Burton");
+                csapp2ba1.Items.Add("FF Matthew Lacey");
+                csapp2ba1.Items.Add("FF Mark Minns");
+                csapp2ba1.Items.Add("FF Ashley Bullman");
+                csapp2ba1.Items.Add("FF Jon Grieves");
+                //BA2
+                csapp2ba2.Items.Add("WC Mark Milner");
+                csapp2ba2.Items.Add("CC Roland Rimmer");
+                csapp2ba2.Items.Add("FF Steve Bissett");
+                csapp2ba2.Items.Add("FF Anthony Burton");
+                csapp2ba2.Items.Add("FF Matthew Lacey");
+                csapp2ba2.Items.Add("FF Mark Minns");
+                csapp2ba2.Items.Add("FF Ashley Bullman");
+                csapp2ba2.Items.Add("FF Jon Grieves");
+                //ECO
+                csapp2eco.Items.Add("WC Mark Milner");
+                csapp2eco.Items.Add("CC Roland Rimmer");
+                csapp2eco.Items.Add("FF Steve Bissett");
+                csapp2eco.Items.Add("FF Anthony Burton");
+                csapp2eco.Items.Add("FF Matthew Lacey");
+                csapp2eco.Items.Add("FF Mark Minns");
+                csapp2eco.Items.Add("FF Ashley Bullman");
+                csapp2eco.Items.Add("FF Jon Grieves");
+                //6
+                csapp26.Items.Add("WC Mark Milner");
+                csapp26.Items.Add("CC Roland Rimmer");
+                csapp26.Items.Add("FF Steve Bissett");
+                csapp26.Items.Add("FF Anthony Burton");
+                csapp26.Items.Add("FF Matthew Lacey");
+                csapp26.Items.Add("FF Mark Minns");
+                csapp26.Items.Add("FF Ashley Bullman");
+                csapp26.Items.Add("FF Jon Grieves");
+            }
+
+            else if (csapp2.Text == "C21P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Andy Powell");
+                csapp2oic.Items.Add("CC Tony Bird");
+                csapp2oic.Items.Add("CC Adrian Bradshaw");
+                csapp2oic.Items.Add("CC Wayne Marshall");
+                csapp2oic.Items.Add("CC Martin Dunn");
+                csapp2oic.Items.Add("FF Darren Biggs");
+                csapp2oic.Items.Add("FF Richard Broad");
+                csapp2oic.Items.Add("FF Vicky Vata");
+                csapp2oic.Items.Add("FF Matthew Wilson");
+                csapp2oic.Items.Add("FF Daniel Hall");
+                csapp2oic.Items.Add("FF Gabriel Hearnshaw");
+                csapp2oic.Items.Add("FF Anthony Raine");
+                csapp2oic.Items.Add("FF Liam Siddons");
+                csapp2oic.Items.Add("FF Adrian Watson");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Andy Powell");
+                csapp2driver.Items.Add("CC Tony Bird");
+                csapp2driver.Items.Add("CC Adrian Bradshaw");
+                csapp2driver.Items.Add("CC Wayne Marshall");
+                csapp2driver.Items.Add("CC Martin Dunn");
+                csapp2driver.Items.Add("FF Darren Biggs");
+                csapp2driver.Items.Add("FF Richard Broad");
+                csapp2driver.Items.Add("FF Vicky Vata");
+                csapp2driver.Items.Add("FF Matthew Wilson");
+                csapp2driver.Items.Add("FF Daniel Hall");
+                csapp2driver.Items.Add("FF Gabriel Hearnshaw");
+                csapp2driver.Items.Add("FF Anthony Raine");
+                csapp2driver.Items.Add("FF Liam Siddons");
+                csapp2driver.Items.Add("FF Adrian Watson");
+                //BA1
+                csapp2ba1.Items.Add("WC Andy Powell");
+                csapp2ba1.Items.Add("CC Tony Bird");
+                csapp2ba1.Items.Add("CC Adrian Bradshaw");
+                csapp2ba1.Items.Add("CC Wayne Marshall");
+                csapp2ba1.Items.Add("CC Martin Dunn");
+                csapp2ba1.Items.Add("FF Darren Biggs");
+                csapp2ba1.Items.Add("FF Richard Broad");
+                csapp2ba1.Items.Add("FF Vicky Vata");
+                csapp2ba1.Items.Add("FF Matthew Wilson");
+                csapp2ba1.Items.Add("FF Daniel Hall");
+                csapp2ba1.Items.Add("FF Gabriel Hearnshaw");
+                csapp2ba1.Items.Add("FF Anthony Raine");
+                csapp2ba1.Items.Add("FF Liam Siddons");
+                csapp2ba1.Items.Add("FF Adrian Watson");
+                //BA2
+                csapp2ba2.Items.Add("WC Andy Powell");
+                csapp2ba2.Items.Add("CC Tony Bird");
+                csapp2ba2.Items.Add("CC Adrian Bradshaw");
+                csapp2ba2.Items.Add("CC Wayne Marshall");
+                csapp2ba2.Items.Add("CC Martin Dunn");
+                csapp2ba2.Items.Add("FF Darren Biggs");
+                csapp2ba2.Items.Add("FF Richard Broad");
+                csapp2ba2.Items.Add("FF Vicky Vata");
+                csapp2ba2.Items.Add("FF Matthew Wilson");
+                csapp2ba2.Items.Add("FF Daniel Hall");
+                csapp2ba2.Items.Add("FF Gabriel Hearnshaw");
+                csapp2ba2.Items.Add("FF Anthony Raine");
+                csapp2ba2.Items.Add("FF Liam Siddons");
+                csapp2ba2.Items.Add("FF Adrian Watson");
+                //ECO
+                csapp2eco.Items.Add("WC Andy Powell");
+                csapp2eco.Items.Add("CC Tony Bird");
+                csapp2eco.Items.Add("CC Adrian Bradshaw");
+                csapp2eco.Items.Add("CC Wayne Marshall");
+                csapp2eco.Items.Add("CC Martin Dunn");
+                csapp2eco.Items.Add("FF Darren Biggs");
+                csapp2eco.Items.Add("FF Richard Broad");
+                csapp2eco.Items.Add("FF Vicky Vata");
+                csapp2eco.Items.Add("FF Matthew Wilson");
+                csapp2eco.Items.Add("FF Daniel Hall");
+                csapp2eco.Items.Add("FF Gabriel Hearnshaw");
+                csapp2eco.Items.Add("FF Anthony Raine");
+                csapp2eco.Items.Add("FF Liam Siddons");
+                csapp2eco.Items.Add("FF Adrian Watson");
+                //6
+                csapp26.Items.Add("WC Andy Powell");
+                csapp26.Items.Add("CC Tony Bird");
+                csapp26.Items.Add("CC Adrian Bradshaw");
+                csapp26.Items.Add("CC Wayne Marshall");
+                csapp26.Items.Add("CC Martin Dunn");
+                csapp26.Items.Add("FF Darren Biggs");
+                csapp26.Items.Add("FF Richard Broad");
+                csapp26.Items.Add("FF Vicky Vata");
+                csapp26.Items.Add("FF Matthew Wilson");
+                csapp26.Items.Add("FF Daniel Hall");
+                csapp26.Items.Add("FF Gabriel Hearnshaw");
+                csapp26.Items.Add("FF Anthony Raine");
+                csapp26.Items.Add("FF Liam Siddons");
+                csapp26.Items.Add("FF Adrian Watson");
+            }
+            else if (csapp2.Text == "C21P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Andy Powell");
+                csapp2oic.Items.Add("CC Tony Bird");
+                csapp2oic.Items.Add("CC Adrian Bradshaw");
+                csapp2oic.Items.Add("CC Wayne Marshall");
+                csapp2oic.Items.Add("CC Martin Dunn");
+                csapp2oic.Items.Add("FF Darren Biggs");
+                csapp2oic.Items.Add("FF Richard Broad");
+                csapp2oic.Items.Add("FF Vicky Vata");
+                csapp2oic.Items.Add("FF Matthew Wilson");
+                csapp2oic.Items.Add("FF Daniel Hall");
+                csapp2oic.Items.Add("FF Gabriel Hearnshaw");
+                csapp2oic.Items.Add("FF Anthony Raine");
+                csapp2oic.Items.Add("FF Liam Siddons");
+                csapp2oic.Items.Add("FF Adrian Watson");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Andy Powell");
+                csapp2driver.Items.Add("CC Tony Bird");
+                csapp2driver.Items.Add("CC Adrian Bradshaw");
+                csapp2driver.Items.Add("CC Wayne Marshall");
+                csapp2driver.Items.Add("CC Martin Dunn");
+                csapp2driver.Items.Add("FF Darren Biggs");
+                csapp2driver.Items.Add("FF Richard Broad");
+                csapp2driver.Items.Add("FF Vicky Vata");
+                csapp2driver.Items.Add("FF Matthew Wilson");
+                csapp2driver.Items.Add("FF Daniel Hall");
+                csapp2driver.Items.Add("FF Gabriel Hearnshaw");
+                csapp2driver.Items.Add("FF Anthony Raine");
+                csapp2driver.Items.Add("FF Liam Siddons");
+                csapp2driver.Items.Add("FF Adrian Watson");
+                //BA1
+                csapp2ba1.Items.Add("WC Andy Powell");
+                csapp2ba1.Items.Add("CC Tony Bird");
+                csapp2ba1.Items.Add("CC Adrian Bradshaw");
+                csapp2ba1.Items.Add("CC Wayne Marshall");
+                csapp2ba1.Items.Add("CC Martin Dunn");
+                csapp2ba1.Items.Add("FF Darren Biggs");
+                csapp2ba1.Items.Add("FF Richard Broad");
+                csapp2ba1.Items.Add("FF Vicky Vata");
+                csapp2ba1.Items.Add("FF Matthew Wilson");
+                csapp2ba1.Items.Add("FF Daniel Hall");
+                csapp2ba1.Items.Add("FF Gabriel Hearnshaw");
+                csapp2ba1.Items.Add("FF Anthony Raine");
+                csapp2ba1.Items.Add("FF Liam Siddons");
+                csapp2ba1.Items.Add("FF Adrian Watson");
+                //BA2
+                csapp2ba2.Items.Add("WC Andy Powell");
+                csapp2ba2.Items.Add("CC Tony Bird");
+                csapp2ba2.Items.Add("CC Adrian Bradshaw");
+                csapp2ba2.Items.Add("CC Wayne Marshall");
+                csapp2ba2.Items.Add("CC Martin Dunn");
+                csapp2ba2.Items.Add("FF Darren Biggs");
+                csapp2ba2.Items.Add("FF Richard Broad");
+                csapp2ba2.Items.Add("FF Vicky Vata");
+                csapp2ba2.Items.Add("FF Matthew Wilson");
+                csapp2ba2.Items.Add("FF Daniel Hall");
+                csapp2ba2.Items.Add("FF Gabriel Hearnshaw");
+                csapp2ba2.Items.Add("FF Anthony Raine");
+                csapp2ba2.Items.Add("FF Liam Siddons");
+                csapp2ba2.Items.Add("FF Adrian Watson");
+                //ECO
+                csapp2eco.Items.Add("WC Andy Powell");
+                csapp2eco.Items.Add("CC Tony Bird");
+                csapp2eco.Items.Add("CC Adrian Bradshaw");
+                csapp2eco.Items.Add("CC Wayne Marshall");
+                csapp2eco.Items.Add("CC Martin Dunn");
+                csapp2eco.Items.Add("FF Darren Biggs");
+                csapp2eco.Items.Add("FF Richard Broad");
+                csapp2eco.Items.Add("FF Vicky Vata");
+                csapp2eco.Items.Add("FF Matthew Wilson");
+                csapp2eco.Items.Add("FF Daniel Hall");
+                csapp2eco.Items.Add("FF Gabriel Hearnshaw");
+                csapp2eco.Items.Add("FF Anthony Raine");
+                csapp2eco.Items.Add("FF Liam Siddons");
+                csapp2eco.Items.Add("FF Adrian Watson");
+                //6
+                csapp26.Items.Add("WC Andy Powell");
+                csapp26.Items.Add("CC Tony Bird");
+                csapp26.Items.Add("CC Adrian Bradshaw");
+                csapp26.Items.Add("CC Wayne Marshall");
+                csapp26.Items.Add("CC Martin Dunn");
+                csapp26.Items.Add("FF Darren Biggs");
+                csapp26.Items.Add("FF Richard Broad");
+                csapp26.Items.Add("FF Vicky Vata");
+                csapp26.Items.Add("FF Matthew Wilson");
+                csapp26.Items.Add("FF Daniel Hall");
+                csapp26.Items.Add("FF Gabriel Hearnshaw");
+                csapp26.Items.Add("FF Anthony Raine");
+                csapp26.Items.Add("FF Liam Siddons");
+                csapp26.Items.Add("FF Adrian Watson");
+            }
+            else if (csapp2.Text == "C12P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Martin Ward");
+                csapp2oic.Items.Add("CC Thomas Howlett");
+                csapp2oic.Items.Add("FF Simon Mayes");
+                csapp2oic.Items.Add("FF Jonathan Turner");
+                csapp2oic.Items.Add("FF Matthew Webster");
+                csapp2oic.Items.Add("FF David Broach");
+                csapp2oic.Items.Add("FF Matt Seymour");
+                csapp2oic.Items.Add("FF Alex Graham");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Martin Ward");
+                csapp2driver.Items.Add("CC Thomas Howlett");
+                csapp2driver.Items.Add("FF Simon Mayes");
+                csapp2driver.Items.Add("FF Jonathan Turner");
+                csapp2driver.Items.Add("FF Matthew Webster");
+                csapp2driver.Items.Add("FF David Broach");
+                csapp2driver.Items.Add("FF Matt Seymour");
+                csapp2driver.Items.Add("FF Alex Graham");
+                //BA1
+                csapp2ba1.Items.Add("WC Martin Ward");
+                csapp2ba1.Items.Add("CC Thomas Howlett");
+                csapp2ba1.Items.Add("FF Simon Mayes");
+                csapp2ba1.Items.Add("FF Jonathan Turner");
+                csapp2ba1.Items.Add("FF Matthew Webster");
+                csapp2ba1.Items.Add("FF David Broach");
+                csapp2ba1.Items.Add("FF Matt Seymour");
+                csapp2ba1.Items.Add("FF Alex Graham");
+                //BA2
+                csapp2ba2.Items.Add("WC Martin Ward");
+                csapp2ba2.Items.Add("CC Thomas Howlett");
+                csapp2ba2.Items.Add("FF Simon Mayes");
+                csapp2ba2.Items.Add("FF Jonathan Turner");
+                csapp2ba2.Items.Add("FF Matthew Webster");
+                csapp2ba2.Items.Add("FF David Broach");
+                csapp2ba2.Items.Add("FF Matt Seymour");
+                csapp2ba2.Items.Add("FF Alex Graham");
+                //ECO
+                csapp2eco.Items.Add("WC Martin Ward");
+                csapp2eco.Items.Add("CC Thomas Howlett");
+                csapp2eco.Items.Add("FF Simon Mayes");
+                csapp2eco.Items.Add("FF Jonathan Turner");
+                csapp2eco.Items.Add("FF Matthew Webster");
+                csapp2eco.Items.Add("FF David Broach");
+                csapp2eco.Items.Add("FF Matt Seymour");
+                csapp2eco.Items.Add("FF Alex Graham");
+                //6
+                csapp26.Items.Add("WC Martin Ward");
+                csapp26.Items.Add("CC Thomas Howlett");
+                csapp26.Items.Add("FF Simon Mayes");
+                csapp26.Items.Add("FF Jonathan Turner");
+                csapp26.Items.Add("FF Matthew Webster");
+                csapp26.Items.Add("FF David Broach");
+                csapp26.Items.Add("FF Matt Seymour");
+                csapp26.Items.Add("FF Alex Graham");
+            }
+            else if (csapp2.Text == "C15P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Mark Addinall");
+                csapp2oic.Items.Add("CC Nick Cowley");
+                csapp2oic.Items.Add("CC Anthony Gould");
+                csapp2oic.Items.Add("FF William Baker");
+                csapp2oic.Items.Add("FF Jake Benton");
+                csapp2oic.Items.Add("FF David Carrington");
+                csapp2oic.Items.Add("FF Dayle Duguid");
+                csapp2oic.Items.Add("FF Nathan Glover");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Mark Addinall");
+                csapp2driver.Items.Add("CC Nick Cowley");
+                csapp2driver.Items.Add("CC Anthony Gould");
+                csapp2driver.Items.Add("FF William Baker");
+                csapp2driver.Items.Add("FF Jake Benton");
+                csapp2driver.Items.Add("FF David Carrington");
+                csapp2driver.Items.Add("FF Dayle Duguid");
+                csapp2driver.Items.Add("FF Nathan Glover");
+                //BA1
+                csapp2ba1.Items.Add("WC Mark Addinall");
+                csapp2ba1.Items.Add("CC Nick Cowley");
+                csapp2ba1.Items.Add("CC Anthony Gould");
+                csapp2ba1.Items.Add("FF William Baker");
+                csapp2ba1.Items.Add("FF Jake Benton");
+                csapp2ba1.Items.Add("FF David Carrington");
+                csapp2ba1.Items.Add("FF Dayle Duguid");
+                csapp2ba1.Items.Add("FF Nathan Glover");
+                //BA2
+                csapp2ba2.Items.Add("WC Mark Addinall");
+                csapp2ba2.Items.Add("CC Nick Cowley");
+                csapp2ba2.Items.Add("CC Anthony Gould");
+                csapp2ba2.Items.Add("FF William Baker");
+                csapp2ba2.Items.Add("FF Jake Benton");
+                csapp2ba2.Items.Add("FF David Carrington");
+                csapp2ba2.Items.Add("FF Dayle Duguid");
+                csapp2ba2.Items.Add("FF Nathan Glover");
+                //ECO
+                csapp2eco.Items.Add("WC Mark Addinall");
+                csapp2eco.Items.Add("CC Nick Cowley");
+                csapp2eco.Items.Add("CC Anthony Gould");
+                csapp2eco.Items.Add("FF William Baker");
+                csapp2eco.Items.Add("FF Jake Benton");
+                csapp2eco.Items.Add("FF David Carrington");
+                csapp2eco.Items.Add("FF Dayle Duguid");
+                csapp2eco.Items.Add("FF Nathan Glover");
+                //6
+                csapp26.Items.Add("WC Mark Addinall");
+                csapp26.Items.Add("CC Nick Cowley");
+                csapp26.Items.Add("CC Anthony Gould");
+                csapp26.Items.Add("FF William Baker");
+                csapp26.Items.Add("FF Jake Benton");
+                csapp26.Items.Add("FF David Carrington");
+                csapp26.Items.Add("FF Dayle Duguid");
+                csapp26.Items.Add("FF Nathan Glover");
+            }
+            else if (csapp2.Text == "C24P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Tony Thacker");
+                csapp2oic.Items.Add("CC Dan Thacker");
+                csapp2oic.Items.Add("CC Phil Thacker");
+                csapp2oic.Items.Add("CC Craig Golightly");
+                csapp2oic.Items.Add("FF Tom Bellinger");
+                csapp2oic.Items.Add("FF Andy Ellington");
+                csapp2oic.Items.Add("FF James Mole-Weir");
+                csapp2oic.Items.Add("FF Martin Holmes");
+                csapp2oic.Items.Add("FF Helen Cryer");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Tony Thacker");
+                csapp2driver.Items.Add("CC Dan Thacker");
+                csapp2driver.Items.Add("CC Phil Thacker");
+                csapp2driver.Items.Add("CC Craig Golightly");
+                csapp2driver.Items.Add("FF Tom Bellinger");
+                csapp2driver.Items.Add("FF Andy Ellington");
+                csapp2driver.Items.Add("FF James Mole-Weir");
+                csapp2driver.Items.Add("FF Martin Holmes");
+                csapp2driver.Items.Add("FF Helen Cryer");
+                //BA1
+                csapp2ba1.Items.Add("WC Tony Thacker");
+                csapp2ba1.Items.Add("CC Dan Thacker");
+                csapp2ba1.Items.Add("CC Phil Thacker");
+                csapp2ba1.Items.Add("CC Craig Golightly");
+                csapp2ba1.Items.Add("FF Tom Bellinger");
+                csapp2ba1.Items.Add("FF Andy Ellington");
+                csapp2ba1.Items.Add("FF James Mole-Weir");
+                csapp2ba1.Items.Add("FF Martin Holmes");
+                csapp2ba1.Items.Add("FF Helen Cryer");
+                //BA2
+                csapp2ba2.Items.Add("WC Tony Thacker");
+                csapp2ba2.Items.Add("CC Dan Thacker");
+                csapp2ba2.Items.Add("CC Phil Thacker");
+                csapp2ba2.Items.Add("CC Craig Golightly");
+                csapp2ba2.Items.Add("FF Tom Bellinger");
+                csapp2ba2.Items.Add("FF Andy Ellington");
+                csapp2ba2.Items.Add("FF James Mole-Weir");
+                csapp2ba2.Items.Add("FF Martin Holmes");
+                csapp2ba2.Items.Add("FF Helen Cryer");
+                //ECO
+                csapp2eco.Items.Add("WC Tony Thacker");
+                csapp2eco.Items.Add("CC Dan Thacker");
+                csapp2eco.Items.Add("CC Phil Thacker");
+                csapp2eco.Items.Add("CC Craig Golightly");
+                csapp2eco.Items.Add("FF Tom Bellinger");
+                csapp2eco.Items.Add("FF Andy Ellington");
+                csapp2eco.Items.Add("FF James Mole-Weir");
+                csapp2eco.Items.Add("FF Martin Holmes");
+                csapp2eco.Items.Add("FF Helen Cryer");
+                //6
+                csapp26.Items.Add("WC Tony Thacker");
+                csapp26.Items.Add("CC Dan Thacker");
+                csapp26.Items.Add("CC Phil Thacker");
+                csapp26.Items.Add("CC Craig Golightly");
+                csapp26.Items.Add("FF Tom Bellinger");
+                csapp26.Items.Add("FF Andy Ellington");
+                csapp26.Items.Add("FF James Mole-Weir");
+                csapp26.Items.Add("FF Martin Holmes");
+                csapp26.Items.Add("FF Helen Cryer");
+            }
+            else if (csapp2.Text == "C24P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Tony Thacker");
+                csapp2oic.Items.Add("CC Dan Thacker");
+                csapp2oic.Items.Add("CC Phil Thacker");
+                csapp2oic.Items.Add("CC Craig Golightly");
+                csapp2oic.Items.Add("FF Tom Bellinger");
+                csapp2oic.Items.Add("FF Andy Ellington");
+                csapp2oic.Items.Add("FF James Mole-Weir");
+                csapp2oic.Items.Add("FF Martin Holmes");
+                csapp2oic.Items.Add("FF Helen Cryer");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Tony Thacker");
+                csapp2driver.Items.Add("CC Dan Thacker");
+                csapp2driver.Items.Add("CC Phil Thacker");
+                csapp2driver.Items.Add("CC Craig Golightly");
+                csapp2driver.Items.Add("FF Tom Bellinger");
+                csapp2driver.Items.Add("FF Andy Ellington");
+                csapp2driver.Items.Add("FF James Mole-Weir");
+                csapp2driver.Items.Add("FF Martin Holmes");
+                csapp2driver.Items.Add("FF Helen Cryer");
+                //BA1
+                csapp2ba1.Items.Add("WC Tony Thacker");
+                csapp2ba1.Items.Add("CC Dan Thacker");
+                csapp2ba1.Items.Add("CC Phil Thacker");
+                csapp2ba1.Items.Add("CC Craig Golightly");
+                csapp2ba1.Items.Add("FF Tom Bellinger");
+                csapp2ba1.Items.Add("FF Andy Ellington");
+                csapp2ba1.Items.Add("FF James Mole-Weir");
+                csapp2ba1.Items.Add("FF Martin Holmes");
+                csapp2ba1.Items.Add("FF Helen Cryer");
+                //BA2
+                csapp2ba2.Items.Add("WC Tony Thacker");
+                csapp2ba2.Items.Add("CC Dan Thacker");
+                csapp2ba2.Items.Add("CC Phil Thacker");
+                csapp2ba2.Items.Add("CC Craig Golightly");
+                csapp2ba2.Items.Add("FF Tom Bellinger");
+                csapp2ba2.Items.Add("FF Andy Ellington");
+                csapp2ba2.Items.Add("FF James Mole-Weir");
+                csapp2ba2.Items.Add("FF Martin Holmes");
+                csapp2ba2.Items.Add("FF Helen Cryer");
+                //ECO
+                csapp2eco.Items.Add("WC Tony Thacker");
+                csapp2eco.Items.Add("CC Dan Thacker");
+                csapp2eco.Items.Add("CC Phil Thacker");
+                csapp2eco.Items.Add("CC Craig Golightly");
+                csapp2eco.Items.Add("FF Tom Bellinger");
+                csapp2eco.Items.Add("FF Andy Ellington");
+                csapp2eco.Items.Add("FF James Mole-Weir");
+                csapp2eco.Items.Add("FF Martin Holmes");
+                csapp2eco.Items.Add("FF Helen Cryer");
+                //6
+                csapp26.Items.Add("WC Tony Thacker");
+                csapp26.Items.Add("CC Dan Thacker");
+                csapp26.Items.Add("CC Phil Thacker");
+                csapp26.Items.Add("CC Craig Golightly");
+                csapp26.Items.Add("FF Tom Bellinger");
+                csapp26.Items.Add("FF Andy Ellington");
+                csapp26.Items.Add("FF James Mole-Weir");
+                csapp26.Items.Add("FF Martin Holmes");
+                csapp26.Items.Add("FF Helen Cryer");
+            }
+            else if (csapp2.Text == "C10P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Stuart Moore");
+                csapp2oic.Items.Add("CC Robert Boswell");
+                csapp2oic.Items.Add("FF Matthew Dodkin");
+                csapp2oic.Items.Add("FF Dan Foord");
+                csapp2oic.Items.Add("FF Nathaniel Pool");
+                csapp2oic.Items.Add("FF Alex Whitehouse");
+                //DRIVER
+                csapp2driver.Items.Add("WC Stuart Moore");
+                csapp2driver.Items.Add("CC Robert Boswell");
+                csapp2driver.Items.Add("FF Matthew Dodkin");
+                csapp2driver.Items.Add("FF Dan Foord");
+                csapp2driver.Items.Add("FF Nathaniel Pool");
+                csapp2driver.Items.Add("FF Alex Whitehouse");
+                //BA1
+                csapp2ba1.Items.Add("WC Stuart Moore");
+                csapp2ba1.Items.Add("CC Robert Boswell");
+                csapp2ba1.Items.Add("FF Matthew Dodkin");
+                csapp2ba1.Items.Add("FF Dan Foord");
+                csapp2ba1.Items.Add("FF Nathaniel Pool");
+                csapp2ba1.Items.Add("FF Alex Whitehouse");
+                //BA2
+                csapp2ba2.Items.Add("WC Stuart Moore");
+                csapp2ba2.Items.Add("CC Robert Boswell");
+                csapp2ba2.Items.Add("FF Matthew Dodkin");
+                csapp2ba2.Items.Add("FF Dan Foord");
+                csapp2ba2.Items.Add("FF Nathaniel Pool");
+                csapp2ba2.Items.Add("FF Alex Whitehouse");
+                //ECO
+                csapp2eco.Items.Add("WC Stuart Moore");
+                csapp2eco.Items.Add("CC Robert Boswell");
+                csapp2eco.Items.Add("FF Matthew Dodkin");
+                csapp2eco.Items.Add("FF Dan Foord");
+                csapp2eco.Items.Add("FF Nathaniel Pool");
+                csapp2eco.Items.Add("FF Alex Whitehouse");
+                //6
+                csapp26.Items.Add("WC Stuart Moore");
+                csapp26.Items.Add("CC Robert Boswell");
+                csapp26.Items.Add("FF Matthew Dodkin");
+                csapp26.Items.Add("FF Dan Foord");
+                csapp26.Items.Add("FF Nathaniel Pool");
+                csapp26.Items.Add("FF Alex Whitehouse");
+            }
+            else if (csapp2.Text == "C25P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Dave Kilner");
+                csapp2oic.Items.Add("WC Jeremy Corney");
+                csapp2oic.Items.Add("CC Phil Hill");
+                csapp2oic.Items.Add("FF Caroline Dixon");
+                csapp2oic.Items.Add("FF Richard Boston");
+                csapp2oic.Items.Add("FF Daren Dexter");
+                csapp2oic.Items.Add("FF Stephen McCandless");
+                csapp2oic.Items.Add("FF Guy Jarman");
+                //DRIVER
+                csapp2driver.Items.Add("WC Dave Kilner");
+                csapp2driver.Items.Add("WC Jeremy Corney");
+                csapp2driver.Items.Add("CC Phil Hill");
+                csapp2driver.Items.Add("FF Caroline Dixon");
+                csapp2driver.Items.Add("FF Richard Boston");
+                csapp2driver.Items.Add("FF Daren Dexter");
+                csapp2driver.Items.Add("FF Stephen McCandless");
+                csapp2driver.Items.Add("FF Guy Jarman");
+                //BA1
+                csapp2ba1.Items.Add("WC Dave Kilner");
+                csapp2ba1.Items.Add("WC Jeremy Corney");
+                csapp2ba1.Items.Add("CC Phil Hill");
+                csapp2ba1.Items.Add("FF Caroline Dixon");
+                csapp2ba1.Items.Add("FF Richard Boston");
+                csapp2ba1.Items.Add("FF Daren Dexter");
+                csapp2ba1.Items.Add("FF Stephen McCandless");
+                csapp2ba1.Items.Add("FF Guy Jarman");
+                //BA2
+                csapp2ba2.Items.Add("WC Dave Kilner");
+                csapp2ba2.Items.Add("WC Jeremy Corney");
+                csapp2ba2.Items.Add("CC Phil Hill");
+                csapp2ba2.Items.Add("FF Caroline Dixon");
+                csapp2ba2.Items.Add("FF Richard Boston");
+                csapp2ba2.Items.Add("FF Daren Dexter");
+                csapp2ba2.Items.Add("FF Stephen McCandless");
+                csapp2ba2.Items.Add("FF Guy Jarman");
+                //ECO
+                csapp2eco.Items.Add("WC Dave Kilner");
+                csapp2eco.Items.Add("WC Jeremy Corney");
+                csapp2eco.Items.Add("CC Phil Hill");
+                csapp2eco.Items.Add("FF Caroline Dixon");
+                csapp2eco.Items.Add("FF Richard Boston");
+                csapp2eco.Items.Add("FF Daren Dexter");
+                csapp2eco.Items.Add("FF Stephen McCandless");
+                csapp2eco.Items.Add("FF Guy Jarman");
+                //6
+                csapp26.Items.Add("WC Dave Kilner");
+                csapp26.Items.Add("WC Jeremy Corney");
+                csapp26.Items.Add("CC Phil Hill");
+                csapp26.Items.Add("FF Caroline Dixon");
+                csapp26.Items.Add("FF Richard Boston");
+                csapp26.Items.Add("FF Daren Dexter");
+                csapp26.Items.Add("FF Stephen McCandless");
+                csapp26.Items.Add("FF Guy Jarman");
+            }
+
+            else if (csapp2.Text == "C06P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Richard Powell");
+                csapp2oic.Items.Add("CC Giles Fuller");
+                csapp2oic.Items.Add("CC Rebecca White");
+                csapp2oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2oic.Items.Add("FF James Chalklin");
+                csapp2oic.Items.Add("FF Paul Fordham");
+                csapp2oic.Items.Add("FF David Hobbs");
+                csapp2oic.Items.Add("FF Alex Irvine");
+                csapp2oic.Items.Add("FF Jordan Knappett");
+                csapp2oic.Items.Add("FF Kiel Porter");
+                csapp2oic.Items.Add("FF Chris Smith");
+                //DRIVER
+                csapp2driver.Items.Add("WC Richard Powell");
+                csapp2driver.Items.Add("CC Giles Fuller");
+                csapp2driver.Items.Add("CC Rebecca White");
+                csapp2driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2driver.Items.Add("FF James Chalklin");
+                csapp2driver.Items.Add("FF Paul Fordham");
+                csapp2driver.Items.Add("FF David Hobbs");
+                csapp2driver.Items.Add("FF Alex Irvine");
+                csapp2driver.Items.Add("FF Jordan Knappett");
+                csapp2driver.Items.Add("FF Kiel Porter");
+                csapp2driver.Items.Add("FF Chris Smith");
+                //BA1
+                csapp2ba1.Items.Add("WC Richard Powell");
+                csapp2ba1.Items.Add("CC Giles Fuller");
+                csapp2ba1.Items.Add("CC Rebecca White");
+                csapp2ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba1.Items.Add("FF James Chalklin");
+                csapp2ba1.Items.Add("FF Paul Fordham");
+                csapp2ba1.Items.Add("FF David Hobbs");
+                csapp2ba1.Items.Add("FF Alex Irvine");
+                csapp2ba1.Items.Add("FF Jordan Knappett");
+                csapp2ba1.Items.Add("FF Kiel Porter");
+                csapp2ba1.Items.Add("FF Chris Smith");
+                //BA2
+                csapp2ba2.Items.Add("WC Richard Powell");
+                csapp2ba2.Items.Add("CC Giles Fuller");
+                csapp2ba2.Items.Add("CC Rebecca White");
+                csapp2ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba2.Items.Add("FF James Chalklin");
+                csapp2ba2.Items.Add("FF Paul Fordham");
+                csapp2ba2.Items.Add("FF David Hobbs");
+                csapp2ba2.Items.Add("FF Alex Irvine");
+                csapp2ba2.Items.Add("FF Jordan Knappett");
+                csapp2ba2.Items.Add("FF Kiel Porter");
+                csapp2ba2.Items.Add("FF Chris Smith");
+                //ECO
+                csapp2eco.Items.Add("WC Richard Powell");
+                csapp2eco.Items.Add("CC Giles Fuller");
+                csapp2eco.Items.Add("CC Rebecca White");
+                csapp2eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2eco.Items.Add("FF James Chalklin");
+                csapp2eco.Items.Add("FF Paul Fordham");
+                csapp2eco.Items.Add("FF David Hobbs");
+                csapp2eco.Items.Add("FF Alex Irvine");
+                csapp2eco.Items.Add("FF Jordan Knappett");
+                csapp2eco.Items.Add("FF Kiel Porter");
+                csapp2eco.Items.Add("FF Chris Smith");
+                //6
+                csapp26.Items.Add("WC Richard Powell");
+                csapp26.Items.Add("CC Giles Fuller");
+                csapp26.Items.Add("CC Rebecca White");
+                csapp26.Items.Add("FF Tom Quinn-Nicholls");
+                csapp26.Items.Add("FF James Chalklin");
+                csapp26.Items.Add("FF Paul Fordham");
+                csapp26.Items.Add("FF David Hobbs");
+                csapp26.Items.Add("FF Alex Irvine");
+                csapp26.Items.Add("FF Jordan Knappett");
+                csapp26.Items.Add("FF Kiel Porter");
+                csapp26.Items.Add("FF Chris Smith");
+            }
+            else if (csapp2.Text == "C06P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Richard Powell");
+                csapp2oic.Items.Add("CC Giles Fuller");
+                csapp2oic.Items.Add("CC Rebecca White");
+                csapp2oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2oic.Items.Add("FF James Chalklin");
+                csapp2oic.Items.Add("FF Paul Fordham");
+                csapp2oic.Items.Add("FF David Hobbs");
+                csapp2oic.Items.Add("FF Alex Irvine");
+                csapp2oic.Items.Add("FF Jordan Knappett");
+                csapp2oic.Items.Add("FF Kiel Porter");
+                csapp2oic.Items.Add("FF Chris Smith");
+                //DRIVER
+                csapp2driver.Items.Add("WC Richard Powell");
+                csapp2driver.Items.Add("CC Giles Fuller");
+                csapp2driver.Items.Add("CC Rebecca White");
+                csapp2driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2driver.Items.Add("FF James Chalklin");
+                csapp2driver.Items.Add("FF Paul Fordham");
+                csapp2driver.Items.Add("FF David Hobbs");
+                csapp2driver.Items.Add("FF Alex Irvine");
+                csapp2driver.Items.Add("FF Jordan Knappett");
+                csapp2driver.Items.Add("FF Kiel Porter");
+                csapp2driver.Items.Add("FF Chris Smith");
+                //BA1
+                csapp2ba1.Items.Add("WC Richard Powell");
+                csapp2ba1.Items.Add("CC Giles Fuller");
+                csapp2ba1.Items.Add("CC Rebecca White");
+                csapp2ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba1.Items.Add("FF James Chalklin");
+                csapp2ba1.Items.Add("FF Paul Fordham");
+                csapp2ba1.Items.Add("FF David Hobbs");
+                csapp2ba1.Items.Add("FF Alex Irvine");
+                csapp2ba1.Items.Add("FF Jordan Knappett");
+                csapp2ba1.Items.Add("FF Kiel Porter");
+                csapp2ba1.Items.Add("FF Chris Smith");
+                //BA2
+                csapp2ba2.Items.Add("WC Richard Powell");
+                csapp2ba2.Items.Add("CC Giles Fuller");
+                csapp2ba2.Items.Add("CC Rebecca White");
+                csapp2ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2ba2.Items.Add("FF James Chalklin");
+                csapp2ba2.Items.Add("FF Paul Fordham");
+                csapp2ba2.Items.Add("FF David Hobbs");
+                csapp2ba2.Items.Add("FF Alex Irvine");
+                csapp2ba2.Items.Add("FF Jordan Knappett");
+                csapp2ba2.Items.Add("FF Kiel Porter");
+                csapp2ba2.Items.Add("FF Chris Smith");
+                //ECO
+                csapp2eco.Items.Add("WC Richard Powell");
+                csapp2eco.Items.Add("CC Giles Fuller");
+                csapp2eco.Items.Add("CC Rebecca White");
+                csapp2eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp2eco.Items.Add("FF James Chalklin");
+                csapp2eco.Items.Add("FF Paul Fordham");
+                csapp2eco.Items.Add("FF David Hobbs");
+                csapp2eco.Items.Add("FF Alex Irvine");
+                csapp2eco.Items.Add("FF Jordan Knappett");
+                csapp2eco.Items.Add("FF Kiel Porter");
+                csapp2eco.Items.Add("FF Chris Smith");
+                //6
+                csapp26.Items.Add("WC Richard Powell");
+                csapp26.Items.Add("CC Giles Fuller");
+                csapp26.Items.Add("CC Rebecca White");
+                csapp26.Items.Add("FF Tom Quinn-Nicholls");
+                csapp26.Items.Add("FF James Chalklin");
+                csapp26.Items.Add("FF Paul Fordham");
+                csapp26.Items.Add("FF David Hobbs");
+                csapp26.Items.Add("FF Alex Irvine");
+                csapp26.Items.Add("FF Jordan Knappett");
+                csapp26.Items.Add("FF Kiel Porter");
+                csapp26.Items.Add("FF Chris Smith");
+            }
+
+            else if (csapp2.Text == "C28P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Phil Thacker");
+                csapp2oic.Items.Add("CC Matthew Dennington");
+                csapp2oic.Items.Add("FF Martin Barnes");
+                csapp2oic.Items.Add("FF Tom Dockerill");
+                csapp2oic.Items.Add("FF Gordon Grant");
+                csapp2oic.Items.Add("FF Ben Johnson");
+                csapp2oic.Items.Add("FF Jodie roberts-Dear");
+                //DRIVER
+                csapp2driver.Items.Add("WC Phil Thacker");
+                csapp2driver.Items.Add("CC Matthew Dennington");
+                csapp2driver.Items.Add("FF Martin Barnes");
+                csapp2driver.Items.Add("FF Tom Dockerill");
+                csapp2driver.Items.Add("FF Gordon Grant");
+                csapp2driver.Items.Add("FF Ben Johnson");
+                csapp2driver.Items.Add("FF Jodie roberts-Dear");
+                //BA1
+                csapp2ba1.Items.Add("WC Phil Thacker");
+                csapp2ba1.Items.Add("CC Matthew Dennington");
+                csapp2ba1.Items.Add("FF Martin Barnes");
+                csapp2ba1.Items.Add("FF Tom Dockerill");
+                csapp2ba1.Items.Add("FF Gordon Grant");
+                csapp2ba1.Items.Add("FF Ben Johnson");
+                csapp2ba1.Items.Add("FF Jodie roberts-Dear");
+                //BA2
+                csapp2ba2.Items.Add("WC Phil Thacker");
+                csapp2ba2.Items.Add("CC Matthew Dennington");
+                csapp2ba2.Items.Add("FF Martin Barnes");
+                csapp2ba2.Items.Add("FF Tom Dockerill");
+                csapp2ba2.Items.Add("FF Gordon Grant");
+                csapp2ba2.Items.Add("FF Ben Johnson");
+                csapp2ba2.Items.Add("FF Jodie roberts-Dear");
+                //ECO
+                csapp2eco.Items.Add("WC Phil Thacker");
+                csapp2eco.Items.Add("CC Matthew Dennington");
+                csapp2eco.Items.Add("FF Martin Barnes");
+                csapp2eco.Items.Add("FF Tom Dockerill");
+                csapp2eco.Items.Add("FF Gordon Grant");
+                csapp2eco.Items.Add("FF Ben Johnson");
+                csapp2eco.Items.Add("FF Jodie roberts-Dear");
+                //6
+                csapp26.Items.Add("WC Phil Thacker");
+                csapp26.Items.Add("CC Matthew Dennington");
+                csapp26.Items.Add("FF Martin Barnes");
+                csapp26.Items.Add("FF Tom Dockerill");
+                csapp26.Items.Add("FF Gordon Grant");
+                csapp26.Items.Add("FF Ben Johnson");
+                csapp26.Items.Add("FF Jodie roberts-Dear");
+            }
+            else if (csapp2.Text == "C28P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Phil Thacker");
+                csapp2oic.Items.Add("CC Matthew Dennington");
+                csapp2oic.Items.Add("FF Martin Barnes");
+                csapp2oic.Items.Add("FF Tom Dockerill");
+                csapp2oic.Items.Add("FF Gordon Grant");
+                csapp2oic.Items.Add("FF Ben Johnson");
+                csapp2oic.Items.Add("FF Jodie roberts-Dear");
+                //DRIVER
+                csapp2driver.Items.Add("WC Phil Thacker");
+                csapp2driver.Items.Add("CC Matthew Dennington");
+                csapp2driver.Items.Add("FF Martin Barnes");
+                csapp2driver.Items.Add("FF Tom Dockerill");
+                csapp2driver.Items.Add("FF Gordon Grant");
+                csapp2driver.Items.Add("FF Ben Johnson");
+                csapp2driver.Items.Add("FF Jodie roberts-Dear");
+                //BA1
+                csapp2ba1.Items.Add("WC Phil Thacker");
+                csapp2ba1.Items.Add("CC Matthew Dennington");
+                csapp2ba1.Items.Add("FF Martin Barnes");
+                csapp2ba1.Items.Add("FF Tom Dockerill");
+                csapp2ba1.Items.Add("FF Gordon Grant");
+                csapp2ba1.Items.Add("FF Ben Johnson");
+                csapp2ba1.Items.Add("FF Jodie roberts-Dear");
+                //BA2
+                csapp2ba2.Items.Add("WC Phil Thacker");
+                csapp2ba2.Items.Add("CC Matthew Dennington");
+                csapp2ba2.Items.Add("FF Martin Barnes");
+                csapp2ba2.Items.Add("FF Tom Dockerill");
+                csapp2ba2.Items.Add("FF Gordon Grant");
+                csapp2ba2.Items.Add("FF Ben Johnson");
+                csapp2ba2.Items.Add("FF Jodie roberts-Dear");
+                //ECO
+                csapp2eco.Items.Add("WC Phil Thacker");
+                csapp2eco.Items.Add("CC Matthew Dennington");
+                csapp2eco.Items.Add("FF Martin Barnes");
+                csapp2eco.Items.Add("FF Tom Dockerill");
+                csapp2eco.Items.Add("FF Gordon Grant");
+                csapp2eco.Items.Add("FF Ben Johnson");
+                csapp2eco.Items.Add("FF Jodie roberts-Dear");
+                //6
+                csapp26.Items.Add("WC Phil Thacker");
+                csapp26.Items.Add("CC Matthew Dennington");
+                csapp26.Items.Add("FF Martin Barnes");
+                csapp26.Items.Add("FF Tom Dockerill");
+                csapp26.Items.Add("FF Gordon Grant");
+                csapp26.Items.Add("FF Ben Johnson");
+                csapp26.Items.Add("FF Jodie roberts-Dear");
+            }
+            else if (csapp2.Text == "C03P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Darryl Sharp");
+                csapp2oic.Items.Add("WC Andrew Hill");
+                csapp2oic.Items.Add("FF Rachel Casbon");
+                csapp2oic.Items.Add("FF Matt House");
+                csapp2oic.Items.Add("FF John Hunter");
+                //DRIVER
+                csapp2driver.Items.Add("WC Darryl Sharp");
+                csapp2driver.Items.Add("WC Andrew Hill");
+                csapp2driver.Items.Add("FF Rachel Casbon");
+                csapp2driver.Items.Add("FF Matt House");
+                csapp2driver.Items.Add("FF John Hunter");
+                //BA1
+                csapp2ba1.Items.Add("WC Darryl Sharp");
+                csapp2ba1.Items.Add("WC Andrew Hill");
+                csapp2ba1.Items.Add("FF Rachel Casbon");
+                csapp2ba1.Items.Add("FF Matt House");
+                csapp2ba1.Items.Add("FF John Hunter");
+                //BA2
+                csapp2ba2.Items.Add("WC Darryl Sharp");
+                csapp2ba2.Items.Add("WC Andrew Hill");
+                csapp2ba2.Items.Add("FF Rachel Casbon");
+                csapp2ba2.Items.Add("FF Matt House");
+                csapp2ba2.Items.Add("FF John Hunter");
+                //ECO
+                csapp2eco.Items.Add("WC Darryl Sharp");
+                csapp2eco.Items.Add("WC Andrew Hill");
+                csapp2eco.Items.Add("FF Rachel Casbon");
+                csapp2eco.Items.Add("FF Matt House");
+                csapp2eco.Items.Add("FF John Hunter");
+                //6
+                csapp26.Items.Add("WC Darryl Sharp");
+                csapp26.Items.Add("WC Andrew Hill");
+                csapp26.Items.Add("FF Rachel Casbon");
+                csapp26.Items.Add("FF Matt House");
+                csapp26.Items.Add("FF John Hunter");
+            }
+            else if (csapp2.Text == "C19P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Colin Bartlett");
+                csapp2oic.Items.Add("CC Paul Morehen");
+                csapp2oic.Items.Add("CC Garreth Horocks");
+                csapp2oic.Items.Add("FF Chris Hudson");
+                csapp2oic.Items.Add("FF Dez Larty");
+                csapp2oic.Items.Add("FF Thomas Bingley");
+                csapp2oic.Items.Add("FF Stephen Wheatley");
+                csapp2oic.Items.Add("FF James Chittock");
+                //DRIVER
+                csapp2driver.Items.Add("WC Colin Bartlett");
+                csapp2driver.Items.Add("CC Paul Morehen");
+                csapp2driver.Items.Add("CC Garreth Horocks");
+                csapp2driver.Items.Add("FF Chris Hudson");
+                csapp2driver.Items.Add("FF Dez Larty");
+                csapp2driver.Items.Add("FF Thomas Bingley");
+                csapp2driver.Items.Add("FF Stephen Wheatley");
+                csapp2driver.Items.Add("FF James Chittock");
+                //BA1
+                csapp2ba1.Items.Add("WC Colin Bartlett");
+                csapp2ba1.Items.Add("CC Paul Morehen");
+                csapp2ba1.Items.Add("CC Garreth Horocks");
+                csapp2ba1.Items.Add("FF Chris Hudson");
+                csapp2ba1.Items.Add("FF Dez Larty");
+                csapp2ba1.Items.Add("FF Thomas Bingley");
+                csapp2ba1.Items.Add("FF Stephen Wheatley");
+                csapp2ba1.Items.Add("FF James Chittock");
+                //BA2
+                csapp2ba2.Items.Add("WC Colin Bartlett");
+                csapp2ba2.Items.Add("CC Paul Morehen");
+                csapp2ba2.Items.Add("CC Garreth Horocks");
+                csapp2ba2.Items.Add("FF Chris Hudson");
+                csapp2ba2.Items.Add("FF Dez Larty");
+                csapp2ba2.Items.Add("FF Thomas Bingley");
+                csapp2ba2.Items.Add("FF Stephen Wheatley");
+                csapp2ba2.Items.Add("FF James Chittock");
+                //ECO
+                csapp2eco.Items.Add("WC Colin Bartlett");
+                csapp2eco.Items.Add("CC Paul Morehen");
+                csapp2eco.Items.Add("CC Garreth Horocks");
+                csapp2eco.Items.Add("FF Chris Hudson");
+                csapp2eco.Items.Add("FF Dez Larty");
+                csapp2eco.Items.Add("FF Thomas Bingley");
+                csapp2eco.Items.Add("FF Stephen Wheatley");
+                csapp2eco.Items.Add("FF James Chittock");
+                //6
+                csapp26.Items.Add("WC Colin Bartlett");
+                csapp26.Items.Add("CC Paul Morehen");
+                csapp26.Items.Add("CC Garreth Horocks");
+                csapp26.Items.Add("FF Chris Hudson");
+                csapp26.Items.Add("FF Dez Larty");
+                csapp26.Items.Add("FF Thomas Bingley");
+                csapp26.Items.Add("FF Stephen Wheatley");
+                csapp26.Items.Add("FF James Chittock");
+            }
+            else if (csapp2.Text == "C18P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC Mark Brown");
+                csapp2oic.Items.Add("CC Jason Burrill");
+                csapp2oic.Items.Add("CC Vernon Lloyd");
+                csapp2oic.Items.Add("CC Kevin Gilbert");
+                csapp2oic.Items.Add("FF Daniel Barsby");
+                csapp2oic.Items.Add("FF Sean Dunthorne");
+                csapp2oic.Items.Add("FF Martin Harriss");
+                csapp2oic.Items.Add("FF Callum Hodgkin");
+                csapp2oic.Items.Add("FF Colin Richards");
+                csapp2oic.Items.Add("FF Mark Rogers");
+                csapp2oic.Items.Add("FF Jaime Cook");
+                csapp2oic.Items.Add("FF Dean Johnson");
+                csapp2oic.Items.Add("FF Megan Price");
+                csapp2oic.Items.Add("FF Jess Stebbings");
+                csapp2oic.Items.Add("FF Aaron Dunmore");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC Mark Brown");
+                csapp2driver.Items.Add("CC Jason Burrill");
+                csapp2driver.Items.Add("CC Vernon Lloyd");
+                csapp2driver.Items.Add("CC Kevin Gilbert");
+                csapp2driver.Items.Add("FF Daniel Barsby");
+                csapp2driver.Items.Add("FF Sean Dunthorne");
+                csapp2driver.Items.Add("FF Martin Harriss");
+                csapp2driver.Items.Add("FF Callum Hodgkin");
+                csapp2driver.Items.Add("FF Colin Richards");
+                csapp2driver.Items.Add("FF Mark Rogers");
+                csapp2driver.Items.Add("FF Jaime Cook");
+                csapp2driver.Items.Add("FF Dean Johnson");
+                csapp2driver.Items.Add("FF Megan Price");
+                csapp2driver.Items.Add("FF Jess Stebbings");
+                csapp2driver.Items.Add("FF Aaron Dunmore");
+                //BA1
+                csapp2ba1.Items.Add("WC Mark Brown");
+                csapp2ba1.Items.Add("CC Jason Burrill");
+                csapp2ba1.Items.Add("CC Vernon Lloyd");
+                csapp2ba1.Items.Add("CC Kevin Gilbert");
+                csapp2ba1.Items.Add("FF Daniel Barsby");
+                csapp2ba1.Items.Add("FF Sean Dunthorne");
+                csapp2ba1.Items.Add("FF Martin Harriss");
+                csapp2ba1.Items.Add("FF Callum Hodgkin");
+                csapp2ba1.Items.Add("FF Colin Richards");
+                csapp2ba1.Items.Add("FF Mark Rogers");
+                csapp2ba1.Items.Add("FF Jaime Cook");
+                csapp2ba1.Items.Add("FF Dean Johnson");
+                csapp2ba1.Items.Add("FF Megan Price");
+                csapp2ba1.Items.Add("FF Jess Stebbings");
+                csapp2ba1.Items.Add("FF Aaron Dunmore");
+                //BA2
+                csapp2ba2.Items.Add("WC Mark Brown");
+                csapp2ba2.Items.Add("CC Jason Burrill");
+                csapp2ba2.Items.Add("CC Vernon Lloyd");
+                csapp2ba2.Items.Add("CC Kevin Gilbert");
+                csapp2ba2.Items.Add("FF Daniel Barsby");
+                csapp2ba2.Items.Add("FF Sean Dunthorne");
+                csapp2ba2.Items.Add("FF Martin Harriss");
+                csapp2ba2.Items.Add("FF Callum Hodgkin");
+                csapp2ba2.Items.Add("FF Colin Richards");
+                csapp2ba2.Items.Add("FF Mark Rogers");
+                csapp2ba2.Items.Add("FF Jaime Cook");
+                csapp2ba2.Items.Add("FF Dean Johnson");
+                csapp2ba2.Items.Add("FF Megan Price");
+                csapp2ba2.Items.Add("FF Jess Stebbings");
+                csapp2ba2.Items.Add("FF Aaron Dunmore");
+                //ECO
+                csapp2eco.Items.Add("WC Mark Brown");
+                csapp2eco.Items.Add("CC Jason Burrill");
+                csapp2eco.Items.Add("CC Vernon Lloyd");
+                csapp2eco.Items.Add("CC Kevin Gilbert");
+                csapp2eco.Items.Add("FF Daniel Barsby");
+                csapp2eco.Items.Add("FF Sean Dunthorne");
+                csapp2eco.Items.Add("FF Martin Harriss");
+                csapp2eco.Items.Add("FF Callum Hodgkin");
+                csapp2eco.Items.Add("FF Colin Richards");
+                csapp2eco.Items.Add("FF Mark Rogers");
+                csapp2eco.Items.Add("FF Jaime Cook");
+                csapp2eco.Items.Add("FF Dean Johnson");
+                csapp2eco.Items.Add("FF Megan Price");
+                csapp2eco.Items.Add("FF Jess Stebbings");
+                csapp2eco.Items.Add("FF Aaron Dunmore");
+                //6
+                csapp26.Items.Add("WC Mark Brown");
+                csapp26.Items.Add("CC Jason Burrill");
+                csapp26.Items.Add("CC Vernon Lloyd");
+                csapp26.Items.Add("CC Kevin Gilbert");
+                csapp26.Items.Add("FF Daniel Barsby");
+                csapp26.Items.Add("FF Sean Dunthorne");
+                csapp26.Items.Add("FF Martin Harriss");
+                csapp26.Items.Add("FF Callum Hodgkin");
+                csapp26.Items.Add("FF Colin Richards");
+                csapp26.Items.Add("FF Mark Rogers");
+                csapp26.Items.Add("FF Jaime Cook");
+                csapp26.Items.Add("FF Dean Johnson");
+                csapp26.Items.Add("FF Megan Price");
+                csapp26.Items.Add("FF Jess Stebbings");
+                csapp26.Items.Add("FF Aaron Dunmore");
+            }
+            else if (csapp2.Text == "C17P3")
+            {
+                //OIC
+                csapp2oic.Items.Add("WC John Cox");
+                csapp2oic.Items.Add("CC Phil Coates");
+                csapp2oic.Items.Add("CC Jaime Bovington");
+                csapp2oic.Items.Add("CC Graham Duff");
+                csapp2oic.Items.Add("FF Linford Desborough");
+                csapp2oic.Items.Add("FF Bob Ratcliffe");
+                csapp2oic.Items.Add("FF Ashley McMullon");
+                csapp2oic.Items.Add("FF Mark Roberts");
+                csapp2oic.Items.Add("FF Simon Robinson");
+
+                //DRIVER
+                csapp2driver.Items.Add("WC John Cox");
+                csapp2driver.Items.Add("CC Phil Coates");
+                csapp2driver.Items.Add("CC Jaime Bovington");
+                csapp2driver.Items.Add("CC Graham Duff");
+                csapp2driver.Items.Add("FF Linford Desborough");
+                csapp2driver.Items.Add("FF Bob Ratcliffe");
+                csapp2driver.Items.Add("FF Ashley McMullon");
+                csapp2driver.Items.Add("FF Mark Roberts");
+                csapp2driver.Items.Add("FF Simon Robinson");
+                //BA1
+                csapp2ba1.Items.Add("WC John Cox");
+                csapp2ba1.Items.Add("CC Phil Coates");
+                csapp2ba1.Items.Add("CC Jaime Bovington");
+                csapp2ba1.Items.Add("CC Graham Duff");
+                csapp2ba1.Items.Add("FF Linford Desborough");
+                csapp2ba1.Items.Add("FF Bob Ratcliffe");
+                csapp2ba1.Items.Add("FF Ashley McMullon");
+                csapp2ba1.Items.Add("FF Mark Roberts");
+                csapp2ba1.Items.Add("FF Simon Robinson");
+                //BA2
+                csapp2ba2.Items.Add("WC John Cox");
+                csapp2ba2.Items.Add("CC Phil Coates");
+                csapp2ba2.Items.Add("CC Jaime Bovington");
+                csapp2ba2.Items.Add("CC Graham Duff");
+                csapp2ba2.Items.Add("FF Linford Desborough");
+                csapp2ba2.Items.Add("FF Bob Ratcliffe");
+                csapp2ba2.Items.Add("FF Ashley McMullon");
+                csapp2ba2.Items.Add("FF Mark Roberts");
+                csapp2ba2.Items.Add("FF Simon Robinson");
+                //ECO
+                csapp2eco.Items.Add("WC John Cox");
+                csapp2eco.Items.Add("CC Phil Coates");
+                csapp2eco.Items.Add("CC Jaime Bovington");
+                csapp2eco.Items.Add("CC Graham Duff");
+                csapp2eco.Items.Add("FF Linford Desborough");
+                csapp2eco.Items.Add("FF Bob Ratcliffe");
+                csapp2eco.Items.Add("FF Ashley McMullon");
+                csapp2eco.Items.Add("FF Mark Roberts");
+                csapp2eco.Items.Add("FF Simon Robinson");
+                //6
+                csapp26.Items.Add("WC John Cox");
+                csapp26.Items.Add("CC Phil Coates");
+                csapp26.Items.Add("CC Jaime Bovington");
+                csapp26.Items.Add("CC Graham Duff");
+                csapp26.Items.Add("FF Linford Desborough");
+                csapp26.Items.Add("FF Bob Ratcliffe");
+                csapp26.Items.Add("FF Ashley McMullon");
+                csapp26.Items.Add("FF Mark Roberts");
+                csapp26.Items.Add("FF Simon Robinson");
+            }
+
+            else if (csapp2.Text == "C20P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("----DAY CREW----");
+                csapp2oic.Items.Add("WC James Thompson");
+                csapp2oic.Items.Add("WC Dan Heathcote");
+                csapp2oic.Items.Add("CC Tim Carr");
+                csapp2oic.Items.Add("CC Rob Wabe");
+                csapp2oic.Items.Add("FF Shaun Bailes");
+                csapp2oic.Items.Add("FF Mathew Buckler");
+                csapp2oic.Items.Add("FF Kevin Cherry");
+                csapp2oic.Items.Add("FF Gary Doughty");
+                csapp2oic.Items.Add("FF Luke Prior");
+                csapp2oic.Items.Add("FF Amy Ratcliff");
+                csapp2oic.Items.Add("FF Gary Reach");
+                csapp2oic.Items.Add("FF Rob Woodcock");
+                csapp2oic.Items.Add("----ON CALL---");
+                csapp2oic.Items.Add("WC Phil Pibeam");
+                csapp2oic.Items.Add("CC Simon Medlock");
+                csapp2oic.Items.Add("CC Ian Cuthil");
+                csapp2oic.Items.Add("FF Richard Stebbing");
+                csapp2oic.Items.Add("FF Matthew Beare");
+                csapp2oic.Items.Add("FF Luke Green");
+                csapp2oic.Items.Add("FF Max Coles");
+                csapp2oic.Items.Add("FF Tony Mandato");
+                csapp2oic.Items.Add("FF Barry Webb");
+                csapp2oic.Items.Add("FF Josh Cairns");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("----DAY CREW----");
+                csapp2driver.Items.Add("WC James Thompson");
+                csapp2driver.Items.Add("WC Dan Heathcote");
+                csapp2driver.Items.Add("CC Tim Carr");
+                csapp2driver.Items.Add("CC Rob Wabe");
+                csapp2driver.Items.Add("FF Shaun Bailes");
+                csapp2driver.Items.Add("FF Mathew Buckler");
+                csapp2driver.Items.Add("FF Kevin Cherry");
+                csapp2driver.Items.Add("FF Gary Doughty");
+                csapp2driver.Items.Add("FF Luke Prior");
+                csapp2driver.Items.Add("FF Amy Ratcliff");
+                csapp2driver.Items.Add("FF Gary Reach");
+                csapp2driver.Items.Add("FF Rob Woodcock");
+                csapp2driver.Items.Add("----ON CALL---");
+                csapp2driver.Items.Add("WC Phil Pibeam");
+                csapp2driver.Items.Add("CC Simon Medlock");
+                csapp2driver.Items.Add("CC Ian Cuthil");
+                csapp2driver.Items.Add("FF Richard Stebbing");
+                csapp2driver.Items.Add("FF Matthew Beare");
+                csapp2driver.Items.Add("FF Luke Green");
+                csapp2driver.Items.Add("FF Max Coles");
+                csapp2driver.Items.Add("FF Tony Mandato");
+                csapp2driver.Items.Add("FF Barry Webb");
+                csapp2driver.Items.Add("FF Josh Cairns");
+                //BA1
+                csapp2ba1.Items.Add("----DAY CREW----");
+                csapp2ba1.Items.Add("WC James Thompson");
+                csapp2ba1.Items.Add("WC Dan Heathcote");
+                csapp2ba1.Items.Add("CC Tim Carr");
+                csapp2ba1.Items.Add("CC Rob Wabe");
+                csapp2ba1.Items.Add("FF Shaun Bailes");
+                csapp2ba1.Items.Add("FF Mathew Buckler");
+                csapp2ba1.Items.Add("FF Kevin Cherry");
+                csapp2ba1.Items.Add("FF Gary Doughty");
+                csapp2ba1.Items.Add("FF Luke Prior");
+                csapp2ba1.Items.Add("FF Amy Ratcliff");
+                csapp2ba1.Items.Add("FF Gary Reach");
+                csapp2ba1.Items.Add("FF Rob Woodcock");
+                csapp2ba1.Items.Add("----ON CALL---");
+                csapp2ba1.Items.Add("WC Phil Pibeam");
+                csapp2ba1.Items.Add("CC Simon Medlock");
+                csapp2ba1.Items.Add("CC Ian Cuthil");
+                csapp2ba1.Items.Add("FF Richard Stebbing");
+                csapp2ba1.Items.Add("FF Matthew Beare");
+                csapp2ba1.Items.Add("FF Luke Green");
+                csapp2ba1.Items.Add("FF Max Coles");
+                csapp2ba1.Items.Add("FF Tony Mandato");
+                csapp2ba1.Items.Add("FF Barry Webb");
+                csapp2ba1.Items.Add("FF Josh Cairns");
+                //BA2
+                csapp2ba2.Items.Add("----DAY CREW----");
+                csapp2ba2.Items.Add("WC James Thompson");
+                csapp2ba2.Items.Add("WC Dan Heathcote");
+                csapp2ba2.Items.Add("CC Tim Carr");
+                csapp2ba2.Items.Add("CC Rob Wabe");
+                csapp2ba2.Items.Add("FF Shaun Bailes");
+                csapp2ba2.Items.Add("FF Mathew Buckler");
+                csapp2ba2.Items.Add("FF Kevin Cherry");
+                csapp2ba2.Items.Add("FF Gary Doughty");
+                csapp2ba2.Items.Add("FF Luke Prior");
+                csapp2ba2.Items.Add("FF Amy Ratcliff");
+                csapp2ba2.Items.Add("FF Gary Reach");
+                csapp2ba2.Items.Add("FF Rob Woodcock");
+                csapp2ba2.Items.Add("----ON CALL---");
+                csapp2ba2.Items.Add("WC Phil Pibeam");
+                csapp2ba2.Items.Add("CC Simon Medlock");
+                csapp2ba2.Items.Add("CC Ian Cuthil");
+                csapp2ba2.Items.Add("FF Richard Stebbing");
+                csapp2ba2.Items.Add("FF Matthew Beare");
+                csapp2ba2.Items.Add("FF Luke Green");
+                csapp2ba2.Items.Add("FF Max Coles");
+                csapp2ba2.Items.Add("FF Tony Mandato");
+                csapp2ba2.Items.Add("FF Barry Webb");
+                csapp2ba2.Items.Add("FF Josh Cairns");
+                //ECO
+                csapp2eco.Items.Add("----DAY CREW----");
+                csapp2eco.Items.Add("WC James Thompson");
+                csapp2eco.Items.Add("WC Dan Heathcote");
+                csapp2eco.Items.Add("CC Tim Carr");
+                csapp2eco.Items.Add("CC Rob Wabe");
+                csapp2eco.Items.Add("FF Shaun Bailes");
+                csapp2eco.Items.Add("FF Mathew Buckler");
+                csapp2eco.Items.Add("FF Kevin Cherry");
+                csapp2eco.Items.Add("FF Gary Doughty");
+                csapp2eco.Items.Add("FF Luke Prior");
+                csapp2eco.Items.Add("FF Amy Ratcliff");
+                csapp2eco.Items.Add("FF Gary Reach");
+                csapp2eco.Items.Add("FF Rob Woodcock");
+                csapp2eco.Items.Add("----ON CALL---");
+                csapp2eco.Items.Add("WC Phil Pibeam");
+                csapp2eco.Items.Add("CC Simon Medlock");
+                csapp2eco.Items.Add("CC Ian Cuthil");
+                csapp2eco.Items.Add("FF Richard Stebbing");
+                csapp2eco.Items.Add("FF Matthew Beare");
+                csapp2eco.Items.Add("FF Luke Green");
+                csapp2eco.Items.Add("FF Max Coles");
+                csapp2eco.Items.Add("FF Tony Mandato");
+                csapp2eco.Items.Add("FF Barry Webb");
+                csapp2eco.Items.Add("FF Josh Cairns");
+                //6
+                csapp26.Items.Add("----DAY CREW----");
+                csapp26.Items.Add("WC James Thompson");
+                csapp26.Items.Add("WC Dan Heathcote");
+                csapp26.Items.Add("CC Tim Carr");
+                csapp26.Items.Add("CC Rob Wabe");
+                csapp26.Items.Add("FF Shaun Bailes");
+                csapp26.Items.Add("FF Mathew Buckler");
+                csapp26.Items.Add("FF Kevin Cherry");
+                csapp26.Items.Add("FF Gary Doughty");
+                csapp26.Items.Add("FF Luke Prior");
+                csapp26.Items.Add("FF Amy Ratcliff");
+                csapp26.Items.Add("FF Gary Reach");
+                csapp26.Items.Add("FF Rob Woodcock");
+                csapp26.Items.Add("----ON CALL---");
+                csapp26.Items.Add("WC Phil Pibeam");
+                csapp26.Items.Add("CC Simon Medlock");
+                csapp26.Items.Add("CC Ian Cuthil");
+                csapp26.Items.Add("FF Richard Stebbing");
+                csapp26.Items.Add("FF Matthew Beare");
+                csapp26.Items.Add("FF Luke Green");
+                csapp26.Items.Add("FF Max Coles");
+                csapp26.Items.Add("FF Tony Mandato");
+                csapp26.Items.Add("FF Barry Webb");
+                csapp26.Items.Add("FF Josh Cairns");
+            }
+            else if (csapp2.Text == "C20P5")
+            {
+                //OIC
+                csapp2oic.Items.Add("----DAY CREW----");
+                csapp2oic.Items.Add("WC James Thompson");
+                csapp2oic.Items.Add("WC Dan Heathcote");
+                csapp2oic.Items.Add("CC Tim Carr");
+                csapp2oic.Items.Add("CC Rob Wabe");
+                csapp2oic.Items.Add("FF Shaun Bailes");
+                csapp2oic.Items.Add("FF Mathew Buckler");
+                csapp2oic.Items.Add("FF Kevin Cherry");
+                csapp2oic.Items.Add("FF Gary Doughty");
+                csapp2oic.Items.Add("FF Luke Prior");
+                csapp2oic.Items.Add("FF Amy Ratcliff");
+                csapp2oic.Items.Add("FF Gary Reach");
+                csapp2oic.Items.Add("FF Rob Woodcock");
+                csapp2oic.Items.Add("----ON CALL---");
+                csapp2oic.Items.Add("WC Phil Pibeam");
+                csapp2oic.Items.Add("CC Simon Medlock");
+                csapp2oic.Items.Add("CC Ian Cuthil");
+                csapp2oic.Items.Add("FF Richard Stebbing");
+                csapp2oic.Items.Add("FF Matthew Beare");
+                csapp2oic.Items.Add("FF Luke Green");
+                csapp2oic.Items.Add("FF Max Coles");
+                csapp2oic.Items.Add("FF Tony Mandato");
+                csapp2oic.Items.Add("FF Barry Webb");
+                csapp2oic.Items.Add("FF Josh Cairns");
+
+
+                //DRIVER
+                csapp2driver.Items.Add("----DAY CREW----");
+                csapp2driver.Items.Add("WC James Thompson");
+                csapp2driver.Items.Add("WC Dan Heathcote");
+                csapp2driver.Items.Add("CC Tim Carr");
+                csapp2driver.Items.Add("CC Rob Wabe");
+                csapp2driver.Items.Add("FF Shaun Bailes");
+                csapp2driver.Items.Add("FF Mathew Buckler");
+                csapp2driver.Items.Add("FF Kevin Cherry");
+                csapp2driver.Items.Add("FF Gary Doughty");
+                csapp2driver.Items.Add("FF Luke Prior");
+                csapp2driver.Items.Add("FF Amy Ratcliff");
+                csapp2driver.Items.Add("FF Gary Reach");
+                csapp2driver.Items.Add("FF Rob Woodcock");
+                csapp2driver.Items.Add("----ON CALL---");
+                csapp2driver.Items.Add("WC Phil Pibeam");
+                csapp2driver.Items.Add("CC Simon Medlock");
+                csapp2driver.Items.Add("CC Ian Cuthil");
+                csapp2driver.Items.Add("FF Richard Stebbing");
+                csapp2driver.Items.Add("FF Matthew Beare");
+                csapp2driver.Items.Add("FF Luke Green");
+                csapp2driver.Items.Add("FF Max Coles");
+                csapp2driver.Items.Add("FF Tony Mandato");
+                csapp2driver.Items.Add("FF Barry Webb");
+                csapp2driver.Items.Add("FF Josh Cairns");
+                //BA1
+                csapp2ba1.Items.Add("----DAY CREW----");
+                csapp2ba1.Items.Add("WC James Thompson");
+                csapp2ba1.Items.Add("WC Dan Heathcote");
+                csapp2ba1.Items.Add("CC Tim Carr");
+                csapp2ba1.Items.Add("CC Rob Wabe");
+                csapp2ba1.Items.Add("FF Shaun Bailes");
+                csapp2ba1.Items.Add("FF Mathew Buckler");
+                csapp2ba1.Items.Add("FF Kevin Cherry");
+                csapp2ba1.Items.Add("FF Gary Doughty");
+                csapp2ba1.Items.Add("FF Luke Prior");
+                csapp2ba1.Items.Add("FF Amy Ratcliff");
+                csapp2ba1.Items.Add("FF Gary Reach");
+                csapp2ba1.Items.Add("FF Rob Woodcock");
+                csapp2ba1.Items.Add("----ON CALL---");
+                csapp2ba1.Items.Add("WC Phil Pibeam");
+                csapp2ba1.Items.Add("CC Simon Medlock");
+                csapp2ba1.Items.Add("CC Ian Cuthil");
+                csapp2ba1.Items.Add("FF Richard Stebbing");
+                csapp2ba1.Items.Add("FF Matthew Beare");
+                csapp2ba1.Items.Add("FF Luke Green");
+                csapp2ba1.Items.Add("FF Max Coles");
+                csapp2ba1.Items.Add("FF Tony Mandato");
+                csapp2ba1.Items.Add("FF Barry Webb");
+                csapp2ba1.Items.Add("FF Josh Cairns");
+                //BA2
+                csapp2ba2.Items.Add("----DAY CREW----");
+                csapp2ba2.Items.Add("WC James Thompson");
+                csapp2ba2.Items.Add("WC Dan Heathcote");
+                csapp2ba2.Items.Add("CC Tim Carr");
+                csapp2ba2.Items.Add("CC Rob Wabe");
+                csapp2ba2.Items.Add("FF Shaun Bailes");
+                csapp2ba2.Items.Add("FF Mathew Buckler");
+                csapp2ba2.Items.Add("FF Kevin Cherry");
+                csapp2ba2.Items.Add("FF Gary Doughty");
+                csapp2ba2.Items.Add("FF Luke Prior");
+                csapp2ba2.Items.Add("FF Amy Ratcliff");
+                csapp2ba2.Items.Add("FF Gary Reach");
+                csapp2ba2.Items.Add("FF Rob Woodcock");
+                csapp2ba2.Items.Add("----ON CALL---");
+                csapp2ba2.Items.Add("WC Phil Pibeam");
+                csapp2ba2.Items.Add("CC Simon Medlock");
+                csapp2ba2.Items.Add("CC Ian Cuthil");
+                csapp2ba2.Items.Add("FF Richard Stebbing");
+                csapp2ba2.Items.Add("FF Matthew Beare");
+                csapp2ba2.Items.Add("FF Luke Green");
+                csapp2ba2.Items.Add("FF Max Coles");
+                csapp2ba2.Items.Add("FF Tony Mandato");
+                csapp2ba2.Items.Add("FF Barry Webb");
+                csapp2ba2.Items.Add("FF Josh Cairns");
+                //ECO
+                csapp2eco.Items.Add("----DAY CREW----");
+                csapp2eco.Items.Add("WC James Thompson");
+                csapp2eco.Items.Add("WC Dan Heathcote");
+                csapp2eco.Items.Add("CC Tim Carr");
+                csapp2eco.Items.Add("CC Rob Wabe");
+                csapp2eco.Items.Add("FF Shaun Bailes");
+                csapp2eco.Items.Add("FF Mathew Buckler");
+                csapp2eco.Items.Add("FF Kevin Cherry");
+                csapp2eco.Items.Add("FF Gary Doughty");
+                csapp2eco.Items.Add("FF Luke Prior");
+                csapp2eco.Items.Add("FF Amy Ratcliff");
+                csapp2eco.Items.Add("FF Gary Reach");
+                csapp2eco.Items.Add("FF Rob Woodcock");
+                csapp2eco.Items.Add("----ON CALL---");
+                csapp2eco.Items.Add("WC Phil Pibeam");
+                csapp2eco.Items.Add("CC Simon Medlock");
+                csapp2eco.Items.Add("CC Ian Cuthil");
+                csapp2eco.Items.Add("FF Richard Stebbing");
+                csapp2eco.Items.Add("FF Matthew Beare");
+                csapp2eco.Items.Add("FF Luke Green");
+                csapp2eco.Items.Add("FF Max Coles");
+                csapp2eco.Items.Add("FF Tony Mandato");
+                csapp2eco.Items.Add("FF Barry Webb");
+                csapp2eco.Items.Add("FF Josh Cairns");
+                //6
+                csapp26.Items.Add("----DAY CREW----");
+                csapp26.Items.Add("WC James Thompson");
+                csapp26.Items.Add("WC Dan Heathcote");
+                csapp26.Items.Add("CC Tim Carr");
+                csapp26.Items.Add("CC Rob Wabe");
+                csapp26.Items.Add("FF Shaun Bailes");
+                csapp26.Items.Add("FF Mathew Buckler");
+                csapp26.Items.Add("FF Kevin Cherry");
+                csapp26.Items.Add("FF Gary Doughty");
+                csapp26.Items.Add("FF Luke Prior");
+                csapp26.Items.Add("FF Amy Ratcliff");
+                csapp26.Items.Add("FF Gary Reach");
+                csapp26.Items.Add("FF Rob Woodcock");
+                csapp26.Items.Add("----ON CALL---");
+                csapp26.Items.Add("WC Phil Pibeam");
+                csapp26.Items.Add("CC Simon Medlock");
+                csapp26.Items.Add("CC Ian Cuthil");
+                csapp26.Items.Add("FF Richard Stebbing");
+                csapp26.Items.Add("FF Matthew Beare");
+                csapp26.Items.Add("FF Luke Green");
+                csapp26.Items.Add("FF Max Coles");
+                csapp26.Items.Add("FF Tony Mandato");
+                csapp26.Items.Add("FF Barry Webb");
+                csapp26.Items.Add("FF Josh Cairns");
+            }
+
+            else if (csapp2.Text == "C16P5")
+            {
+                //OIC
+                csapp2oic.Items.Add("----RED----");
+                csapp2oic.Items.Add("WC Darren Thompson");
+                csapp2oic.Items.Add("CC Quinton Roach");
+                csapp2oic.Items.Add("FF Nicola Barlow");
+                csapp2oic.Items.Add("FF Richard Boston");
+                csapp2oic.Items.Add("FF Jamie Bovington");
+                csapp2oic.Items.Add("FF Alex Dalton");
+                csapp2oic.Items.Add("FF Kev Gilbert");
+                csapp2oic.Items.Add("FF Adam Layton");
+                csapp2oic.Items.Add("----WHITE----");
+                csapp2oic.Items.Add("WC Adam Cornthwaite");
+                csapp2oic.Items.Add("CC Dale Pickstone");
+                csapp2oic.Items.Add("FF Gary Beacher");
+                csapp2oic.Items.Add("FF Billy May");
+                csapp2oic.Items.Add("FF Charlie Peacock");
+                csapp2oic.Items.Add("FF Simon Stokell");
+                csapp2oic.Items.Add("FF Andy Titmuss");
+                csapp2oic.Items.Add("----BLACK---");
+                csapp2oic.Items.Add("WC Rob Allport");
+                csapp2oic.Items.Add("CC Dave Friketon");
+                csapp2oic.Items.Add("FF Phil Coates");
+                csapp2oic.Items.Add("FF Coco Chambers");
+                csapp2oic.Items.Add("FF Ian Gibbins");
+                csapp2oic.Items.Add("FF Mark Moloney");
+                csapp2oic.Items.Add("FF Mark Southwood");
+                csapp2oic.Items.Add("FF Paul Greenhalgh");
+                csapp2oic.Items.Add("----GREEN-----");
+                csapp2oic.Items.Add("WC Matt House");
+                csapp2oic.Items.Add("CC Neville Burgess");
+                csapp2oic.Items.Add("FF Karl Gockel");
+                csapp2oic.Items.Add("FF Choloe Housden");
+                csapp2oic.Items.Add("FF Matthew Gosney");
+                csapp2oic.Items.Add("FF Sam Pearce");
+                csapp2oic.Items.Add("FF Tony Train");
+                csapp2oic.Items.Add("FF Simon Robinson");
+
+                //DRIVER
+                csapp2driver.Items.Add("----RED----");
+                csapp2driver.Items.Add("WC Darren Thompson");
+                csapp2driver.Items.Add("CC Quinton Roach");
+                csapp2driver.Items.Add("FF Nicola Barlow");
+                csapp2driver.Items.Add("FF Richard Boston");
+                csapp2driver.Items.Add("FF Jamie Bovington");
+                csapp2driver.Items.Add("FF Alex Dalton");
+                csapp2driver.Items.Add("FF Kev Gilbert");
+                csapp2driver.Items.Add("FF Adam Layton");
+                csapp2driver.Items.Add("----WHITE----");
+                csapp2driver.Items.Add("WC Adam Cornthwaite");
+                csapp2driver.Items.Add("CC Dale Pickstone");
+                csapp2driver.Items.Add("FF Gary Beacher");
+                csapp2driver.Items.Add("FF Billy May");
+                csapp2driver.Items.Add("FF Charlie Peacock");
+                csapp2driver.Items.Add("FF Simon Stokell");
+                csapp2driver.Items.Add("FF Andy Titmuss");
+                csapp2driver.Items.Add("----BLACK---");
+                csapp2driver.Items.Add("WC Rob Allport");
+                csapp2driver.Items.Add("CC Dave Friketon");
+                csapp2driver.Items.Add("FF Phil Coates");
+                csapp2driver.Items.Add("FF Coco Chambers");
+                csapp2driver.Items.Add("FF Ian Gibbins");
+                csapp2driver.Items.Add("FF Mark Moloney");
+                csapp2driver.Items.Add("FF Mark Southwood");
+                csapp2driver.Items.Add("FF Paul Greenhalgh");
+                csapp2driver.Items.Add("----GREEN-----");
+                csapp2driver.Items.Add("WC Matt House");
+                csapp2driver.Items.Add("CC Neville Burgess");
+                csapp2driver.Items.Add("FF Karl Gockel");
+                csapp2driver.Items.Add("FF Choloe Housden");
+                csapp2driver.Items.Add("FF Matthew Gosney");
+                csapp2driver.Items.Add("FF Sam Pearce");
+                csapp2driver.Items.Add("FF Tony Train");
+                csapp2driver.Items.Add("FF Simon Robinson");
+                //BA1
+                csapp2ba1.Items.Add("----RED----");
+                csapp2ba1.Items.Add("WC Darren Thompson");
+                csapp2ba1.Items.Add("CC Quinton Roach");
+                csapp2ba1.Items.Add("FF Nicola Barlow");
+                csapp2ba1.Items.Add("FF Richard Boston");
+                csapp2ba1.Items.Add("FF Jamie Bovington");
+                csapp2ba1.Items.Add("FF Alex Dalton");
+                csapp2ba1.Items.Add("FF Kev Gilbert");
+                csapp2ba1.Items.Add("FF Adam Layton");
+                csapp2ba1.Items.Add("----WHITE----");
+                csapp2ba1.Items.Add("WC Adam Cornthwaite");
+                csapp2ba1.Items.Add("CC Dale Pickstone");
+                csapp2ba1.Items.Add("FF Gary Beacher");
+                csapp2ba1.Items.Add("FF Billy May");
+                csapp2ba1.Items.Add("FF Charlie Peacock");
+                csapp2ba1.Items.Add("FF Simon Stokell");
+                csapp2ba1.Items.Add("FF Andy Titmuss");
+                csapp2ba1.Items.Add("----BLACK---");
+                csapp2ba1.Items.Add("WC Rob Allport");
+                csapp2ba1.Items.Add("CC Dave Friketon");
+                csapp2ba1.Items.Add("FF Phil Coates");
+                csapp2ba1.Items.Add("FF Coco Chambers");
+                csapp2ba1.Items.Add("FF Ian Gibbins");
+                csapp2ba1.Items.Add("FF Mark Moloney");
+                csapp2ba1.Items.Add("FF Mark Southwood");
+                csapp2ba1.Items.Add("FF Paul Greenhalgh");
+                csapp2ba1.Items.Add("----GREEN-----");
+                csapp2ba1.Items.Add("WC Matt House");
+                csapp2ba1.Items.Add("CC Neville Burgess");
+                csapp2ba1.Items.Add("FF Karl Gockel");
+                csapp2ba1.Items.Add("FF Choloe Housden");
+                csapp2ba1.Items.Add("FF Matthew Gosney");
+                csapp2ba1.Items.Add("FF Sam Pearce");
+                csapp2ba1.Items.Add("FF Tony Train");
+                csapp2ba1.Items.Add("FF Simon Robinson");
+                //BA2
+                csapp2ba2.Items.Add("----RED----");
+                csapp2ba2.Items.Add("WC Darren Thompson");
+                csapp2ba2.Items.Add("CC Quinton Roach");
+                csapp2ba2.Items.Add("FF Nicola Barlow");
+                csapp2ba2.Items.Add("FF Richard Boston");
+                csapp2ba2.Items.Add("FF Jamie Bovington");
+                csapp2ba2.Items.Add("FF Alex Dalton");
+                csapp2ba2.Items.Add("FF Kev Gilbert");
+                csapp2ba2.Items.Add("FF Adam Layton");
+                csapp2ba2.Items.Add("----WHITE----");
+                csapp2ba2.Items.Add("WC Adam Cornthwaite");
+                csapp2ba2.Items.Add("CC Dale Pickstone");
+                csapp2ba2.Items.Add("FF Gary Beacher");
+                csapp2ba2.Items.Add("FF Billy May");
+                csapp2ba2.Items.Add("FF Charlie Peacock");
+                csapp2ba2.Items.Add("FF Simon Stokell");
+                csapp2ba2.Items.Add("FF Andy Titmuss");
+                csapp2ba2.Items.Add("----BLACK---");
+                csapp2ba2.Items.Add("WC Rob Allport");
+                csapp2ba2.Items.Add("CC Dave Friketon");
+                csapp2ba2.Items.Add("FF Phil Coates");
+                csapp2ba2.Items.Add("FF Coco Chambers");
+                csapp2ba2.Items.Add("FF Ian Gibbins");
+                csapp2ba2.Items.Add("FF Mark Moloney");
+                csapp2ba2.Items.Add("FF Mark Southwood");
+                csapp2ba2.Items.Add("FF Paul Greenhalgh");
+                csapp2ba2.Items.Add("----GREEN-----");
+                csapp2ba2.Items.Add("WC Matt House");
+                csapp2ba2.Items.Add("CC Neville Burgess");
+                csapp2ba2.Items.Add("FF Karl Gockel");
+                csapp2ba2.Items.Add("FF Choloe Housden");
+                csapp2ba2.Items.Add("FF Matthew Gosney");
+                csapp2ba2.Items.Add("FF Sam Pearce");
+                csapp2ba2.Items.Add("FF Tony Train");
+                csapp2ba2.Items.Add("FF Simon Robinson");
+                //ECO
+                csapp2eco.Items.Add("----RED----");
+                csapp2eco.Items.Add("WC Darren Thompson");
+                csapp2eco.Items.Add("CC Quinton Roach");
+                csapp2eco.Items.Add("FF Nicola Barlow");
+                csapp2eco.Items.Add("FF Richard Boston");
+                csapp2eco.Items.Add("FF Jamie Bovington");
+                csapp2eco.Items.Add("FF Alex Dalton");
+                csapp2eco.Items.Add("FF Kev Gilbert");
+                csapp2eco.Items.Add("FF Adam Layton");
+                csapp2eco.Items.Add("----WHITE----");
+                csapp2eco.Items.Add("WC Adam Cornthwaite");
+                csapp2eco.Items.Add("CC Dale Pickstone");
+                csapp2eco.Items.Add("FF Gary Beacher");
+                csapp2eco.Items.Add("FF Billy May");
+                csapp2eco.Items.Add("FF Charlie Peacock");
+                csapp2eco.Items.Add("FF Simon Stokell");
+                csapp2eco.Items.Add("FF Andy Titmuss");
+                csapp2eco.Items.Add("----BLACK---");
+                csapp2eco.Items.Add("WC Rob Allport");
+                csapp2eco.Items.Add("CC Dave Friketon");
+                csapp2eco.Items.Add("FF Phil Coates");
+                csapp2eco.Items.Add("FF Coco Chambers");
+                csapp2eco.Items.Add("FF Ian Gibbins");
+                csapp2eco.Items.Add("FF Mark Moloney");
+                csapp2eco.Items.Add("FF Mark Southwood");
+                csapp2eco.Items.Add("FF Paul Greenhalgh");
+                csapp2eco.Items.Add("----GREEN-----");
+                csapp2eco.Items.Add("WC Matt House");
+                csapp2eco.Items.Add("CC Neville Burgess");
+                csapp2eco.Items.Add("FF Karl Gockel");
+                csapp2eco.Items.Add("FF Choloe Housden");
+                csapp2eco.Items.Add("FF Matthew Gosney");
+                csapp2eco.Items.Add("FF Sam Pearce");
+                csapp2eco.Items.Add("FF Tony Train");
+                csapp2eco.Items.Add("FF Simon Robinson");
+                //6
+                csapp26.Items.Add("----RED----");
+                csapp26.Items.Add("WC Darren Thompson");
+                csapp26.Items.Add("CC Quinton Roach");
+                csapp26.Items.Add("FF Nicola Barlow");
+                csapp26.Items.Add("FF Richard Boston");
+                csapp26.Items.Add("FF Jamie Bovington");
+                csapp26.Items.Add("FF Alex Dalton");
+                csapp26.Items.Add("FF Kev Gilbert");
+                csapp26.Items.Add("FF Adam Layton");
+                csapp26.Items.Add("----WHITE----");
+                csapp26.Items.Add("WC Adam Cornthwaite");
+                csapp26.Items.Add("CC Dale Pickstone");
+                csapp26.Items.Add("FF Gary Beacher");
+                csapp26.Items.Add("FF Billy May");
+                csapp26.Items.Add("FF Charlie Peacock");
+                csapp26.Items.Add("FF Simon Stokell");
+                csapp26.Items.Add("FF Andy Titmuss");
+                csapp26.Items.Add("----BLACK---");
+                csapp26.Items.Add("WC Rob Allport");
+                csapp26.Items.Add("CC Dave Friketon");
+                csapp26.Items.Add("FF Phil Coates");
+                csapp26.Items.Add("FF Coco Chambers");
+                csapp26.Items.Add("FF Ian Gibbins");
+                csapp26.Items.Add("FF Mark Moloney");
+                csapp26.Items.Add("FF Mark Southwood");
+                csapp26.Items.Add("FF Paul Greenhalgh");
+                csapp26.Items.Add("----GREEN-----");
+                csapp26.Items.Add("WC Matt House");
+                csapp26.Items.Add("CC Neville Burgess");
+                csapp26.Items.Add("FF Karl Gockel");
+                csapp26.Items.Add("FF Choloe Housden");
+                csapp26.Items.Add("FF Matthew Gosney");
+                csapp26.Items.Add("FF Sam Pearce");
+                csapp26.Items.Add("FF Tony Train");
+                csapp26.Items.Add("FF Simon Robinson");
+            }
+            else if (csapp2.Text == "C16P6")
+            {
+                //OIC
+                csapp2oic.Items.Add("----RED----");
+                csapp2oic.Items.Add("WC Darren Thompson");
+                csapp2oic.Items.Add("CC Quinton Roach");
+                csapp2oic.Items.Add("FF Nicola Barlow");
+                csapp2oic.Items.Add("FF Richard Boston");
+                csapp2oic.Items.Add("FF Jamie Bovington");
+                csapp2oic.Items.Add("FF Alex Dalton");
+                csapp2oic.Items.Add("FF Kev Gilbert");
+                csapp2oic.Items.Add("FF Adam Layton");
+                csapp2oic.Items.Add("----WHITE----");
+                csapp2oic.Items.Add("WC Adam Cornthwaite");
+                csapp2oic.Items.Add("CC Dale Pickstone");
+                csapp2oic.Items.Add("FF Gary Beacher");
+                csapp2oic.Items.Add("FF Billy May");
+                csapp2oic.Items.Add("FF Charlie Peacock");
+                csapp2oic.Items.Add("FF Simon Stokell");
+                csapp2oic.Items.Add("FF Andy Titmuss");
+                csapp2oic.Items.Add("----BLACK---");
+                csapp2oic.Items.Add("WC Rob Allport");
+                csapp2oic.Items.Add("CC Dave Friketon");
+                csapp2oic.Items.Add("FF Phil Coates");
+                csapp2oic.Items.Add("FF Coco Chambers");
+                csapp2oic.Items.Add("FF Ian Gibbins");
+                csapp2oic.Items.Add("FF Mark Moloney");
+                csapp2oic.Items.Add("FF Mark Southwood");
+                csapp2oic.Items.Add("FF Paul Greenhalgh");
+                csapp2oic.Items.Add("----GREEN-----");
+                csapp2oic.Items.Add("WC Matt House");
+                csapp2oic.Items.Add("CC Neville Burgess");
+                csapp2oic.Items.Add("FF Karl Gockel");
+                csapp2oic.Items.Add("FF Choloe Housden");
+                csapp2oic.Items.Add("FF Matthew Gosney");
+                csapp2oic.Items.Add("FF Sam Pearce");
+                csapp2oic.Items.Add("FF Tony Train");
+                csapp2oic.Items.Add("FF Simon Robinson");
+
+                //DRIVER
+                csapp2driver.Items.Add("----RED----");
+                csapp2driver.Items.Add("WC Darren Thompson");
+                csapp2driver.Items.Add("CC Quinton Roach");
+                csapp2driver.Items.Add("FF Nicola Barlow");
+                csapp2driver.Items.Add("FF Richard Boston");
+                csapp2driver.Items.Add("FF Jamie Bovington");
+                csapp2driver.Items.Add("FF Alex Dalton");
+                csapp2driver.Items.Add("FF Kev Gilbert");
+                csapp2driver.Items.Add("FF Adam Layton");
+                csapp2driver.Items.Add("----WHITE----");
+                csapp2driver.Items.Add("WC Adam Cornthwaite");
+                csapp2driver.Items.Add("CC Dale Pickstone");
+                csapp2driver.Items.Add("FF Gary Beacher");
+                csapp2driver.Items.Add("FF Billy May");
+                csapp2driver.Items.Add("FF Charlie Peacock");
+                csapp2driver.Items.Add("FF Simon Stokell");
+                csapp2driver.Items.Add("FF Andy Titmuss");
+                csapp2driver.Items.Add("----BLACK---");
+                csapp2driver.Items.Add("WC Rob Allport");
+                csapp2driver.Items.Add("CC Dave Friketon");
+                csapp2driver.Items.Add("FF Phil Coates");
+                csapp2driver.Items.Add("FF Coco Chambers");
+                csapp2driver.Items.Add("FF Ian Gibbins");
+                csapp2driver.Items.Add("FF Mark Moloney");
+                csapp2driver.Items.Add("FF Mark Southwood");
+                csapp2driver.Items.Add("FF Paul Greenhalgh");
+                csapp2driver.Items.Add("----GREEN-----");
+                csapp2driver.Items.Add("WC Matt House");
+                csapp2driver.Items.Add("CC Neville Burgess");
+                csapp2driver.Items.Add("FF Karl Gockel");
+                csapp2driver.Items.Add("FF Choloe Housden");
+                csapp2driver.Items.Add("FF Matthew Gosney");
+                csapp2driver.Items.Add("FF Sam Pearce");
+                csapp2driver.Items.Add("FF Tony Train");
+                csapp2driver.Items.Add("FF Simon Robinson");
+                //BA1
+                csapp2ba1.Items.Add("----RED----");
+                csapp2ba1.Items.Add("WC Darren Thompson");
+                csapp2ba1.Items.Add("CC Quinton Roach");
+                csapp2ba1.Items.Add("FF Nicola Barlow");
+                csapp2ba1.Items.Add("FF Richard Boston");
+                csapp2ba1.Items.Add("FF Jamie Bovington");
+                csapp2ba1.Items.Add("FF Alex Dalton");
+                csapp2ba1.Items.Add("FF Kev Gilbert");
+                csapp2ba1.Items.Add("FF Adam Layton");
+                csapp2ba1.Items.Add("----WHITE----");
+                csapp2ba1.Items.Add("WC Adam Cornthwaite");
+                csapp2ba1.Items.Add("CC Dale Pickstone");
+                csapp2ba1.Items.Add("FF Gary Beacher");
+                csapp2ba1.Items.Add("FF Billy May");
+                csapp2ba1.Items.Add("FF Charlie Peacock");
+                csapp2ba1.Items.Add("FF Simon Stokell");
+                csapp2ba1.Items.Add("FF Andy Titmuss");
+                csapp2ba1.Items.Add("----BLACK---");
+                csapp2ba1.Items.Add("WC Rob Allport");
+                csapp2ba1.Items.Add("CC Dave Friketon");
+                csapp2ba1.Items.Add("FF Phil Coates");
+                csapp2ba1.Items.Add("FF Coco Chambers");
+                csapp2ba1.Items.Add("FF Ian Gibbins");
+                csapp2ba1.Items.Add("FF Mark Moloney");
+                csapp2ba1.Items.Add("FF Mark Southwood");
+                csapp2ba1.Items.Add("FF Paul Greenhalgh");
+                csapp2ba1.Items.Add("----GREEN-----");
+                csapp2ba1.Items.Add("WC Matt House");
+                csapp2ba1.Items.Add("CC Neville Burgess");
+                csapp2ba1.Items.Add("FF Karl Gockel");
+                csapp2ba1.Items.Add("FF Choloe Housden");
+                csapp2ba1.Items.Add("FF Matthew Gosney");
+                csapp2ba1.Items.Add("FF Sam Pearce");
+                csapp2ba1.Items.Add("FF Tony Train");
+                csapp2ba1.Items.Add("FF Simon Robinson");
+                //BA2
+                csapp2ba2.Items.Add("----RED----");
+                csapp2ba2.Items.Add("WC Darren Thompson");
+                csapp2ba2.Items.Add("CC Quinton Roach");
+                csapp2ba2.Items.Add("FF Nicola Barlow");
+                csapp2ba2.Items.Add("FF Richard Boston");
+                csapp2ba2.Items.Add("FF Jamie Bovington");
+                csapp2ba2.Items.Add("FF Alex Dalton");
+                csapp2ba2.Items.Add("FF Kev Gilbert");
+                csapp2ba2.Items.Add("FF Adam Layton");
+                csapp2ba2.Items.Add("----WHITE----");
+                csapp2ba2.Items.Add("WC Adam Cornthwaite");
+                csapp2ba2.Items.Add("CC Dale Pickstone");
+                csapp2ba2.Items.Add("FF Gary Beacher");
+                csapp2ba2.Items.Add("FF Billy May");
+                csapp2ba2.Items.Add("FF Charlie Peacock");
+                csapp2ba2.Items.Add("FF Simon Stokell");
+                csapp2ba2.Items.Add("FF Andy Titmuss");
+                csapp2ba2.Items.Add("----BLACK---");
+                csapp2ba2.Items.Add("WC Rob Allport");
+                csapp2ba2.Items.Add("CC Dave Friketon");
+                csapp2ba2.Items.Add("FF Phil Coates");
+                csapp2ba2.Items.Add("FF Coco Chambers");
+                csapp2ba2.Items.Add("FF Ian Gibbins");
+                csapp2ba2.Items.Add("FF Mark Moloney");
+                csapp2ba2.Items.Add("FF Mark Southwood");
+                csapp2ba2.Items.Add("FF Paul Greenhalgh");
+                csapp2ba2.Items.Add("----GREEN-----");
+                csapp2ba2.Items.Add("WC Matt House");
+                csapp2ba2.Items.Add("CC Neville Burgess");
+                csapp2ba2.Items.Add("FF Karl Gockel");
+                csapp2ba2.Items.Add("FF Choloe Housden");
+                csapp2ba2.Items.Add("FF Matthew Gosney");
+                csapp2ba2.Items.Add("FF Sam Pearce");
+                csapp2ba2.Items.Add("FF Tony Train");
+                csapp2ba2.Items.Add("FF Simon Robinson");
+                //ECO
+                csapp2eco.Items.Add("----RED----");
+                csapp2eco.Items.Add("WC Darren Thompson");
+                csapp2eco.Items.Add("CC Quinton Roach");
+                csapp2eco.Items.Add("FF Nicola Barlow");
+                csapp2eco.Items.Add("FF Richard Boston");
+                csapp2eco.Items.Add("FF Jamie Bovington");
+                csapp2eco.Items.Add("FF Alex Dalton");
+                csapp2eco.Items.Add("FF Kev Gilbert");
+                csapp2eco.Items.Add("FF Adam Layton");
+                csapp2eco.Items.Add("----WHITE----");
+                csapp2eco.Items.Add("WC Adam Cornthwaite");
+                csapp2eco.Items.Add("CC Dale Pickstone");
+                csapp2eco.Items.Add("FF Gary Beacher");
+                csapp2eco.Items.Add("FF Billy May");
+                csapp2eco.Items.Add("FF Charlie Peacock");
+                csapp2eco.Items.Add("FF Simon Stokell");
+                csapp2eco.Items.Add("FF Andy Titmuss");
+                csapp2eco.Items.Add("----BLACK---");
+                csapp2eco.Items.Add("WC Rob Allport");
+                csapp2eco.Items.Add("CC Dave Friketon");
+                csapp2eco.Items.Add("FF Phil Coates");
+                csapp2eco.Items.Add("FF Coco Chambers");
+                csapp2eco.Items.Add("FF Ian Gibbins");
+                csapp2eco.Items.Add("FF Mark Moloney");
+                csapp2eco.Items.Add("FF Mark Southwood");
+                csapp2eco.Items.Add("FF Paul Greenhalgh");
+                csapp2eco.Items.Add("----GREEN-----");
+                csapp2eco.Items.Add("WC Matt House");
+                csapp2eco.Items.Add("CC Neville Burgess");
+                csapp2eco.Items.Add("FF Karl Gockel");
+                csapp2eco.Items.Add("FF Choloe Housden");
+                csapp2eco.Items.Add("FF Matthew Gosney");
+                csapp2eco.Items.Add("FF Sam Pearce");
+                csapp2eco.Items.Add("FF Tony Train");
+                csapp2eco.Items.Add("FF Simon Robinson");
+                //6
+                csapp26.Items.Add("----RED----");
+                csapp26.Items.Add("WC Darren Thompson");
+                csapp26.Items.Add("CC Quinton Roach");
+                csapp26.Items.Add("FF Nicola Barlow");
+                csapp26.Items.Add("FF Richard Boston");
+                csapp26.Items.Add("FF Jamie Bovington");
+                csapp26.Items.Add("FF Alex Dalton");
+                csapp26.Items.Add("FF Kev Gilbert");
+                csapp26.Items.Add("FF Adam Layton");
+                csapp26.Items.Add("----WHITE----");
+                csapp26.Items.Add("WC Adam Cornthwaite");
+                csapp26.Items.Add("CC Dale Pickstone");
+                csapp26.Items.Add("FF Gary Beacher");
+                csapp26.Items.Add("FF Billy May");
+                csapp26.Items.Add("FF Charlie Peacock");
+                csapp26.Items.Add("FF Simon Stokell");
+                csapp26.Items.Add("FF Andy Titmuss");
+                csapp26.Items.Add("----BLACK---");
+                csapp26.Items.Add("WC Rob Allport");
+                csapp26.Items.Add("CC Dave Friketon");
+                csapp26.Items.Add("FF Phil Coates");
+                csapp26.Items.Add("FF Coco Chambers");
+                csapp26.Items.Add("FF Ian Gibbins");
+                csapp26.Items.Add("FF Mark Moloney");
+                csapp26.Items.Add("FF Mark Southwood");
+                csapp26.Items.Add("FF Paul Greenhalgh");
+                csapp26.Items.Add("----GREEN-----");
+                csapp26.Items.Add("WC Matt House");
+                csapp26.Items.Add("CC Neville Burgess");
+                csapp26.Items.Add("FF Karl Gockel");
+                csapp26.Items.Add("FF Choloe Housden");
+                csapp26.Items.Add("FF Matthew Gosney");
+                csapp26.Items.Add("FF Sam Pearce");
+                csapp26.Items.Add("FF Tony Train");
+                csapp26.Items.Add("FF Simon Robinson");
+            }
+
+            else if (csapp2.Text == "C13P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("----DAY CREW----");
+                csapp2oic.Items.Add("WC Jon-Paul Jones");
+                csapp2oic.Items.Add("CC James Ball");
+                csapp2oic.Items.Add("FF Agata Wieczorek");
+                csapp2oic.Items.Add("FF Andrew Jones");
+                csapp2oic.Items.Add("FF Paul Davies");
+                csapp2oic.Items.Add("FF Dan Thomas");
+                csapp2oic.Items.Add("FF Sonya Bourne");
+                csapp2oic.Items.Add("----ON CALL----");
+                csapp2oic.Items.Add("WC Rob Robinson");
+                csapp2oic.Items.Add("CC John Wolfe");
+                csapp2oic.Items.Add("FF Steve Browne");
+                csapp2oic.Items.Add("FF Pat Feguson");
+                csapp2oic.Items.Add("FF Mervyn Housden");
+                csapp2oic.Items.Add("FF Michael Housden");
+                csapp2oic.Items.Add("FF Dave Shaw");
+                csapp2oic.Items.Add("FF Bob Smith");
+                csapp2oic.Items.Add("FF Paul Spoelstra");
+                csapp2oic.Items.Add("FF Jason Mansfield");
+                csapp2oic.Items.Add("FF Agata Wieczorek");
+                csapp2oic.Items.Add("FF Ryan Young");
+                csapp2oic.Items.Add("FF James Fenna");
+                csapp2oic.Items.Add("FF Cliff Roberts");
+                csapp2oic.Items.Add("FF Neil Roberts");
+
+                //DRIVER
+                csapp2driver.Items.Add("----DAY CREW----");
+                csapp2driver.Items.Add("WC Jon-Paul Jones");
+                csapp2driver.Items.Add("CC James Ball");
+                csapp2driver.Items.Add("FF Agata Wieczorek");
+                csapp2driver.Items.Add("FF Andrew Jones");
+                csapp2driver.Items.Add("FF Paul Davies");
+                csapp2driver.Items.Add("FF Dan Thomas");
+                csapp2driver.Items.Add("FF Sonya Bourne");
+                csapp2driver.Items.Add("----ON CALL----");
+                csapp2driver.Items.Add("WC Rob Robinson");
+                csapp2driver.Items.Add("CC John Wolfe");
+                csapp2driver.Items.Add("FF Steve Browne");
+                csapp2driver.Items.Add("FF Pat Feguson");
+                csapp2driver.Items.Add("FF Mervyn Housden");
+                csapp2driver.Items.Add("FF Michael Housden");
+                csapp2driver.Items.Add("FF Dave Shaw");
+                csapp2driver.Items.Add("FF Bob Smith");
+                csapp2driver.Items.Add("FF Paul Spoelstra");
+                csapp2driver.Items.Add("FF Jason Mansfield");
+                csapp2driver.Items.Add("FF Agata Wieczorek");
+                csapp2driver.Items.Add("FF Ryan Young");
+                csapp2driver.Items.Add("FF James Fenna");
+                csapp2driver.Items.Add("FF Cliff Roberts");
+                csapp2driver.Items.Add("FF Neil Roberts");
+                //BA1
+                csapp2ba1.Items.Add("----DAY CREW----");
+                csapp2ba1.Items.Add("WC Jon-Paul Jones");
+                csapp2ba1.Items.Add("CC James Ball");
+                csapp2ba1.Items.Add("FF Agata Wieczorek");
+                csapp2ba1.Items.Add("FF Andrew Jones");
+                csapp2ba1.Items.Add("FF Paul Davies");
+                csapp2ba1.Items.Add("FF Dan Thomas");
+                csapp2ba1.Items.Add("FF Sonya Bourne");
+                csapp2ba1.Items.Add("----ON CALL----");
+                csapp2ba1.Items.Add("WC Rob Robinson");
+                csapp2ba1.Items.Add("CC John Wolfe");
+                csapp2ba1.Items.Add("FF Steve Browne");
+                csapp2ba1.Items.Add("FF Pat Feguson");
+                csapp2ba1.Items.Add("FF Mervyn Housden");
+                csapp2ba1.Items.Add("FF Michael Housden");
+                csapp2ba1.Items.Add("FF Dave Shaw");
+                csapp2ba1.Items.Add("FF Bob Smith");
+                csapp2ba1.Items.Add("FF Paul Spoelstra");
+                csapp2ba1.Items.Add("FF Jason Mansfield");
+                csapp2ba1.Items.Add("FF Agata Wieczorek");
+                csapp2ba1.Items.Add("FF Ryan Young");
+                csapp2ba1.Items.Add("FF James Fenna");
+                csapp2ba1.Items.Add("FF Cliff Roberts");
+                csapp2ba1.Items.Add("FF Neil Roberts");
+                //BA2
+                csapp2ba2.Items.Add("----DAY CREW----");
+                csapp2ba2.Items.Add("WC Jon-Paul Jones");
+                csapp2ba2.Items.Add("CC James Ball");
+                csapp2ba2.Items.Add("FF Agata Wieczorek");
+                csapp2ba2.Items.Add("FF Andrew Jones");
+                csapp2ba2.Items.Add("FF Paul Davies");
+                csapp2ba2.Items.Add("FF Dan Thomas");
+                csapp2ba2.Items.Add("FF Sonya Bourne");
+                csapp2ba2.Items.Add("----ON CALL----");
+                csapp2ba2.Items.Add("WC Rob Robinson");
+                csapp2ba2.Items.Add("CC John Wolfe");
+                csapp2ba2.Items.Add("FF Steve Browne");
+                csapp2ba2.Items.Add("FF Pat Feguson");
+                csapp2ba2.Items.Add("FF Mervyn Housden");
+                csapp2ba2.Items.Add("FF Michael Housden");
+                csapp2ba2.Items.Add("FF Dave Shaw");
+                csapp2ba2.Items.Add("FF Bob Smith");
+                csapp2ba2.Items.Add("FF Paul Spoelstra");
+                csapp2ba2.Items.Add("FF Jason Mansfield");
+                csapp2ba2.Items.Add("FF Agata Wieczorek");
+                csapp2ba2.Items.Add("FF Ryan Young");
+                csapp2ba2.Items.Add("FF James Fenna");
+                csapp2ba2.Items.Add("FF Cliff Roberts");
+                csapp2ba2.Items.Add("FF Neil Roberts");
+                //ECO
+                csapp2eco.Items.Add("----DAY CREW----");
+                csapp2eco.Items.Add("WC Jon-Paul Jones");
+                csapp2eco.Items.Add("CC James Ball");
+                csapp2eco.Items.Add("FF Agata Wieczorek");
+                csapp2eco.Items.Add("FF Andrew Jones");
+                csapp2eco.Items.Add("FF Paul Davies");
+                csapp2eco.Items.Add("FF Dan Thomas");
+                csapp2eco.Items.Add("FF Sonya Bourne");
+                csapp2eco.Items.Add("----ON CALL----");
+                csapp2eco.Items.Add("WC Rob Robinson");
+                csapp2eco.Items.Add("CC John Wolfe");
+                csapp2eco.Items.Add("FF Steve Browne");
+                csapp2eco.Items.Add("FF Pat Feguson");
+                csapp2eco.Items.Add("FF Mervyn Housden");
+                csapp2eco.Items.Add("FF Michael Housden");
+                csapp2eco.Items.Add("FF Dave Shaw");
+                csapp2eco.Items.Add("FF Bob Smith");
+                csapp2eco.Items.Add("FF Paul Spoelstra");
+                csapp2eco.Items.Add("FF Jason Mansfield");
+                csapp2eco.Items.Add("FF Agata Wieczorek");
+                csapp2eco.Items.Add("FF Ryan Young");
+                csapp2eco.Items.Add("FF James Fenna");
+                csapp2eco.Items.Add("FF Cliff Roberts");
+                csapp2eco.Items.Add("FF Neil Roberts");
+                //6
+                csapp26.Items.Add("----DAY CREW----");
+                csapp26.Items.Add("WC Jon-Paul Jones");
+                csapp26.Items.Add("CC James Ball");
+                csapp26.Items.Add("FF Agata Wieczorek");
+                csapp26.Items.Add("FF Andrew Jones");
+                csapp26.Items.Add("FF Paul Davies");
+                csapp26.Items.Add("FF Dan Thomas");
+                csapp26.Items.Add("FF Sonya Bourne");
+                csapp26.Items.Add("----ON CALL----");
+                csapp26.Items.Add("WC Rob Robinson");
+                csapp26.Items.Add("CC John Wolfe");
+                csapp26.Items.Add("FF Steve Browne");
+                csapp26.Items.Add("FF Pat Feguson");
+                csapp26.Items.Add("FF Mervyn Housden");
+                csapp26.Items.Add("FF Michael Housden");
+                csapp26.Items.Add("FF Dave Shaw");
+                csapp26.Items.Add("FF Bob Smith");
+                csapp26.Items.Add("FF Paul Spoelstra");
+                csapp26.Items.Add("FF Jason Mansfield");
+                csapp26.Items.Add("FF Agata Wieczorek");
+                csapp26.Items.Add("FF Ryan Young");
+                csapp26.Items.Add("FF James Fenna");
+                csapp26.Items.Add("FF Cliff Roberts");
+                csapp26.Items.Add("FF Neil Roberts");
+            }
+            else if (csapp2.Text == "C13P5")
+            {
+                //OIC
+                csapp2oic.Items.Add("----DAY CREW----");
+                csapp2oic.Items.Add("WC Jon-Paul Jones");
+                csapp2oic.Items.Add("CC James Ball");
+                csapp2oic.Items.Add("FF Agata Wieczorek");
+                csapp2oic.Items.Add("FF Andrew Jones");
+                csapp2oic.Items.Add("FF Paul Davies");
+                csapp2oic.Items.Add("FF Dan Thomas");
+                csapp2oic.Items.Add("FF Sonya Bourne");
+                csapp2oic.Items.Add("----ON CALL----");
+                csapp2oic.Items.Add("WC Rob Robinson");
+                csapp2oic.Items.Add("CC John Wolfe");
+                csapp2oic.Items.Add("FF Steve Browne");
+                csapp2oic.Items.Add("FF Pat Feguson");
+                csapp2oic.Items.Add("FF Mervyn Housden");
+                csapp2oic.Items.Add("FF Michael Housden");
+                csapp2oic.Items.Add("FF Dave Shaw");
+                csapp2oic.Items.Add("FF Bob Smith");
+                csapp2oic.Items.Add("FF Paul Spoelstra");
+                csapp2oic.Items.Add("FF Jason Mansfield");
+                csapp2oic.Items.Add("FF Agata Wieczorek");
+                csapp2oic.Items.Add("FF Ryan Young");
+                csapp2oic.Items.Add("FF James Fenna");
+                csapp2oic.Items.Add("FF Cliff Roberts");
+                csapp2oic.Items.Add("FF Neil Roberts");
+
+                //DRIVER
+                csapp2driver.Items.Add("----DAY CREW----");
+                csapp2driver.Items.Add("WC Jon-Paul Jones");
+                csapp2driver.Items.Add("CC James Ball");
+                csapp2driver.Items.Add("FF Agata Wieczorek");
+                csapp2driver.Items.Add("FF Andrew Jones");
+                csapp2driver.Items.Add("FF Paul Davies");
+                csapp2driver.Items.Add("FF Dan Thomas");
+                csapp2driver.Items.Add("FF Sonya Bourne");
+                csapp2driver.Items.Add("----ON CALL----");
+                csapp2driver.Items.Add("WC Rob Robinson");
+                csapp2driver.Items.Add("CC John Wolfe");
+                csapp2driver.Items.Add("FF Steve Browne");
+                csapp2driver.Items.Add("FF Pat Feguson");
+                csapp2driver.Items.Add("FF Mervyn Housden");
+                csapp2driver.Items.Add("FF Michael Housden");
+                csapp2driver.Items.Add("FF Dave Shaw");
+                csapp2driver.Items.Add("FF Bob Smith");
+                csapp2driver.Items.Add("FF Paul Spoelstra");
+                csapp2driver.Items.Add("FF Jason Mansfield");
+                csapp2driver.Items.Add("FF Agata Wieczorek");
+                csapp2driver.Items.Add("FF Ryan Young");
+                csapp2driver.Items.Add("FF James Fenna");
+                csapp2driver.Items.Add("FF Cliff Roberts");
+                csapp2driver.Items.Add("FF Neil Roberts");
+                //BA1
+                csapp2ba1.Items.Add("----DAY CREW----");
+                csapp2ba1.Items.Add("WC Jon-Paul Jones");
+                csapp2ba1.Items.Add("CC James Ball");
+                csapp2ba1.Items.Add("FF Agata Wieczorek");
+                csapp2ba1.Items.Add("FF Andrew Jones");
+                csapp2ba1.Items.Add("FF Paul Davies");
+                csapp2ba1.Items.Add("FF Dan Thomas");
+                csapp2ba1.Items.Add("FF Sonya Bourne");
+                csapp2ba1.Items.Add("----ON CALL----");
+                csapp2ba1.Items.Add("WC Rob Robinson");
+                csapp2ba1.Items.Add("CC John Wolfe");
+                csapp2ba1.Items.Add("FF Steve Browne");
+                csapp2ba1.Items.Add("FF Pat Feguson");
+                csapp2ba1.Items.Add("FF Mervyn Housden");
+                csapp2ba1.Items.Add("FF Michael Housden");
+                csapp2ba1.Items.Add("FF Dave Shaw");
+                csapp2ba1.Items.Add("FF Bob Smith");
+                csapp2ba1.Items.Add("FF Paul Spoelstra");
+                csapp2ba1.Items.Add("FF Jason Mansfield");
+                csapp2ba1.Items.Add("FF Agata Wieczorek");
+                csapp2ba1.Items.Add("FF Ryan Young");
+                csapp2ba1.Items.Add("FF James Fenna");
+                csapp2ba1.Items.Add("FF Cliff Roberts");
+                csapp2ba1.Items.Add("FF Neil Roberts");
+                //BA2
+                csapp2ba2.Items.Add("----DAY CREW----");
+                csapp2ba2.Items.Add("WC Jon-Paul Jones");
+                csapp2ba2.Items.Add("CC James Ball");
+                csapp2ba2.Items.Add("FF Agata Wieczorek");
+                csapp2ba2.Items.Add("FF Andrew Jones");
+                csapp2ba2.Items.Add("FF Paul Davies");
+                csapp2ba2.Items.Add("FF Dan Thomas");
+                csapp2ba2.Items.Add("FF Sonya Bourne");
+                csapp2ba2.Items.Add("----ON CALL----");
+                csapp2ba2.Items.Add("WC Rob Robinson");
+                csapp2ba2.Items.Add("CC John Wolfe");
+                csapp2ba2.Items.Add("FF Steve Browne");
+                csapp2ba2.Items.Add("FF Pat Feguson");
+                csapp2ba2.Items.Add("FF Mervyn Housden");
+                csapp2ba2.Items.Add("FF Michael Housden");
+                csapp2ba2.Items.Add("FF Dave Shaw");
+                csapp2ba2.Items.Add("FF Bob Smith");
+                csapp2ba2.Items.Add("FF Paul Spoelstra");
+                csapp2ba2.Items.Add("FF Jason Mansfield");
+                csapp2ba2.Items.Add("FF Agata Wieczorek");
+                csapp2ba2.Items.Add("FF Ryan Young");
+                csapp2ba2.Items.Add("FF James Fenna");
+                csapp2ba2.Items.Add("FF Cliff Roberts");
+                csapp2ba2.Items.Add("FF Neil Roberts");
+                //ECO
+                csapp2eco.Items.Add("----DAY CREW----");
+                csapp2eco.Items.Add("WC Jon-Paul Jones");
+                csapp2eco.Items.Add("CC James Ball");
+                csapp2eco.Items.Add("FF Agata Wieczorek");
+                csapp2eco.Items.Add("FF Andrew Jones");
+                csapp2eco.Items.Add("FF Paul Davies");
+                csapp2eco.Items.Add("FF Dan Thomas");
+                csapp2eco.Items.Add("FF Sonya Bourne");
+                csapp2eco.Items.Add("----ON CALL----");
+                csapp2eco.Items.Add("WC Rob Robinson");
+                csapp2eco.Items.Add("CC John Wolfe");
+                csapp2eco.Items.Add("FF Steve Browne");
+                csapp2eco.Items.Add("FF Pat Feguson");
+                csapp2eco.Items.Add("FF Mervyn Housden");
+                csapp2eco.Items.Add("FF Michael Housden");
+                csapp2eco.Items.Add("FF Dave Shaw");
+                csapp2eco.Items.Add("FF Bob Smith");
+                csapp2eco.Items.Add("FF Paul Spoelstra");
+                csapp2eco.Items.Add("FF Jason Mansfield");
+                csapp2eco.Items.Add("FF Agata Wieczorek");
+                csapp2eco.Items.Add("FF Ryan Young");
+                csapp2eco.Items.Add("FF James Fenna");
+                csapp2eco.Items.Add("FF Cliff Roberts");
+                csapp2eco.Items.Add("FF Neil Roberts");
+                //6
+                csapp26.Items.Add("----DAY CREW----");
+                csapp26.Items.Add("WC Jon-Paul Jones");
+                csapp26.Items.Add("CC James Ball");
+                csapp26.Items.Add("FF Agata Wieczorek");
+                csapp26.Items.Add("FF Andrew Jones");
+                csapp26.Items.Add("FF Paul Davies");
+                csapp26.Items.Add("FF Dan Thomas");
+                csapp26.Items.Add("FF Sonya Bourne");
+                csapp26.Items.Add("----ON CALL----");
+                csapp26.Items.Add("WC Rob Robinson");
+                csapp26.Items.Add("CC John Wolfe");
+                csapp26.Items.Add("FF Steve Browne");
+                csapp26.Items.Add("FF Pat Feguson");
+                csapp26.Items.Add("FF Mervyn Housden");
+                csapp26.Items.Add("FF Michael Housden");
+                csapp26.Items.Add("FF Dave Shaw");
+                csapp26.Items.Add("FF Bob Smith");
+                csapp26.Items.Add("FF Paul Spoelstra");
+                csapp26.Items.Add("FF Jason Mansfield");
+                csapp26.Items.Add("FF Agata Wieczorek");
+                csapp26.Items.Add("FF Ryan Young");
+                csapp26.Items.Add("FF James Fenna");
+                csapp26.Items.Add("FF Cliff Roberts");
+                csapp26.Items.Add("FF Neil Roberts");
+            }
+
+            else if (csapp2.Text == "C14P4")
+            {
+                //OIC
+                csapp2oic.Items.Add("----RED----");
+                csapp2oic.Items.Add("WC Will Collins");
+                csapp2oic.Items.Add("CC Adam Parkinson");
+                csapp2oic.Items.Add("FF Phil Taylor");
+                csapp2oic.Items.Add("FF Matt Clapinson");
+                csapp2oic.Items.Add("FF Chris Glading");
+                csapp2oic.Items.Add("FF Paul Ruff");
+                csapp2oic.Items.Add("FF Mark Sansum");
+                csapp2oic.Items.Add("FF Julian Stebbing");
+                csapp2oic.Items.Add("FF Richard Wilkinson");
+                csapp2oic.Items.Add("----WHITE----");
+                csapp2oic.Items.Add("WC Tony Fitzjohn");
+                csapp2oic.Items.Add("CC Brian Ferguson");
+                csapp2oic.Items.Add("FF Colin Bartlett");
+                csapp2oic.Items.Add("FF Barry Boreham");
+                csapp2oic.Items.Add("FF Phil Gould");
+                csapp2oic.Items.Add("FF Clive Halls");
+                csapp2oic.Items.Add("FF Matt Johnson");
+                csapp2oic.Items.Add("FF Jaime Harker");
+                csapp2oic.Items.Add("----BLACK----");
+                csapp2oic.Items.Add("WC Steve Peacock");
+                csapp2oic.Items.Add("CC Joe Gacon");
+                csapp2oic.Items.Add("FF Jason Lindley");
+                csapp2oic.Items.Add("FF Darren Edwards");
+                csapp2oic.Items.Add("FF Adam Hanney");
+                csapp2oic.Items.Add("FF Sarah Lamming");
+                csapp2oic.Items.Add("FF Andy Russell");
+                csapp2oic.Items.Add("FF Ryan Day");
+                csapp2oic.Items.Add("----GREEN----");
+                csapp2oic.Items.Add("WC Jon Crowley");
+                csapp2oic.Items.Add("CC Pete Faulder");
+                csapp2oic.Items.Add("FF Andy Ellis");
+                csapp2oic.Items.Add("FF Stuart Follen");
+                csapp2oic.Items.Add("FF Darren Cleveland");
+                csapp2oic.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2oic.Items.Add("FF Paul Morehen");
+                csapp2oic.Items.Add("FF Richard Stebbing");
+                //DRIVER
+                csapp2driver.Items.Add("----RED----");
+                csapp2driver.Items.Add("WC Will Collins");
+                csapp2driver.Items.Add("CC Adam Parkinson");
+                csapp2driver.Items.Add("FF Phil Taylor");
+                csapp2driver.Items.Add("FF Matt Clapinson");
+                csapp2driver.Items.Add("FF Chris Glading");
+                csapp2driver.Items.Add("FF Paul Ruff");
+                csapp2driver.Items.Add("FF Mark Sansum");
+                csapp2driver.Items.Add("FF Julian Stebbing");
+                csapp2driver.Items.Add("FF Richard Wilkinson");
+                csapp2driver.Items.Add("----WHITE----");
+                csapp2driver.Items.Add("WC Tony Fitzjohn");
+                csapp2driver.Items.Add("CC Brian Ferguson");
+                csapp2driver.Items.Add("FF Colin Bartlett");
+                csapp2driver.Items.Add("FF Barry Boreham");
+                csapp2driver.Items.Add("FF Phil Gould");
+                csapp2driver.Items.Add("FF Clive Halls");
+                csapp2driver.Items.Add("FF Matt Johnson");
+                csapp2driver.Items.Add("FF Jaime Harker");
+                csapp2driver.Items.Add("----BLACK----");
+                csapp2driver.Items.Add("WC Steve Peacock");
+                csapp2driver.Items.Add("CC Joe Gacon");
+                csapp2driver.Items.Add("FF Jason Lindley");
+                csapp2driver.Items.Add("FF Darren Edwards");
+                csapp2driver.Items.Add("FF Adam Hanney");
+                csapp2driver.Items.Add("FF Sarah Lamming");
+                csapp2driver.Items.Add("FF Andy Russell");
+                csapp2driver.Items.Add("FF Ryan Day");
+                csapp2driver.Items.Add("----GREEN----");
+                csapp2driver.Items.Add("WC Jon Crowley");
+                csapp2driver.Items.Add("CC Pete Faulder");
+                csapp2driver.Items.Add("FF Andy Ellis");
+                csapp2driver.Items.Add("FF Stuart Follen");
+                csapp2driver.Items.Add("FF Darren Cleveland");
+                csapp2driver.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2driver.Items.Add("FF Paul Morehen");
+                csapp2driver.Items.Add("FF Richard Stebbing");
+                //BA1
+                csapp2ba1.Items.Add("----RED----");
+                csapp2ba1.Items.Add("WC Will Collins");
+                csapp2ba1.Items.Add("CC Adam Parkinson");
+                csapp2ba1.Items.Add("FF Phil Taylor");
+                csapp2ba1.Items.Add("FF Matt Clapinson");
+                csapp2ba1.Items.Add("FF Chris Glading");
+                csapp2ba1.Items.Add("FF Paul Ruff");
+                csapp2ba1.Items.Add("FF Mark Sansum");
+                csapp2ba1.Items.Add("FF Julian Stebbing");
+                csapp2ba1.Items.Add("FF Richard Wilkinson");
+                csapp2ba1.Items.Add("----WHITE----");
+                csapp2ba1.Items.Add("WC Tony Fitzjohn");
+                csapp2ba1.Items.Add("CC Brian Ferguson");
+                csapp2ba1.Items.Add("FF Colin Bartlett");
+                csapp2ba1.Items.Add("FF Barry Boreham");
+                csapp2ba1.Items.Add("FF Phil Gould");
+                csapp2ba1.Items.Add("FF Clive Halls");
+                csapp2ba1.Items.Add("FF Matt Johnson");
+                csapp2ba1.Items.Add("FF Jaime Harker");
+                csapp2ba1.Items.Add("----BLACK----");
+                csapp2ba1.Items.Add("WC Steve Peacock");
+                csapp2ba1.Items.Add("CC Joe Gacon");
+                csapp2ba1.Items.Add("FF Jason Lindley");
+                csapp2ba1.Items.Add("FF Darren Edwards");
+                csapp2ba1.Items.Add("FF Adam Hanney");
+                csapp2ba1.Items.Add("FF Sarah Lamming");
+                csapp2ba1.Items.Add("FF Andy Russell");
+                csapp2ba1.Items.Add("FF Ryan Day");
+                csapp2ba1.Items.Add("----GREEN----");
+                csapp2ba1.Items.Add("WC Jon Crowley");
+                csapp2ba1.Items.Add("CC Pete Faulder");
+                csapp2ba1.Items.Add("FF Andy Ellis");
+                csapp2ba1.Items.Add("FF Stuart Follen");
+                csapp2ba1.Items.Add("FF Darren Cleveland");
+                csapp2ba1.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2ba1.Items.Add("FF Paul Morehen");
+                csapp2ba1.Items.Add("FF Richard Stebbing");
+                //BA2
+                csapp2ba2.Items.Add("----RED----");
+                csapp2ba2.Items.Add("WC Will Collins");
+                csapp2ba2.Items.Add("CC Adam Parkinson");
+                csapp2ba2.Items.Add("FF Phil Taylor");
+                csapp2ba2.Items.Add("FF Matt Clapinson");
+                csapp2ba2.Items.Add("FF Chris Glading");
+                csapp2ba2.Items.Add("FF Paul Ruff");
+                csapp2ba2.Items.Add("FF Mark Sansum");
+                csapp2ba2.Items.Add("FF Julian Stebbing");
+                csapp2ba2.Items.Add("FF Richard Wilkinson");
+                csapp2ba2.Items.Add("----WHITE----");
+                csapp2ba2.Items.Add("WC Tony Fitzjohn");
+                csapp2ba2.Items.Add("CC Brian Ferguson");
+                csapp2ba2.Items.Add("FF Colin Bartlett");
+                csapp2ba2.Items.Add("FF Barry Boreham");
+                csapp2ba2.Items.Add("FF Phil Gould");
+                csapp2ba2.Items.Add("FF Clive Halls");
+                csapp2ba2.Items.Add("FF Matt Johnson");
+                csapp2ba2.Items.Add("FF Jaime Harker");
+                csapp2ba2.Items.Add("----BLACK----");
+                csapp2ba2.Items.Add("WC Steve Peacock");
+                csapp2ba2.Items.Add("CC Joe Gacon");
+                csapp2ba2.Items.Add("FF Jason Lindley");
+                csapp2ba2.Items.Add("FF Darren Edwards");
+                csapp2ba2.Items.Add("FF Adam Hanney");
+                csapp2ba2.Items.Add("FF Sarah Lamming");
+                csapp2ba2.Items.Add("FF Andy Russell");
+                csapp2ba2.Items.Add("FF Ryan Day");
+                csapp2ba2.Items.Add("----GREEN----");
+                csapp2ba2.Items.Add("WC Jon Crowley");
+                csapp2ba2.Items.Add("CC Pete Faulder");
+                csapp2ba2.Items.Add("FF Andy Ellis");
+                csapp2ba2.Items.Add("FF Stuart Follen");
+                csapp2ba2.Items.Add("FF Darren Cleveland");
+                csapp2ba2.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2ba2.Items.Add("FF Paul Morehen");
+                csapp2ba2.Items.Add("FF Richard Stebbing");
+                //ECO
+                csapp2eco.Items.Add("----RED----");
+                csapp2eco.Items.Add("WC Will Collins");
+                csapp2eco.Items.Add("CC Adam Parkinson");
+                csapp2eco.Items.Add("FF Phil Taylor");
+                csapp2eco.Items.Add("FF Matt Clapinson");
+                csapp2eco.Items.Add("FF Chris Glading");
+                csapp2eco.Items.Add("FF Paul Ruff");
+                csapp2eco.Items.Add("FF Mark Sansum");
+                csapp2eco.Items.Add("FF Julian Stebbing");
+                csapp2eco.Items.Add("FF Richard Wilkinson");
+                csapp2eco.Items.Add("----WHITE----");
+                csapp2eco.Items.Add("WC Tony Fitzjohn");
+                csapp2eco.Items.Add("CC Brian Ferguson");
+                csapp2eco.Items.Add("FF Colin Bartlett");
+                csapp2eco.Items.Add("FF Barry Boreham");
+                csapp2eco.Items.Add("FF Phil Gould");
+                csapp2eco.Items.Add("FF Clive Halls");
+                csapp2eco.Items.Add("FF Matt Johnson");
+                csapp2eco.Items.Add("FF Jaime Harker");
+                csapp2eco.Items.Add("----BLACK----");
+                csapp2eco.Items.Add("WC Steve Peacock");
+                csapp2eco.Items.Add("CC Joe Gacon");
+                csapp2eco.Items.Add("FF Jason Lindley");
+                csapp2eco.Items.Add("FF Darren Edwards");
+                csapp2eco.Items.Add("FF Adam Hanney");
+                csapp2eco.Items.Add("FF Sarah Lamming");
+                csapp2eco.Items.Add("FF Andy Russell");
+                csapp2eco.Items.Add("FF Ryan Day");
+                csapp2eco.Items.Add("----GREEN----");
+                csapp2eco.Items.Add("WC Jon Crowley");
+                csapp2eco.Items.Add("CC Pete Faulder");
+                csapp2eco.Items.Add("FF Andy Ellis");
+                csapp2eco.Items.Add("FF Stuart Follen");
+                csapp2eco.Items.Add("FF Darren Cleveland");
+                csapp2eco.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2eco.Items.Add("FF Paul Morehen");
+                csapp2eco.Items.Add("FF Richard Stebbing");
+                //6
+                csapp26.Items.Add("----RED----");
+                csapp26.Items.Add("WC Will Collins");
+                csapp26.Items.Add("CC Adam Parkinson");
+                csapp26.Items.Add("FF Phil Taylor");
+                csapp26.Items.Add("FF Matt Clapinson");
+                csapp26.Items.Add("FF Chris Glading");
+                csapp26.Items.Add("FF Paul Ruff");
+                csapp26.Items.Add("FF Mark Sansum");
+                csapp26.Items.Add("FF Julian Stebbing");
+                csapp26.Items.Add("FF Richard Wilkinson");
+                csapp26.Items.Add("----WHITE----");
+                csapp26.Items.Add("WC Tony Fitzjohn");
+                csapp26.Items.Add("CC Brian Ferguson");
+                csapp26.Items.Add("FF Colin Bartlett");
+                csapp26.Items.Add("FF Barry Boreham");
+                csapp26.Items.Add("FF Phil Gould");
+                csapp26.Items.Add("FF Clive Halls");
+                csapp26.Items.Add("FF Matt Johnson");
+                csapp26.Items.Add("FF Jaime Harker");
+                csapp26.Items.Add("----BLACK----");
+                csapp26.Items.Add("WC Steve Peacock");
+                csapp26.Items.Add("CC Joe Gacon");
+                csapp26.Items.Add("FF Jason Lindley");
+                csapp26.Items.Add("FF Darren Edwards");
+                csapp26.Items.Add("FF Adam Hanney");
+                csapp26.Items.Add("FF Sarah Lamming");
+                csapp26.Items.Add("FF Andy Russell");
+                csapp26.Items.Add("FF Ryan Day");
+                csapp26.Items.Add("----GREEN----");
+                csapp26.Items.Add("WC Jon Crowley");
+                csapp26.Items.Add("CC Pete Faulder");
+                csapp26.Items.Add("FF Andy Ellis");
+                csapp26.Items.Add("FF Stuart Follen");
+                csapp26.Items.Add("FF Darren Cleveland");
+                csapp26.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp26.Items.Add("FF Paul Morehen");
+                csapp26.Items.Add("FF Richard Stebbing");
+            }
+            else if (csapp2.Text == "C14P5")
+            {
+                //OIC
+                csapp2oic.Items.Add("----RED----");
+                csapp2oic.Items.Add("WC Will Collins");
+                csapp2oic.Items.Add("CC Adam Parkinson");
+                csapp2oic.Items.Add("FF Phil Taylor");
+                csapp2oic.Items.Add("FF Matt Clapinson");
+                csapp2oic.Items.Add("FF Chris Glading");
+                csapp2oic.Items.Add("FF Paul Ruff");
+                csapp2oic.Items.Add("FF Mark Sansum");
+                csapp2oic.Items.Add("FF Julian Stebbing");
+                csapp2oic.Items.Add("FF Richard Wilkinson");
+                csapp2oic.Items.Add("----WHITE----");
+                csapp2oic.Items.Add("WC Tony Fitzjohn");
+                csapp2oic.Items.Add("CC Brian Ferguson");
+                csapp2oic.Items.Add("FF Colin Bartlett");
+                csapp2oic.Items.Add("FF Barry Boreham");
+                csapp2oic.Items.Add("FF Phil Gould");
+                csapp2oic.Items.Add("FF Clive Halls");
+                csapp2oic.Items.Add("FF Matt Johnson");
+                csapp2oic.Items.Add("FF Jaime Harker");
+                csapp2oic.Items.Add("----BLACK----");
+                csapp2oic.Items.Add("WC Steve Peacock");
+                csapp2oic.Items.Add("CC Joe Gacon");
+                csapp2oic.Items.Add("FF Jason Lindley");
+                csapp2oic.Items.Add("FF Darren Edwards");
+                csapp2oic.Items.Add("FF Adam Hanney");
+                csapp2oic.Items.Add("FF Sarah Lamming");
+                csapp2oic.Items.Add("FF Andy Russell");
+                csapp2oic.Items.Add("FF Ryan Day");
+                csapp2oic.Items.Add("----GREEN----");
+                csapp2oic.Items.Add("WC Jon Crowley");
+                csapp2oic.Items.Add("CC Pete Faulder");
+                csapp2oic.Items.Add("FF Andy Ellis");
+                csapp2oic.Items.Add("FF Stuart Follen");
+                csapp2oic.Items.Add("FF Darren Cleveland");
+                csapp2oic.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2oic.Items.Add("FF Paul Morehen");
+                csapp2oic.Items.Add("FF Richard Stebbing");
+                //DRIVER
+                csapp2driver.Items.Add("----RED----");
+                csapp2driver.Items.Add("WC Will Collins");
+                csapp2driver.Items.Add("CC Adam Parkinson");
+                csapp2driver.Items.Add("FF Phil Taylor");
+                csapp2driver.Items.Add("FF Matt Clapinson");
+                csapp2driver.Items.Add("FF Chris Glading");
+                csapp2driver.Items.Add("FF Paul Ruff");
+                csapp2driver.Items.Add("FF Mark Sansum");
+                csapp2driver.Items.Add("FF Julian Stebbing");
+                csapp2driver.Items.Add("FF Richard Wilkinson");
+                csapp2driver.Items.Add("----WHITE----");
+                csapp2driver.Items.Add("WC Tony Fitzjohn");
+                csapp2driver.Items.Add("CC Brian Ferguson");
+                csapp2driver.Items.Add("FF Colin Bartlett");
+                csapp2driver.Items.Add("FF Barry Boreham");
+                csapp2driver.Items.Add("FF Phil Gould");
+                csapp2driver.Items.Add("FF Clive Halls");
+                csapp2driver.Items.Add("FF Matt Johnson");
+                csapp2driver.Items.Add("FF Jaime Harker");
+                csapp2driver.Items.Add("----BLACK----");
+                csapp2driver.Items.Add("WC Steve Peacock");
+                csapp2driver.Items.Add("CC Joe Gacon");
+                csapp2driver.Items.Add("FF Jason Lindley");
+                csapp2driver.Items.Add("FF Darren Edwards");
+                csapp2driver.Items.Add("FF Adam Hanney");
+                csapp2driver.Items.Add("FF Sarah Lamming");
+                csapp2driver.Items.Add("FF Andy Russell");
+                csapp2driver.Items.Add("FF Ryan Day");
+                csapp2driver.Items.Add("----GREEN----");
+                csapp2driver.Items.Add("WC Jon Crowley");
+                csapp2driver.Items.Add("CC Pete Faulder");
+                csapp2driver.Items.Add("FF Andy Ellis");
+                csapp2driver.Items.Add("FF Stuart Follen");
+                csapp2driver.Items.Add("FF Darren Cleveland");
+                csapp2driver.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2driver.Items.Add("FF Paul Morehen");
+                csapp2driver.Items.Add("FF Richard Stebbing");
+                //BA1
+                csapp2ba1.Items.Add("----RED----");
+                csapp2ba1.Items.Add("WC Will Collins");
+                csapp2ba1.Items.Add("CC Adam Parkinson");
+                csapp2ba1.Items.Add("FF Phil Taylor");
+                csapp2ba1.Items.Add("FF Matt Clapinson");
+                csapp2ba1.Items.Add("FF Chris Glading");
+                csapp2ba1.Items.Add("FF Paul Ruff");
+                csapp2ba1.Items.Add("FF Mark Sansum");
+                csapp2ba1.Items.Add("FF Julian Stebbing");
+                csapp2ba1.Items.Add("FF Richard Wilkinson");
+                csapp2ba1.Items.Add("----WHITE----");
+                csapp2ba1.Items.Add("WC Tony Fitzjohn");
+                csapp2ba1.Items.Add("CC Brian Ferguson");
+                csapp2ba1.Items.Add("FF Colin Bartlett");
+                csapp2ba1.Items.Add("FF Barry Boreham");
+                csapp2ba1.Items.Add("FF Phil Gould");
+                csapp2ba1.Items.Add("FF Clive Halls");
+                csapp2ba1.Items.Add("FF Matt Johnson");
+                csapp2ba1.Items.Add("FF Jaime Harker");
+                csapp2ba1.Items.Add("----BLACK----");
+                csapp2ba1.Items.Add("WC Steve Peacock");
+                csapp2ba1.Items.Add("CC Joe Gacon");
+                csapp2ba1.Items.Add("FF Jason Lindley");
+                csapp2ba1.Items.Add("FF Darren Edwards");
+                csapp2ba1.Items.Add("FF Adam Hanney");
+                csapp2ba1.Items.Add("FF Sarah Lamming");
+                csapp2ba1.Items.Add("FF Andy Russell");
+                csapp2ba1.Items.Add("FF Ryan Day");
+                csapp2ba1.Items.Add("----GREEN----");
+                csapp2ba1.Items.Add("WC Jon Crowley");
+                csapp2ba1.Items.Add("CC Pete Faulder");
+                csapp2ba1.Items.Add("FF Andy Ellis");
+                csapp2ba1.Items.Add("FF Stuart Follen");
+                csapp2ba1.Items.Add("FF Darren Cleveland");
+                csapp2ba1.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2ba1.Items.Add("FF Paul Morehen");
+                csapp2ba1.Items.Add("FF Richard Stebbing");
+                //BA2
+                csapp2ba2.Items.Add("----RED----");
+                csapp2ba2.Items.Add("WC Will Collins");
+                csapp2ba2.Items.Add("CC Adam Parkinson");
+                csapp2ba2.Items.Add("FF Phil Taylor");
+                csapp2ba2.Items.Add("FF Matt Clapinson");
+                csapp2ba2.Items.Add("FF Chris Glading");
+                csapp2ba2.Items.Add("FF Paul Ruff");
+                csapp2ba2.Items.Add("FF Mark Sansum");
+                csapp2ba2.Items.Add("FF Julian Stebbing");
+                csapp2ba2.Items.Add("FF Richard Wilkinson");
+                csapp2ba2.Items.Add("----WHITE----");
+                csapp2ba2.Items.Add("WC Tony Fitzjohn");
+                csapp2ba2.Items.Add("CC Brian Ferguson");
+                csapp2ba2.Items.Add("FF Colin Bartlett");
+                csapp2ba2.Items.Add("FF Barry Boreham");
+                csapp2ba2.Items.Add("FF Phil Gould");
+                csapp2ba2.Items.Add("FF Clive Halls");
+                csapp2ba2.Items.Add("FF Matt Johnson");
+                csapp2ba2.Items.Add("FF Jaime Harker");
+                csapp2ba2.Items.Add("----BLACK----");
+                csapp2ba2.Items.Add("WC Steve Peacock");
+                csapp2ba2.Items.Add("CC Joe Gacon");
+                csapp2ba2.Items.Add("FF Jason Lindley");
+                csapp2ba2.Items.Add("FF Darren Edwards");
+                csapp2ba2.Items.Add("FF Adam Hanney");
+                csapp2ba2.Items.Add("FF Sarah Lamming");
+                csapp2ba2.Items.Add("FF Andy Russell");
+                csapp2ba2.Items.Add("FF Ryan Day");
+                csapp2ba2.Items.Add("----GREEN----");
+                csapp2ba2.Items.Add("WC Jon Crowley");
+                csapp2ba2.Items.Add("CC Pete Faulder");
+                csapp2ba2.Items.Add("FF Andy Ellis");
+                csapp2ba2.Items.Add("FF Stuart Follen");
+                csapp2ba2.Items.Add("FF Darren Cleveland");
+                csapp2ba2.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2ba2.Items.Add("FF Paul Morehen");
+                csapp2ba2.Items.Add("FF Richard Stebbing");
+                //ECO
+                csapp2eco.Items.Add("----RED----");
+                csapp2eco.Items.Add("WC Will Collins");
+                csapp2eco.Items.Add("CC Adam Parkinson");
+                csapp2eco.Items.Add("FF Phil Taylor");
+                csapp2eco.Items.Add("FF Matt Clapinson");
+                csapp2eco.Items.Add("FF Chris Glading");
+                csapp2eco.Items.Add("FF Paul Ruff");
+                csapp2eco.Items.Add("FF Mark Sansum");
+                csapp2eco.Items.Add("FF Julian Stebbing");
+                csapp2eco.Items.Add("FF Richard Wilkinson");
+                csapp2eco.Items.Add("----WHITE----");
+                csapp2eco.Items.Add("WC Tony Fitzjohn");
+                csapp2eco.Items.Add("CC Brian Ferguson");
+                csapp2eco.Items.Add("FF Colin Bartlett");
+                csapp2eco.Items.Add("FF Barry Boreham");
+                csapp2eco.Items.Add("FF Phil Gould");
+                csapp2eco.Items.Add("FF Clive Halls");
+                csapp2eco.Items.Add("FF Matt Johnson");
+                csapp2eco.Items.Add("FF Jaime Harker");
+                csapp2eco.Items.Add("----BLACK----");
+                csapp2eco.Items.Add("WC Steve Peacock");
+                csapp2eco.Items.Add("CC Joe Gacon");
+                csapp2eco.Items.Add("FF Jason Lindley");
+                csapp2eco.Items.Add("FF Darren Edwards");
+                csapp2eco.Items.Add("FF Adam Hanney");
+                csapp2eco.Items.Add("FF Sarah Lamming");
+                csapp2eco.Items.Add("FF Andy Russell");
+                csapp2eco.Items.Add("FF Ryan Day");
+                csapp2eco.Items.Add("----GREEN----");
+                csapp2eco.Items.Add("WC Jon Crowley");
+                csapp2eco.Items.Add("CC Pete Faulder");
+                csapp2eco.Items.Add("FF Andy Ellis");
+                csapp2eco.Items.Add("FF Stuart Follen");
+                csapp2eco.Items.Add("FF Darren Cleveland");
+                csapp2eco.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp2eco.Items.Add("FF Paul Morehen");
+                csapp2eco.Items.Add("FF Richard Stebbing");
+                //6
+                csapp26.Items.Add("----RED----");
+                csapp26.Items.Add("WC Will Collins");
+                csapp26.Items.Add("CC Adam Parkinson");
+                csapp26.Items.Add("FF Phil Taylor");
+                csapp26.Items.Add("FF Matt Clapinson");
+                csapp26.Items.Add("FF Chris Glading");
+                csapp26.Items.Add("FF Paul Ruff");
+                csapp26.Items.Add("FF Mark Sansum");
+                csapp26.Items.Add("FF Julian Stebbing");
+                csapp26.Items.Add("FF Richard Wilkinson");
+                csapp26.Items.Add("----WHITE----");
+                csapp26.Items.Add("WC Tony Fitzjohn");
+                csapp26.Items.Add("CC Brian Ferguson");
+                csapp26.Items.Add("FF Colin Bartlett");
+                csapp26.Items.Add("FF Barry Boreham");
+                csapp26.Items.Add("FF Phil Gould");
+                csapp26.Items.Add("FF Clive Halls");
+                csapp26.Items.Add("FF Matt Johnson");
+                csapp26.Items.Add("FF Jaime Harker");
+                csapp26.Items.Add("----BLACK----");
+                csapp26.Items.Add("WC Steve Peacock");
+                csapp26.Items.Add("CC Joe Gacon");
+                csapp26.Items.Add("FF Jason Lindley");
+                csapp26.Items.Add("FF Darren Edwards");
+                csapp26.Items.Add("FF Adam Hanney");
+                csapp26.Items.Add("FF Sarah Lamming");
+                csapp26.Items.Add("FF Andy Russell");
+                csapp26.Items.Add("FF Ryan Day");
+                csapp26.Items.Add("----GREEN----");
+                csapp26.Items.Add("WC Jon Crowley");
+                csapp26.Items.Add("CC Pete Faulder");
+                csapp26.Items.Add("FF Andy Ellis");
+                csapp26.Items.Add("FF Stuart Follen");
+                csapp26.Items.Add("FF Darren Cleveland");
+                csapp26.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp26.Items.Add("FF Paul Morehen");
+                csapp26.Items.Add("FF Richard Stebbing");
+            }
+        }
+
+
+
+
+        private void csapp3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (csapp3.Text == "C27P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Kevin Partridge");
+                csapp3oic.Items.Add("CC Lee Harris");
+                csapp3oic.Items.Add("FF Matt Arthur");
+                csapp3oic.Items.Add("FF Marc Bynoe");
+                csapp3oic.Items.Add("FF Jason Green");
+                csapp3oic.Items.Add("FF Josh Muir");
+                csapp3oic.Items.Add("FF Graham Mullane");
+                csapp3oic.Items.Add("FF James Parish");
+                csapp3oic.Items.Add("FF Steven Rackley");
+                csapp3oic.Items.Add("---");
+                csapp3oic.Items.Add("WC Gareth Boyd");
+                csapp3oic.Items.Add("WC Trevor Lindsay");
+                csapp3oic.Items.Add("WC Stocekr Standen");
+                csapp3oic.Items.Add("WC Jon Wade");
+                csapp3oic.Items.Add("CC Steve Conway");
+                csapp3oic.Items.Add("CC Lee harris");
+                csapp3oic.Items.Add("CC Adrian Strowger");
+                csapp3oic.Items.Add("CC John Tyrell");
+                csapp3oic.Items.Add("FF Rob Austin");
+                csapp3oic.Items.Add("FF Dave Barrett");
+                csapp3oic.Items.Add("FF Jordan Cadogan");
+                csapp3oic.Items.Add("FF Leon Collins");
+                csapp3oic.Items.Add("FF Craig Fishpoole");
+                csapp3oic.Items.Add("FF Becky Freeman");
+                csapp3oic.Items.Add("FF Graham George");
+                csapp3oic.Items.Add("FF Dale Gibson");
+                csapp3oic.Items.Add("FF Claire Harrington");
+                csapp3oic.Items.Add("FF Robin Hodgson");
+                csapp3oic.Items.Add("FF Richard Hamilton");
+                csapp3oic.Items.Add("FF Ben Howells");
+                csapp3oic.Items.Add("FF Danny Johnston");
+                csapp3oic.Items.Add("FF James Pearce");
+                csapp3oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3oic.Items.Add("FF Liam Siddons");
+                csapp3oic.Items.Add("FF Georgina Sturgess");
+                csapp3oic.Items.Add("FF Christian Theobald");
+                csapp3oic.Items.Add("FF Richard Walton");
+                csapp3oic.Items.Add("FF Paul Whitaker");
+                csapp3oic.Items.Add("FF Matt Woodcock");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Kevin Partridge");
+                csapp3driver.Items.Add("CC Lee Harris");
+                csapp3driver.Items.Add("FF Matt Arthur");
+                csapp3driver.Items.Add("FF Marc Bynoe");
+                csapp3driver.Items.Add("FF Jason Green");
+                csapp3driver.Items.Add("FF Josh Muir");
+                csapp3driver.Items.Add("FF Graham Mullane");
+                csapp3driver.Items.Add("FF James Parish");
+                csapp3driver.Items.Add("FF Steven Rackley");
+                csapp3driver.Items.Add("---");
+                csapp3driver.Items.Add("WC Gareth Boyd");
+                csapp3driver.Items.Add("WC Trevor Lindsay");
+                csapp3driver.Items.Add("WC Stocekr Standen");
+                csapp3driver.Items.Add("WC Jon Wade");
+                csapp3driver.Items.Add("CC Steve Conway");
+                csapp3driver.Items.Add("CC Lee harris");
+                csapp3driver.Items.Add("CC Adrian Strowger");
+                csapp3driver.Items.Add("CC John Tyrell");
+                csapp3driver.Items.Add("FF Rob Austin");
+                csapp3driver.Items.Add("FF Dave Barrett");
+                csapp3driver.Items.Add("FF Jordan Cadogan");
+                csapp3driver.Items.Add("FF Leon Collins");
+                csapp3driver.Items.Add("FF Craig Fishpoole");
+                csapp3driver.Items.Add("FF Becky Freeman");
+                csapp3driver.Items.Add("FF Graham George");
+                csapp3driver.Items.Add("FF Dale Gibson");
+                csapp3driver.Items.Add("FF Claire Harrington");
+                csapp3driver.Items.Add("FF Robin Hodgson");
+                csapp3driver.Items.Add("FF Richard Hamilton");
+                csapp3driver.Items.Add("FF Ben Howells");
+                csapp3driver.Items.Add("FF Danny Johnston");
+                csapp3driver.Items.Add("FF James Pearce");
+                csapp3driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3driver.Items.Add("FF Liam Siddons");
+                csapp3driver.Items.Add("FF Georgina Sturgess");
+                csapp3driver.Items.Add("FF Christian Theobald");
+                csapp3driver.Items.Add("FF Richard Walton");
+                csapp3driver.Items.Add("FF Paul Whitaker");
+                csapp3driver.Items.Add("FF Matt Woodcock");
+                //BA1
+                csapp3ba1.Items.Add("WC Kevin Partridge");
+                csapp3ba1.Items.Add("CC Lee Harris");
+                csapp3ba1.Items.Add("FF Matt Arthur");
+                csapp3ba1.Items.Add("FF Marc Bynoe");
+                csapp3ba1.Items.Add("FF Jason Green");
+                csapp3ba1.Items.Add("FF Josh Muir");
+                csapp3ba1.Items.Add("FF Graham Mullane");
+                csapp3ba1.Items.Add("FF James Parish");
+                csapp3ba1.Items.Add("FF Steven Rackley");
+                csapp3ba1.Items.Add("---");
+                csapp3ba1.Items.Add("WC Gareth Boyd");
+                csapp3ba1.Items.Add("WC Trevor Lindsay");
+                csapp3ba1.Items.Add("WC Stocekr Standen");
+                csapp3ba1.Items.Add("WC Jon Wade");
+                csapp3ba1.Items.Add("CC Steve Conway");
+                csapp3ba1.Items.Add("CC Lee harris");
+                csapp3ba1.Items.Add("CC Adrian Strowger");
+                csapp3ba1.Items.Add("CC John Tyrell");
+                csapp3ba1.Items.Add("FF Rob Austin");
+                csapp3ba1.Items.Add("FF Dave Barrett");
+                csapp3ba1.Items.Add("FF Jordan Cadogan");
+                csapp3ba1.Items.Add("FF Leon Collins");
+                csapp3ba1.Items.Add("FF Craig Fishpoole");
+                csapp3ba1.Items.Add("FF Becky Freeman");
+                csapp3ba1.Items.Add("FF Graham George");
+                csapp3ba1.Items.Add("FF Dale Gibson");
+                csapp3ba1.Items.Add("FF Claire Harrington");
+                csapp3ba1.Items.Add("FF Robin Hodgson");
+                csapp3ba1.Items.Add("FF Richard Hamilton");
+                csapp3ba1.Items.Add("FF Ben Howells");
+                csapp3ba1.Items.Add("FF Danny Johnston");
+                csapp3ba1.Items.Add("FF James Pearce");
+                csapp3ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba1.Items.Add("FF Liam Siddons");
+                csapp3ba1.Items.Add("FF Georgina Sturgess");
+                csapp3ba1.Items.Add("FF Christian Theobald");
+                csapp3ba1.Items.Add("FF Richard Walton");
+                csapp3ba1.Items.Add("FF Paul Whitaker");
+                csapp3ba1.Items.Add("FF Matt Woodcock");
+                //BA2
+                csapp3ba2.Items.Add("WC Kevin Partridge");
+                csapp3ba2.Items.Add("CC Lee Harris");
+                csapp3ba2.Items.Add("FF Matt Arthur");
+                csapp3ba2.Items.Add("FF Marc Bynoe");
+                csapp3ba2.Items.Add("FF Jason Green");
+                csapp3ba2.Items.Add("FF Josh Muir");
+                csapp3ba2.Items.Add("FF Graham Mullane");
+                csapp3ba2.Items.Add("FF James Parish");
+                csapp3ba2.Items.Add("FF Steven Rackley");
+                csapp3ba2.Items.Add("---");
+                csapp3ba2.Items.Add("WC Gareth Boyd");
+                csapp3ba2.Items.Add("WC Trevor Lindsay");
+                csapp3ba2.Items.Add("WC Stocekr Standen");
+                csapp3ba2.Items.Add("WC Jon Wade");
+                csapp3ba2.Items.Add("CC Steve Conway");
+                csapp3ba2.Items.Add("CC Lee harris");
+                csapp3ba2.Items.Add("CC Adrian Strowger");
+                csapp3ba2.Items.Add("CC John Tyrell");
+                csapp3ba2.Items.Add("FF Rob Austin");
+                csapp3ba2.Items.Add("FF Dave Barrett");
+                csapp3ba2.Items.Add("FF Jordan Cadogan");
+                csapp3ba2.Items.Add("FF Leon Collins");
+                csapp3ba2.Items.Add("FF Craig Fishpoole");
+                csapp3ba2.Items.Add("FF Becky Freeman");
+                csapp3ba2.Items.Add("FF Graham George");
+                csapp3ba2.Items.Add("FF Dale Gibson");
+                csapp3ba2.Items.Add("FF Claire Harrington");
+                csapp3ba2.Items.Add("FF Robin Hodgson");
+                csapp3ba2.Items.Add("FF Richard Hamilton");
+                csapp3ba2.Items.Add("FF Ben Howells");
+                csapp3ba2.Items.Add("FF Danny Johnston");
+                csapp3ba2.Items.Add("FF James Pearce");
+                csapp3ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba2.Items.Add("FF Liam Siddons");
+                csapp3ba2.Items.Add("FF Georgina Sturgess");
+                csapp3ba2.Items.Add("FF Christian Theobald");
+                csapp3ba2.Items.Add("FF Richard Walton");
+                csapp3ba2.Items.Add("FF Paul Whitaker");
+                csapp3ba2.Items.Add("FF Matt Woodcock");
+                //ECO
+                csapp3eco.Items.Add("WC Kevin Partridge");
+                csapp3eco.Items.Add("CC Lee Harris");
+                csapp3eco.Items.Add("FF Matt Arthur");
+                csapp3eco.Items.Add("FF Marc Bynoe");
+                csapp3eco.Items.Add("FF Jason Green");
+                csapp3eco.Items.Add("FF Josh Muir");
+                csapp3eco.Items.Add("FF Graham Mullane");
+                csapp3eco.Items.Add("FF James Parish");
+                csapp3eco.Items.Add("FF Steven Rackley");
+                csapp3eco.Items.Add("---");
+                csapp3eco.Items.Add("WC Gareth Boyd");
+                csapp3eco.Items.Add("WC Trevor Lindsay");
+                csapp3eco.Items.Add("WC Stocekr Standen");
+                csapp3eco.Items.Add("WC Jon Wade");
+                csapp3eco.Items.Add("CC Steve Conway");
+                csapp3eco.Items.Add("CC Lee harris");
+                csapp3eco.Items.Add("CC Adrian Strowger");
+                csapp3eco.Items.Add("CC John Tyrell");
+                csapp3eco.Items.Add("FF Rob Austin");
+                csapp3eco.Items.Add("FF Dave Barrett");
+                csapp3eco.Items.Add("FF Jordan Cadogan");
+                csapp3eco.Items.Add("FF Leon Collins");
+                csapp3eco.Items.Add("FF Craig Fishpoole");
+                csapp3eco.Items.Add("FF Becky Freeman");
+                csapp3eco.Items.Add("FF Graham George");
+                csapp3eco.Items.Add("FF Dale Gibson");
+                csapp3eco.Items.Add("FF Claire Harrington");
+                csapp3eco.Items.Add("FF Robin Hodgson");
+                csapp3eco.Items.Add("FF Richard Hamilton");
+                csapp3eco.Items.Add("FF Ben Howells");
+                csapp3eco.Items.Add("FF Danny Johnston");
+                csapp3eco.Items.Add("FF James Pearce");
+                csapp3eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3eco.Items.Add("FF Liam Siddons");
+                csapp3eco.Items.Add("FF Georgina Sturgess");
+                csapp3eco.Items.Add("FF Christian Theobald");
+                csapp3eco.Items.Add("FF Richard Walton");
+                csapp3eco.Items.Add("FF Paul Whitaker");
+                csapp3eco.Items.Add("FF Matt Woodcock");
+                //6
+                csapp36.Items.Add("WC Kevin Partridge");
+                csapp36.Items.Add("CC Lee Harris");
+                csapp36.Items.Add("FF Matt Arthur");
+                csapp36.Items.Add("FF Marc Bynoe");
+                csapp36.Items.Add("FF Jason Green");
+                csapp36.Items.Add("FF Josh Muir");
+                csapp36.Items.Add("FF Graham Mullane");
+                csapp36.Items.Add("FF James Parish");
+                csapp36.Items.Add("FF Steven Rackley");
+                csapp36.Items.Add("---");
+                csapp36.Items.Add("WC Gareth Boyd");
+                csapp36.Items.Add("WC Trevor Lindsay");
+                csapp36.Items.Add("WC Stocekr Standen");
+                csapp36.Items.Add("WC Jon Wade");
+                csapp36.Items.Add("CC Steve Conway");
+                csapp36.Items.Add("CC Lee harris");
+                csapp36.Items.Add("CC Adrian Strowger");
+                csapp36.Items.Add("CC John Tyrell");
+                csapp36.Items.Add("FF Rob Austin");
+                csapp36.Items.Add("FF Dave Barrett");
+                csapp36.Items.Add("FF Jordan Cadogan");
+                csapp36.Items.Add("FF Leon Collins");
+                csapp36.Items.Add("FF Craig Fishpoole");
+                csapp36.Items.Add("FF Becky Freeman");
+                csapp36.Items.Add("FF Graham George");
+                csapp36.Items.Add("FF Dale Gibson");
+                csapp36.Items.Add("FF Claire Harrington");
+                csapp36.Items.Add("FF Robin Hodgson");
+                csapp36.Items.Add("FF Richard Hamilton");
+                csapp36.Items.Add("FF Ben Howells");
+                csapp36.Items.Add("FF Danny Johnston");
+                csapp36.Items.Add("FF James Pearce");
+                csapp36.Items.Add("FF Tom Quinn-Nicholls");
+                csapp36.Items.Add("FF Liam Siddons");
+                csapp36.Items.Add("FF Georgina Sturgess");
+                csapp36.Items.Add("FF Christian Theobald");
+                csapp36.Items.Add("FF Richard Walton");
+                csapp36.Items.Add("FF Paul Whitaker");
+                csapp36.Items.Add("FF Matt Woodcock");
+
+            }
+            else if (csapp3.Text == "C27P5")
+            {
+
+                //OIC
+                csapp3oic.Items.Add("WC Gareth Boyd");
+                csapp3oic.Items.Add("WC Trevor Lindsay");
+                csapp3oic.Items.Add("WC Stocekr Standen");
+                csapp3oic.Items.Add("WC Jon Wade");
+                csapp3oic.Items.Add("CC Steve Conway");
+                csapp3oic.Items.Add("CC Lee harris");
+                csapp3oic.Items.Add("CC Adrian Strowger");
+                csapp3oic.Items.Add("CC John Tyrell");
+                csapp3oic.Items.Add("FF Rob Austin");
+                csapp3oic.Items.Add("FF Dave Barrett");
+                csapp3oic.Items.Add("FF Jordan Cadogan");
+                csapp3oic.Items.Add("FF Leon Collins");
+                csapp3oic.Items.Add("FF Craig Fishpoole");
+                csapp3oic.Items.Add("FF Becky Freeman");
+                csapp3oic.Items.Add("FF Graham George");
+                csapp3oic.Items.Add("FF Dale Gibson");
+                csapp3oic.Items.Add("FF Claire Harrington");
+                csapp3oic.Items.Add("FF Robin Hodgson");
+                csapp3oic.Items.Add("FF Richard Hamilton");
+                csapp3oic.Items.Add("FF Ben Howells");
+                csapp3oic.Items.Add("FF Danny Johnston");
+                csapp3oic.Items.Add("FF James Pearce");
+                csapp3oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3oic.Items.Add("FF Liam Siddons");
+                csapp3oic.Items.Add("FF Georgina Sturgess");
+                csapp3oic.Items.Add("FF Christian Theobald");
+                csapp3oic.Items.Add("FF Richard Walton");
+                csapp3oic.Items.Add("FF Paul Whitaker");
+                csapp3oic.Items.Add("FF Matt Woodcock");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Gareth Boyd");
+                csapp3driver.Items.Add("WC Trevor Lindsay");
+                csapp3driver.Items.Add("WC Stocekr Standen");
+                csapp3driver.Items.Add("WC Jon Wade");
+                csapp3driver.Items.Add("CC Steve Conway");
+                csapp3driver.Items.Add("CC Lee harris");
+                csapp3driver.Items.Add("CC Adrian Strowger");
+                csapp3driver.Items.Add("CC John Tyrell");
+                csapp3driver.Items.Add("FF Rob Austin");
+                csapp3driver.Items.Add("FF Dave Barrett");
+                csapp3driver.Items.Add("FF Jordan Cadogan");
+                csapp3driver.Items.Add("FF Leon Collins");
+                csapp3driver.Items.Add("FF Craig Fishpoole");
+                csapp3driver.Items.Add("FF Becky Freeman");
+                csapp3driver.Items.Add("FF Graham George");
+                csapp3driver.Items.Add("FF Dale Gibson");
+                csapp3driver.Items.Add("FF Claire Harrington");
+                csapp3driver.Items.Add("FF Robin Hodgson");
+                csapp3driver.Items.Add("FF Richard Hamilton");
+                csapp3driver.Items.Add("FF Ben Howells");
+                csapp3driver.Items.Add("FF Danny Johnston");
+                csapp3driver.Items.Add("FF James Pearce");
+                csapp3driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3driver.Items.Add("FF Liam Siddons");
+                csapp3driver.Items.Add("FF Georgina Sturgess");
+                csapp3driver.Items.Add("FF Christian Theobald");
+                csapp3driver.Items.Add("FF Richard Walton");
+                csapp3driver.Items.Add("FF Paul Whitaker");
+                csapp3driver.Items.Add("FF Matt Woodcock");
+                //BA1
+                csapp3ba1.Items.Add("WC Gareth Boyd");
+                csapp3ba1.Items.Add("WC Trevor Lindsay");
+                csapp3ba1.Items.Add("WC Stocekr Standen");
+                csapp3ba1.Items.Add("WC Jon Wade");
+                csapp3ba1.Items.Add("CC Steve Conway");
+                csapp3ba1.Items.Add("CC Lee harris");
+                csapp3ba1.Items.Add("CC Adrian Strowger");
+                csapp3ba1.Items.Add("CC John Tyrell");
+                csapp3ba1.Items.Add("FF Rob Austin");
+                csapp3ba1.Items.Add("FF Dave Barrett");
+                csapp3ba1.Items.Add("FF Jordan Cadogan");
+                csapp3ba1.Items.Add("FF Leon Collins");
+                csapp3ba1.Items.Add("FF Craig Fishpoole");
+                csapp3ba1.Items.Add("FF Becky Freeman");
+                csapp3ba1.Items.Add("FF Graham George");
+                csapp3ba1.Items.Add("FF Dale Gibson");
+                csapp3ba1.Items.Add("FF Claire Harrington");
+                csapp3ba1.Items.Add("FF Robin Hodgson");
+                csapp3ba1.Items.Add("FF Richard Hamilton");
+                csapp3ba1.Items.Add("FF Ben Howells");
+                csapp3ba1.Items.Add("FF Danny Johnston");
+                csapp3ba1.Items.Add("FF James Pearce");
+                csapp3ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba1.Items.Add("FF Liam Siddons");
+                csapp3ba1.Items.Add("FF Georgina Sturgess");
+                csapp3ba1.Items.Add("FF Christian Theobald");
+                csapp3ba1.Items.Add("FF Richard Walton");
+                csapp3ba1.Items.Add("FF Paul Whitaker");
+                csapp3ba1.Items.Add("FF Matt Woodcock");
+                //BA2
+                csapp3ba2.Items.Add("WC Gareth Boyd");
+                csapp3ba2.Items.Add("WC Trevor Lindsay");
+                csapp3ba2.Items.Add("WC Stocekr Standen");
+                csapp3ba2.Items.Add("WC Jon Wade");
+                csapp3ba2.Items.Add("CC Steve Conway");
+                csapp3ba2.Items.Add("CC Lee harris");
+                csapp3ba2.Items.Add("CC Adrian Strowger");
+                csapp3ba2.Items.Add("CC John Tyrell");
+                csapp3ba2.Items.Add("FF Rob Austin");
+                csapp3ba2.Items.Add("FF Dave Barrett");
+                csapp3ba2.Items.Add("FF Jordan Cadogan");
+                csapp3ba2.Items.Add("FF Leon Collins");
+                csapp3ba2.Items.Add("FF Craig Fishpoole");
+                csapp3ba2.Items.Add("FF Becky Freeman");
+                csapp3ba2.Items.Add("FF Graham George");
+                csapp3ba2.Items.Add("FF Dale Gibson");
+                csapp3ba2.Items.Add("FF Claire Harrington");
+                csapp3ba2.Items.Add("FF Robin Hodgson");
+                csapp3ba2.Items.Add("FF Richard Hamilton");
+                csapp3ba2.Items.Add("FF Ben Howells");
+                csapp3ba2.Items.Add("FF Danny Johnston");
+                csapp3ba2.Items.Add("FF James Pearce");
+                csapp3ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba2.Items.Add("FF Liam Siddons");
+                csapp3ba2.Items.Add("FF Georgina Sturgess");
+                csapp3ba2.Items.Add("FF Christian Theobald");
+                csapp3ba2.Items.Add("FF Richard Walton");
+                csapp3ba2.Items.Add("FF Paul Whitaker");
+                csapp3ba2.Items.Add("FF Matt Woodcock");
+                //ECO
+                csapp3eco.Items.Add("WC Gareth Boyd");
+                csapp3eco.Items.Add("WC Trevor Lindsay");
+                csapp3eco.Items.Add("WC Stocekr Standen");
+                csapp3eco.Items.Add("WC Jon Wade");
+                csapp3eco.Items.Add("CC Steve Conway");
+                csapp3eco.Items.Add("CC Lee harris");
+                csapp3eco.Items.Add("CC Adrian Strowger");
+                csapp3eco.Items.Add("CC John Tyrell");
+                csapp3eco.Items.Add("FF Rob Austin");
+                csapp3eco.Items.Add("FF Dave Barrett");
+                csapp3eco.Items.Add("FF Jordan Cadogan");
+                csapp3eco.Items.Add("FF Leon Collins");
+                csapp3eco.Items.Add("FF Craig Fishpoole");
+                csapp3eco.Items.Add("FF Becky Freeman");
+                csapp3eco.Items.Add("FF Graham George");
+                csapp3eco.Items.Add("FF Dale Gibson");
+                csapp3eco.Items.Add("FF Claire Harrington");
+                csapp3eco.Items.Add("FF Robin Hodgson");
+                csapp3eco.Items.Add("FF Richard Hamilton");
+                csapp3eco.Items.Add("FF Ben Howells");
+                csapp3eco.Items.Add("FF Danny Johnston");
+                csapp3eco.Items.Add("FF James Pearce");
+                csapp3eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3eco.Items.Add("FF Liam Siddons");
+                csapp3eco.Items.Add("FF Georgina Sturgess");
+                csapp3eco.Items.Add("FF Christian Theobald");
+                csapp3eco.Items.Add("FF Richard Walton");
+                csapp3eco.Items.Add("FF Paul Whitaker");
+                csapp3eco.Items.Add("FF Matt Woodcock");
+                //6
+                csapp36.Items.Add("WC Gareth Boyd");
+                csapp36.Items.Add("WC Trevor Lindsay");
+                csapp36.Items.Add("WC Stocekr Standen");
+                csapp36.Items.Add("WC Jon Wade");
+                csapp36.Items.Add("CC Steve Conway");
+                csapp36.Items.Add("CC Lee harris");
+                csapp36.Items.Add("CC Adrian Strowger");
+                csapp36.Items.Add("CC John Tyrell");
+                csapp36.Items.Add("FF Rob Austin");
+                csapp36.Items.Add("FF Dave Barrett");
+                csapp36.Items.Add("FF Jordan Cadogan");
+                csapp36.Items.Add("FF Leon Collins");
+                csapp36.Items.Add("FF Craig Fishpoole");
+                csapp36.Items.Add("FF Becky Freeman");
+                csapp36.Items.Add("FF Graham George");
+                csapp36.Items.Add("FF Dale Gibson");
+                csapp36.Items.Add("FF Claire Harrington");
+                csapp36.Items.Add("FF Robin Hodgson");
+                csapp36.Items.Add("FF Richard Hamilton");
+                csapp36.Items.Add("FF Ben Howells");
+                csapp36.Items.Add("FF Danny Johnston");
+                csapp36.Items.Add("FF James Pearce");
+                csapp36.Items.Add("FF Tom Quinn-Nicholls");
+                csapp36.Items.Add("FF Liam Siddons");
+                csapp36.Items.Add("FF Georgina Sturgess");
+                csapp36.Items.Add("FF Christian Theobald");
+                csapp36.Items.Add("FF Richard Walton");
+                csapp36.Items.Add("FF Paul Whitaker");
+                csapp36.Items.Add("FF Matt Woodcock");
+            }
+            else if (csapp3.Text == "C07P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Simon Muir");
+                csapp3oic.Items.Add("CC Martin Claydon");
+                csapp3oic.Items.Add("CC Anthony Estall");
+                csapp3oic.Items.Add("CC Marcus Rawlinson");
+                csapp3oic.Items.Add("FF Lenny Gray");
+                csapp3oic.Items.Add("FF Garry Ward");
+                csapp3oic.Items.Add("FF Philip Hubbard");
+                csapp3oic.Items.Add("FF Warren Langford");
+                csapp3oic.Items.Add("FF Sam Hall");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Simon Muir");
+                csapp3driver.Items.Add("CC Martin Claydon");
+                csapp3driver.Items.Add("CC Anthony Estall");
+                csapp3driver.Items.Add("CC Marcus Rawlinson");
+                csapp3driver.Items.Add("FF Lenny Gray");
+                csapp3driver.Items.Add("FF Garry Ward");
+                csapp3driver.Items.Add("FF Philip Hubbard");
+                csapp3driver.Items.Add("FF Warren Langford");
+                csapp3driver.Items.Add("FF Sam Hall");
+                //BA1
+                csapp3ba1.Items.Add("WC Simon Muir");
+                csapp3ba1.Items.Add("CC Martin Claydon");
+                csapp3ba1.Items.Add("CC Anthony Estall");
+                csapp3ba1.Items.Add("CC Marcus Rawlinson");
+                csapp3ba1.Items.Add("FF Lenny Gray");
+                csapp3ba1.Items.Add("FF Garry Ward");
+                csapp3ba1.Items.Add("FF Philip Hubbard");
+                csapp3ba1.Items.Add("FF Warren Langford");
+                csapp3ba1.Items.Add("FF Sam Hall");
+                //BA2
+                csapp3ba2.Items.Add("WC Simon Muir");
+                csapp3ba2.Items.Add("CC Martin Claydon");
+                csapp3ba2.Items.Add("CC Anthony Estall");
+                csapp3ba2.Items.Add("CC Marcus Rawlinson");
+                csapp3ba2.Items.Add("FF Lenny Gray");
+                csapp3ba2.Items.Add("FF Garry Ward");
+                csapp3ba2.Items.Add("FF Philip Hubbard");
+                csapp3ba2.Items.Add("FF Warren Langford");
+                csapp3ba2.Items.Add("FF Sam Hall");
+                //ECO
+                csapp3eco.Items.Add("WC Simon Muir");
+                csapp3eco.Items.Add("CC Martin Claydon");
+                csapp3eco.Items.Add("CC Anthony Estall");
+                csapp3eco.Items.Add("CC Marcus Rawlinson");
+                csapp3eco.Items.Add("FF Lenny Gray");
+                csapp3eco.Items.Add("FF Garry Ward");
+                csapp3eco.Items.Add("FF Philip Hubbard");
+                csapp3eco.Items.Add("FF Warren Langford");
+                csapp3eco.Items.Add("FF Sam Hall");
+                //6
+                csapp36.Items.Add("WC Simon Muir");
+                csapp36.Items.Add("CC Martin Claydon");
+                csapp36.Items.Add("CC Anthony Estall");
+                csapp36.Items.Add("CC Marcus Rawlinson");
+                csapp36.Items.Add("FF Lenny Gray");
+                csapp36.Items.Add("FF Garry Ward");
+                csapp36.Items.Add("FF Philip Hubbard");
+                csapp36.Items.Add("FF Warren Langford");
+                csapp36.Items.Add("FF Sam Hall");
+            }
+
+            else if (csapp3.Text == "C01P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Richard Powell");
+                csapp3oic.Items.Add("WC Rob Foreman");
+                csapp3oic.Items.Add("WC Tony Burton");
+                csapp3oic.Items.Add("WC Simon Muir");
+                csapp3oic.Items.Add("CC Jason Leach");
+                csapp3oic.Items.Add("CC Jon Smith");
+                csapp3oic.Items.Add("CC Steve O'Brien");
+                csapp3oic.Items.Add("CC Karl jarvis");
+                csapp3oic.Items.Add("CC Jon Blowyer");
+                csapp3oic.Items.Add("CC Scott Newbon");
+                csapp3oic.Items.Add("CC Ben Leigh-Brown");
+                csapp3oic.Items.Add("CC Stephen Griffiths");
+                csapp3oic.Items.Add("CC Scott Fretwell");
+                csapp3oic.Items.Add("CC Paul Stephens");
+                csapp3oic.Items.Add("CC Mark Coupar");
+                csapp3oic.Items.Add("CC Adam King");
+                csapp3oic.Items.Add("FF Lee Beard");
+                csapp3oic.Items.Add("FF Jed Cole");
+                csapp3oic.Items.Add("FF Guy Austin");
+                csapp3oic.Items.Add("FF Evan Fisher");
+                csapp3oic.Items.Add("FF Alex Hallam");
+                csapp3oic.Items.Add("FF Martin Harding");
+                csapp3oic.Items.Add("FF Simon Marks");
+                csapp3oic.Items.Add("FF Peter Murphy");
+                csapp3oic.Items.Add("FF Phil Walmsley");
+                csapp3oic.Items.Add("FF Steve Wilson");
+                csapp3oic.Items.Add("FF John Wolfe");
+                csapp3oic.Items.Add("FF Mark Harris");
+                csapp3oic.Items.Add("FF Steve Clement");
+                csapp3oic.Items.Add("FF Christine Fisher");
+                csapp3oic.Items.Add("FF Mark Goldsmith");
+                csapp3oic.Items.Add("FF Paul Langford");
+                csapp3oic.Items.Add("FF Shaun Maccoll");
+                csapp3oic.Items.Add("FF Drew Scott");
+                csapp3oic.Items.Add("FF Jo Shippey");
+                csapp3oic.Items.Add("FF Myles Strickland");
+                csapp3oic.Items.Add("FF Ross Turner");
+                csapp3oic.Items.Add("FF Richard Gethin");
+                csapp3oic.Items.Add("FF Chelsey Bailey");
+                csapp3oic.Items.Add("FF Callum Hodgkin");
+                csapp3oic.Items.Add("FF Ben Anstee");
+                csapp3oic.Items.Add("FF Tom Barratt");
+                csapp3oic.Items.Add("FF Jonathan Cowling");
+                csapp3oic.Items.Add("FF Andrew Ellington");
+                csapp3oic.Items.Add("FF Cameron Mathews");
+                csapp3oic.Items.Add("FF Dominic Mould");
+                csapp3oic.Items.Add("FF Dave Oura");
+                csapp3oic.Items.Add("FF George White");
+                csapp3oic.Items.Add("FF Jasper Vidot");
+                csapp3oic.Items.Add("FF Richard Petch");
+                csapp3oic.Items.Add("FF Rik Green");
+                csapp3oic.Items.Add("FF Ali Thompson");
+                csapp3oic.Items.Add("FF Dale Allen");
+                csapp3oic.Items.Add("FF Hannah Archdeacon");
+                csapp3oic.Items.Add("FF Ed Bailey");
+                csapp3oic.Items.Add("FF Nick Brown");
+                csapp3oic.Items.Add("FF Jon Diver");
+                csapp3oic.Items.Add("FF Dan Foster");
+                csapp3oic.Items.Add("FF Phil Hyland");
+                csapp3oic.Items.Add("FF Paul Joy");
+                csapp3oic.Items.Add("FF Neil Kerr");
+                csapp3oic.Items.Add("FF Harry Storton");
+                csapp3oic.Items.Add("FF Sam Gartside");
+                csapp3oic.Items.Add("FF Peter Cram");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Richard Powell");
+                csapp3driver.Items.Add("WC Rob Foreman");
+                csapp3driver.Items.Add("WC Tony Burton");
+                csapp3driver.Items.Add("WC Simon Muir");
+                csapp3driver.Items.Add("CC Jason Leach");
+                csapp3driver.Items.Add("CC Jon Smith");
+                csapp3driver.Items.Add("CC Steve O'Brien");
+                csapp3driver.Items.Add("CC Karl jarvis");
+                csapp3driver.Items.Add("CC Jon Blowyer");
+                csapp3driver.Items.Add("CC Scott Newbon");
+                csapp3driver.Items.Add("CC Ben Leigh-Brown");
+                csapp3driver.Items.Add("CC Stephen Griffiths");
+                csapp3driver.Items.Add("CC Scott Fretwell");
+                csapp3driver.Items.Add("CC Paul Stephens");
+                csapp3driver.Items.Add("CC Mark Coupar");
+                csapp3driver.Items.Add("CC Adam King");
+                csapp3driver.Items.Add("FF Lee Beard");
+                csapp3driver.Items.Add("FF Jed Cole");
+                csapp3driver.Items.Add("FF Guy Austin");
+                csapp3driver.Items.Add("FF Evan Fisher");
+                csapp3driver.Items.Add("FF Alex Hallam");
+                csapp3driver.Items.Add("FF Martin Harding");
+                csapp3driver.Items.Add("FF Simon Marks");
+                csapp3driver.Items.Add("FF Peter Murphy");
+                csapp3driver.Items.Add("FF Phil Walmsley");
+                csapp3driver.Items.Add("FF Steve Wilson");
+                csapp3driver.Items.Add("FF John Wolfe");
+                csapp3driver.Items.Add("FF Mark Harris");
+                csapp3driver.Items.Add("FF Steve Clement");
+                csapp3driver.Items.Add("FF Christine Fisher");
+                csapp3driver.Items.Add("FF Mark Goldsmith");
+                csapp3driver.Items.Add("FF Paul Langford");
+                csapp3driver.Items.Add("FF Shaun Maccoll");
+                csapp3driver.Items.Add("FF Drew Scott");
+                csapp3driver.Items.Add("FF Jo Shippey");
+                csapp3driver.Items.Add("FF Myles Strickland");
+                csapp3driver.Items.Add("FF Ross Turner");
+                csapp3driver.Items.Add("FF Richard Gethin");
+                csapp3driver.Items.Add("FF Chelsey Bailey");
+                csapp3driver.Items.Add("FF Callum Hodgkin");
+                csapp3driver.Items.Add("FF Ben Anstee");
+                csapp3driver.Items.Add("FF Tom Barratt");
+                csapp3driver.Items.Add("FF Jonathan Cowling");
+                csapp3driver.Items.Add("FF Andrew Ellington");
+                csapp3driver.Items.Add("FF Cameron Mathews");
+                csapp3driver.Items.Add("FF Dominic Mould");
+                csapp3driver.Items.Add("FF Dave Oura");
+                csapp3driver.Items.Add("FF George White");
+                csapp3driver.Items.Add("FF Jasper Vidot");
+                csapp3driver.Items.Add("FF Richard Petch");
+                csapp3driver.Items.Add("FF Rik Green");
+                csapp3driver.Items.Add("FF Ali Thompson");
+                csapp3driver.Items.Add("FF Dale Allen");
+                csapp3driver.Items.Add("FF Hannah Archdeacon");
+                csapp3driver.Items.Add("FF Ed Bailey");
+                csapp3driver.Items.Add("FF Nick Brown");
+                csapp3driver.Items.Add("FF Jon Diver");
+                csapp3driver.Items.Add("FF Dan Foster");
+                csapp3driver.Items.Add("FF Phil Hyland");
+                csapp3driver.Items.Add("FF Paul Joy");
+                csapp3driver.Items.Add("FF Neil Kerr");
+                csapp3driver.Items.Add("FF Harry Storton");
+                csapp3driver.Items.Add("FF Sam Gartside");
+                csapp3driver.Items.Add("FF Peter Cram");
+                //BA1
+                csapp3ba1.Items.Add("WC Richard Powell");
+                csapp3ba1.Items.Add("WC Rob Foreman");
+                csapp3ba1.Items.Add("WC Tony Burton");
+                csapp3ba1.Items.Add("WC Simon Muir");
+                csapp3ba1.Items.Add("CC Jason Leach");
+                csapp3ba1.Items.Add("CC Jon Smith");
+                csapp3ba1.Items.Add("CC Steve O'Brien");
+                csapp3ba1.Items.Add("CC Karl jarvis");
+                csapp3ba1.Items.Add("CC Jon Blowyer");
+                csapp3ba1.Items.Add("CC Scott Newbon");
+                csapp3ba1.Items.Add("CC Ben Leigh-Brown");
+                csapp3ba1.Items.Add("CC Stephen Griffiths");
+                csapp3ba1.Items.Add("CC Scott Fretwell");
+                csapp3ba1.Items.Add("CC Paul Stephens");
+                csapp3ba1.Items.Add("CC Mark Coupar");
+                csapp3ba1.Items.Add("CC Adam King");
+                csapp3ba1.Items.Add("FF Lee Beard");
+                csapp3ba1.Items.Add("FF Jed Cole");
+                csapp3ba1.Items.Add("FF Guy Austin");
+                csapp3ba1.Items.Add("FF Evan Fisher");
+                csapp3ba1.Items.Add("FF Alex Hallam");
+                csapp3ba1.Items.Add("FF Martin Harding");
+                csapp3ba1.Items.Add("FF Simon Marks");
+                csapp3ba1.Items.Add("FF Peter Murphy");
+                csapp3ba1.Items.Add("FF Phil Walmsley");
+                csapp3ba1.Items.Add("FF Steve Wilson");
+                csapp3ba1.Items.Add("FF John Wolfe");
+                csapp3ba1.Items.Add("FF Mark Harris");
+                csapp3ba1.Items.Add("FF Steve Clement");
+                csapp3ba1.Items.Add("FF Christine Fisher");
+                csapp3ba1.Items.Add("FF Mark Goldsmith");
+                csapp3ba1.Items.Add("FF Paul Langford");
+                csapp3ba1.Items.Add("FF Shaun Maccoll");
+                csapp3ba1.Items.Add("FF Drew Scott");
+                csapp3ba1.Items.Add("FF Jo Shippey");
+                csapp3ba1.Items.Add("FF Myles Strickland");
+                csapp3ba1.Items.Add("FF Ross Turner");
+                csapp3ba1.Items.Add("FF Richard Gethin");
+                csapp3ba1.Items.Add("FF Chelsey Bailey");
+                csapp3ba1.Items.Add("FF Callum Hodgkin");
+                csapp3ba1.Items.Add("FF Ben Anstee");
+                csapp3ba1.Items.Add("FF Tom Barratt");
+                csapp3ba1.Items.Add("FF Jonathan Cowling");
+                csapp3ba1.Items.Add("FF Andrew Ellington");
+                csapp3ba1.Items.Add("FF Cameron Mathews");
+                csapp3ba1.Items.Add("FF Dominic Mould");
+                csapp3ba1.Items.Add("FF Dave Oura");
+                csapp3ba1.Items.Add("FF George White");
+                csapp3ba1.Items.Add("FF Jasper Vidot");
+                csapp3ba1.Items.Add("FF Richard Petch");
+                csapp3ba1.Items.Add("FF Rik Green");
+                csapp3ba1.Items.Add("FF Ali Thompson");
+                csapp3ba1.Items.Add("FF Dale Allen");
+                csapp3ba1.Items.Add("FF Hannah Archdeacon");
+                csapp3ba1.Items.Add("FF Ed Bailey");
+                csapp3ba1.Items.Add("FF Nick Brown");
+                csapp3ba1.Items.Add("FF Jon Diver");
+                csapp3ba1.Items.Add("FF Dan Foster");
+                csapp3ba1.Items.Add("FF Phil Hyland");
+                csapp3ba1.Items.Add("FF Paul Joy");
+                csapp3ba1.Items.Add("FF Neil Kerr");
+                csapp3ba1.Items.Add("FF Harry Storton");
+                csapp3ba1.Items.Add("FF Sam Gartside");
+                csapp3ba1.Items.Add("FF Peter Cram");
+                //BA2
+                csapp3ba2.Items.Add("WC Richard Powell");
+                csapp3ba2.Items.Add("WC Rob Foreman");
+                csapp3ba2.Items.Add("WC Tony Burton");
+                csapp3ba2.Items.Add("WC Simon Muir");
+                csapp3ba2.Items.Add("CC Jason Leach");
+                csapp3ba2.Items.Add("CC Jon Smith");
+                csapp3ba2.Items.Add("CC Steve O'Brien");
+                csapp3ba2.Items.Add("CC Karl jarvis");
+                csapp3ba2.Items.Add("CC Jon Blowyer");
+                csapp3ba2.Items.Add("CC Scott Newbon");
+                csapp3ba2.Items.Add("CC Ben Leigh-Brown");
+                csapp3ba2.Items.Add("CC Stephen Griffiths");
+                csapp3ba2.Items.Add("CC Scott Fretwell");
+                csapp3ba2.Items.Add("CC Paul Stephens");
+                csapp3ba2.Items.Add("CC Mark Coupar");
+                csapp3ba2.Items.Add("CC Adam King");
+                csapp3ba2.Items.Add("FF Lee Beard");
+                csapp3ba2.Items.Add("FF Jed Cole");
+                csapp3ba2.Items.Add("FF Guy Austin");
+                csapp3ba2.Items.Add("FF Evan Fisher");
+                csapp3ba2.Items.Add("FF Alex Hallam");
+                csapp3ba2.Items.Add("FF Martin Harding");
+                csapp3ba2.Items.Add("FF Simon Marks");
+                csapp3ba2.Items.Add("FF Peter Murphy");
+                csapp3ba2.Items.Add("FF Phil Walmsley");
+                csapp3ba2.Items.Add("FF Steve Wilson");
+                csapp3ba2.Items.Add("FF John Wolfe");
+                csapp3ba2.Items.Add("FF Mark Harris");
+                csapp3ba2.Items.Add("FF Steve Clement");
+                csapp3ba2.Items.Add("FF Christine Fisher");
+                csapp3ba2.Items.Add("FF Mark Goldsmith");
+                csapp3ba2.Items.Add("FF Paul Langford");
+                csapp3ba2.Items.Add("FF Shaun Maccoll");
+                csapp3ba2.Items.Add("FF Drew Scott");
+                csapp3ba2.Items.Add("FF Jo Shippey");
+                csapp3ba2.Items.Add("FF Myles Strickland");
+                csapp3ba2.Items.Add("FF Ross Turner");
+                csapp3ba2.Items.Add("FF Richard Gethin");
+                csapp3ba2.Items.Add("FF Chelsey Bailey");
+                csapp3ba2.Items.Add("FF Callum Hodgkin");
+                csapp3ba2.Items.Add("FF Ben Anstee");
+                csapp3ba2.Items.Add("FF Tom Barratt");
+                csapp3ba2.Items.Add("FF Jonathan Cowling");
+                csapp3ba2.Items.Add("FF Andrew Ellington");
+                csapp3ba2.Items.Add("FF Cameron Mathews");
+                csapp3ba2.Items.Add("FF Dominic Mould");
+                csapp3ba2.Items.Add("FF Dave Oura");
+                csapp3ba2.Items.Add("FF George White");
+                csapp3ba2.Items.Add("FF Jasper Vidot");
+                csapp3ba2.Items.Add("FF Richard Petch");
+                csapp3ba2.Items.Add("FF Rik Green");
+                csapp3ba2.Items.Add("FF Ali Thompson");
+                csapp3ba2.Items.Add("FF Dale Allen");
+                csapp3ba2.Items.Add("FF Hannah Archdeacon");
+                csapp3ba2.Items.Add("FF Ed Bailey");
+                csapp3ba2.Items.Add("FF Nick Brown");
+                csapp3ba2.Items.Add("FF Jon Diver");
+                csapp3ba2.Items.Add("FF Dan Foster");
+                csapp3ba2.Items.Add("FF Phil Hyland");
+                csapp3ba2.Items.Add("FF Paul Joy");
+                csapp3ba2.Items.Add("FF Neil Kerr");
+                csapp3ba2.Items.Add("FF Harry Storton");
+                csapp3ba2.Items.Add("FF Sam Gartside");
+                csapp3ba2.Items.Add("FF Peter Cram");
+                //ECO
+                csapp3eco.Items.Add("WC Richard Powell");
+                csapp3eco.Items.Add("WC Rob Foreman");
+                csapp3eco.Items.Add("WC Tony Burton");
+                csapp3eco.Items.Add("WC Simon Muir");
+                csapp3eco.Items.Add("CC Jason Leach");
+                csapp3eco.Items.Add("CC Jon Smith");
+                csapp3eco.Items.Add("CC Steve O'Brien");
+                csapp3eco.Items.Add("CC Karl jarvis");
+                csapp3eco.Items.Add("CC Jon Blowyer");
+                csapp3eco.Items.Add("CC Scott Newbon");
+                csapp3eco.Items.Add("CC Ben Leigh-Brown");
+                csapp3eco.Items.Add("CC Stephen Griffiths");
+                csapp3eco.Items.Add("CC Scott Fretwell");
+                csapp3eco.Items.Add("CC Paul Stephens");
+                csapp3eco.Items.Add("CC Mark Coupar");
+                csapp3eco.Items.Add("CC Adam King");
+                csapp3eco.Items.Add("FF Lee Beard");
+                csapp3eco.Items.Add("FF Jed Cole");
+                csapp3eco.Items.Add("FF Guy Austin");
+                csapp3eco.Items.Add("FF Evan Fisher");
+                csapp3eco.Items.Add("FF Alex Hallam");
+                csapp3eco.Items.Add("FF Martin Harding");
+                csapp3eco.Items.Add("FF Simon Marks");
+                csapp3eco.Items.Add("FF Peter Murphy");
+                csapp3eco.Items.Add("FF Phil Walmsley");
+                csapp3eco.Items.Add("FF Steve Wilson");
+                csapp3eco.Items.Add("FF John Wolfe");
+                csapp3eco.Items.Add("FF Mark Harris");
+                csapp3eco.Items.Add("FF Steve Clement");
+                csapp3eco.Items.Add("FF Christine Fisher");
+                csapp3eco.Items.Add("FF Mark Goldsmith");
+                csapp3eco.Items.Add("FF Paul Langford");
+                csapp3eco.Items.Add("FF Shaun Maccoll");
+                csapp3eco.Items.Add("FF Drew Scott");
+                csapp3eco.Items.Add("FF Jo Shippey");
+                csapp3eco.Items.Add("FF Myles Strickland");
+                csapp3eco.Items.Add("FF Ross Turner");
+                csapp3eco.Items.Add("FF Richard Gethin");
+                csapp3eco.Items.Add("FF Chelsey Bailey");
+                csapp3eco.Items.Add("FF Callum Hodgkin");
+                csapp3eco.Items.Add("FF Ben Anstee");
+                csapp3eco.Items.Add("FF Tom Barratt");
+                csapp3eco.Items.Add("FF Jonathan Cowling");
+                csapp3eco.Items.Add("FF Andrew Ellington");
+                csapp3eco.Items.Add("FF Cameron Mathews");
+                csapp3eco.Items.Add("FF Dominic Mould");
+                csapp3eco.Items.Add("FF Dave Oura");
+                csapp3eco.Items.Add("FF George White");
+                csapp3eco.Items.Add("FF Jasper Vidot");
+                csapp3eco.Items.Add("FF Richard Petch");
+                csapp3eco.Items.Add("FF Rik Green");
+                csapp3eco.Items.Add("FF Ali Thompson");
+                csapp3eco.Items.Add("FF Dale Allen");
+                csapp3eco.Items.Add("FF Hannah Archdeacon");
+                csapp3eco.Items.Add("FF Ed Bailey");
+                csapp3eco.Items.Add("FF Nick Brown");
+                csapp3eco.Items.Add("FF Jon Diver");
+                csapp3eco.Items.Add("FF Dan Foster");
+                csapp3eco.Items.Add("FF Phil Hyland");
+                csapp3eco.Items.Add("FF Paul Joy");
+                csapp3eco.Items.Add("FF Neil Kerr");
+                csapp3eco.Items.Add("FF Harry Storton");
+                csapp3eco.Items.Add("FF Sam Gartside");
+                csapp3eco.Items.Add("FF Peter Cram");
+                //6
+                csapp36.Items.Add("WC Richard Powell");
+                csapp36.Items.Add("WC Rob Foreman");
+                csapp36.Items.Add("WC Tony Burton");
+                csapp36.Items.Add("WC Simon Muir");
+                csapp36.Items.Add("CC Jason Leach");
+                csapp36.Items.Add("CC Jon Smith");
+                csapp36.Items.Add("CC Steve O'Brien");
+                csapp36.Items.Add("CC Karl jarvis");
+                csapp36.Items.Add("CC Jon Blowyer");
+                csapp36.Items.Add("CC Scott Newbon");
+                csapp36.Items.Add("CC Ben Leigh-Brown");
+                csapp36.Items.Add("CC Stephen Griffiths");
+                csapp36.Items.Add("CC Scott Fretwell");
+                csapp36.Items.Add("CC Paul Stephens");
+                csapp36.Items.Add("CC Mark Coupar");
+                csapp36.Items.Add("CC Adam King");
+                csapp36.Items.Add("FF Lee Beard");
+                csapp36.Items.Add("FF Jed Cole");
+                csapp36.Items.Add("FF Guy Austin");
+                csapp36.Items.Add("FF Evan Fisher");
+                csapp36.Items.Add("FF Alex Hallam");
+                csapp36.Items.Add("FF Martin Harding");
+                csapp36.Items.Add("FF Simon Marks");
+                csapp36.Items.Add("FF Peter Murphy");
+                csapp36.Items.Add("FF Phil Walmsley");
+                csapp36.Items.Add("FF Steve Wilson");
+                csapp36.Items.Add("FF John Wolfe");
+                csapp36.Items.Add("FF Mark Harris");
+                csapp36.Items.Add("FF Steve Clement");
+                csapp36.Items.Add("FF Christine Fisher");
+                csapp36.Items.Add("FF Mark Goldsmith");
+                csapp36.Items.Add("FF Paul Langford");
+                csapp36.Items.Add("FF Shaun Maccoll");
+                csapp36.Items.Add("FF Drew Scott");
+                csapp36.Items.Add("FF Jo Shippey");
+                csapp36.Items.Add("FF Myles Strickland");
+                csapp36.Items.Add("FF Ross Turner");
+                csapp36.Items.Add("FF Richard Gethin");
+                csapp36.Items.Add("FF Chelsey Bailey");
+                csapp36.Items.Add("FF Callum Hodgkin");
+                csapp36.Items.Add("FF Ben Anstee");
+                csapp36.Items.Add("FF Tom Barratt");
+                csapp36.Items.Add("FF Jonathan Cowling");
+                csapp36.Items.Add("FF Andrew Ellington");
+                csapp36.Items.Add("FF Cameron Mathews");
+                csapp36.Items.Add("FF Dominic Mould");
+                csapp36.Items.Add("FF Dave Oura");
+                csapp36.Items.Add("FF George White");
+                csapp36.Items.Add("FF Jasper Vidot");
+                csapp36.Items.Add("FF Richard Petch");
+                csapp36.Items.Add("FF Rik Green");
+                csapp36.Items.Add("FF Ali Thompson");
+                csapp36.Items.Add("FF Dale Allen");
+                csapp36.Items.Add("FF Hannah Archdeacon");
+                csapp36.Items.Add("FF Ed Bailey");
+                csapp36.Items.Add("FF Nick Brown");
+                csapp36.Items.Add("FF Jon Diver");
+                csapp36.Items.Add("FF Dan Foster");
+                csapp36.Items.Add("FF Phil Hyland");
+                csapp36.Items.Add("FF Paul Joy");
+                csapp36.Items.Add("FF Neil Kerr");
+                csapp36.Items.Add("FF Harry Storton");
+                csapp36.Items.Add("FF Sam Gartside");
+                csapp36.Items.Add("FF Peter Cram");
+            }
+            else if (csapp3.Text == "C01P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Richard Powell");
+                csapp3oic.Items.Add("WC Rob Foreman");
+                csapp3oic.Items.Add("WC Tony Burton");
+                csapp3oic.Items.Add("WC Simon Muir");
+                csapp3oic.Items.Add("CC Jason Leach");
+                csapp3oic.Items.Add("CC Jon Smith");
+                csapp3oic.Items.Add("CC Steve O'Brien");
+                csapp3oic.Items.Add("CC Karl jarvis");
+                csapp3oic.Items.Add("CC Jon Blowyer");
+                csapp3oic.Items.Add("CC Scott Newbon");
+                csapp3oic.Items.Add("CC Ben Leigh-Brown");
+                csapp3oic.Items.Add("CC Stephen Griffiths");
+                csapp3oic.Items.Add("CC Scott Fretwell");
+                csapp3oic.Items.Add("CC Paul Stephens");
+                csapp3oic.Items.Add("CC Mark Coupar");
+                csapp3oic.Items.Add("CC Adam King");
+                csapp3oic.Items.Add("FF Lee Beard");
+                csapp3oic.Items.Add("FF Jed Cole");
+                csapp3oic.Items.Add("FF Guy Austin");
+                csapp3oic.Items.Add("FF Evan Fisher");
+                csapp3oic.Items.Add("FF Alex Hallam");
+                csapp3oic.Items.Add("FF Martin Harding");
+                csapp3oic.Items.Add("FF Simon Marks");
+                csapp3oic.Items.Add("FF Peter Murphy");
+                csapp3oic.Items.Add("FF Phil Walmsley");
+                csapp3oic.Items.Add("FF Steve Wilson");
+                csapp3oic.Items.Add("FF John Wolfe");
+                csapp3oic.Items.Add("FF Mark Harris");
+                csapp3oic.Items.Add("FF Steve Clement");
+                csapp3oic.Items.Add("FF Christine Fisher");
+                csapp3oic.Items.Add("FF Mark Goldsmith");
+                csapp3oic.Items.Add("FF Paul Langford");
+                csapp3oic.Items.Add("FF Shaun Maccoll");
+                csapp3oic.Items.Add("FF Drew Scott");
+                csapp3oic.Items.Add("FF Jo Shippey");
+                csapp3oic.Items.Add("FF Myles Strickland");
+                csapp3oic.Items.Add("FF Ross Turner");
+                csapp3oic.Items.Add("FF Richard Gethin");
+                csapp3oic.Items.Add("FF Chelsey Bailey");
+                csapp3oic.Items.Add("FF Callum Hodgkin");
+                csapp3oic.Items.Add("FF Ben Anstee");
+                csapp3oic.Items.Add("FF Tom Barratt");
+                csapp3oic.Items.Add("FF Jonathan Cowling");
+                csapp3oic.Items.Add("FF Andrew Ellington");
+                csapp3oic.Items.Add("FF Cameron Mathews");
+                csapp3oic.Items.Add("FF Dominic Mould");
+                csapp3oic.Items.Add("FF Dave Oura");
+                csapp3oic.Items.Add("FF George White");
+                csapp3oic.Items.Add("FF Jasper Vidot");
+                csapp3oic.Items.Add("FF Richard Petch");
+                csapp3oic.Items.Add("FF Rik Green");
+                csapp3oic.Items.Add("FF Ali Thompson");
+                csapp3oic.Items.Add("FF Dale Allen");
+                csapp3oic.Items.Add("FF Hannah Archdeacon");
+                csapp3oic.Items.Add("FF Ed Bailey");
+                csapp3oic.Items.Add("FF Nick Brown");
+                csapp3oic.Items.Add("FF Jon Diver");
+                csapp3oic.Items.Add("FF Dan Foster");
+                csapp3oic.Items.Add("FF Phil Hyland");
+                csapp3oic.Items.Add("FF Paul Joy");
+                csapp3oic.Items.Add("FF Neil Kerr");
+                csapp3oic.Items.Add("FF Harry Storton");
+                csapp3oic.Items.Add("FF Sam Gartside");
+                csapp3oic.Items.Add("FF Peter Cram");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Richard Powell");
+                csapp3driver.Items.Add("WC Rob Foreman");
+                csapp3driver.Items.Add("WC Tony Burton");
+                csapp3driver.Items.Add("WC Simon Muir");
+                csapp3driver.Items.Add("CC Jason Leach");
+                csapp3driver.Items.Add("CC Jon Smith");
+                csapp3driver.Items.Add("CC Steve O'Brien");
+                csapp3driver.Items.Add("CC Karl jarvis");
+                csapp3driver.Items.Add("CC Jon Blowyer");
+                csapp3driver.Items.Add("CC Scott Newbon");
+                csapp3driver.Items.Add("CC Ben Leigh-Brown");
+                csapp3driver.Items.Add("CC Stephen Griffiths");
+                csapp3driver.Items.Add("CC Scott Fretwell");
+                csapp3driver.Items.Add("CC Paul Stephens");
+                csapp3driver.Items.Add("CC Mark Coupar");
+                csapp3driver.Items.Add("CC Adam King");
+                csapp3driver.Items.Add("FF Lee Beard");
+                csapp3driver.Items.Add("FF Jed Cole");
+                csapp3driver.Items.Add("FF Guy Austin");
+                csapp3driver.Items.Add("FF Evan Fisher");
+                csapp3driver.Items.Add("FF Alex Hallam");
+                csapp3driver.Items.Add("FF Martin Harding");
+                csapp3driver.Items.Add("FF Simon Marks");
+                csapp3driver.Items.Add("FF Peter Murphy");
+                csapp3driver.Items.Add("FF Phil Walmsley");
+                csapp3driver.Items.Add("FF Steve Wilson");
+                csapp3driver.Items.Add("FF John Wolfe");
+                csapp3driver.Items.Add("FF Mark Harris");
+                csapp3driver.Items.Add("FF Steve Clement");
+                csapp3driver.Items.Add("FF Christine Fisher");
+                csapp3driver.Items.Add("FF Mark Goldsmith");
+                csapp3driver.Items.Add("FF Paul Langford");
+                csapp3driver.Items.Add("FF Shaun Maccoll");
+                csapp3driver.Items.Add("FF Drew Scott");
+                csapp3driver.Items.Add("FF Jo Shippey");
+                csapp3driver.Items.Add("FF Myles Strickland");
+                csapp3driver.Items.Add("FF Ross Turner");
+                csapp3driver.Items.Add("FF Richard Gethin");
+                csapp3driver.Items.Add("FF Chelsey Bailey");
+                csapp3driver.Items.Add("FF Callum Hodgkin");
+                csapp3driver.Items.Add("FF Ben Anstee");
+                csapp3driver.Items.Add("FF Tom Barratt");
+                csapp3driver.Items.Add("FF Jonathan Cowling");
+                csapp3driver.Items.Add("FF Andrew Ellington");
+                csapp3driver.Items.Add("FF Cameron Mathews");
+                csapp3driver.Items.Add("FF Dominic Mould");
+                csapp3driver.Items.Add("FF Dave Oura");
+                csapp3driver.Items.Add("FF George White");
+                csapp3driver.Items.Add("FF Jasper Vidot");
+                csapp3driver.Items.Add("FF Richard Petch");
+                csapp3driver.Items.Add("FF Rik Green");
+                csapp3driver.Items.Add("FF Ali Thompson");
+                csapp3driver.Items.Add("FF Dale Allen");
+                csapp3driver.Items.Add("FF Hannah Archdeacon");
+                csapp3driver.Items.Add("FF Ed Bailey");
+                csapp3driver.Items.Add("FF Nick Brown");
+                csapp3driver.Items.Add("FF Jon Diver");
+                csapp3driver.Items.Add("FF Dan Foster");
+                csapp3driver.Items.Add("FF Phil Hyland");
+                csapp3driver.Items.Add("FF Paul Joy");
+                csapp3driver.Items.Add("FF Neil Kerr");
+                csapp3driver.Items.Add("FF Harry Storton");
+                csapp3driver.Items.Add("FF Sam Gartside");
+                csapp3driver.Items.Add("FF Peter Cram");
+                //BA1
+                csapp3ba1.Items.Add("WC Richard Powell");
+                csapp3ba1.Items.Add("WC Rob Foreman");
+                csapp3ba1.Items.Add("WC Tony Burton");
+                csapp3ba1.Items.Add("WC Simon Muir");
+                csapp3ba1.Items.Add("CC Jason Leach");
+                csapp3ba1.Items.Add("CC Jon Smith");
+                csapp3ba1.Items.Add("CC Steve O'Brien");
+                csapp3ba1.Items.Add("CC Karl jarvis");
+                csapp3ba1.Items.Add("CC Jon Blowyer");
+                csapp3ba1.Items.Add("CC Scott Newbon");
+                csapp3ba1.Items.Add("CC Ben Leigh-Brown");
+                csapp3ba1.Items.Add("CC Stephen Griffiths");
+                csapp3ba1.Items.Add("CC Scott Fretwell");
+                csapp3ba1.Items.Add("CC Paul Stephens");
+                csapp3ba1.Items.Add("CC Mark Coupar");
+                csapp3ba1.Items.Add("CC Adam King");
+                csapp3ba1.Items.Add("FF Lee Beard");
+                csapp3ba1.Items.Add("FF Jed Cole");
+                csapp3ba1.Items.Add("FF Guy Austin");
+                csapp3ba1.Items.Add("FF Evan Fisher");
+                csapp3ba1.Items.Add("FF Alex Hallam");
+                csapp3ba1.Items.Add("FF Martin Harding");
+                csapp3ba1.Items.Add("FF Simon Marks");
+                csapp3ba1.Items.Add("FF Peter Murphy");
+                csapp3ba1.Items.Add("FF Phil Walmsley");
+                csapp3ba1.Items.Add("FF Steve Wilson");
+                csapp3ba1.Items.Add("FF John Wolfe");
+                csapp3ba1.Items.Add("FF Mark Harris");
+                csapp3ba1.Items.Add("FF Steve Clement");
+                csapp3ba1.Items.Add("FF Christine Fisher");
+                csapp3ba1.Items.Add("FF Mark Goldsmith");
+                csapp3ba1.Items.Add("FF Paul Langford");
+                csapp3ba1.Items.Add("FF Shaun Maccoll");
+                csapp3ba1.Items.Add("FF Drew Scott");
+                csapp3ba1.Items.Add("FF Jo Shippey");
+                csapp3ba1.Items.Add("FF Myles Strickland");
+                csapp3ba1.Items.Add("FF Ross Turner");
+                csapp3ba1.Items.Add("FF Richard Gethin");
+                csapp3ba1.Items.Add("FF Chelsey Bailey");
+                csapp3ba1.Items.Add("FF Callum Hodgkin");
+                csapp3ba1.Items.Add("FF Ben Anstee");
+                csapp3ba1.Items.Add("FF Tom Barratt");
+                csapp3ba1.Items.Add("FF Jonathan Cowling");
+                csapp3ba1.Items.Add("FF Andrew Ellington");
+                csapp3ba1.Items.Add("FF Cameron Mathews");
+                csapp3ba1.Items.Add("FF Dominic Mould");
+                csapp3ba1.Items.Add("FF Dave Oura");
+                csapp3ba1.Items.Add("FF George White");
+                csapp3ba1.Items.Add("FF Jasper Vidot");
+                csapp3ba1.Items.Add("FF Richard Petch");
+                csapp3ba1.Items.Add("FF Rik Green");
+                csapp3ba1.Items.Add("FF Ali Thompson");
+                csapp3ba1.Items.Add("FF Dale Allen");
+                csapp3ba1.Items.Add("FF Hannah Archdeacon");
+                csapp3ba1.Items.Add("FF Ed Bailey");
+                csapp3ba1.Items.Add("FF Nick Brown");
+                csapp3ba1.Items.Add("FF Jon Diver");
+                csapp3ba1.Items.Add("FF Dan Foster");
+                csapp3ba1.Items.Add("FF Phil Hyland");
+                csapp3ba1.Items.Add("FF Paul Joy");
+                csapp3ba1.Items.Add("FF Neil Kerr");
+                csapp3ba1.Items.Add("FF Harry Storton");
+                csapp3ba1.Items.Add("FF Sam Gartside");
+                csapp3ba1.Items.Add("FF Peter Cram");
+                //BA2
+                csapp3ba2.Items.Add("WC Richard Powell");
+                csapp3ba2.Items.Add("WC Rob Foreman");
+                csapp3ba2.Items.Add("WC Tony Burton");
+                csapp3ba2.Items.Add("WC Simon Muir");
+                csapp3ba2.Items.Add("CC Jason Leach");
+                csapp3ba2.Items.Add("CC Jon Smith");
+                csapp3ba2.Items.Add("CC Steve O'Brien");
+                csapp3ba2.Items.Add("CC Karl jarvis");
+                csapp3ba2.Items.Add("CC Jon Blowyer");
+                csapp3ba2.Items.Add("CC Scott Newbon");
+                csapp3ba2.Items.Add("CC Ben Leigh-Brown");
+                csapp3ba2.Items.Add("CC Stephen Griffiths");
+                csapp3ba2.Items.Add("CC Scott Fretwell");
+                csapp3ba2.Items.Add("CC Paul Stephens");
+                csapp3ba2.Items.Add("CC Mark Coupar");
+                csapp3ba2.Items.Add("CC Adam King");
+                csapp3ba2.Items.Add("FF Lee Beard");
+                csapp3ba2.Items.Add("FF Jed Cole");
+                csapp3ba2.Items.Add("FF Guy Austin");
+                csapp3ba2.Items.Add("FF Evan Fisher");
+                csapp3ba2.Items.Add("FF Alex Hallam");
+                csapp3ba2.Items.Add("FF Martin Harding");
+                csapp3ba2.Items.Add("FF Simon Marks");
+                csapp3ba2.Items.Add("FF Peter Murphy");
+                csapp3ba2.Items.Add("FF Phil Walmsley");
+                csapp3ba2.Items.Add("FF Steve Wilson");
+                csapp3ba2.Items.Add("FF John Wolfe");
+                csapp3ba2.Items.Add("FF Mark Harris");
+                csapp3ba2.Items.Add("FF Steve Clement");
+                csapp3ba2.Items.Add("FF Christine Fisher");
+                csapp3ba2.Items.Add("FF Mark Goldsmith");
+                csapp3ba2.Items.Add("FF Paul Langford");
+                csapp3ba2.Items.Add("FF Shaun Maccoll");
+                csapp3ba2.Items.Add("FF Drew Scott");
+                csapp3ba2.Items.Add("FF Jo Shippey");
+                csapp3ba2.Items.Add("FF Myles Strickland");
+                csapp3ba2.Items.Add("FF Ross Turner");
+                csapp3ba2.Items.Add("FF Richard Gethin");
+                csapp3ba2.Items.Add("FF Chelsey Bailey");
+                csapp3ba2.Items.Add("FF Callum Hodgkin");
+                csapp3ba2.Items.Add("FF Ben Anstee");
+                csapp3ba2.Items.Add("FF Tom Barratt");
+                csapp3ba2.Items.Add("FF Jonathan Cowling");
+                csapp3ba2.Items.Add("FF Andrew Ellington");
+                csapp3ba2.Items.Add("FF Cameron Mathews");
+                csapp3ba2.Items.Add("FF Dominic Mould");
+                csapp3ba2.Items.Add("FF Dave Oura");
+                csapp3ba2.Items.Add("FF George White");
+                csapp3ba2.Items.Add("FF Jasper Vidot");
+                csapp3ba2.Items.Add("FF Richard Petch");
+                csapp3ba2.Items.Add("FF Rik Green");
+                csapp3ba2.Items.Add("FF Ali Thompson");
+                csapp3ba2.Items.Add("FF Dale Allen");
+                csapp3ba2.Items.Add("FF Hannah Archdeacon");
+                csapp3ba2.Items.Add("FF Ed Bailey");
+                csapp3ba2.Items.Add("FF Nick Brown");
+                csapp3ba2.Items.Add("FF Jon Diver");
+                csapp3ba2.Items.Add("FF Dan Foster");
+                csapp3ba2.Items.Add("FF Phil Hyland");
+                csapp3ba2.Items.Add("FF Paul Joy");
+                csapp3ba2.Items.Add("FF Neil Kerr");
+                csapp3ba2.Items.Add("FF Harry Storton");
+                csapp3ba2.Items.Add("FF Sam Gartside");
+                csapp3ba2.Items.Add("FF Peter Cram");
+                //ECO
+                csapp3eco.Items.Add("WC Richard Powell");
+                csapp3eco.Items.Add("WC Rob Foreman");
+                csapp3eco.Items.Add("WC Tony Burton");
+                csapp3eco.Items.Add("WC Simon Muir");
+                csapp3eco.Items.Add("CC Jason Leach");
+                csapp3eco.Items.Add("CC Jon Smith");
+                csapp3eco.Items.Add("CC Steve O'Brien");
+                csapp3eco.Items.Add("CC Karl jarvis");
+                csapp3eco.Items.Add("CC Jon Blowyer");
+                csapp3eco.Items.Add("CC Scott Newbon");
+                csapp3eco.Items.Add("CC Ben Leigh-Brown");
+                csapp3eco.Items.Add("CC Stephen Griffiths");
+                csapp3eco.Items.Add("CC Scott Fretwell");
+                csapp3eco.Items.Add("CC Paul Stephens");
+                csapp3eco.Items.Add("CC Mark Coupar");
+                csapp3eco.Items.Add("CC Adam King");
+                csapp3eco.Items.Add("FF Lee Beard");
+                csapp3eco.Items.Add("FF Jed Cole");
+                csapp3eco.Items.Add("FF Guy Austin");
+                csapp3eco.Items.Add("FF Evan Fisher");
+                csapp3eco.Items.Add("FF Alex Hallam");
+                csapp3eco.Items.Add("FF Martin Harding");
+                csapp3eco.Items.Add("FF Simon Marks");
+                csapp3eco.Items.Add("FF Peter Murphy");
+                csapp3eco.Items.Add("FF Phil Walmsley");
+                csapp3eco.Items.Add("FF Steve Wilson");
+                csapp3eco.Items.Add("FF John Wolfe");
+                csapp3eco.Items.Add("FF Mark Harris");
+                csapp3eco.Items.Add("FF Steve Clement");
+                csapp3eco.Items.Add("FF Christine Fisher");
+                csapp3eco.Items.Add("FF Mark Goldsmith");
+                csapp3eco.Items.Add("FF Paul Langford");
+                csapp3eco.Items.Add("FF Shaun Maccoll");
+                csapp3eco.Items.Add("FF Drew Scott");
+                csapp3eco.Items.Add("FF Jo Shippey");
+                csapp3eco.Items.Add("FF Myles Strickland");
+                csapp3eco.Items.Add("FF Ross Turner");
+                csapp3eco.Items.Add("FF Richard Gethin");
+                csapp3eco.Items.Add("FF Chelsey Bailey");
+                csapp3eco.Items.Add("FF Callum Hodgkin");
+                csapp3eco.Items.Add("FF Ben Anstee");
+                csapp3eco.Items.Add("FF Tom Barratt");
+                csapp3eco.Items.Add("FF Jonathan Cowling");
+                csapp3eco.Items.Add("FF Andrew Ellington");
+                csapp3eco.Items.Add("FF Cameron Mathews");
+                csapp3eco.Items.Add("FF Dominic Mould");
+                csapp3eco.Items.Add("FF Dave Oura");
+                csapp3eco.Items.Add("FF George White");
+                csapp3eco.Items.Add("FF Jasper Vidot");
+                csapp3eco.Items.Add("FF Richard Petch");
+                csapp3eco.Items.Add("FF Rik Green");
+                csapp3eco.Items.Add("FF Ali Thompson");
+                csapp3eco.Items.Add("FF Dale Allen");
+                csapp3eco.Items.Add("FF Hannah Archdeacon");
+                csapp3eco.Items.Add("FF Ed Bailey");
+                csapp3eco.Items.Add("FF Nick Brown");
+                csapp3eco.Items.Add("FF Jon Diver");
+                csapp3eco.Items.Add("FF Dan Foster");
+                csapp3eco.Items.Add("FF Phil Hyland");
+                csapp3eco.Items.Add("FF Paul Joy");
+                csapp3eco.Items.Add("FF Neil Kerr");
+                csapp3eco.Items.Add("FF Harry Storton");
+                csapp3eco.Items.Add("FF Sam Gartside");
+                csapp3eco.Items.Add("FF Peter Cram");
+                //6
+                csapp36.Items.Add("WC Richard Powell");
+                csapp36.Items.Add("WC Rob Foreman");
+                csapp36.Items.Add("WC Tony Burton");
+                csapp36.Items.Add("WC Simon Muir");
+                csapp36.Items.Add("CC Jason Leach");
+                csapp36.Items.Add("CC Jon Smith");
+                csapp36.Items.Add("CC Steve O'Brien");
+                csapp36.Items.Add("CC Karl jarvis");
+                csapp36.Items.Add("CC Jon Blowyer");
+                csapp36.Items.Add("CC Scott Newbon");
+                csapp36.Items.Add("CC Ben Leigh-Brown");
+                csapp36.Items.Add("CC Stephen Griffiths");
+                csapp36.Items.Add("CC Scott Fretwell");
+                csapp36.Items.Add("CC Paul Stephens");
+                csapp36.Items.Add("CC Mark Coupar");
+                csapp36.Items.Add("CC Adam King");
+                csapp36.Items.Add("FF Lee Beard");
+                csapp36.Items.Add("FF Jed Cole");
+                csapp36.Items.Add("FF Guy Austin");
+                csapp36.Items.Add("FF Evan Fisher");
+                csapp36.Items.Add("FF Alex Hallam");
+                csapp36.Items.Add("FF Martin Harding");
+                csapp36.Items.Add("FF Simon Marks");
+                csapp36.Items.Add("FF Peter Murphy");
+                csapp36.Items.Add("FF Phil Walmsley");
+                csapp36.Items.Add("FF Steve Wilson");
+                csapp36.Items.Add("FF John Wolfe");
+                csapp36.Items.Add("FF Mark Harris");
+                csapp36.Items.Add("FF Steve Clement");
+                csapp36.Items.Add("FF Christine Fisher");
+                csapp36.Items.Add("FF Mark Goldsmith");
+                csapp36.Items.Add("FF Paul Langford");
+                csapp36.Items.Add("FF Shaun Maccoll");
+                csapp36.Items.Add("FF Drew Scott");
+                csapp36.Items.Add("FF Jo Shippey");
+                csapp36.Items.Add("FF Myles Strickland");
+                csapp36.Items.Add("FF Ross Turner");
+                csapp36.Items.Add("FF Richard Gethin");
+                csapp36.Items.Add("FF Chelsey Bailey");
+                csapp36.Items.Add("FF Callum Hodgkin");
+                csapp36.Items.Add("FF Ben Anstee");
+                csapp36.Items.Add("FF Tom Barratt");
+                csapp36.Items.Add("FF Jonathan Cowling");
+                csapp36.Items.Add("FF Andrew Ellington");
+                csapp36.Items.Add("FF Cameron Mathews");
+                csapp36.Items.Add("FF Dominic Mould");
+                csapp36.Items.Add("FF Dave Oura");
+                csapp36.Items.Add("FF George White");
+                csapp36.Items.Add("FF Jasper Vidot");
+                csapp36.Items.Add("FF Richard Petch");
+                csapp36.Items.Add("FF Rik Green");
+                csapp36.Items.Add("FF Ali Thompson");
+                csapp36.Items.Add("FF Dale Allen");
+                csapp36.Items.Add("FF Hannah Archdeacon");
+                csapp36.Items.Add("FF Ed Bailey");
+                csapp36.Items.Add("FF Nick Brown");
+                csapp36.Items.Add("FF Jon Diver");
+                csapp36.Items.Add("FF Dan Foster");
+                csapp36.Items.Add("FF Phil Hyland");
+                csapp36.Items.Add("FF Paul Joy");
+                csapp36.Items.Add("FF Neil Kerr");
+                csapp36.Items.Add("FF Harry Storton");
+                csapp36.Items.Add("FF Sam Gartside");
+                csapp36.Items.Add("FF Peter Cram");
+            }
+            else if (csapp3.Text == "C01P5")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Richard Powell");
+                csapp3oic.Items.Add("WC Rob Foreman");
+                csapp3oic.Items.Add("WC Tony Burton");
+                csapp3oic.Items.Add("WC Simon Muir");
+                csapp3oic.Items.Add("CC Jason Leach");
+                csapp3oic.Items.Add("CC Jon Smith");
+                csapp3oic.Items.Add("CC Steve O'Brien");
+                csapp3oic.Items.Add("CC Karl jarvis");
+                csapp3oic.Items.Add("CC Jon Blowyer");
+                csapp3oic.Items.Add("CC Scott Newbon");
+                csapp3oic.Items.Add("CC Ben Leigh-Brown");
+                csapp3oic.Items.Add("CC Stephen Griffiths");
+                csapp3oic.Items.Add("CC Scott Fretwell");
+                csapp3oic.Items.Add("CC Paul Stephens");
+                csapp3oic.Items.Add("CC Mark Coupar");
+                csapp3oic.Items.Add("CC Adam King");
+                csapp3oic.Items.Add("FF Lee Beard");
+                csapp3oic.Items.Add("FF Jed Cole");
+                csapp3oic.Items.Add("FF Guy Austin");
+                csapp3oic.Items.Add("FF Evan Fisher");
+                csapp3oic.Items.Add("FF Alex Hallam");
+                csapp3oic.Items.Add("FF Martin Harding");
+                csapp3oic.Items.Add("FF Simon Marks");
+                csapp3oic.Items.Add("FF Peter Murphy");
+                csapp3oic.Items.Add("FF Phil Walmsley");
+                csapp3oic.Items.Add("FF Steve Wilson");
+                csapp3oic.Items.Add("FF John Wolfe");
+                csapp3oic.Items.Add("FF Mark Harris");
+                csapp3oic.Items.Add("FF Steve Clement");
+                csapp3oic.Items.Add("FF Christine Fisher");
+                csapp3oic.Items.Add("FF Mark Goldsmith");
+                csapp3oic.Items.Add("FF Paul Langford");
+                csapp3oic.Items.Add("FF Shaun Maccoll");
+                csapp3oic.Items.Add("FF Drew Scott");
+                csapp3oic.Items.Add("FF Jo Shippey");
+                csapp3oic.Items.Add("FF Myles Strickland");
+                csapp3oic.Items.Add("FF Ross Turner");
+                csapp3oic.Items.Add("FF Richard Gethin");
+                csapp3oic.Items.Add("FF Chelsey Bailey");
+                csapp3oic.Items.Add("FF Callum Hodgkin");
+                csapp3oic.Items.Add("FF Ben Anstee");
+                csapp3oic.Items.Add("FF Tom Barratt");
+                csapp3oic.Items.Add("FF Jonathan Cowling");
+                csapp3oic.Items.Add("FF Andrew Ellington");
+                csapp3oic.Items.Add("FF Cameron Mathews");
+                csapp3oic.Items.Add("FF Dominic Mould");
+                csapp3oic.Items.Add("FF Dave Oura");
+                csapp3oic.Items.Add("FF George White");
+                csapp3oic.Items.Add("FF Jasper Vidot");
+                csapp3oic.Items.Add("FF Richard Petch");
+                csapp3oic.Items.Add("FF Rik Green");
+                csapp3oic.Items.Add("FF Ali Thompson");
+                csapp3oic.Items.Add("FF Dale Allen");
+                csapp3oic.Items.Add("FF Hannah Archdeacon");
+                csapp3oic.Items.Add("FF Ed Bailey");
+                csapp3oic.Items.Add("FF Nick Brown");
+                csapp3oic.Items.Add("FF Jon Diver");
+                csapp3oic.Items.Add("FF Dan Foster");
+                csapp3oic.Items.Add("FF Phil Hyland");
+                csapp3oic.Items.Add("FF Paul Joy");
+                csapp3oic.Items.Add("FF Neil Kerr");
+                csapp3oic.Items.Add("FF Harry Storton");
+                csapp3oic.Items.Add("FF Sam Gartside");
+                csapp3oic.Items.Add("FF Peter Cram");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Richard Powell");
+                csapp3driver.Items.Add("WC Rob Foreman");
+                csapp3driver.Items.Add("WC Tony Burton");
+                csapp3driver.Items.Add("WC Simon Muir");
+                csapp3driver.Items.Add("CC Jason Leach");
+                csapp3driver.Items.Add("CC Jon Smith");
+                csapp3driver.Items.Add("CC Steve O'Brien");
+                csapp3driver.Items.Add("CC Karl jarvis");
+                csapp3driver.Items.Add("CC Jon Blowyer");
+                csapp3driver.Items.Add("CC Scott Newbon");
+                csapp3driver.Items.Add("CC Ben Leigh-Brown");
+                csapp3driver.Items.Add("CC Stephen Griffiths");
+                csapp3driver.Items.Add("CC Scott Fretwell");
+                csapp3driver.Items.Add("CC Paul Stephens");
+                csapp3driver.Items.Add("CC Mark Coupar");
+                csapp3driver.Items.Add("CC Adam King");
+                csapp3driver.Items.Add("FF Lee Beard");
+                csapp3driver.Items.Add("FF Jed Cole");
+                csapp3driver.Items.Add("FF Guy Austin");
+                csapp3driver.Items.Add("FF Evan Fisher");
+                csapp3driver.Items.Add("FF Alex Hallam");
+                csapp3driver.Items.Add("FF Martin Harding");
+                csapp3driver.Items.Add("FF Simon Marks");
+                csapp3driver.Items.Add("FF Peter Murphy");
+                csapp3driver.Items.Add("FF Phil Walmsley");
+                csapp3driver.Items.Add("FF Steve Wilson");
+                csapp3driver.Items.Add("FF John Wolfe");
+                csapp3driver.Items.Add("FF Mark Harris");
+                csapp3driver.Items.Add("FF Steve Clement");
+                csapp3driver.Items.Add("FF Christine Fisher");
+                csapp3driver.Items.Add("FF Mark Goldsmith");
+                csapp3driver.Items.Add("FF Paul Langford");
+                csapp3driver.Items.Add("FF Shaun Maccoll");
+                csapp3driver.Items.Add("FF Drew Scott");
+                csapp3driver.Items.Add("FF Jo Shippey");
+                csapp3driver.Items.Add("FF Myles Strickland");
+                csapp3driver.Items.Add("FF Ross Turner");
+                csapp3driver.Items.Add("FF Richard Gethin");
+                csapp3driver.Items.Add("FF Chelsey Bailey");
+                csapp3driver.Items.Add("FF Callum Hodgkin");
+                csapp3driver.Items.Add("FF Ben Anstee");
+                csapp3driver.Items.Add("FF Tom Barratt");
+                csapp3driver.Items.Add("FF Jonathan Cowling");
+                csapp3driver.Items.Add("FF Andrew Ellington");
+                csapp3driver.Items.Add("FF Cameron Mathews");
+                csapp3driver.Items.Add("FF Dominic Mould");
+                csapp3driver.Items.Add("FF Dave Oura");
+                csapp3driver.Items.Add("FF George White");
+                csapp3driver.Items.Add("FF Jasper Vidot");
+                csapp3driver.Items.Add("FF Richard Petch");
+                csapp3driver.Items.Add("FF Rik Green");
+                csapp3driver.Items.Add("FF Ali Thompson");
+                csapp3driver.Items.Add("FF Dale Allen");
+                csapp3driver.Items.Add("FF Hannah Archdeacon");
+                csapp3driver.Items.Add("FF Ed Bailey");
+                csapp3driver.Items.Add("FF Nick Brown");
+                csapp3driver.Items.Add("FF Jon Diver");
+                csapp3driver.Items.Add("FF Dan Foster");
+                csapp3driver.Items.Add("FF Phil Hyland");
+                csapp3driver.Items.Add("FF Paul Joy");
+                csapp3driver.Items.Add("FF Neil Kerr");
+                csapp3driver.Items.Add("FF Harry Storton");
+                csapp3driver.Items.Add("FF Sam Gartside");
+                csapp3driver.Items.Add("FF Peter Cram");
+                //BA1
+                csapp3ba1.Items.Add("WC Richard Powell");
+                csapp3ba1.Items.Add("WC Rob Foreman");
+                csapp3ba1.Items.Add("WC Tony Burton");
+                csapp3ba1.Items.Add("WC Simon Muir");
+                csapp3ba1.Items.Add("CC Jason Leach");
+                csapp3ba1.Items.Add("CC Jon Smith");
+                csapp3ba1.Items.Add("CC Steve O'Brien");
+                csapp3ba1.Items.Add("CC Karl jarvis");
+                csapp3ba1.Items.Add("CC Jon Blowyer");
+                csapp3ba1.Items.Add("CC Scott Newbon");
+                csapp3ba1.Items.Add("CC Ben Leigh-Brown");
+                csapp3ba1.Items.Add("CC Stephen Griffiths");
+                csapp3ba1.Items.Add("CC Scott Fretwell");
+                csapp3ba1.Items.Add("CC Paul Stephens");
+                csapp3ba1.Items.Add("CC Mark Coupar");
+                csapp3ba1.Items.Add("CC Adam King");
+                csapp3ba1.Items.Add("FF Lee Beard");
+                csapp3ba1.Items.Add("FF Jed Cole");
+                csapp3ba1.Items.Add("FF Guy Austin");
+                csapp3ba1.Items.Add("FF Evan Fisher");
+                csapp3ba1.Items.Add("FF Alex Hallam");
+                csapp3ba1.Items.Add("FF Martin Harding");
+                csapp3ba1.Items.Add("FF Simon Marks");
+                csapp3ba1.Items.Add("FF Peter Murphy");
+                csapp3ba1.Items.Add("FF Phil Walmsley");
+                csapp3ba1.Items.Add("FF Steve Wilson");
+                csapp3ba1.Items.Add("FF John Wolfe");
+                csapp3ba1.Items.Add("FF Mark Harris");
+                csapp3ba1.Items.Add("FF Steve Clement");
+                csapp3ba1.Items.Add("FF Christine Fisher");
+                csapp3ba1.Items.Add("FF Mark Goldsmith");
+                csapp3ba1.Items.Add("FF Paul Langford");
+                csapp3ba1.Items.Add("FF Shaun Maccoll");
+                csapp3ba1.Items.Add("FF Drew Scott");
+                csapp3ba1.Items.Add("FF Jo Shippey");
+                csapp3ba1.Items.Add("FF Myles Strickland");
+                csapp3ba1.Items.Add("FF Ross Turner");
+                csapp3ba1.Items.Add("FF Richard Gethin");
+                csapp3ba1.Items.Add("FF Chelsey Bailey");
+                csapp3ba1.Items.Add("FF Callum Hodgkin");
+                csapp3ba1.Items.Add("FF Ben Anstee");
+                csapp3ba1.Items.Add("FF Tom Barratt");
+                csapp3ba1.Items.Add("FF Jonathan Cowling");
+                csapp3ba1.Items.Add("FF Andrew Ellington");
+                csapp3ba1.Items.Add("FF Cameron Mathews");
+                csapp3ba1.Items.Add("FF Dominic Mould");
+                csapp3ba1.Items.Add("FF Dave Oura");
+                csapp3ba1.Items.Add("FF George White");
+                csapp3ba1.Items.Add("FF Jasper Vidot");
+                csapp3ba1.Items.Add("FF Richard Petch");
+                csapp3ba1.Items.Add("FF Rik Green");
+                csapp3ba1.Items.Add("FF Ali Thompson");
+                csapp3ba1.Items.Add("FF Dale Allen");
+                csapp3ba1.Items.Add("FF Hannah Archdeacon");
+                csapp3ba1.Items.Add("FF Ed Bailey");
+                csapp3ba1.Items.Add("FF Nick Brown");
+                csapp3ba1.Items.Add("FF Jon Diver");
+                csapp3ba1.Items.Add("FF Dan Foster");
+                csapp3ba1.Items.Add("FF Phil Hyland");
+                csapp3ba1.Items.Add("FF Paul Joy");
+                csapp3ba1.Items.Add("FF Neil Kerr");
+                csapp3ba1.Items.Add("FF Harry Storton");
+                csapp3ba1.Items.Add("FF Sam Gartside");
+                csapp3ba1.Items.Add("FF Peter Cram");
+                //BA2
+                csapp3ba2.Items.Add("WC Richard Powell");
+                csapp3ba2.Items.Add("WC Rob Foreman");
+                csapp3ba2.Items.Add("WC Tony Burton");
+                csapp3ba2.Items.Add("WC Simon Muir");
+                csapp3ba2.Items.Add("CC Jason Leach");
+                csapp3ba2.Items.Add("CC Jon Smith");
+                csapp3ba2.Items.Add("CC Steve O'Brien");
+                csapp3ba2.Items.Add("CC Karl jarvis");
+                csapp3ba2.Items.Add("CC Jon Blowyer");
+                csapp3ba2.Items.Add("CC Scott Newbon");
+                csapp3ba2.Items.Add("CC Ben Leigh-Brown");
+                csapp3ba2.Items.Add("CC Stephen Griffiths");
+                csapp3ba2.Items.Add("CC Scott Fretwell");
+                csapp3ba2.Items.Add("CC Paul Stephens");
+                csapp3ba2.Items.Add("CC Mark Coupar");
+                csapp3ba2.Items.Add("CC Adam King");
+                csapp3ba2.Items.Add("FF Lee Beard");
+                csapp3ba2.Items.Add("FF Jed Cole");
+                csapp3ba2.Items.Add("FF Guy Austin");
+                csapp3ba2.Items.Add("FF Evan Fisher");
+                csapp3ba2.Items.Add("FF Alex Hallam");
+                csapp3ba2.Items.Add("FF Martin Harding");
+                csapp3ba2.Items.Add("FF Simon Marks");
+                csapp3ba2.Items.Add("FF Peter Murphy");
+                csapp3ba2.Items.Add("FF Phil Walmsley");
+                csapp3ba2.Items.Add("FF Steve Wilson");
+                csapp3ba2.Items.Add("FF John Wolfe");
+                csapp3ba2.Items.Add("FF Mark Harris");
+                csapp3ba2.Items.Add("FF Steve Clement");
+                csapp3ba2.Items.Add("FF Christine Fisher");
+                csapp3ba2.Items.Add("FF Mark Goldsmith");
+                csapp3ba2.Items.Add("FF Paul Langford");
+                csapp3ba2.Items.Add("FF Shaun Maccoll");
+                csapp3ba2.Items.Add("FF Drew Scott");
+                csapp3ba2.Items.Add("FF Jo Shippey");
+                csapp3ba2.Items.Add("FF Myles Strickland");
+                csapp3ba2.Items.Add("FF Ross Turner");
+                csapp3ba2.Items.Add("FF Richard Gethin");
+                csapp3ba2.Items.Add("FF Chelsey Bailey");
+                csapp3ba2.Items.Add("FF Callum Hodgkin");
+                csapp3ba2.Items.Add("FF Ben Anstee");
+                csapp3ba2.Items.Add("FF Tom Barratt");
+                csapp3ba2.Items.Add("FF Jonathan Cowling");
+                csapp3ba2.Items.Add("FF Andrew Ellington");
+                csapp3ba2.Items.Add("FF Cameron Mathews");
+                csapp3ba2.Items.Add("FF Dominic Mould");
+                csapp3ba2.Items.Add("FF Dave Oura");
+                csapp3ba2.Items.Add("FF George White");
+                csapp3ba2.Items.Add("FF Jasper Vidot");
+                csapp3ba2.Items.Add("FF Richard Petch");
+                csapp3ba2.Items.Add("FF Rik Green");
+                csapp3ba2.Items.Add("FF Ali Thompson");
+                csapp3ba2.Items.Add("FF Dale Allen");
+                csapp3ba2.Items.Add("FF Hannah Archdeacon");
+                csapp3ba2.Items.Add("FF Ed Bailey");
+                csapp3ba2.Items.Add("FF Nick Brown");
+                csapp3ba2.Items.Add("FF Jon Diver");
+                csapp3ba2.Items.Add("FF Dan Foster");
+                csapp3ba2.Items.Add("FF Phil Hyland");
+                csapp3ba2.Items.Add("FF Paul Joy");
+                csapp3ba2.Items.Add("FF Neil Kerr");
+                csapp3ba2.Items.Add("FF Harry Storton");
+                csapp3ba2.Items.Add("FF Sam Gartside");
+                csapp3ba2.Items.Add("FF Peter Cram");
+                //ECO
+                csapp3eco.Items.Add("WC Richard Powell");
+                csapp3eco.Items.Add("WC Rob Foreman");
+                csapp3eco.Items.Add("WC Tony Burton");
+                csapp3eco.Items.Add("WC Simon Muir");
+                csapp3eco.Items.Add("CC Jason Leach");
+                csapp3eco.Items.Add("CC Jon Smith");
+                csapp3eco.Items.Add("CC Steve O'Brien");
+                csapp3eco.Items.Add("CC Karl jarvis");
+                csapp3eco.Items.Add("CC Jon Blowyer");
+                csapp3eco.Items.Add("CC Scott Newbon");
+                csapp3eco.Items.Add("CC Ben Leigh-Brown");
+                csapp3eco.Items.Add("CC Stephen Griffiths");
+                csapp3eco.Items.Add("CC Scott Fretwell");
+                csapp3eco.Items.Add("CC Paul Stephens");
+                csapp3eco.Items.Add("CC Mark Coupar");
+                csapp3eco.Items.Add("CC Adam King");
+                csapp3eco.Items.Add("FF Lee Beard");
+                csapp3eco.Items.Add("FF Jed Cole");
+                csapp3eco.Items.Add("FF Guy Austin");
+                csapp3eco.Items.Add("FF Evan Fisher");
+                csapp3eco.Items.Add("FF Alex Hallam");
+                csapp3eco.Items.Add("FF Martin Harding");
+                csapp3eco.Items.Add("FF Simon Marks");
+                csapp3eco.Items.Add("FF Peter Murphy");
+                csapp3eco.Items.Add("FF Phil Walmsley");
+                csapp3eco.Items.Add("FF Steve Wilson");
+                csapp3eco.Items.Add("FF John Wolfe");
+                csapp3eco.Items.Add("FF Mark Harris");
+                csapp3eco.Items.Add("FF Steve Clement");
+                csapp3eco.Items.Add("FF Christine Fisher");
+                csapp3eco.Items.Add("FF Mark Goldsmith");
+                csapp3eco.Items.Add("FF Paul Langford");
+                csapp3eco.Items.Add("FF Shaun Maccoll");
+                csapp3eco.Items.Add("FF Drew Scott");
+                csapp3eco.Items.Add("FF Jo Shippey");
+                csapp3eco.Items.Add("FF Myles Strickland");
+                csapp3eco.Items.Add("FF Ross Turner");
+                csapp3eco.Items.Add("FF Richard Gethin");
+                csapp3eco.Items.Add("FF Chelsey Bailey");
+                csapp3eco.Items.Add("FF Callum Hodgkin");
+                csapp3eco.Items.Add("FF Ben Anstee");
+                csapp3eco.Items.Add("FF Tom Barratt");
+                csapp3eco.Items.Add("FF Jonathan Cowling");
+                csapp3eco.Items.Add("FF Andrew Ellington");
+                csapp3eco.Items.Add("FF Cameron Mathews");
+                csapp3eco.Items.Add("FF Dominic Mould");
+                csapp3eco.Items.Add("FF Dave Oura");
+                csapp3eco.Items.Add("FF George White");
+                csapp3eco.Items.Add("FF Jasper Vidot");
+                csapp3eco.Items.Add("FF Richard Petch");
+                csapp3eco.Items.Add("FF Rik Green");
+                csapp3eco.Items.Add("FF Ali Thompson");
+                csapp3eco.Items.Add("FF Dale Allen");
+                csapp3eco.Items.Add("FF Hannah Archdeacon");
+                csapp3eco.Items.Add("FF Ed Bailey");
+                csapp3eco.Items.Add("FF Nick Brown");
+                csapp3eco.Items.Add("FF Jon Diver");
+                csapp3eco.Items.Add("FF Dan Foster");
+                csapp3eco.Items.Add("FF Phil Hyland");
+                csapp3eco.Items.Add("FF Paul Joy");
+                csapp3eco.Items.Add("FF Neil Kerr");
+                csapp3eco.Items.Add("FF Harry Storton");
+                csapp3eco.Items.Add("FF Sam Gartside");
+                csapp3eco.Items.Add("FF Peter Cram");
+                //6
+                csapp36.Items.Add("WC Richard Powell");
+                csapp36.Items.Add("WC Rob Foreman");
+                csapp36.Items.Add("WC Tony Burton");
+                csapp36.Items.Add("WC Simon Muir");
+                csapp36.Items.Add("CC Jason Leach");
+                csapp36.Items.Add("CC Jon Smith");
+                csapp36.Items.Add("CC Steve O'Brien");
+                csapp36.Items.Add("CC Karl jarvis");
+                csapp36.Items.Add("CC Jon Blowyer");
+                csapp36.Items.Add("CC Scott Newbon");
+                csapp36.Items.Add("CC Ben Leigh-Brown");
+                csapp36.Items.Add("CC Stephen Griffiths");
+                csapp36.Items.Add("CC Scott Fretwell");
+                csapp36.Items.Add("CC Paul Stephens");
+                csapp36.Items.Add("CC Mark Coupar");
+                csapp36.Items.Add("CC Adam King");
+                csapp36.Items.Add("FF Lee Beard");
+                csapp36.Items.Add("FF Jed Cole");
+                csapp36.Items.Add("FF Guy Austin");
+                csapp36.Items.Add("FF Evan Fisher");
+                csapp36.Items.Add("FF Alex Hallam");
+                csapp36.Items.Add("FF Martin Harding");
+                csapp36.Items.Add("FF Simon Marks");
+                csapp36.Items.Add("FF Peter Murphy");
+                csapp36.Items.Add("FF Phil Walmsley");
+                csapp36.Items.Add("FF Steve Wilson");
+                csapp36.Items.Add("FF John Wolfe");
+                csapp36.Items.Add("FF Mark Harris");
+                csapp36.Items.Add("FF Steve Clement");
+                csapp36.Items.Add("FF Christine Fisher");
+                csapp36.Items.Add("FF Mark Goldsmith");
+                csapp36.Items.Add("FF Paul Langford");
+                csapp36.Items.Add("FF Shaun Maccoll");
+                csapp36.Items.Add("FF Drew Scott");
+                csapp36.Items.Add("FF Jo Shippey");
+                csapp36.Items.Add("FF Myles Strickland");
+                csapp36.Items.Add("FF Ross Turner");
+                csapp36.Items.Add("FF Richard Gethin");
+                csapp36.Items.Add("FF Chelsey Bailey");
+                csapp36.Items.Add("FF Callum Hodgkin");
+                csapp36.Items.Add("FF Ben Anstee");
+                csapp36.Items.Add("FF Tom Barratt");
+                csapp36.Items.Add("FF Jonathan Cowling");
+                csapp36.Items.Add("FF Andrew Ellington");
+                csapp36.Items.Add("FF Cameron Mathews");
+                csapp36.Items.Add("FF Dominic Mould");
+                csapp36.Items.Add("FF Dave Oura");
+                csapp36.Items.Add("FF George White");
+                csapp36.Items.Add("FF Jasper Vidot");
+                csapp36.Items.Add("FF Richard Petch");
+                csapp36.Items.Add("FF Rik Green");
+                csapp36.Items.Add("FF Ali Thompson");
+                csapp36.Items.Add("FF Dale Allen");
+                csapp36.Items.Add("FF Hannah Archdeacon");
+                csapp36.Items.Add("FF Ed Bailey");
+                csapp36.Items.Add("FF Nick Brown");
+                csapp36.Items.Add("FF Jon Diver");
+                csapp36.Items.Add("FF Dan Foster");
+                csapp36.Items.Add("FF Phil Hyland");
+                csapp36.Items.Add("FF Paul Joy");
+                csapp36.Items.Add("FF Neil Kerr");
+                csapp36.Items.Add("FF Harry Storton");
+                csapp36.Items.Add("FF Sam Gartside");
+                csapp36.Items.Add("FF Peter Cram");
+            }
+            else if (csapp3.Text == "C23P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Mark Edgley");
+                csapp3oic.Items.Add("CC Roger Nunn");
+                csapp3oic.Items.Add("CC Paul Stephens");
+                csapp3oic.Items.Add("CC Robert Edwards");
+                csapp3oic.Items.Add("FF David Brooks");
+                csapp3oic.Items.Add("FF Kevin Carpenter");
+                csapp3oic.Items.Add("FF Alexander Crysanthou");
+                csapp3oic.Items.Add("FF Nigel James");
+                csapp3oic.Items.Add("FF Nick Mumford");
+                csapp3oic.Items.Add("FF Gary Smalley");
+                csapp3oic.Items.Add("FF Chole Housden");
+                csapp3oic.Items.Add("FF Ben Howells");
+                csapp3oic.Items.Add("FF Steve White");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Mark Edgley");
+                csapp3driver.Items.Add("CC Roger Nunn");
+                csapp3driver.Items.Add("CC Paul Stephens");
+                csapp3driver.Items.Add("CC Robert Edwards");
+                csapp3driver.Items.Add("FF David Brooks");
+                csapp3driver.Items.Add("FF Kevin Carpenter");
+                csapp3driver.Items.Add("FF Alexander Crysanthou");
+                csapp3driver.Items.Add("FF Nigel James");
+                csapp3driver.Items.Add("FF Nick Mumford");
+                csapp3driver.Items.Add("FF Gary Smalley");
+                csapp3driver.Items.Add("FF Chole Housden");
+                csapp3driver.Items.Add("FF Ben Howells");
+                csapp3driver.Items.Add("FF Steve White");
+                //BA1
+                csapp3ba1.Items.Add("WC Mark Edgley");
+                csapp3ba1.Items.Add("CC Roger Nunn");
+                csapp3ba1.Items.Add("CC Paul Stephens");
+                csapp3ba1.Items.Add("CC Robert Edwards");
+                csapp3ba1.Items.Add("FF David Brooks");
+                csapp3ba1.Items.Add("FF Kevin Carpenter");
+                csapp3ba1.Items.Add("FF Alexander Crysanthou");
+                csapp3ba1.Items.Add("FF Nigel James");
+                csapp3ba1.Items.Add("FF Nick Mumford");
+                csapp3ba1.Items.Add("FF Gary Smalley");
+                csapp3ba1.Items.Add("FF Chole Housden");
+                csapp3ba1.Items.Add("FF Ben Howells");
+                csapp3ba1.Items.Add("FF Steve White");
+                //BA2
+                csapp3ba2.Items.Add("WC Mark Edgley");
+                csapp3ba2.Items.Add("CC Roger Nunn");
+                csapp3ba2.Items.Add("CC Paul Stephens");
+                csapp3ba2.Items.Add("CC Robert Edwards");
+                csapp3ba2.Items.Add("FF David Brooks");
+                csapp3ba2.Items.Add("FF Kevin Carpenter");
+                csapp3ba2.Items.Add("FF Alexander Crysanthou");
+                csapp3ba2.Items.Add("FF Nigel James");
+                csapp3ba2.Items.Add("FF Nick Mumford");
+                csapp3ba2.Items.Add("FF Gary Smalley");
+                csapp3ba2.Items.Add("FF Chole Housden");
+                csapp3ba2.Items.Add("FF Ben Howells");
+                csapp3ba2.Items.Add("FF Steve White");
+                //ECO
+                csapp3eco.Items.Add("WC Mark Edgley");
+                csapp3eco.Items.Add("CC Roger Nunn");
+                csapp3eco.Items.Add("CC Paul Stephens");
+                csapp3eco.Items.Add("CC Robert Edwards");
+                csapp3eco.Items.Add("FF David Brooks");
+                csapp3eco.Items.Add("FF Kevin Carpenter");
+                csapp3eco.Items.Add("FF Alexander Crysanthou");
+                csapp3eco.Items.Add("FF Nigel James");
+                csapp3eco.Items.Add("FF Nick Mumford");
+                csapp3eco.Items.Add("FF Gary Smalley");
+                csapp3eco.Items.Add("FF Chole Housden");
+                csapp3eco.Items.Add("FF Ben Howells");
+                csapp3eco.Items.Add("FF Steve White");
+                //6
+                csapp36.Items.Add("WC Mark Edgley");
+                csapp36.Items.Add("CC Roger Nunn");
+                csapp36.Items.Add("CC Paul Stephens");
+                csapp36.Items.Add("CC Robert Edwards");
+                csapp36.Items.Add("FF David Brooks");
+                csapp36.Items.Add("FF Kevin Carpenter");
+                csapp36.Items.Add("FF Alexander Crysanthou");
+                csapp36.Items.Add("FF Nigel James");
+                csapp36.Items.Add("FF Nick Mumford");
+                csapp36.Items.Add("FF Gary Smalley");
+                csapp36.Items.Add("FF Chole Housden");
+                csapp36.Items.Add("FF Ben Howells");
+                csapp36.Items.Add("FF Steve White");
+            }
+            else if (csapp3.Text == "C02P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Julian Bridgeman");
+                csapp3oic.Items.Add("CC Jason Leach");
+                csapp3oic.Items.Add("CC Stephen Tibbett");
+                csapp3oic.Items.Add("FF Chris Cornell");
+                csapp3oic.Items.Add("FF Ben Anstee");
+                csapp3oic.Items.Add("FF Daniel Granger");
+                csapp3oic.Items.Add("FF Roger Pake");
+                csapp3oic.Items.Add("FF Matthew Scruby");
+                csapp3oic.Items.Add("FF Ian Grimshaw");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Julian Bridgeman");
+                csapp3driver.Items.Add("CC Jason Leach");
+                csapp3driver.Items.Add("CC Stephen Tibbett");
+                csapp3driver.Items.Add("FF Chris Cornell");
+                csapp3driver.Items.Add("FF Ben Anstee");
+                csapp3driver.Items.Add("FF Daniel Granger");
+                csapp3driver.Items.Add("FF Roger Pake");
+                csapp3driver.Items.Add("FF Matthew Scruby");
+                csapp3driver.Items.Add("FF Ian Grimshaw");
+                //BA1
+                csapp3ba1.Items.Add("WC Julian Bridgeman");
+                csapp3ba1.Items.Add("CC Jason Leach");
+                csapp3ba1.Items.Add("CC Stephen Tibbett");
+                csapp3ba1.Items.Add("FF Chris Cornell");
+                csapp3ba1.Items.Add("FF Ben Anstee");
+                csapp3ba1.Items.Add("FF Daniel Granger");
+                csapp3ba1.Items.Add("FF Roger Pake");
+                csapp3ba1.Items.Add("FF Matthew Scruby");
+                csapp3ba1.Items.Add("FF Ian Grimshaw");
+                //BA2
+                csapp3ba2.Items.Add("WC Julian Bridgeman");
+                csapp3ba2.Items.Add("CC Jason Leach");
+                csapp3ba2.Items.Add("CC Stephen Tibbett");
+                csapp3ba2.Items.Add("FF Chris Cornell");
+                csapp3ba2.Items.Add("FF Ben Anstee");
+                csapp3ba2.Items.Add("FF Daniel Granger");
+                csapp3ba2.Items.Add("FF Roger Pake");
+                csapp3ba2.Items.Add("FF Matthew Scruby");
+                csapp3ba2.Items.Add("FF Ian Grimshaw");
+                //ECO
+                csapp3eco.Items.Add("WC Julian Bridgeman");
+                csapp3eco.Items.Add("CC Jason Leach");
+                csapp3eco.Items.Add("CC Stephen Tibbett");
+                csapp3eco.Items.Add("FF Chris Cornell");
+                csapp3eco.Items.Add("FF Ben Anstee");
+                csapp3eco.Items.Add("FF Daniel Granger");
+                csapp3eco.Items.Add("FF Roger Pake");
+                csapp3eco.Items.Add("FF Matthew Scruby");
+                csapp3eco.Items.Add("FF Ian Grimshaw");
+                //6
+                csapp36.Items.Add("WC Julian Bridgeman");
+                csapp36.Items.Add("CC Jason Leach");
+                csapp36.Items.Add("CC Stephen Tibbett");
+                csapp36.Items.Add("FF Chris Cornell");
+                csapp36.Items.Add("FF Ben Anstee");
+                csapp36.Items.Add("FF Daniel Granger");
+                csapp36.Items.Add("FF Roger Pake");
+                csapp36.Items.Add("FF Matthew Scruby");
+                csapp36.Items.Add("FF Ian Grimshaw");
+            }
+            else if (csapp3.Text == "C05P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("-----DAY CREW------");
+                csapp3oic.Items.Add("WC Jim Sharp");
+                csapp3oic.Items.Add("CC Laura Barrow");
+                csapp3oic.Items.Add("FF Darren Fox");
+                csapp3oic.Items.Add("FF Jason Keel");
+                csapp3oic.Items.Add("FF Chris Parker");
+                csapp3oic.Items.Add("FF David Bainsfair");
+                csapp3oic.Items.Add("FF Calum Coomes");
+                csapp3oic.Items.Add("-----ON CALL-------");
+                csapp3oic.Items.Add("WC Wayne Pringle");
+                csapp3oic.Items.Add("CC Phil Hyland");
+                csapp3oic.Items.Add("FF Philip Benton");
+                csapp3oic.Items.Add("FF Duncan Fraser");
+                csapp3oic.Items.Add("FF Patrick Whitton");
+                csapp3oic.Items.Add("FF Nick Keymar");
+                csapp3oic.Items.Add("FF Darren Fox");
+                csapp3oic.Items.Add("FF Hannah Goodchild");
+                csapp3oic.Items.Add("FF Liam Mountford");
+                csapp3oic.Items.Add("FF Jon Wade");
+                csapp3oic.Items.Add("FF Naomi Hudson");
+                csapp3oic.Items.Add("FF Paul Hudson");
+                csapp3oic.Items.Add("FF Nick Lake");
+                csapp3oic.Items.Add("FF James Parker");
+
+                //DRIVER
+                csapp3driver.Items.Add("-----DAY CREW------");
+                csapp3driver.Items.Add("WC Jim Sharp");
+                csapp3driver.Items.Add("CC Laura Barrow");
+                csapp3driver.Items.Add("FF Darren Fox");
+                csapp3driver.Items.Add("FF Jason Keel");
+                csapp3driver.Items.Add("FF Chris Parker");
+                csapp3driver.Items.Add("FF David Bainsfair");
+                csapp3driver.Items.Add("FF Calum Coomes");
+                csapp3driver.Items.Add("-----ON CALL-------");
+                csapp3driver.Items.Add("WC Wayne Pringle");
+                csapp3driver.Items.Add("CC Phil Hyland");
+                csapp3driver.Items.Add("FF Philip Benton");
+                csapp3driver.Items.Add("FF Duncan Fraser");
+                csapp3driver.Items.Add("FF Patrick Whitton");
+                csapp3driver.Items.Add("FF Nick Keymar");
+                csapp3driver.Items.Add("FF Darren Fox");
+                csapp3driver.Items.Add("FF Hannah Goodchild");
+                csapp3driver.Items.Add("FF Liam Mountford");
+                csapp3driver.Items.Add("FF Jon Wade");
+                csapp3driver.Items.Add("FF Naomi Hudson");
+                csapp3driver.Items.Add("FF Paul Hudson");
+                csapp3driver.Items.Add("FF Nick Lake");
+                csapp3driver.Items.Add("FF James Parker");
+                //BA1
+                csapp3ba1.Items.Add("-----DAY CREW------");
+                csapp3ba1.Items.Add("WC Jim Sharp");
+                csapp3ba1.Items.Add("CC Laura Barrow");
+                csapp3ba1.Items.Add("FF Darren Fox");
+                csapp3ba1.Items.Add("FF Jason Keel");
+                csapp3ba1.Items.Add("FF Chris Parker");
+                csapp3ba1.Items.Add("FF David Bainsfair");
+                csapp3ba1.Items.Add("FF Calum Coomes");
+                csapp3ba1.Items.Add("-----ON CALL-------");
+                csapp3ba1.Items.Add("WC Wayne Pringle");
+                csapp3ba1.Items.Add("CC Phil Hyland");
+                csapp3ba1.Items.Add("FF Philip Benton");
+                csapp3ba1.Items.Add("FF Duncan Fraser");
+                csapp3ba1.Items.Add("FF Patrick Whitton");
+                csapp3ba1.Items.Add("FF Nick Keymar");
+                csapp3ba1.Items.Add("FF Darren Fox");
+                csapp3ba1.Items.Add("FF Hannah Goodchild");
+                csapp3ba1.Items.Add("FF Liam Mountford");
+                csapp3ba1.Items.Add("FF Jon Wade");
+                csapp3ba1.Items.Add("FF Naomi Hudson");
+                csapp3ba1.Items.Add("FF Paul Hudson");
+                csapp3ba1.Items.Add("FF Nick Lake");
+                csapp3ba1.Items.Add("FF James Parker");
+                //BA2
+                csapp3ba2.Items.Add("-----DAY CREW------");
+                csapp3ba2.Items.Add("WC Jim Sharp");
+                csapp3ba2.Items.Add("CC Laura Barrow");
+                csapp3ba2.Items.Add("FF Darren Fox");
+                csapp3ba2.Items.Add("FF Jason Keel");
+                csapp3ba2.Items.Add("FF Chris Parker");
+                csapp3ba2.Items.Add("FF David Bainsfair");
+                csapp3ba2.Items.Add("FF Calum Coomes");
+                csapp3ba2.Items.Add("-----ON CALL-------");
+                csapp3ba2.Items.Add("WC Wayne Pringle");
+                csapp3ba2.Items.Add("CC Phil Hyland");
+                csapp3ba2.Items.Add("FF Philip Benton");
+                csapp3ba2.Items.Add("FF Duncan Fraser");
+                csapp3ba2.Items.Add("FF Patrick Whitton");
+                csapp3ba2.Items.Add("FF Nick Keymar");
+                csapp3ba2.Items.Add("FF Darren Fox");
+                csapp3ba2.Items.Add("FF Hannah Goodchild");
+                csapp3ba2.Items.Add("FF Liam Mountford");
+                csapp3ba2.Items.Add("FF Jon Wade");
+                csapp3ba2.Items.Add("FF Naomi Hudson");
+                csapp3ba2.Items.Add("FF Paul Hudson");
+                csapp3ba2.Items.Add("FF Nick Lake");
+                csapp3ba2.Items.Add("FF James Parker");
+                //ECO
+                csapp3eco.Items.Add("-----DAY CREW------");
+                csapp3eco.Items.Add("WC Jim Sharp");
+                csapp3eco.Items.Add("CC Laura Barrow");
+                csapp3eco.Items.Add("FF Darren Fox");
+                csapp3eco.Items.Add("FF Jason Keel");
+                csapp3eco.Items.Add("FF Chris Parker");
+                csapp3eco.Items.Add("FF David Bainsfair");
+                csapp3eco.Items.Add("FF Calum Coomes");
+                csapp3eco.Items.Add("-----ON CALL-------");
+                csapp3eco.Items.Add("WC Wayne Pringle");
+                csapp3eco.Items.Add("CC Phil Hyland");
+                csapp3eco.Items.Add("FF Philip Benton");
+                csapp3eco.Items.Add("FF Duncan Fraser");
+                csapp3eco.Items.Add("FF Patrick Whitton");
+                csapp3eco.Items.Add("FF Nick Keymar");
+                csapp3eco.Items.Add("FF Darren Fox");
+                csapp3eco.Items.Add("FF Hannah Goodchild");
+                csapp3eco.Items.Add("FF Liam Mountford");
+                csapp3eco.Items.Add("FF Jon Wade");
+                csapp3eco.Items.Add("FF Naomi Hudson");
+                csapp3eco.Items.Add("FF Paul Hudson");
+                csapp3eco.Items.Add("FF Nick Lake");
+                csapp3eco.Items.Add("FF James Parker");
+                //6
+                csapp36.Items.Add("-----DAY CREW------");
+                csapp36.Items.Add("WC Jim Sharp");
+                csapp36.Items.Add("CC Laura Barrow");
+                csapp36.Items.Add("FF Darren Fox");
+                csapp36.Items.Add("FF Jason Keel");
+                csapp36.Items.Add("FF Chris Parker");
+                csapp36.Items.Add("FF David Bainsfair");
+                csapp36.Items.Add("FF Calum Coomes");
+                csapp36.Items.Add("-----ON CALL-------");
+                csapp36.Items.Add("WC Wayne Pringle");
+                csapp36.Items.Add("CC Phil Hyland");
+                csapp36.Items.Add("FF Philip Benton");
+                csapp36.Items.Add("FF Duncan Fraser");
+                csapp36.Items.Add("FF Patrick Whitton");
+                csapp36.Items.Add("FF Nick Keymar");
+                csapp36.Items.Add("FF Darren Fox");
+                csapp36.Items.Add("FF Hannah Goodchild");
+                csapp36.Items.Add("FF Liam Mountford");
+                csapp36.Items.Add("FF Jon Wade");
+                csapp36.Items.Add("FF Naomi Hudson");
+                csapp36.Items.Add("FF Paul Hudson");
+                csapp36.Items.Add("FF Nick Lake");
+                csapp36.Items.Add("FF James Parker");
+            }
+            else if (csapp3.Text == "C05P5")
+            {
+                //OIC
+                csapp3oic.Items.Add("-----DAY CREW------");
+                csapp3oic.Items.Add("WC Jim Sharp");
+                csapp3oic.Items.Add("CC Laura Barrow");
+                csapp3oic.Items.Add("FF Darren Fox");
+                csapp3oic.Items.Add("FF Jason Keel");
+                csapp3oic.Items.Add("FF Chris Parker");
+                csapp3oic.Items.Add("FF David Bainsfair");
+                csapp3oic.Items.Add("FF Calum Coomes");
+                csapp3oic.Items.Add("-----ON CALL-------");
+                csapp3oic.Items.Add("WC Wayne Pringle");
+                csapp3oic.Items.Add("CC Phil Hyland");
+                csapp3oic.Items.Add("FF Philip Benton");
+                csapp3oic.Items.Add("FF Duncan Fraser");
+                csapp3oic.Items.Add("FF Patrick Whitton");
+                csapp3oic.Items.Add("FF Nick Keymar");
+                csapp3oic.Items.Add("FF Darren Fox");
+                csapp3oic.Items.Add("FF Hannah Goodchild");
+                csapp3oic.Items.Add("FF Liam Mountford");
+                csapp3oic.Items.Add("FF Jon Wade");
+                csapp3oic.Items.Add("FF Naomi Hudson");
+                csapp3oic.Items.Add("FF Paul Hudson");
+                csapp3oic.Items.Add("FF Nick Lake");
+                csapp3oic.Items.Add("FF James Parker");
+
+                //DRIVER
+                csapp3driver.Items.Add("-----DAY CREW------");
+                csapp3driver.Items.Add("WC Jim Sharp");
+                csapp3driver.Items.Add("CC Laura Barrow");
+                csapp3driver.Items.Add("FF Darren Fox");
+                csapp3driver.Items.Add("FF Jason Keel");
+                csapp3driver.Items.Add("FF Chris Parker");
+                csapp3driver.Items.Add("FF David Bainsfair");
+                csapp3driver.Items.Add("FF Calum Coomes");
+                csapp3driver.Items.Add("-----ON CALL-------");
+                csapp3driver.Items.Add("WC Wayne Pringle");
+                csapp3driver.Items.Add("CC Phil Hyland");
+                csapp3driver.Items.Add("FF Philip Benton");
+                csapp3driver.Items.Add("FF Duncan Fraser");
+                csapp3driver.Items.Add("FF Patrick Whitton");
+                csapp3driver.Items.Add("FF Nick Keymar");
+                csapp3driver.Items.Add("FF Darren Fox");
+                csapp3driver.Items.Add("FF Hannah Goodchild");
+                csapp3driver.Items.Add("FF Liam Mountford");
+                csapp3driver.Items.Add("FF Jon Wade");
+                csapp3driver.Items.Add("FF Naomi Hudson");
+                csapp3driver.Items.Add("FF Paul Hudson");
+                csapp3driver.Items.Add("FF Nick Lake");
+                csapp3driver.Items.Add("FF James Parker");
+                //BA1
+                csapp3ba1.Items.Add("-----DAY CREW------");
+                csapp3ba1.Items.Add("WC Jim Sharp");
+                csapp3ba1.Items.Add("CC Laura Barrow");
+                csapp3ba1.Items.Add("FF Darren Fox");
+                csapp3ba1.Items.Add("FF Jason Keel");
+                csapp3ba1.Items.Add("FF Chris Parker");
+                csapp3ba1.Items.Add("FF David Bainsfair");
+                csapp3ba1.Items.Add("FF Calum Coomes");
+                csapp3ba1.Items.Add("-----ON CALL-------");
+                csapp3ba1.Items.Add("WC Wayne Pringle");
+                csapp3ba1.Items.Add("CC Phil Hyland");
+                csapp3ba1.Items.Add("FF Philip Benton");
+                csapp3ba1.Items.Add("FF Duncan Fraser");
+                csapp3ba1.Items.Add("FF Patrick Whitton");
+                csapp3ba1.Items.Add("FF Nick Keymar");
+                csapp3ba1.Items.Add("FF Darren Fox");
+                csapp3ba1.Items.Add("FF Hannah Goodchild");
+                csapp3ba1.Items.Add("FF Liam Mountford");
+                csapp3ba1.Items.Add("FF Jon Wade");
+                csapp3ba1.Items.Add("FF Naomi Hudson");
+                csapp3ba1.Items.Add("FF Paul Hudson");
+                csapp3ba1.Items.Add("FF Nick Lake");
+                csapp3ba1.Items.Add("FF James Parker");
+                //BA2
+                csapp3ba2.Items.Add("-----DAY CREW------");
+                csapp3ba2.Items.Add("WC Jim Sharp");
+                csapp3ba2.Items.Add("CC Laura Barrow");
+                csapp3ba2.Items.Add("FF Darren Fox");
+                csapp3ba2.Items.Add("FF Jason Keel");
+                csapp3ba2.Items.Add("FF Chris Parker");
+                csapp3ba2.Items.Add("FF David Bainsfair");
+                csapp3ba2.Items.Add("FF Calum Coomes");
+                csapp3ba2.Items.Add("-----ON CALL-------");
+                csapp3ba2.Items.Add("WC Wayne Pringle");
+                csapp3ba2.Items.Add("CC Phil Hyland");
+                csapp3ba2.Items.Add("FF Philip Benton");
+                csapp3ba2.Items.Add("FF Duncan Fraser");
+                csapp3ba2.Items.Add("FF Patrick Whitton");
+                csapp3ba2.Items.Add("FF Nick Keymar");
+                csapp3ba2.Items.Add("FF Darren Fox");
+                csapp3ba2.Items.Add("FF Hannah Goodchild");
+                csapp3ba2.Items.Add("FF Liam Mountford");
+                csapp3ba2.Items.Add("FF Jon Wade");
+                csapp3ba2.Items.Add("FF Naomi Hudson");
+                csapp3ba2.Items.Add("FF Paul Hudson");
+                csapp3ba2.Items.Add("FF Nick Lake");
+                csapp3ba2.Items.Add("FF James Parker");
+                //ECO
+                csapp3eco.Items.Add("-----DAY CREW------");
+                csapp3eco.Items.Add("WC Jim Sharp");
+                csapp3eco.Items.Add("CC Laura Barrow");
+                csapp3eco.Items.Add("FF Darren Fox");
+                csapp3eco.Items.Add("FF Jason Keel");
+                csapp3eco.Items.Add("FF Chris Parker");
+                csapp3eco.Items.Add("FF David Bainsfair");
+                csapp3eco.Items.Add("FF Calum Coomes");
+                csapp3eco.Items.Add("-----ON CALL-------");
+                csapp3eco.Items.Add("WC Wayne Pringle");
+                csapp3eco.Items.Add("CC Phil Hyland");
+                csapp3eco.Items.Add("FF Philip Benton");
+                csapp3eco.Items.Add("FF Duncan Fraser");
+                csapp3eco.Items.Add("FF Patrick Whitton");
+                csapp3eco.Items.Add("FF Nick Keymar");
+                csapp3eco.Items.Add("FF Darren Fox");
+                csapp3eco.Items.Add("FF Hannah Goodchild");
+                csapp3eco.Items.Add("FF Liam Mountford");
+                csapp3eco.Items.Add("FF Jon Wade");
+                csapp3eco.Items.Add("FF Naomi Hudson");
+                csapp3eco.Items.Add("FF Paul Hudson");
+                csapp3eco.Items.Add("FF Nick Lake");
+                csapp3eco.Items.Add("FF James Parker");
+                //6
+                csapp36.Items.Add("-----DAY CREW------");
+                csapp36.Items.Add("WC Jim Sharp");
+                csapp36.Items.Add("CC Laura Barrow");
+                csapp36.Items.Add("FF Darren Fox");
+                csapp36.Items.Add("FF Jason Keel");
+                csapp36.Items.Add("FF Chris Parker");
+                csapp36.Items.Add("FF David Bainsfair");
+                csapp36.Items.Add("FF Calum Coomes");
+                csapp36.Items.Add("-----ON CALL-------");
+                csapp36.Items.Add("WC Wayne Pringle");
+                csapp36.Items.Add("CC Phil Hyland");
+                csapp36.Items.Add("FF Philip Benton");
+                csapp36.Items.Add("FF Duncan Fraser");
+                csapp36.Items.Add("FF Patrick Whitton");
+                csapp36.Items.Add("FF Nick Keymar");
+                csapp36.Items.Add("FF Darren Fox");
+                csapp36.Items.Add("FF Hannah Goodchild");
+                csapp36.Items.Add("FF Liam Mountford");
+                csapp36.Items.Add("FF Jon Wade");
+                csapp36.Items.Add("FF Naomi Hudson");
+                csapp36.Items.Add("FF Paul Hudson");
+                csapp36.Items.Add("FF Nick Lake");
+                csapp36.Items.Add("FF James Parker");
+            }
+            else if (csapp3.Text == "C11P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Andrew Davis");
+                csapp3oic.Items.Add("CC Jason Gore");
+                csapp3oic.Items.Add("CC Richard petch");
+                csapp3oic.Items.Add("FF Holly Golder");
+                csapp3oic.Items.Add("FF Adam Newman");
+                csapp3oic.Items.Add("FF Kevin Hall");
+                csapp3oic.Items.Add("FF Will Stevens");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Andrew Davis");
+                csapp3driver.Items.Add("CC Jason Gore");
+                csapp3driver.Items.Add("CC Richard petch");
+                csapp3driver.Items.Add("FF Holly Golder");
+                csapp3driver.Items.Add("FF Adam Newman");
+                csapp3driver.Items.Add("FF Kevin Hall");
+                csapp3driver.Items.Add("FF Will Stevens");
+                //BA1
+                csapp3ba1.Items.Add("WC Andrew Davis");
+                csapp3ba1.Items.Add("CC Jason Gore");
+                csapp3ba1.Items.Add("CC Richard petch");
+                csapp3ba1.Items.Add("FF Holly Golder");
+                csapp3ba1.Items.Add("FF Adam Newman");
+                csapp3ba1.Items.Add("FF Kevin Hall");
+                csapp3ba1.Items.Add("FF Will Stevens");
+                //BA2
+                csapp3ba2.Items.Add("WC Andrew Davis");
+                csapp3ba2.Items.Add("CC Jason Gore");
+                csapp3ba2.Items.Add("CC Richard petch");
+                csapp3ba2.Items.Add("FF Holly Golder");
+                csapp3ba2.Items.Add("FF Adam Newman");
+                csapp3ba2.Items.Add("FF Kevin Hall");
+                csapp3ba2.Items.Add("FF Will Stevens");
+                //ECO
+                csapp3eco.Items.Add("WC Andrew Davis");
+                csapp3eco.Items.Add("CC Jason Gore");
+                csapp3eco.Items.Add("CC Richard petch");
+                csapp3eco.Items.Add("FF Holly Golder");
+                csapp3eco.Items.Add("FF Adam Newman");
+                csapp3eco.Items.Add("FF Kevin Hall");
+                csapp3eco.Items.Add("FF Will Stevens");
+                //6
+                csapp36.Items.Add("WC Andrew Davis");
+                csapp36.Items.Add("CC Jason Gore");
+                csapp36.Items.Add("CC Richard petch");
+                csapp36.Items.Add("FF Holly Golder");
+                csapp36.Items.Add("FF Adam Newman");
+                csapp36.Items.Add("FF Kevin Hall");
+                csapp36.Items.Add("FF Will Stevens");
+            }
+            else if (csapp3.Text == "C26P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Jeremy Corney");
+                csapp3oic.Items.Add("CC John Wolfe");
+                csapp3oic.Items.Add("FF Russell Gooderham");
+                csapp3oic.Items.Add("FF Stuart Cox");
+                csapp3oic.Items.Add("FF Robert Davies");
+                csapp3oic.Items.Add("FF Louise Halsall");
+                csapp3oic.Items.Add("FF Adam Woodbine");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Jeremy Corney");
+                csapp3driver.Items.Add("CC John Wolfe");
+                csapp3driver.Items.Add("FF Russell Gooderham");
+                csapp3driver.Items.Add("FF Stuart Cox");
+                csapp3driver.Items.Add("FF Robert Davies");
+                csapp3driver.Items.Add("FF Louise Halsall");
+                csapp3driver.Items.Add("FF Adam Woodbine");
+                //BA1
+                csapp3ba1.Items.Add("WC Jeremy Corney");
+                csapp3ba1.Items.Add("CC John Wolfe");
+                csapp3ba1.Items.Add("FF Russell Gooderham");
+                csapp3ba1.Items.Add("FF Stuart Cox");
+                csapp3ba1.Items.Add("FF Robert Davies");
+                csapp3ba1.Items.Add("FF Louise Halsall");
+                csapp3ba1.Items.Add("FF Adam Woodbine");
+                //BA2
+                csapp3ba2.Items.Add("WC Jeremy Corney");
+                csapp3ba2.Items.Add("CC John Wolfe");
+                csapp3ba2.Items.Add("FF Russell Gooderham");
+                csapp3ba2.Items.Add("FF Stuart Cox");
+                csapp3ba2.Items.Add("FF Robert Davies");
+                csapp3ba2.Items.Add("FF Louise Halsall");
+                csapp3ba2.Items.Add("FF Adam Woodbine");
+                //ECO
+                csapp3eco.Items.Add("WC Jeremy Corney");
+                csapp3eco.Items.Add("CC John Wolfe");
+                csapp3eco.Items.Add("FF Russell Gooderham");
+                csapp3eco.Items.Add("FF Stuart Cox");
+                csapp3eco.Items.Add("FF Robert Davies");
+                csapp3eco.Items.Add("FF Louise Halsall");
+                csapp3eco.Items.Add("FF Adam Woodbine");
+                //6
+                csapp36.Items.Add("WC Jeremy Corney");
+                csapp36.Items.Add("CC John Wolfe");
+                csapp36.Items.Add("FF Russell Gooderham");
+                csapp36.Items.Add("FF Stuart Cox");
+                csapp36.Items.Add("FF Robert Davies");
+                csapp36.Items.Add("FF Louise Halsall");
+                csapp36.Items.Add("FF Adam Woodbine");
+            }
+            else if (csapp3.Text == "C09P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Lee Allen");
+                csapp3oic.Items.Add("CC Sebastian Croot");
+                csapp3oic.Items.Add("FF Jack Anderson");
+                csapp3oic.Items.Add("FF Stephen Jackson");
+                csapp3oic.Items.Add("FF Gary Doggett");
+                csapp3oic.Items.Add("FF Alan Baker");
+                csapp3oic.Items.Add("FF John Reynolds");
+                csapp3oic.Items.Add("FF Benjamin Sams");
+                csapp3oic.Items.Add("FF Ben Walbanke-Taylor");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Lee Allen");
+                csapp3driver.Items.Add("CC Sebastian Croot");
+                csapp3driver.Items.Add("FF Jack Anderson");
+                csapp3driver.Items.Add("FF Stephen Jackson");
+                csapp3driver.Items.Add("FF Gary Doggett");
+                csapp3driver.Items.Add("FF Alan Baker");
+                csapp3driver.Items.Add("FF John Reynolds");
+                csapp3driver.Items.Add("FF Benjamin Sams");
+                csapp3driver.Items.Add("FF Ben Walbanke-Taylor");
+                //BA1
+                csapp3ba1.Items.Add("WC Lee Allen");
+                csapp3ba1.Items.Add("CC Sebastian Croot");
+                csapp3ba1.Items.Add("FF Jack Anderson");
+                csapp3ba1.Items.Add("FF Stephen Jackson");
+                csapp3ba1.Items.Add("FF Gary Doggett");
+                csapp3ba1.Items.Add("FF Alan Baker");
+                csapp3ba1.Items.Add("FF John Reynolds");
+                csapp3ba1.Items.Add("FF Benjamin Sams");
+                csapp3ba1.Items.Add("FF Ben Walbanke-Taylor");
+                //BA2
+                csapp3ba2.Items.Add("WC Lee Allen");
+                csapp3ba2.Items.Add("CC Sebastian Croot");
+                csapp3ba2.Items.Add("FF Jack Anderson");
+                csapp3ba2.Items.Add("FF Stephen Jackson");
+                csapp3ba2.Items.Add("FF Gary Doggett");
+                csapp3ba2.Items.Add("FF Alan Baker");
+                csapp3ba2.Items.Add("FF John Reynolds");
+                csapp3ba2.Items.Add("FF Benjamin Sams");
+                csapp3ba2.Items.Add("FF Ben Walbanke-Taylor");
+                //ECO
+                csapp3eco.Items.Add("WC Lee Allen");
+                csapp3eco.Items.Add("CC Sebastian Croot");
+                csapp3eco.Items.Add("FF Jack Anderson");
+                csapp3eco.Items.Add("FF Stephen Jackson");
+                csapp3eco.Items.Add("FF Gary Doggett");
+                csapp3eco.Items.Add("FF Alan Baker");
+                csapp3eco.Items.Add("FF John Reynolds");
+                csapp3eco.Items.Add("FF Benjamin Sams");
+                csapp3eco.Items.Add("FF Ben Walbanke-Taylor");
+                //6
+                csapp36.Items.Add("WC Lee Allen");
+                csapp36.Items.Add("CC Sebastian Croot");
+                csapp36.Items.Add("FF Jack Anderson");
+                csapp36.Items.Add("FF Stephen Jackson");
+                csapp36.Items.Add("FF Gary Doggett");
+                csapp36.Items.Add("FF Alan Baker");
+                csapp36.Items.Add("FF John Reynolds");
+                csapp36.Items.Add("FF Benjamin Sams");
+                csapp36.Items.Add("FF Ben Walbanke-Taylor");
+            }
+            else if (csapp3.Text == "C04P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Clive Allen");
+                csapp3oic.Items.Add("CC Paul Oakes");
+                csapp3oic.Items.Add("CC Andrew Harrison");
+                csapp3oic.Items.Add("CC Malcolm Cornwell");
+                csapp3oic.Items.Add("FF Roy Kent");
+                csapp3oic.Items.Add("FF Mark Lewis");
+                csapp3oic.Items.Add("FF Andrew Lister");
+                csapp3oic.Items.Add("FF David Murfitt");
+                csapp3oic.Items.Add("FF Adam Peacock");
+                csapp3oic.Items.Add("FF Ian Peacock");
+                csapp3oic.Items.Add("FF Andrew Boughen");
+                csapp3oic.Items.Add("FF James Sharp");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Clive Allen");
+                csapp3driver.Items.Add("CC Paul Oakes");
+                csapp3driver.Items.Add("CC Andrew Harrison");
+                csapp3driver.Items.Add("CC Malcolm Cornwell");
+                csapp3driver.Items.Add("FF Roy Kent");
+                csapp3driver.Items.Add("FF Mark Lewis");
+                csapp3driver.Items.Add("FF Andrew Lister");
+                csapp3driver.Items.Add("FF David Murfitt");
+                csapp3driver.Items.Add("FF Adam Peacock");
+                csapp3driver.Items.Add("FF Ian Peacock");
+                csapp3driver.Items.Add("FF Andrew Boughen");
+                csapp3driver.Items.Add("FF James Sharp");
+                //BA1
+                csapp3ba1.Items.Add("WC Clive Allen");
+                csapp3ba1.Items.Add("CC Paul Oakes");
+                csapp3ba1.Items.Add("CC Andrew Harrison");
+                csapp3ba1.Items.Add("CC Malcolm Cornwell");
+                csapp3ba1.Items.Add("FF Roy Kent");
+                csapp3ba1.Items.Add("FF Mark Lewis");
+                csapp3ba1.Items.Add("FF Andrew Lister");
+                csapp3ba1.Items.Add("FF David Murfitt");
+                csapp3ba1.Items.Add("FF Adam Peacock");
+                csapp3ba1.Items.Add("FF Ian Peacock");
+                csapp3ba1.Items.Add("FF Andrew Boughen");
+                csapp3ba1.Items.Add("FF James Sharp");
+                //BA2
+                csapp3ba2.Items.Add("WC Clive Allen");
+                csapp3ba2.Items.Add("CC Paul Oakes");
+                csapp3ba2.Items.Add("CC Andrew Harrison");
+                csapp3ba2.Items.Add("CC Malcolm Cornwell");
+                csapp3ba2.Items.Add("FF Roy Kent");
+                csapp3ba2.Items.Add("FF Mark Lewis");
+                csapp3ba2.Items.Add("FF Andrew Lister");
+                csapp3ba2.Items.Add("FF David Murfitt");
+                csapp3ba2.Items.Add("FF Adam Peacock");
+                csapp3ba2.Items.Add("FF Ian Peacock");
+                csapp3ba2.Items.Add("FF Andrew Boughen");
+                csapp3ba2.Items.Add("FF James Sharp");
+                //ECO
+                csapp3eco.Items.Add("WC Clive Allen");
+                csapp3eco.Items.Add("CC Paul Oakes");
+                csapp3eco.Items.Add("CC Andrew Harrison");
+                csapp3eco.Items.Add("CC Malcolm Cornwell");
+                csapp3eco.Items.Add("FF Roy Kent");
+                csapp3eco.Items.Add("FF Mark Lewis");
+                csapp3eco.Items.Add("FF Andrew Lister");
+                csapp3eco.Items.Add("FF David Murfitt");
+                csapp3eco.Items.Add("FF Adam Peacock");
+                csapp3eco.Items.Add("FF Ian Peacock");
+                csapp3eco.Items.Add("FF Andrew Boughen");
+                csapp3eco.Items.Add("FF James Sharp");
+                //6
+                csapp36.Items.Add("WC Clive Allen");
+                csapp36.Items.Add("CC Paul Oakes");
+                csapp36.Items.Add("CC Andrew Harrison");
+                csapp36.Items.Add("CC Malcolm Cornwell");
+                csapp36.Items.Add("FF Roy Kent");
+                csapp36.Items.Add("FF Mark Lewis");
+                csapp36.Items.Add("FF Andrew Lister");
+                csapp36.Items.Add("FF David Murfitt");
+                csapp36.Items.Add("FF Adam Peacock");
+                csapp36.Items.Add("FF Ian Peacock");
+                csapp36.Items.Add("FF Andrew Boughen");
+                csapp36.Items.Add("FF James Sharp");
+            }
+            else if (csapp3.Text == "C22P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Mark Milner");
+                csapp3oic.Items.Add("CC Roland Rimmer");
+                csapp3oic.Items.Add("FF Steve Bissett");
+                csapp3oic.Items.Add("FF Anthony Burton");
+                csapp3oic.Items.Add("FF Matthew Lacey");
+                csapp3oic.Items.Add("FF Mark Minns");
+                csapp3oic.Items.Add("FF Ashley Bullman");
+                csapp3oic.Items.Add("FF Jon Grieves");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Mark Milner");
+                csapp3driver.Items.Add("CC Roland Rimmer");
+                csapp3driver.Items.Add("FF Steve Bissett");
+                csapp3driver.Items.Add("FF Anthony Burton");
+                csapp3driver.Items.Add("FF Matthew Lacey");
+                csapp3driver.Items.Add("FF Mark Minns");
+                csapp3driver.Items.Add("FF Ashley Bullman");
+                csapp3driver.Items.Add("FF Jon Grieves");
+                //BA1
+                csapp3ba1.Items.Add("WC Mark Milner");
+                csapp3ba1.Items.Add("CC Roland Rimmer");
+                csapp3ba1.Items.Add("FF Steve Bissett");
+                csapp3ba1.Items.Add("FF Anthony Burton");
+                csapp3ba1.Items.Add("FF Matthew Lacey");
+                csapp3ba1.Items.Add("FF Mark Minns");
+                csapp3ba1.Items.Add("FF Ashley Bullman");
+                csapp3ba1.Items.Add("FF Jon Grieves");
+                //BA2
+                csapp3ba2.Items.Add("WC Mark Milner");
+                csapp3ba2.Items.Add("CC Roland Rimmer");
+                csapp3ba2.Items.Add("FF Steve Bissett");
+                csapp3ba2.Items.Add("FF Anthony Burton");
+                csapp3ba2.Items.Add("FF Matthew Lacey");
+                csapp3ba2.Items.Add("FF Mark Minns");
+                csapp3ba2.Items.Add("FF Ashley Bullman");
+                csapp3ba2.Items.Add("FF Jon Grieves");
+                //ECO
+                csapp3eco.Items.Add("WC Mark Milner");
+                csapp3eco.Items.Add("CC Roland Rimmer");
+                csapp3eco.Items.Add("FF Steve Bissett");
+                csapp3eco.Items.Add("FF Anthony Burton");
+                csapp3eco.Items.Add("FF Matthew Lacey");
+                csapp3eco.Items.Add("FF Mark Minns");
+                csapp3eco.Items.Add("FF Ashley Bullman");
+                csapp3eco.Items.Add("FF Jon Grieves");
+                //6
+                csapp36.Items.Add("WC Mark Milner");
+                csapp36.Items.Add("CC Roland Rimmer");
+                csapp36.Items.Add("FF Steve Bissett");
+                csapp36.Items.Add("FF Anthony Burton");
+                csapp36.Items.Add("FF Matthew Lacey");
+                csapp36.Items.Add("FF Mark Minns");
+                csapp36.Items.Add("FF Ashley Bullman");
+                csapp36.Items.Add("FF Jon Grieves");
+            }
+
+            else if (csapp3.Text == "C21P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Andy Powell");
+                csapp3oic.Items.Add("CC Tony Bird");
+                csapp3oic.Items.Add("CC Adrian Bradshaw");
+                csapp3oic.Items.Add("CC Wayne Marshall");
+                csapp3oic.Items.Add("CC Martin Dunn");
+                csapp3oic.Items.Add("FF Darren Biggs");
+                csapp3oic.Items.Add("FF Richard Broad");
+                csapp3oic.Items.Add("FF Vicky Vata");
+                csapp3oic.Items.Add("FF Matthew Wilson");
+                csapp3oic.Items.Add("FF Daniel Hall");
+                csapp3oic.Items.Add("FF Gabriel Hearnshaw");
+                csapp3oic.Items.Add("FF Anthony Raine");
+                csapp3oic.Items.Add("FF Liam Siddons");
+                csapp3oic.Items.Add("FF Adrian Watson");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Andy Powell");
+                csapp3driver.Items.Add("CC Tony Bird");
+                csapp3driver.Items.Add("CC Adrian Bradshaw");
+                csapp3driver.Items.Add("CC Wayne Marshall");
+                csapp3driver.Items.Add("CC Martin Dunn");
+                csapp3driver.Items.Add("FF Darren Biggs");
+                csapp3driver.Items.Add("FF Richard Broad");
+                csapp3driver.Items.Add("FF Vicky Vata");
+                csapp3driver.Items.Add("FF Matthew Wilson");
+                csapp3driver.Items.Add("FF Daniel Hall");
+                csapp3driver.Items.Add("FF Gabriel Hearnshaw");
+                csapp3driver.Items.Add("FF Anthony Raine");
+                csapp3driver.Items.Add("FF Liam Siddons");
+                csapp3driver.Items.Add("FF Adrian Watson");
+                //BA1
+                csapp3ba1.Items.Add("WC Andy Powell");
+                csapp3ba1.Items.Add("CC Tony Bird");
+                csapp3ba1.Items.Add("CC Adrian Bradshaw");
+                csapp3ba1.Items.Add("CC Wayne Marshall");
+                csapp3ba1.Items.Add("CC Martin Dunn");
+                csapp3ba1.Items.Add("FF Darren Biggs");
+                csapp3ba1.Items.Add("FF Richard Broad");
+                csapp3ba1.Items.Add("FF Vicky Vata");
+                csapp3ba1.Items.Add("FF Matthew Wilson");
+                csapp3ba1.Items.Add("FF Daniel Hall");
+                csapp3ba1.Items.Add("FF Gabriel Hearnshaw");
+                csapp3ba1.Items.Add("FF Anthony Raine");
+                csapp3ba1.Items.Add("FF Liam Siddons");
+                csapp3ba1.Items.Add("FF Adrian Watson");
+                //BA2
+                csapp3ba2.Items.Add("WC Andy Powell");
+                csapp3ba2.Items.Add("CC Tony Bird");
+                csapp3ba2.Items.Add("CC Adrian Bradshaw");
+                csapp3ba2.Items.Add("CC Wayne Marshall");
+                csapp3ba2.Items.Add("CC Martin Dunn");
+                csapp3ba2.Items.Add("FF Darren Biggs");
+                csapp3ba2.Items.Add("FF Richard Broad");
+                csapp3ba2.Items.Add("FF Vicky Vata");
+                csapp3ba2.Items.Add("FF Matthew Wilson");
+                csapp3ba2.Items.Add("FF Daniel Hall");
+                csapp3ba2.Items.Add("FF Gabriel Hearnshaw");
+                csapp3ba2.Items.Add("FF Anthony Raine");
+                csapp3ba2.Items.Add("FF Liam Siddons");
+                csapp3ba2.Items.Add("FF Adrian Watson");
+                //ECO
+                csapp3eco.Items.Add("WC Andy Powell");
+                csapp3eco.Items.Add("CC Tony Bird");
+                csapp3eco.Items.Add("CC Adrian Bradshaw");
+                csapp3eco.Items.Add("CC Wayne Marshall");
+                csapp3eco.Items.Add("CC Martin Dunn");
+                csapp3eco.Items.Add("FF Darren Biggs");
+                csapp3eco.Items.Add("FF Richard Broad");
+                csapp3eco.Items.Add("FF Vicky Vata");
+                csapp3eco.Items.Add("FF Matthew Wilson");
+                csapp3eco.Items.Add("FF Daniel Hall");
+                csapp3eco.Items.Add("FF Gabriel Hearnshaw");
+                csapp3eco.Items.Add("FF Anthony Raine");
+                csapp3eco.Items.Add("FF Liam Siddons");
+                csapp3eco.Items.Add("FF Adrian Watson");
+                //6
+                csapp36.Items.Add("WC Andy Powell");
+                csapp36.Items.Add("CC Tony Bird");
+                csapp36.Items.Add("CC Adrian Bradshaw");
+                csapp36.Items.Add("CC Wayne Marshall");
+                csapp36.Items.Add("CC Martin Dunn");
+                csapp36.Items.Add("FF Darren Biggs");
+                csapp36.Items.Add("FF Richard Broad");
+                csapp36.Items.Add("FF Vicky Vata");
+                csapp36.Items.Add("FF Matthew Wilson");
+                csapp36.Items.Add("FF Daniel Hall");
+                csapp36.Items.Add("FF Gabriel Hearnshaw");
+                csapp36.Items.Add("FF Anthony Raine");
+                csapp36.Items.Add("FF Liam Siddons");
+                csapp36.Items.Add("FF Adrian Watson");
+            }
+            else if (csapp3.Text == "C21P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Andy Powell");
+                csapp3oic.Items.Add("CC Tony Bird");
+                csapp3oic.Items.Add("CC Adrian Bradshaw");
+                csapp3oic.Items.Add("CC Wayne Marshall");
+                csapp3oic.Items.Add("CC Martin Dunn");
+                csapp3oic.Items.Add("FF Darren Biggs");
+                csapp3oic.Items.Add("FF Richard Broad");
+                csapp3oic.Items.Add("FF Vicky Vata");
+                csapp3oic.Items.Add("FF Matthew Wilson");
+                csapp3oic.Items.Add("FF Daniel Hall");
+                csapp3oic.Items.Add("FF Gabriel Hearnshaw");
+                csapp3oic.Items.Add("FF Anthony Raine");
+                csapp3oic.Items.Add("FF Liam Siddons");
+                csapp3oic.Items.Add("FF Adrian Watson");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Andy Powell");
+                csapp3driver.Items.Add("CC Tony Bird");
+                csapp3driver.Items.Add("CC Adrian Bradshaw");
+                csapp3driver.Items.Add("CC Wayne Marshall");
+                csapp3driver.Items.Add("CC Martin Dunn");
+                csapp3driver.Items.Add("FF Darren Biggs");
+                csapp3driver.Items.Add("FF Richard Broad");
+                csapp3driver.Items.Add("FF Vicky Vata");
+                csapp3driver.Items.Add("FF Matthew Wilson");
+                csapp3driver.Items.Add("FF Daniel Hall");
+                csapp3driver.Items.Add("FF Gabriel Hearnshaw");
+                csapp3driver.Items.Add("FF Anthony Raine");
+                csapp3driver.Items.Add("FF Liam Siddons");
+                csapp3driver.Items.Add("FF Adrian Watson");
+                //BA1
+                csapp3ba1.Items.Add("WC Andy Powell");
+                csapp3ba1.Items.Add("CC Tony Bird");
+                csapp3ba1.Items.Add("CC Adrian Bradshaw");
+                csapp3ba1.Items.Add("CC Wayne Marshall");
+                csapp3ba1.Items.Add("CC Martin Dunn");
+                csapp3ba1.Items.Add("FF Darren Biggs");
+                csapp3ba1.Items.Add("FF Richard Broad");
+                csapp3ba1.Items.Add("FF Vicky Vata");
+                csapp3ba1.Items.Add("FF Matthew Wilson");
+                csapp3ba1.Items.Add("FF Daniel Hall");
+                csapp3ba1.Items.Add("FF Gabriel Hearnshaw");
+                csapp3ba1.Items.Add("FF Anthony Raine");
+                csapp3ba1.Items.Add("FF Liam Siddons");
+                csapp3ba1.Items.Add("FF Adrian Watson");
+                //BA2
+                csapp3ba2.Items.Add("WC Andy Powell");
+                csapp3ba2.Items.Add("CC Tony Bird");
+                csapp3ba2.Items.Add("CC Adrian Bradshaw");
+                csapp3ba2.Items.Add("CC Wayne Marshall");
+                csapp3ba2.Items.Add("CC Martin Dunn");
+                csapp3ba2.Items.Add("FF Darren Biggs");
+                csapp3ba2.Items.Add("FF Richard Broad");
+                csapp3ba2.Items.Add("FF Vicky Vata");
+                csapp3ba2.Items.Add("FF Matthew Wilson");
+                csapp3ba2.Items.Add("FF Daniel Hall");
+                csapp3ba2.Items.Add("FF Gabriel Hearnshaw");
+                csapp3ba2.Items.Add("FF Anthony Raine");
+                csapp3ba2.Items.Add("FF Liam Siddons");
+                csapp3ba2.Items.Add("FF Adrian Watson");
+                //ECO
+                csapp3eco.Items.Add("WC Andy Powell");
+                csapp3eco.Items.Add("CC Tony Bird");
+                csapp3eco.Items.Add("CC Adrian Bradshaw");
+                csapp3eco.Items.Add("CC Wayne Marshall");
+                csapp3eco.Items.Add("CC Martin Dunn");
+                csapp3eco.Items.Add("FF Darren Biggs");
+                csapp3eco.Items.Add("FF Richard Broad");
+                csapp3eco.Items.Add("FF Vicky Vata");
+                csapp3eco.Items.Add("FF Matthew Wilson");
+                csapp3eco.Items.Add("FF Daniel Hall");
+                csapp3eco.Items.Add("FF Gabriel Hearnshaw");
+                csapp3eco.Items.Add("FF Anthony Raine");
+                csapp3eco.Items.Add("FF Liam Siddons");
+                csapp3eco.Items.Add("FF Adrian Watson");
+                //6
+                csapp36.Items.Add("WC Andy Powell");
+                csapp36.Items.Add("CC Tony Bird");
+                csapp36.Items.Add("CC Adrian Bradshaw");
+                csapp36.Items.Add("CC Wayne Marshall");
+                csapp36.Items.Add("CC Martin Dunn");
+                csapp36.Items.Add("FF Darren Biggs");
+                csapp36.Items.Add("FF Richard Broad");
+                csapp36.Items.Add("FF Vicky Vata");
+                csapp36.Items.Add("FF Matthew Wilson");
+                csapp36.Items.Add("FF Daniel Hall");
+                csapp36.Items.Add("FF Gabriel Hearnshaw");
+                csapp36.Items.Add("FF Anthony Raine");
+                csapp36.Items.Add("FF Liam Siddons");
+                csapp36.Items.Add("FF Adrian Watson");
+            }
+            else if (csapp3.Text == "C12P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Martin Ward");
+                csapp3oic.Items.Add("CC Thomas Howlett");
+                csapp3oic.Items.Add("FF Simon Mayes");
+                csapp3oic.Items.Add("FF Jonathan Turner");
+                csapp3oic.Items.Add("FF Matthew Webster");
+                csapp3oic.Items.Add("FF David Broach");
+                csapp3oic.Items.Add("FF Matt Seymour");
+                csapp3oic.Items.Add("FF Alex Graham");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Martin Ward");
+                csapp3driver.Items.Add("CC Thomas Howlett");
+                csapp3driver.Items.Add("FF Simon Mayes");
+                csapp3driver.Items.Add("FF Jonathan Turner");
+                csapp3driver.Items.Add("FF Matthew Webster");
+                csapp3driver.Items.Add("FF David Broach");
+                csapp3driver.Items.Add("FF Matt Seymour");
+                csapp3driver.Items.Add("FF Alex Graham");
+                //BA1
+                csapp3ba1.Items.Add("WC Martin Ward");
+                csapp3ba1.Items.Add("CC Thomas Howlett");
+                csapp3ba1.Items.Add("FF Simon Mayes");
+                csapp3ba1.Items.Add("FF Jonathan Turner");
+                csapp3ba1.Items.Add("FF Matthew Webster");
+                csapp3ba1.Items.Add("FF David Broach");
+                csapp3ba1.Items.Add("FF Matt Seymour");
+                csapp3ba1.Items.Add("FF Alex Graham");
+                //BA2
+                csapp3ba2.Items.Add("WC Martin Ward");
+                csapp3ba2.Items.Add("CC Thomas Howlett");
+                csapp3ba2.Items.Add("FF Simon Mayes");
+                csapp3ba2.Items.Add("FF Jonathan Turner");
+                csapp3ba2.Items.Add("FF Matthew Webster");
+                csapp3ba2.Items.Add("FF David Broach");
+                csapp3ba2.Items.Add("FF Matt Seymour");
+                csapp3ba2.Items.Add("FF Alex Graham");
+                //ECO
+                csapp3eco.Items.Add("WC Martin Ward");
+                csapp3eco.Items.Add("CC Thomas Howlett");
+                csapp3eco.Items.Add("FF Simon Mayes");
+                csapp3eco.Items.Add("FF Jonathan Turner");
+                csapp3eco.Items.Add("FF Matthew Webster");
+                csapp3eco.Items.Add("FF David Broach");
+                csapp3eco.Items.Add("FF Matt Seymour");
+                csapp3eco.Items.Add("FF Alex Graham");
+                //6
+                csapp36.Items.Add("WC Martin Ward");
+                csapp36.Items.Add("CC Thomas Howlett");
+                csapp36.Items.Add("FF Simon Mayes");
+                csapp36.Items.Add("FF Jonathan Turner");
+                csapp36.Items.Add("FF Matthew Webster");
+                csapp36.Items.Add("FF David Broach");
+                csapp36.Items.Add("FF Matt Seymour");
+                csapp36.Items.Add("FF Alex Graham");
+            }
+            else if (csapp3.Text == "C15P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Mark Addinall");
+                csapp3oic.Items.Add("CC Nick Cowley");
+                csapp3oic.Items.Add("CC Anthony Gould");
+                csapp3oic.Items.Add("FF William Baker");
+                csapp3oic.Items.Add("FF Jake Benton");
+                csapp3oic.Items.Add("FF David Carrington");
+                csapp3oic.Items.Add("FF Dayle Duguid");
+                csapp3oic.Items.Add("FF Nathan Glover");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Mark Addinall");
+                csapp3driver.Items.Add("CC Nick Cowley");
+                csapp3driver.Items.Add("CC Anthony Gould");
+                csapp3driver.Items.Add("FF William Baker");
+                csapp3driver.Items.Add("FF Jake Benton");
+                csapp3driver.Items.Add("FF David Carrington");
+                csapp3driver.Items.Add("FF Dayle Duguid");
+                csapp3driver.Items.Add("FF Nathan Glover");
+                //BA1
+                csapp3ba1.Items.Add("WC Mark Addinall");
+                csapp3ba1.Items.Add("CC Nick Cowley");
+                csapp3ba1.Items.Add("CC Anthony Gould");
+                csapp3ba1.Items.Add("FF William Baker");
+                csapp3ba1.Items.Add("FF Jake Benton");
+                csapp3ba1.Items.Add("FF David Carrington");
+                csapp3ba1.Items.Add("FF Dayle Duguid");
+                csapp3ba1.Items.Add("FF Nathan Glover");
+                //BA2
+                csapp3ba2.Items.Add("WC Mark Addinall");
+                csapp3ba2.Items.Add("CC Nick Cowley");
+                csapp3ba2.Items.Add("CC Anthony Gould");
+                csapp3ba2.Items.Add("FF William Baker");
+                csapp3ba2.Items.Add("FF Jake Benton");
+                csapp3ba2.Items.Add("FF David Carrington");
+                csapp3ba2.Items.Add("FF Dayle Duguid");
+                csapp3ba2.Items.Add("FF Nathan Glover");
+                //ECO
+                csapp3eco.Items.Add("WC Mark Addinall");
+                csapp3eco.Items.Add("CC Nick Cowley");
+                csapp3eco.Items.Add("CC Anthony Gould");
+                csapp3eco.Items.Add("FF William Baker");
+                csapp3eco.Items.Add("FF Jake Benton");
+                csapp3eco.Items.Add("FF David Carrington");
+                csapp3eco.Items.Add("FF Dayle Duguid");
+                csapp3eco.Items.Add("FF Nathan Glover");
+                //6
+                csapp36.Items.Add("WC Mark Addinall");
+                csapp36.Items.Add("CC Nick Cowley");
+                csapp36.Items.Add("CC Anthony Gould");
+                csapp36.Items.Add("FF William Baker");
+                csapp36.Items.Add("FF Jake Benton");
+                csapp36.Items.Add("FF David Carrington");
+                csapp36.Items.Add("FF Dayle Duguid");
+                csapp36.Items.Add("FF Nathan Glover");
+            }
+            else if (csapp3.Text == "C24P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Tony Thacker");
+                csapp3oic.Items.Add("CC Dan Thacker");
+                csapp3oic.Items.Add("CC Phil Thacker");
+                csapp3oic.Items.Add("CC Craig Golightly");
+                csapp3oic.Items.Add("FF Tom Bellinger");
+                csapp3oic.Items.Add("FF Andy Ellington");
+                csapp3oic.Items.Add("FF James Mole-Weir");
+                csapp3oic.Items.Add("FF Martin Holmes");
+                csapp3oic.Items.Add("FF Helen Cryer");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Tony Thacker");
+                csapp3driver.Items.Add("CC Dan Thacker");
+                csapp3driver.Items.Add("CC Phil Thacker");
+                csapp3driver.Items.Add("CC Craig Golightly");
+                csapp3driver.Items.Add("FF Tom Bellinger");
+                csapp3driver.Items.Add("FF Andy Ellington");
+                csapp3driver.Items.Add("FF James Mole-Weir");
+                csapp3driver.Items.Add("FF Martin Holmes");
+                csapp3driver.Items.Add("FF Helen Cryer");
+                //BA1
+                csapp3ba1.Items.Add("WC Tony Thacker");
+                csapp3ba1.Items.Add("CC Dan Thacker");
+                csapp3ba1.Items.Add("CC Phil Thacker");
+                csapp3ba1.Items.Add("CC Craig Golightly");
+                csapp3ba1.Items.Add("FF Tom Bellinger");
+                csapp3ba1.Items.Add("FF Andy Ellington");
+                csapp3ba1.Items.Add("FF James Mole-Weir");
+                csapp3ba1.Items.Add("FF Martin Holmes");
+                csapp3ba1.Items.Add("FF Helen Cryer");
+                //BA2
+                csapp3ba2.Items.Add("WC Tony Thacker");
+                csapp3ba2.Items.Add("CC Dan Thacker");
+                csapp3ba2.Items.Add("CC Phil Thacker");
+                csapp3ba2.Items.Add("CC Craig Golightly");
+                csapp3ba2.Items.Add("FF Tom Bellinger");
+                csapp3ba2.Items.Add("FF Andy Ellington");
+                csapp3ba2.Items.Add("FF James Mole-Weir");
+                csapp3ba2.Items.Add("FF Martin Holmes");
+                csapp3ba2.Items.Add("FF Helen Cryer");
+                //ECO
+                csapp3eco.Items.Add("WC Tony Thacker");
+                csapp3eco.Items.Add("CC Dan Thacker");
+                csapp3eco.Items.Add("CC Phil Thacker");
+                csapp3eco.Items.Add("CC Craig Golightly");
+                csapp3eco.Items.Add("FF Tom Bellinger");
+                csapp3eco.Items.Add("FF Andy Ellington");
+                csapp3eco.Items.Add("FF James Mole-Weir");
+                csapp3eco.Items.Add("FF Martin Holmes");
+                csapp3eco.Items.Add("FF Helen Cryer");
+                //6
+                csapp36.Items.Add("WC Tony Thacker");
+                csapp36.Items.Add("CC Dan Thacker");
+                csapp36.Items.Add("CC Phil Thacker");
+                csapp36.Items.Add("CC Craig Golightly");
+                csapp36.Items.Add("FF Tom Bellinger");
+                csapp36.Items.Add("FF Andy Ellington");
+                csapp36.Items.Add("FF James Mole-Weir");
+                csapp36.Items.Add("FF Martin Holmes");
+                csapp36.Items.Add("FF Helen Cryer");
+            }
+            else if (csapp3.Text == "C24P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Tony Thacker");
+                csapp3oic.Items.Add("CC Dan Thacker");
+                csapp3oic.Items.Add("CC Phil Thacker");
+                csapp3oic.Items.Add("CC Craig Golightly");
+                csapp3oic.Items.Add("FF Tom Bellinger");
+                csapp3oic.Items.Add("FF Andy Ellington");
+                csapp3oic.Items.Add("FF James Mole-Weir");
+                csapp3oic.Items.Add("FF Martin Holmes");
+                csapp3oic.Items.Add("FF Helen Cryer");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Tony Thacker");
+                csapp3driver.Items.Add("CC Dan Thacker");
+                csapp3driver.Items.Add("CC Phil Thacker");
+                csapp3driver.Items.Add("CC Craig Golightly");
+                csapp3driver.Items.Add("FF Tom Bellinger");
+                csapp3driver.Items.Add("FF Andy Ellington");
+                csapp3driver.Items.Add("FF James Mole-Weir");
+                csapp3driver.Items.Add("FF Martin Holmes");
+                csapp3driver.Items.Add("FF Helen Cryer");
+                //BA1
+                csapp3ba1.Items.Add("WC Tony Thacker");
+                csapp3ba1.Items.Add("CC Dan Thacker");
+                csapp3ba1.Items.Add("CC Phil Thacker");
+                csapp3ba1.Items.Add("CC Craig Golightly");
+                csapp3ba1.Items.Add("FF Tom Bellinger");
+                csapp3ba1.Items.Add("FF Andy Ellington");
+                csapp3ba1.Items.Add("FF James Mole-Weir");
+                csapp3ba1.Items.Add("FF Martin Holmes");
+                csapp3ba1.Items.Add("FF Helen Cryer");
+                //BA2
+                csapp3ba2.Items.Add("WC Tony Thacker");
+                csapp3ba2.Items.Add("CC Dan Thacker");
+                csapp3ba2.Items.Add("CC Phil Thacker");
+                csapp3ba2.Items.Add("CC Craig Golightly");
+                csapp3ba2.Items.Add("FF Tom Bellinger");
+                csapp3ba2.Items.Add("FF Andy Ellington");
+                csapp3ba2.Items.Add("FF James Mole-Weir");
+                csapp3ba2.Items.Add("FF Martin Holmes");
+                csapp3ba2.Items.Add("FF Helen Cryer");
+                //ECO
+                csapp3eco.Items.Add("WC Tony Thacker");
+                csapp3eco.Items.Add("CC Dan Thacker");
+                csapp3eco.Items.Add("CC Phil Thacker");
+                csapp3eco.Items.Add("CC Craig Golightly");
+                csapp3eco.Items.Add("FF Tom Bellinger");
+                csapp3eco.Items.Add("FF Andy Ellington");
+                csapp3eco.Items.Add("FF James Mole-Weir");
+                csapp3eco.Items.Add("FF Martin Holmes");
+                csapp3eco.Items.Add("FF Helen Cryer");
+                //6
+                csapp36.Items.Add("WC Tony Thacker");
+                csapp36.Items.Add("CC Dan Thacker");
+                csapp36.Items.Add("CC Phil Thacker");
+                csapp36.Items.Add("CC Craig Golightly");
+                csapp36.Items.Add("FF Tom Bellinger");
+                csapp36.Items.Add("FF Andy Ellington");
+                csapp36.Items.Add("FF James Mole-Weir");
+                csapp36.Items.Add("FF Martin Holmes");
+                csapp36.Items.Add("FF Helen Cryer");
+            }
+            else if (csapp3.Text == "C10P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Stuart Moore");
+                csapp3oic.Items.Add("CC Robert Boswell");
+                csapp3oic.Items.Add("FF Matthew Dodkin");
+                csapp3oic.Items.Add("FF Dan Foord");
+                csapp3oic.Items.Add("FF Nathaniel Pool");
+                csapp3oic.Items.Add("FF Alex Whitehouse");
+                //DRIVER
+                csapp3driver.Items.Add("WC Stuart Moore");
+                csapp3driver.Items.Add("CC Robert Boswell");
+                csapp3driver.Items.Add("FF Matthew Dodkin");
+                csapp3driver.Items.Add("FF Dan Foord");
+                csapp3driver.Items.Add("FF Nathaniel Pool");
+                csapp3driver.Items.Add("FF Alex Whitehouse");
+                //BA1
+                csapp3ba1.Items.Add("WC Stuart Moore");
+                csapp3ba1.Items.Add("CC Robert Boswell");
+                csapp3ba1.Items.Add("FF Matthew Dodkin");
+                csapp3ba1.Items.Add("FF Dan Foord");
+                csapp3ba1.Items.Add("FF Nathaniel Pool");
+                csapp3ba1.Items.Add("FF Alex Whitehouse");
+                //BA2
+                csapp3ba2.Items.Add("WC Stuart Moore");
+                csapp3ba2.Items.Add("CC Robert Boswell");
+                csapp3ba2.Items.Add("FF Matthew Dodkin");
+                csapp3ba2.Items.Add("FF Dan Foord");
+                csapp3ba2.Items.Add("FF Nathaniel Pool");
+                csapp3ba2.Items.Add("FF Alex Whitehouse");
+                //ECO
+                csapp3eco.Items.Add("WC Stuart Moore");
+                csapp3eco.Items.Add("CC Robert Boswell");
+                csapp3eco.Items.Add("FF Matthew Dodkin");
+                csapp3eco.Items.Add("FF Dan Foord");
+                csapp3eco.Items.Add("FF Nathaniel Pool");
+                csapp3eco.Items.Add("FF Alex Whitehouse");
+                //6
+                csapp36.Items.Add("WC Stuart Moore");
+                csapp36.Items.Add("CC Robert Boswell");
+                csapp36.Items.Add("FF Matthew Dodkin");
+                csapp36.Items.Add("FF Dan Foord");
+                csapp36.Items.Add("FF Nathaniel Pool");
+                csapp36.Items.Add("FF Alex Whitehouse");
+            }
+            else if (csapp3.Text == "C25P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Dave Kilner");
+                csapp3oic.Items.Add("WC Jeremy Corney");
+                csapp3oic.Items.Add("CC Phil Hill");
+                csapp3oic.Items.Add("FF Caroline Dixon");
+                csapp3oic.Items.Add("FF Richard Boston");
+                csapp3oic.Items.Add("FF Daren Dexter");
+                csapp3oic.Items.Add("FF Stephen McCandless");
+                csapp3oic.Items.Add("FF Guy Jarman");
+                //DRIVER
+                csapp3driver.Items.Add("WC Dave Kilner");
+                csapp3driver.Items.Add("WC Jeremy Corney");
+                csapp3driver.Items.Add("CC Phil Hill");
+                csapp3driver.Items.Add("FF Caroline Dixon");
+                csapp3driver.Items.Add("FF Richard Boston");
+                csapp3driver.Items.Add("FF Daren Dexter");
+                csapp3driver.Items.Add("FF Stephen McCandless");
+                csapp3driver.Items.Add("FF Guy Jarman");
+                //BA1
+                csapp3ba1.Items.Add("WC Dave Kilner");
+                csapp3ba1.Items.Add("WC Jeremy Corney");
+                csapp3ba1.Items.Add("CC Phil Hill");
+                csapp3ba1.Items.Add("FF Caroline Dixon");
+                csapp3ba1.Items.Add("FF Richard Boston");
+                csapp3ba1.Items.Add("FF Daren Dexter");
+                csapp3ba1.Items.Add("FF Stephen McCandless");
+                csapp3ba1.Items.Add("FF Guy Jarman");
+                //BA2
+                csapp3ba2.Items.Add("WC Dave Kilner");
+                csapp3ba2.Items.Add("WC Jeremy Corney");
+                csapp3ba2.Items.Add("CC Phil Hill");
+                csapp3ba2.Items.Add("FF Caroline Dixon");
+                csapp3ba2.Items.Add("FF Richard Boston");
+                csapp3ba2.Items.Add("FF Daren Dexter");
+                csapp3ba2.Items.Add("FF Stephen McCandless");
+                csapp3ba2.Items.Add("FF Guy Jarman");
+                //ECO
+                csapp3eco.Items.Add("WC Dave Kilner");
+                csapp3eco.Items.Add("WC Jeremy Corney");
+                csapp3eco.Items.Add("CC Phil Hill");
+                csapp3eco.Items.Add("FF Caroline Dixon");
+                csapp3eco.Items.Add("FF Richard Boston");
+                csapp3eco.Items.Add("FF Daren Dexter");
+                csapp3eco.Items.Add("FF Stephen McCandless");
+                csapp3eco.Items.Add("FF Guy Jarman");
+                //6
+                csapp36.Items.Add("WC Dave Kilner");
+                csapp36.Items.Add("WC Jeremy Corney");
+                csapp36.Items.Add("CC Phil Hill");
+                csapp36.Items.Add("FF Caroline Dixon");
+                csapp36.Items.Add("FF Richard Boston");
+                csapp36.Items.Add("FF Daren Dexter");
+                csapp36.Items.Add("FF Stephen McCandless");
+                csapp36.Items.Add("FF Guy Jarman");
+            }
+
+            else if (csapp3.Text == "C06P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Richard Powell");
+                csapp3oic.Items.Add("CC Giles Fuller");
+                csapp3oic.Items.Add("CC Rebecca White");
+                csapp3oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3oic.Items.Add("FF James Chalklin");
+                csapp3oic.Items.Add("FF Paul Fordham");
+                csapp3oic.Items.Add("FF David Hobbs");
+                csapp3oic.Items.Add("FF Alex Irvine");
+                csapp3oic.Items.Add("FF Jordan Knappett");
+                csapp3oic.Items.Add("FF Kiel Porter");
+                csapp3oic.Items.Add("FF Chris Smith");
+                //DRIVER
+                csapp3driver.Items.Add("WC Richard Powell");
+                csapp3driver.Items.Add("CC Giles Fuller");
+                csapp3driver.Items.Add("CC Rebecca White");
+                csapp3driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3driver.Items.Add("FF James Chalklin");
+                csapp3driver.Items.Add("FF Paul Fordham");
+                csapp3driver.Items.Add("FF David Hobbs");
+                csapp3driver.Items.Add("FF Alex Irvine");
+                csapp3driver.Items.Add("FF Jordan Knappett");
+                csapp3driver.Items.Add("FF Kiel Porter");
+                csapp3driver.Items.Add("FF Chris Smith");
+                //BA1
+                csapp3ba1.Items.Add("WC Richard Powell");
+                csapp3ba1.Items.Add("CC Giles Fuller");
+                csapp3ba1.Items.Add("CC Rebecca White");
+                csapp3ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba1.Items.Add("FF James Chalklin");
+                csapp3ba1.Items.Add("FF Paul Fordham");
+                csapp3ba1.Items.Add("FF David Hobbs");
+                csapp3ba1.Items.Add("FF Alex Irvine");
+                csapp3ba1.Items.Add("FF Jordan Knappett");
+                csapp3ba1.Items.Add("FF Kiel Porter");
+                csapp3ba1.Items.Add("FF Chris Smith");
+                //BA2
+                csapp3ba2.Items.Add("WC Richard Powell");
+                csapp3ba2.Items.Add("CC Giles Fuller");
+                csapp3ba2.Items.Add("CC Rebecca White");
+                csapp3ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba2.Items.Add("FF James Chalklin");
+                csapp3ba2.Items.Add("FF Paul Fordham");
+                csapp3ba2.Items.Add("FF David Hobbs");
+                csapp3ba2.Items.Add("FF Alex Irvine");
+                csapp3ba2.Items.Add("FF Jordan Knappett");
+                csapp3ba2.Items.Add("FF Kiel Porter");
+                csapp3ba2.Items.Add("FF Chris Smith");
+                //ECO
+                csapp3eco.Items.Add("WC Richard Powell");
+                csapp3eco.Items.Add("CC Giles Fuller");
+                csapp3eco.Items.Add("CC Rebecca White");
+                csapp3eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3eco.Items.Add("FF James Chalklin");
+                csapp3eco.Items.Add("FF Paul Fordham");
+                csapp3eco.Items.Add("FF David Hobbs");
+                csapp3eco.Items.Add("FF Alex Irvine");
+                csapp3eco.Items.Add("FF Jordan Knappett");
+                csapp3eco.Items.Add("FF Kiel Porter");
+                csapp3eco.Items.Add("FF Chris Smith");
+                //6
+                csapp36.Items.Add("WC Richard Powell");
+                csapp36.Items.Add("CC Giles Fuller");
+                csapp36.Items.Add("CC Rebecca White");
+                csapp36.Items.Add("FF Tom Quinn-Nicholls");
+                csapp36.Items.Add("FF James Chalklin");
+                csapp36.Items.Add("FF Paul Fordham");
+                csapp36.Items.Add("FF David Hobbs");
+                csapp36.Items.Add("FF Alex Irvine");
+                csapp36.Items.Add("FF Jordan Knappett");
+                csapp36.Items.Add("FF Kiel Porter");
+                csapp36.Items.Add("FF Chris Smith");
+            }
+            else if (csapp3.Text == "C06P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Richard Powell");
+                csapp3oic.Items.Add("CC Giles Fuller");
+                csapp3oic.Items.Add("CC Rebecca White");
+                csapp3oic.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3oic.Items.Add("FF James Chalklin");
+                csapp3oic.Items.Add("FF Paul Fordham");
+                csapp3oic.Items.Add("FF David Hobbs");
+                csapp3oic.Items.Add("FF Alex Irvine");
+                csapp3oic.Items.Add("FF Jordan Knappett");
+                csapp3oic.Items.Add("FF Kiel Porter");
+                csapp3oic.Items.Add("FF Chris Smith");
+                //DRIVER
+                csapp3driver.Items.Add("WC Richard Powell");
+                csapp3driver.Items.Add("CC Giles Fuller");
+                csapp3driver.Items.Add("CC Rebecca White");
+                csapp3driver.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3driver.Items.Add("FF James Chalklin");
+                csapp3driver.Items.Add("FF Paul Fordham");
+                csapp3driver.Items.Add("FF David Hobbs");
+                csapp3driver.Items.Add("FF Alex Irvine");
+                csapp3driver.Items.Add("FF Jordan Knappett");
+                csapp3driver.Items.Add("FF Kiel Porter");
+                csapp3driver.Items.Add("FF Chris Smith");
+                //BA1
+                csapp3ba1.Items.Add("WC Richard Powell");
+                csapp3ba1.Items.Add("CC Giles Fuller");
+                csapp3ba1.Items.Add("CC Rebecca White");
+                csapp3ba1.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba1.Items.Add("FF James Chalklin");
+                csapp3ba1.Items.Add("FF Paul Fordham");
+                csapp3ba1.Items.Add("FF David Hobbs");
+                csapp3ba1.Items.Add("FF Alex Irvine");
+                csapp3ba1.Items.Add("FF Jordan Knappett");
+                csapp3ba1.Items.Add("FF Kiel Porter");
+                csapp3ba1.Items.Add("FF Chris Smith");
+                //BA2
+                csapp3ba2.Items.Add("WC Richard Powell");
+                csapp3ba2.Items.Add("CC Giles Fuller");
+                csapp3ba2.Items.Add("CC Rebecca White");
+                csapp3ba2.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3ba2.Items.Add("FF James Chalklin");
+                csapp3ba2.Items.Add("FF Paul Fordham");
+                csapp3ba2.Items.Add("FF David Hobbs");
+                csapp3ba2.Items.Add("FF Alex Irvine");
+                csapp3ba2.Items.Add("FF Jordan Knappett");
+                csapp3ba2.Items.Add("FF Kiel Porter");
+                csapp3ba2.Items.Add("FF Chris Smith");
+                //ECO
+                csapp3eco.Items.Add("WC Richard Powell");
+                csapp3eco.Items.Add("CC Giles Fuller");
+                csapp3eco.Items.Add("CC Rebecca White");
+                csapp3eco.Items.Add("FF Tom Quinn-Nicholls");
+                csapp3eco.Items.Add("FF James Chalklin");
+                csapp3eco.Items.Add("FF Paul Fordham");
+                csapp3eco.Items.Add("FF David Hobbs");
+                csapp3eco.Items.Add("FF Alex Irvine");
+                csapp3eco.Items.Add("FF Jordan Knappett");
+                csapp3eco.Items.Add("FF Kiel Porter");
+                csapp3eco.Items.Add("FF Chris Smith");
+                //6
+                csapp36.Items.Add("WC Richard Powell");
+                csapp36.Items.Add("CC Giles Fuller");
+                csapp36.Items.Add("CC Rebecca White");
+                csapp36.Items.Add("FF Tom Quinn-Nicholls");
+                csapp36.Items.Add("FF James Chalklin");
+                csapp36.Items.Add("FF Paul Fordham");
+                csapp36.Items.Add("FF David Hobbs");
+                csapp36.Items.Add("FF Alex Irvine");
+                csapp36.Items.Add("FF Jordan Knappett");
+                csapp36.Items.Add("FF Kiel Porter");
+                csapp36.Items.Add("FF Chris Smith");
+            }
+
+            else if (csapp3.Text == "C28P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Phil Thacker");
+                csapp3oic.Items.Add("CC Matthew Dennington");
+                csapp3oic.Items.Add("FF Martin Barnes");
+                csapp3oic.Items.Add("FF Tom Dockerill");
+                csapp3oic.Items.Add("FF Gordon Grant");
+                csapp3oic.Items.Add("FF Ben Johnson");
+                csapp3oic.Items.Add("FF Jodie roberts-Dear");
+                //DRIVER
+                csapp3driver.Items.Add("WC Phil Thacker");
+                csapp3driver.Items.Add("CC Matthew Dennington");
+                csapp3driver.Items.Add("FF Martin Barnes");
+                csapp3driver.Items.Add("FF Tom Dockerill");
+                csapp3driver.Items.Add("FF Gordon Grant");
+                csapp3driver.Items.Add("FF Ben Johnson");
+                csapp3driver.Items.Add("FF Jodie roberts-Dear");
+                //BA1
+                csapp3ba1.Items.Add("WC Phil Thacker");
+                csapp3ba1.Items.Add("CC Matthew Dennington");
+                csapp3ba1.Items.Add("FF Martin Barnes");
+                csapp3ba1.Items.Add("FF Tom Dockerill");
+                csapp3ba1.Items.Add("FF Gordon Grant");
+                csapp3ba1.Items.Add("FF Ben Johnson");
+                csapp3ba1.Items.Add("FF Jodie roberts-Dear");
+                //BA2
+                csapp3ba2.Items.Add("WC Phil Thacker");
+                csapp3ba2.Items.Add("CC Matthew Dennington");
+                csapp3ba2.Items.Add("FF Martin Barnes");
+                csapp3ba2.Items.Add("FF Tom Dockerill");
+                csapp3ba2.Items.Add("FF Gordon Grant");
+                csapp3ba2.Items.Add("FF Ben Johnson");
+                csapp3ba2.Items.Add("FF Jodie roberts-Dear");
+                //ECO
+                csapp3eco.Items.Add("WC Phil Thacker");
+                csapp3eco.Items.Add("CC Matthew Dennington");
+                csapp3eco.Items.Add("FF Martin Barnes");
+                csapp3eco.Items.Add("FF Tom Dockerill");
+                csapp3eco.Items.Add("FF Gordon Grant");
+                csapp3eco.Items.Add("FF Ben Johnson");
+                csapp3eco.Items.Add("FF Jodie roberts-Dear");
+                //6
+                csapp36.Items.Add("WC Phil Thacker");
+                csapp36.Items.Add("CC Matthew Dennington");
+                csapp36.Items.Add("FF Martin Barnes");
+                csapp36.Items.Add("FF Tom Dockerill");
+                csapp36.Items.Add("FF Gordon Grant");
+                csapp36.Items.Add("FF Ben Johnson");
+                csapp36.Items.Add("FF Jodie roberts-Dear");
+            }
+            else if (csapp3.Text == "C28P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Phil Thacker");
+                csapp3oic.Items.Add("CC Matthew Dennington");
+                csapp3oic.Items.Add("FF Martin Barnes");
+                csapp3oic.Items.Add("FF Tom Dockerill");
+                csapp3oic.Items.Add("FF Gordon Grant");
+                csapp3oic.Items.Add("FF Ben Johnson");
+                csapp3oic.Items.Add("FF Jodie roberts-Dear");
+                //DRIVER
+                csapp3driver.Items.Add("WC Phil Thacker");
+                csapp3driver.Items.Add("CC Matthew Dennington");
+                csapp3driver.Items.Add("FF Martin Barnes");
+                csapp3driver.Items.Add("FF Tom Dockerill");
+                csapp3driver.Items.Add("FF Gordon Grant");
+                csapp3driver.Items.Add("FF Ben Johnson");
+                csapp3driver.Items.Add("FF Jodie roberts-Dear");
+                //BA1
+                csapp3ba1.Items.Add("WC Phil Thacker");
+                csapp3ba1.Items.Add("CC Matthew Dennington");
+                csapp3ba1.Items.Add("FF Martin Barnes");
+                csapp3ba1.Items.Add("FF Tom Dockerill");
+                csapp3ba1.Items.Add("FF Gordon Grant");
+                csapp3ba1.Items.Add("FF Ben Johnson");
+                csapp3ba1.Items.Add("FF Jodie roberts-Dear");
+                //BA2
+                csapp3ba2.Items.Add("WC Phil Thacker");
+                csapp3ba2.Items.Add("CC Matthew Dennington");
+                csapp3ba2.Items.Add("FF Martin Barnes");
+                csapp3ba2.Items.Add("FF Tom Dockerill");
+                csapp3ba2.Items.Add("FF Gordon Grant");
+                csapp3ba2.Items.Add("FF Ben Johnson");
+                csapp3ba2.Items.Add("FF Jodie roberts-Dear");
+                //ECO
+                csapp3eco.Items.Add("WC Phil Thacker");
+                csapp3eco.Items.Add("CC Matthew Dennington");
+                csapp3eco.Items.Add("FF Martin Barnes");
+                csapp3eco.Items.Add("FF Tom Dockerill");
+                csapp3eco.Items.Add("FF Gordon Grant");
+                csapp3eco.Items.Add("FF Ben Johnson");
+                csapp3eco.Items.Add("FF Jodie roberts-Dear");
+                //6
+                csapp36.Items.Add("WC Phil Thacker");
+                csapp36.Items.Add("CC Matthew Dennington");
+                csapp36.Items.Add("FF Martin Barnes");
+                csapp36.Items.Add("FF Tom Dockerill");
+                csapp36.Items.Add("FF Gordon Grant");
+                csapp36.Items.Add("FF Ben Johnson");
+                csapp36.Items.Add("FF Jodie roberts-Dear");
+            }
+            else if (csapp3.Text == "C03P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Darryl Sharp");
+                csapp3oic.Items.Add("WC Andrew Hill");
+                csapp3oic.Items.Add("FF Rachel Casbon");
+                csapp3oic.Items.Add("FF Matt House");
+                csapp3oic.Items.Add("FF John Hunter");
+                //DRIVER
+                csapp3driver.Items.Add("WC Darryl Sharp");
+                csapp3driver.Items.Add("WC Andrew Hill");
+                csapp3driver.Items.Add("FF Rachel Casbon");
+                csapp3driver.Items.Add("FF Matt House");
+                csapp3driver.Items.Add("FF John Hunter");
+                //BA1
+                csapp3ba1.Items.Add("WC Darryl Sharp");
+                csapp3ba1.Items.Add("WC Andrew Hill");
+                csapp3ba1.Items.Add("FF Rachel Casbon");
+                csapp3ba1.Items.Add("FF Matt House");
+                csapp3ba1.Items.Add("FF John Hunter");
+                //BA2
+                csapp3ba2.Items.Add("WC Darryl Sharp");
+                csapp3ba2.Items.Add("WC Andrew Hill");
+                csapp3ba2.Items.Add("FF Rachel Casbon");
+                csapp3ba2.Items.Add("FF Matt House");
+                csapp3ba2.Items.Add("FF John Hunter");
+                //ECO
+                csapp3eco.Items.Add("WC Darryl Sharp");
+                csapp3eco.Items.Add("WC Andrew Hill");
+                csapp3eco.Items.Add("FF Rachel Casbon");
+                csapp3eco.Items.Add("FF Matt House");
+                csapp3eco.Items.Add("FF John Hunter");
+                //6
+                csapp36.Items.Add("WC Darryl Sharp");
+                csapp36.Items.Add("WC Andrew Hill");
+                csapp36.Items.Add("FF Rachel Casbon");
+                csapp36.Items.Add("FF Matt House");
+                csapp36.Items.Add("FF John Hunter");
+            }
+            else if (csapp3.Text == "C19P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Colin Bartlett");
+                csapp3oic.Items.Add("CC Paul Morehen");
+                csapp3oic.Items.Add("CC Garreth Horocks");
+                csapp3oic.Items.Add("FF Chris Hudson");
+                csapp3oic.Items.Add("FF Dez Larty");
+                csapp3oic.Items.Add("FF Thomas Bingley");
+                csapp3oic.Items.Add("FF Stephen Wheatley");
+                csapp3oic.Items.Add("FF James Chittock");
+                //DRIVER
+                csapp3driver.Items.Add("WC Colin Bartlett");
+                csapp3driver.Items.Add("CC Paul Morehen");
+                csapp3driver.Items.Add("CC Garreth Horocks");
+                csapp3driver.Items.Add("FF Chris Hudson");
+                csapp3driver.Items.Add("FF Dez Larty");
+                csapp3driver.Items.Add("FF Thomas Bingley");
+                csapp3driver.Items.Add("FF Stephen Wheatley");
+                csapp3driver.Items.Add("FF James Chittock");
+                //BA1
+                csapp3ba1.Items.Add("WC Colin Bartlett");
+                csapp3ba1.Items.Add("CC Paul Morehen");
+                csapp3ba1.Items.Add("CC Garreth Horocks");
+                csapp3ba1.Items.Add("FF Chris Hudson");
+                csapp3ba1.Items.Add("FF Dez Larty");
+                csapp3ba1.Items.Add("FF Thomas Bingley");
+                csapp3ba1.Items.Add("FF Stephen Wheatley");
+                csapp3ba1.Items.Add("FF James Chittock");
+                //BA2
+                csapp3ba2.Items.Add("WC Colin Bartlett");
+                csapp3ba2.Items.Add("CC Paul Morehen");
+                csapp3ba2.Items.Add("CC Garreth Horocks");
+                csapp3ba2.Items.Add("FF Chris Hudson");
+                csapp3ba2.Items.Add("FF Dez Larty");
+                csapp3ba2.Items.Add("FF Thomas Bingley");
+                csapp3ba2.Items.Add("FF Stephen Wheatley");
+                csapp3ba2.Items.Add("FF James Chittock");
+                //ECO
+                csapp3eco.Items.Add("WC Colin Bartlett");
+                csapp3eco.Items.Add("CC Paul Morehen");
+                csapp3eco.Items.Add("CC Garreth Horocks");
+                csapp3eco.Items.Add("FF Chris Hudson");
+                csapp3eco.Items.Add("FF Dez Larty");
+                csapp3eco.Items.Add("FF Thomas Bingley");
+                csapp3eco.Items.Add("FF Stephen Wheatley");
+                csapp3eco.Items.Add("FF James Chittock");
+                //6
+                csapp36.Items.Add("WC Colin Bartlett");
+                csapp36.Items.Add("CC Paul Morehen");
+                csapp36.Items.Add("CC Garreth Horocks");
+                csapp36.Items.Add("FF Chris Hudson");
+                csapp36.Items.Add("FF Dez Larty");
+                csapp36.Items.Add("FF Thomas Bingley");
+                csapp36.Items.Add("FF Stephen Wheatley");
+                csapp36.Items.Add("FF James Chittock");
+            }
+            else if (csapp3.Text == "C18P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC Mark Brown");
+                csapp3oic.Items.Add("CC Jason Burrill");
+                csapp3oic.Items.Add("CC Vernon Lloyd");
+                csapp3oic.Items.Add("CC Kevin Gilbert");
+                csapp3oic.Items.Add("FF Daniel Barsby");
+                csapp3oic.Items.Add("FF Sean Dunthorne");
+                csapp3oic.Items.Add("FF Martin Harriss");
+                csapp3oic.Items.Add("FF Callum Hodgkin");
+                csapp3oic.Items.Add("FF Colin Richards");
+                csapp3oic.Items.Add("FF Mark Rogers");
+                csapp3oic.Items.Add("FF Jaime Cook");
+                csapp3oic.Items.Add("FF Dean Johnson");
+                csapp3oic.Items.Add("FF Megan Price");
+                csapp3oic.Items.Add("FF Jess Stebbings");
+                csapp3oic.Items.Add("FF Aaron Dunmore");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC Mark Brown");
+                csapp3driver.Items.Add("CC Jason Burrill");
+                csapp3driver.Items.Add("CC Vernon Lloyd");
+                csapp3driver.Items.Add("CC Kevin Gilbert");
+                csapp3driver.Items.Add("FF Daniel Barsby");
+                csapp3driver.Items.Add("FF Sean Dunthorne");
+                csapp3driver.Items.Add("FF Martin Harriss");
+                csapp3driver.Items.Add("FF Callum Hodgkin");
+                csapp3driver.Items.Add("FF Colin Richards");
+                csapp3driver.Items.Add("FF Mark Rogers");
+                csapp3driver.Items.Add("FF Jaime Cook");
+                csapp3driver.Items.Add("FF Dean Johnson");
+                csapp3driver.Items.Add("FF Megan Price");
+                csapp3driver.Items.Add("FF Jess Stebbings");
+                csapp3driver.Items.Add("FF Aaron Dunmore");
+                //BA1
+                csapp3ba1.Items.Add("WC Mark Brown");
+                csapp3ba1.Items.Add("CC Jason Burrill");
+                csapp3ba1.Items.Add("CC Vernon Lloyd");
+                csapp3ba1.Items.Add("CC Kevin Gilbert");
+                csapp3ba1.Items.Add("FF Daniel Barsby");
+                csapp3ba1.Items.Add("FF Sean Dunthorne");
+                csapp3ba1.Items.Add("FF Martin Harriss");
+                csapp3ba1.Items.Add("FF Callum Hodgkin");
+                csapp3ba1.Items.Add("FF Colin Richards");
+                csapp3ba1.Items.Add("FF Mark Rogers");
+                csapp3ba1.Items.Add("FF Jaime Cook");
+                csapp3ba1.Items.Add("FF Dean Johnson");
+                csapp3ba1.Items.Add("FF Megan Price");
+                csapp3ba1.Items.Add("FF Jess Stebbings");
+                csapp3ba1.Items.Add("FF Aaron Dunmore");
+                //BA2
+                csapp3ba2.Items.Add("WC Mark Brown");
+                csapp3ba2.Items.Add("CC Jason Burrill");
+                csapp3ba2.Items.Add("CC Vernon Lloyd");
+                csapp3ba2.Items.Add("CC Kevin Gilbert");
+                csapp3ba2.Items.Add("FF Daniel Barsby");
+                csapp3ba2.Items.Add("FF Sean Dunthorne");
+                csapp3ba2.Items.Add("FF Martin Harriss");
+                csapp3ba2.Items.Add("FF Callum Hodgkin");
+                csapp3ba2.Items.Add("FF Colin Richards");
+                csapp3ba2.Items.Add("FF Mark Rogers");
+                csapp3ba2.Items.Add("FF Jaime Cook");
+                csapp3ba2.Items.Add("FF Dean Johnson");
+                csapp3ba2.Items.Add("FF Megan Price");
+                csapp3ba2.Items.Add("FF Jess Stebbings");
+                csapp3ba2.Items.Add("FF Aaron Dunmore");
+                //ECO
+                csapp3eco.Items.Add("WC Mark Brown");
+                csapp3eco.Items.Add("CC Jason Burrill");
+                csapp3eco.Items.Add("CC Vernon Lloyd");
+                csapp3eco.Items.Add("CC Kevin Gilbert");
+                csapp3eco.Items.Add("FF Daniel Barsby");
+                csapp3eco.Items.Add("FF Sean Dunthorne");
+                csapp3eco.Items.Add("FF Martin Harriss");
+                csapp3eco.Items.Add("FF Callum Hodgkin");
+                csapp3eco.Items.Add("FF Colin Richards");
+                csapp3eco.Items.Add("FF Mark Rogers");
+                csapp3eco.Items.Add("FF Jaime Cook");
+                csapp3eco.Items.Add("FF Dean Johnson");
+                csapp3eco.Items.Add("FF Megan Price");
+                csapp3eco.Items.Add("FF Jess Stebbings");
+                csapp3eco.Items.Add("FF Aaron Dunmore");
+                //6
+                csapp36.Items.Add("WC Mark Brown");
+                csapp36.Items.Add("CC Jason Burrill");
+                csapp36.Items.Add("CC Vernon Lloyd");
+                csapp36.Items.Add("CC Kevin Gilbert");
+                csapp36.Items.Add("FF Daniel Barsby");
+                csapp36.Items.Add("FF Sean Dunthorne");
+                csapp36.Items.Add("FF Martin Harriss");
+                csapp36.Items.Add("FF Callum Hodgkin");
+                csapp36.Items.Add("FF Colin Richards");
+                csapp36.Items.Add("FF Mark Rogers");
+                csapp36.Items.Add("FF Jaime Cook");
+                csapp36.Items.Add("FF Dean Johnson");
+                csapp36.Items.Add("FF Megan Price");
+                csapp36.Items.Add("FF Jess Stebbings");
+                csapp36.Items.Add("FF Aaron Dunmore");
+            }
+            else if (csapp3.Text == "C17P3")
+            {
+                //OIC
+                csapp3oic.Items.Add("WC John Cox");
+                csapp3oic.Items.Add("CC Phil Coates");
+                csapp3oic.Items.Add("CC Jaime Bovington");
+                csapp3oic.Items.Add("CC Graham Duff");
+                csapp3oic.Items.Add("FF Linford Desborough");
+                csapp3oic.Items.Add("FF Bob Ratcliffe");
+                csapp3oic.Items.Add("FF Ashley McMullon");
+                csapp3oic.Items.Add("FF Mark Roberts");
+                csapp3oic.Items.Add("FF Simon Robinson");
+
+                //DRIVER
+                csapp3driver.Items.Add("WC John Cox");
+                csapp3driver.Items.Add("CC Phil Coates");
+                csapp3driver.Items.Add("CC Jaime Bovington");
+                csapp3driver.Items.Add("CC Graham Duff");
+                csapp3driver.Items.Add("FF Linford Desborough");
+                csapp3driver.Items.Add("FF Bob Ratcliffe");
+                csapp3driver.Items.Add("FF Ashley McMullon");
+                csapp3driver.Items.Add("FF Mark Roberts");
+                csapp3driver.Items.Add("FF Simon Robinson");
+                //BA1
+                csapp3ba1.Items.Add("WC John Cox");
+                csapp3ba1.Items.Add("CC Phil Coates");
+                csapp3ba1.Items.Add("CC Jaime Bovington");
+                csapp3ba1.Items.Add("CC Graham Duff");
+                csapp3ba1.Items.Add("FF Linford Desborough");
+                csapp3ba1.Items.Add("FF Bob Ratcliffe");
+                csapp3ba1.Items.Add("FF Ashley McMullon");
+                csapp3ba1.Items.Add("FF Mark Roberts");
+                csapp3ba1.Items.Add("FF Simon Robinson");
+                //BA2
+                csapp3ba2.Items.Add("WC John Cox");
+                csapp3ba2.Items.Add("CC Phil Coates");
+                csapp3ba2.Items.Add("CC Jaime Bovington");
+                csapp3ba2.Items.Add("CC Graham Duff");
+                csapp3ba2.Items.Add("FF Linford Desborough");
+                csapp3ba2.Items.Add("FF Bob Ratcliffe");
+                csapp3ba2.Items.Add("FF Ashley McMullon");
+                csapp3ba2.Items.Add("FF Mark Roberts");
+                csapp3ba2.Items.Add("FF Simon Robinson");
+                //ECO
+                csapp3eco.Items.Add("WC John Cox");
+                csapp3eco.Items.Add("CC Phil Coates");
+                csapp3eco.Items.Add("CC Jaime Bovington");
+                csapp3eco.Items.Add("CC Graham Duff");
+                csapp3eco.Items.Add("FF Linford Desborough");
+                csapp3eco.Items.Add("FF Bob Ratcliffe");
+                csapp3eco.Items.Add("FF Ashley McMullon");
+                csapp3eco.Items.Add("FF Mark Roberts");
+                csapp3eco.Items.Add("FF Simon Robinson");
+                //6
+                csapp36.Items.Add("WC John Cox");
+                csapp36.Items.Add("CC Phil Coates");
+                csapp36.Items.Add("CC Jaime Bovington");
+                csapp36.Items.Add("CC Graham Duff");
+                csapp36.Items.Add("FF Linford Desborough");
+                csapp36.Items.Add("FF Bob Ratcliffe");
+                csapp36.Items.Add("FF Ashley McMullon");
+                csapp36.Items.Add("FF Mark Roberts");
+                csapp36.Items.Add("FF Simon Robinson");
+            }
+
+            else if (csapp3.Text == "C20P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("----DAY CREW----");
+                csapp3oic.Items.Add("WC James Thompson");
+                csapp3oic.Items.Add("WC Dan Heathcote");
+                csapp3oic.Items.Add("CC Tim Carr");
+                csapp3oic.Items.Add("CC Rob Wabe");
+                csapp3oic.Items.Add("FF Shaun Bailes");
+                csapp3oic.Items.Add("FF Mathew Buckler");
+                csapp3oic.Items.Add("FF Kevin Cherry");
+                csapp3oic.Items.Add("FF Gary Doughty");
+                csapp3oic.Items.Add("FF Luke Prior");
+                csapp3oic.Items.Add("FF Amy Ratcliff");
+                csapp3oic.Items.Add("FF Gary Reach");
+                csapp3oic.Items.Add("FF Rob Woodcock");
+                csapp3oic.Items.Add("----ON CALL---");
+                csapp3oic.Items.Add("WC Phil Pibeam");
+                csapp3oic.Items.Add("CC Simon Medlock");
+                csapp3oic.Items.Add("CC Ian Cuthil");
+                csapp3oic.Items.Add("FF Richard Stebbing");
+                csapp3oic.Items.Add("FF Matthew Beare");
+                csapp3oic.Items.Add("FF Luke Green");
+                csapp3oic.Items.Add("FF Max Coles");
+                csapp3oic.Items.Add("FF Tony Mandato");
+                csapp3oic.Items.Add("FF Barry Webb");
+                csapp3oic.Items.Add("FF Josh Cairns");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("----DAY CREW----");
+                csapp3driver.Items.Add("WC James Thompson");
+                csapp3driver.Items.Add("WC Dan Heathcote");
+                csapp3driver.Items.Add("CC Tim Carr");
+                csapp3driver.Items.Add("CC Rob Wabe");
+                csapp3driver.Items.Add("FF Shaun Bailes");
+                csapp3driver.Items.Add("FF Mathew Buckler");
+                csapp3driver.Items.Add("FF Kevin Cherry");
+                csapp3driver.Items.Add("FF Gary Doughty");
+                csapp3driver.Items.Add("FF Luke Prior");
+                csapp3driver.Items.Add("FF Amy Ratcliff");
+                csapp3driver.Items.Add("FF Gary Reach");
+                csapp3driver.Items.Add("FF Rob Woodcock");
+                csapp3driver.Items.Add("----ON CALL---");
+                csapp3driver.Items.Add("WC Phil Pibeam");
+                csapp3driver.Items.Add("CC Simon Medlock");
+                csapp3driver.Items.Add("CC Ian Cuthil");
+                csapp3driver.Items.Add("FF Richard Stebbing");
+                csapp3driver.Items.Add("FF Matthew Beare");
+                csapp3driver.Items.Add("FF Luke Green");
+                csapp3driver.Items.Add("FF Max Coles");
+                csapp3driver.Items.Add("FF Tony Mandato");
+                csapp3driver.Items.Add("FF Barry Webb");
+                csapp3driver.Items.Add("FF Josh Cairns");
+                //BA1
+                csapp3ba1.Items.Add("----DAY CREW----");
+                csapp3ba1.Items.Add("WC James Thompson");
+                csapp3ba1.Items.Add("WC Dan Heathcote");
+                csapp3ba1.Items.Add("CC Tim Carr");
+                csapp3ba1.Items.Add("CC Rob Wabe");
+                csapp3ba1.Items.Add("FF Shaun Bailes");
+                csapp3ba1.Items.Add("FF Mathew Buckler");
+                csapp3ba1.Items.Add("FF Kevin Cherry");
+                csapp3ba1.Items.Add("FF Gary Doughty");
+                csapp3ba1.Items.Add("FF Luke Prior");
+                csapp3ba1.Items.Add("FF Amy Ratcliff");
+                csapp3ba1.Items.Add("FF Gary Reach");
+                csapp3ba1.Items.Add("FF Rob Woodcock");
+                csapp3ba1.Items.Add("----ON CALL---");
+                csapp3ba1.Items.Add("WC Phil Pibeam");
+                csapp3ba1.Items.Add("CC Simon Medlock");
+                csapp3ba1.Items.Add("CC Ian Cuthil");
+                csapp3ba1.Items.Add("FF Richard Stebbing");
+                csapp3ba1.Items.Add("FF Matthew Beare");
+                csapp3ba1.Items.Add("FF Luke Green");
+                csapp3ba1.Items.Add("FF Max Coles");
+                csapp3ba1.Items.Add("FF Tony Mandato");
+                csapp3ba1.Items.Add("FF Barry Webb");
+                csapp3ba1.Items.Add("FF Josh Cairns");
+                //BA2
+                csapp3ba2.Items.Add("----DAY CREW----");
+                csapp3ba2.Items.Add("WC James Thompson");
+                csapp3ba2.Items.Add("WC Dan Heathcote");
+                csapp3ba2.Items.Add("CC Tim Carr");
+                csapp3ba2.Items.Add("CC Rob Wabe");
+                csapp3ba2.Items.Add("FF Shaun Bailes");
+                csapp3ba2.Items.Add("FF Mathew Buckler");
+                csapp3ba2.Items.Add("FF Kevin Cherry");
+                csapp3ba2.Items.Add("FF Gary Doughty");
+                csapp3ba2.Items.Add("FF Luke Prior");
+                csapp3ba2.Items.Add("FF Amy Ratcliff");
+                csapp3ba2.Items.Add("FF Gary Reach");
+                csapp3ba2.Items.Add("FF Rob Woodcock");
+                csapp3ba2.Items.Add("----ON CALL---");
+                csapp3ba2.Items.Add("WC Phil Pibeam");
+                csapp3ba2.Items.Add("CC Simon Medlock");
+                csapp3ba2.Items.Add("CC Ian Cuthil");
+                csapp3ba2.Items.Add("FF Richard Stebbing");
+                csapp3ba2.Items.Add("FF Matthew Beare");
+                csapp3ba2.Items.Add("FF Luke Green");
+                csapp3ba2.Items.Add("FF Max Coles");
+                csapp3ba2.Items.Add("FF Tony Mandato");
+                csapp3ba2.Items.Add("FF Barry Webb");
+                csapp3ba2.Items.Add("FF Josh Cairns");
+                //ECO
+                csapp3eco.Items.Add("----DAY CREW----");
+                csapp3eco.Items.Add("WC James Thompson");
+                csapp3eco.Items.Add("WC Dan Heathcote");
+                csapp3eco.Items.Add("CC Tim Carr");
+                csapp3eco.Items.Add("CC Rob Wabe");
+                csapp3eco.Items.Add("FF Shaun Bailes");
+                csapp3eco.Items.Add("FF Mathew Buckler");
+                csapp3eco.Items.Add("FF Kevin Cherry");
+                csapp3eco.Items.Add("FF Gary Doughty");
+                csapp3eco.Items.Add("FF Luke Prior");
+                csapp3eco.Items.Add("FF Amy Ratcliff");
+                csapp3eco.Items.Add("FF Gary Reach");
+                csapp3eco.Items.Add("FF Rob Woodcock");
+                csapp3eco.Items.Add("----ON CALL---");
+                csapp3eco.Items.Add("WC Phil Pibeam");
+                csapp3eco.Items.Add("CC Simon Medlock");
+                csapp3eco.Items.Add("CC Ian Cuthil");
+                csapp3eco.Items.Add("FF Richard Stebbing");
+                csapp3eco.Items.Add("FF Matthew Beare");
+                csapp3eco.Items.Add("FF Luke Green");
+                csapp3eco.Items.Add("FF Max Coles");
+                csapp3eco.Items.Add("FF Tony Mandato");
+                csapp3eco.Items.Add("FF Barry Webb");
+                csapp3eco.Items.Add("FF Josh Cairns");
+                //6
+                csapp36.Items.Add("----DAY CREW----");
+                csapp36.Items.Add("WC James Thompson");
+                csapp36.Items.Add("WC Dan Heathcote");
+                csapp36.Items.Add("CC Tim Carr");
+                csapp36.Items.Add("CC Rob Wabe");
+                csapp36.Items.Add("FF Shaun Bailes");
+                csapp36.Items.Add("FF Mathew Buckler");
+                csapp36.Items.Add("FF Kevin Cherry");
+                csapp36.Items.Add("FF Gary Doughty");
+                csapp36.Items.Add("FF Luke Prior");
+                csapp36.Items.Add("FF Amy Ratcliff");
+                csapp36.Items.Add("FF Gary Reach");
+                csapp36.Items.Add("FF Rob Woodcock");
+                csapp36.Items.Add("----ON CALL---");
+                csapp36.Items.Add("WC Phil Pibeam");
+                csapp36.Items.Add("CC Simon Medlock");
+                csapp36.Items.Add("CC Ian Cuthil");
+                csapp36.Items.Add("FF Richard Stebbing");
+                csapp36.Items.Add("FF Matthew Beare");
+                csapp36.Items.Add("FF Luke Green");
+                csapp36.Items.Add("FF Max Coles");
+                csapp36.Items.Add("FF Tony Mandato");
+                csapp36.Items.Add("FF Barry Webb");
+                csapp36.Items.Add("FF Josh Cairns");
+            }
+            else if (csapp3.Text == "C20P5")
+            {
+                //OIC
+                csapp3oic.Items.Add("----DAY CREW----");
+                csapp3oic.Items.Add("WC James Thompson");
+                csapp3oic.Items.Add("WC Dan Heathcote");
+                csapp3oic.Items.Add("CC Tim Carr");
+                csapp3oic.Items.Add("CC Rob Wabe");
+                csapp3oic.Items.Add("FF Shaun Bailes");
+                csapp3oic.Items.Add("FF Mathew Buckler");
+                csapp3oic.Items.Add("FF Kevin Cherry");
+                csapp3oic.Items.Add("FF Gary Doughty");
+                csapp3oic.Items.Add("FF Luke Prior");
+                csapp3oic.Items.Add("FF Amy Ratcliff");
+                csapp3oic.Items.Add("FF Gary Reach");
+                csapp3oic.Items.Add("FF Rob Woodcock");
+                csapp3oic.Items.Add("----ON CALL---");
+                csapp3oic.Items.Add("WC Phil Pibeam");
+                csapp3oic.Items.Add("CC Simon Medlock");
+                csapp3oic.Items.Add("CC Ian Cuthil");
+                csapp3oic.Items.Add("FF Richard Stebbing");
+                csapp3oic.Items.Add("FF Matthew Beare");
+                csapp3oic.Items.Add("FF Luke Green");
+                csapp3oic.Items.Add("FF Max Coles");
+                csapp3oic.Items.Add("FF Tony Mandato");
+                csapp3oic.Items.Add("FF Barry Webb");
+                csapp3oic.Items.Add("FF Josh Cairns");
+
+
+                //DRIVER
+                csapp3driver.Items.Add("----DAY CREW----");
+                csapp3driver.Items.Add("WC James Thompson");
+                csapp3driver.Items.Add("WC Dan Heathcote");
+                csapp3driver.Items.Add("CC Tim Carr");
+                csapp3driver.Items.Add("CC Rob Wabe");
+                csapp3driver.Items.Add("FF Shaun Bailes");
+                csapp3driver.Items.Add("FF Mathew Buckler");
+                csapp3driver.Items.Add("FF Kevin Cherry");
+                csapp3driver.Items.Add("FF Gary Doughty");
+                csapp3driver.Items.Add("FF Luke Prior");
+                csapp3driver.Items.Add("FF Amy Ratcliff");
+                csapp3driver.Items.Add("FF Gary Reach");
+                csapp3driver.Items.Add("FF Rob Woodcock");
+                csapp3driver.Items.Add("----ON CALL---");
+                csapp3driver.Items.Add("WC Phil Pibeam");
+                csapp3driver.Items.Add("CC Simon Medlock");
+                csapp3driver.Items.Add("CC Ian Cuthil");
+                csapp3driver.Items.Add("FF Richard Stebbing");
+                csapp3driver.Items.Add("FF Matthew Beare");
+                csapp3driver.Items.Add("FF Luke Green");
+                csapp3driver.Items.Add("FF Max Coles");
+                csapp3driver.Items.Add("FF Tony Mandato");
+                csapp3driver.Items.Add("FF Barry Webb");
+                csapp3driver.Items.Add("FF Josh Cairns");
+                //BA1
+                csapp3ba1.Items.Add("----DAY CREW----");
+                csapp3ba1.Items.Add("WC James Thompson");
+                csapp3ba1.Items.Add("WC Dan Heathcote");
+                csapp3ba1.Items.Add("CC Tim Carr");
+                csapp3ba1.Items.Add("CC Rob Wabe");
+                csapp3ba1.Items.Add("FF Shaun Bailes");
+                csapp3ba1.Items.Add("FF Mathew Buckler");
+                csapp3ba1.Items.Add("FF Kevin Cherry");
+                csapp3ba1.Items.Add("FF Gary Doughty");
+                csapp3ba1.Items.Add("FF Luke Prior");
+                csapp3ba1.Items.Add("FF Amy Ratcliff");
+                csapp3ba1.Items.Add("FF Gary Reach");
+                csapp3ba1.Items.Add("FF Rob Woodcock");
+                csapp3ba1.Items.Add("----ON CALL---");
+                csapp3ba1.Items.Add("WC Phil Pibeam");
+                csapp3ba1.Items.Add("CC Simon Medlock");
+                csapp3ba1.Items.Add("CC Ian Cuthil");
+                csapp3ba1.Items.Add("FF Richard Stebbing");
+                csapp3ba1.Items.Add("FF Matthew Beare");
+                csapp3ba1.Items.Add("FF Luke Green");
+                csapp3ba1.Items.Add("FF Max Coles");
+                csapp3ba1.Items.Add("FF Tony Mandato");
+                csapp3ba1.Items.Add("FF Barry Webb");
+                csapp3ba1.Items.Add("FF Josh Cairns");
+                //BA2
+                csapp3ba2.Items.Add("----DAY CREW----");
+                csapp3ba2.Items.Add("WC James Thompson");
+                csapp3ba2.Items.Add("WC Dan Heathcote");
+                csapp3ba2.Items.Add("CC Tim Carr");
+                csapp3ba2.Items.Add("CC Rob Wabe");
+                csapp3ba2.Items.Add("FF Shaun Bailes");
+                csapp3ba2.Items.Add("FF Mathew Buckler");
+                csapp3ba2.Items.Add("FF Kevin Cherry");
+                csapp3ba2.Items.Add("FF Gary Doughty");
+                csapp3ba2.Items.Add("FF Luke Prior");
+                csapp3ba2.Items.Add("FF Amy Ratcliff");
+                csapp3ba2.Items.Add("FF Gary Reach");
+                csapp3ba2.Items.Add("FF Rob Woodcock");
+                csapp3ba2.Items.Add("----ON CALL---");
+                csapp3ba2.Items.Add("WC Phil Pibeam");
+                csapp3ba2.Items.Add("CC Simon Medlock");
+                csapp3ba2.Items.Add("CC Ian Cuthil");
+                csapp3ba2.Items.Add("FF Richard Stebbing");
+                csapp3ba2.Items.Add("FF Matthew Beare");
+                csapp3ba2.Items.Add("FF Luke Green");
+                csapp3ba2.Items.Add("FF Max Coles");
+                csapp3ba2.Items.Add("FF Tony Mandato");
+                csapp3ba2.Items.Add("FF Barry Webb");
+                csapp3ba2.Items.Add("FF Josh Cairns");
+                //ECO
+                csapp3eco.Items.Add("----DAY CREW----");
+                csapp3eco.Items.Add("WC James Thompson");
+                csapp3eco.Items.Add("WC Dan Heathcote");
+                csapp3eco.Items.Add("CC Tim Carr");
+                csapp3eco.Items.Add("CC Rob Wabe");
+                csapp3eco.Items.Add("FF Shaun Bailes");
+                csapp3eco.Items.Add("FF Mathew Buckler");
+                csapp3eco.Items.Add("FF Kevin Cherry");
+                csapp3eco.Items.Add("FF Gary Doughty");
+                csapp3eco.Items.Add("FF Luke Prior");
+                csapp3eco.Items.Add("FF Amy Ratcliff");
+                csapp3eco.Items.Add("FF Gary Reach");
+                csapp3eco.Items.Add("FF Rob Woodcock");
+                csapp3eco.Items.Add("----ON CALL---");
+                csapp3eco.Items.Add("WC Phil Pibeam");
+                csapp3eco.Items.Add("CC Simon Medlock");
+                csapp3eco.Items.Add("CC Ian Cuthil");
+                csapp3eco.Items.Add("FF Richard Stebbing");
+                csapp3eco.Items.Add("FF Matthew Beare");
+                csapp3eco.Items.Add("FF Luke Green");
+                csapp3eco.Items.Add("FF Max Coles");
+                csapp3eco.Items.Add("FF Tony Mandato");
+                csapp3eco.Items.Add("FF Barry Webb");
+                csapp3eco.Items.Add("FF Josh Cairns");
+                //6
+                csapp36.Items.Add("----DAY CREW----");
+                csapp36.Items.Add("WC James Thompson");
+                csapp36.Items.Add("WC Dan Heathcote");
+                csapp36.Items.Add("CC Tim Carr");
+                csapp36.Items.Add("CC Rob Wabe");
+                csapp36.Items.Add("FF Shaun Bailes");
+                csapp36.Items.Add("FF Mathew Buckler");
+                csapp36.Items.Add("FF Kevin Cherry");
+                csapp36.Items.Add("FF Gary Doughty");
+                csapp36.Items.Add("FF Luke Prior");
+                csapp36.Items.Add("FF Amy Ratcliff");
+                csapp36.Items.Add("FF Gary Reach");
+                csapp36.Items.Add("FF Rob Woodcock");
+                csapp36.Items.Add("----ON CALL---");
+                csapp36.Items.Add("WC Phil Pibeam");
+                csapp36.Items.Add("CC Simon Medlock");
+                csapp36.Items.Add("CC Ian Cuthil");
+                csapp36.Items.Add("FF Richard Stebbing");
+                csapp36.Items.Add("FF Matthew Beare");
+                csapp36.Items.Add("FF Luke Green");
+                csapp36.Items.Add("FF Max Coles");
+                csapp36.Items.Add("FF Tony Mandato");
+                csapp36.Items.Add("FF Barry Webb");
+                csapp36.Items.Add("FF Josh Cairns");
+            }
+
+            else if (csapp3.Text == "C16P5")
+            {
+                //OIC
+                csapp3oic.Items.Add("----RED----");
+                csapp3oic.Items.Add("WC Darren Thompson");
+                csapp3oic.Items.Add("CC Quinton Roach");
+                csapp3oic.Items.Add("FF Nicola Barlow");
+                csapp3oic.Items.Add("FF Richard Boston");
+                csapp3oic.Items.Add("FF Jamie Bovington");
+                csapp3oic.Items.Add("FF Alex Dalton");
+                csapp3oic.Items.Add("FF Kev Gilbert");
+                csapp3oic.Items.Add("FF Adam Layton");
+                csapp3oic.Items.Add("----WHITE----");
+                csapp3oic.Items.Add("WC Adam Cornthwaite");
+                csapp3oic.Items.Add("CC Dale Pickstone");
+                csapp3oic.Items.Add("FF Gary Beacher");
+                csapp3oic.Items.Add("FF Billy May");
+                csapp3oic.Items.Add("FF Charlie Peacock");
+                csapp3oic.Items.Add("FF Simon Stokell");
+                csapp3oic.Items.Add("FF Andy Titmuss");
+                csapp3oic.Items.Add("----BLACK---");
+                csapp3oic.Items.Add("WC Rob Allport");
+                csapp3oic.Items.Add("CC Dave Friketon");
+                csapp3oic.Items.Add("FF Phil Coates");
+                csapp3oic.Items.Add("FF Coco Chambers");
+                csapp3oic.Items.Add("FF Ian Gibbins");
+                csapp3oic.Items.Add("FF Mark Moloney");
+                csapp3oic.Items.Add("FF Mark Southwood");
+                csapp3oic.Items.Add("FF Paul Greenhalgh");
+                csapp3oic.Items.Add("----GREEN-----");
+                csapp3oic.Items.Add("WC Matt House");
+                csapp3oic.Items.Add("CC Neville Burgess");
+                csapp3oic.Items.Add("FF Karl Gockel");
+                csapp3oic.Items.Add("FF Choloe Housden");
+                csapp3oic.Items.Add("FF Matthew Gosney");
+                csapp3oic.Items.Add("FF Sam Pearce");
+                csapp3oic.Items.Add("FF Tony Train");
+                csapp3oic.Items.Add("FF Simon Robinson");
+
+                //DRIVER
+                csapp3driver.Items.Add("----RED----");
+                csapp3driver.Items.Add("WC Darren Thompson");
+                csapp3driver.Items.Add("CC Quinton Roach");
+                csapp3driver.Items.Add("FF Nicola Barlow");
+                csapp3driver.Items.Add("FF Richard Boston");
+                csapp3driver.Items.Add("FF Jamie Bovington");
+                csapp3driver.Items.Add("FF Alex Dalton");
+                csapp3driver.Items.Add("FF Kev Gilbert");
+                csapp3driver.Items.Add("FF Adam Layton");
+                csapp3driver.Items.Add("----WHITE----");
+                csapp3driver.Items.Add("WC Adam Cornthwaite");
+                csapp3driver.Items.Add("CC Dale Pickstone");
+                csapp3driver.Items.Add("FF Gary Beacher");
+                csapp3driver.Items.Add("FF Billy May");
+                csapp3driver.Items.Add("FF Charlie Peacock");
+                csapp3driver.Items.Add("FF Simon Stokell");
+                csapp3driver.Items.Add("FF Andy Titmuss");
+                csapp3driver.Items.Add("----BLACK---");
+                csapp3driver.Items.Add("WC Rob Allport");
+                csapp3driver.Items.Add("CC Dave Friketon");
+                csapp3driver.Items.Add("FF Phil Coates");
+                csapp3driver.Items.Add("FF Coco Chambers");
+                csapp3driver.Items.Add("FF Ian Gibbins");
+                csapp3driver.Items.Add("FF Mark Moloney");
+                csapp3driver.Items.Add("FF Mark Southwood");
+                csapp3driver.Items.Add("FF Paul Greenhalgh");
+                csapp3driver.Items.Add("----GREEN-----");
+                csapp3driver.Items.Add("WC Matt House");
+                csapp3driver.Items.Add("CC Neville Burgess");
+                csapp3driver.Items.Add("FF Karl Gockel");
+                csapp3driver.Items.Add("FF Choloe Housden");
+                csapp3driver.Items.Add("FF Matthew Gosney");
+                csapp3driver.Items.Add("FF Sam Pearce");
+                csapp3driver.Items.Add("FF Tony Train");
+                csapp3driver.Items.Add("FF Simon Robinson");
+                //BA1
+                csapp3ba1.Items.Add("----RED----");
+                csapp3ba1.Items.Add("WC Darren Thompson");
+                csapp3ba1.Items.Add("CC Quinton Roach");
+                csapp3ba1.Items.Add("FF Nicola Barlow");
+                csapp3ba1.Items.Add("FF Richard Boston");
+                csapp3ba1.Items.Add("FF Jamie Bovington");
+                csapp3ba1.Items.Add("FF Alex Dalton");
+                csapp3ba1.Items.Add("FF Kev Gilbert");
+                csapp3ba1.Items.Add("FF Adam Layton");
+                csapp3ba1.Items.Add("----WHITE----");
+                csapp3ba1.Items.Add("WC Adam Cornthwaite");
+                csapp3ba1.Items.Add("CC Dale Pickstone");
+                csapp3ba1.Items.Add("FF Gary Beacher");
+                csapp3ba1.Items.Add("FF Billy May");
+                csapp3ba1.Items.Add("FF Charlie Peacock");
+                csapp3ba1.Items.Add("FF Simon Stokell");
+                csapp3ba1.Items.Add("FF Andy Titmuss");
+                csapp3ba1.Items.Add("----BLACK---");
+                csapp3ba1.Items.Add("WC Rob Allport");
+                csapp3ba1.Items.Add("CC Dave Friketon");
+                csapp3ba1.Items.Add("FF Phil Coates");
+                csapp3ba1.Items.Add("FF Coco Chambers");
+                csapp3ba1.Items.Add("FF Ian Gibbins");
+                csapp3ba1.Items.Add("FF Mark Moloney");
+                csapp3ba1.Items.Add("FF Mark Southwood");
+                csapp3ba1.Items.Add("FF Paul Greenhalgh");
+                csapp3ba1.Items.Add("----GREEN-----");
+                csapp3ba1.Items.Add("WC Matt House");
+                csapp3ba1.Items.Add("CC Neville Burgess");
+                csapp3ba1.Items.Add("FF Karl Gockel");
+                csapp3ba1.Items.Add("FF Choloe Housden");
+                csapp3ba1.Items.Add("FF Matthew Gosney");
+                csapp3ba1.Items.Add("FF Sam Pearce");
+                csapp3ba1.Items.Add("FF Tony Train");
+                csapp3ba1.Items.Add("FF Simon Robinson");
+                //BA2
+                csapp3ba2.Items.Add("----RED----");
+                csapp3ba2.Items.Add("WC Darren Thompson");
+                csapp3ba2.Items.Add("CC Quinton Roach");
+                csapp3ba2.Items.Add("FF Nicola Barlow");
+                csapp3ba2.Items.Add("FF Richard Boston");
+                csapp3ba2.Items.Add("FF Jamie Bovington");
+                csapp3ba2.Items.Add("FF Alex Dalton");
+                csapp3ba2.Items.Add("FF Kev Gilbert");
+                csapp3ba2.Items.Add("FF Adam Layton");
+                csapp3ba2.Items.Add("----WHITE----");
+                csapp3ba2.Items.Add("WC Adam Cornthwaite");
+                csapp3ba2.Items.Add("CC Dale Pickstone");
+                csapp3ba2.Items.Add("FF Gary Beacher");
+                csapp3ba2.Items.Add("FF Billy May");
+                csapp3ba2.Items.Add("FF Charlie Peacock");
+                csapp3ba2.Items.Add("FF Simon Stokell");
+                csapp3ba2.Items.Add("FF Andy Titmuss");
+                csapp3ba2.Items.Add("----BLACK---");
+                csapp3ba2.Items.Add("WC Rob Allport");
+                csapp3ba2.Items.Add("CC Dave Friketon");
+                csapp3ba2.Items.Add("FF Phil Coates");
+                csapp3ba2.Items.Add("FF Coco Chambers");
+                csapp3ba2.Items.Add("FF Ian Gibbins");
+                csapp3ba2.Items.Add("FF Mark Moloney");
+                csapp3ba2.Items.Add("FF Mark Southwood");
+                csapp3ba2.Items.Add("FF Paul Greenhalgh");
+                csapp3ba2.Items.Add("----GREEN-----");
+                csapp3ba2.Items.Add("WC Matt House");
+                csapp3ba2.Items.Add("CC Neville Burgess");
+                csapp3ba2.Items.Add("FF Karl Gockel");
+                csapp3ba2.Items.Add("FF Choloe Housden");
+                csapp3ba2.Items.Add("FF Matthew Gosney");
+                csapp3ba2.Items.Add("FF Sam Pearce");
+                csapp3ba2.Items.Add("FF Tony Train");
+                csapp3ba2.Items.Add("FF Simon Robinson");
+                //ECO
+                csapp3eco.Items.Add("----RED----");
+                csapp3eco.Items.Add("WC Darren Thompson");
+                csapp3eco.Items.Add("CC Quinton Roach");
+                csapp3eco.Items.Add("FF Nicola Barlow");
+                csapp3eco.Items.Add("FF Richard Boston");
+                csapp3eco.Items.Add("FF Jamie Bovington");
+                csapp3eco.Items.Add("FF Alex Dalton");
+                csapp3eco.Items.Add("FF Kev Gilbert");
+                csapp3eco.Items.Add("FF Adam Layton");
+                csapp3eco.Items.Add("----WHITE----");
+                csapp3eco.Items.Add("WC Adam Cornthwaite");
+                csapp3eco.Items.Add("CC Dale Pickstone");
+                csapp3eco.Items.Add("FF Gary Beacher");
+                csapp3eco.Items.Add("FF Billy May");
+                csapp3eco.Items.Add("FF Charlie Peacock");
+                csapp3eco.Items.Add("FF Simon Stokell");
+                csapp3eco.Items.Add("FF Andy Titmuss");
+                csapp3eco.Items.Add("----BLACK---");
+                csapp3eco.Items.Add("WC Rob Allport");
+                csapp3eco.Items.Add("CC Dave Friketon");
+                csapp3eco.Items.Add("FF Phil Coates");
+                csapp3eco.Items.Add("FF Coco Chambers");
+                csapp3eco.Items.Add("FF Ian Gibbins");
+                csapp3eco.Items.Add("FF Mark Moloney");
+                csapp3eco.Items.Add("FF Mark Southwood");
+                csapp3eco.Items.Add("FF Paul Greenhalgh");
+                csapp3eco.Items.Add("----GREEN-----");
+                csapp3eco.Items.Add("WC Matt House");
+                csapp3eco.Items.Add("CC Neville Burgess");
+                csapp3eco.Items.Add("FF Karl Gockel");
+                csapp3eco.Items.Add("FF Choloe Housden");
+                csapp3eco.Items.Add("FF Matthew Gosney");
+                csapp3eco.Items.Add("FF Sam Pearce");
+                csapp3eco.Items.Add("FF Tony Train");
+                csapp3eco.Items.Add("FF Simon Robinson");
+                //6
+                csapp36.Items.Add("----RED----");
+                csapp36.Items.Add("WC Darren Thompson");
+                csapp36.Items.Add("CC Quinton Roach");
+                csapp36.Items.Add("FF Nicola Barlow");
+                csapp36.Items.Add("FF Richard Boston");
+                csapp36.Items.Add("FF Jamie Bovington");
+                csapp36.Items.Add("FF Alex Dalton");
+                csapp36.Items.Add("FF Kev Gilbert");
+                csapp36.Items.Add("FF Adam Layton");
+                csapp36.Items.Add("----WHITE----");
+                csapp36.Items.Add("WC Adam Cornthwaite");
+                csapp36.Items.Add("CC Dale Pickstone");
+                csapp36.Items.Add("FF Gary Beacher");
+                csapp36.Items.Add("FF Billy May");
+                csapp36.Items.Add("FF Charlie Peacock");
+                csapp36.Items.Add("FF Simon Stokell");
+                csapp36.Items.Add("FF Andy Titmuss");
+                csapp36.Items.Add("----BLACK---");
+                csapp36.Items.Add("WC Rob Allport");
+                csapp36.Items.Add("CC Dave Friketon");
+                csapp36.Items.Add("FF Phil Coates");
+                csapp36.Items.Add("FF Coco Chambers");
+                csapp36.Items.Add("FF Ian Gibbins");
+                csapp36.Items.Add("FF Mark Moloney");
+                csapp36.Items.Add("FF Mark Southwood");
+                csapp36.Items.Add("FF Paul Greenhalgh");
+                csapp36.Items.Add("----GREEN-----");
+                csapp36.Items.Add("WC Matt House");
+                csapp36.Items.Add("CC Neville Burgess");
+                csapp36.Items.Add("FF Karl Gockel");
+                csapp36.Items.Add("FF Choloe Housden");
+                csapp36.Items.Add("FF Matthew Gosney");
+                csapp36.Items.Add("FF Sam Pearce");
+                csapp36.Items.Add("FF Tony Train");
+                csapp36.Items.Add("FF Simon Robinson");
+            }
+            else if (csapp3.Text == "C16P6")
+            {
+                //OIC
+                csapp3oic.Items.Add("----RED----");
+                csapp3oic.Items.Add("WC Darren Thompson");
+                csapp3oic.Items.Add("CC Quinton Roach");
+                csapp3oic.Items.Add("FF Nicola Barlow");
+                csapp3oic.Items.Add("FF Richard Boston");
+                csapp3oic.Items.Add("FF Jamie Bovington");
+                csapp3oic.Items.Add("FF Alex Dalton");
+                csapp3oic.Items.Add("FF Kev Gilbert");
+                csapp3oic.Items.Add("FF Adam Layton");
+                csapp3oic.Items.Add("----WHITE----");
+                csapp3oic.Items.Add("WC Adam Cornthwaite");
+                csapp3oic.Items.Add("CC Dale Pickstone");
+                csapp3oic.Items.Add("FF Gary Beacher");
+                csapp3oic.Items.Add("FF Billy May");
+                csapp3oic.Items.Add("FF Charlie Peacock");
+                csapp3oic.Items.Add("FF Simon Stokell");
+                csapp3oic.Items.Add("FF Andy Titmuss");
+                csapp3oic.Items.Add("----BLACK---");
+                csapp3oic.Items.Add("WC Rob Allport");
+                csapp3oic.Items.Add("CC Dave Friketon");
+                csapp3oic.Items.Add("FF Phil Coates");
+                csapp3oic.Items.Add("FF Coco Chambers");
+                csapp3oic.Items.Add("FF Ian Gibbins");
+                csapp3oic.Items.Add("FF Mark Moloney");
+                csapp3oic.Items.Add("FF Mark Southwood");
+                csapp3oic.Items.Add("FF Paul Greenhalgh");
+                csapp3oic.Items.Add("----GREEN-----");
+                csapp3oic.Items.Add("WC Matt House");
+                csapp3oic.Items.Add("CC Neville Burgess");
+                csapp3oic.Items.Add("FF Karl Gockel");
+                csapp3oic.Items.Add("FF Choloe Housden");
+                csapp3oic.Items.Add("FF Matthew Gosney");
+                csapp3oic.Items.Add("FF Sam Pearce");
+                csapp3oic.Items.Add("FF Tony Train");
+                csapp3oic.Items.Add("FF Simon Robinson");
+
+                //DRIVER
+                csapp3driver.Items.Add("----RED----");
+                csapp3driver.Items.Add("WC Darren Thompson");
+                csapp3driver.Items.Add("CC Quinton Roach");
+                csapp3driver.Items.Add("FF Nicola Barlow");
+                csapp3driver.Items.Add("FF Richard Boston");
+                csapp3driver.Items.Add("FF Jamie Bovington");
+                csapp3driver.Items.Add("FF Alex Dalton");
+                csapp3driver.Items.Add("FF Kev Gilbert");
+                csapp3driver.Items.Add("FF Adam Layton");
+                csapp3driver.Items.Add("----WHITE----");
+                csapp3driver.Items.Add("WC Adam Cornthwaite");
+                csapp3driver.Items.Add("CC Dale Pickstone");
+                csapp3driver.Items.Add("FF Gary Beacher");
+                csapp3driver.Items.Add("FF Billy May");
+                csapp3driver.Items.Add("FF Charlie Peacock");
+                csapp3driver.Items.Add("FF Simon Stokell");
+                csapp3driver.Items.Add("FF Andy Titmuss");
+                csapp3driver.Items.Add("----BLACK---");
+                csapp3driver.Items.Add("WC Rob Allport");
+                csapp3driver.Items.Add("CC Dave Friketon");
+                csapp3driver.Items.Add("FF Phil Coates");
+                csapp3driver.Items.Add("FF Coco Chambers");
+                csapp3driver.Items.Add("FF Ian Gibbins");
+                csapp3driver.Items.Add("FF Mark Moloney");
+                csapp3driver.Items.Add("FF Mark Southwood");
+                csapp3driver.Items.Add("FF Paul Greenhalgh");
+                csapp3driver.Items.Add("----GREEN-----");
+                csapp3driver.Items.Add("WC Matt House");
+                csapp3driver.Items.Add("CC Neville Burgess");
+                csapp3driver.Items.Add("FF Karl Gockel");
+                csapp3driver.Items.Add("FF Choloe Housden");
+                csapp3driver.Items.Add("FF Matthew Gosney");
+                csapp3driver.Items.Add("FF Sam Pearce");
+                csapp3driver.Items.Add("FF Tony Train");
+                csapp3driver.Items.Add("FF Simon Robinson");
+                //BA1
+                csapp3ba1.Items.Add("----RED----");
+                csapp3ba1.Items.Add("WC Darren Thompson");
+                csapp3ba1.Items.Add("CC Quinton Roach");
+                csapp3ba1.Items.Add("FF Nicola Barlow");
+                csapp3ba1.Items.Add("FF Richard Boston");
+                csapp3ba1.Items.Add("FF Jamie Bovington");
+                csapp3ba1.Items.Add("FF Alex Dalton");
+                csapp3ba1.Items.Add("FF Kev Gilbert");
+                csapp3ba1.Items.Add("FF Adam Layton");
+                csapp3ba1.Items.Add("----WHITE----");
+                csapp3ba1.Items.Add("WC Adam Cornthwaite");
+                csapp3ba1.Items.Add("CC Dale Pickstone");
+                csapp3ba1.Items.Add("FF Gary Beacher");
+                csapp3ba1.Items.Add("FF Billy May");
+                csapp3ba1.Items.Add("FF Charlie Peacock");
+                csapp3ba1.Items.Add("FF Simon Stokell");
+                csapp3ba1.Items.Add("FF Andy Titmuss");
+                csapp3ba1.Items.Add("----BLACK---");
+                csapp3ba1.Items.Add("WC Rob Allport");
+                csapp3ba1.Items.Add("CC Dave Friketon");
+                csapp3ba1.Items.Add("FF Phil Coates");
+                csapp3ba1.Items.Add("FF Coco Chambers");
+                csapp3ba1.Items.Add("FF Ian Gibbins");
+                csapp3ba1.Items.Add("FF Mark Moloney");
+                csapp3ba1.Items.Add("FF Mark Southwood");
+                csapp3ba1.Items.Add("FF Paul Greenhalgh");
+                csapp3ba1.Items.Add("----GREEN-----");
+                csapp3ba1.Items.Add("WC Matt House");
+                csapp3ba1.Items.Add("CC Neville Burgess");
+                csapp3ba1.Items.Add("FF Karl Gockel");
+                csapp3ba1.Items.Add("FF Choloe Housden");
+                csapp3ba1.Items.Add("FF Matthew Gosney");
+                csapp3ba1.Items.Add("FF Sam Pearce");
+                csapp3ba1.Items.Add("FF Tony Train");
+                csapp3ba1.Items.Add("FF Simon Robinson");
+                //BA2
+                csapp3ba2.Items.Add("----RED----");
+                csapp3ba2.Items.Add("WC Darren Thompson");
+                csapp3ba2.Items.Add("CC Quinton Roach");
+                csapp3ba2.Items.Add("FF Nicola Barlow");
+                csapp3ba2.Items.Add("FF Richard Boston");
+                csapp3ba2.Items.Add("FF Jamie Bovington");
+                csapp3ba2.Items.Add("FF Alex Dalton");
+                csapp3ba2.Items.Add("FF Kev Gilbert");
+                csapp3ba2.Items.Add("FF Adam Layton");
+                csapp3ba2.Items.Add("----WHITE----");
+                csapp3ba2.Items.Add("WC Adam Cornthwaite");
+                csapp3ba2.Items.Add("CC Dale Pickstone");
+                csapp3ba2.Items.Add("FF Gary Beacher");
+                csapp3ba2.Items.Add("FF Billy May");
+                csapp3ba2.Items.Add("FF Charlie Peacock");
+                csapp3ba2.Items.Add("FF Simon Stokell");
+                csapp3ba2.Items.Add("FF Andy Titmuss");
+                csapp3ba2.Items.Add("----BLACK---");
+                csapp3ba2.Items.Add("WC Rob Allport");
+                csapp3ba2.Items.Add("CC Dave Friketon");
+                csapp3ba2.Items.Add("FF Phil Coates");
+                csapp3ba2.Items.Add("FF Coco Chambers");
+                csapp3ba2.Items.Add("FF Ian Gibbins");
+                csapp3ba2.Items.Add("FF Mark Moloney");
+                csapp3ba2.Items.Add("FF Mark Southwood");
+                csapp3ba2.Items.Add("FF Paul Greenhalgh");
+                csapp3ba2.Items.Add("----GREEN-----");
+                csapp3ba2.Items.Add("WC Matt House");
+                csapp3ba2.Items.Add("CC Neville Burgess");
+                csapp3ba2.Items.Add("FF Karl Gockel");
+                csapp3ba2.Items.Add("FF Choloe Housden");
+                csapp3ba2.Items.Add("FF Matthew Gosney");
+                csapp3ba2.Items.Add("FF Sam Pearce");
+                csapp3ba2.Items.Add("FF Tony Train");
+                csapp3ba2.Items.Add("FF Simon Robinson");
+                //ECO
+                csapp3eco.Items.Add("----RED----");
+                csapp3eco.Items.Add("WC Darren Thompson");
+                csapp3eco.Items.Add("CC Quinton Roach");
+                csapp3eco.Items.Add("FF Nicola Barlow");
+                csapp3eco.Items.Add("FF Richard Boston");
+                csapp3eco.Items.Add("FF Jamie Bovington");
+                csapp3eco.Items.Add("FF Alex Dalton");
+                csapp3eco.Items.Add("FF Kev Gilbert");
+                csapp3eco.Items.Add("FF Adam Layton");
+                csapp3eco.Items.Add("----WHITE----");
+                csapp3eco.Items.Add("WC Adam Cornthwaite");
+                csapp3eco.Items.Add("CC Dale Pickstone");
+                csapp3eco.Items.Add("FF Gary Beacher");
+                csapp3eco.Items.Add("FF Billy May");
+                csapp3eco.Items.Add("FF Charlie Peacock");
+                csapp3eco.Items.Add("FF Simon Stokell");
+                csapp3eco.Items.Add("FF Andy Titmuss");
+                csapp3eco.Items.Add("----BLACK---");
+                csapp3eco.Items.Add("WC Rob Allport");
+                csapp3eco.Items.Add("CC Dave Friketon");
+                csapp3eco.Items.Add("FF Phil Coates");
+                csapp3eco.Items.Add("FF Coco Chambers");
+                csapp3eco.Items.Add("FF Ian Gibbins");
+                csapp3eco.Items.Add("FF Mark Moloney");
+                csapp3eco.Items.Add("FF Mark Southwood");
+                csapp3eco.Items.Add("FF Paul Greenhalgh");
+                csapp3eco.Items.Add("----GREEN-----");
+                csapp3eco.Items.Add("WC Matt House");
+                csapp3eco.Items.Add("CC Neville Burgess");
+                csapp3eco.Items.Add("FF Karl Gockel");
+                csapp3eco.Items.Add("FF Choloe Housden");
+                csapp3eco.Items.Add("FF Matthew Gosney");
+                csapp3eco.Items.Add("FF Sam Pearce");
+                csapp3eco.Items.Add("FF Tony Train");
+                csapp3eco.Items.Add("FF Simon Robinson");
+                //6
+                csapp36.Items.Add("----RED----");
+                csapp36.Items.Add("WC Darren Thompson");
+                csapp36.Items.Add("CC Quinton Roach");
+                csapp36.Items.Add("FF Nicola Barlow");
+                csapp36.Items.Add("FF Richard Boston");
+                csapp36.Items.Add("FF Jamie Bovington");
+                csapp36.Items.Add("FF Alex Dalton");
+                csapp36.Items.Add("FF Kev Gilbert");
+                csapp36.Items.Add("FF Adam Layton");
+                csapp36.Items.Add("----WHITE----");
+                csapp36.Items.Add("WC Adam Cornthwaite");
+                csapp36.Items.Add("CC Dale Pickstone");
+                csapp36.Items.Add("FF Gary Beacher");
+                csapp36.Items.Add("FF Billy May");
+                csapp36.Items.Add("FF Charlie Peacock");
+                csapp36.Items.Add("FF Simon Stokell");
+                csapp36.Items.Add("FF Andy Titmuss");
+                csapp36.Items.Add("----BLACK---");
+                csapp36.Items.Add("WC Rob Allport");
+                csapp36.Items.Add("CC Dave Friketon");
+                csapp36.Items.Add("FF Phil Coates");
+                csapp36.Items.Add("FF Coco Chambers");
+                csapp36.Items.Add("FF Ian Gibbins");
+                csapp36.Items.Add("FF Mark Moloney");
+                csapp36.Items.Add("FF Mark Southwood");
+                csapp36.Items.Add("FF Paul Greenhalgh");
+                csapp36.Items.Add("----GREEN-----");
+                csapp36.Items.Add("WC Matt House");
+                csapp36.Items.Add("CC Neville Burgess");
+                csapp36.Items.Add("FF Karl Gockel");
+                csapp36.Items.Add("FF Choloe Housden");
+                csapp36.Items.Add("FF Matthew Gosney");
+                csapp36.Items.Add("FF Sam Pearce");
+                csapp36.Items.Add("FF Tony Train");
+                csapp36.Items.Add("FF Simon Robinson");
+            }
+
+            else if (csapp3.Text == "C13P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("----DAY CREW----");
+                csapp3oic.Items.Add("WC Jon-Paul Jones");
+                csapp3oic.Items.Add("CC James Ball");
+                csapp3oic.Items.Add("FF Agata Wieczorek");
+                csapp3oic.Items.Add("FF Andrew Jones");
+                csapp3oic.Items.Add("FF Paul Davies");
+                csapp3oic.Items.Add("FF Dan Thomas");
+                csapp3oic.Items.Add("FF Sonya Bourne");
+                csapp3oic.Items.Add("----ON CALL----");
+                csapp3oic.Items.Add("WC Rob Robinson");
+                csapp3oic.Items.Add("CC John Wolfe");
+                csapp3oic.Items.Add("FF Steve Browne");
+                csapp3oic.Items.Add("FF Pat Feguson");
+                csapp3oic.Items.Add("FF Mervyn Housden");
+                csapp3oic.Items.Add("FF Michael Housden");
+                csapp3oic.Items.Add("FF Dave Shaw");
+                csapp3oic.Items.Add("FF Bob Smith");
+                csapp3oic.Items.Add("FF Paul Spoelstra");
+                csapp3oic.Items.Add("FF Jason Mansfield");
+                csapp3oic.Items.Add("FF Agata Wieczorek");
+                csapp3oic.Items.Add("FF Ryan Young");
+                csapp3oic.Items.Add("FF James Fenna");
+                csapp3oic.Items.Add("FF Cliff Roberts");
+                csapp3oic.Items.Add("FF Neil Roberts");
+
+                //DRIVER
+                csapp3driver.Items.Add("----DAY CREW----");
+                csapp3driver.Items.Add("WC Jon-Paul Jones");
+                csapp3driver.Items.Add("CC James Ball");
+                csapp3driver.Items.Add("FF Agata Wieczorek");
+                csapp3driver.Items.Add("FF Andrew Jones");
+                csapp3driver.Items.Add("FF Paul Davies");
+                csapp3driver.Items.Add("FF Dan Thomas");
+                csapp3driver.Items.Add("FF Sonya Bourne");
+                csapp3driver.Items.Add("----ON CALL----");
+                csapp3driver.Items.Add("WC Rob Robinson");
+                csapp3driver.Items.Add("CC John Wolfe");
+                csapp3driver.Items.Add("FF Steve Browne");
+                csapp3driver.Items.Add("FF Pat Feguson");
+                csapp3driver.Items.Add("FF Mervyn Housden");
+                csapp3driver.Items.Add("FF Michael Housden");
+                csapp3driver.Items.Add("FF Dave Shaw");
+                csapp3driver.Items.Add("FF Bob Smith");
+                csapp3driver.Items.Add("FF Paul Spoelstra");
+                csapp3driver.Items.Add("FF Jason Mansfield");
+                csapp3driver.Items.Add("FF Agata Wieczorek");
+                csapp3driver.Items.Add("FF Ryan Young");
+                csapp3driver.Items.Add("FF James Fenna");
+                csapp3driver.Items.Add("FF Cliff Roberts");
+                csapp3driver.Items.Add("FF Neil Roberts");
+                //BA1
+                csapp3ba1.Items.Add("----DAY CREW----");
+                csapp3ba1.Items.Add("WC Jon-Paul Jones");
+                csapp3ba1.Items.Add("CC James Ball");
+                csapp3ba1.Items.Add("FF Agata Wieczorek");
+                csapp3ba1.Items.Add("FF Andrew Jones");
+                csapp3ba1.Items.Add("FF Paul Davies");
+                csapp3ba1.Items.Add("FF Dan Thomas");
+                csapp3ba1.Items.Add("FF Sonya Bourne");
+                csapp3ba1.Items.Add("----ON CALL----");
+                csapp3ba1.Items.Add("WC Rob Robinson");
+                csapp3ba1.Items.Add("CC John Wolfe");
+                csapp3ba1.Items.Add("FF Steve Browne");
+                csapp3ba1.Items.Add("FF Pat Feguson");
+                csapp3ba1.Items.Add("FF Mervyn Housden");
+                csapp3ba1.Items.Add("FF Michael Housden");
+                csapp3ba1.Items.Add("FF Dave Shaw");
+                csapp3ba1.Items.Add("FF Bob Smith");
+                csapp3ba1.Items.Add("FF Paul Spoelstra");
+                csapp3ba1.Items.Add("FF Jason Mansfield");
+                csapp3ba1.Items.Add("FF Agata Wieczorek");
+                csapp3ba1.Items.Add("FF Ryan Young");
+                csapp3ba1.Items.Add("FF James Fenna");
+                csapp3ba1.Items.Add("FF Cliff Roberts");
+                csapp3ba1.Items.Add("FF Neil Roberts");
+                //BA2
+                csapp3ba2.Items.Add("----DAY CREW----");
+                csapp3ba2.Items.Add("WC Jon-Paul Jones");
+                csapp3ba2.Items.Add("CC James Ball");
+                csapp3ba2.Items.Add("FF Agata Wieczorek");
+                csapp3ba2.Items.Add("FF Andrew Jones");
+                csapp3ba2.Items.Add("FF Paul Davies");
+                csapp3ba2.Items.Add("FF Dan Thomas");
+                csapp3ba2.Items.Add("FF Sonya Bourne");
+                csapp3ba2.Items.Add("----ON CALL----");
+                csapp3ba2.Items.Add("WC Rob Robinson");
+                csapp3ba2.Items.Add("CC John Wolfe");
+                csapp3ba2.Items.Add("FF Steve Browne");
+                csapp3ba2.Items.Add("FF Pat Feguson");
+                csapp3ba2.Items.Add("FF Mervyn Housden");
+                csapp3ba2.Items.Add("FF Michael Housden");
+                csapp3ba2.Items.Add("FF Dave Shaw");
+                csapp3ba2.Items.Add("FF Bob Smith");
+                csapp3ba2.Items.Add("FF Paul Spoelstra");
+                csapp3ba2.Items.Add("FF Jason Mansfield");
+                csapp3ba2.Items.Add("FF Agata Wieczorek");
+                csapp3ba2.Items.Add("FF Ryan Young");
+                csapp3ba2.Items.Add("FF James Fenna");
+                csapp3ba2.Items.Add("FF Cliff Roberts");
+                csapp3ba2.Items.Add("FF Neil Roberts");
+                //ECO
+                csapp3eco.Items.Add("----DAY CREW----");
+                csapp3eco.Items.Add("WC Jon-Paul Jones");
+                csapp3eco.Items.Add("CC James Ball");
+                csapp3eco.Items.Add("FF Agata Wieczorek");
+                csapp3eco.Items.Add("FF Andrew Jones");
+                csapp3eco.Items.Add("FF Paul Davies");
+                csapp3eco.Items.Add("FF Dan Thomas");
+                csapp3eco.Items.Add("FF Sonya Bourne");
+                csapp3eco.Items.Add("----ON CALL----");
+                csapp3eco.Items.Add("WC Rob Robinson");
+                csapp3eco.Items.Add("CC John Wolfe");
+                csapp3eco.Items.Add("FF Steve Browne");
+                csapp3eco.Items.Add("FF Pat Feguson");
+                csapp3eco.Items.Add("FF Mervyn Housden");
+                csapp3eco.Items.Add("FF Michael Housden");
+                csapp3eco.Items.Add("FF Dave Shaw");
+                csapp3eco.Items.Add("FF Bob Smith");
+                csapp3eco.Items.Add("FF Paul Spoelstra");
+                csapp3eco.Items.Add("FF Jason Mansfield");
+                csapp3eco.Items.Add("FF Agata Wieczorek");
+                csapp3eco.Items.Add("FF Ryan Young");
+                csapp3eco.Items.Add("FF James Fenna");
+                csapp3eco.Items.Add("FF Cliff Roberts");
+                csapp3eco.Items.Add("FF Neil Roberts");
+                //6
+                csapp36.Items.Add("----DAY CREW----");
+                csapp36.Items.Add("WC Jon-Paul Jones");
+                csapp36.Items.Add("CC James Ball");
+                csapp36.Items.Add("FF Agata Wieczorek");
+                csapp36.Items.Add("FF Andrew Jones");
+                csapp36.Items.Add("FF Paul Davies");
+                csapp36.Items.Add("FF Dan Thomas");
+                csapp36.Items.Add("FF Sonya Bourne");
+                csapp36.Items.Add("----ON CALL----");
+                csapp36.Items.Add("WC Rob Robinson");
+                csapp36.Items.Add("CC John Wolfe");
+                csapp36.Items.Add("FF Steve Browne");
+                csapp36.Items.Add("FF Pat Feguson");
+                csapp36.Items.Add("FF Mervyn Housden");
+                csapp36.Items.Add("FF Michael Housden");
+                csapp36.Items.Add("FF Dave Shaw");
+                csapp36.Items.Add("FF Bob Smith");
+                csapp36.Items.Add("FF Paul Spoelstra");
+                csapp36.Items.Add("FF Jason Mansfield");
+                csapp36.Items.Add("FF Agata Wieczorek");
+                csapp36.Items.Add("FF Ryan Young");
+                csapp36.Items.Add("FF James Fenna");
+                csapp36.Items.Add("FF Cliff Roberts");
+                csapp36.Items.Add("FF Neil Roberts");
+            }
+            else if (csapp3.Text == "C13P5")
+            {
+                //OIC
+                csapp3oic.Items.Add("----DAY CREW----");
+                csapp3oic.Items.Add("WC Jon-Paul Jones");
+                csapp3oic.Items.Add("CC James Ball");
+                csapp3oic.Items.Add("FF Agata Wieczorek");
+                csapp3oic.Items.Add("FF Andrew Jones");
+                csapp3oic.Items.Add("FF Paul Davies");
+                csapp3oic.Items.Add("FF Dan Thomas");
+                csapp3oic.Items.Add("FF Sonya Bourne");
+                csapp3oic.Items.Add("----ON CALL----");
+                csapp3oic.Items.Add("WC Rob Robinson");
+                csapp3oic.Items.Add("CC John Wolfe");
+                csapp3oic.Items.Add("FF Steve Browne");
+                csapp3oic.Items.Add("FF Pat Feguson");
+                csapp3oic.Items.Add("FF Mervyn Housden");
+                csapp3oic.Items.Add("FF Michael Housden");
+                csapp3oic.Items.Add("FF Dave Shaw");
+                csapp3oic.Items.Add("FF Bob Smith");
+                csapp3oic.Items.Add("FF Paul Spoelstra");
+                csapp3oic.Items.Add("FF Jason Mansfield");
+                csapp3oic.Items.Add("FF Agata Wieczorek");
+                csapp3oic.Items.Add("FF Ryan Young");
+                csapp3oic.Items.Add("FF James Fenna");
+                csapp3oic.Items.Add("FF Cliff Roberts");
+                csapp3oic.Items.Add("FF Neil Roberts");
+
+                //DRIVER
+                csapp3driver.Items.Add("----DAY CREW----");
+                csapp3driver.Items.Add("WC Jon-Paul Jones");
+                csapp3driver.Items.Add("CC James Ball");
+                csapp3driver.Items.Add("FF Agata Wieczorek");
+                csapp3driver.Items.Add("FF Andrew Jones");
+                csapp3driver.Items.Add("FF Paul Davies");
+                csapp3driver.Items.Add("FF Dan Thomas");
+                csapp3driver.Items.Add("FF Sonya Bourne");
+                csapp3driver.Items.Add("----ON CALL----");
+                csapp3driver.Items.Add("WC Rob Robinson");
+                csapp3driver.Items.Add("CC John Wolfe");
+                csapp3driver.Items.Add("FF Steve Browne");
+                csapp3driver.Items.Add("FF Pat Feguson");
+                csapp3driver.Items.Add("FF Mervyn Housden");
+                csapp3driver.Items.Add("FF Michael Housden");
+                csapp3driver.Items.Add("FF Dave Shaw");
+                csapp3driver.Items.Add("FF Bob Smith");
+                csapp3driver.Items.Add("FF Paul Spoelstra");
+                csapp3driver.Items.Add("FF Jason Mansfield");
+                csapp3driver.Items.Add("FF Agata Wieczorek");
+                csapp3driver.Items.Add("FF Ryan Young");
+                csapp3driver.Items.Add("FF James Fenna");
+                csapp3driver.Items.Add("FF Cliff Roberts");
+                csapp3driver.Items.Add("FF Neil Roberts");
+                //BA1
+                csapp3ba1.Items.Add("----DAY CREW----");
+                csapp3ba1.Items.Add("WC Jon-Paul Jones");
+                csapp3ba1.Items.Add("CC James Ball");
+                csapp3ba1.Items.Add("FF Agata Wieczorek");
+                csapp3ba1.Items.Add("FF Andrew Jones");
+                csapp3ba1.Items.Add("FF Paul Davies");
+                csapp3ba1.Items.Add("FF Dan Thomas");
+                csapp3ba1.Items.Add("FF Sonya Bourne");
+                csapp3ba1.Items.Add("----ON CALL----");
+                csapp3ba1.Items.Add("WC Rob Robinson");
+                csapp3ba1.Items.Add("CC John Wolfe");
+                csapp3ba1.Items.Add("FF Steve Browne");
+                csapp3ba1.Items.Add("FF Pat Feguson");
+                csapp3ba1.Items.Add("FF Mervyn Housden");
+                csapp3ba1.Items.Add("FF Michael Housden");
+                csapp3ba1.Items.Add("FF Dave Shaw");
+                csapp3ba1.Items.Add("FF Bob Smith");
+                csapp3ba1.Items.Add("FF Paul Spoelstra");
+                csapp3ba1.Items.Add("FF Jason Mansfield");
+                csapp3ba1.Items.Add("FF Agata Wieczorek");
+                csapp3ba1.Items.Add("FF Ryan Young");
+                csapp3ba1.Items.Add("FF James Fenna");
+                csapp3ba1.Items.Add("FF Cliff Roberts");
+                csapp3ba1.Items.Add("FF Neil Roberts");
+                //BA2
+                csapp3ba2.Items.Add("----DAY CREW----");
+                csapp3ba2.Items.Add("WC Jon-Paul Jones");
+                csapp3ba2.Items.Add("CC James Ball");
+                csapp3ba2.Items.Add("FF Agata Wieczorek");
+                csapp3ba2.Items.Add("FF Andrew Jones");
+                csapp3ba2.Items.Add("FF Paul Davies");
+                csapp3ba2.Items.Add("FF Dan Thomas");
+                csapp3ba2.Items.Add("FF Sonya Bourne");
+                csapp3ba2.Items.Add("----ON CALL----");
+                csapp3ba2.Items.Add("WC Rob Robinson");
+                csapp3ba2.Items.Add("CC John Wolfe");
+                csapp3ba2.Items.Add("FF Steve Browne");
+                csapp3ba2.Items.Add("FF Pat Feguson");
+                csapp3ba2.Items.Add("FF Mervyn Housden");
+                csapp3ba2.Items.Add("FF Michael Housden");
+                csapp3ba2.Items.Add("FF Dave Shaw");
+                csapp3ba2.Items.Add("FF Bob Smith");
+                csapp3ba2.Items.Add("FF Paul Spoelstra");
+                csapp3ba2.Items.Add("FF Jason Mansfield");
+                csapp3ba2.Items.Add("FF Agata Wieczorek");
+                csapp3ba2.Items.Add("FF Ryan Young");
+                csapp3ba2.Items.Add("FF James Fenna");
+                csapp3ba2.Items.Add("FF Cliff Roberts");
+                csapp3ba2.Items.Add("FF Neil Roberts");
+                //ECO
+                csapp3eco.Items.Add("----DAY CREW----");
+                csapp3eco.Items.Add("WC Jon-Paul Jones");
+                csapp3eco.Items.Add("CC James Ball");
+                csapp3eco.Items.Add("FF Agata Wieczorek");
+                csapp3eco.Items.Add("FF Andrew Jones");
+                csapp3eco.Items.Add("FF Paul Davies");
+                csapp3eco.Items.Add("FF Dan Thomas");
+                csapp3eco.Items.Add("FF Sonya Bourne");
+                csapp3eco.Items.Add("----ON CALL----");
+                csapp3eco.Items.Add("WC Rob Robinson");
+                csapp3eco.Items.Add("CC John Wolfe");
+                csapp3eco.Items.Add("FF Steve Browne");
+                csapp3eco.Items.Add("FF Pat Feguson");
+                csapp3eco.Items.Add("FF Mervyn Housden");
+                csapp3eco.Items.Add("FF Michael Housden");
+                csapp3eco.Items.Add("FF Dave Shaw");
+                csapp3eco.Items.Add("FF Bob Smith");
+                csapp3eco.Items.Add("FF Paul Spoelstra");
+                csapp3eco.Items.Add("FF Jason Mansfield");
+                csapp3eco.Items.Add("FF Agata Wieczorek");
+                csapp3eco.Items.Add("FF Ryan Young");
+                csapp3eco.Items.Add("FF James Fenna");
+                csapp3eco.Items.Add("FF Cliff Roberts");
+                csapp3eco.Items.Add("FF Neil Roberts");
+                //6
+                csapp36.Items.Add("----DAY CREW----");
+                csapp36.Items.Add("WC Jon-Paul Jones");
+                csapp36.Items.Add("CC James Ball");
+                csapp36.Items.Add("FF Agata Wieczorek");
+                csapp36.Items.Add("FF Andrew Jones");
+                csapp36.Items.Add("FF Paul Davies");
+                csapp36.Items.Add("FF Dan Thomas");
+                csapp36.Items.Add("FF Sonya Bourne");
+                csapp36.Items.Add("----ON CALL----");
+                csapp36.Items.Add("WC Rob Robinson");
+                csapp36.Items.Add("CC John Wolfe");
+                csapp36.Items.Add("FF Steve Browne");
+                csapp36.Items.Add("FF Pat Feguson");
+                csapp36.Items.Add("FF Mervyn Housden");
+                csapp36.Items.Add("FF Michael Housden");
+                csapp36.Items.Add("FF Dave Shaw");
+                csapp36.Items.Add("FF Bob Smith");
+                csapp36.Items.Add("FF Paul Spoelstra");
+                csapp36.Items.Add("FF Jason Mansfield");
+                csapp36.Items.Add("FF Agata Wieczorek");
+                csapp36.Items.Add("FF Ryan Young");
+                csapp36.Items.Add("FF James Fenna");
+                csapp36.Items.Add("FF Cliff Roberts");
+                csapp36.Items.Add("FF Neil Roberts");
+            }
+
+            else if (csapp3.Text == "C14P4")
+            {
+                //OIC
+                csapp3oic.Items.Add("----RED----");
+                csapp3oic.Items.Add("WC Will Collins");
+                csapp3oic.Items.Add("CC Adam Parkinson");
+                csapp3oic.Items.Add("FF Phil Taylor");
+                csapp3oic.Items.Add("FF Matt Clapinson");
+                csapp3oic.Items.Add("FF Chris Glading");
+                csapp3oic.Items.Add("FF Paul Ruff");
+                csapp3oic.Items.Add("FF Mark Sansum");
+                csapp3oic.Items.Add("FF Julian Stebbing");
+                csapp3oic.Items.Add("FF Richard Wilkinson");
+                csapp3oic.Items.Add("----WHITE----");
+                csapp3oic.Items.Add("WC Tony Fitzjohn");
+                csapp3oic.Items.Add("CC Brian Ferguson");
+                csapp3oic.Items.Add("FF Colin Bartlett");
+                csapp3oic.Items.Add("FF Barry Boreham");
+                csapp3oic.Items.Add("FF Phil Gould");
+                csapp3oic.Items.Add("FF Clive Halls");
+                csapp3oic.Items.Add("FF Matt Johnson");
+                csapp3oic.Items.Add("FF Jaime Harker");
+                csapp3oic.Items.Add("----BLACK----");
+                csapp3oic.Items.Add("WC Steve Peacock");
+                csapp3oic.Items.Add("CC Joe Gacon");
+                csapp3oic.Items.Add("FF Jason Lindley");
+                csapp3oic.Items.Add("FF Darren Edwards");
+                csapp3oic.Items.Add("FF Adam Hanney");
+                csapp3oic.Items.Add("FF Sarah Lamming");
+                csapp3oic.Items.Add("FF Andy Russell");
+                csapp3oic.Items.Add("FF Ryan Day");
+                csapp3oic.Items.Add("----GREEN----");
+                csapp3oic.Items.Add("WC Jon Crowley");
+                csapp3oic.Items.Add("CC Pete Faulder");
+                csapp3oic.Items.Add("FF Andy Ellis");
+                csapp3oic.Items.Add("FF Stuart Follen");
+                csapp3oic.Items.Add("FF Darren Cleveland");
+                csapp3oic.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3oic.Items.Add("FF Paul Morehen");
+                csapp3oic.Items.Add("FF Richard Stebbing");
+                //DRIVER
+                csapp3driver.Items.Add("----RED----");
+                csapp3driver.Items.Add("WC Will Collins");
+                csapp3driver.Items.Add("CC Adam Parkinson");
+                csapp3driver.Items.Add("FF Phil Taylor");
+                csapp3driver.Items.Add("FF Matt Clapinson");
+                csapp3driver.Items.Add("FF Chris Glading");
+                csapp3driver.Items.Add("FF Paul Ruff");
+                csapp3driver.Items.Add("FF Mark Sansum");
+                csapp3driver.Items.Add("FF Julian Stebbing");
+                csapp3driver.Items.Add("FF Richard Wilkinson");
+                csapp3driver.Items.Add("----WHITE----");
+                csapp3driver.Items.Add("WC Tony Fitzjohn");
+                csapp3driver.Items.Add("CC Brian Ferguson");
+                csapp3driver.Items.Add("FF Colin Bartlett");
+                csapp3driver.Items.Add("FF Barry Boreham");
+                csapp3driver.Items.Add("FF Phil Gould");
+                csapp3driver.Items.Add("FF Clive Halls");
+                csapp3driver.Items.Add("FF Matt Johnson");
+                csapp3driver.Items.Add("FF Jaime Harker");
+                csapp3driver.Items.Add("----BLACK----");
+                csapp3driver.Items.Add("WC Steve Peacock");
+                csapp3driver.Items.Add("CC Joe Gacon");
+                csapp3driver.Items.Add("FF Jason Lindley");
+                csapp3driver.Items.Add("FF Darren Edwards");
+                csapp3driver.Items.Add("FF Adam Hanney");
+                csapp3driver.Items.Add("FF Sarah Lamming");
+                csapp3driver.Items.Add("FF Andy Russell");
+                csapp3driver.Items.Add("FF Ryan Day");
+                csapp3driver.Items.Add("----GREEN----");
+                csapp3driver.Items.Add("WC Jon Crowley");
+                csapp3driver.Items.Add("CC Pete Faulder");
+                csapp3driver.Items.Add("FF Andy Ellis");
+                csapp3driver.Items.Add("FF Stuart Follen");
+                csapp3driver.Items.Add("FF Darren Cleveland");
+                csapp3driver.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3driver.Items.Add("FF Paul Morehen");
+                csapp3driver.Items.Add("FF Richard Stebbing");
+                //BA1
+                csapp3ba1.Items.Add("----RED----");
+                csapp3ba1.Items.Add("WC Will Collins");
+                csapp3ba1.Items.Add("CC Adam Parkinson");
+                csapp3ba1.Items.Add("FF Phil Taylor");
+                csapp3ba1.Items.Add("FF Matt Clapinson");
+                csapp3ba1.Items.Add("FF Chris Glading");
+                csapp3ba1.Items.Add("FF Paul Ruff");
+                csapp3ba1.Items.Add("FF Mark Sansum");
+                csapp3ba1.Items.Add("FF Julian Stebbing");
+                csapp3ba1.Items.Add("FF Richard Wilkinson");
+                csapp3ba1.Items.Add("----WHITE----");
+                csapp3ba1.Items.Add("WC Tony Fitzjohn");
+                csapp3ba1.Items.Add("CC Brian Ferguson");
+                csapp3ba1.Items.Add("FF Colin Bartlett");
+                csapp3ba1.Items.Add("FF Barry Boreham");
+                csapp3ba1.Items.Add("FF Phil Gould");
+                csapp3ba1.Items.Add("FF Clive Halls");
+                csapp3ba1.Items.Add("FF Matt Johnson");
+                csapp3ba1.Items.Add("FF Jaime Harker");
+                csapp3ba1.Items.Add("----BLACK----");
+                csapp3ba1.Items.Add("WC Steve Peacock");
+                csapp3ba1.Items.Add("CC Joe Gacon");
+                csapp3ba1.Items.Add("FF Jason Lindley");
+                csapp3ba1.Items.Add("FF Darren Edwards");
+                csapp3ba1.Items.Add("FF Adam Hanney");
+                csapp3ba1.Items.Add("FF Sarah Lamming");
+                csapp3ba1.Items.Add("FF Andy Russell");
+                csapp3ba1.Items.Add("FF Ryan Day");
+                csapp3ba1.Items.Add("----GREEN----");
+                csapp3ba1.Items.Add("WC Jon Crowley");
+                csapp3ba1.Items.Add("CC Pete Faulder");
+                csapp3ba1.Items.Add("FF Andy Ellis");
+                csapp3ba1.Items.Add("FF Stuart Follen");
+                csapp3ba1.Items.Add("FF Darren Cleveland");
+                csapp3ba1.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3ba1.Items.Add("FF Paul Morehen");
+                csapp3ba1.Items.Add("FF Richard Stebbing");
+                //BA2
+                csapp3ba2.Items.Add("----RED----");
+                csapp3ba2.Items.Add("WC Will Collins");
+                csapp3ba2.Items.Add("CC Adam Parkinson");
+                csapp3ba2.Items.Add("FF Phil Taylor");
+                csapp3ba2.Items.Add("FF Matt Clapinson");
+                csapp3ba2.Items.Add("FF Chris Glading");
+                csapp3ba2.Items.Add("FF Paul Ruff");
+                csapp3ba2.Items.Add("FF Mark Sansum");
+                csapp3ba2.Items.Add("FF Julian Stebbing");
+                csapp3ba2.Items.Add("FF Richard Wilkinson");
+                csapp3ba2.Items.Add("----WHITE----");
+                csapp3ba2.Items.Add("WC Tony Fitzjohn");
+                csapp3ba2.Items.Add("CC Brian Ferguson");
+                csapp3ba2.Items.Add("FF Colin Bartlett");
+                csapp3ba2.Items.Add("FF Barry Boreham");
+                csapp3ba2.Items.Add("FF Phil Gould");
+                csapp3ba2.Items.Add("FF Clive Halls");
+                csapp3ba2.Items.Add("FF Matt Johnson");
+                csapp3ba2.Items.Add("FF Jaime Harker");
+                csapp3ba2.Items.Add("----BLACK----");
+                csapp3ba2.Items.Add("WC Steve Peacock");
+                csapp3ba2.Items.Add("CC Joe Gacon");
+                csapp3ba2.Items.Add("FF Jason Lindley");
+                csapp3ba2.Items.Add("FF Darren Edwards");
+                csapp3ba2.Items.Add("FF Adam Hanney");
+                csapp3ba2.Items.Add("FF Sarah Lamming");
+                csapp3ba2.Items.Add("FF Andy Russell");
+                csapp3ba2.Items.Add("FF Ryan Day");
+                csapp3ba2.Items.Add("----GREEN----");
+                csapp3ba2.Items.Add("WC Jon Crowley");
+                csapp3ba2.Items.Add("CC Pete Faulder");
+                csapp3ba2.Items.Add("FF Andy Ellis");
+                csapp3ba2.Items.Add("FF Stuart Follen");
+                csapp3ba2.Items.Add("FF Darren Cleveland");
+                csapp3ba2.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3ba2.Items.Add("FF Paul Morehen");
+                csapp3ba2.Items.Add("FF Richard Stebbing");
+                //ECO
+                csapp3eco.Items.Add("----RED----");
+                csapp3eco.Items.Add("WC Will Collins");
+                csapp3eco.Items.Add("CC Adam Parkinson");
+                csapp3eco.Items.Add("FF Phil Taylor");
+                csapp3eco.Items.Add("FF Matt Clapinson");
+                csapp3eco.Items.Add("FF Chris Glading");
+                csapp3eco.Items.Add("FF Paul Ruff");
+                csapp3eco.Items.Add("FF Mark Sansum");
+                csapp3eco.Items.Add("FF Julian Stebbing");
+                csapp3eco.Items.Add("FF Richard Wilkinson");
+                csapp3eco.Items.Add("----WHITE----");
+                csapp3eco.Items.Add("WC Tony Fitzjohn");
+                csapp3eco.Items.Add("CC Brian Ferguson");
+                csapp3eco.Items.Add("FF Colin Bartlett");
+                csapp3eco.Items.Add("FF Barry Boreham");
+                csapp3eco.Items.Add("FF Phil Gould");
+                csapp3eco.Items.Add("FF Clive Halls");
+                csapp3eco.Items.Add("FF Matt Johnson");
+                csapp3eco.Items.Add("FF Jaime Harker");
+                csapp3eco.Items.Add("----BLACK----");
+                csapp3eco.Items.Add("WC Steve Peacock");
+                csapp3eco.Items.Add("CC Joe Gacon");
+                csapp3eco.Items.Add("FF Jason Lindley");
+                csapp3eco.Items.Add("FF Darren Edwards");
+                csapp3eco.Items.Add("FF Adam Hanney");
+                csapp3eco.Items.Add("FF Sarah Lamming");
+                csapp3eco.Items.Add("FF Andy Russell");
+                csapp3eco.Items.Add("FF Ryan Day");
+                csapp3eco.Items.Add("----GREEN----");
+                csapp3eco.Items.Add("WC Jon Crowley");
+                csapp3eco.Items.Add("CC Pete Faulder");
+                csapp3eco.Items.Add("FF Andy Ellis");
+                csapp3eco.Items.Add("FF Stuart Follen");
+                csapp3eco.Items.Add("FF Darren Cleveland");
+                csapp3eco.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3eco.Items.Add("FF Paul Morehen");
+                csapp3eco.Items.Add("FF Richard Stebbing");
+                //6
+                csapp36.Items.Add("----RED----");
+                csapp36.Items.Add("WC Will Collins");
+                csapp36.Items.Add("CC Adam Parkinson");
+                csapp36.Items.Add("FF Phil Taylor");
+                csapp36.Items.Add("FF Matt Clapinson");
+                csapp36.Items.Add("FF Chris Glading");
+                csapp36.Items.Add("FF Paul Ruff");
+                csapp36.Items.Add("FF Mark Sansum");
+                csapp36.Items.Add("FF Julian Stebbing");
+                csapp36.Items.Add("FF Richard Wilkinson");
+                csapp36.Items.Add("----WHITE----");
+                csapp36.Items.Add("WC Tony Fitzjohn");
+                csapp36.Items.Add("CC Brian Ferguson");
+                csapp36.Items.Add("FF Colin Bartlett");
+                csapp36.Items.Add("FF Barry Boreham");
+                csapp36.Items.Add("FF Phil Gould");
+                csapp36.Items.Add("FF Clive Halls");
+                csapp36.Items.Add("FF Matt Johnson");
+                csapp36.Items.Add("FF Jaime Harker");
+                csapp36.Items.Add("----BLACK----");
+                csapp36.Items.Add("WC Steve Peacock");
+                csapp36.Items.Add("CC Joe Gacon");
+                csapp36.Items.Add("FF Jason Lindley");
+                csapp36.Items.Add("FF Darren Edwards");
+                csapp36.Items.Add("FF Adam Hanney");
+                csapp36.Items.Add("FF Sarah Lamming");
+                csapp36.Items.Add("FF Andy Russell");
+                csapp36.Items.Add("FF Ryan Day");
+                csapp36.Items.Add("----GREEN----");
+                csapp36.Items.Add("WC Jon Crowley");
+                csapp36.Items.Add("CC Pete Faulder");
+                csapp36.Items.Add("FF Andy Ellis");
+                csapp36.Items.Add("FF Stuart Follen");
+                csapp36.Items.Add("FF Darren Cleveland");
+                csapp36.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp36.Items.Add("FF Paul Morehen");
+                csapp36.Items.Add("FF Richard Stebbing");
+            }
+            else if (csapp3.Text == "C14P5")
+            {
+                //OIC
+                csapp3oic.Items.Add("----RED----");
+                csapp3oic.Items.Add("WC Will Collins");
+                csapp3oic.Items.Add("CC Adam Parkinson");
+                csapp3oic.Items.Add("FF Phil Taylor");
+                csapp3oic.Items.Add("FF Matt Clapinson");
+                csapp3oic.Items.Add("FF Chris Glading");
+                csapp3oic.Items.Add("FF Paul Ruff");
+                csapp3oic.Items.Add("FF Mark Sansum");
+                csapp3oic.Items.Add("FF Julian Stebbing");
+                csapp3oic.Items.Add("FF Richard Wilkinson");
+                csapp3oic.Items.Add("----WHITE----");
+                csapp3oic.Items.Add("WC Tony Fitzjohn");
+                csapp3oic.Items.Add("CC Brian Ferguson");
+                csapp3oic.Items.Add("FF Colin Bartlett");
+                csapp3oic.Items.Add("FF Barry Boreham");
+                csapp3oic.Items.Add("FF Phil Gould");
+                csapp3oic.Items.Add("FF Clive Halls");
+                csapp3oic.Items.Add("FF Matt Johnson");
+                csapp3oic.Items.Add("FF Jaime Harker");
+                csapp3oic.Items.Add("----BLACK----");
+                csapp3oic.Items.Add("WC Steve Peacock");
+                csapp3oic.Items.Add("CC Joe Gacon");
+                csapp3oic.Items.Add("FF Jason Lindley");
+                csapp3oic.Items.Add("FF Darren Edwards");
+                csapp3oic.Items.Add("FF Adam Hanney");
+                csapp3oic.Items.Add("FF Sarah Lamming");
+                csapp3oic.Items.Add("FF Andy Russell");
+                csapp3oic.Items.Add("FF Ryan Day");
+                csapp3oic.Items.Add("----GREEN----");
+                csapp3oic.Items.Add("WC Jon Crowley");
+                csapp3oic.Items.Add("CC Pete Faulder");
+                csapp3oic.Items.Add("FF Andy Ellis");
+                csapp3oic.Items.Add("FF Stuart Follen");
+                csapp3oic.Items.Add("FF Darren Cleveland");
+                csapp3oic.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3oic.Items.Add("FF Paul Morehen");
+                csapp3oic.Items.Add("FF Richard Stebbing");
+                //DRIVER
+                csapp3driver.Items.Add("----RED----");
+                csapp3driver.Items.Add("WC Will Collins");
+                csapp3driver.Items.Add("CC Adam Parkinson");
+                csapp3driver.Items.Add("FF Phil Taylor");
+                csapp3driver.Items.Add("FF Matt Clapinson");
+                csapp3driver.Items.Add("FF Chris Glading");
+                csapp3driver.Items.Add("FF Paul Ruff");
+                csapp3driver.Items.Add("FF Mark Sansum");
+                csapp3driver.Items.Add("FF Julian Stebbing");
+                csapp3driver.Items.Add("FF Richard Wilkinson");
+                csapp3driver.Items.Add("----WHITE----");
+                csapp3driver.Items.Add("WC Tony Fitzjohn");
+                csapp3driver.Items.Add("CC Brian Ferguson");
+                csapp3driver.Items.Add("FF Colin Bartlett");
+                csapp3driver.Items.Add("FF Barry Boreham");
+                csapp3driver.Items.Add("FF Phil Gould");
+                csapp3driver.Items.Add("FF Clive Halls");
+                csapp3driver.Items.Add("FF Matt Johnson");
+                csapp3driver.Items.Add("FF Jaime Harker");
+                csapp3driver.Items.Add("----BLACK----");
+                csapp3driver.Items.Add("WC Steve Peacock");
+                csapp3driver.Items.Add("CC Joe Gacon");
+                csapp3driver.Items.Add("FF Jason Lindley");
+                csapp3driver.Items.Add("FF Darren Edwards");
+                csapp3driver.Items.Add("FF Adam Hanney");
+                csapp3driver.Items.Add("FF Sarah Lamming");
+                csapp3driver.Items.Add("FF Andy Russell");
+                csapp3driver.Items.Add("FF Ryan Day");
+                csapp3driver.Items.Add("----GREEN----");
+                csapp3driver.Items.Add("WC Jon Crowley");
+                csapp3driver.Items.Add("CC Pete Faulder");
+                csapp3driver.Items.Add("FF Andy Ellis");
+                csapp3driver.Items.Add("FF Stuart Follen");
+                csapp3driver.Items.Add("FF Darren Cleveland");
+                csapp3driver.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3driver.Items.Add("FF Paul Morehen");
+                csapp3driver.Items.Add("FF Richard Stebbing");
+                //BA1
+                csapp3ba1.Items.Add("----RED----");
+                csapp3ba1.Items.Add("WC Will Collins");
+                csapp3ba1.Items.Add("CC Adam Parkinson");
+                csapp3ba1.Items.Add("FF Phil Taylor");
+                csapp3ba1.Items.Add("FF Matt Clapinson");
+                csapp3ba1.Items.Add("FF Chris Glading");
+                csapp3ba1.Items.Add("FF Paul Ruff");
+                csapp3ba1.Items.Add("FF Mark Sansum");
+                csapp3ba1.Items.Add("FF Julian Stebbing");
+                csapp3ba1.Items.Add("FF Richard Wilkinson");
+                csapp3ba1.Items.Add("----WHITE----");
+                csapp3ba1.Items.Add("WC Tony Fitzjohn");
+                csapp3ba1.Items.Add("CC Brian Ferguson");
+                csapp3ba1.Items.Add("FF Colin Bartlett");
+                csapp3ba1.Items.Add("FF Barry Boreham");
+                csapp3ba1.Items.Add("FF Phil Gould");
+                csapp3ba1.Items.Add("FF Clive Halls");
+                csapp3ba1.Items.Add("FF Matt Johnson");
+                csapp3ba1.Items.Add("FF Jaime Harker");
+                csapp3ba1.Items.Add("----BLACK----");
+                csapp3ba1.Items.Add("WC Steve Peacock");
+                csapp3ba1.Items.Add("CC Joe Gacon");
+                csapp3ba1.Items.Add("FF Jason Lindley");
+                csapp3ba1.Items.Add("FF Darren Edwards");
+                csapp3ba1.Items.Add("FF Adam Hanney");
+                csapp3ba1.Items.Add("FF Sarah Lamming");
+                csapp3ba1.Items.Add("FF Andy Russell");
+                csapp3ba1.Items.Add("FF Ryan Day");
+                csapp3ba1.Items.Add("----GREEN----");
+                csapp3ba1.Items.Add("WC Jon Crowley");
+                csapp3ba1.Items.Add("CC Pete Faulder");
+                csapp3ba1.Items.Add("FF Andy Ellis");
+                csapp3ba1.Items.Add("FF Stuart Follen");
+                csapp3ba1.Items.Add("FF Darren Cleveland");
+                csapp3ba1.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3ba1.Items.Add("FF Paul Morehen");
+                csapp3ba1.Items.Add("FF Richard Stebbing");
+                //BA2
+                csapp3ba2.Items.Add("----RED----");
+                csapp3ba2.Items.Add("WC Will Collins");
+                csapp3ba2.Items.Add("CC Adam Parkinson");
+                csapp3ba2.Items.Add("FF Phil Taylor");
+                csapp3ba2.Items.Add("FF Matt Clapinson");
+                csapp3ba2.Items.Add("FF Chris Glading");
+                csapp3ba2.Items.Add("FF Paul Ruff");
+                csapp3ba2.Items.Add("FF Mark Sansum");
+                csapp3ba2.Items.Add("FF Julian Stebbing");
+                csapp3ba2.Items.Add("FF Richard Wilkinson");
+                csapp3ba2.Items.Add("----WHITE----");
+                csapp3ba2.Items.Add("WC Tony Fitzjohn");
+                csapp3ba2.Items.Add("CC Brian Ferguson");
+                csapp3ba2.Items.Add("FF Colin Bartlett");
+                csapp3ba2.Items.Add("FF Barry Boreham");
+                csapp3ba2.Items.Add("FF Phil Gould");
+                csapp3ba2.Items.Add("FF Clive Halls");
+                csapp3ba2.Items.Add("FF Matt Johnson");
+                csapp3ba2.Items.Add("FF Jaime Harker");
+                csapp3ba2.Items.Add("----BLACK----");
+                csapp3ba2.Items.Add("WC Steve Peacock");
+                csapp3ba2.Items.Add("CC Joe Gacon");
+                csapp3ba2.Items.Add("FF Jason Lindley");
+                csapp3ba2.Items.Add("FF Darren Edwards");
+                csapp3ba2.Items.Add("FF Adam Hanney");
+                csapp3ba2.Items.Add("FF Sarah Lamming");
+                csapp3ba2.Items.Add("FF Andy Russell");
+                csapp3ba2.Items.Add("FF Ryan Day");
+                csapp3ba2.Items.Add("----GREEN----");
+                csapp3ba2.Items.Add("WC Jon Crowley");
+                csapp3ba2.Items.Add("CC Pete Faulder");
+                csapp3ba2.Items.Add("FF Andy Ellis");
+                csapp3ba2.Items.Add("FF Stuart Follen");
+                csapp3ba2.Items.Add("FF Darren Cleveland");
+                csapp3ba2.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3ba2.Items.Add("FF Paul Morehen");
+                csapp3ba2.Items.Add("FF Richard Stebbing");
+                //ECO
+                csapp3eco.Items.Add("----RED----");
+                csapp3eco.Items.Add("WC Will Collins");
+                csapp3eco.Items.Add("CC Adam Parkinson");
+                csapp3eco.Items.Add("FF Phil Taylor");
+                csapp3eco.Items.Add("FF Matt Clapinson");
+                csapp3eco.Items.Add("FF Chris Glading");
+                csapp3eco.Items.Add("FF Paul Ruff");
+                csapp3eco.Items.Add("FF Mark Sansum");
+                csapp3eco.Items.Add("FF Julian Stebbing");
+                csapp3eco.Items.Add("FF Richard Wilkinson");
+                csapp3eco.Items.Add("----WHITE----");
+                csapp3eco.Items.Add("WC Tony Fitzjohn");
+                csapp3eco.Items.Add("CC Brian Ferguson");
+                csapp3eco.Items.Add("FF Colin Bartlett");
+                csapp3eco.Items.Add("FF Barry Boreham");
+                csapp3eco.Items.Add("FF Phil Gould");
+                csapp3eco.Items.Add("FF Clive Halls");
+                csapp3eco.Items.Add("FF Matt Johnson");
+                csapp3eco.Items.Add("FF Jaime Harker");
+                csapp3eco.Items.Add("----BLACK----");
+                csapp3eco.Items.Add("WC Steve Peacock");
+                csapp3eco.Items.Add("CC Joe Gacon");
+                csapp3eco.Items.Add("FF Jason Lindley");
+                csapp3eco.Items.Add("FF Darren Edwards");
+                csapp3eco.Items.Add("FF Adam Hanney");
+                csapp3eco.Items.Add("FF Sarah Lamming");
+                csapp3eco.Items.Add("FF Andy Russell");
+                csapp3eco.Items.Add("FF Ryan Day");
+                csapp3eco.Items.Add("----GREEN----");
+                csapp3eco.Items.Add("WC Jon Crowley");
+                csapp3eco.Items.Add("CC Pete Faulder");
+                csapp3eco.Items.Add("FF Andy Ellis");
+                csapp3eco.Items.Add("FF Stuart Follen");
+                csapp3eco.Items.Add("FF Darren Cleveland");
+                csapp3eco.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp3eco.Items.Add("FF Paul Morehen");
+                csapp3eco.Items.Add("FF Richard Stebbing");
+                //6
+                csapp36.Items.Add("----RED----");
+                csapp36.Items.Add("WC Will Collins");
+                csapp36.Items.Add("CC Adam Parkinson");
+                csapp36.Items.Add("FF Phil Taylor");
+                csapp36.Items.Add("FF Matt Clapinson");
+                csapp36.Items.Add("FF Chris Glading");
+                csapp36.Items.Add("FF Paul Ruff");
+                csapp36.Items.Add("FF Mark Sansum");
+                csapp36.Items.Add("FF Julian Stebbing");
+                csapp36.Items.Add("FF Richard Wilkinson");
+                csapp36.Items.Add("----WHITE----");
+                csapp36.Items.Add("WC Tony Fitzjohn");
+                csapp36.Items.Add("CC Brian Ferguson");
+                csapp36.Items.Add("FF Colin Bartlett");
+                csapp36.Items.Add("FF Barry Boreham");
+                csapp36.Items.Add("FF Phil Gould");
+                csapp36.Items.Add("FF Clive Halls");
+                csapp36.Items.Add("FF Matt Johnson");
+                csapp36.Items.Add("FF Jaime Harker");
+                csapp36.Items.Add("----BLACK----");
+                csapp36.Items.Add("WC Steve Peacock");
+                csapp36.Items.Add("CC Joe Gacon");
+                csapp36.Items.Add("FF Jason Lindley");
+                csapp36.Items.Add("FF Darren Edwards");
+                csapp36.Items.Add("FF Adam Hanney");
+                csapp36.Items.Add("FF Sarah Lamming");
+                csapp36.Items.Add("FF Andy Russell");
+                csapp36.Items.Add("FF Ryan Day");
+                csapp36.Items.Add("----GREEN----");
+                csapp36.Items.Add("WC Jon Crowley");
+                csapp36.Items.Add("CC Pete Faulder");
+                csapp36.Items.Add("FF Andy Ellis");
+                csapp36.Items.Add("FF Stuart Follen");
+                csapp36.Items.Add("FF Darren Cleveland");
+                csapp36.Items.Add("FF Hai Tao(BILL) Liu");
+                csapp36.Items.Add("FF Paul Morehen");
+                csapp36.Items.Add("FF Richard Stebbing");
+            }
         }
     }
 
