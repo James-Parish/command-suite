@@ -506,6 +506,132 @@ namespace Command_Suite
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+            //crew numbers
+            int crew1ff = Int32.Parse(textBox9.Text);
+            int crew1cc = Int32.Parse(textBox8.Text);
+            int crew1wc = Int32.Parse(textBox7.Text);
+
+            int crew2ff = Int32.Parse(textBox12.Text);
+            int crew2cc = Int32.Parse(textBox11.Text);
+            int crew2wc = Int32.Parse(textBox10.Text);
+
+            int crew3ff = Int32.Parse(textBox61.Text);
+            int crew3cc = Int32.Parse(textBox60.Text);
+            int crew3wc = Int32.Parse(textBox59.Text);
+
+            int crew4ff = Int32.Parse(textBox82.Text);
+            int crew4cc = Int32.Parse(textBox81.Text);
+            int crew4wc = Int32.Parse(textBox80.Text);
+
+            int crew5ff = Int32.Parse(textBox103.Text);
+            int crew5cc = Int32.Parse(textBox102.Text);
+            int crew5wc = Int32.Parse(textBox101.Text);
+
+            int crew6ff = Int32.Parse(textBox124.Text);
+            int crew6cc = Int32.Parse(textBox123.Text);
+            int crew6wc = Int32.Parse(textBox122.Text);
+
+            int crew7ff = Int32.Parse(textBox145.Text);
+            int crew7cc = Int32.Parse(textBox144.Text);
+            int crew7wc = Int32.Parse(textBox143.Text);
+
+            int crew8ff = Int32.Parse(textBox166.Text);
+            int crew8cc = Int32.Parse(textBox165.Text);
+            int crew8wc = Int32.Parse(textBox164.Text);
+
+            // this label section is the crew totals
+           // label60.Text = (crew1ff + crew1cc + crew1wc).ToString();
+           // label59.Text = (crew2ff + crew2cc + crew2wc).ToString();
+           // label58.Text = (crew3ff + crew3cc + crew3wc).ToString();
+           // label57.Text = (crew4ff + crew4cc + crew4wc).ToString();
+           // label56.Text = (crew5ff + crew5cc + crew5wc).ToString();
+           // label55.Text = (crew6ff + crew6cc + crew6wc).ToString();
+           // label54.Text = (crew7ff + crew7cc + crew7wc).ToString();
+           // label53.Text = (crew8ff + crew8cc + crew8wc).ToString();
+
+
+            textBox193.Text = (crew1ff + crew1cc + crew1wc).ToString();
+            textBox194.Text = (crew2ff + crew2cc + crew2wc).ToString();
+            textBox203.Text = (crew3ff + crew3cc + crew3wc).ToString();
+            textBox443.Text = (crew4ff + crew4cc + crew4wc).ToString();
+            textBox444.Text = (crew5ff + crew5cc + crew5wc).ToString();
+            textBox445.Text = (crew6ff + crew6cc + crew6wc).ToString();
+            textBox446.Text = (crew7ff + crew7cc + crew7wc).ToString();
+            textBox447.Text = (crew8ff + crew8cc + crew8wc).ToString();
+
+            int crew1total = Int32.Parse(textBox193.Text);
+            int crew2total = Int32.Parse(textBox194.Text);
+            int crew3total = Int32.Parse(textBox203.Text);
+            int crew4total = Int32.Parse(textBox443.Text);
+            int crew5total = Int32.Parse(textBox444.Text);
+            int crew6total = Int32.Parse(textBox445.Text);
+            int crew7total = Int32.Parse(textBox446.Text);
+            int crew8total = Int32.Parse(textBox447.Text);
+            label60.Text = (crew1total).ToString();
+            label59.Text = (crew2total).ToString();
+            label58.Text = (crew3total).ToString();
+            label57.Text = (crew4total).ToString();
+            label56.Text = (crew5total).ToString();
+            label55.Text = (crew6total).ToString();
+            label54.Text = (crew7total).ToString();
+            label53.Text = (crew8total).ToString();
+            // this IF statement is to set the labes to null if the answer is 0
+           if (label60.Text == "0")
+            {
+                label60.Text = "";
+            }
+            if (label59.Text == "0")
+            {
+                label59.Text = "";
+            }
+            if (label58.Text == "0")
+            {
+                label58.Text = "";
+            }
+            if (label57.Text == "0")
+            {
+                label57.Text = "";
+            }
+            if (label56.Text == "0")
+            {
+                label56.Text = "";
+            }
+            if (label55.Text == "0")
+            {
+                label55.Text = "";
+            }
+            if (label54.Text == "0")
+            {
+                label54.Text = "";
+            }
+            if (label53.Text == "0")
+            {
+                label53.Text = "";
+            }
+
+            // ------------------cfrs----------------------TIME IN VALUES
+            label76.Text = app1in.Text;
+            label75.Text = app2in.Text;
+            label74.Text = app3in.Text;
+            label73.Text = app4in.Text;
+            label72.Text = app5in.Text;
+            label71.Text = app6in.Text;
+            label70.Text = app7in.Text;
+            label69.Text = app8in.Text;
+            // -----------------cfrs-----------------------TIME OUT VALUES
+            label92.Text = app1out.Text;
+            label91.Text = app2out.Text;
+            label90.Text = app3out.Text;
+            label89.Text = app4out.Text;
+            label88.Text = app5out.Text;
+            label87.Text = app6out.Text;
+            label86.Text = app7out.Text;
+            label85.Text = app8out.Text;
+
+
+
+
             // other agency calculations
             //in
             // officers calculations
@@ -1093,6 +1219,16 @@ namespace Command_Suite
             ffQTY.Text = (app1FF + app2FF + app3FF + app4FF + app5FF + app6FF + app7FF + app8FF).ToString();
             CCQTY.Text = (app1cc + app2cc + app3cc + app4cc + app5cc + app6cc + app7cc + app8cc).ToString();
             wcQTY.Text = (app1wc + app2wc + app3wc + app4wc + app5wc + app6wc + app7wc + app8wc).ToString();
+            
+
+            // THIS IS JUST A TEST SCRIPT TO CALCULATE WHEN AN APPLIANCE HAS GONE
+
+ //           if (!string.IsNullOrEmpty(app1out.Text))
+ //           {
+ //               liveTotalFPersonnel.Text = (officerin - officerOut + cfrsff + cfrscc + cfrswc - app1FF - app1cc - app1wc).ToString();
+ //           }
+            
+
 
             commandSupQTY.Text = (csin).ToString();
 
@@ -52684,6 +52820,11 @@ namespace Command_Suite
                 csapp36.Items.Add("FF Paul Morehen");
                 csapp36.Items.Add("FF Richard Stebbing");
             }
+        }
+
+        private void textBox194_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 

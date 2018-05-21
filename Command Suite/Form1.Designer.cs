@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Summary = new System.Windows.Forms.TabPage();
+            this.oaQTY = new System.Windows.Forms.Label();
+            this.label431 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label175 = new System.Windows.Forms.Label();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
@@ -1321,8 +1323,16 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.digitalclock = new System.Windows.Forms.Label();
             this.datenow = new System.Windows.Forms.TextBox();
-            this.label431 = new System.Windows.Forms.Label();
-            this.oaQTY = new System.Windows.Forms.Label();
+            this.pictureBox54 = new System.Windows.Forms.PictureBox();
+            this.crewTotal = new System.Windows.Forms.Label();
+            this.textBox193 = new System.Windows.Forms.TextBox();
+            this.textBox194 = new System.Windows.Forms.TextBox();
+            this.textBox203 = new System.Windows.Forms.TextBox();
+            this.textBox443 = new System.Windows.Forms.TextBox();
+            this.textBox444 = new System.Windows.Forms.TextBox();
+            this.textBox445 = new System.Windows.Forms.TextBox();
+            this.textBox446 = new System.Windows.Forms.TextBox();
+            this.textBox447 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -1403,6 +1413,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -1629,6 +1640,26 @@
             this.Summary.TabIndex = 0;
             this.Summary.Text = "Summary";
             this.Summary.UseVisualStyleBackColor = true;
+            // 
+            // oaQTY
+            // 
+            this.oaQTY.AutoSize = true;
+            this.oaQTY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.oaQTY.Location = new System.Drawing.Point(208, 307);
+            this.oaQTY.Name = "oaQTY";
+            this.oaQTY.Size = new System.Drawing.Size(16, 17);
+            this.oaQTY.TabIndex = 226;
+            this.oaQTY.Text = "0";
+            // 
+            // label431
+            // 
+            this.label431.AutoSize = true;
+            this.label431.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label431.Location = new System.Drawing.Point(58, 307);
+            this.label431.Name = "label431";
+            this.label431.Size = new System.Drawing.Size(106, 17);
+            this.label431.TabIndex = 225;
+            this.label431.Text = "Other Agencies";
             // 
             // pictureBox24
             // 
@@ -10722,6 +10753,16 @@
             // 
             // Calculations
             // 
+            this.Calculations.Controls.Add(this.textBox447);
+            this.Calculations.Controls.Add(this.textBox446);
+            this.Calculations.Controls.Add(this.textBox445);
+            this.Calculations.Controls.Add(this.textBox444);
+            this.Calculations.Controls.Add(this.textBox443);
+            this.Calculations.Controls.Add(this.textBox203);
+            this.Calculations.Controls.Add(this.textBox194);
+            this.Calculations.Controls.Add(this.textBox193);
+            this.Calculations.Controls.Add(this.crewTotal);
+            this.Calculations.Controls.Add(this.pictureBox54);
             this.Calculations.Controls.Add(this.textBox423);
             this.Calculations.Controls.Add(this.textBox424);
             this.Calculations.Controls.Add(this.textBox425);
@@ -11344,7 +11385,7 @@
             // 
             // pictureBox67
             // 
-            this.pictureBox67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.pictureBox67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.pictureBox67.Location = new System.Drawing.Point(549, 489);
             this.pictureBox67.Name = "pictureBox67";
             this.pictureBox67.Size = new System.Drawing.Size(200, 143);
@@ -15290,25 +15331,82 @@
             this.datenow.TabIndex = 31;
             this.datenow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label431
+            // pictureBox54
             // 
-            this.label431.AutoSize = true;
-            this.label431.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label431.Location = new System.Drawing.Point(58, 307);
-            this.label431.Name = "label431";
-            this.label431.Size = new System.Drawing.Size(106, 17);
-            this.label431.TabIndex = 225;
-            this.label431.Text = "Other Agencies";
+            this.pictureBox54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox54.Location = new System.Drawing.Point(12, 346);
+            this.pictureBox54.Name = "pictureBox54";
+            this.pictureBox54.Size = new System.Drawing.Size(149, 286);
+            this.pictureBox54.TabIndex = 730;
+            this.pictureBox54.TabStop = false;
             // 
-            // oaQTY
+            // crewTotal
             // 
-            this.oaQTY.AutoSize = true;
-            this.oaQTY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.oaQTY.Location = new System.Drawing.Point(208, 307);
-            this.oaQTY.Name = "oaQTY";
-            this.oaQTY.Size = new System.Drawing.Size(16, 17);
-            this.oaQTY.TabIndex = 226;
-            this.oaQTY.Text = "0";
+            this.crewTotal.AutoSize = true;
+            this.crewTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.crewTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.crewTotal.Location = new System.Drawing.Point(19, 356);
+            this.crewTotal.Name = "crewTotal";
+            this.crewTotal.Size = new System.Drawing.Size(139, 20);
+            this.crewTotal.TabIndex = 731;
+            this.crewTotal.Text = "Appliance Total";
+            // 
+            // textBox193
+            // 
+            this.textBox193.Location = new System.Drawing.Point(20, 396);
+            this.textBox193.Name = "textBox193";
+            this.textBox193.Size = new System.Drawing.Size(52, 22);
+            this.textBox193.TabIndex = 732;
+            // 
+            // textBox194
+            // 
+            this.textBox194.Location = new System.Drawing.Point(20, 424);
+            this.textBox194.Name = "textBox194";
+            this.textBox194.Size = new System.Drawing.Size(52, 22);
+            this.textBox194.TabIndex = 733;
+            this.textBox194.TextChanged += new System.EventHandler(this.textBox194_TextChanged_1);
+            // 
+            // textBox203
+            // 
+            this.textBox203.Location = new System.Drawing.Point(20, 452);
+            this.textBox203.Name = "textBox203";
+            this.textBox203.Size = new System.Drawing.Size(52, 22);
+            this.textBox203.TabIndex = 734;
+            // 
+            // textBox443
+            // 
+            this.textBox443.Location = new System.Drawing.Point(16, 480);
+            this.textBox443.Name = "textBox443";
+            this.textBox443.Size = new System.Drawing.Size(52, 22);
+            this.textBox443.TabIndex = 735;
+            // 
+            // textBox444
+            // 
+            this.textBox444.Location = new System.Drawing.Point(20, 508);
+            this.textBox444.Name = "textBox444";
+            this.textBox444.Size = new System.Drawing.Size(52, 22);
+            this.textBox444.TabIndex = 736;
+            // 
+            // textBox445
+            // 
+            this.textBox445.Location = new System.Drawing.Point(20, 536);
+            this.textBox445.Name = "textBox445";
+            this.textBox445.Size = new System.Drawing.Size(52, 22);
+            this.textBox445.TabIndex = 737;
+            // 
+            // textBox446
+            // 
+            this.textBox446.Location = new System.Drawing.Point(20, 564);
+            this.textBox446.Name = "textBox446";
+            this.textBox446.Size = new System.Drawing.Size(52, 22);
+            this.textBox446.TabIndex = 738;
+            // 
+            // textBox447
+            // 
+            this.textBox447.Location = new System.Drawing.Point(16, 594);
+            this.textBox447.Name = "textBox447";
+            this.textBox447.Size = new System.Drawing.Size(52, 22);
+            this.textBox447.TabIndex = 739;
             // 
             // Form1
             // 
@@ -15440,6 +15538,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -16740,6 +16839,16 @@
         private System.Windows.Forms.Label label513;
         private System.Windows.Forms.Label oaQTY;
         private System.Windows.Forms.Label label431;
+        private System.Windows.Forms.TextBox textBox447;
+        private System.Windows.Forms.TextBox textBox446;
+        private System.Windows.Forms.TextBox textBox445;
+        private System.Windows.Forms.TextBox textBox444;
+        private System.Windows.Forms.TextBox textBox443;
+        private System.Windows.Forms.TextBox textBox203;
+        private System.Windows.Forms.TextBox textBox194;
+        private System.Windows.Forms.TextBox textBox193;
+        private System.Windows.Forms.Label crewTotal;
+        private System.Windows.Forms.PictureBox pictureBox54;
     }
 }
 
