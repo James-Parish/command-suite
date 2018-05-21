@@ -45,8 +45,8 @@ namespace Command_Suite
             //------------------------------------------------------------------------------------------------------------------------------------
             //------------------------------------------------------------------------------------------------------------------------------------
 
-            //  tabControl1.TabPages.Remove(Calculations);
-            //  tabControl1.TabPages.Remove(otbcalculation);
+              tabControl1.TabPages.Remove(Calculations);
+              tabControl1.TabPages.Remove(otbcalculation);
             
 
 
@@ -498,15 +498,28 @@ namespace Command_Suite
 
 
             // this will make the program go full screen on the device.
-        //    this.TopMost = true;
-        //    this.FormBorderStyle = FormBorderStyle.None;
-        //    this.WindowState = FormWindowState.Maximized;
-
-
-         
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+            
 
 
 
+            pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox55.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox59.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox34.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox33.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+
+
+            csapp1ba1.Visible = false;
+            csapp1ba2.Visible = false;
+            csapp1eco.Visible = false;
+            csapp16.Visible = false;
         }
 
         private void methane_Click(object sender, EventArgs e)

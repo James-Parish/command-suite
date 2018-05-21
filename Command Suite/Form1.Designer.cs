@@ -498,13 +498,9 @@
             this.pictureBox61 = new System.Windows.Forms.PictureBox();
             this.label458 = new System.Windows.Forms.Label();
             this.csapp16 = new System.Windows.Forms.ComboBox();
-            this.label459 = new System.Windows.Forms.Label();
             this.csapp1eco = new System.Windows.Forms.ComboBox();
-            this.label460 = new System.Windows.Forms.Label();
             this.csapp1ba2 = new System.Windows.Forms.ComboBox();
-            this.label461 = new System.Windows.Forms.Label();
             this.csapp1ba1 = new System.Windows.Forms.ComboBox();
-            this.label462 = new System.Windows.Forms.Label();
             this.csapp1driver = new System.Windows.Forms.ComboBox();
             this.label463 = new System.Windows.Forms.Label();
             this.csapp1oic = new System.Windows.Forms.ComboBox();
@@ -837,6 +833,9 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.Calculations = new System.Windows.Forms.TabPage();
+            this.textBox459 = new System.Windows.Forms.TextBox();
+            this.textBox458 = new System.Windows.Forms.TextBox();
+            this.textBox457 = new System.Windows.Forms.TextBox();
             this.textBox456 = new System.Windows.Forms.TextBox();
             this.textBox448 = new System.Windows.Forms.TextBox();
             this.textBox449 = new System.Windows.Forms.TextBox();
@@ -1342,9 +1341,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.digitalclock = new System.Windows.Forms.Label();
             this.datenow = new System.Windows.Forms.TextBox();
-            this.textBox457 = new System.Windows.Forms.TextBox();
-            this.textBox458 = new System.Windows.Forms.TextBox();
-            this.textBox459 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
@@ -1430,6 +1426,9 @@
             // 
             // tabControl1
             // 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.Summary);
             this.tabControl1.Controls.Add(this.Appliance);
             this.tabControl1.Controls.Add(this.cfrsofficers);
@@ -2745,9 +2744,9 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(961, -56);
+            this.pictureBox18.Location = new System.Drawing.Point(975, 6);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(223, 163);
+            this.pictureBox18.Size = new System.Drawing.Size(207, 104);
             this.pictureBox18.TabIndex = 120;
             this.pictureBox18.TabStop = false;
             // 
@@ -3650,9 +3649,9 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(19, -44);
+            this.pictureBox14.Location = new System.Drawing.Point(19, 0);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(258, 137);
+            this.pictureBox14.Size = new System.Drawing.Size(290, 101);
             this.pictureBox14.TabIndex = 0;
             this.pictureBox14.TabStop = false;
             // 
@@ -6608,13 +6607,9 @@
             this.command.Controls.Add(this.pictureBox61);
             this.command.Controls.Add(this.label458);
             this.command.Controls.Add(this.csapp16);
-            this.command.Controls.Add(this.label459);
             this.command.Controls.Add(this.csapp1eco);
-            this.command.Controls.Add(this.label460);
             this.command.Controls.Add(this.csapp1ba2);
-            this.command.Controls.Add(this.label461);
             this.command.Controls.Add(this.csapp1ba1);
-            this.command.Controls.Add(this.label462);
             this.command.Controls.Add(this.csapp1driver);
             this.command.Controls.Add(this.label463);
             this.command.Controls.Add(this.csapp1oic);
@@ -7160,21 +7155,10 @@
             "FF Richard Walton  ",
             "FF Paul Whitaker  ",
             "FF Matt Woodcock  "});
-            this.csapp16.Location = new System.Drawing.Point(244, 318);
+            this.csapp16.Location = new System.Drawing.Point(244, 469);
             this.csapp16.Name = "csapp16";
             this.csapp16.Size = new System.Drawing.Size(182, 24);
             this.csapp16.TabIndex = 290;
-            // 
-            // label459
-            // 
-            this.label459.AutoSize = true;
-            this.label459.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label459.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label459.Location = new System.Drawing.Point(189, 322);
-            this.label459.Name = "label459";
-            this.label459.Size = new System.Drawing.Size(19, 20);
-            this.label459.TabIndex = 289;
-            this.label459.Text = "6";
             // 
             // csapp1eco
             // 
@@ -7220,21 +7204,10 @@
             "FF Richard Walton  ",
             "FF Paul Whitaker  ",
             "FF Matt Woodcock  "});
-            this.csapp1eco.Location = new System.Drawing.Point(244, 288);
+            this.csapp1eco.Location = new System.Drawing.Point(244, 439);
             this.csapp1eco.Name = "csapp1eco";
             this.csapp1eco.Size = new System.Drawing.Size(182, 24);
             this.csapp1eco.TabIndex = 288;
-            // 
-            // label460
-            // 
-            this.label460.AutoSize = true;
-            this.label460.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label460.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label460.Location = new System.Drawing.Point(189, 292);
-            this.label460.Name = "label460";
-            this.label460.Size = new System.Drawing.Size(48, 20);
-            this.label460.TabIndex = 287;
-            this.label460.Text = "ECO";
             // 
             // csapp1ba2
             // 
@@ -7280,21 +7253,10 @@
             "FF Richard Walton  ",
             "FF Paul Whitaker  ",
             "FF Matt Woodcock  "});
-            this.csapp1ba2.Location = new System.Drawing.Point(244, 258);
+            this.csapp1ba2.Location = new System.Drawing.Point(244, 409);
             this.csapp1ba2.Name = "csapp1ba2";
             this.csapp1ba2.Size = new System.Drawing.Size(182, 24);
             this.csapp1ba2.TabIndex = 286;
-            // 
-            // label461
-            // 
-            this.label461.AutoSize = true;
-            this.label461.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label461.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label461.Location = new System.Drawing.Point(189, 262);
-            this.label461.Name = "label461";
-            this.label461.Size = new System.Drawing.Size(44, 20);
-            this.label461.TabIndex = 285;
-            this.label461.Text = "BA2";
             // 
             // csapp1ba1
             // 
@@ -7340,21 +7302,10 @@
             "FF Richard Walton  ",
             "FF Paul Whitaker  ",
             "FF Matt Woodcock  "});
-            this.csapp1ba1.Location = new System.Drawing.Point(244, 228);
+            this.csapp1ba1.Location = new System.Drawing.Point(244, 379);
             this.csapp1ba1.Name = "csapp1ba1";
             this.csapp1ba1.Size = new System.Drawing.Size(182, 24);
             this.csapp1ba1.TabIndex = 284;
-            // 
-            // label462
-            // 
-            this.label462.AutoSize = true;
-            this.label462.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label462.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label462.Location = new System.Drawing.Point(189, 232);
-            this.label462.Name = "label462";
-            this.label462.Size = new System.Drawing.Size(44, 20);
-            this.label462.TabIndex = 283;
-            this.label462.Text = "BA1";
             // 
             // csapp1driver
             // 
@@ -7539,7 +7490,7 @@
             this.pictureBox62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pictureBox62.Location = new System.Drawing.Point(168, 100);
             this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(282, 255);
+            this.pictureBox62.Size = new System.Drawing.Size(282, 152);
             this.pictureBox62.TabIndex = 271;
             this.pictureBox62.TabStop = false;
             // 
@@ -11233,6 +11184,27 @@
             this.Calculations.TabIndex = 7;
             this.Calculations.Text = "Caluclation";
             this.Calculations.UseVisualStyleBackColor = true;
+            // 
+            // textBox459
+            // 
+            this.textBox459.Location = new System.Drawing.Point(171, 575);
+            this.textBox459.Name = "textBox459";
+            this.textBox459.Size = new System.Drawing.Size(52, 22);
+            this.textBox459.TabIndex = 751;
+            // 
+            // textBox458
+            // 
+            this.textBox458.Location = new System.Drawing.Point(168, 547);
+            this.textBox458.Name = "textBox458";
+            this.textBox458.Size = new System.Drawing.Size(52, 22);
+            this.textBox458.TabIndex = 750;
+            // 
+            // textBox457
+            // 
+            this.textBox457.Location = new System.Drawing.Point(168, 521);
+            this.textBox457.Name = "textBox457";
+            this.textBox457.Size = new System.Drawing.Size(52, 22);
+            this.textBox457.TabIndex = 749;
             // 
             // textBox456
             // 
@@ -15462,9 +15434,9 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(941, 739);
+            this.pictureBox5.Location = new System.Drawing.Point(953, 785);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(140, 182);
+            this.pictureBox5.Size = new System.Drawing.Size(111, 115);
             this.pictureBox5.TabIndex = 30;
             this.pictureBox5.TabStop = false;
             // 
@@ -15494,27 +15466,6 @@
             this.datenow.Size = new System.Drawing.Size(165, 22);
             this.datenow.TabIndex = 31;
             this.datenow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox457
-            // 
-            this.textBox457.Location = new System.Drawing.Point(168, 521);
-            this.textBox457.Name = "textBox457";
-            this.textBox457.Size = new System.Drawing.Size(52, 22);
-            this.textBox457.TabIndex = 749;
-            // 
-            // textBox458
-            // 
-            this.textBox458.Location = new System.Drawing.Point(168, 547);
-            this.textBox458.Name = "textBox458";
-            this.textBox458.Size = new System.Drawing.Size(52, 22);
-            this.textBox458.TabIndex = 750;
-            // 
-            // textBox459
-            // 
-            this.textBox459.Location = new System.Drawing.Point(171, 575);
-            this.textBox459.Name = "textBox459";
-            this.textBox459.Size = new System.Drawing.Size(52, 22);
-            this.textBox459.TabIndex = 751;
             // 
             // Form1
             // 
@@ -16729,13 +16680,9 @@
         private System.Windows.Forms.PictureBox pictureBox61;
         private System.Windows.Forms.Label label458;
         private System.Windows.Forms.ComboBox csapp16;
-        private System.Windows.Forms.Label label459;
         private System.Windows.Forms.ComboBox csapp1eco;
-        private System.Windows.Forms.Label label460;
         private System.Windows.Forms.ComboBox csapp1ba2;
-        private System.Windows.Forms.Label label461;
         private System.Windows.Forms.ComboBox csapp1ba1;
-        private System.Windows.Forms.Label label462;
         private System.Windows.Forms.ComboBox csapp1driver;
         private System.Windows.Forms.Label label463;
         private System.Windows.Forms.ComboBox csapp1oic;
