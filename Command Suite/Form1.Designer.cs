@@ -32,6 +32,28 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Summary = new System.Windows.Forms.TabPage();
+            this.textBox605 = new System.Windows.Forms.TextBox();
+            this.label527 = new System.Windows.Forms.Label();
+            this.textBox604 = new System.Windows.Forms.TextBox();
+            this.label526 = new System.Windows.Forms.Label();
+            this.textBox603 = new System.Windows.Forms.TextBox();
+            this.label525 = new System.Windows.Forms.Label();
+            this.textBox602 = new System.Windows.Forms.TextBox();
+            this.label524 = new System.Windows.Forms.Label();
+            this.textBox601 = new System.Windows.Forms.TextBox();
+            this.label523 = new System.Windows.Forms.Label();
+            this.textBox600 = new System.Windows.Forms.TextBox();
+            this.label522 = new System.Windows.Forms.Label();
+            this.label521 = new System.Windows.Forms.Label();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label520 = new System.Windows.Forms.Label();
+            this.comboBox27 = new System.Windows.Forms.ComboBox();
+            this.label519 = new System.Windows.Forms.Label();
+            this.textBox599 = new System.Windows.Forms.TextBox();
+            this.label518 = new System.Windows.Forms.Label();
+            this.textBox598 = new System.Windows.Forms.TextBox();
+            this.label517 = new System.Windows.Forms.Label();
             this.oaQTY = new System.Windows.Forms.Label();
             this.label431 = new System.Windows.Forms.Label();
             this.label175 = new System.Windows.Forms.Label();
@@ -827,6 +849,10 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.notes = new System.Windows.Forms.TabPage();
+            this.label529 = new System.Windows.Forms.Label();
+            this.label528 = new System.Windows.Forms.Label();
+            this.textBox606 = new System.Windows.Forms.TextBox();
             this.Calculations = new System.Windows.Forms.TabPage();
             this.textBox459 = new System.Windows.Forms.TextBox();
             this.textBox458 = new System.Windows.Forms.TextBox();
@@ -1446,32 +1472,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.digitalclock = new System.Windows.Forms.Label();
             this.datenow = new System.Windows.Forms.TextBox();
-            this.label517 = new System.Windows.Forms.Label();
-            this.textBox598 = new System.Windows.Forms.TextBox();
-            this.label518 = new System.Windows.Forms.Label();
-            this.textBox599 = new System.Windows.Forms.TextBox();
-            this.label519 = new System.Windows.Forms.Label();
-            this.comboBox27 = new System.Windows.Forms.ComboBox();
-            this.label520 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.label521 = new System.Windows.Forms.Label();
-            this.label522 = new System.Windows.Forms.Label();
-            this.textBox600 = new System.Windows.Forms.TextBox();
-            this.textBox601 = new System.Windows.Forms.TextBox();
-            this.label523 = new System.Windows.Forms.Label();
-            this.textBox602 = new System.Windows.Forms.TextBox();
-            this.label524 = new System.Windows.Forms.Label();
-            this.textBox603 = new System.Windows.Forms.TextBox();
-            this.label525 = new System.Windows.Forms.Label();
-            this.textBox604 = new System.Windows.Forms.TextBox();
-            this.label526 = new System.Windows.Forms.Label();
-            this.textBox605 = new System.Windows.Forms.TextBox();
-            this.label527 = new System.Windows.Forms.Label();
-            this.notes = new System.Windows.Forms.TabPage();
-            this.textBox606 = new System.Windows.Forms.TextBox();
-            this.label528 = new System.Windows.Forms.Label();
-            this.label529 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
@@ -1525,6 +1525,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.notes.SuspendLayout();
             this.Calculations.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox67)).BeginInit();
@@ -1564,7 +1565,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.notes.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -1812,6 +1812,211 @@
             this.Summary.TabIndex = 0;
             this.Summary.Text = "Summary";
             this.Summary.UseVisualStyleBackColor = true;
+            // 
+            // textBox605
+            // 
+            this.textBox605.Location = new System.Drawing.Point(764, 534);
+            this.textBox605.Name = "textBox605";
+            this.textBox605.Size = new System.Drawing.Size(57, 22);
+            this.textBox605.TabIndex = 248;
+            // 
+            // label527
+            // 
+            this.label527.AutoSize = true;
+            this.label527.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label527.Location = new System.Drawing.Point(655, 537);
+            this.label527.Name = "label527";
+            this.label527.Size = new System.Drawing.Size(60, 17);
+            this.label527.TabIndex = 247;
+            this.label527.Text = "Ladders";
+            // 
+            // textBox604
+            // 
+            this.textBox604.Location = new System.Drawing.Point(764, 506);
+            this.textBox604.Name = "textBox604";
+            this.textBox604.Size = new System.Drawing.Size(57, 22);
+            this.textBox604.TabIndex = 246;
+            // 
+            // label526
+            // 
+            this.label526.AutoSize = true;
+            this.label526.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label526.Location = new System.Drawing.Point(655, 509);
+            this.label526.Name = "label526";
+            this.label526.Size = new System.Drawing.Size(95, 17);
+            this.label526.TabIndex = 245;
+            this.label526.Text = "Water Curtain";
+            // 
+            // textBox603
+            // 
+            this.textBox603.Location = new System.Drawing.Point(764, 477);
+            this.textBox603.Name = "textBox603";
+            this.textBox603.Size = new System.Drawing.Size(57, 22);
+            this.textBox603.TabIndex = 244;
+            // 
+            // label525
+            // 
+            this.label525.AutoSize = true;
+            this.label525.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label525.Location = new System.Drawing.Point(655, 480);
+            this.label525.Name = "label525";
+            this.label525.Size = new System.Drawing.Size(114, 17);
+            this.label525.TabIndex = 243;
+            this.label525.Text = "Ground Monitors";
+            // 
+            // textBox602
+            // 
+            this.textBox602.Location = new System.Drawing.Point(764, 449);
+            this.textBox602.Name = "textBox602";
+            this.textBox602.Size = new System.Drawing.Size(57, 22);
+            this.textBox602.TabIndex = 242;
+            // 
+            // label524
+            // 
+            this.label524.AutoSize = true;
+            this.label524.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label524.Location = new System.Drawing.Point(655, 452);
+            this.label524.Name = "label524";
+            this.label524.Size = new System.Drawing.Size(65, 17);
+            this.label524.TabIndex = 241;
+            this.label524.Text = "Hydrants";
+            // 
+            // textBox601
+            // 
+            this.textBox601.Location = new System.Drawing.Point(764, 421);
+            this.textBox601.Name = "textBox601";
+            this.textBox601.Size = new System.Drawing.Size(57, 22);
+            this.textBox601.TabIndex = 240;
+            // 
+            // label523
+            // 
+            this.label523.AutoSize = true;
+            this.label523.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label523.Location = new System.Drawing.Point(655, 424);
+            this.label523.Name = "label523";
+            this.label523.Size = new System.Drawing.Size(81, 17);
+            this.label523.TabIndex = 239;
+            this.label523.Text = "Hose Reels";
+            // 
+            // textBox600
+            // 
+            this.textBox600.Location = new System.Drawing.Point(764, 395);
+            this.textBox600.Name = "textBox600";
+            this.textBox600.Size = new System.Drawing.Size(57, 22);
+            this.textBox600.TabIndex = 238;
+            // 
+            // label522
+            // 
+            this.label522.AutoSize = true;
+            this.label522.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label522.Location = new System.Drawing.Point(655, 398);
+            this.label522.Name = "label522";
+            this.label522.Size = new System.Drawing.Size(94, 17);
+            this.label522.TabIndex = 237;
+            this.label522.Text = "Covering Jets";
+            // 
+            // label521
+            // 
+            this.label521.AutoSize = true;
+            this.label521.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label521.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label521.Location = new System.Drawing.Point(620, 358);
+            this.label521.Name = "label521";
+            this.label521.Size = new System.Drawing.Size(245, 25);
+            this.label521.TabIndex = 236;
+            this.label521.Text = "Equipment Management";
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.checkBox2.Location = new System.Drawing.Point(494, 537);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(48, 21);
+            this.checkBox2.TabIndex = 235;
+            this.checkBox2.Text = "No";
+            this.checkBox2.UseVisualStyleBackColor = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.checkBox1.Location = new System.Drawing.Point(397, 537);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(54, 21);
+            this.checkBox1.TabIndex = 234;
+            this.checkBox1.Text = "Yes";
+            this.checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // label520
+            // 
+            this.label520.AutoSize = true;
+            this.label520.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label520.Location = new System.Drawing.Point(392, 511);
+            this.label520.Name = "label520";
+            this.label520.Size = new System.Drawing.Size(173, 17);
+            this.label520.TabIndex = 233;
+            this.label520.Text = "Emergency Team In Place";
+            // 
+            // comboBox27
+            // 
+            this.comboBox27.FormattingEnabled = true;
+            this.comboBox27.Items.AddRange(new object[] {
+            "",
+            "Initial",
+            "Stage One",
+            "Stage Two"});
+            this.comboBox27.Location = new System.Drawing.Point(485, 457);
+            this.comboBox27.Name = "comboBox27";
+            this.comboBox27.Size = new System.Drawing.Size(90, 24);
+            this.comboBox27.TabIndex = 232;
+            // 
+            // label519
+            // 
+            this.label519.AutoSize = true;
+            this.label519.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label519.Location = new System.Drawing.Point(392, 460);
+            this.label519.Name = "label519";
+            this.label519.Size = new System.Drawing.Size(67, 17);
+            this.label519.TabIndex = 231;
+            this.label519.Text = "BA Stage";
+            // 
+            // textBox599
+            // 
+            this.textBox599.Location = new System.Drawing.Point(485, 395);
+            this.textBox599.Name = "textBox599";
+            this.textBox599.Size = new System.Drawing.Size(60, 22);
+            this.textBox599.TabIndex = 230;
+            this.textBox599.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label518
+            // 
+            this.label518.AutoSize = true;
+            this.label518.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label518.Location = new System.Drawing.Point(392, 398);
+            this.label518.Name = "label518";
+            this.label518.Size = new System.Drawing.Size(63, 17);
+            this.label518.TabIndex = 229;
+            this.label518.Text = "BA Used";
+            // 
+            // textBox598
+            // 
+            this.textBox598.Location = new System.Drawing.Point(485, 423);
+            this.textBox598.Name = "textBox598";
+            this.textBox598.ReadOnly = true;
+            this.textBox598.Size = new System.Drawing.Size(60, 22);
+            this.textBox598.TabIndex = 228;
+            this.textBox598.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label517
+            // 
+            this.label517.AutoSize = true;
+            this.label517.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label517.Location = new System.Drawing.Point(392, 427);
+            this.label517.Name = "label517";
+            this.label517.Size = new System.Drawing.Size(87, 17);
+            this.label517.TabIndex = 227;
+            this.label517.Text = "BA Avaliable";
             // 
             // oaQTY
             // 
@@ -10760,6 +10965,49 @@
             this.pictureBox13.TabIndex = 37;
             this.pictureBox13.TabStop = false;
             // 
+            // notes
+            // 
+            this.notes.BackColor = System.Drawing.Color.White;
+            this.notes.Controls.Add(this.label529);
+            this.notes.Controls.Add(this.label528);
+            this.notes.Controls.Add(this.textBox606);
+            this.notes.Location = new System.Drawing.Point(4, 25);
+            this.notes.Name = "notes";
+            this.notes.Size = new System.Drawing.Size(1267, 703);
+            this.notes.TabIndex = 10;
+            this.notes.Text = "Incident Notes";
+            // 
+            // label529
+            // 
+            this.label529.AutoSize = true;
+            this.label529.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label529.ForeColor = System.Drawing.Color.Red;
+            this.label529.Location = new System.Drawing.Point(346, 50);
+            this.label529.Name = "label529";
+            this.label529.Size = new System.Drawing.Size(526, 20);
+            this.label529.TabIndex = 238;
+            this.label529.Text = "THESE NOTES WILL BE INCLUDED IN THE FINAL REPORT";
+            // 
+            // label528
+            // 
+            this.label528.AutoSize = true;
+            this.label528.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label528.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label528.Location = new System.Drawing.Point(518, 13);
+            this.label528.Name = "label528";
+            this.label528.Size = new System.Drawing.Size(150, 25);
+            this.label528.TabIndex = 237;
+            this.label528.Text = "Incident Notes";
+            // 
+            // textBox606
+            // 
+            this.textBox606.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.textBox606.Location = new System.Drawing.Point(88, 70);
+            this.textBox606.Multiline = true;
+            this.textBox606.Name = "textBox606";
+            this.textBox606.Size = new System.Drawing.Size(1045, 597);
+            this.textBox606.TabIndex = 0;
+            // 
             // Calculations
             // 
             this.Calculations.Controls.Add(this.textBox459);
@@ -16442,254 +16690,6 @@
             this.datenow.TabIndex = 31;
             this.datenow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // label517
-            // 
-            this.label517.AutoSize = true;
-            this.label517.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label517.Location = new System.Drawing.Point(392, 427);
-            this.label517.Name = "label517";
-            this.label517.Size = new System.Drawing.Size(87, 17);
-            this.label517.TabIndex = 227;
-            this.label517.Text = "BA Avaliable";
-            // 
-            // textBox598
-            // 
-            this.textBox598.Location = new System.Drawing.Point(485, 423);
-            this.textBox598.Name = "textBox598";
-            this.textBox598.ReadOnly = true;
-            this.textBox598.Size = new System.Drawing.Size(60, 22);
-            this.textBox598.TabIndex = 228;
-            this.textBox598.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label518
-            // 
-            this.label518.AutoSize = true;
-            this.label518.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label518.Location = new System.Drawing.Point(392, 398);
-            this.label518.Name = "label518";
-            this.label518.Size = new System.Drawing.Size(63, 17);
-            this.label518.TabIndex = 229;
-            this.label518.Text = "BA Used";
-            // 
-            // textBox599
-            // 
-            this.textBox599.Location = new System.Drawing.Point(485, 395);
-            this.textBox599.Name = "textBox599";
-            this.textBox599.Size = new System.Drawing.Size(60, 22);
-            this.textBox599.TabIndex = 230;
-            this.textBox599.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // label519
-            // 
-            this.label519.AutoSize = true;
-            this.label519.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label519.Location = new System.Drawing.Point(392, 460);
-            this.label519.Name = "label519";
-            this.label519.Size = new System.Drawing.Size(67, 17);
-            this.label519.TabIndex = 231;
-            this.label519.Text = "BA Stage";
-            // 
-            // comboBox27
-            // 
-            this.comboBox27.FormattingEnabled = true;
-            this.comboBox27.Items.AddRange(new object[] {
-            "",
-            "Initial",
-            "Stage One",
-            "Stage Two"});
-            this.comboBox27.Location = new System.Drawing.Point(485, 457);
-            this.comboBox27.Name = "comboBox27";
-            this.comboBox27.Size = new System.Drawing.Size(90, 24);
-            this.comboBox27.TabIndex = 232;
-            // 
-            // label520
-            // 
-            this.label520.AutoSize = true;
-            this.label520.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label520.Location = new System.Drawing.Point(392, 511);
-            this.label520.Name = "label520";
-            this.label520.Size = new System.Drawing.Size(173, 17);
-            this.label520.TabIndex = 233;
-            this.label520.Text = "Emergency Team In Place";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.checkBox1.Location = new System.Drawing.Point(397, 537);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(54, 21);
-            this.checkBox1.TabIndex = 234;
-            this.checkBox1.Text = "Yes";
-            this.checkBox1.UseVisualStyleBackColor = false;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.checkBox2.Location = new System.Drawing.Point(494, 537);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(48, 21);
-            this.checkBox2.TabIndex = 235;
-            this.checkBox2.Text = "No";
-            this.checkBox2.UseVisualStyleBackColor = false;
-            // 
-            // label521
-            // 
-            this.label521.AutoSize = true;
-            this.label521.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label521.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label521.Location = new System.Drawing.Point(620, 358);
-            this.label521.Name = "label521";
-            this.label521.Size = new System.Drawing.Size(245, 25);
-            this.label521.TabIndex = 236;
-            this.label521.Text = "Equipment Management";
-            // 
-            // label522
-            // 
-            this.label522.AutoSize = true;
-            this.label522.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label522.Location = new System.Drawing.Point(655, 398);
-            this.label522.Name = "label522";
-            this.label522.Size = new System.Drawing.Size(94, 17);
-            this.label522.TabIndex = 237;
-            this.label522.Text = "Covering Jets";
-            // 
-            // textBox600
-            // 
-            this.textBox600.Location = new System.Drawing.Point(764, 395);
-            this.textBox600.Name = "textBox600";
-            this.textBox600.Size = new System.Drawing.Size(57, 22);
-            this.textBox600.TabIndex = 238;
-            // 
-            // textBox601
-            // 
-            this.textBox601.Location = new System.Drawing.Point(764, 421);
-            this.textBox601.Name = "textBox601";
-            this.textBox601.Size = new System.Drawing.Size(57, 22);
-            this.textBox601.TabIndex = 240;
-            // 
-            // label523
-            // 
-            this.label523.AutoSize = true;
-            this.label523.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label523.Location = new System.Drawing.Point(655, 424);
-            this.label523.Name = "label523";
-            this.label523.Size = new System.Drawing.Size(81, 17);
-            this.label523.TabIndex = 239;
-            this.label523.Text = "Hose Reels";
-            // 
-            // textBox602
-            // 
-            this.textBox602.Location = new System.Drawing.Point(764, 449);
-            this.textBox602.Name = "textBox602";
-            this.textBox602.Size = new System.Drawing.Size(57, 22);
-            this.textBox602.TabIndex = 242;
-            // 
-            // label524
-            // 
-            this.label524.AutoSize = true;
-            this.label524.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label524.Location = new System.Drawing.Point(655, 452);
-            this.label524.Name = "label524";
-            this.label524.Size = new System.Drawing.Size(65, 17);
-            this.label524.TabIndex = 241;
-            this.label524.Text = "Hydrants";
-            // 
-            // textBox603
-            // 
-            this.textBox603.Location = new System.Drawing.Point(764, 477);
-            this.textBox603.Name = "textBox603";
-            this.textBox603.Size = new System.Drawing.Size(57, 22);
-            this.textBox603.TabIndex = 244;
-            // 
-            // label525
-            // 
-            this.label525.AutoSize = true;
-            this.label525.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label525.Location = new System.Drawing.Point(655, 480);
-            this.label525.Name = "label525";
-            this.label525.Size = new System.Drawing.Size(114, 17);
-            this.label525.TabIndex = 243;
-            this.label525.Text = "Ground Monitors";
-            // 
-            // textBox604
-            // 
-            this.textBox604.Location = new System.Drawing.Point(764, 506);
-            this.textBox604.Name = "textBox604";
-            this.textBox604.Size = new System.Drawing.Size(57, 22);
-            this.textBox604.TabIndex = 246;
-            // 
-            // label526
-            // 
-            this.label526.AutoSize = true;
-            this.label526.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label526.Location = new System.Drawing.Point(655, 509);
-            this.label526.Name = "label526";
-            this.label526.Size = new System.Drawing.Size(95, 17);
-            this.label526.TabIndex = 245;
-            this.label526.Text = "Water Curtain";
-            // 
-            // textBox605
-            // 
-            this.textBox605.Location = new System.Drawing.Point(764, 534);
-            this.textBox605.Name = "textBox605";
-            this.textBox605.Size = new System.Drawing.Size(57, 22);
-            this.textBox605.TabIndex = 248;
-            // 
-            // label527
-            // 
-            this.label527.AutoSize = true;
-            this.label527.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label527.Location = new System.Drawing.Point(655, 537);
-            this.label527.Name = "label527";
-            this.label527.Size = new System.Drawing.Size(60, 17);
-            this.label527.TabIndex = 247;
-            this.label527.Text = "Ladders";
-            // 
-            // notes
-            // 
-            this.notes.BackColor = System.Drawing.Color.White;
-            this.notes.Controls.Add(this.label529);
-            this.notes.Controls.Add(this.label528);
-            this.notes.Controls.Add(this.textBox606);
-            this.notes.Location = new System.Drawing.Point(4, 25);
-            this.notes.Name = "notes";
-            this.notes.Size = new System.Drawing.Size(1267, 703);
-            this.notes.TabIndex = 10;
-            this.notes.Text = "Incident Notes";
-            // 
-            // textBox606
-            // 
-            this.textBox606.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.textBox606.Location = new System.Drawing.Point(88, 70);
-            this.textBox606.Multiline = true;
-            this.textBox606.Name = "textBox606";
-            this.textBox606.Size = new System.Drawing.Size(1045, 597);
-            this.textBox606.TabIndex = 0;
-            // 
-            // label528
-            // 
-            this.label528.AutoSize = true;
-            this.label528.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label528.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label528.Location = new System.Drawing.Point(518, 13);
-            this.label528.Name = "label528";
-            this.label528.Size = new System.Drawing.Size(150, 25);
-            this.label528.TabIndex = 237;
-            this.label528.Text = "Incident Notes";
-            // 
-            // label529
-            // 
-            this.label529.AutoSize = true;
-            this.label529.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label529.ForeColor = System.Drawing.Color.Red;
-            this.label529.Location = new System.Drawing.Point(346, 50);
-            this.label529.Name = "label529";
-            this.label529.Size = new System.Drawing.Size(526, 20);
-            this.label529.TabIndex = 238;
-            this.label529.Text = "THESE NOTES WILL BE INCLUDED IN THE FINAL REPORT";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -16790,6 +16790,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.notes.ResumeLayout(false);
+            this.notes.PerformLayout();
             this.Calculations.ResumeLayout(false);
             this.Calculations.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox54)).EndInit();
@@ -16832,8 +16834,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.notes.ResumeLayout(false);
-            this.notes.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -44456,9 +44456,75 @@ namespace Command_Suite
 
             XFont fontArial20 = new XFont("Arial", 20, XFontStyle.Bold, options);
             XFont fontArial12 = new XFont("Arial", 12, XFontStyle.Regular, options);
+            XFont fontArial16 = new XFont("Arial", 16, XFontStyle.Bold, options);
 
             // title
             gfx.DrawString("Incident Number" + " " + incNo.Text, fontArial20, XBrushes.Black, 200, 20);
+            gfx.DrawString("Incident Commander", fontArial12, XBrushes.Black, 50, 40);
+            gfx.DrawString( incCommander.Text, fontArial12, XBrushes.Blue, 200, 40);
+            gfx.DrawString("Incident Location", fontArial12, XBrushes.Black, 50, 60);
+            gfx.DrawString(incLocation.Text, fontArial12, XBrushes.Blue, 200, 60);
+
+            gfx.DrawString("Incident Type", fontArial12, XBrushes.Black, 50, 80);
+            gfx.DrawString(incType.Text, fontArial12, XBrushes.Blue, 200, 80);
+            gfx.DrawString("Time On Scene", fontArial12, XBrushes.Black, 50, 100);
+            gfx.DrawString(incTime.Text, fontArial12, XBrushes.Blue, 200, 100);
+            gfx.DrawString("Date", fontArial12, XBrushes.Black, 50, 120);
+            gfx.DrawString(datenow.Text, fontArial12, XBrushes.Blue, 200, 120);
+            gfx.DrawString("---------------------------------------------------------------------------------------------------------------------------", fontArial12, XBrushes.Red, 50, 140);
+
+            gfx.DrawString("BA & Equipment Managment", fontArial16, XBrushes.Black, 200, 160);
+
+            // BA and Equipment managment (including tactical mode)------------------------
+            gfx.DrawString("Tactical Mode", fontArial12, XBrushes.Black, 50, 180);
+            gfx.DrawString(tacticalMode.Text, fontArial12, XBrushes.Blue, 200, 180);
+
+            gfx.DrawString(sectoruse1.Text, fontArial12, XBrushes.Black, 50, 2000);
+            gfx.DrawString(secCommander1.Text, fontArial12, XBrushes.Blue, 200, 2000);
+            gfx.DrawString(sectoruse2.Text, fontArial12, XBrushes.Black, 50, 220);
+            gfx.DrawString(secCommander2.Text, fontArial12, XBrushes.Blue, 200, 220);
+            gfx.DrawString(sectoruse3.Text, fontArial12, XBrushes.Black, 50, 240);
+            gfx.DrawString(secCommander3.Text, fontArial12, XBrushes.Blue, 200, 240);
+            gfx.DrawString(sectoruse4.Text, fontArial12, XBrushes.Black, 50, 260);
+            gfx.DrawString(secCommander4.Text, fontArial12, XBrushes.Blue, 200, 260);
+
+            gfx.DrawString("BA Used", fontArial12, XBrushes.Black, 50, 280);
+            gfx.DrawString(textBox599.Text, fontArial12, XBrushes.Blue, 200, 280);
+            gfx.DrawString("BA Stage", fontArial12, XBrushes.Black, 50, 300);
+            gfx.DrawString(comboBox27.Text, fontArial12, XBrushes.Blue, 200, 300);
+            gfx.DrawString("Covering Jets", fontArial12, XBrushes.Black, 50, 320);
+            gfx.DrawString(textBox600.Text, fontArial12, XBrushes.Blue, 200, 320);
+            gfx.DrawString("Hose Reels", fontArial12, XBrushes.Black, 50, 340);
+            gfx.DrawString(textBox601.Text, fontArial12, XBrushes.Blue, 200, 340);
+            gfx.DrawString("Hydrants", fontArial12, XBrushes.Black, 50, 360);
+            gfx.DrawString(textBox602.Text, fontArial12, XBrushes.Blue, 200, 360);
+            gfx.DrawString("Monitors", fontArial12, XBrushes.Black, 50, 380);
+            gfx.DrawString(textBox603.Text, fontArial12, XBrushes.Blue, 200, 380);
+            gfx.DrawString("Water Curtains", fontArial12, XBrushes.Black, 50, 400);
+            gfx.DrawString(textBox604.Text, fontArial12, XBrushes.Blue, 200, 400);
+            gfx.DrawString("Ladders", fontArial12, XBrushes.Black, 50, 420);
+            gfx.DrawString(textBox605.Text, fontArial12, XBrushes.Blue, 200, 420);
+            //--------------------------------------------------------------------------------------------------------------------------
+
+
+            // CFRS TOTALS
+
+            //CFRS APPLIANCE + CREWS
+
+            //CFRS COMMAND SUPPORT
+
+            //CFRS OFFICERS
+
+            //OTB APPLIANCE + CREWS
+
+            //OTB OFFICERS
+
+            //OTHER AGENCIES
+
+            //INCIDENT NOTES
+
+            //--
+
 
 
 
