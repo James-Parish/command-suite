@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
+using PdfSharp;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
 
 
 namespace Command_Suite
@@ -47,10 +50,58 @@ namespace Command_Suite
 
               tabControl1.TabPages.Remove(Calculations);
               tabControl1.TabPages.Remove(otbcalculation);
-            
+
 
 
             // cfrs appliance views
+            otbapp1.Text = null;
+            otbapp2.Text = null;
+            textBox476.Text = null;
+            textBox485.Text = null;
+            textBox513.Text = null;
+            textBox504.Text = null;
+            textBox495.Text = null;
+            textBox31.Text = null;
+            label166.Text = null;
+            textBox23.Text = null;
+            textBox24.Text = null;
+            textBox460.Text = null;
+            textBox467.Text = null;
+            textBox516.Text = null;
+            textBox517.Text = null;
+            textBox518.Text = null;
+            textBox519.Text = null;
+            label166.Text = null;
+            label165.Text = null;
+            label164.Text = null;
+            label163.Text = null;
+            label162.Text = null;
+            label161.Text = null;
+            label160.Text = null;
+            label159.Text = null;
+            label150.Text = null;
+            label149.Text = null;
+            label148.Text = null;
+            label147.Text = null;
+            label146.Text = null;
+            label145.Text = null;
+            label144.Text = null;
+            label143.Text = null;
+            label134.Text = null;
+            label133.Text = null;
+            label132.Text = null;
+            label131.Text = null;
+            label129.Text = null;
+            label128.Text = null;
+            label127.Text = null;
+            label118.Text = null;
+            label117.Text = null;
+            label116.Text = null;
+            label115.Text = null;
+            label114.Text = null;
+            label113.Text = null;
+            label112.Text = null;
+            label111.Text = null;
             cfrspos1.Text = null;
             cfrspos2.Text = null;
             cfrspos3.Text = null;
@@ -157,14 +208,14 @@ namespace Command_Suite
             label140.Text = null;
             label141.Text = null;
             label142.Text = null;
-            label143.Text = null;
-            label144.Text = null;
-            label145.Text = null;
-            label146.Text = null;
-            label147.Text = null;
-            label148.Text = null;
-            label149.Text = null;
-            label150.Text = null;
+          //  label143.Text = null;
+          //  label144.Text = null;
+          //  label145.Text = null;
+          //  label146.Text = null;
+          //  label147.Text = null;
+          //  label148.Text = null;
+          //  label149.Text = null;
+          //  label150.Text = null;
             label151.Text = null;
             label152.Text = null;
             label153.Text = null;
@@ -181,6 +232,26 @@ namespace Command_Suite
             label164.Text = null;
             label165.Text = null;
             label166.Text = null;
+
+            textBox598.Text = "0";
+            textBox599.Text = "0";
+            otbapp1in.Text = null;
+            textBox469.Text = null;
+            textBox478.Text = null;
+            textBox487.Text = null;
+            textBox515.Text = null;
+            textBox506.Text = null;
+            textBox497.Text = null;
+            textBox488.Text = null;
+
+            otbapp1out.Text = null;
+            textBox468.Text = null;
+            textBox477.Text = null;
+            textBox486.Text = null;
+            textBox514.Text = null;
+            textBox505.Text = null;
+            textBox496.Text = null;
+            textBox32.Text = null;
 
             // -- calculation nulls
             // cfrs appliance one
@@ -445,9 +516,94 @@ namespace Command_Suite
             textBox308.Text = "0";
             textBox307.Text = "0";
             textBox306.Text = "0";
-    
+            // otb calculations
 
+            textBox527.Text = "0";
+            textBox526.Text = "0";
+            textBox525.Text = "0";
+            textBox524.Text = "0";
+            textBox523.Text = "0";
+            textBox522.Text = "0";
 
+            textBox535.Text = "0";
+            textBox534.Text = "0";
+            textBox533.Text = "0";
+            textBox532.Text = "0";
+            textBox531.Text = "0";
+            textBox530.Text = "0";
+
+            textBox543.Text = "0";
+            textBox542.Text = "0";
+            textBox541.Text = "0";
+            textBox540.Text = "0";
+            textBox539.Text = "0";
+            textBox538.Text = "0";
+
+            textBox551.Text = "0";
+            textBox550.Text = "0";
+            textBox549.Text = "0";
+            textBox548.Text = "0";
+            textBox547.Text = "0";
+            textBox546.Text = "0";
+
+            textBox559.Text = "0";
+            textBox558.Text = "0";
+            textBox557.Text = "0";
+            textBox556.Text = "0";
+            textBox555.Text = "0";
+            textBox554.Text = "0";
+
+            textBox567.Text = "0";
+            textBox566.Text = "0";
+            textBox565.Text = "0";
+            textBox564.Text = "0";
+            textBox563.Text = "0";
+            textBox562.Text = "0";
+
+            textBox575.Text = "0";
+            textBox574.Text = "0";
+            textBox573.Text = "0";
+            textBox572.Text = "0";
+            textBox571.Text = "0";
+            textBox570.Text = "0";
+
+            textBox583.Text = "0";
+            textBox582.Text = "0";
+            textBox581.Text = "0";
+            textBox580.Text = "0";
+            textBox579.Text = "0";
+            textBox578.Text = "0";
+
+            textBox23.Text = "0";
+            textBox24.Text = "0";
+            textBox460.Text = "0";
+            textBox467.Text = "0";
+            textBox516.Text = "0";
+            textBox517.Text = "0";
+            textBox518.Text = "0";
+            textBox519.Text = "0";
+
+            // otbofficer
+            textBox586.Text = "0";
+            textBox585.Text = "0";
+            textBox584.Text = "0";
+            textBox577.Text = "0";
+            textBox576.Text = "0";
+            textBox569.Text = "0";
+            textBox568.Text = "0";
+            textBox561.Text = "0";
+            textBox587.Text = "0";
+            textBox560.Text = "0";
+            textBox597.Text = "0";
+            textBox596.Text = "0";
+            textBox595.Text = "0";
+            textBox594.Text = "0";
+            textBox593.Text = "0";
+            textBox592.Text = "0";
+            textBox591.Text = "0";
+            textBox590.Text = "0";
+            textBox588.Text = "0";
+            textBox589.Text = "0";
 
 
 
@@ -507,7 +663,7 @@ namespace Command_Suite
 
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
+            //pictureBox24.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox55.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox59.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -591,10 +747,13 @@ namespace Command_Suite
 
         private void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            
+
+
             //this is to ensure the incident number is completed
             if (String.IsNullOrWhiteSpace(incNo.Text))
             {
-                MessageBox.Show("You MUST complete the incident number field");
+              //  MessageBox.Show("You MUST complete the incident number field");
             }
 
             //crew numbers
@@ -699,6 +858,8 @@ namespace Command_Suite
             {
                 label53.Text = "";
             }
+
+           
 
             // ------------------cfrs----------------------TIME IN VALUES
             label76.Text = app1in.Text;
@@ -908,12 +1069,81 @@ namespace Command_Suite
             int oa18 = Int32.Parse(textBox423.Text);
 
             textBox441.Text = (oa10 + oa11 + oa12 + oa13 + oa14 + oa15 + oa16 + oa17 + oa18).ToString();
-          
 
+            // otb times in and out
 
+            //time in
+            label134.Text = otbapp1in.Text;
+            label133.Text = textBox469.Text;
+            label132.Text = textBox478.Text;
+            label131.Text = textBox487.Text;
+            label130.Text = textBox515.Text;
+            label129.Text = textBox506.Text;
+            label128.Text = textBox497.Text;
+            label127.Text = textBox488.Text;
+            //time out and time out calculations for live totals.
+            textBox553.Text = "0";
+            textBox552.Text = "0";
+            textBox545.Text = "0";
+            textBox544.Text = "0";
+            textBox537.Text = "0";
+            textBox536.Text = "0";
+            textBox529.Text = "0";
+            textBox528.Text = "0";
+            textBox521.Text = "0";
 
+            //
+            label118.Text = otbapp1out.Text;
+            if (!String.IsNullOrEmpty(label118.Text))
+            {
+                textBox553.Text = label150.Text;
+            }
+            label117.Text = textBox468.Text;
+            if (!String.IsNullOrEmpty(label117.Text))
+            {
+                textBox552.Text = label149.Text;
+            }
+            label116.Text = textBox477.Text;
+            if (!String.IsNullOrEmpty(label116.Text))
+            {
+                textBox545.Text = label148.Text;
+            }
+            label115.Text = textBox486.Text;
+            if (!String.IsNullOrEmpty(label115.Text))
+            {
+                textBox544.Text = label147.Text;
+            }
+            label114.Text = textBox514.Text;
+            if (!String.IsNullOrEmpty(label114.Text))
+            {
+                textBox537.Text = label146.Text;
+            }
+                label113.Text = textBox505.Text;
+            if (!String.IsNullOrEmpty(label113.Text))
+            {
+                textBox536.Text = label145.Text;
+            }
+                label112.Text = textBox496.Text;
+            if (!String.IsNullOrEmpty(label112.Text))
+            {
+                textBox529.Text = label144.Text;
+            }
+                label111.Text = textBox32.Text;
+            if (!String.IsNullOrEmpty(label111.Text))
+            {
+                textBox528.Text = label143.Text;
+            }
 
+            int oo1 = Int32.Parse(textBox553.Text);
+            int oo2 = Int32.Parse(textBox552.Text);
+            int oo3 = Int32.Parse(textBox545.Text);
+            int oo4 = Int32.Parse(textBox544.Text);
+            int oo5 = Int32.Parse(textBox537.Text);
+            int oo6 = Int32.Parse(textBox536.Text);
+            int oo7 = Int32.Parse(textBox529.Text);
+            int oo8 = Int32.Parse(textBox528.Text);
 
+            textBox521.Text = (oo1 + oo2 + oo3 + oo4 + oo5 + oo6 + oo7 + oo8).ToString();
 
             // officers calculations
             //in
@@ -1093,7 +1323,91 @@ namespace Command_Suite
             textBox242.Text = (of1 + of2 + of3 + of4 + of5 + of6 + of7 + of8 + of9).ToString();
 
 
+            // OTB CALCULATIONS--------------------------
+            //----------------
+            //----------------
+            // THIS IS TO DISPLAY THE OTB APPLIANCE CALLSIGNS.  
 
+            label166.Text = otbapp1.Text;
+            label165.Text = otbapp2.Text;
+            label164.Text = textBox476.Text;
+            label163.Text = textBox485.Text;
+            label162.Text = textBox513.Text;
+            label161.Text = textBox504.Text;
+            label160.Text = textBox495.Text;
+            label159.Text = textBox31.Text;
+            //crews
+            label150.Text = textBox23.Text;
+            if (textBox23.Text == "0")
+            {
+                label150.Text = "";
+            }
+            label149.Text = textBox24.Text;
+            if (textBox24.Text == "0")
+            {
+                label149.Text = "";
+            }
+            label148.Text = textBox460.Text;
+            if (textBox460.Text == "0")
+            {
+                label148.Text = "";
+            }
+            label147.Text = textBox467.Text;
+            if (textBox467.Text == "0")
+            {
+                label147.Text = "";
+            }
+            label146.Text = textBox516.Text;
+            if (textBox516.Text == "0")
+            {
+                label146.Text = "";
+            }
+            label145.Text = textBox517.Text;
+            if (textBox517.Text == "0")
+            {
+                label145.Text = "";
+            }
+            label144.Text = textBox518.Text;
+            if (textBox518.Text == "0")
+            {
+                label144.Text = "";
+            }
+            label143.Text = textBox519.Text;
+            if (textBox519.Text == "0")
+            {
+                label143.Text = "";
+            }
+
+
+            // THIS IS TO SHOW THE APPLIANCE CREW NUMBERS.
+            int otbapp1tot = Int32.Parse(textBox23.Text);
+            //        textBox150.Text = (otbapp1tot).ToString();
+
+                    int otbapp2tot = Int32.Parse(textBox24.Text);
+            //       textBox149.Text = (otbapp2tot).ToString();
+
+                   int otbapp3tot = Int32.Parse(textBox460.Text);
+            //        textBox148.Text = (otbapp3tot).ToString();
+
+                    int otbapp4tot = Int32.Parse(textBox467.Text);
+            //        textBox147.Text = (otbapp4tot).ToString();
+
+                    int otbapp5tot = Int32.Parse(textBox516.Text);
+            //        textBox146.Text = (otbapp5tot).ToString();
+
+                   int otbapp6tot = Int32.Parse(textBox517.Text);
+            //        textBox145.Text = (otbapp6tot).ToString();
+
+                    int otbapp7tot = Int32.Parse(textBox518.Text);
+            //       textBox144.Text = (otbapp7tot).ToString();
+
+                   int otbapp8tot = Int32.Parse(textBox519.Text);
+            //       textBox143.Text = (otbapp8tot).ToString();
+
+            textBox520.Text = (otbapp1tot + otbapp2tot + otbapp3tot + otbapp4tot + otbapp5tot + otbapp6tot + otbapp7tot + otbapp8tot).ToString();
+            otbffQTY.Text = textBox520.Text;
+
+            int otbTOTAL = Int32.Parse(textBox520.Text);
 
 
 
@@ -1339,26 +1653,30 @@ namespace Command_Suite
             ffQTY.Text = (app1FF + app2FF + app3FF + app4FF + app5FF + app6FF + app7FF + app8FF).ToString();
             CCQTY.Text = (app1cc + app2cc + app3cc + app4cc + app5cc + app6cc + app7cc + app8cc).ToString();
             wcQTY.Text = (app1wc + app2wc + app3wc + app4wc + app5wc + app6wc + app7wc + app8wc).ToString();
-            
+
 
             // THIS IS JUST A TEST SCRIPT TO CALCULATE WHEN AN APPLIANCE HAS GONE
 
- //           if (!string.IsNullOrEmpty(app1out.Text))
- //           {
- //               liveTotalFPersonnel.Text = (officerin - officerOut + cfrsff + cfrscc + cfrswc - app1FF - app1cc - app1wc).ToString();
- //           }
-            
+            //           if (!string.IsNullOrEmpty(app1out.Text))
+            //           {
+            //               liveTotalFPersonnel.Text = (officerin - officerOut + cfrsff + cfrscc + cfrswc - app1FF - app1cc - app1wc).ToString();
+            //           }
 
+            int otboffin = Int32.Parse(textBox560.Text);
+            int otboffout = Int32.Parse(textBox589.Text);
 
             commandSupQTY.Text = (csin).ToString();
-
+            int otbout = Int32.Parse(textBox521.Text);
+            
             //LIVE TOTALS
             liveTotalFAppliances.Text = (appliancetotals - applianceout).ToString();
-            liveTotalFPersonnel.Text = (officerin - officerOut + crew1total + crew2total + crew3total + crew4total + crew5total + crew6total + crew7total + crew8total - complete).ToString();
+            liveTotalFPersonnel.Text = (officerin - officerOut + crew1total + crew2total + crew3total + crew4total + crew5total + crew6total + crew7total + crew8total - complete + otbTOTAL - otbout + otboffin - otboffout).ToString();
       
             liveTotalOtherAgencies.Text = (oain - oaout).ToString();
 
+            int baused = Int32.Parse(textBox599.Text);
 
+            textBox598.Text = (crew1total + crew2total + crew3total + crew4total + crew5total + crew6total + crew7total + crew8total - baused).ToString();
 
             //
             // --- THESE CALCULATIONS ARE FOR APPLAINCE
@@ -3169,9 +3487,730 @@ namespace Command_Suite
             textBox165.Text = (oic8cc + driver8cc + ba18cc + ba28cc + eco8cc + pos8cc).ToString();
             textBox164.Text = (oic8wc + driver8wc + ba18wc + ba28wc + eco8wc + pos8wc).ToString();
 
+            //---------------------------------------------------------------------------------------------------------
+
+            // OTB APPLIANCES
+            // APPLIANCE ONE
+
+            if (!string.IsNullOrWhiteSpace(textBox461.Text))
+            {
+                textBox527.Text = "1";
+            }
+            else
+            {
+                textBox527.Text = "0";
+            }
+            int otb1oic = Int32.Parse(textBox527.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox462.Text))
+            {
+                textBox526.Text = "1";
+            }
+            else
+            {
+                textBox526.Text = "0";
+            }
+            int otb1dvr = Int32.Parse(textBox526.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox463.Text))
+            {
+                textBox525.Text = "1";
+            }
+            else
+            {
+                textBox525.Text = "0";
+            }
+            int otb1ba1 = Int32.Parse(textBox525.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox464.Text))
+            {
+                textBox524.Text = "1";
+            }
+            else
+            {
+                textBox524.Text = "0";
+            }
+            int otb1ba2 = Int32.Parse(textBox524.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox465.Text))
+            {
+                textBox523.Text = "1";
+            }
+            else
+            {
+                textBox523.Text = "0";
+            }
+            int otb1eco = Int32.Parse(textBox523.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox466.Text))
+            {
+                textBox522.Text = "1";
+            }
+            else
+            {
+                textBox522.Text = "0";
+            }
+            int otb16 = Int32.Parse(textBox522.Text);
+
+            textBox23.Text = (otb1oic + otb1dvr + otb1ba1 + otb1ba2 + otb1eco + otb16).ToString();
+            //--------------------------------------------------------------------------------------------------------------
+            // APPLIANCE TWO
+
+            if (!string.IsNullOrWhiteSpace(textBox22.Text))
+            {
+                textBox535.Text = "1";
+            }
+            else
+            {
+                textBox535.Text = "0";
+            }
+            int otb2oic = Int32.Parse(textBox535.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox21.Text))
+            {
+                textBox534.Text = "1";
+            }
+            else
+            {
+                textBox534.Text = "0";
+            }
+            int otb2dvr = Int32.Parse(textBox534.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox20.Text))
+            {
+                textBox533.Text = "1";
+            }
+            else
+            {
+                textBox533.Text = "0";
+            }
+            int otb2ba1 = Int32.Parse(textBox533.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox19.Text))
+            {
+                textBox532.Text = "1";
+            }
+            else
+            {
+                textBox532.Text = "0";
+            }
+            int otb2ba2 = Int32.Parse(textBox532.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox18.Text))
+            {
+                textBox531.Text = "1";
+            }
+            else
+            {
+                textBox531.Text = "0";
+            }
+            int otb2eco = Int32.Parse(textBox531.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox17.Text))
+            {
+                textBox530.Text = "1";
+            }
+            else
+            {
+                textBox530.Text = "0";
+            }
+            int otb26 = Int32.Parse(textBox530.Text);
+
+            textBox24.Text = (otb2oic + otb2dvr + otb2ba1 + otb2ba2 + otb2eco + otb26).ToString();
+            //------------------------------------------------------------------------------------------
+            // APPLIANCE THREE
+
+            if (!string.IsNullOrWhiteSpace(textBox475.Text))
+            {
+                textBox543.Text = "1";
+            }
+            else
+            {
+                textBox543.Text = "0";
+            }
+            int otb3oic = Int32.Parse(textBox543.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox474.Text))
+            {
+                textBox542.Text = "1";
+            }
+            else
+            {
+                textBox542.Text = "0";
+            }
+            int otb3dvr = Int32.Parse(textBox542.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox473.Text))
+            {
+                textBox541.Text = "1";
+            }
+            else
+            {
+                textBox541.Text = "0";
+            }
+            int otb3ba1 = Int32.Parse(textBox541.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox472.Text))
+            {
+                textBox540.Text = "1";
+            }
+            else
+            {
+                textBox540.Text = "0";
+            }
+            int otb3ba2 = Int32.Parse(textBox540.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox471.Text))
+            {
+                textBox539.Text = "1";
+            }
+            else
+            {
+                textBox539.Text = "0";
+            }
+            int otb3eco = Int32.Parse(textBox539.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox470.Text))
+            {
+                textBox538.Text = "1";
+            }
+            else
+            {
+                textBox538.Text = "0";
+            }
+            int otb36 = Int32.Parse(textBox538.Text);
+
+            textBox460.Text = (otb3oic + otb3dvr + otb3ba1 + otb3ba2 + otb3eco + otb36).ToString();
+            //-------------------------------------------------------------------------------------------------------
+            // APPLIANCE FOUR
+
+            if (!string.IsNullOrWhiteSpace(textBox484.Text))
+            {
+                textBox551.Text = "1";
+            }
+            else
+            {
+                textBox551.Text = "0";
+            }
+            int otb4oic = Int32.Parse(textBox551.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox483.Text))
+            {
+                textBox550.Text = "1";
+            }
+            else
+            {
+                textBox550.Text = "0";
+            }
+            int otb4dvr = Int32.Parse(textBox550.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox482.Text))
+            {
+                textBox549.Text = "1";
+            }
+            else
+            {
+                textBox549.Text = "0";
+            }
+            int otb4ba1 = Int32.Parse(textBox549.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox481.Text))
+            {
+                textBox548.Text = "1";
+            }
+            else
+            {
+                textBox548.Text = "0";
+            }
+            int otb4ba2 = Int32.Parse(textBox548.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox480.Text))
+            {
+                textBox547.Text = "1";
+            }
+            else
+            {
+                textBox547.Text = "0";
+            }
+            int otb4eco = Int32.Parse(textBox547.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox479.Text))
+            {
+                textBox546.Text = "1";
+            }
+            else
+            {
+                textBox546.Text = "0";
+            }
+            int otb46 = Int32.Parse(textBox546.Text);
+
+            textBox467.Text = (otb4oic + otb4dvr + otb4ba1 + otb4ba2 + otb4eco + otb46).ToString();
+            //-----------------------------------------------------------------------------------------------------------
 
 
+            // APPLIANCE FIVE
 
+            if (!string.IsNullOrWhiteSpace(textBox512.Text))
+            {
+                textBox559.Text = "1";
+            }
+            else
+            {
+                textBox559.Text = "0";
+            }
+            int otb5oic = Int32.Parse(textBox559.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox511.Text))
+            {
+                textBox558.Text = "1";
+            }
+            else
+            {
+                textBox558.Text = "0";
+            }
+            int otb5dvr = Int32.Parse(textBox558.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox510.Text))
+            {
+                textBox557.Text = "1";
+            }
+            else
+            {
+                textBox557.Text = "0";
+            }
+            int otb5ba1 = Int32.Parse(textBox557.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox509.Text))
+            {
+                textBox556.Text = "1";
+            }
+            else
+            {
+                textBox556.Text = "0";
+            }
+            int otb5ba2 = Int32.Parse(textBox556.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox508.Text))
+            {
+                textBox555.Text = "1";
+            }
+            else
+            {
+                textBox555.Text = "0";
+            }
+            int otb5eco = Int32.Parse(textBox555.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox507.Text))
+            {
+                textBox554.Text = "1";
+            }
+            else
+            {
+                textBox554.Text = "0";
+            }
+            int otb56 = Int32.Parse(textBox554.Text);
+
+            textBox516.Text = (otb5oic + otb5dvr + otb5ba1 + otb5ba2 + otb5eco + otb56).ToString();
+            //---------------------------------------------------------------------------------------------------------
+            // APPLIANCE SIX
+
+            if (!string.IsNullOrWhiteSpace(textBox503.Text))
+            {
+                textBox567.Text = "1";
+            }
+            else
+            {
+                textBox567.Text = "0";
+            }
+            int otb6oic = Int32.Parse(textBox567.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox502.Text))
+            {
+                textBox566.Text = "1";
+            }
+            else
+            {
+                textBox566.Text = "0";
+            }
+            int otb6dvr = Int32.Parse(textBox566.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox501.Text))
+            {
+                textBox565.Text = "1";
+            }
+            else
+            {
+                textBox565.Text = "0";
+            }
+            int otb6ba1 = Int32.Parse(textBox565.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox500.Text))
+            {
+                textBox564.Text = "1";
+            }
+            else
+            {
+                textBox564.Text = "0";
+            }
+            int otb6ba2 = Int32.Parse(textBox564.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox499.Text))
+            {
+                textBox563.Text = "1";
+            }
+            else
+            {
+                textBox563.Text = "0";
+            }
+            int otb6eco = Int32.Parse(textBox563.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox498.Text))
+            {
+                textBox562.Text = "1";
+            }
+            else
+            {
+                textBox562.Text = "0";
+            }
+            int otb66 = Int32.Parse(textBox562.Text);
+
+            textBox517.Text = (otb6oic + otb6dvr + otb6ba1 + otb6ba2 + otb6eco + otb66).ToString();
+            //--------------------------------------------------------------------------------------------------------
+
+            // APPLIANCE SEVEN
+
+            if (!string.IsNullOrWhiteSpace(textBox494.Text))
+            {
+                textBox575.Text = "1";
+            }
+            else
+            {
+                textBox575.Text = "0";
+            }
+            int otb7oic = Int32.Parse(textBox575.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox493.Text))
+            {
+                textBox574.Text = "1";
+            }
+            else
+            {
+                textBox574.Text = "0";
+            }
+            int otb7dvr = Int32.Parse(textBox574.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox492.Text))
+            {
+                textBox573.Text = "1";
+            }
+            else
+            {
+                textBox573.Text = "0";
+            }
+            int otb7ba1 = Int32.Parse(textBox573.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox491.Text))
+            {
+                textBox572.Text = "1";
+            }
+            else
+            {
+                textBox572.Text = "0";
+            }
+            int otb7ba2 = Int32.Parse(textBox572.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox490.Text))
+            {
+                textBox571.Text = "1";
+            }
+            else
+            {
+                textBox571.Text = "0";
+            }
+            int otb7eco = Int32.Parse(textBox571.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox489.Text))
+            {
+                textBox570.Text = "1";
+            }
+            else
+            {
+                textBox570.Text = "0";
+            }
+            int otb76 = Int32.Parse(textBox570.Text);
+
+            textBox518.Text = (otb7oic + otb7dvr + otb7ba1 + otb7ba2 + otb7eco + otb76).ToString();
+            //-------------------------------------------------------------------------------------------------------------
+            // APPLIANCE EIGHT
+
+            if (!string.IsNullOrWhiteSpace(textBox30.Text))
+            {
+                textBox583.Text = "1";
+            }
+            else
+            {
+                textBox583.Text = "0";
+            }
+            int otb8oic = Int32.Parse(textBox583.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox29.Text))
+            {
+                textBox582.Text = "1";
+            }
+            else
+            {
+                textBox582.Text = "0";
+            }
+            int otb8dvr = Int32.Parse(textBox582.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox28.Text))
+            {
+                textBox581.Text = "1";
+            }
+            else
+            {
+                textBox581.Text = "0";
+            }
+            int otb8ba1 = Int32.Parse(textBox581.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox27.Text))
+            {
+                textBox580.Text = "1";
+            }
+            else
+            {
+                textBox580.Text = "0";
+            }
+            int otb8ba2 = Int32.Parse(textBox580.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox26.Text))
+            {
+                textBox579.Text = "1";
+            }
+            else
+            {
+                textBox579.Text = "0";
+            }
+            int otb8eco = Int32.Parse(textBox579.Text);
+
+            if (!string.IsNullOrWhiteSpace(textBox25.Text))
+            {
+                textBox578.Text = "1";
+            }
+            else
+            {
+                textBox578.Text = "0";
+            }
+            int otb86 = Int32.Parse(textBox578.Text);
+
+            textBox519.Text = (otb8oic + otb8dvr + otb8ba1 + otb8ba2 + otb8eco + otb86).ToString();
+            //-------------------------------------------------------------------------------------------------------
+
+            //OTB CREW LABEL SETTING TO ZERO
+            if (label166.Text == null)
+            {
+                label150.Text = "";
+            }
+            if (label165.Text == null)
+            {
+                label149.Text = "";
+            }
+            if (label164.Text == null)
+            {
+                label148.Text = "";
+            }
+            if (label163.Text == null)
+            {
+                label147.Text = "";
+            }
+            if (label162.Text == null)
+            {
+                label146.Text = "";
+            }
+            if (label161.Text == null)
+            {
+                label148.Text = "";
+            }
+            if (label160.Text == null)
+            {
+                label144.Text = "";
+            }
+            if (label159.Text == null)
+            {
+                label143.Text = "";
+            }
+
+
+            if (String.IsNullOrEmpty(textBox294.Text))
+            {
+                textBox586.Text = "0";
+            }
+            else
+            {
+                textBox586.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox290.Text))
+            {
+                textBox585.Text = "0";
+            }
+            else
+            {
+                textBox585.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox286.Text))
+            {
+                textBox584.Text = "0";
+            }
+            else
+            {
+                textBox584.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox282.Text))
+            {
+                textBox577.Text = "0";
+            }
+            else
+            {
+                textBox577.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox278.Text))
+            {
+                textBox576.Text = "0";
+            }
+            else
+            {
+                textBox576.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox274.Text))
+            {
+                textBox569.Text = "0";
+            }
+            else
+            {
+                textBox569.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox270.Text))
+            {
+                textBox568.Text = "0";
+            }
+            else
+            {
+                textBox568.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox266.Text))
+            {
+                textBox561.Text = "0";
+            }
+            else
+            {
+                textBox561.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox262.Text))
+            {
+                textBox587.Text = "0";
+            }
+            else
+            {
+                textBox587.Text = "1";
+            }
+
+            int otb1 = Int32.Parse(textBox586.Text);
+            int otb2 = Int32.Parse(textBox585.Text);
+            int otb3 = Int32.Parse(textBox584.Text);
+            int otb4 = Int32.Parse(textBox577.Text);
+            int otb5 = Int32.Parse(textBox576.Text);
+            int otb6 = Int32.Parse(textBox569.Text);
+            int otb7 = Int32.Parse(textBox568.Text);
+            int otb8 = Int32.Parse(textBox561.Text);
+            int otb9 = Int32.Parse(textBox587.Text);
+            textBox560.Text = (otb1 + otb2 + otb3 + otb4 + otb5 + otb6 + otb7 + otb8).ToString();
+
+            // ------- otb out calcs for officer
+
+            if (String.IsNullOrEmpty(textBox293.Text))
+            {
+                textBox597.Text = "0";
+            }
+            else
+            {
+                textBox597.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox289.Text))
+            {
+                textBox596.Text = "0";
+            }
+            else
+            {
+                textBox596.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox285.Text))
+            {
+                textBox595.Text = "0";
+            }
+            else
+            {
+                textBox595.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox281.Text))
+            {
+                textBox594.Text = "0";
+            }
+            else
+            {
+                textBox594.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox277.Text))
+            {
+                textBox593.Text = "0";
+            }
+            else
+            {
+                textBox593.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox273.Text))
+            {
+                textBox592.Text = "0";
+            }
+            else
+            {
+                textBox592.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox269.Text))
+            {
+                textBox591.Text = "0";
+            }
+            else
+            {
+                textBox591.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox265.Text))
+            {
+                textBox590.Text = "0";
+            }
+            else
+            {
+                textBox590.Text = "1";
+            }
+            if (String.IsNullOrEmpty(textBox261.Text))
+            {
+                textBox588.Text = "0";
+            }
+            else
+            {
+                textBox588.Text = "1";
+            }
+            int ottb1 = Int32.Parse(textBox597.Text);
+            int ottb2 = Int32.Parse(textBox596.Text);
+            int ottb3 = Int32.Parse(textBox595.Text);
+            int ottb4 = Int32.Parse(textBox594.Text);
+            int ottb5 = Int32.Parse(textBox593.Text);
+            int ottb6 = Int32.Parse(textBox592.Text);
+            int ottb7 = Int32.Parse(textBox591.Text);
+            int ottb8 = Int32.Parse(textBox590.Text);
+            int ottb9 = Int32.Parse(textBox588.Text);
+            textBox589.Text = (ottb1 + ottb2 + ottb3 + ottb4 + ottb5 + ottb6 + ottb7 + ottb8).ToString();
+
+            otbofficersQTY.Text = textBox560.Text;
 
             //---------------------------------------------------------------------------------------------------------
             cfrspos1.Text = app1.Text;
@@ -43406,6 +44445,44 @@ namespace Command_Suite
             //                          THE PDF WILL INCLUDE ALL DATA GATHERED FROM THE INCIDENT.                                            \\
             //                                                                                                                               \\
             //                                                                                                                               \\
+
+
+            PdfDocument document = new PdfDocument();
+            PdfPage page = document.AddPage();
+
+            XGraphics gfx = XGraphics.FromPdfPage(page);
+            XPdfFontOptions options = new XPdfFontOptions(PdfFontEncoding.Unicode, PdfFontEmbedding.Always);
+            //fonts
+
+            XFont fontArial20 = new XFont("Arial", 20, XFontStyle.Bold, options);
+            XFont fontArial12 = new XFont("Arial", 12, XFontStyle.Regular, options);
+
+            // title
+            gfx.DrawString("Incident Number" + " " + incNo.Text, fontArial20, XBrushes.Black, 200, 20);
+
+
+
+
+
+
+
+            // This section save the PDF to a location of your choosing
+            //
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "pdf files (*.pdf)|*.pdf|All files (*.*)|*.*";
+            saveFileDialog1.FilterIndex = 1;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+               
+                document.Save(saveFileDialog1.FileName);
+                Process.Start(saveFileDialog1.FileName);
+            }
+
+
+
             //-------------------------------------------------------------------------------------------------------------------------------\\
             //-------------------------------------------------------------------------------------------------------------------------------\\
             //-------------------------------------------------------------------------------------------------------------------------------\\
@@ -53462,6 +54539,16 @@ namespace Command_Suite
         }
 
         private void textBox194_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox23_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox23_TextChanged_1(object sender, EventArgs e)
         {
 
         }

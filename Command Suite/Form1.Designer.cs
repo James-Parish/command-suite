@@ -34,7 +34,6 @@
             this.Summary = new System.Windows.Forms.TabPage();
             this.oaQTY = new System.Windows.Forms.Label();
             this.label431 = new System.Windows.Forms.Label();
-            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.label175 = new System.Windows.Forms.Label();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.secCommander4 = new System.Windows.Forms.TextBox();
@@ -121,12 +120,8 @@
             this.label170 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.otbffQTY = new System.Windows.Forms.Label();
-            this.otbccQTY = new System.Windows.Forms.Label();
-            this.otbwcQTY = new System.Windows.Forms.Label();
             this.otbofficersQTY = new System.Windows.Forms.Label();
             this.label103 = new System.Windows.Forms.Label();
-            this.label104 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
             this.label106 = new System.Windows.Forms.Label();
             this.label107 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
@@ -513,162 +508,162 @@
             this.label468 = new System.Windows.Forms.Label();
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
             this.otbappliances = new System.Windows.Forms.TabPage();
-            this.label299 = new System.Windows.Forms.Label();
-            this.comboBox85 = new System.Windows.Forms.ComboBox();
-            this.label300 = new System.Windows.Forms.Label();
-            this.comboBox86 = new System.Windows.Forms.ComboBox();
-            this.label301 = new System.Windows.Forms.Label();
-            this.comboBox87 = new System.Windows.Forms.ComboBox();
-            this.label302 = new System.Windows.Forms.Label();
-            this.comboBox88 = new System.Windows.Forms.ComboBox();
-            this.label303 = new System.Windows.Forms.Label();
-            this.comboBox89 = new System.Windows.Forms.ComboBox();
-            this.label304 = new System.Windows.Forms.Label();
-            this.comboBox90 = new System.Windows.Forms.ComboBox();
-            this.label305 = new System.Windows.Forms.Label();
             this.textBox25 = new System.Windows.Forms.TextBox();
             this.textBox26 = new System.Windows.Forms.TextBox();
-            this.comboBox91 = new System.Windows.Forms.ComboBox();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.label299 = new System.Windows.Forms.Label();
+            this.label300 = new System.Windows.Forms.Label();
+            this.label301 = new System.Windows.Forms.Label();
+            this.label302 = new System.Windows.Forms.Label();
+            this.label303 = new System.Windows.Forms.Label();
+            this.label304 = new System.Windows.Forms.Label();
+            this.label305 = new System.Windows.Forms.Label();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.textBox488 = new System.Windows.Forms.TextBox();
             this.label306 = new System.Windows.Forms.Label();
             this.label307 = new System.Windows.Forms.Label();
             this.label308 = new System.Windows.Forms.Label();
             this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.textBox489 = new System.Windows.Forms.TextBox();
+            this.textBox490 = new System.Windows.Forms.TextBox();
+            this.textBox491 = new System.Windows.Forms.TextBox();
+            this.textBox492 = new System.Windows.Forms.TextBox();
+            this.textBox493 = new System.Windows.Forms.TextBox();
+            this.textBox494 = new System.Windows.Forms.TextBox();
+            this.textBox495 = new System.Windows.Forms.TextBox();
             this.label309 = new System.Windows.Forms.Label();
-            this.comboBox92 = new System.Windows.Forms.ComboBox();
             this.label310 = new System.Windows.Forms.Label();
-            this.comboBox93 = new System.Windows.Forms.ComboBox();
             this.label311 = new System.Windows.Forms.Label();
-            this.comboBox94 = new System.Windows.Forms.ComboBox();
             this.label312 = new System.Windows.Forms.Label();
-            this.comboBox95 = new System.Windows.Forms.ComboBox();
             this.label313 = new System.Windows.Forms.Label();
-            this.comboBox96 = new System.Windows.Forms.ComboBox();
             this.label314 = new System.Windows.Forms.Label();
-            this.comboBox97 = new System.Windows.Forms.ComboBox();
             this.label315 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.comboBox98 = new System.Windows.Forms.ComboBox();
+            this.textBox496 = new System.Windows.Forms.TextBox();
+            this.textBox497 = new System.Windows.Forms.TextBox();
             this.label316 = new System.Windows.Forms.Label();
             this.label317 = new System.Windows.Forms.Label();
             this.label318 = new System.Windows.Forms.Label();
             this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.textBox498 = new System.Windows.Forms.TextBox();
+            this.textBox499 = new System.Windows.Forms.TextBox();
+            this.textBox500 = new System.Windows.Forms.TextBox();
+            this.textBox501 = new System.Windows.Forms.TextBox();
+            this.textBox502 = new System.Windows.Forms.TextBox();
+            this.textBox503 = new System.Windows.Forms.TextBox();
+            this.textBox504 = new System.Windows.Forms.TextBox();
             this.label319 = new System.Windows.Forms.Label();
-            this.comboBox99 = new System.Windows.Forms.ComboBox();
             this.label320 = new System.Windows.Forms.Label();
-            this.comboBox100 = new System.Windows.Forms.ComboBox();
             this.label321 = new System.Windows.Forms.Label();
-            this.comboBox101 = new System.Windows.Forms.ComboBox();
             this.label322 = new System.Windows.Forms.Label();
-            this.comboBox102 = new System.Windows.Forms.ComboBox();
             this.label323 = new System.Windows.Forms.Label();
-            this.comboBox103 = new System.Windows.Forms.ComboBox();
             this.label324 = new System.Windows.Forms.Label();
-            this.comboBox104 = new System.Windows.Forms.ComboBox();
             this.label325 = new System.Windows.Forms.Label();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.comboBox105 = new System.Windows.Forms.ComboBox();
+            this.textBox505 = new System.Windows.Forms.TextBox();
+            this.textBox506 = new System.Windows.Forms.TextBox();
             this.label326 = new System.Windows.Forms.Label();
             this.label327 = new System.Windows.Forms.Label();
             this.label328 = new System.Windows.Forms.Label();
             this.pictureBox41 = new System.Windows.Forms.PictureBox();
+            this.textBox507 = new System.Windows.Forms.TextBox();
+            this.textBox508 = new System.Windows.Forms.TextBox();
+            this.textBox509 = new System.Windows.Forms.TextBox();
+            this.textBox510 = new System.Windows.Forms.TextBox();
+            this.textBox511 = new System.Windows.Forms.TextBox();
+            this.textBox512 = new System.Windows.Forms.TextBox();
+            this.textBox513 = new System.Windows.Forms.TextBox();
             this.label329 = new System.Windows.Forms.Label();
-            this.comboBox106 = new System.Windows.Forms.ComboBox();
             this.label330 = new System.Windows.Forms.Label();
-            this.comboBox107 = new System.Windows.Forms.ComboBox();
             this.label331 = new System.Windows.Forms.Label();
-            this.comboBox108 = new System.Windows.Forms.ComboBox();
             this.label332 = new System.Windows.Forms.Label();
-            this.comboBox109 = new System.Windows.Forms.ComboBox();
             this.label333 = new System.Windows.Forms.Label();
-            this.comboBox110 = new System.Windows.Forms.ComboBox();
             this.label334 = new System.Windows.Forms.Label();
-            this.comboBox111 = new System.Windows.Forms.ComboBox();
             this.label335 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
-            this.comboBox112 = new System.Windows.Forms.ComboBox();
+            this.textBox514 = new System.Windows.Forms.TextBox();
+            this.textBox515 = new System.Windows.Forms.TextBox();
             this.label336 = new System.Windows.Forms.Label();
             this.label337 = new System.Windows.Forms.Label();
             this.label338 = new System.Windows.Forms.Label();
             this.pictureBox42 = new System.Windows.Forms.PictureBox();
-            this.label258 = new System.Windows.Forms.Label();
-            this.comboBox57 = new System.Windows.Forms.ComboBox();
-            this.label259 = new System.Windows.Forms.Label();
-            this.comboBox58 = new System.Windows.Forms.ComboBox();
-            this.label260 = new System.Windows.Forms.Label();
-            this.comboBox59 = new System.Windows.Forms.ComboBox();
-            this.label261 = new System.Windows.Forms.Label();
-            this.comboBox60 = new System.Windows.Forms.ComboBox();
-            this.label262 = new System.Windows.Forms.Label();
-            this.comboBox61 = new System.Windows.Forms.ComboBox();
-            this.label263 = new System.Windows.Forms.Label();
-            this.comboBox62 = new System.Windows.Forms.ComboBox();
-            this.label264 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.comboBox63 = new System.Windows.Forms.ComboBox();
-            this.label265 = new System.Windows.Forms.Label();
-            this.label266 = new System.Windows.Forms.Label();
-            this.label267 = new System.Windows.Forms.Label();
-            this.pictureBox35 = new System.Windows.Forms.PictureBox();
-            this.label268 = new System.Windows.Forms.Label();
-            this.comboBox64 = new System.Windows.Forms.ComboBox();
-            this.label269 = new System.Windows.Forms.Label();
-            this.comboBox65 = new System.Windows.Forms.ComboBox();
-            this.label270 = new System.Windows.Forms.Label();
-            this.comboBox66 = new System.Windows.Forms.ComboBox();
-            this.label271 = new System.Windows.Forms.Label();
-            this.comboBox67 = new System.Windows.Forms.ComboBox();
-            this.label272 = new System.Windows.Forms.Label();
-            this.comboBox68 = new System.Windows.Forms.ComboBox();
-            this.label273 = new System.Windows.Forms.Label();
-            this.comboBox69 = new System.Windows.Forms.ComboBox();
-            this.label274 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.comboBox70 = new System.Windows.Forms.ComboBox();
-            this.label275 = new System.Windows.Forms.Label();
-            this.label276 = new System.Windows.Forms.Label();
-            this.label277 = new System.Windows.Forms.Label();
-            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.textBox479 = new System.Windows.Forms.TextBox();
+            this.textBox480 = new System.Windows.Forms.TextBox();
+            this.textBox481 = new System.Windows.Forms.TextBox();
+            this.textBox482 = new System.Windows.Forms.TextBox();
+            this.textBox483 = new System.Windows.Forms.TextBox();
+            this.textBox484 = new System.Windows.Forms.TextBox();
+            this.textBox485 = new System.Windows.Forms.TextBox();
             this.label278 = new System.Windows.Forms.Label();
-            this.comboBox71 = new System.Windows.Forms.ComboBox();
             this.label279 = new System.Windows.Forms.Label();
-            this.comboBox72 = new System.Windows.Forms.ComboBox();
             this.label280 = new System.Windows.Forms.Label();
-            this.comboBox73 = new System.Windows.Forms.ComboBox();
             this.label281 = new System.Windows.Forms.Label();
-            this.comboBox74 = new System.Windows.Forms.ComboBox();
             this.label282 = new System.Windows.Forms.Label();
-            this.comboBox75 = new System.Windows.Forms.ComboBox();
             this.label283 = new System.Windows.Forms.Label();
-            this.comboBox76 = new System.Windows.Forms.ComboBox();
             this.label284 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.comboBox77 = new System.Windows.Forms.ComboBox();
+            this.textBox486 = new System.Windows.Forms.TextBox();
+            this.textBox487 = new System.Windows.Forms.TextBox();
             this.label285 = new System.Windows.Forms.Label();
             this.label286 = new System.Windows.Forms.Label();
             this.label287 = new System.Windows.Forms.Label();
             this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.textBox470 = new System.Windows.Forms.TextBox();
+            this.textBox471 = new System.Windows.Forms.TextBox();
+            this.textBox472 = new System.Windows.Forms.TextBox();
+            this.textBox473 = new System.Windows.Forms.TextBox();
+            this.textBox474 = new System.Windows.Forms.TextBox();
+            this.textBox475 = new System.Windows.Forms.TextBox();
+            this.textBox476 = new System.Windows.Forms.TextBox();
+            this.label268 = new System.Windows.Forms.Label();
+            this.label269 = new System.Windows.Forms.Label();
+            this.label270 = new System.Windows.Forms.Label();
+            this.label271 = new System.Windows.Forms.Label();
+            this.label272 = new System.Windows.Forms.Label();
+            this.label273 = new System.Windows.Forms.Label();
+            this.label274 = new System.Windows.Forms.Label();
+            this.textBox477 = new System.Windows.Forms.TextBox();
+            this.textBox478 = new System.Windows.Forms.TextBox();
+            this.label275 = new System.Windows.Forms.Label();
+            this.label276 = new System.Windows.Forms.Label();
+            this.label277 = new System.Windows.Forms.Label();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.otbapp2 = new System.Windows.Forms.TextBox();
+            this.label258 = new System.Windows.Forms.Label();
+            this.label259 = new System.Windows.Forms.Label();
+            this.label260 = new System.Windows.Forms.Label();
+            this.label261 = new System.Windows.Forms.Label();
+            this.label262 = new System.Windows.Forms.Label();
+            this.label263 = new System.Windows.Forms.Label();
+            this.label264 = new System.Windows.Forms.Label();
+            this.textBox468 = new System.Windows.Forms.TextBox();
+            this.textBox469 = new System.Windows.Forms.TextBox();
+            this.label265 = new System.Windows.Forms.Label();
+            this.label266 = new System.Windows.Forms.Label();
+            this.label267 = new System.Windows.Forms.Label();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.textBox466 = new System.Windows.Forms.TextBox();
+            this.textBox465 = new System.Windows.Forms.TextBox();
+            this.textBox464 = new System.Windows.Forms.TextBox();
+            this.textBox463 = new System.Windows.Forms.TextBox();
+            this.textBox462 = new System.Windows.Forms.TextBox();
+            this.textBox461 = new System.Windows.Forms.TextBox();
+            this.otbapp1 = new System.Windows.Forms.TextBox();
             this.label288 = new System.Windows.Forms.Label();
-            this.comboBox78 = new System.Windows.Forms.ComboBox();
             this.label289 = new System.Windows.Forms.Label();
-            this.comboBox79 = new System.Windows.Forms.ComboBox();
             this.label290 = new System.Windows.Forms.Label();
-            this.comboBox80 = new System.Windows.Forms.ComboBox();
             this.label291 = new System.Windows.Forms.Label();
-            this.comboBox81 = new System.Windows.Forms.ComboBox();
             this.label292 = new System.Windows.Forms.Label();
-            this.comboBox82 = new System.Windows.Forms.ComboBox();
             this.label293 = new System.Windows.Forms.Label();
-            this.comboBox83 = new System.Windows.Forms.ComboBox();
             this.label294 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.comboBox84 = new System.Windows.Forms.ComboBox();
+            this.otbapp1out = new System.Windows.Forms.TextBox();
+            this.otbapp1in = new System.Windows.Forms.TextBox();
             this.label295 = new System.Windows.Forms.Label();
             this.label296 = new System.Windows.Forms.Label();
             this.label297 = new System.Windows.Forms.Label();
@@ -1296,11 +1291,121 @@
             this.label344 = new System.Windows.Forms.Label();
             this.pictureBox44 = new System.Windows.Forms.PictureBox();
             this.otbcalculation = new System.Windows.Forms.TabPage();
+            this.textBox588 = new System.Windows.Forms.TextBox();
+            this.textBox589 = new System.Windows.Forms.TextBox();
+            this.label516 = new System.Windows.Forms.Label();
+            this.textBox590 = new System.Windows.Forms.TextBox();
+            this.textBox591 = new System.Windows.Forms.TextBox();
+            this.textBox592 = new System.Windows.Forms.TextBox();
+            this.textBox593 = new System.Windows.Forms.TextBox();
+            this.textBox594 = new System.Windows.Forms.TextBox();
+            this.textBox595 = new System.Windows.Forms.TextBox();
+            this.textBox596 = new System.Windows.Forms.TextBox();
+            this.textBox597 = new System.Windows.Forms.TextBox();
+            this.pictureBox81 = new System.Windows.Forms.PictureBox();
+            this.textBox587 = new System.Windows.Forms.TextBox();
+            this.textBox560 = new System.Windows.Forms.TextBox();
+            this.label105 = new System.Windows.Forms.Label();
+            this.textBox561 = new System.Windows.Forms.TextBox();
+            this.textBox568 = new System.Windows.Forms.TextBox();
+            this.textBox569 = new System.Windows.Forms.TextBox();
+            this.textBox576 = new System.Windows.Forms.TextBox();
+            this.textBox577 = new System.Windows.Forms.TextBox();
+            this.textBox584 = new System.Windows.Forms.TextBox();
+            this.textBox585 = new System.Windows.Forms.TextBox();
+            this.textBox586 = new System.Windows.Forms.TextBox();
+            this.pictureBox80 = new System.Windows.Forms.PictureBox();
+            this.textBox521 = new System.Windows.Forms.TextBox();
+            this.label104 = new System.Windows.Forms.Label();
+            this.textBox528 = new System.Windows.Forms.TextBox();
+            this.textBox529 = new System.Windows.Forms.TextBox();
+            this.textBox536 = new System.Windows.Forms.TextBox();
+            this.textBox537 = new System.Windows.Forms.TextBox();
+            this.textBox544 = new System.Windows.Forms.TextBox();
+            this.textBox545 = new System.Windows.Forms.TextBox();
+            this.textBox552 = new System.Windows.Forms.TextBox();
+            this.textBox553 = new System.Windows.Forms.TextBox();
+            this.pictureBox79 = new System.Windows.Forms.PictureBox();
+            this.textBox520 = new System.Windows.Forms.TextBox();
+            this.label515 = new System.Windows.Forms.Label();
+            this.textBox578 = new System.Windows.Forms.TextBox();
+            this.textBox579 = new System.Windows.Forms.TextBox();
+            this.textBox580 = new System.Windows.Forms.TextBox();
+            this.textBox581 = new System.Windows.Forms.TextBox();
+            this.textBox582 = new System.Windows.Forms.TextBox();
+            this.textBox583 = new System.Windows.Forms.TextBox();
+            this.pictureBox78 = new System.Windows.Forms.PictureBox();
+            this.label514 = new System.Windows.Forms.Label();
+            this.textBox570 = new System.Windows.Forms.TextBox();
+            this.textBox571 = new System.Windows.Forms.TextBox();
+            this.textBox572 = new System.Windows.Forms.TextBox();
+            this.textBox573 = new System.Windows.Forms.TextBox();
+            this.textBox574 = new System.Windows.Forms.TextBox();
+            this.textBox575 = new System.Windows.Forms.TextBox();
+            this.pictureBox77 = new System.Windows.Forms.PictureBox();
+            this.label462 = new System.Windows.Forms.Label();
+            this.textBox562 = new System.Windows.Forms.TextBox();
+            this.textBox563 = new System.Windows.Forms.TextBox();
+            this.textBox564 = new System.Windows.Forms.TextBox();
+            this.textBox565 = new System.Windows.Forms.TextBox();
+            this.textBox566 = new System.Windows.Forms.TextBox();
+            this.textBox567 = new System.Windows.Forms.TextBox();
+            this.pictureBox76 = new System.Windows.Forms.PictureBox();
+            this.label461 = new System.Windows.Forms.Label();
+            this.textBox554 = new System.Windows.Forms.TextBox();
+            this.textBox555 = new System.Windows.Forms.TextBox();
+            this.textBox556 = new System.Windows.Forms.TextBox();
+            this.textBox557 = new System.Windows.Forms.TextBox();
+            this.textBox558 = new System.Windows.Forms.TextBox();
+            this.textBox559 = new System.Windows.Forms.TextBox();
+            this.pictureBox75 = new System.Windows.Forms.PictureBox();
+            this.label460 = new System.Windows.Forms.Label();
+            this.textBox546 = new System.Windows.Forms.TextBox();
+            this.textBox547 = new System.Windows.Forms.TextBox();
+            this.textBox548 = new System.Windows.Forms.TextBox();
+            this.textBox549 = new System.Windows.Forms.TextBox();
+            this.textBox550 = new System.Windows.Forms.TextBox();
+            this.textBox551 = new System.Windows.Forms.TextBox();
+            this.pictureBox74 = new System.Windows.Forms.PictureBox();
+            this.label459 = new System.Windows.Forms.Label();
+            this.textBox538 = new System.Windows.Forms.TextBox();
+            this.textBox539 = new System.Windows.Forms.TextBox();
+            this.textBox540 = new System.Windows.Forms.TextBox();
+            this.textBox541 = new System.Windows.Forms.TextBox();
+            this.textBox542 = new System.Windows.Forms.TextBox();
+            this.textBox543 = new System.Windows.Forms.TextBox();
+            this.pictureBox73 = new System.Windows.Forms.PictureBox();
+            this.label436 = new System.Windows.Forms.Label();
+            this.textBox530 = new System.Windows.Forms.TextBox();
+            this.textBox531 = new System.Windows.Forms.TextBox();
+            this.textBox532 = new System.Windows.Forms.TextBox();
+            this.textBox533 = new System.Windows.Forms.TextBox();
+            this.textBox534 = new System.Windows.Forms.TextBox();
+            this.textBox535 = new System.Windows.Forms.TextBox();
+            this.pictureBox72 = new System.Windows.Forms.PictureBox();
+            this.label434 = new System.Windows.Forms.Label();
+            this.textBox522 = new System.Windows.Forms.TextBox();
+            this.textBox523 = new System.Windows.Forms.TextBox();
+            this.textBox524 = new System.Windows.Forms.TextBox();
+            this.textBox525 = new System.Windows.Forms.TextBox();
+            this.textBox526 = new System.Windows.Forms.TextBox();
+            this.textBox527 = new System.Windows.Forms.TextBox();
+            this.pictureBox71 = new System.Windows.Forms.PictureBox();
+            this.label432 = new System.Windows.Forms.Label();
+            this.textBox519 = new System.Windows.Forms.TextBox();
+            this.textBox518 = new System.Windows.Forms.TextBox();
+            this.textBox517 = new System.Windows.Forms.TextBox();
+            this.textBox516 = new System.Windows.Forms.TextBox();
+            this.textBox467 = new System.Windows.Forms.TextBox();
+            this.textBox460 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
             this.label511 = new System.Windows.Forms.Label();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
             this.label512 = new System.Windows.Forms.Label();
             this.pictureBox69 = new System.Windows.Forms.PictureBox();
             this.label513 = new System.Windows.Forms.Label();
+            this.pictureBox70 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.setARAReminderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1341,9 +1446,34 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.digitalclock = new System.Windows.Forms.Label();
             this.datenow = new System.Windows.Forms.TextBox();
+            this.label517 = new System.Windows.Forms.Label();
+            this.textBox598 = new System.Windows.Forms.TextBox();
+            this.label518 = new System.Windows.Forms.Label();
+            this.textBox599 = new System.Windows.Forms.TextBox();
+            this.label519 = new System.Windows.Forms.Label();
+            this.comboBox27 = new System.Windows.Forms.ComboBox();
+            this.label520 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label521 = new System.Windows.Forms.Label();
+            this.label522 = new System.Windows.Forms.Label();
+            this.textBox600 = new System.Windows.Forms.TextBox();
+            this.textBox601 = new System.Windows.Forms.TextBox();
+            this.label523 = new System.Windows.Forms.Label();
+            this.textBox602 = new System.Windows.Forms.TextBox();
+            this.label524 = new System.Windows.Forms.Label();
+            this.textBox603 = new System.Windows.Forms.TextBox();
+            this.label525 = new System.Windows.Forms.Label();
+            this.textBox604 = new System.Windows.Forms.TextBox();
+            this.label526 = new System.Windows.Forms.Label();
+            this.textBox605 = new System.Windows.Forms.TextBox();
+            this.label527 = new System.Windows.Forms.Label();
+            this.notes = new System.Windows.Forms.TabPage();
+            this.textBox606 = new System.Windows.Forms.TextBox();
+            this.label528 = new System.Windows.Forms.Label();
+            this.label529 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
@@ -1375,9 +1505,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
             this.otbofficers.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
@@ -1414,14 +1544,27 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox45)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).BeginInit();
             this.otbcalculation.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox81)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.notes.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -1437,6 +1580,7 @@
             this.tabControl1.Controls.Add(this.otbofficers);
             this.tabControl1.Controls.Add(this.otheragencies);
             this.tabControl1.Controls.Add(this.methane);
+            this.tabControl1.Controls.Add(this.notes);
             this.tabControl1.Controls.Add(this.Calculations);
             this.tabControl1.Controls.Add(this.otbcalculation);
             this.tabControl1.Location = new System.Drawing.Point(12, 31);
@@ -1447,9 +1591,30 @@
             // 
             // Summary
             // 
+            this.Summary.Controls.Add(this.textBox605);
+            this.Summary.Controls.Add(this.label527);
+            this.Summary.Controls.Add(this.textBox604);
+            this.Summary.Controls.Add(this.label526);
+            this.Summary.Controls.Add(this.textBox603);
+            this.Summary.Controls.Add(this.label525);
+            this.Summary.Controls.Add(this.textBox602);
+            this.Summary.Controls.Add(this.label524);
+            this.Summary.Controls.Add(this.textBox601);
+            this.Summary.Controls.Add(this.label523);
+            this.Summary.Controls.Add(this.textBox600);
+            this.Summary.Controls.Add(this.label522);
+            this.Summary.Controls.Add(this.label521);
+            this.Summary.Controls.Add(this.checkBox2);
+            this.Summary.Controls.Add(this.checkBox1);
+            this.Summary.Controls.Add(this.label520);
+            this.Summary.Controls.Add(this.comboBox27);
+            this.Summary.Controls.Add(this.label519);
+            this.Summary.Controls.Add(this.textBox599);
+            this.Summary.Controls.Add(this.label518);
+            this.Summary.Controls.Add(this.textBox598);
+            this.Summary.Controls.Add(this.label517);
             this.Summary.Controls.Add(this.oaQTY);
             this.Summary.Controls.Add(this.label431);
-            this.Summary.Controls.Add(this.pictureBox24);
             this.Summary.Controls.Add(this.label175);
             this.Summary.Controls.Add(this.pictureBox23);
             this.Summary.Controls.Add(this.secCommander4);
@@ -1536,12 +1701,8 @@
             this.Summary.Controls.Add(this.label170);
             this.Summary.Controls.Add(this.pictureBox21);
             this.Summary.Controls.Add(this.otbffQTY);
-            this.Summary.Controls.Add(this.otbccQTY);
-            this.Summary.Controls.Add(this.otbwcQTY);
             this.Summary.Controls.Add(this.otbofficersQTY);
             this.Summary.Controls.Add(this.label103);
-            this.Summary.Controls.Add(this.label104);
-            this.Summary.Controls.Add(this.label105);
             this.Summary.Controls.Add(this.label106);
             this.Summary.Controls.Add(this.label107);
             this.Summary.Controls.Add(this.label108);
@@ -1672,21 +1833,12 @@
             this.label431.TabIndex = 225;
             this.label431.Text = "Other Agencies";
             // 
-            // pictureBox24
-            // 
-            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
-            this.pictureBox24.Location = new System.Drawing.Point(447, 401);
-            this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(331, 161);
-            this.pictureBox24.TabIndex = 224;
-            this.pictureBox24.TabStop = false;
-            // 
             // label175
             // 
             this.label175.AutoSize = true;
             this.label175.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label175.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label175.Location = new System.Drawing.Point(527, 348);
+            this.label175.Location = new System.Drawing.Point(390, 358);
             this.label175.Name = "label175";
             this.label175.Size = new System.Drawing.Size(172, 25);
             this.label175.TabIndex = 223;
@@ -1862,7 +2014,7 @@
             this.pictureBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pictureBox22.Location = new System.Drawing.Point(355, 26);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(517, 280);
+            this.pictureBox22.Size = new System.Drawing.Size(517, 264);
             this.pictureBox22.TabIndex = 208;
             this.pictureBox22.TabStop = false;
             // 
@@ -2242,9 +2394,8 @@
             this.label140.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label140.Location = new System.Drawing.Point(1054, 545);
             this.label140.Name = "label140";
-            this.label140.Size = new System.Drawing.Size(16, 17);
+            this.label140.Size = new System.Drawing.Size(0, 17);
             this.label140.TabIndex = 170;
-            this.label140.Text = "0";
             // 
             // label141
             // 
@@ -2252,9 +2403,8 @@
             this.label141.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label141.Location = new System.Drawing.Point(1054, 528);
             this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(16, 17);
+            this.label141.Size = new System.Drawing.Size(0, 17);
             this.label141.TabIndex = 169;
-            this.label141.Text = "0";
             // 
             // label142
             // 
@@ -2262,9 +2412,8 @@
             this.label142.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label142.Location = new System.Drawing.Point(1054, 511);
             this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(16, 17);
+            this.label142.Size = new System.Drawing.Size(0, 17);
             this.label142.TabIndex = 168;
-            this.label142.Text = "0";
             // 
             // label143
             // 
@@ -2272,9 +2421,8 @@
             this.label143.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label143.Location = new System.Drawing.Point(1054, 494);
             this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(16, 17);
+            this.label143.Size = new System.Drawing.Size(0, 17);
             this.label143.TabIndex = 167;
-            this.label143.Text = "0";
             // 
             // label144
             // 
@@ -2282,9 +2430,8 @@
             this.label144.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label144.Location = new System.Drawing.Point(1054, 477);
             this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(16, 17);
+            this.label144.Size = new System.Drawing.Size(0, 17);
             this.label144.TabIndex = 166;
-            this.label144.Text = "0";
             // 
             // label145
             // 
@@ -2292,9 +2439,8 @@
             this.label145.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label145.Location = new System.Drawing.Point(1054, 460);
             this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(16, 17);
+            this.label145.Size = new System.Drawing.Size(0, 17);
             this.label145.TabIndex = 165;
-            this.label145.Text = "0";
             // 
             // label146
             // 
@@ -2302,9 +2448,8 @@
             this.label146.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label146.Location = new System.Drawing.Point(1054, 443);
             this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(16, 17);
+            this.label146.Size = new System.Drawing.Size(0, 17);
             this.label146.TabIndex = 164;
-            this.label146.Text = "0";
             // 
             // label147
             // 
@@ -2312,9 +2457,8 @@
             this.label147.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label147.Location = new System.Drawing.Point(1054, 426);
             this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(16, 17);
+            this.label147.Size = new System.Drawing.Size(0, 17);
             this.label147.TabIndex = 163;
-            this.label147.Text = "0";
             // 
             // label148
             // 
@@ -2322,9 +2466,8 @@
             this.label148.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label148.Location = new System.Drawing.Point(1054, 409);
             this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(16, 17);
+            this.label148.Size = new System.Drawing.Size(0, 17);
             this.label148.TabIndex = 162;
-            this.label148.Text = "0";
             // 
             // label149
             // 
@@ -2332,9 +2475,8 @@
             this.label149.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label149.Location = new System.Drawing.Point(1054, 392);
             this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(16, 17);
+            this.label149.Size = new System.Drawing.Size(0, 17);
             this.label149.TabIndex = 161;
-            this.label149.Text = "0";
             // 
             // label150
             // 
@@ -2342,9 +2484,8 @@
             this.label150.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label150.Location = new System.Drawing.Point(1054, 375);
             this.label150.Name = "label150";
-            this.label150.Size = new System.Drawing.Size(16, 17);
+            this.label150.Size = new System.Drawing.Size(0, 17);
             this.label150.TabIndex = 160;
-            this.label150.Text = "0";
             // 
             // label151
             // 
@@ -2563,31 +2704,11 @@
             // 
             this.otbffQTY.AutoSize = true;
             this.otbffQTY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.otbffQTY.Location = new System.Drawing.Point(1135, 289);
+            this.otbffQTY.Location = new System.Drawing.Point(1135, 256);
             this.otbffQTY.Name = "otbffQTY";
             this.otbffQTY.Size = new System.Drawing.Size(16, 17);
             this.otbffQTY.TabIndex = 138;
             this.otbffQTY.Text = "0";
-            // 
-            // otbccQTY
-            // 
-            this.otbccQTY.AutoSize = true;
-            this.otbccQTY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.otbccQTY.Location = new System.Drawing.Point(1135, 272);
-            this.otbccQTY.Name = "otbccQTY";
-            this.otbccQTY.Size = new System.Drawing.Size(16, 17);
-            this.otbccQTY.TabIndex = 137;
-            this.otbccQTY.Text = "0";
-            // 
-            // otbwcQTY
-            // 
-            this.otbwcQTY.AutoSize = true;
-            this.otbwcQTY.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.otbwcQTY.Location = new System.Drawing.Point(1135, 255);
-            this.otbwcQTY.Name = "otbwcQTY";
-            this.otbwcQTY.Size = new System.Drawing.Size(16, 17);
-            this.otbwcQTY.TabIndex = 136;
-            this.otbwcQTY.Text = "0";
             // 
             // otbofficersQTY
             // 
@@ -2603,31 +2724,11 @@
             // 
             this.label103.AutoSize = true;
             this.label103.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label103.Location = new System.Drawing.Point(985, 289);
+            this.label103.Location = new System.Drawing.Point(985, 256);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(79, 17);
+            this.label103.Size = new System.Drawing.Size(100, 17);
             this.label103.TabIndex = 134;
-            this.label103.Text = "Firefighters";
-            // 
-            // label104
-            // 
-            this.label104.AutoSize = true;
-            this.label104.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label104.Location = new System.Drawing.Point(985, 272);
-            this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(126, 17);
-            this.label104.TabIndex = 133;
-            this.label104.Text = "Crew Commanders";
-            // 
-            // label105
-            // 
-            this.label105.AutoSize = true;
-            this.label105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label105.Location = new System.Drawing.Point(985, 255);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(135, 17);
-            this.label105.TabIndex = 132;
-            this.label105.Text = "Watch Commanders";
+            this.label103.Text = "Fire Personnel";
             // 
             // label106
             // 
@@ -2666,7 +2767,7 @@
             this.pictureBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pictureBox20.Location = new System.Drawing.Point(974, 200);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(209, 121);
+            this.pictureBox20.Size = new System.Drawing.Size(209, 90);
             this.pictureBox20.TabIndex = 128;
             this.pictureBox20.TabStop = false;
             // 
@@ -7496,162 +7597,162 @@
             // 
             // otbappliances
             // 
-            this.otbappliances.Controls.Add(this.label299);
-            this.otbappliances.Controls.Add(this.comboBox85);
-            this.otbappliances.Controls.Add(this.label300);
-            this.otbappliances.Controls.Add(this.comboBox86);
-            this.otbappliances.Controls.Add(this.label301);
-            this.otbappliances.Controls.Add(this.comboBox87);
-            this.otbappliances.Controls.Add(this.label302);
-            this.otbappliances.Controls.Add(this.comboBox88);
-            this.otbappliances.Controls.Add(this.label303);
-            this.otbappliances.Controls.Add(this.comboBox89);
-            this.otbappliances.Controls.Add(this.label304);
-            this.otbappliances.Controls.Add(this.comboBox90);
-            this.otbappliances.Controls.Add(this.label305);
             this.otbappliances.Controls.Add(this.textBox25);
             this.otbappliances.Controls.Add(this.textBox26);
-            this.otbappliances.Controls.Add(this.comboBox91);
+            this.otbappliances.Controls.Add(this.textBox27);
+            this.otbappliances.Controls.Add(this.textBox28);
+            this.otbappliances.Controls.Add(this.textBox29);
+            this.otbappliances.Controls.Add(this.textBox30);
+            this.otbappliances.Controls.Add(this.textBox31);
+            this.otbappliances.Controls.Add(this.label299);
+            this.otbappliances.Controls.Add(this.label300);
+            this.otbappliances.Controls.Add(this.label301);
+            this.otbappliances.Controls.Add(this.label302);
+            this.otbappliances.Controls.Add(this.label303);
+            this.otbappliances.Controls.Add(this.label304);
+            this.otbappliances.Controls.Add(this.label305);
+            this.otbappliances.Controls.Add(this.textBox32);
+            this.otbappliances.Controls.Add(this.textBox488);
             this.otbappliances.Controls.Add(this.label306);
             this.otbappliances.Controls.Add(this.label307);
             this.otbappliances.Controls.Add(this.label308);
             this.otbappliances.Controls.Add(this.pictureBox39);
+            this.otbappliances.Controls.Add(this.textBox489);
+            this.otbappliances.Controls.Add(this.textBox490);
+            this.otbappliances.Controls.Add(this.textBox491);
+            this.otbappliances.Controls.Add(this.textBox492);
+            this.otbappliances.Controls.Add(this.textBox493);
+            this.otbappliances.Controls.Add(this.textBox494);
+            this.otbappliances.Controls.Add(this.textBox495);
             this.otbappliances.Controls.Add(this.label309);
-            this.otbappliances.Controls.Add(this.comboBox92);
             this.otbappliances.Controls.Add(this.label310);
-            this.otbappliances.Controls.Add(this.comboBox93);
             this.otbappliances.Controls.Add(this.label311);
-            this.otbappliances.Controls.Add(this.comboBox94);
             this.otbappliances.Controls.Add(this.label312);
-            this.otbappliances.Controls.Add(this.comboBox95);
             this.otbappliances.Controls.Add(this.label313);
-            this.otbappliances.Controls.Add(this.comboBox96);
             this.otbappliances.Controls.Add(this.label314);
-            this.otbappliances.Controls.Add(this.comboBox97);
             this.otbappliances.Controls.Add(this.label315);
-            this.otbappliances.Controls.Add(this.textBox27);
-            this.otbappliances.Controls.Add(this.textBox28);
-            this.otbappliances.Controls.Add(this.comboBox98);
+            this.otbappliances.Controls.Add(this.textBox496);
+            this.otbappliances.Controls.Add(this.textBox497);
             this.otbappliances.Controls.Add(this.label316);
             this.otbappliances.Controls.Add(this.label317);
             this.otbappliances.Controls.Add(this.label318);
             this.otbappliances.Controls.Add(this.pictureBox40);
+            this.otbappliances.Controls.Add(this.textBox498);
+            this.otbappliances.Controls.Add(this.textBox499);
+            this.otbappliances.Controls.Add(this.textBox500);
+            this.otbappliances.Controls.Add(this.textBox501);
+            this.otbappliances.Controls.Add(this.textBox502);
+            this.otbappliances.Controls.Add(this.textBox503);
+            this.otbappliances.Controls.Add(this.textBox504);
             this.otbappliances.Controls.Add(this.label319);
-            this.otbappliances.Controls.Add(this.comboBox99);
             this.otbappliances.Controls.Add(this.label320);
-            this.otbappliances.Controls.Add(this.comboBox100);
             this.otbappliances.Controls.Add(this.label321);
-            this.otbappliances.Controls.Add(this.comboBox101);
             this.otbappliances.Controls.Add(this.label322);
-            this.otbappliances.Controls.Add(this.comboBox102);
             this.otbappliances.Controls.Add(this.label323);
-            this.otbappliances.Controls.Add(this.comboBox103);
             this.otbappliances.Controls.Add(this.label324);
-            this.otbappliances.Controls.Add(this.comboBox104);
             this.otbappliances.Controls.Add(this.label325);
-            this.otbappliances.Controls.Add(this.textBox29);
-            this.otbappliances.Controls.Add(this.textBox30);
-            this.otbappliances.Controls.Add(this.comboBox105);
+            this.otbappliances.Controls.Add(this.textBox505);
+            this.otbappliances.Controls.Add(this.textBox506);
             this.otbappliances.Controls.Add(this.label326);
             this.otbappliances.Controls.Add(this.label327);
             this.otbappliances.Controls.Add(this.label328);
             this.otbappliances.Controls.Add(this.pictureBox41);
+            this.otbappliances.Controls.Add(this.textBox507);
+            this.otbappliances.Controls.Add(this.textBox508);
+            this.otbappliances.Controls.Add(this.textBox509);
+            this.otbappliances.Controls.Add(this.textBox510);
+            this.otbappliances.Controls.Add(this.textBox511);
+            this.otbappliances.Controls.Add(this.textBox512);
+            this.otbappliances.Controls.Add(this.textBox513);
             this.otbappliances.Controls.Add(this.label329);
-            this.otbappliances.Controls.Add(this.comboBox106);
             this.otbappliances.Controls.Add(this.label330);
-            this.otbappliances.Controls.Add(this.comboBox107);
             this.otbappliances.Controls.Add(this.label331);
-            this.otbappliances.Controls.Add(this.comboBox108);
             this.otbappliances.Controls.Add(this.label332);
-            this.otbappliances.Controls.Add(this.comboBox109);
             this.otbappliances.Controls.Add(this.label333);
-            this.otbappliances.Controls.Add(this.comboBox110);
             this.otbappliances.Controls.Add(this.label334);
-            this.otbappliances.Controls.Add(this.comboBox111);
             this.otbappliances.Controls.Add(this.label335);
-            this.otbappliances.Controls.Add(this.textBox31);
-            this.otbappliances.Controls.Add(this.textBox32);
-            this.otbappliances.Controls.Add(this.comboBox112);
+            this.otbappliances.Controls.Add(this.textBox514);
+            this.otbappliances.Controls.Add(this.textBox515);
             this.otbappliances.Controls.Add(this.label336);
             this.otbappliances.Controls.Add(this.label337);
             this.otbappliances.Controls.Add(this.label338);
             this.otbappliances.Controls.Add(this.pictureBox42);
-            this.otbappliances.Controls.Add(this.label258);
-            this.otbappliances.Controls.Add(this.comboBox57);
-            this.otbappliances.Controls.Add(this.label259);
-            this.otbappliances.Controls.Add(this.comboBox58);
-            this.otbappliances.Controls.Add(this.label260);
-            this.otbappliances.Controls.Add(this.comboBox59);
-            this.otbappliances.Controls.Add(this.label261);
-            this.otbappliances.Controls.Add(this.comboBox60);
-            this.otbappliances.Controls.Add(this.label262);
-            this.otbappliances.Controls.Add(this.comboBox61);
-            this.otbappliances.Controls.Add(this.label263);
-            this.otbappliances.Controls.Add(this.comboBox62);
-            this.otbappliances.Controls.Add(this.label264);
-            this.otbappliances.Controls.Add(this.textBox17);
-            this.otbappliances.Controls.Add(this.textBox18);
-            this.otbappliances.Controls.Add(this.comboBox63);
-            this.otbappliances.Controls.Add(this.label265);
-            this.otbappliances.Controls.Add(this.label266);
-            this.otbappliances.Controls.Add(this.label267);
-            this.otbappliances.Controls.Add(this.pictureBox35);
-            this.otbappliances.Controls.Add(this.label268);
-            this.otbappliances.Controls.Add(this.comboBox64);
-            this.otbappliances.Controls.Add(this.label269);
-            this.otbappliances.Controls.Add(this.comboBox65);
-            this.otbappliances.Controls.Add(this.label270);
-            this.otbappliances.Controls.Add(this.comboBox66);
-            this.otbappliances.Controls.Add(this.label271);
-            this.otbappliances.Controls.Add(this.comboBox67);
-            this.otbappliances.Controls.Add(this.label272);
-            this.otbappliances.Controls.Add(this.comboBox68);
-            this.otbappliances.Controls.Add(this.label273);
-            this.otbappliances.Controls.Add(this.comboBox69);
-            this.otbappliances.Controls.Add(this.label274);
-            this.otbappliances.Controls.Add(this.textBox19);
-            this.otbappliances.Controls.Add(this.textBox20);
-            this.otbappliances.Controls.Add(this.comboBox70);
-            this.otbappliances.Controls.Add(this.label275);
-            this.otbappliances.Controls.Add(this.label276);
-            this.otbappliances.Controls.Add(this.label277);
-            this.otbappliances.Controls.Add(this.pictureBox36);
+            this.otbappliances.Controls.Add(this.textBox479);
+            this.otbappliances.Controls.Add(this.textBox480);
+            this.otbappliances.Controls.Add(this.textBox481);
+            this.otbappliances.Controls.Add(this.textBox482);
+            this.otbappliances.Controls.Add(this.textBox483);
+            this.otbappliances.Controls.Add(this.textBox484);
+            this.otbappliances.Controls.Add(this.textBox485);
             this.otbappliances.Controls.Add(this.label278);
-            this.otbappliances.Controls.Add(this.comboBox71);
             this.otbappliances.Controls.Add(this.label279);
-            this.otbappliances.Controls.Add(this.comboBox72);
             this.otbappliances.Controls.Add(this.label280);
-            this.otbappliances.Controls.Add(this.comboBox73);
             this.otbappliances.Controls.Add(this.label281);
-            this.otbappliances.Controls.Add(this.comboBox74);
             this.otbappliances.Controls.Add(this.label282);
-            this.otbappliances.Controls.Add(this.comboBox75);
             this.otbappliances.Controls.Add(this.label283);
-            this.otbappliances.Controls.Add(this.comboBox76);
             this.otbappliances.Controls.Add(this.label284);
-            this.otbappliances.Controls.Add(this.textBox21);
-            this.otbappliances.Controls.Add(this.textBox22);
-            this.otbappliances.Controls.Add(this.comboBox77);
+            this.otbappliances.Controls.Add(this.textBox486);
+            this.otbappliances.Controls.Add(this.textBox487);
             this.otbappliances.Controls.Add(this.label285);
             this.otbappliances.Controls.Add(this.label286);
             this.otbappliances.Controls.Add(this.label287);
             this.otbappliances.Controls.Add(this.pictureBox37);
+            this.otbappliances.Controls.Add(this.textBox470);
+            this.otbappliances.Controls.Add(this.textBox471);
+            this.otbappliances.Controls.Add(this.textBox472);
+            this.otbappliances.Controls.Add(this.textBox473);
+            this.otbappliances.Controls.Add(this.textBox474);
+            this.otbappliances.Controls.Add(this.textBox475);
+            this.otbappliances.Controls.Add(this.textBox476);
+            this.otbappliances.Controls.Add(this.label268);
+            this.otbappliances.Controls.Add(this.label269);
+            this.otbappliances.Controls.Add(this.label270);
+            this.otbappliances.Controls.Add(this.label271);
+            this.otbappliances.Controls.Add(this.label272);
+            this.otbappliances.Controls.Add(this.label273);
+            this.otbappliances.Controls.Add(this.label274);
+            this.otbappliances.Controls.Add(this.textBox477);
+            this.otbappliances.Controls.Add(this.textBox478);
+            this.otbappliances.Controls.Add(this.label275);
+            this.otbappliances.Controls.Add(this.label276);
+            this.otbappliances.Controls.Add(this.label277);
+            this.otbappliances.Controls.Add(this.pictureBox36);
+            this.otbappliances.Controls.Add(this.textBox17);
+            this.otbappliances.Controls.Add(this.textBox18);
+            this.otbappliances.Controls.Add(this.textBox19);
+            this.otbappliances.Controls.Add(this.textBox20);
+            this.otbappliances.Controls.Add(this.textBox21);
+            this.otbappliances.Controls.Add(this.textBox22);
+            this.otbappliances.Controls.Add(this.otbapp2);
+            this.otbappliances.Controls.Add(this.label258);
+            this.otbappliances.Controls.Add(this.label259);
+            this.otbappliances.Controls.Add(this.label260);
+            this.otbappliances.Controls.Add(this.label261);
+            this.otbappliances.Controls.Add(this.label262);
+            this.otbappliances.Controls.Add(this.label263);
+            this.otbappliances.Controls.Add(this.label264);
+            this.otbappliances.Controls.Add(this.textBox468);
+            this.otbappliances.Controls.Add(this.textBox469);
+            this.otbappliances.Controls.Add(this.label265);
+            this.otbappliances.Controls.Add(this.label266);
+            this.otbappliances.Controls.Add(this.label267);
+            this.otbappliances.Controls.Add(this.pictureBox35);
+            this.otbappliances.Controls.Add(this.textBox466);
+            this.otbappliances.Controls.Add(this.textBox465);
+            this.otbappliances.Controls.Add(this.textBox464);
+            this.otbappliances.Controls.Add(this.textBox463);
+            this.otbappliances.Controls.Add(this.textBox462);
+            this.otbappliances.Controls.Add(this.textBox461);
+            this.otbappliances.Controls.Add(this.otbapp1);
             this.otbappliances.Controls.Add(this.label288);
-            this.otbappliances.Controls.Add(this.comboBox78);
             this.otbappliances.Controls.Add(this.label289);
-            this.otbappliances.Controls.Add(this.comboBox79);
             this.otbappliances.Controls.Add(this.label290);
-            this.otbappliances.Controls.Add(this.comboBox80);
             this.otbappliances.Controls.Add(this.label291);
-            this.otbappliances.Controls.Add(this.comboBox81);
             this.otbappliances.Controls.Add(this.label292);
-            this.otbappliances.Controls.Add(this.comboBox82);
             this.otbappliances.Controls.Add(this.label293);
-            this.otbappliances.Controls.Add(this.comboBox83);
             this.otbappliances.Controls.Add(this.label294);
-            this.otbappliances.Controls.Add(this.textBox23);
-            this.otbappliances.Controls.Add(this.textBox24);
-            this.otbappliances.Controls.Add(this.comboBox84);
+            this.otbappliances.Controls.Add(this.otbapp1out);
+            this.otbappliances.Controls.Add(this.otbapp1in);
             this.otbappliances.Controls.Add(this.label295);
             this.otbappliances.Controls.Add(this.label296);
             this.otbappliances.Controls.Add(this.label297);
@@ -7664,162 +7765,155 @@
             this.otbappliances.Text = "OTB Appliances";
             this.otbappliances.UseVisualStyleBackColor = true;
             // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(1028, 607);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(182, 22);
+            this.textBox25.TabIndex = 598;
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(1028, 579);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(182, 22);
+            this.textBox26.TabIndex = 597;
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(1028, 551);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(182, 22);
+            this.textBox27.TabIndex = 596;
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(1028, 521);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(182, 22);
+            this.textBox28.TabIndex = 595;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Location = new System.Drawing.Point(1028, 491);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(182, 22);
+            this.textBox29.TabIndex = 594;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(1028, 461);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(182, 22);
+            this.textBox30.TabIndex = 593;
+            // 
+            // textBox31
+            // 
+            this.textBox31.Location = new System.Drawing.Point(972, 427);
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(121, 22);
+            this.textBox31.TabIndex = 592;
+            // 
             // label299
             // 
             this.label299.AutoSize = true;
             this.label299.BackColor = System.Drawing.Color.White;
             this.label299.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label299.Location = new System.Drawing.Point(1042, 364);
+            this.label299.Location = new System.Drawing.Point(1042, 359);
             this.label299.Name = "label299";
             this.label299.Size = new System.Drawing.Size(107, 20);
-            this.label299.TabIndex = 451;
+            this.label299.TabIndex = 591;
             this.label299.Text = "Appliance 8";
-            // 
-            // comboBox85
-            // 
-            this.comboBox85.FormattingEnabled = true;
-            this.comboBox85.Location = new System.Drawing.Point(1028, 614);
-            this.comboBox85.Name = "comboBox85";
-            this.comboBox85.Size = new System.Drawing.Size(182, 24);
-            this.comboBox85.TabIndex = 450;
             // 
             // label300
             // 
             this.label300.AutoSize = true;
             this.label300.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label300.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label300.Location = new System.Drawing.Point(973, 618);
+            this.label300.Location = new System.Drawing.Point(973, 613);
             this.label300.Name = "label300";
             this.label300.Size = new System.Drawing.Size(19, 20);
-            this.label300.TabIndex = 449;
+            this.label300.TabIndex = 590;
             this.label300.Text = "6";
-            // 
-            // comboBox86
-            // 
-            this.comboBox86.FormattingEnabled = true;
-            this.comboBox86.Location = new System.Drawing.Point(1028, 584);
-            this.comboBox86.Name = "comboBox86";
-            this.comboBox86.Size = new System.Drawing.Size(182, 24);
-            this.comboBox86.TabIndex = 448;
             // 
             // label301
             // 
             this.label301.AutoSize = true;
             this.label301.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label301.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label301.Location = new System.Drawing.Point(973, 588);
+            this.label301.Location = new System.Drawing.Point(973, 583);
             this.label301.Name = "label301";
             this.label301.Size = new System.Drawing.Size(48, 20);
-            this.label301.TabIndex = 447;
+            this.label301.TabIndex = 589;
             this.label301.Text = "ECO";
-            // 
-            // comboBox87
-            // 
-            this.comboBox87.FormattingEnabled = true;
-            this.comboBox87.Location = new System.Drawing.Point(1028, 554);
-            this.comboBox87.Name = "comboBox87";
-            this.comboBox87.Size = new System.Drawing.Size(182, 24);
-            this.comboBox87.TabIndex = 446;
             // 
             // label302
             // 
             this.label302.AutoSize = true;
             this.label302.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label302.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label302.Location = new System.Drawing.Point(973, 558);
+            this.label302.Location = new System.Drawing.Point(973, 553);
             this.label302.Name = "label302";
             this.label302.Size = new System.Drawing.Size(44, 20);
-            this.label302.TabIndex = 445;
+            this.label302.TabIndex = 588;
             this.label302.Text = "BA2";
-            // 
-            // comboBox88
-            // 
-            this.comboBox88.FormattingEnabled = true;
-            this.comboBox88.Location = new System.Drawing.Point(1028, 524);
-            this.comboBox88.Name = "comboBox88";
-            this.comboBox88.Size = new System.Drawing.Size(182, 24);
-            this.comboBox88.TabIndex = 444;
             // 
             // label303
             // 
             this.label303.AutoSize = true;
             this.label303.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label303.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label303.Location = new System.Drawing.Point(973, 528);
+            this.label303.Location = new System.Drawing.Point(973, 523);
             this.label303.Name = "label303";
             this.label303.Size = new System.Drawing.Size(44, 20);
-            this.label303.TabIndex = 443;
+            this.label303.TabIndex = 587;
             this.label303.Text = "BA1";
-            // 
-            // comboBox89
-            // 
-            this.comboBox89.FormattingEnabled = true;
-            this.comboBox89.Location = new System.Drawing.Point(1028, 494);
-            this.comboBox89.Name = "comboBox89";
-            this.comboBox89.Size = new System.Drawing.Size(182, 24);
-            this.comboBox89.TabIndex = 442;
             // 
             // label304
             // 
             this.label304.AutoSize = true;
             this.label304.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label304.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label304.Location = new System.Drawing.Point(973, 498);
+            this.label304.Location = new System.Drawing.Point(973, 493);
             this.label304.Name = "label304";
             this.label304.Size = new System.Drawing.Size(48, 20);
-            this.label304.TabIndex = 441;
+            this.label304.TabIndex = 586;
             this.label304.Text = "DVR";
-            // 
-            // comboBox90
-            // 
-            this.comboBox90.FormattingEnabled = true;
-            this.comboBox90.Location = new System.Drawing.Point(1028, 464);
-            this.comboBox90.Name = "comboBox90";
-            this.comboBox90.Size = new System.Drawing.Size(182, 24);
-            this.comboBox90.TabIndex = 440;
             // 
             // label305
             // 
             this.label305.AutoSize = true;
             this.label305.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label305.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label305.Location = new System.Drawing.Point(973, 468);
+            this.label305.Location = new System.Drawing.Point(973, 463);
             this.label305.Name = "label305";
             this.label305.Size = new System.Drawing.Size(41, 20);
-            this.label305.TabIndex = 439;
+            this.label305.TabIndex = 585;
             this.label305.Text = "OIC";
             // 
-            // textBox25
+            // textBox32
             // 
-            this.textBox25.Location = new System.Drawing.Point(1163, 432);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(47, 22);
-            this.textBox25.TabIndex = 438;
+            this.textBox32.Location = new System.Drawing.Point(1163, 427);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(47, 22);
+            this.textBox32.TabIndex = 584;
             // 
-            // textBox26
+            // textBox488
             // 
-            this.textBox26.Location = new System.Drawing.Point(1102, 434);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(47, 22);
-            this.textBox26.TabIndex = 437;
-            // 
-            // comboBox91
-            // 
-            this.comboBox91.FormattingEnabled = true;
-            this.comboBox91.Location = new System.Drawing.Point(972, 432);
-            this.comboBox91.Name = "comboBox91";
-            this.comboBox91.Size = new System.Drawing.Size(121, 24);
-            this.comboBox91.TabIndex = 436;
+            this.textBox488.Location = new System.Drawing.Point(1102, 429);
+            this.textBox488.Name = "textBox488";
+            this.textBox488.Size = new System.Drawing.Size(47, 22);
+            this.textBox488.TabIndex = 583;
             // 
             // label306
             // 
             this.label306.AutoSize = true;
             this.label306.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label306.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label306.Location = new System.Drawing.Point(1171, 409);
+            this.label306.Location = new System.Drawing.Point(1171, 404);
             this.label306.Name = "label306";
             this.label306.Size = new System.Drawing.Size(39, 20);
-            this.label306.TabIndex = 435;
+            this.label306.TabIndex = 582;
             this.label306.Text = "Out";
             // 
             // label307
@@ -7827,10 +7921,10 @@
             this.label307.AutoSize = true;
             this.label307.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label307.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label307.Location = new System.Drawing.Point(1112, 409);
+            this.label307.Location = new System.Drawing.Point(1112, 404);
             this.label307.Name = "label307";
             this.label307.Size = new System.Drawing.Size(24, 20);
-            this.label307.TabIndex = 434;
+            this.label307.TabIndex = 581;
             this.label307.Text = "In";
             // 
             // label308
@@ -7838,177 +7932,170 @@
             this.label308.AutoSize = true;
             this.label308.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label308.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label308.Location = new System.Drawing.Point(981, 409);
+            this.label308.Location = new System.Drawing.Point(981, 404);
             this.label308.Name = "label308";
             this.label308.Size = new System.Drawing.Size(91, 20);
-            this.label308.TabIndex = 433;
+            this.label308.TabIndex = 580;
             this.label308.Text = "Appliance";
             // 
             // pictureBox39
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.pictureBox39.Location = new System.Drawing.Point(952, 396);
+            this.pictureBox39.Location = new System.Drawing.Point(952, 391);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox39.TabIndex = 432;
+            this.pictureBox39.TabIndex = 579;
             this.pictureBox39.TabStop = false;
+            // 
+            // textBox489
+            // 
+            this.textBox489.Location = new System.Drawing.Point(730, 607);
+            this.textBox489.Name = "textBox489";
+            this.textBox489.Size = new System.Drawing.Size(182, 22);
+            this.textBox489.TabIndex = 578;
+            // 
+            // textBox490
+            // 
+            this.textBox490.Location = new System.Drawing.Point(730, 579);
+            this.textBox490.Name = "textBox490";
+            this.textBox490.Size = new System.Drawing.Size(182, 22);
+            this.textBox490.TabIndex = 577;
+            // 
+            // textBox491
+            // 
+            this.textBox491.Location = new System.Drawing.Point(730, 551);
+            this.textBox491.Name = "textBox491";
+            this.textBox491.Size = new System.Drawing.Size(182, 22);
+            this.textBox491.TabIndex = 576;
+            // 
+            // textBox492
+            // 
+            this.textBox492.Location = new System.Drawing.Point(730, 521);
+            this.textBox492.Name = "textBox492";
+            this.textBox492.Size = new System.Drawing.Size(182, 22);
+            this.textBox492.TabIndex = 575;
+            // 
+            // textBox493
+            // 
+            this.textBox493.Location = new System.Drawing.Point(730, 491);
+            this.textBox493.Name = "textBox493";
+            this.textBox493.Size = new System.Drawing.Size(182, 22);
+            this.textBox493.TabIndex = 574;
+            // 
+            // textBox494
+            // 
+            this.textBox494.Location = new System.Drawing.Point(730, 461);
+            this.textBox494.Name = "textBox494";
+            this.textBox494.Size = new System.Drawing.Size(182, 22);
+            this.textBox494.TabIndex = 573;
+            // 
+            // textBox495
+            // 
+            this.textBox495.Location = new System.Drawing.Point(674, 427);
+            this.textBox495.Name = "textBox495";
+            this.textBox495.Size = new System.Drawing.Size(121, 22);
+            this.textBox495.TabIndex = 572;
             // 
             // label309
             // 
             this.label309.AutoSize = true;
             this.label309.BackColor = System.Drawing.Color.White;
             this.label309.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label309.Location = new System.Drawing.Point(744, 364);
+            this.label309.Location = new System.Drawing.Point(744, 359);
             this.label309.Name = "label309";
             this.label309.Size = new System.Drawing.Size(107, 20);
-            this.label309.TabIndex = 431;
+            this.label309.TabIndex = 571;
             this.label309.Text = "Appliance 7";
-            // 
-            // comboBox92
-            // 
-            this.comboBox92.FormattingEnabled = true;
-            this.comboBox92.Location = new System.Drawing.Point(730, 614);
-            this.comboBox92.Name = "comboBox92";
-            this.comboBox92.Size = new System.Drawing.Size(182, 24);
-            this.comboBox92.TabIndex = 430;
             // 
             // label310
             // 
             this.label310.AutoSize = true;
             this.label310.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label310.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label310.Location = new System.Drawing.Point(675, 618);
+            this.label310.Location = new System.Drawing.Point(675, 613);
             this.label310.Name = "label310";
             this.label310.Size = new System.Drawing.Size(19, 20);
-            this.label310.TabIndex = 429;
+            this.label310.TabIndex = 570;
             this.label310.Text = "6";
-            // 
-            // comboBox93
-            // 
-            this.comboBox93.FormattingEnabled = true;
-            this.comboBox93.Location = new System.Drawing.Point(730, 584);
-            this.comboBox93.Name = "comboBox93";
-            this.comboBox93.Size = new System.Drawing.Size(182, 24);
-            this.comboBox93.TabIndex = 428;
             // 
             // label311
             // 
             this.label311.AutoSize = true;
             this.label311.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label311.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label311.Location = new System.Drawing.Point(675, 588);
+            this.label311.Location = new System.Drawing.Point(675, 583);
             this.label311.Name = "label311";
             this.label311.Size = new System.Drawing.Size(48, 20);
-            this.label311.TabIndex = 427;
+            this.label311.TabIndex = 569;
             this.label311.Text = "ECO";
-            // 
-            // comboBox94
-            // 
-            this.comboBox94.FormattingEnabled = true;
-            this.comboBox94.Location = new System.Drawing.Point(730, 554);
-            this.comboBox94.Name = "comboBox94";
-            this.comboBox94.Size = new System.Drawing.Size(182, 24);
-            this.comboBox94.TabIndex = 426;
             // 
             // label312
             // 
             this.label312.AutoSize = true;
             this.label312.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label312.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label312.Location = new System.Drawing.Point(675, 558);
+            this.label312.Location = new System.Drawing.Point(675, 553);
             this.label312.Name = "label312";
             this.label312.Size = new System.Drawing.Size(44, 20);
-            this.label312.TabIndex = 425;
+            this.label312.TabIndex = 568;
             this.label312.Text = "BA2";
-            // 
-            // comboBox95
-            // 
-            this.comboBox95.FormattingEnabled = true;
-            this.comboBox95.Location = new System.Drawing.Point(730, 524);
-            this.comboBox95.Name = "comboBox95";
-            this.comboBox95.Size = new System.Drawing.Size(182, 24);
-            this.comboBox95.TabIndex = 424;
             // 
             // label313
             // 
             this.label313.AutoSize = true;
             this.label313.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label313.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label313.Location = new System.Drawing.Point(675, 528);
+            this.label313.Location = new System.Drawing.Point(675, 523);
             this.label313.Name = "label313";
             this.label313.Size = new System.Drawing.Size(44, 20);
-            this.label313.TabIndex = 423;
+            this.label313.TabIndex = 567;
             this.label313.Text = "BA1";
-            // 
-            // comboBox96
-            // 
-            this.comboBox96.FormattingEnabled = true;
-            this.comboBox96.Location = new System.Drawing.Point(730, 494);
-            this.comboBox96.Name = "comboBox96";
-            this.comboBox96.Size = new System.Drawing.Size(182, 24);
-            this.comboBox96.TabIndex = 422;
             // 
             // label314
             // 
             this.label314.AutoSize = true;
             this.label314.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label314.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label314.Location = new System.Drawing.Point(675, 498);
+            this.label314.Location = new System.Drawing.Point(675, 493);
             this.label314.Name = "label314";
             this.label314.Size = new System.Drawing.Size(48, 20);
-            this.label314.TabIndex = 421;
+            this.label314.TabIndex = 566;
             this.label314.Text = "DVR";
-            // 
-            // comboBox97
-            // 
-            this.comboBox97.FormattingEnabled = true;
-            this.comboBox97.Location = new System.Drawing.Point(730, 464);
-            this.comboBox97.Name = "comboBox97";
-            this.comboBox97.Size = new System.Drawing.Size(182, 24);
-            this.comboBox97.TabIndex = 420;
             // 
             // label315
             // 
             this.label315.AutoSize = true;
             this.label315.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label315.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label315.Location = new System.Drawing.Point(675, 468);
+            this.label315.Location = new System.Drawing.Point(675, 463);
             this.label315.Name = "label315";
             this.label315.Size = new System.Drawing.Size(41, 20);
-            this.label315.TabIndex = 419;
+            this.label315.TabIndex = 565;
             this.label315.Text = "OIC";
             // 
-            // textBox27
+            // textBox496
             // 
-            this.textBox27.Location = new System.Drawing.Point(865, 432);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(47, 22);
-            this.textBox27.TabIndex = 418;
+            this.textBox496.Location = new System.Drawing.Point(865, 427);
+            this.textBox496.Name = "textBox496";
+            this.textBox496.Size = new System.Drawing.Size(47, 22);
+            this.textBox496.TabIndex = 564;
             // 
-            // textBox28
+            // textBox497
             // 
-            this.textBox28.Location = new System.Drawing.Point(804, 434);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(47, 22);
-            this.textBox28.TabIndex = 417;
-            // 
-            // comboBox98
-            // 
-            this.comboBox98.FormattingEnabled = true;
-            this.comboBox98.Location = new System.Drawing.Point(674, 432);
-            this.comboBox98.Name = "comboBox98";
-            this.comboBox98.Size = new System.Drawing.Size(121, 24);
-            this.comboBox98.TabIndex = 416;
+            this.textBox497.Location = new System.Drawing.Point(804, 429);
+            this.textBox497.Name = "textBox497";
+            this.textBox497.Size = new System.Drawing.Size(47, 22);
+            this.textBox497.TabIndex = 563;
             // 
             // label316
             // 
             this.label316.AutoSize = true;
             this.label316.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label316.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label316.Location = new System.Drawing.Point(873, 409);
+            this.label316.Location = new System.Drawing.Point(873, 404);
             this.label316.Name = "label316";
             this.label316.Size = new System.Drawing.Size(39, 20);
-            this.label316.TabIndex = 415;
+            this.label316.TabIndex = 562;
             this.label316.Text = "Out";
             // 
             // label317
@@ -8016,10 +8103,10 @@
             this.label317.AutoSize = true;
             this.label317.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label317.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label317.Location = new System.Drawing.Point(814, 409);
+            this.label317.Location = new System.Drawing.Point(814, 404);
             this.label317.Name = "label317";
             this.label317.Size = new System.Drawing.Size(24, 20);
-            this.label317.TabIndex = 414;
+            this.label317.TabIndex = 561;
             this.label317.Text = "In";
             // 
             // label318
@@ -8027,177 +8114,170 @@
             this.label318.AutoSize = true;
             this.label318.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label318.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label318.Location = new System.Drawing.Point(683, 409);
+            this.label318.Location = new System.Drawing.Point(683, 404);
             this.label318.Name = "label318";
             this.label318.Size = new System.Drawing.Size(91, 20);
-            this.label318.TabIndex = 413;
+            this.label318.TabIndex = 560;
             this.label318.Text = "Appliance";
             // 
             // pictureBox40
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.pictureBox40.Location = new System.Drawing.Point(654, 396);
+            this.pictureBox40.Location = new System.Drawing.Point(654, 391);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox40.TabIndex = 412;
+            this.pictureBox40.TabIndex = 559;
             this.pictureBox40.TabStop = false;
+            // 
+            // textBox498
+            // 
+            this.textBox498.Location = new System.Drawing.Point(428, 607);
+            this.textBox498.Name = "textBox498";
+            this.textBox498.Size = new System.Drawing.Size(182, 22);
+            this.textBox498.TabIndex = 558;
+            // 
+            // textBox499
+            // 
+            this.textBox499.Location = new System.Drawing.Point(428, 579);
+            this.textBox499.Name = "textBox499";
+            this.textBox499.Size = new System.Drawing.Size(182, 22);
+            this.textBox499.TabIndex = 557;
+            // 
+            // textBox500
+            // 
+            this.textBox500.Location = new System.Drawing.Point(428, 551);
+            this.textBox500.Name = "textBox500";
+            this.textBox500.Size = new System.Drawing.Size(182, 22);
+            this.textBox500.TabIndex = 556;
+            // 
+            // textBox501
+            // 
+            this.textBox501.Location = new System.Drawing.Point(428, 521);
+            this.textBox501.Name = "textBox501";
+            this.textBox501.Size = new System.Drawing.Size(182, 22);
+            this.textBox501.TabIndex = 555;
+            // 
+            // textBox502
+            // 
+            this.textBox502.Location = new System.Drawing.Point(428, 491);
+            this.textBox502.Name = "textBox502";
+            this.textBox502.Size = new System.Drawing.Size(182, 22);
+            this.textBox502.TabIndex = 554;
+            // 
+            // textBox503
+            // 
+            this.textBox503.Location = new System.Drawing.Point(428, 461);
+            this.textBox503.Name = "textBox503";
+            this.textBox503.Size = new System.Drawing.Size(182, 22);
+            this.textBox503.TabIndex = 553;
+            // 
+            // textBox504
+            // 
+            this.textBox504.Location = new System.Drawing.Point(372, 427);
+            this.textBox504.Name = "textBox504";
+            this.textBox504.Size = new System.Drawing.Size(121, 22);
+            this.textBox504.TabIndex = 552;
             // 
             // label319
             // 
             this.label319.AutoSize = true;
             this.label319.BackColor = System.Drawing.Color.White;
             this.label319.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label319.Location = new System.Drawing.Point(442, 364);
+            this.label319.Location = new System.Drawing.Point(442, 359);
             this.label319.Name = "label319";
             this.label319.Size = new System.Drawing.Size(107, 20);
-            this.label319.TabIndex = 411;
+            this.label319.TabIndex = 551;
             this.label319.Text = "Appliance 6";
-            // 
-            // comboBox99
-            // 
-            this.comboBox99.FormattingEnabled = true;
-            this.comboBox99.Location = new System.Drawing.Point(428, 614);
-            this.comboBox99.Name = "comboBox99";
-            this.comboBox99.Size = new System.Drawing.Size(182, 24);
-            this.comboBox99.TabIndex = 410;
             // 
             // label320
             // 
             this.label320.AutoSize = true;
             this.label320.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label320.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label320.Location = new System.Drawing.Point(373, 618);
+            this.label320.Location = new System.Drawing.Point(373, 613);
             this.label320.Name = "label320";
             this.label320.Size = new System.Drawing.Size(19, 20);
-            this.label320.TabIndex = 409;
+            this.label320.TabIndex = 550;
             this.label320.Text = "6";
-            // 
-            // comboBox100
-            // 
-            this.comboBox100.FormattingEnabled = true;
-            this.comboBox100.Location = new System.Drawing.Point(428, 584);
-            this.comboBox100.Name = "comboBox100";
-            this.comboBox100.Size = new System.Drawing.Size(182, 24);
-            this.comboBox100.TabIndex = 408;
             // 
             // label321
             // 
             this.label321.AutoSize = true;
             this.label321.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label321.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label321.Location = new System.Drawing.Point(373, 588);
+            this.label321.Location = new System.Drawing.Point(373, 583);
             this.label321.Name = "label321";
             this.label321.Size = new System.Drawing.Size(48, 20);
-            this.label321.TabIndex = 407;
+            this.label321.TabIndex = 549;
             this.label321.Text = "ECO";
-            // 
-            // comboBox101
-            // 
-            this.comboBox101.FormattingEnabled = true;
-            this.comboBox101.Location = new System.Drawing.Point(428, 554);
-            this.comboBox101.Name = "comboBox101";
-            this.comboBox101.Size = new System.Drawing.Size(182, 24);
-            this.comboBox101.TabIndex = 406;
             // 
             // label322
             // 
             this.label322.AutoSize = true;
             this.label322.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label322.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label322.Location = new System.Drawing.Point(373, 558);
+            this.label322.Location = new System.Drawing.Point(373, 553);
             this.label322.Name = "label322";
             this.label322.Size = new System.Drawing.Size(44, 20);
-            this.label322.TabIndex = 405;
+            this.label322.TabIndex = 548;
             this.label322.Text = "BA2";
-            // 
-            // comboBox102
-            // 
-            this.comboBox102.FormattingEnabled = true;
-            this.comboBox102.Location = new System.Drawing.Point(428, 524);
-            this.comboBox102.Name = "comboBox102";
-            this.comboBox102.Size = new System.Drawing.Size(182, 24);
-            this.comboBox102.TabIndex = 404;
             // 
             // label323
             // 
             this.label323.AutoSize = true;
             this.label323.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label323.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label323.Location = new System.Drawing.Point(373, 528);
+            this.label323.Location = new System.Drawing.Point(373, 523);
             this.label323.Name = "label323";
             this.label323.Size = new System.Drawing.Size(44, 20);
-            this.label323.TabIndex = 403;
+            this.label323.TabIndex = 547;
             this.label323.Text = "BA1";
-            // 
-            // comboBox103
-            // 
-            this.comboBox103.FormattingEnabled = true;
-            this.comboBox103.Location = new System.Drawing.Point(428, 494);
-            this.comboBox103.Name = "comboBox103";
-            this.comboBox103.Size = new System.Drawing.Size(182, 24);
-            this.comboBox103.TabIndex = 402;
             // 
             // label324
             // 
             this.label324.AutoSize = true;
             this.label324.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label324.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label324.Location = new System.Drawing.Point(373, 498);
+            this.label324.Location = new System.Drawing.Point(373, 493);
             this.label324.Name = "label324";
             this.label324.Size = new System.Drawing.Size(48, 20);
-            this.label324.TabIndex = 401;
+            this.label324.TabIndex = 546;
             this.label324.Text = "DVR";
-            // 
-            // comboBox104
-            // 
-            this.comboBox104.FormattingEnabled = true;
-            this.comboBox104.Location = new System.Drawing.Point(428, 464);
-            this.comboBox104.Name = "comboBox104";
-            this.comboBox104.Size = new System.Drawing.Size(182, 24);
-            this.comboBox104.TabIndex = 400;
             // 
             // label325
             // 
             this.label325.AutoSize = true;
             this.label325.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label325.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label325.Location = new System.Drawing.Point(373, 468);
+            this.label325.Location = new System.Drawing.Point(373, 463);
             this.label325.Name = "label325";
             this.label325.Size = new System.Drawing.Size(41, 20);
-            this.label325.TabIndex = 399;
+            this.label325.TabIndex = 545;
             this.label325.Text = "OIC";
             // 
-            // textBox29
+            // textBox505
             // 
-            this.textBox29.Location = new System.Drawing.Point(563, 432);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(47, 22);
-            this.textBox29.TabIndex = 398;
+            this.textBox505.Location = new System.Drawing.Point(563, 427);
+            this.textBox505.Name = "textBox505";
+            this.textBox505.Size = new System.Drawing.Size(47, 22);
+            this.textBox505.TabIndex = 544;
             // 
-            // textBox30
+            // textBox506
             // 
-            this.textBox30.Location = new System.Drawing.Point(502, 434);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(47, 22);
-            this.textBox30.TabIndex = 397;
-            // 
-            // comboBox105
-            // 
-            this.comboBox105.FormattingEnabled = true;
-            this.comboBox105.Location = new System.Drawing.Point(372, 432);
-            this.comboBox105.Name = "comboBox105";
-            this.comboBox105.Size = new System.Drawing.Size(121, 24);
-            this.comboBox105.TabIndex = 396;
+            this.textBox506.Location = new System.Drawing.Point(502, 429);
+            this.textBox506.Name = "textBox506";
+            this.textBox506.Size = new System.Drawing.Size(47, 22);
+            this.textBox506.TabIndex = 543;
             // 
             // label326
             // 
             this.label326.AutoSize = true;
             this.label326.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label326.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label326.Location = new System.Drawing.Point(571, 409);
+            this.label326.Location = new System.Drawing.Point(571, 404);
             this.label326.Name = "label326";
             this.label326.Size = new System.Drawing.Size(39, 20);
-            this.label326.TabIndex = 395;
+            this.label326.TabIndex = 542;
             this.label326.Text = "Out";
             // 
             // label327
@@ -8205,10 +8285,10 @@
             this.label327.AutoSize = true;
             this.label327.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label327.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label327.Location = new System.Drawing.Point(512, 409);
+            this.label327.Location = new System.Drawing.Point(512, 404);
             this.label327.Name = "label327";
             this.label327.Size = new System.Drawing.Size(24, 20);
-            this.label327.TabIndex = 394;
+            this.label327.TabIndex = 541;
             this.label327.Text = "In";
             // 
             // label328
@@ -8216,177 +8296,170 @@
             this.label328.AutoSize = true;
             this.label328.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label328.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label328.Location = new System.Drawing.Point(381, 409);
+            this.label328.Location = new System.Drawing.Point(381, 404);
             this.label328.Name = "label328";
             this.label328.Size = new System.Drawing.Size(91, 20);
-            this.label328.TabIndex = 393;
+            this.label328.TabIndex = 540;
             this.label328.Text = "Appliance";
             // 
             // pictureBox41
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.pictureBox41.Location = new System.Drawing.Point(352, 396);
+            this.pictureBox41.Location = new System.Drawing.Point(352, 391);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox41.TabIndex = 392;
+            this.pictureBox41.TabIndex = 539;
             this.pictureBox41.TabStop = false;
+            // 
+            // textBox507
+            // 
+            this.textBox507.Location = new System.Drawing.Point(121, 607);
+            this.textBox507.Name = "textBox507";
+            this.textBox507.Size = new System.Drawing.Size(182, 22);
+            this.textBox507.TabIndex = 538;
+            // 
+            // textBox508
+            // 
+            this.textBox508.Location = new System.Drawing.Point(121, 579);
+            this.textBox508.Name = "textBox508";
+            this.textBox508.Size = new System.Drawing.Size(182, 22);
+            this.textBox508.TabIndex = 537;
+            // 
+            // textBox509
+            // 
+            this.textBox509.Location = new System.Drawing.Point(121, 551);
+            this.textBox509.Name = "textBox509";
+            this.textBox509.Size = new System.Drawing.Size(182, 22);
+            this.textBox509.TabIndex = 536;
+            // 
+            // textBox510
+            // 
+            this.textBox510.Location = new System.Drawing.Point(121, 521);
+            this.textBox510.Name = "textBox510";
+            this.textBox510.Size = new System.Drawing.Size(182, 22);
+            this.textBox510.TabIndex = 535;
+            // 
+            // textBox511
+            // 
+            this.textBox511.Location = new System.Drawing.Point(121, 491);
+            this.textBox511.Name = "textBox511";
+            this.textBox511.Size = new System.Drawing.Size(182, 22);
+            this.textBox511.TabIndex = 534;
+            // 
+            // textBox512
+            // 
+            this.textBox512.Location = new System.Drawing.Point(121, 461);
+            this.textBox512.Name = "textBox512";
+            this.textBox512.Size = new System.Drawing.Size(182, 22);
+            this.textBox512.TabIndex = 533;
+            // 
+            // textBox513
+            // 
+            this.textBox513.Location = new System.Drawing.Point(65, 427);
+            this.textBox513.Name = "textBox513";
+            this.textBox513.Size = new System.Drawing.Size(121, 22);
+            this.textBox513.TabIndex = 532;
             // 
             // label329
             // 
             this.label329.AutoSize = true;
             this.label329.BackColor = System.Drawing.Color.White;
             this.label329.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label329.Location = new System.Drawing.Point(135, 364);
+            this.label329.Location = new System.Drawing.Point(135, 359);
             this.label329.Name = "label329";
             this.label329.Size = new System.Drawing.Size(107, 20);
-            this.label329.TabIndex = 391;
+            this.label329.TabIndex = 531;
             this.label329.Text = "Appliance 5";
-            // 
-            // comboBox106
-            // 
-            this.comboBox106.FormattingEnabled = true;
-            this.comboBox106.Location = new System.Drawing.Point(121, 614);
-            this.comboBox106.Name = "comboBox106";
-            this.comboBox106.Size = new System.Drawing.Size(182, 24);
-            this.comboBox106.TabIndex = 390;
             // 
             // label330
             // 
             this.label330.AutoSize = true;
             this.label330.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label330.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label330.Location = new System.Drawing.Point(66, 618);
+            this.label330.Location = new System.Drawing.Point(66, 613);
             this.label330.Name = "label330";
             this.label330.Size = new System.Drawing.Size(19, 20);
-            this.label330.TabIndex = 389;
+            this.label330.TabIndex = 530;
             this.label330.Text = "6";
-            // 
-            // comboBox107
-            // 
-            this.comboBox107.FormattingEnabled = true;
-            this.comboBox107.Location = new System.Drawing.Point(121, 584);
-            this.comboBox107.Name = "comboBox107";
-            this.comboBox107.Size = new System.Drawing.Size(182, 24);
-            this.comboBox107.TabIndex = 388;
             // 
             // label331
             // 
             this.label331.AutoSize = true;
             this.label331.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label331.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label331.Location = new System.Drawing.Point(66, 588);
+            this.label331.Location = new System.Drawing.Point(66, 583);
             this.label331.Name = "label331";
             this.label331.Size = new System.Drawing.Size(48, 20);
-            this.label331.TabIndex = 387;
+            this.label331.TabIndex = 529;
             this.label331.Text = "ECO";
-            // 
-            // comboBox108
-            // 
-            this.comboBox108.FormattingEnabled = true;
-            this.comboBox108.Location = new System.Drawing.Point(121, 554);
-            this.comboBox108.Name = "comboBox108";
-            this.comboBox108.Size = new System.Drawing.Size(182, 24);
-            this.comboBox108.TabIndex = 386;
             // 
             // label332
             // 
             this.label332.AutoSize = true;
             this.label332.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label332.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label332.Location = new System.Drawing.Point(66, 558);
+            this.label332.Location = new System.Drawing.Point(66, 553);
             this.label332.Name = "label332";
             this.label332.Size = new System.Drawing.Size(44, 20);
-            this.label332.TabIndex = 385;
+            this.label332.TabIndex = 528;
             this.label332.Text = "BA2";
-            // 
-            // comboBox109
-            // 
-            this.comboBox109.FormattingEnabled = true;
-            this.comboBox109.Location = new System.Drawing.Point(121, 524);
-            this.comboBox109.Name = "comboBox109";
-            this.comboBox109.Size = new System.Drawing.Size(182, 24);
-            this.comboBox109.TabIndex = 384;
             // 
             // label333
             // 
             this.label333.AutoSize = true;
             this.label333.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label333.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label333.Location = new System.Drawing.Point(66, 528);
+            this.label333.Location = new System.Drawing.Point(66, 523);
             this.label333.Name = "label333";
             this.label333.Size = new System.Drawing.Size(44, 20);
-            this.label333.TabIndex = 383;
+            this.label333.TabIndex = 527;
             this.label333.Text = "BA1";
-            // 
-            // comboBox110
-            // 
-            this.comboBox110.FormattingEnabled = true;
-            this.comboBox110.Location = new System.Drawing.Point(121, 494);
-            this.comboBox110.Name = "comboBox110";
-            this.comboBox110.Size = new System.Drawing.Size(182, 24);
-            this.comboBox110.TabIndex = 382;
             // 
             // label334
             // 
             this.label334.AutoSize = true;
             this.label334.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label334.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label334.Location = new System.Drawing.Point(66, 498);
+            this.label334.Location = new System.Drawing.Point(66, 493);
             this.label334.Name = "label334";
             this.label334.Size = new System.Drawing.Size(48, 20);
-            this.label334.TabIndex = 381;
+            this.label334.TabIndex = 526;
             this.label334.Text = "DVR";
-            // 
-            // comboBox111
-            // 
-            this.comboBox111.FormattingEnabled = true;
-            this.comboBox111.Location = new System.Drawing.Point(121, 464);
-            this.comboBox111.Name = "comboBox111";
-            this.comboBox111.Size = new System.Drawing.Size(182, 24);
-            this.comboBox111.TabIndex = 380;
             // 
             // label335
             // 
             this.label335.AutoSize = true;
             this.label335.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label335.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label335.Location = new System.Drawing.Point(66, 468);
+            this.label335.Location = new System.Drawing.Point(66, 463);
             this.label335.Name = "label335";
             this.label335.Size = new System.Drawing.Size(41, 20);
-            this.label335.TabIndex = 379;
+            this.label335.TabIndex = 525;
             this.label335.Text = "OIC";
             // 
-            // textBox31
+            // textBox514
             // 
-            this.textBox31.Location = new System.Drawing.Point(256, 432);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(47, 22);
-            this.textBox31.TabIndex = 378;
+            this.textBox514.Location = new System.Drawing.Point(256, 427);
+            this.textBox514.Name = "textBox514";
+            this.textBox514.Size = new System.Drawing.Size(47, 22);
+            this.textBox514.TabIndex = 524;
             // 
-            // textBox32
+            // textBox515
             // 
-            this.textBox32.Location = new System.Drawing.Point(195, 434);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(47, 22);
-            this.textBox32.TabIndex = 377;
-            // 
-            // comboBox112
-            // 
-            this.comboBox112.FormattingEnabled = true;
-            this.comboBox112.Location = new System.Drawing.Point(65, 432);
-            this.comboBox112.Name = "comboBox112";
-            this.comboBox112.Size = new System.Drawing.Size(121, 24);
-            this.comboBox112.TabIndex = 376;
+            this.textBox515.Location = new System.Drawing.Point(195, 429);
+            this.textBox515.Name = "textBox515";
+            this.textBox515.Size = new System.Drawing.Size(47, 22);
+            this.textBox515.TabIndex = 523;
             // 
             // label336
             // 
             this.label336.AutoSize = true;
             this.label336.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label336.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label336.Location = new System.Drawing.Point(264, 409);
+            this.label336.Location = new System.Drawing.Point(264, 404);
             this.label336.Name = "label336";
             this.label336.Size = new System.Drawing.Size(39, 20);
-            this.label336.TabIndex = 375;
+            this.label336.TabIndex = 522;
             this.label336.Text = "Out";
             // 
             // label337
@@ -8394,10 +8467,10 @@
             this.label337.AutoSize = true;
             this.label337.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label337.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label337.Location = new System.Drawing.Point(205, 409);
+            this.label337.Location = new System.Drawing.Point(205, 404);
             this.label337.Name = "label337";
             this.label337.Size = new System.Drawing.Size(24, 20);
-            this.label337.TabIndex = 374;
+            this.label337.TabIndex = 521;
             this.label337.Text = "In";
             // 
             // label338
@@ -8405,209 +8478,251 @@
             this.label338.AutoSize = true;
             this.label338.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.label338.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label338.Location = new System.Drawing.Point(74, 409);
+            this.label338.Location = new System.Drawing.Point(74, 404);
             this.label338.Name = "label338";
             this.label338.Size = new System.Drawing.Size(91, 20);
-            this.label338.TabIndex = 373;
+            this.label338.TabIndex = 520;
             this.label338.Text = "Appliance";
             // 
             // pictureBox42
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.pictureBox42.Location = new System.Drawing.Point(45, 396);
+            this.pictureBox42.Location = new System.Drawing.Point(45, 391);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox42.TabIndex = 372;
+            this.pictureBox42.TabIndex = 519;
             this.pictureBox42.TabStop = false;
             // 
-            // label258
+            // textBox479
             // 
-            this.label258.AutoSize = true;
-            this.label258.BackColor = System.Drawing.Color.White;
-            this.label258.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label258.Location = new System.Drawing.Point(1042, 53);
-            this.label258.Name = "label258";
-            this.label258.Size = new System.Drawing.Size(107, 20);
-            this.label258.TabIndex = 371;
-            this.label258.Text = "Appliance 4";
+            this.textBox479.Location = new System.Drawing.Point(1028, 301);
+            this.textBox479.Name = "textBox479";
+            this.textBox479.Size = new System.Drawing.Size(182, 22);
+            this.textBox479.TabIndex = 518;
             // 
-            // comboBox57
+            // textBox480
             // 
-            this.comboBox57.FormattingEnabled = true;
-            this.comboBox57.Location = new System.Drawing.Point(1028, 303);
-            this.comboBox57.Name = "comboBox57";
-            this.comboBox57.Size = new System.Drawing.Size(182, 24);
-            this.comboBox57.TabIndex = 370;
+            this.textBox480.Location = new System.Drawing.Point(1028, 273);
+            this.textBox480.Name = "textBox480";
+            this.textBox480.Size = new System.Drawing.Size(182, 22);
+            this.textBox480.TabIndex = 517;
             // 
-            // label259
+            // textBox481
             // 
-            this.label259.AutoSize = true;
-            this.label259.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label259.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label259.Location = new System.Drawing.Point(973, 307);
-            this.label259.Name = "label259";
-            this.label259.Size = new System.Drawing.Size(19, 20);
-            this.label259.TabIndex = 369;
-            this.label259.Text = "6";
+            this.textBox481.Location = new System.Drawing.Point(1028, 245);
+            this.textBox481.Name = "textBox481";
+            this.textBox481.Size = new System.Drawing.Size(182, 22);
+            this.textBox481.TabIndex = 516;
             // 
-            // comboBox58
+            // textBox482
             // 
-            this.comboBox58.FormattingEnabled = true;
-            this.comboBox58.Location = new System.Drawing.Point(1028, 273);
-            this.comboBox58.Name = "comboBox58";
-            this.comboBox58.Size = new System.Drawing.Size(182, 24);
-            this.comboBox58.TabIndex = 368;
+            this.textBox482.Location = new System.Drawing.Point(1028, 215);
+            this.textBox482.Name = "textBox482";
+            this.textBox482.Size = new System.Drawing.Size(182, 22);
+            this.textBox482.TabIndex = 515;
             // 
-            // label260
+            // textBox483
             // 
-            this.label260.AutoSize = true;
-            this.label260.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label260.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label260.Location = new System.Drawing.Point(973, 277);
-            this.label260.Name = "label260";
-            this.label260.Size = new System.Drawing.Size(48, 20);
-            this.label260.TabIndex = 367;
-            this.label260.Text = "ECO";
+            this.textBox483.Location = new System.Drawing.Point(1028, 185);
+            this.textBox483.Name = "textBox483";
+            this.textBox483.Size = new System.Drawing.Size(182, 22);
+            this.textBox483.TabIndex = 514;
             // 
-            // comboBox59
+            // textBox484
             // 
-            this.comboBox59.FormattingEnabled = true;
-            this.comboBox59.Location = new System.Drawing.Point(1028, 243);
-            this.comboBox59.Name = "comboBox59";
-            this.comboBox59.Size = new System.Drawing.Size(182, 24);
-            this.comboBox59.TabIndex = 366;
+            this.textBox484.Location = new System.Drawing.Point(1028, 155);
+            this.textBox484.Name = "textBox484";
+            this.textBox484.Size = new System.Drawing.Size(182, 22);
+            this.textBox484.TabIndex = 513;
             // 
-            // label261
+            // textBox485
             // 
-            this.label261.AutoSize = true;
-            this.label261.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label261.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label261.Location = new System.Drawing.Point(973, 247);
-            this.label261.Name = "label261";
-            this.label261.Size = new System.Drawing.Size(44, 20);
-            this.label261.TabIndex = 365;
-            this.label261.Text = "BA2";
+            this.textBox485.Location = new System.Drawing.Point(972, 121);
+            this.textBox485.Name = "textBox485";
+            this.textBox485.Size = new System.Drawing.Size(121, 22);
+            this.textBox485.TabIndex = 512;
             // 
-            // comboBox60
+            // label278
             // 
-            this.comboBox60.FormattingEnabled = true;
-            this.comboBox60.Location = new System.Drawing.Point(1028, 213);
-            this.comboBox60.Name = "comboBox60";
-            this.comboBox60.Size = new System.Drawing.Size(182, 24);
-            this.comboBox60.TabIndex = 364;
+            this.label278.AutoSize = true;
+            this.label278.BackColor = System.Drawing.Color.White;
+            this.label278.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label278.Location = new System.Drawing.Point(1042, 53);
+            this.label278.Name = "label278";
+            this.label278.Size = new System.Drawing.Size(107, 20);
+            this.label278.TabIndex = 511;
+            this.label278.Text = "Appliance 4";
             // 
-            // label262
+            // label279
             // 
-            this.label262.AutoSize = true;
-            this.label262.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label262.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label262.Location = new System.Drawing.Point(973, 217);
-            this.label262.Name = "label262";
-            this.label262.Size = new System.Drawing.Size(44, 20);
-            this.label262.TabIndex = 363;
-            this.label262.Text = "BA1";
+            this.label279.AutoSize = true;
+            this.label279.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label279.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label279.Location = new System.Drawing.Point(973, 307);
+            this.label279.Name = "label279";
+            this.label279.Size = new System.Drawing.Size(19, 20);
+            this.label279.TabIndex = 510;
+            this.label279.Text = "6";
             // 
-            // comboBox61
+            // label280
             // 
-            this.comboBox61.FormattingEnabled = true;
-            this.comboBox61.Location = new System.Drawing.Point(1028, 183);
-            this.comboBox61.Name = "comboBox61";
-            this.comboBox61.Size = new System.Drawing.Size(182, 24);
-            this.comboBox61.TabIndex = 362;
+            this.label280.AutoSize = true;
+            this.label280.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label280.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label280.Location = new System.Drawing.Point(973, 277);
+            this.label280.Name = "label280";
+            this.label280.Size = new System.Drawing.Size(48, 20);
+            this.label280.TabIndex = 509;
+            this.label280.Text = "ECO";
             // 
-            // label263
+            // label281
             // 
-            this.label263.AutoSize = true;
-            this.label263.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label263.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label263.Location = new System.Drawing.Point(973, 187);
-            this.label263.Name = "label263";
-            this.label263.Size = new System.Drawing.Size(48, 20);
-            this.label263.TabIndex = 361;
-            this.label263.Text = "DVR";
+            this.label281.AutoSize = true;
+            this.label281.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label281.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label281.Location = new System.Drawing.Point(973, 247);
+            this.label281.Name = "label281";
+            this.label281.Size = new System.Drawing.Size(44, 20);
+            this.label281.TabIndex = 508;
+            this.label281.Text = "BA2";
             // 
-            // comboBox62
+            // label282
             // 
-            this.comboBox62.FormattingEnabled = true;
-            this.comboBox62.Location = new System.Drawing.Point(1028, 153);
-            this.comboBox62.Name = "comboBox62";
-            this.comboBox62.Size = new System.Drawing.Size(182, 24);
-            this.comboBox62.TabIndex = 360;
+            this.label282.AutoSize = true;
+            this.label282.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label282.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label282.Location = new System.Drawing.Point(973, 217);
+            this.label282.Name = "label282";
+            this.label282.Size = new System.Drawing.Size(44, 20);
+            this.label282.TabIndex = 507;
+            this.label282.Text = "BA1";
             // 
-            // label264
+            // label283
             // 
-            this.label264.AutoSize = true;
-            this.label264.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label264.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label264.Location = new System.Drawing.Point(973, 157);
-            this.label264.Name = "label264";
-            this.label264.Size = new System.Drawing.Size(41, 20);
-            this.label264.TabIndex = 359;
-            this.label264.Text = "OIC";
+            this.label283.AutoSize = true;
+            this.label283.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label283.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label283.Location = new System.Drawing.Point(973, 187);
+            this.label283.Name = "label283";
+            this.label283.Size = new System.Drawing.Size(48, 20);
+            this.label283.TabIndex = 506;
+            this.label283.Text = "DVR";
             // 
-            // textBox17
+            // label284
             // 
-            this.textBox17.Location = new System.Drawing.Point(1163, 121);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(47, 22);
-            this.textBox17.TabIndex = 358;
+            this.label284.AutoSize = true;
+            this.label284.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label284.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label284.Location = new System.Drawing.Point(973, 157);
+            this.label284.Name = "label284";
+            this.label284.Size = new System.Drawing.Size(41, 20);
+            this.label284.TabIndex = 505;
+            this.label284.Text = "OIC";
             // 
-            // textBox18
+            // textBox486
             // 
-            this.textBox18.Location = new System.Drawing.Point(1102, 123);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(47, 22);
-            this.textBox18.TabIndex = 357;
+            this.textBox486.Location = new System.Drawing.Point(1163, 121);
+            this.textBox486.Name = "textBox486";
+            this.textBox486.Size = new System.Drawing.Size(47, 22);
+            this.textBox486.TabIndex = 504;
             // 
-            // comboBox63
+            // textBox487
             // 
-            this.comboBox63.FormattingEnabled = true;
-            this.comboBox63.Location = new System.Drawing.Point(972, 121);
-            this.comboBox63.Name = "comboBox63";
-            this.comboBox63.Size = new System.Drawing.Size(121, 24);
-            this.comboBox63.TabIndex = 356;
+            this.textBox487.Location = new System.Drawing.Point(1102, 123);
+            this.textBox487.Name = "textBox487";
+            this.textBox487.Size = new System.Drawing.Size(47, 22);
+            this.textBox487.TabIndex = 503;
             // 
-            // label265
+            // label285
             // 
-            this.label265.AutoSize = true;
-            this.label265.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label265.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label265.Location = new System.Drawing.Point(1171, 98);
-            this.label265.Name = "label265";
-            this.label265.Size = new System.Drawing.Size(39, 20);
-            this.label265.TabIndex = 355;
-            this.label265.Text = "Out";
+            this.label285.AutoSize = true;
+            this.label285.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label285.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label285.Location = new System.Drawing.Point(1171, 98);
+            this.label285.Name = "label285";
+            this.label285.Size = new System.Drawing.Size(39, 20);
+            this.label285.TabIndex = 502;
+            this.label285.Text = "Out";
             // 
-            // label266
+            // label286
             // 
-            this.label266.AutoSize = true;
-            this.label266.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label266.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label266.Location = new System.Drawing.Point(1112, 98);
-            this.label266.Name = "label266";
-            this.label266.Size = new System.Drawing.Size(24, 20);
-            this.label266.TabIndex = 354;
-            this.label266.Text = "In";
+            this.label286.AutoSize = true;
+            this.label286.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label286.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label286.Location = new System.Drawing.Point(1112, 98);
+            this.label286.Name = "label286";
+            this.label286.Size = new System.Drawing.Size(24, 20);
+            this.label286.TabIndex = 501;
+            this.label286.Text = "In";
             // 
-            // label267
+            // label287
             // 
-            this.label267.AutoSize = true;
-            this.label267.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label267.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label267.Location = new System.Drawing.Point(981, 98);
-            this.label267.Name = "label267";
-            this.label267.Size = new System.Drawing.Size(91, 20);
-            this.label267.TabIndex = 353;
-            this.label267.Text = "Appliance";
+            this.label287.AutoSize = true;
+            this.label287.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label287.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label287.Location = new System.Drawing.Point(981, 98);
+            this.label287.Name = "label287";
+            this.label287.Size = new System.Drawing.Size(91, 20);
+            this.label287.TabIndex = 500;
+            this.label287.Text = "Appliance";
             // 
-            // pictureBox35
+            // pictureBox37
             // 
-            this.pictureBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.pictureBox35.Location = new System.Drawing.Point(952, 85);
-            this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox35.TabIndex = 352;
-            this.pictureBox35.TabStop = false;
+            this.pictureBox37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.pictureBox37.Location = new System.Drawing.Point(952, 85);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(282, 255);
+            this.pictureBox37.TabIndex = 499;
+            this.pictureBox37.TabStop = false;
+            // 
+            // textBox470
+            // 
+            this.textBox470.Location = new System.Drawing.Point(730, 301);
+            this.textBox470.Name = "textBox470";
+            this.textBox470.Size = new System.Drawing.Size(182, 22);
+            this.textBox470.TabIndex = 498;
+            // 
+            // textBox471
+            // 
+            this.textBox471.Location = new System.Drawing.Point(730, 273);
+            this.textBox471.Name = "textBox471";
+            this.textBox471.Size = new System.Drawing.Size(182, 22);
+            this.textBox471.TabIndex = 497;
+            // 
+            // textBox472
+            // 
+            this.textBox472.Location = new System.Drawing.Point(730, 245);
+            this.textBox472.Name = "textBox472";
+            this.textBox472.Size = new System.Drawing.Size(182, 22);
+            this.textBox472.TabIndex = 496;
+            // 
+            // textBox473
+            // 
+            this.textBox473.Location = new System.Drawing.Point(730, 215);
+            this.textBox473.Name = "textBox473";
+            this.textBox473.Size = new System.Drawing.Size(182, 22);
+            this.textBox473.TabIndex = 495;
+            // 
+            // textBox474
+            // 
+            this.textBox474.Location = new System.Drawing.Point(730, 185);
+            this.textBox474.Name = "textBox474";
+            this.textBox474.Size = new System.Drawing.Size(182, 22);
+            this.textBox474.TabIndex = 494;
+            // 
+            // textBox475
+            // 
+            this.textBox475.Location = new System.Drawing.Point(730, 155);
+            this.textBox475.Name = "textBox475";
+            this.textBox475.Size = new System.Drawing.Size(182, 22);
+            this.textBox475.TabIndex = 493;
+            // 
+            // textBox476
+            // 
+            this.textBox476.Location = new System.Drawing.Point(674, 121);
+            this.textBox476.Name = "textBox476";
+            this.textBox476.Size = new System.Drawing.Size(121, 22);
+            this.textBox476.TabIndex = 492;
             // 
             // label268
             // 
@@ -8617,16 +8732,8 @@
             this.label268.Location = new System.Drawing.Point(744, 53);
             this.label268.Name = "label268";
             this.label268.Size = new System.Drawing.Size(107, 20);
-            this.label268.TabIndex = 351;
+            this.label268.TabIndex = 491;
             this.label268.Text = "Appliance 3";
-            // 
-            // comboBox64
-            // 
-            this.comboBox64.FormattingEnabled = true;
-            this.comboBox64.Location = new System.Drawing.Point(730, 303);
-            this.comboBox64.Name = "comboBox64";
-            this.comboBox64.Size = new System.Drawing.Size(182, 24);
-            this.comboBox64.TabIndex = 350;
             // 
             // label269
             // 
@@ -8636,16 +8743,8 @@
             this.label269.Location = new System.Drawing.Point(675, 307);
             this.label269.Name = "label269";
             this.label269.Size = new System.Drawing.Size(19, 20);
-            this.label269.TabIndex = 349;
+            this.label269.TabIndex = 490;
             this.label269.Text = "6";
-            // 
-            // comboBox65
-            // 
-            this.comboBox65.FormattingEnabled = true;
-            this.comboBox65.Location = new System.Drawing.Point(730, 273);
-            this.comboBox65.Name = "comboBox65";
-            this.comboBox65.Size = new System.Drawing.Size(182, 24);
-            this.comboBox65.TabIndex = 348;
             // 
             // label270
             // 
@@ -8655,16 +8754,8 @@
             this.label270.Location = new System.Drawing.Point(675, 277);
             this.label270.Name = "label270";
             this.label270.Size = new System.Drawing.Size(48, 20);
-            this.label270.TabIndex = 347;
+            this.label270.TabIndex = 489;
             this.label270.Text = "ECO";
-            // 
-            // comboBox66
-            // 
-            this.comboBox66.FormattingEnabled = true;
-            this.comboBox66.Location = new System.Drawing.Point(730, 243);
-            this.comboBox66.Name = "comboBox66";
-            this.comboBox66.Size = new System.Drawing.Size(182, 24);
-            this.comboBox66.TabIndex = 346;
             // 
             // label271
             // 
@@ -8674,16 +8765,8 @@
             this.label271.Location = new System.Drawing.Point(675, 247);
             this.label271.Name = "label271";
             this.label271.Size = new System.Drawing.Size(44, 20);
-            this.label271.TabIndex = 345;
+            this.label271.TabIndex = 488;
             this.label271.Text = "BA2";
-            // 
-            // comboBox67
-            // 
-            this.comboBox67.FormattingEnabled = true;
-            this.comboBox67.Location = new System.Drawing.Point(730, 213);
-            this.comboBox67.Name = "comboBox67";
-            this.comboBox67.Size = new System.Drawing.Size(182, 24);
-            this.comboBox67.TabIndex = 344;
             // 
             // label272
             // 
@@ -8693,16 +8776,8 @@
             this.label272.Location = new System.Drawing.Point(675, 217);
             this.label272.Name = "label272";
             this.label272.Size = new System.Drawing.Size(44, 20);
-            this.label272.TabIndex = 343;
+            this.label272.TabIndex = 487;
             this.label272.Text = "BA1";
-            // 
-            // comboBox68
-            // 
-            this.comboBox68.FormattingEnabled = true;
-            this.comboBox68.Location = new System.Drawing.Point(730, 183);
-            this.comboBox68.Name = "comboBox68";
-            this.comboBox68.Size = new System.Drawing.Size(182, 24);
-            this.comboBox68.TabIndex = 342;
             // 
             // label273
             // 
@@ -8712,16 +8787,8 @@
             this.label273.Location = new System.Drawing.Point(675, 187);
             this.label273.Name = "label273";
             this.label273.Size = new System.Drawing.Size(48, 20);
-            this.label273.TabIndex = 341;
+            this.label273.TabIndex = 486;
             this.label273.Text = "DVR";
-            // 
-            // comboBox69
-            // 
-            this.comboBox69.FormattingEnabled = true;
-            this.comboBox69.Location = new System.Drawing.Point(730, 153);
-            this.comboBox69.Name = "comboBox69";
-            this.comboBox69.Size = new System.Drawing.Size(182, 24);
-            this.comboBox69.TabIndex = 340;
             // 
             // label274
             // 
@@ -8731,30 +8798,22 @@
             this.label274.Location = new System.Drawing.Point(675, 157);
             this.label274.Name = "label274";
             this.label274.Size = new System.Drawing.Size(41, 20);
-            this.label274.TabIndex = 339;
+            this.label274.TabIndex = 485;
             this.label274.Text = "OIC";
             // 
-            // textBox19
+            // textBox477
             // 
-            this.textBox19.Location = new System.Drawing.Point(865, 121);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(47, 22);
-            this.textBox19.TabIndex = 338;
+            this.textBox477.Location = new System.Drawing.Point(865, 121);
+            this.textBox477.Name = "textBox477";
+            this.textBox477.Size = new System.Drawing.Size(47, 22);
+            this.textBox477.TabIndex = 484;
             // 
-            // textBox20
+            // textBox478
             // 
-            this.textBox20.Location = new System.Drawing.Point(804, 123);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(47, 22);
-            this.textBox20.TabIndex = 337;
-            // 
-            // comboBox70
-            // 
-            this.comboBox70.FormattingEnabled = true;
-            this.comboBox70.Location = new System.Drawing.Point(674, 121);
-            this.comboBox70.Name = "comboBox70";
-            this.comboBox70.Size = new System.Drawing.Size(121, 24);
-            this.comboBox70.TabIndex = 336;
+            this.textBox478.Location = new System.Drawing.Point(804, 123);
+            this.textBox478.Name = "textBox478";
+            this.textBox478.Size = new System.Drawing.Size(47, 22);
+            this.textBox478.TabIndex = 483;
             // 
             // label275
             // 
@@ -8764,7 +8823,7 @@
             this.label275.Location = new System.Drawing.Point(873, 98);
             this.label275.Name = "label275";
             this.label275.Size = new System.Drawing.Size(39, 20);
-            this.label275.TabIndex = 335;
+            this.label275.TabIndex = 482;
             this.label275.Text = "Out";
             // 
             // label276
@@ -8775,7 +8834,7 @@
             this.label276.Location = new System.Drawing.Point(814, 98);
             this.label276.Name = "label276";
             this.label276.Size = new System.Drawing.Size(24, 20);
-            this.label276.TabIndex = 334;
+            this.label276.TabIndex = 481;
             this.label276.Text = "In";
             // 
             // label277
@@ -8786,7 +8845,7 @@
             this.label277.Location = new System.Drawing.Point(683, 98);
             this.label277.Name = "label277";
             this.label277.Size = new System.Drawing.Size(91, 20);
-            this.label277.TabIndex = 333;
+            this.label277.TabIndex = 480;
             this.label277.Text = "Appliance";
             // 
             // pictureBox36
@@ -8795,197 +8854,239 @@
             this.pictureBox36.Location = new System.Drawing.Point(654, 85);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox36.TabIndex = 332;
+            this.pictureBox36.TabIndex = 479;
             this.pictureBox36.TabStop = false;
             // 
-            // label278
+            // textBox17
             // 
-            this.label278.AutoSize = true;
-            this.label278.BackColor = System.Drawing.Color.White;
-            this.label278.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label278.Location = new System.Drawing.Point(442, 53);
-            this.label278.Name = "label278";
-            this.label278.Size = new System.Drawing.Size(107, 20);
-            this.label278.TabIndex = 331;
-            this.label278.Text = "Appliance 2";
+            this.textBox17.Location = new System.Drawing.Point(428, 301);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(182, 22);
+            this.textBox17.TabIndex = 478;
             // 
-            // comboBox71
+            // textBox18
             // 
-            this.comboBox71.FormattingEnabled = true;
-            this.comboBox71.Location = new System.Drawing.Point(428, 303);
-            this.comboBox71.Name = "comboBox71";
-            this.comboBox71.Size = new System.Drawing.Size(182, 24);
-            this.comboBox71.TabIndex = 330;
+            this.textBox18.Location = new System.Drawing.Point(428, 273);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(182, 22);
+            this.textBox18.TabIndex = 477;
             // 
-            // label279
+            // textBox19
             // 
-            this.label279.AutoSize = true;
-            this.label279.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label279.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label279.Location = new System.Drawing.Point(373, 307);
-            this.label279.Name = "label279";
-            this.label279.Size = new System.Drawing.Size(19, 20);
-            this.label279.TabIndex = 329;
-            this.label279.Text = "6";
+            this.textBox19.Location = new System.Drawing.Point(428, 245);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(182, 22);
+            this.textBox19.TabIndex = 476;
             // 
-            // comboBox72
+            // textBox20
             // 
-            this.comboBox72.FormattingEnabled = true;
-            this.comboBox72.Location = new System.Drawing.Point(428, 273);
-            this.comboBox72.Name = "comboBox72";
-            this.comboBox72.Size = new System.Drawing.Size(182, 24);
-            this.comboBox72.TabIndex = 328;
-            // 
-            // label280
-            // 
-            this.label280.AutoSize = true;
-            this.label280.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label280.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label280.Location = new System.Drawing.Point(373, 277);
-            this.label280.Name = "label280";
-            this.label280.Size = new System.Drawing.Size(48, 20);
-            this.label280.TabIndex = 327;
-            this.label280.Text = "ECO";
-            // 
-            // comboBox73
-            // 
-            this.comboBox73.FormattingEnabled = true;
-            this.comboBox73.Location = new System.Drawing.Point(428, 243);
-            this.comboBox73.Name = "comboBox73";
-            this.comboBox73.Size = new System.Drawing.Size(182, 24);
-            this.comboBox73.TabIndex = 326;
-            // 
-            // label281
-            // 
-            this.label281.AutoSize = true;
-            this.label281.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label281.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label281.Location = new System.Drawing.Point(373, 247);
-            this.label281.Name = "label281";
-            this.label281.Size = new System.Drawing.Size(44, 20);
-            this.label281.TabIndex = 325;
-            this.label281.Text = "BA2";
-            // 
-            // comboBox74
-            // 
-            this.comboBox74.FormattingEnabled = true;
-            this.comboBox74.Location = new System.Drawing.Point(428, 213);
-            this.comboBox74.Name = "comboBox74";
-            this.comboBox74.Size = new System.Drawing.Size(182, 24);
-            this.comboBox74.TabIndex = 324;
-            // 
-            // label282
-            // 
-            this.label282.AutoSize = true;
-            this.label282.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label282.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label282.Location = new System.Drawing.Point(373, 217);
-            this.label282.Name = "label282";
-            this.label282.Size = new System.Drawing.Size(44, 20);
-            this.label282.TabIndex = 323;
-            this.label282.Text = "BA1";
-            // 
-            // comboBox75
-            // 
-            this.comboBox75.FormattingEnabled = true;
-            this.comboBox75.Location = new System.Drawing.Point(428, 183);
-            this.comboBox75.Name = "comboBox75";
-            this.comboBox75.Size = new System.Drawing.Size(182, 24);
-            this.comboBox75.TabIndex = 322;
-            // 
-            // label283
-            // 
-            this.label283.AutoSize = true;
-            this.label283.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label283.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label283.Location = new System.Drawing.Point(373, 187);
-            this.label283.Name = "label283";
-            this.label283.Size = new System.Drawing.Size(48, 20);
-            this.label283.TabIndex = 321;
-            this.label283.Text = "DVR";
-            // 
-            // comboBox76
-            // 
-            this.comboBox76.FormattingEnabled = true;
-            this.comboBox76.Location = new System.Drawing.Point(428, 153);
-            this.comboBox76.Name = "comboBox76";
-            this.comboBox76.Size = new System.Drawing.Size(182, 24);
-            this.comboBox76.TabIndex = 320;
-            // 
-            // label284
-            // 
-            this.label284.AutoSize = true;
-            this.label284.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label284.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label284.Location = new System.Drawing.Point(373, 157);
-            this.label284.Name = "label284";
-            this.label284.Size = new System.Drawing.Size(41, 20);
-            this.label284.TabIndex = 319;
-            this.label284.Text = "OIC";
+            this.textBox20.Location = new System.Drawing.Point(428, 215);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(182, 22);
+            this.textBox20.TabIndex = 475;
             // 
             // textBox21
             // 
-            this.textBox21.Location = new System.Drawing.Point(563, 121);
+            this.textBox21.Location = new System.Drawing.Point(428, 185);
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(47, 22);
-            this.textBox21.TabIndex = 318;
+            this.textBox21.Size = new System.Drawing.Size(182, 22);
+            this.textBox21.TabIndex = 474;
             // 
             // textBox22
             // 
-            this.textBox22.Location = new System.Drawing.Point(502, 123);
+            this.textBox22.Location = new System.Drawing.Point(428, 155);
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(47, 22);
-            this.textBox22.TabIndex = 317;
+            this.textBox22.Size = new System.Drawing.Size(182, 22);
+            this.textBox22.TabIndex = 473;
             // 
-            // comboBox77
+            // otbapp2
             // 
-            this.comboBox77.FormattingEnabled = true;
-            this.comboBox77.Location = new System.Drawing.Point(372, 121);
-            this.comboBox77.Name = "comboBox77";
-            this.comboBox77.Size = new System.Drawing.Size(121, 24);
-            this.comboBox77.TabIndex = 316;
+            this.otbapp2.Location = new System.Drawing.Point(372, 121);
+            this.otbapp2.Name = "otbapp2";
+            this.otbapp2.Size = new System.Drawing.Size(121, 22);
+            this.otbapp2.TabIndex = 472;
             // 
-            // label285
+            // label258
             // 
-            this.label285.AutoSize = true;
-            this.label285.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label285.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label285.Location = new System.Drawing.Point(571, 98);
-            this.label285.Name = "label285";
-            this.label285.Size = new System.Drawing.Size(39, 20);
-            this.label285.TabIndex = 315;
-            this.label285.Text = "Out";
+            this.label258.AutoSize = true;
+            this.label258.BackColor = System.Drawing.Color.White;
+            this.label258.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label258.Location = new System.Drawing.Point(442, 53);
+            this.label258.Name = "label258";
+            this.label258.Size = new System.Drawing.Size(107, 20);
+            this.label258.TabIndex = 471;
+            this.label258.Text = "Appliance 2";
             // 
-            // label286
+            // label259
             // 
-            this.label286.AutoSize = true;
-            this.label286.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label286.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label286.Location = new System.Drawing.Point(512, 98);
-            this.label286.Name = "label286";
-            this.label286.Size = new System.Drawing.Size(24, 20);
-            this.label286.TabIndex = 314;
-            this.label286.Text = "In";
+            this.label259.AutoSize = true;
+            this.label259.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label259.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label259.Location = new System.Drawing.Point(373, 307);
+            this.label259.Name = "label259";
+            this.label259.Size = new System.Drawing.Size(19, 20);
+            this.label259.TabIndex = 470;
+            this.label259.Text = "6";
             // 
-            // label287
+            // label260
             // 
-            this.label287.AutoSize = true;
-            this.label287.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label287.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label287.Location = new System.Drawing.Point(381, 98);
-            this.label287.Name = "label287";
-            this.label287.Size = new System.Drawing.Size(91, 20);
-            this.label287.TabIndex = 313;
-            this.label287.Text = "Appliance";
+            this.label260.AutoSize = true;
+            this.label260.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label260.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label260.Location = new System.Drawing.Point(373, 277);
+            this.label260.Name = "label260";
+            this.label260.Size = new System.Drawing.Size(48, 20);
+            this.label260.TabIndex = 469;
+            this.label260.Text = "ECO";
             // 
-            // pictureBox37
+            // label261
             // 
-            this.pictureBox37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.pictureBox37.Location = new System.Drawing.Point(352, 85);
-            this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(282, 255);
-            this.pictureBox37.TabIndex = 312;
-            this.pictureBox37.TabStop = false;
+            this.label261.AutoSize = true;
+            this.label261.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label261.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label261.Location = new System.Drawing.Point(373, 247);
+            this.label261.Name = "label261";
+            this.label261.Size = new System.Drawing.Size(44, 20);
+            this.label261.TabIndex = 468;
+            this.label261.Text = "BA2";
+            // 
+            // label262
+            // 
+            this.label262.AutoSize = true;
+            this.label262.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label262.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label262.Location = new System.Drawing.Point(373, 217);
+            this.label262.Name = "label262";
+            this.label262.Size = new System.Drawing.Size(44, 20);
+            this.label262.TabIndex = 467;
+            this.label262.Text = "BA1";
+            // 
+            // label263
+            // 
+            this.label263.AutoSize = true;
+            this.label263.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label263.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label263.Location = new System.Drawing.Point(373, 187);
+            this.label263.Name = "label263";
+            this.label263.Size = new System.Drawing.Size(48, 20);
+            this.label263.TabIndex = 466;
+            this.label263.Text = "DVR";
+            // 
+            // label264
+            // 
+            this.label264.AutoSize = true;
+            this.label264.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label264.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label264.Location = new System.Drawing.Point(373, 157);
+            this.label264.Name = "label264";
+            this.label264.Size = new System.Drawing.Size(41, 20);
+            this.label264.TabIndex = 465;
+            this.label264.Text = "OIC";
+            // 
+            // textBox468
+            // 
+            this.textBox468.Location = new System.Drawing.Point(563, 121);
+            this.textBox468.Name = "textBox468";
+            this.textBox468.Size = new System.Drawing.Size(47, 22);
+            this.textBox468.TabIndex = 464;
+            // 
+            // textBox469
+            // 
+            this.textBox469.Location = new System.Drawing.Point(502, 123);
+            this.textBox469.Name = "textBox469";
+            this.textBox469.Size = new System.Drawing.Size(47, 22);
+            this.textBox469.TabIndex = 463;
+            // 
+            // label265
+            // 
+            this.label265.AutoSize = true;
+            this.label265.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label265.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label265.Location = new System.Drawing.Point(571, 98);
+            this.label265.Name = "label265";
+            this.label265.Size = new System.Drawing.Size(39, 20);
+            this.label265.TabIndex = 462;
+            this.label265.Text = "Out";
+            // 
+            // label266
+            // 
+            this.label266.AutoSize = true;
+            this.label266.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label266.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label266.Location = new System.Drawing.Point(512, 98);
+            this.label266.Name = "label266";
+            this.label266.Size = new System.Drawing.Size(24, 20);
+            this.label266.TabIndex = 461;
+            this.label266.Text = "In";
+            // 
+            // label267
+            // 
+            this.label267.AutoSize = true;
+            this.label267.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label267.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label267.Location = new System.Drawing.Point(381, 98);
+            this.label267.Name = "label267";
+            this.label267.Size = new System.Drawing.Size(91, 20);
+            this.label267.TabIndex = 460;
+            this.label267.Text = "Appliance";
+            // 
+            // pictureBox35
+            // 
+            this.pictureBox35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.pictureBox35.Location = new System.Drawing.Point(352, 85);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(282, 255);
+            this.pictureBox35.TabIndex = 459;
+            this.pictureBox35.TabStop = false;
+            // 
+            // textBox466
+            // 
+            this.textBox466.Location = new System.Drawing.Point(121, 301);
+            this.textBox466.Name = "textBox466";
+            this.textBox466.Size = new System.Drawing.Size(182, 22);
+            this.textBox466.TabIndex = 458;
+            // 
+            // textBox465
+            // 
+            this.textBox465.Location = new System.Drawing.Point(121, 273);
+            this.textBox465.Name = "textBox465";
+            this.textBox465.Size = new System.Drawing.Size(182, 22);
+            this.textBox465.TabIndex = 457;
+            // 
+            // textBox464
+            // 
+            this.textBox464.Location = new System.Drawing.Point(121, 245);
+            this.textBox464.Name = "textBox464";
+            this.textBox464.Size = new System.Drawing.Size(182, 22);
+            this.textBox464.TabIndex = 456;
+            // 
+            // textBox463
+            // 
+            this.textBox463.Location = new System.Drawing.Point(121, 215);
+            this.textBox463.Name = "textBox463";
+            this.textBox463.Size = new System.Drawing.Size(182, 22);
+            this.textBox463.TabIndex = 455;
+            // 
+            // textBox462
+            // 
+            this.textBox462.Location = new System.Drawing.Point(121, 185);
+            this.textBox462.Name = "textBox462";
+            this.textBox462.Size = new System.Drawing.Size(182, 22);
+            this.textBox462.TabIndex = 454;
+            // 
+            // textBox461
+            // 
+            this.textBox461.Location = new System.Drawing.Point(121, 155);
+            this.textBox461.Name = "textBox461";
+            this.textBox461.Size = new System.Drawing.Size(182, 22);
+            this.textBox461.TabIndex = 453;
+            // 
+            // otbapp1
+            // 
+            this.otbapp1.Location = new System.Drawing.Point(65, 121);
+            this.otbapp1.Name = "otbapp1";
+            this.otbapp1.Size = new System.Drawing.Size(121, 22);
+            this.otbapp1.TabIndex = 452;
             // 
             // label288
             // 
@@ -8998,14 +9099,6 @@
             this.label288.TabIndex = 311;
             this.label288.Text = "Appliance 1";
             // 
-            // comboBox78
-            // 
-            this.comboBox78.FormattingEnabled = true;
-            this.comboBox78.Location = new System.Drawing.Point(121, 303);
-            this.comboBox78.Name = "comboBox78";
-            this.comboBox78.Size = new System.Drawing.Size(182, 24);
-            this.comboBox78.TabIndex = 310;
-            // 
             // label289
             // 
             this.label289.AutoSize = true;
@@ -9016,14 +9109,6 @@
             this.label289.Size = new System.Drawing.Size(19, 20);
             this.label289.TabIndex = 309;
             this.label289.Text = "6";
-            // 
-            // comboBox79
-            // 
-            this.comboBox79.FormattingEnabled = true;
-            this.comboBox79.Location = new System.Drawing.Point(121, 273);
-            this.comboBox79.Name = "comboBox79";
-            this.comboBox79.Size = new System.Drawing.Size(182, 24);
-            this.comboBox79.TabIndex = 308;
             // 
             // label290
             // 
@@ -9036,14 +9121,6 @@
             this.label290.TabIndex = 307;
             this.label290.Text = "ECO";
             // 
-            // comboBox80
-            // 
-            this.comboBox80.FormattingEnabled = true;
-            this.comboBox80.Location = new System.Drawing.Point(121, 243);
-            this.comboBox80.Name = "comboBox80";
-            this.comboBox80.Size = new System.Drawing.Size(182, 24);
-            this.comboBox80.TabIndex = 306;
-            // 
             // label291
             // 
             this.label291.AutoSize = true;
@@ -9054,14 +9131,6 @@
             this.label291.Size = new System.Drawing.Size(44, 20);
             this.label291.TabIndex = 305;
             this.label291.Text = "BA2";
-            // 
-            // comboBox81
-            // 
-            this.comboBox81.FormattingEnabled = true;
-            this.comboBox81.Location = new System.Drawing.Point(121, 213);
-            this.comboBox81.Name = "comboBox81";
-            this.comboBox81.Size = new System.Drawing.Size(182, 24);
-            this.comboBox81.TabIndex = 304;
             // 
             // label292
             // 
@@ -9074,14 +9143,6 @@
             this.label292.TabIndex = 303;
             this.label292.Text = "BA1";
             // 
-            // comboBox82
-            // 
-            this.comboBox82.FormattingEnabled = true;
-            this.comboBox82.Location = new System.Drawing.Point(121, 183);
-            this.comboBox82.Name = "comboBox82";
-            this.comboBox82.Size = new System.Drawing.Size(182, 24);
-            this.comboBox82.TabIndex = 302;
-            // 
             // label293
             // 
             this.label293.AutoSize = true;
@@ -9092,14 +9153,6 @@
             this.label293.Size = new System.Drawing.Size(48, 20);
             this.label293.TabIndex = 301;
             this.label293.Text = "DVR";
-            // 
-            // comboBox83
-            // 
-            this.comboBox83.FormattingEnabled = true;
-            this.comboBox83.Location = new System.Drawing.Point(121, 153);
-            this.comboBox83.Name = "comboBox83";
-            this.comboBox83.Size = new System.Drawing.Size(182, 24);
-            this.comboBox83.TabIndex = 300;
             // 
             // label294
             // 
@@ -9112,27 +9165,20 @@
             this.label294.TabIndex = 299;
             this.label294.Text = "OIC";
             // 
-            // textBox23
+            // otbapp1out
             // 
-            this.textBox23.Location = new System.Drawing.Point(256, 121);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(47, 22);
-            this.textBox23.TabIndex = 298;
+            this.otbapp1out.Location = new System.Drawing.Point(256, 121);
+            this.otbapp1out.Name = "otbapp1out";
+            this.otbapp1out.Size = new System.Drawing.Size(47, 22);
+            this.otbapp1out.TabIndex = 298;
+            this.otbapp1out.TextChanged += new System.EventHandler(this.textBox23_TextChanged);
             // 
-            // textBox24
+            // otbapp1in
             // 
-            this.textBox24.Location = new System.Drawing.Point(195, 123);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(47, 22);
-            this.textBox24.TabIndex = 297;
-            // 
-            // comboBox84
-            // 
-            this.comboBox84.FormattingEnabled = true;
-            this.comboBox84.Location = new System.Drawing.Point(65, 121);
-            this.comboBox84.Name = "comboBox84";
-            this.comboBox84.Size = new System.Drawing.Size(121, 24);
-            this.comboBox84.TabIndex = 296;
+            this.otbapp1in.Location = new System.Drawing.Point(195, 123);
+            this.otbapp1in.Name = "otbapp1in";
+            this.otbapp1in.Size = new System.Drawing.Size(47, 22);
+            this.otbapp1in.TabIndex = 297;
             // 
             // label295
             // 
@@ -15001,17 +15047,937 @@
             // 
             // otbcalculation
             // 
+            this.otbcalculation.Controls.Add(this.textBox588);
+            this.otbcalculation.Controls.Add(this.textBox589);
+            this.otbcalculation.Controls.Add(this.label516);
+            this.otbcalculation.Controls.Add(this.textBox590);
+            this.otbcalculation.Controls.Add(this.textBox591);
+            this.otbcalculation.Controls.Add(this.textBox592);
+            this.otbcalculation.Controls.Add(this.textBox593);
+            this.otbcalculation.Controls.Add(this.textBox594);
+            this.otbcalculation.Controls.Add(this.textBox595);
+            this.otbcalculation.Controls.Add(this.textBox596);
+            this.otbcalculation.Controls.Add(this.textBox597);
+            this.otbcalculation.Controls.Add(this.pictureBox81);
+            this.otbcalculation.Controls.Add(this.textBox587);
+            this.otbcalculation.Controls.Add(this.textBox560);
+            this.otbcalculation.Controls.Add(this.label105);
+            this.otbcalculation.Controls.Add(this.textBox561);
+            this.otbcalculation.Controls.Add(this.textBox568);
+            this.otbcalculation.Controls.Add(this.textBox569);
+            this.otbcalculation.Controls.Add(this.textBox576);
+            this.otbcalculation.Controls.Add(this.textBox577);
+            this.otbcalculation.Controls.Add(this.textBox584);
+            this.otbcalculation.Controls.Add(this.textBox585);
+            this.otbcalculation.Controls.Add(this.textBox586);
+            this.otbcalculation.Controls.Add(this.pictureBox80);
+            this.otbcalculation.Controls.Add(this.textBox521);
+            this.otbcalculation.Controls.Add(this.label104);
+            this.otbcalculation.Controls.Add(this.textBox528);
+            this.otbcalculation.Controls.Add(this.textBox529);
+            this.otbcalculation.Controls.Add(this.textBox536);
+            this.otbcalculation.Controls.Add(this.textBox537);
+            this.otbcalculation.Controls.Add(this.textBox544);
+            this.otbcalculation.Controls.Add(this.textBox545);
+            this.otbcalculation.Controls.Add(this.textBox552);
+            this.otbcalculation.Controls.Add(this.textBox553);
+            this.otbcalculation.Controls.Add(this.pictureBox79);
+            this.otbcalculation.Controls.Add(this.textBox520);
+            this.otbcalculation.Controls.Add(this.label515);
+            this.otbcalculation.Controls.Add(this.textBox578);
+            this.otbcalculation.Controls.Add(this.textBox579);
+            this.otbcalculation.Controls.Add(this.textBox580);
+            this.otbcalculation.Controls.Add(this.textBox581);
+            this.otbcalculation.Controls.Add(this.textBox582);
+            this.otbcalculation.Controls.Add(this.textBox583);
+            this.otbcalculation.Controls.Add(this.pictureBox78);
+            this.otbcalculation.Controls.Add(this.label514);
+            this.otbcalculation.Controls.Add(this.textBox570);
+            this.otbcalculation.Controls.Add(this.textBox571);
+            this.otbcalculation.Controls.Add(this.textBox572);
+            this.otbcalculation.Controls.Add(this.textBox573);
+            this.otbcalculation.Controls.Add(this.textBox574);
+            this.otbcalculation.Controls.Add(this.textBox575);
+            this.otbcalculation.Controls.Add(this.pictureBox77);
+            this.otbcalculation.Controls.Add(this.label462);
+            this.otbcalculation.Controls.Add(this.textBox562);
+            this.otbcalculation.Controls.Add(this.textBox563);
+            this.otbcalculation.Controls.Add(this.textBox564);
+            this.otbcalculation.Controls.Add(this.textBox565);
+            this.otbcalculation.Controls.Add(this.textBox566);
+            this.otbcalculation.Controls.Add(this.textBox567);
+            this.otbcalculation.Controls.Add(this.pictureBox76);
+            this.otbcalculation.Controls.Add(this.label461);
+            this.otbcalculation.Controls.Add(this.textBox554);
+            this.otbcalculation.Controls.Add(this.textBox555);
+            this.otbcalculation.Controls.Add(this.textBox556);
+            this.otbcalculation.Controls.Add(this.textBox557);
+            this.otbcalculation.Controls.Add(this.textBox558);
+            this.otbcalculation.Controls.Add(this.textBox559);
+            this.otbcalculation.Controls.Add(this.pictureBox75);
+            this.otbcalculation.Controls.Add(this.label460);
+            this.otbcalculation.Controls.Add(this.textBox546);
+            this.otbcalculation.Controls.Add(this.textBox547);
+            this.otbcalculation.Controls.Add(this.textBox548);
+            this.otbcalculation.Controls.Add(this.textBox549);
+            this.otbcalculation.Controls.Add(this.textBox550);
+            this.otbcalculation.Controls.Add(this.textBox551);
+            this.otbcalculation.Controls.Add(this.pictureBox74);
+            this.otbcalculation.Controls.Add(this.label459);
+            this.otbcalculation.Controls.Add(this.textBox538);
+            this.otbcalculation.Controls.Add(this.textBox539);
+            this.otbcalculation.Controls.Add(this.textBox540);
+            this.otbcalculation.Controls.Add(this.textBox541);
+            this.otbcalculation.Controls.Add(this.textBox542);
+            this.otbcalculation.Controls.Add(this.textBox543);
+            this.otbcalculation.Controls.Add(this.pictureBox73);
+            this.otbcalculation.Controls.Add(this.label436);
+            this.otbcalculation.Controls.Add(this.textBox530);
+            this.otbcalculation.Controls.Add(this.textBox531);
+            this.otbcalculation.Controls.Add(this.textBox532);
+            this.otbcalculation.Controls.Add(this.textBox533);
+            this.otbcalculation.Controls.Add(this.textBox534);
+            this.otbcalculation.Controls.Add(this.textBox535);
+            this.otbcalculation.Controls.Add(this.pictureBox72);
+            this.otbcalculation.Controls.Add(this.label434);
+            this.otbcalculation.Controls.Add(this.textBox522);
+            this.otbcalculation.Controls.Add(this.textBox523);
+            this.otbcalculation.Controls.Add(this.textBox524);
+            this.otbcalculation.Controls.Add(this.textBox525);
+            this.otbcalculation.Controls.Add(this.textBox526);
+            this.otbcalculation.Controls.Add(this.textBox527);
+            this.otbcalculation.Controls.Add(this.pictureBox71);
+            this.otbcalculation.Controls.Add(this.label432);
+            this.otbcalculation.Controls.Add(this.textBox519);
+            this.otbcalculation.Controls.Add(this.textBox518);
+            this.otbcalculation.Controls.Add(this.textBox517);
+            this.otbcalculation.Controls.Add(this.textBox516);
+            this.otbcalculation.Controls.Add(this.textBox467);
+            this.otbcalculation.Controls.Add(this.textBox460);
+            this.otbcalculation.Controls.Add(this.textBox24);
+            this.otbcalculation.Controls.Add(this.textBox23);
             this.otbcalculation.Controls.Add(this.label511);
             this.otbcalculation.Controls.Add(this.pictureBox68);
             this.otbcalculation.Controls.Add(this.label512);
             this.otbcalculation.Controls.Add(this.pictureBox69);
             this.otbcalculation.Controls.Add(this.label513);
+            this.otbcalculation.Controls.Add(this.pictureBox70);
             this.otbcalculation.Location = new System.Drawing.Point(4, 25);
             this.otbcalculation.Name = "otbcalculation";
             this.otbcalculation.Size = new System.Drawing.Size(1267, 703);
             this.otbcalculation.TabIndex = 9;
             this.otbcalculation.Text = "otbCalculations";
             this.otbcalculation.UseVisualStyleBackColor = true;
+            // 
+            // textBox588
+            // 
+            this.textBox588.Location = new System.Drawing.Point(345, 584);
+            this.textBox588.Name = "textBox588";
+            this.textBox588.Size = new System.Drawing.Size(57, 22);
+            this.textBox588.TabIndex = 654;
+            // 
+            // textBox589
+            // 
+            this.textBox589.Location = new System.Drawing.Point(345, 611);
+            this.textBox589.Name = "textBox589";
+            this.textBox589.Size = new System.Drawing.Size(57, 22);
+            this.textBox589.TabIndex = 653;
+            // 
+            // label516
+            // 
+            this.label516.AutoSize = true;
+            this.label516.Location = new System.Drawing.Point(342, 340);
+            this.label516.Name = "label516";
+            this.label516.Size = new System.Drawing.Size(71, 17);
+            this.label516.TabIndex = 652;
+            this.label516.Text = "officer out";
+            // 
+            // textBox590
+            // 
+            this.textBox590.Location = new System.Drawing.Point(345, 556);
+            this.textBox590.Name = "textBox590";
+            this.textBox590.Size = new System.Drawing.Size(57, 22);
+            this.textBox590.TabIndex = 651;
+            // 
+            // textBox591
+            // 
+            this.textBox591.Location = new System.Drawing.Point(345, 528);
+            this.textBox591.Name = "textBox591";
+            this.textBox591.Size = new System.Drawing.Size(57, 22);
+            this.textBox591.TabIndex = 650;
+            // 
+            // textBox592
+            // 
+            this.textBox592.Location = new System.Drawing.Point(345, 500);
+            this.textBox592.Name = "textBox592";
+            this.textBox592.Size = new System.Drawing.Size(57, 22);
+            this.textBox592.TabIndex = 649;
+            // 
+            // textBox593
+            // 
+            this.textBox593.Location = new System.Drawing.Point(350, 472);
+            this.textBox593.Name = "textBox593";
+            this.textBox593.Size = new System.Drawing.Size(57, 22);
+            this.textBox593.TabIndex = 648;
+            // 
+            // textBox594
+            // 
+            this.textBox594.Location = new System.Drawing.Point(345, 444);
+            this.textBox594.Name = "textBox594";
+            this.textBox594.Size = new System.Drawing.Size(57, 22);
+            this.textBox594.TabIndex = 647;
+            // 
+            // textBox595
+            // 
+            this.textBox595.Location = new System.Drawing.Point(345, 416);
+            this.textBox595.Name = "textBox595";
+            this.textBox595.Size = new System.Drawing.Size(57, 22);
+            this.textBox595.TabIndex = 646;
+            // 
+            // textBox596
+            // 
+            this.textBox596.Location = new System.Drawing.Point(345, 388);
+            this.textBox596.Name = "textBox596";
+            this.textBox596.Size = new System.Drawing.Size(57, 22);
+            this.textBox596.TabIndex = 645;
+            // 
+            // textBox597
+            // 
+            this.textBox597.Location = new System.Drawing.Point(345, 360);
+            this.textBox597.Name = "textBox597";
+            this.textBox597.Size = new System.Drawing.Size(57, 22);
+            this.textBox597.TabIndex = 643;
+            // 
+            // pictureBox81
+            // 
+            this.pictureBox81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox81.Location = new System.Drawing.Point(322, 325);
+            this.pictureBox81.Name = "pictureBox81";
+            this.pictureBox81.Size = new System.Drawing.Size(109, 317);
+            this.pictureBox81.TabIndex = 644;
+            this.pictureBox81.TabStop = false;
+            // 
+            // textBox587
+            // 
+            this.textBox587.Location = new System.Drawing.Point(210, 584);
+            this.textBox587.Name = "textBox587";
+            this.textBox587.Size = new System.Drawing.Size(57, 22);
+            this.textBox587.TabIndex = 642;
+            // 
+            // textBox560
+            // 
+            this.textBox560.Location = new System.Drawing.Point(210, 611);
+            this.textBox560.Name = "textBox560";
+            this.textBox560.Size = new System.Drawing.Size(57, 22);
+            this.textBox560.TabIndex = 641;
+            // 
+            // label105
+            // 
+            this.label105.AutoSize = true;
+            this.label105.Location = new System.Drawing.Point(207, 340);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(62, 17);
+            this.label105.TabIndex = 640;
+            this.label105.Text = "officer in";
+            // 
+            // textBox561
+            // 
+            this.textBox561.Location = new System.Drawing.Point(210, 556);
+            this.textBox561.Name = "textBox561";
+            this.textBox561.Size = new System.Drawing.Size(57, 22);
+            this.textBox561.TabIndex = 639;
+            // 
+            // textBox568
+            // 
+            this.textBox568.Location = new System.Drawing.Point(210, 528);
+            this.textBox568.Name = "textBox568";
+            this.textBox568.Size = new System.Drawing.Size(57, 22);
+            this.textBox568.TabIndex = 638;
+            // 
+            // textBox569
+            // 
+            this.textBox569.Location = new System.Drawing.Point(210, 500);
+            this.textBox569.Name = "textBox569";
+            this.textBox569.Size = new System.Drawing.Size(57, 22);
+            this.textBox569.TabIndex = 637;
+            // 
+            // textBox576
+            // 
+            this.textBox576.Location = new System.Drawing.Point(215, 472);
+            this.textBox576.Name = "textBox576";
+            this.textBox576.Size = new System.Drawing.Size(57, 22);
+            this.textBox576.TabIndex = 636;
+            // 
+            // textBox577
+            // 
+            this.textBox577.Location = new System.Drawing.Point(210, 444);
+            this.textBox577.Name = "textBox577";
+            this.textBox577.Size = new System.Drawing.Size(57, 22);
+            this.textBox577.TabIndex = 635;
+            // 
+            // textBox584
+            // 
+            this.textBox584.Location = new System.Drawing.Point(210, 416);
+            this.textBox584.Name = "textBox584";
+            this.textBox584.Size = new System.Drawing.Size(57, 22);
+            this.textBox584.TabIndex = 634;
+            // 
+            // textBox585
+            // 
+            this.textBox585.Location = new System.Drawing.Point(210, 388);
+            this.textBox585.Name = "textBox585";
+            this.textBox585.Size = new System.Drawing.Size(57, 22);
+            this.textBox585.TabIndex = 633;
+            // 
+            // textBox586
+            // 
+            this.textBox586.Location = new System.Drawing.Point(210, 360);
+            this.textBox586.Name = "textBox586";
+            this.textBox586.Size = new System.Drawing.Size(57, 22);
+            this.textBox586.TabIndex = 631;
+            // 
+            // pictureBox80
+            // 
+            this.pictureBox80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox80.Location = new System.Drawing.Point(187, 325);
+            this.pictureBox80.Name = "pictureBox80";
+            this.pictureBox80.Size = new System.Drawing.Size(109, 317);
+            this.pictureBox80.TabIndex = 632;
+            this.pictureBox80.TabStop = false;
+            // 
+            // textBox521
+            // 
+            this.textBox521.Location = new System.Drawing.Point(1135, 344);
+            this.textBox521.Name = "textBox521";
+            this.textBox521.Size = new System.Drawing.Size(57, 22);
+            this.textBox521.TabIndex = 630;
+            // 
+            // label104
+            // 
+            this.label104.AutoSize = true;
+            this.label104.Location = new System.Drawing.Point(1132, 73);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(52, 17);
+            this.label104.TabIndex = 629;
+            this.label104.Text = "otb out";
+            // 
+            // textBox528
+            // 
+            this.textBox528.Location = new System.Drawing.Point(1135, 289);
+            this.textBox528.Name = "textBox528";
+            this.textBox528.Size = new System.Drawing.Size(57, 22);
+            this.textBox528.TabIndex = 628;
+            // 
+            // textBox529
+            // 
+            this.textBox529.Location = new System.Drawing.Point(1135, 261);
+            this.textBox529.Name = "textBox529";
+            this.textBox529.Size = new System.Drawing.Size(57, 22);
+            this.textBox529.TabIndex = 627;
+            // 
+            // textBox536
+            // 
+            this.textBox536.Location = new System.Drawing.Point(1135, 233);
+            this.textBox536.Name = "textBox536";
+            this.textBox536.Size = new System.Drawing.Size(57, 22);
+            this.textBox536.TabIndex = 626;
+            // 
+            // textBox537
+            // 
+            this.textBox537.Location = new System.Drawing.Point(1140, 205);
+            this.textBox537.Name = "textBox537";
+            this.textBox537.Size = new System.Drawing.Size(57, 22);
+            this.textBox537.TabIndex = 625;
+            // 
+            // textBox544
+            // 
+            this.textBox544.Location = new System.Drawing.Point(1135, 177);
+            this.textBox544.Name = "textBox544";
+            this.textBox544.Size = new System.Drawing.Size(57, 22);
+            this.textBox544.TabIndex = 624;
+            // 
+            // textBox545
+            // 
+            this.textBox545.Location = new System.Drawing.Point(1135, 149);
+            this.textBox545.Name = "textBox545";
+            this.textBox545.Size = new System.Drawing.Size(57, 22);
+            this.textBox545.TabIndex = 623;
+            // 
+            // textBox552
+            // 
+            this.textBox552.Location = new System.Drawing.Point(1135, 121);
+            this.textBox552.Name = "textBox552";
+            this.textBox552.Size = new System.Drawing.Size(57, 22);
+            this.textBox552.TabIndex = 622;
+            // 
+            // textBox553
+            // 
+            this.textBox553.Location = new System.Drawing.Point(1135, 93);
+            this.textBox553.Name = "textBox553";
+            this.textBox553.Size = new System.Drawing.Size(57, 22);
+            this.textBox553.TabIndex = 620;
+            // 
+            // pictureBox79
+            // 
+            this.pictureBox79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox79.Location = new System.Drawing.Point(1112, 60);
+            this.pictureBox79.Name = "pictureBox79";
+            this.pictureBox79.Size = new System.Drawing.Size(109, 317);
+            this.pictureBox79.TabIndex = 621;
+            this.pictureBox79.TabStop = false;
+            // 
+            // textBox520
+            // 
+            this.textBox520.Location = new System.Drawing.Point(47, 344);
+            this.textBox520.Name = "textBox520";
+            this.textBox520.Size = new System.Drawing.Size(57, 22);
+            this.textBox520.TabIndex = 619;
+            // 
+            // label515
+            // 
+            this.label515.AutoSize = true;
+            this.label515.Location = new System.Drawing.Point(990, 73);
+            this.label515.Name = "label515";
+            this.label515.Size = new System.Drawing.Size(16, 17);
+            this.label515.TabIndex = 618;
+            this.label515.Text = "8";
+            // 
+            // textBox578
+            // 
+            this.textBox578.Location = new System.Drawing.Point(993, 233);
+            this.textBox578.Name = "textBox578";
+            this.textBox578.Size = new System.Drawing.Size(57, 22);
+            this.textBox578.TabIndex = 615;
+            // 
+            // textBox579
+            // 
+            this.textBox579.Location = new System.Drawing.Point(998, 205);
+            this.textBox579.Name = "textBox579";
+            this.textBox579.Size = new System.Drawing.Size(57, 22);
+            this.textBox579.TabIndex = 614;
+            // 
+            // textBox580
+            // 
+            this.textBox580.Location = new System.Drawing.Point(993, 177);
+            this.textBox580.Name = "textBox580";
+            this.textBox580.Size = new System.Drawing.Size(57, 22);
+            this.textBox580.TabIndex = 613;
+            // 
+            // textBox581
+            // 
+            this.textBox581.Location = new System.Drawing.Point(993, 149);
+            this.textBox581.Name = "textBox581";
+            this.textBox581.Size = new System.Drawing.Size(57, 22);
+            this.textBox581.TabIndex = 612;
+            // 
+            // textBox582
+            // 
+            this.textBox582.Location = new System.Drawing.Point(993, 121);
+            this.textBox582.Name = "textBox582";
+            this.textBox582.Size = new System.Drawing.Size(57, 22);
+            this.textBox582.TabIndex = 611;
+            // 
+            // textBox583
+            // 
+            this.textBox583.Location = new System.Drawing.Point(993, 93);
+            this.textBox583.Name = "textBox583";
+            this.textBox583.Size = new System.Drawing.Size(57, 22);
+            this.textBox583.TabIndex = 609;
+            // 
+            // pictureBox78
+            // 
+            this.pictureBox78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox78.Location = new System.Drawing.Point(970, 60);
+            this.pictureBox78.Name = "pictureBox78";
+            this.pictureBox78.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox78.TabIndex = 610;
+            this.pictureBox78.TabStop = false;
+            // 
+            // label514
+            // 
+            this.label514.AutoSize = true;
+            this.label514.Location = new System.Drawing.Point(875, 73);
+            this.label514.Name = "label514";
+            this.label514.Size = new System.Drawing.Size(16, 17);
+            this.label514.TabIndex = 608;
+            this.label514.Text = "7";
+            // 
+            // textBox570
+            // 
+            this.textBox570.Location = new System.Drawing.Point(878, 233);
+            this.textBox570.Name = "textBox570";
+            this.textBox570.Size = new System.Drawing.Size(57, 22);
+            this.textBox570.TabIndex = 605;
+            // 
+            // textBox571
+            // 
+            this.textBox571.Location = new System.Drawing.Point(883, 205);
+            this.textBox571.Name = "textBox571";
+            this.textBox571.Size = new System.Drawing.Size(57, 22);
+            this.textBox571.TabIndex = 604;
+            // 
+            // textBox572
+            // 
+            this.textBox572.Location = new System.Drawing.Point(878, 177);
+            this.textBox572.Name = "textBox572";
+            this.textBox572.Size = new System.Drawing.Size(57, 22);
+            this.textBox572.TabIndex = 603;
+            // 
+            // textBox573
+            // 
+            this.textBox573.Location = new System.Drawing.Point(878, 149);
+            this.textBox573.Name = "textBox573";
+            this.textBox573.Size = new System.Drawing.Size(57, 22);
+            this.textBox573.TabIndex = 602;
+            // 
+            // textBox574
+            // 
+            this.textBox574.Location = new System.Drawing.Point(878, 121);
+            this.textBox574.Name = "textBox574";
+            this.textBox574.Size = new System.Drawing.Size(57, 22);
+            this.textBox574.TabIndex = 601;
+            // 
+            // textBox575
+            // 
+            this.textBox575.Location = new System.Drawing.Point(878, 93);
+            this.textBox575.Name = "textBox575";
+            this.textBox575.Size = new System.Drawing.Size(57, 22);
+            this.textBox575.TabIndex = 599;
+            // 
+            // pictureBox77
+            // 
+            this.pictureBox77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox77.Location = new System.Drawing.Point(855, 60);
+            this.pictureBox77.Name = "pictureBox77";
+            this.pictureBox77.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox77.TabIndex = 600;
+            this.pictureBox77.TabStop = false;
+            // 
+            // label462
+            // 
+            this.label462.AutoSize = true;
+            this.label462.Location = new System.Drawing.Point(760, 73);
+            this.label462.Name = "label462";
+            this.label462.Size = new System.Drawing.Size(16, 17);
+            this.label462.TabIndex = 598;
+            this.label462.Text = "6";
+            // 
+            // textBox562
+            // 
+            this.textBox562.Location = new System.Drawing.Point(763, 233);
+            this.textBox562.Name = "textBox562";
+            this.textBox562.Size = new System.Drawing.Size(57, 22);
+            this.textBox562.TabIndex = 595;
+            // 
+            // textBox563
+            // 
+            this.textBox563.Location = new System.Drawing.Point(768, 205);
+            this.textBox563.Name = "textBox563";
+            this.textBox563.Size = new System.Drawing.Size(57, 22);
+            this.textBox563.TabIndex = 594;
+            // 
+            // textBox564
+            // 
+            this.textBox564.Location = new System.Drawing.Point(763, 177);
+            this.textBox564.Name = "textBox564";
+            this.textBox564.Size = new System.Drawing.Size(57, 22);
+            this.textBox564.TabIndex = 593;
+            // 
+            // textBox565
+            // 
+            this.textBox565.Location = new System.Drawing.Point(763, 149);
+            this.textBox565.Name = "textBox565";
+            this.textBox565.Size = new System.Drawing.Size(57, 22);
+            this.textBox565.TabIndex = 592;
+            // 
+            // textBox566
+            // 
+            this.textBox566.Location = new System.Drawing.Point(763, 121);
+            this.textBox566.Name = "textBox566";
+            this.textBox566.Size = new System.Drawing.Size(57, 22);
+            this.textBox566.TabIndex = 591;
+            // 
+            // textBox567
+            // 
+            this.textBox567.Location = new System.Drawing.Point(763, 93);
+            this.textBox567.Name = "textBox567";
+            this.textBox567.Size = new System.Drawing.Size(57, 22);
+            this.textBox567.TabIndex = 589;
+            // 
+            // pictureBox76
+            // 
+            this.pictureBox76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox76.Location = new System.Drawing.Point(740, 60);
+            this.pictureBox76.Name = "pictureBox76";
+            this.pictureBox76.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox76.TabIndex = 590;
+            this.pictureBox76.TabStop = false;
+            // 
+            // label461
+            // 
+            this.label461.AutoSize = true;
+            this.label461.Location = new System.Drawing.Point(645, 73);
+            this.label461.Name = "label461";
+            this.label461.Size = new System.Drawing.Size(16, 17);
+            this.label461.TabIndex = 588;
+            this.label461.Text = "5";
+            // 
+            // textBox554
+            // 
+            this.textBox554.Location = new System.Drawing.Point(648, 233);
+            this.textBox554.Name = "textBox554";
+            this.textBox554.Size = new System.Drawing.Size(57, 22);
+            this.textBox554.TabIndex = 585;
+            // 
+            // textBox555
+            // 
+            this.textBox555.Location = new System.Drawing.Point(653, 205);
+            this.textBox555.Name = "textBox555";
+            this.textBox555.Size = new System.Drawing.Size(57, 22);
+            this.textBox555.TabIndex = 584;
+            // 
+            // textBox556
+            // 
+            this.textBox556.Location = new System.Drawing.Point(648, 177);
+            this.textBox556.Name = "textBox556";
+            this.textBox556.Size = new System.Drawing.Size(57, 22);
+            this.textBox556.TabIndex = 583;
+            // 
+            // textBox557
+            // 
+            this.textBox557.Location = new System.Drawing.Point(648, 149);
+            this.textBox557.Name = "textBox557";
+            this.textBox557.Size = new System.Drawing.Size(57, 22);
+            this.textBox557.TabIndex = 582;
+            // 
+            // textBox558
+            // 
+            this.textBox558.Location = new System.Drawing.Point(648, 121);
+            this.textBox558.Name = "textBox558";
+            this.textBox558.Size = new System.Drawing.Size(57, 22);
+            this.textBox558.TabIndex = 581;
+            // 
+            // textBox559
+            // 
+            this.textBox559.Location = new System.Drawing.Point(648, 93);
+            this.textBox559.Name = "textBox559";
+            this.textBox559.Size = new System.Drawing.Size(57, 22);
+            this.textBox559.TabIndex = 579;
+            // 
+            // pictureBox75
+            // 
+            this.pictureBox75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox75.Location = new System.Drawing.Point(625, 60);
+            this.pictureBox75.Name = "pictureBox75";
+            this.pictureBox75.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox75.TabIndex = 580;
+            this.pictureBox75.TabStop = false;
+            // 
+            // label460
+            // 
+            this.label460.AutoSize = true;
+            this.label460.Location = new System.Drawing.Point(530, 73);
+            this.label460.Name = "label460";
+            this.label460.Size = new System.Drawing.Size(16, 17);
+            this.label460.TabIndex = 578;
+            this.label460.Text = "4";
+            // 
+            // textBox546
+            // 
+            this.textBox546.Location = new System.Drawing.Point(533, 233);
+            this.textBox546.Name = "textBox546";
+            this.textBox546.Size = new System.Drawing.Size(57, 22);
+            this.textBox546.TabIndex = 575;
+            // 
+            // textBox547
+            // 
+            this.textBox547.Location = new System.Drawing.Point(538, 205);
+            this.textBox547.Name = "textBox547";
+            this.textBox547.Size = new System.Drawing.Size(57, 22);
+            this.textBox547.TabIndex = 574;
+            // 
+            // textBox548
+            // 
+            this.textBox548.Location = new System.Drawing.Point(533, 177);
+            this.textBox548.Name = "textBox548";
+            this.textBox548.Size = new System.Drawing.Size(57, 22);
+            this.textBox548.TabIndex = 573;
+            // 
+            // textBox549
+            // 
+            this.textBox549.Location = new System.Drawing.Point(533, 149);
+            this.textBox549.Name = "textBox549";
+            this.textBox549.Size = new System.Drawing.Size(57, 22);
+            this.textBox549.TabIndex = 572;
+            // 
+            // textBox550
+            // 
+            this.textBox550.Location = new System.Drawing.Point(533, 121);
+            this.textBox550.Name = "textBox550";
+            this.textBox550.Size = new System.Drawing.Size(57, 22);
+            this.textBox550.TabIndex = 571;
+            // 
+            // textBox551
+            // 
+            this.textBox551.Location = new System.Drawing.Point(533, 93);
+            this.textBox551.Name = "textBox551";
+            this.textBox551.Size = new System.Drawing.Size(57, 22);
+            this.textBox551.TabIndex = 569;
+            // 
+            // pictureBox74
+            // 
+            this.pictureBox74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox74.Location = new System.Drawing.Point(510, 60);
+            this.pictureBox74.Name = "pictureBox74";
+            this.pictureBox74.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox74.TabIndex = 570;
+            this.pictureBox74.TabStop = false;
+            // 
+            // label459
+            // 
+            this.label459.AutoSize = true;
+            this.label459.Location = new System.Drawing.Point(415, 73);
+            this.label459.Name = "label459";
+            this.label459.Size = new System.Drawing.Size(16, 17);
+            this.label459.TabIndex = 568;
+            this.label459.Text = "3";
+            // 
+            // textBox538
+            // 
+            this.textBox538.Location = new System.Drawing.Point(418, 233);
+            this.textBox538.Name = "textBox538";
+            this.textBox538.Size = new System.Drawing.Size(57, 22);
+            this.textBox538.TabIndex = 565;
+            // 
+            // textBox539
+            // 
+            this.textBox539.Location = new System.Drawing.Point(423, 205);
+            this.textBox539.Name = "textBox539";
+            this.textBox539.Size = new System.Drawing.Size(57, 22);
+            this.textBox539.TabIndex = 564;
+            // 
+            // textBox540
+            // 
+            this.textBox540.Location = new System.Drawing.Point(418, 177);
+            this.textBox540.Name = "textBox540";
+            this.textBox540.Size = new System.Drawing.Size(57, 22);
+            this.textBox540.TabIndex = 563;
+            // 
+            // textBox541
+            // 
+            this.textBox541.Location = new System.Drawing.Point(418, 149);
+            this.textBox541.Name = "textBox541";
+            this.textBox541.Size = new System.Drawing.Size(57, 22);
+            this.textBox541.TabIndex = 562;
+            // 
+            // textBox542
+            // 
+            this.textBox542.Location = new System.Drawing.Point(418, 121);
+            this.textBox542.Name = "textBox542";
+            this.textBox542.Size = new System.Drawing.Size(57, 22);
+            this.textBox542.TabIndex = 561;
+            // 
+            // textBox543
+            // 
+            this.textBox543.Location = new System.Drawing.Point(418, 93);
+            this.textBox543.Name = "textBox543";
+            this.textBox543.Size = new System.Drawing.Size(57, 22);
+            this.textBox543.TabIndex = 559;
+            // 
+            // pictureBox73
+            // 
+            this.pictureBox73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox73.Location = new System.Drawing.Point(395, 60);
+            this.pictureBox73.Name = "pictureBox73";
+            this.pictureBox73.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox73.TabIndex = 560;
+            this.pictureBox73.TabStop = false;
+            // 
+            // label436
+            // 
+            this.label436.AutoSize = true;
+            this.label436.Location = new System.Drawing.Point(300, 73);
+            this.label436.Name = "label436";
+            this.label436.Size = new System.Drawing.Size(16, 17);
+            this.label436.TabIndex = 558;
+            this.label436.Text = "2";
+            // 
+            // textBox530
+            // 
+            this.textBox530.Location = new System.Drawing.Point(303, 233);
+            this.textBox530.Name = "textBox530";
+            this.textBox530.Size = new System.Drawing.Size(57, 22);
+            this.textBox530.TabIndex = 555;
+            // 
+            // textBox531
+            // 
+            this.textBox531.Location = new System.Drawing.Point(308, 205);
+            this.textBox531.Name = "textBox531";
+            this.textBox531.Size = new System.Drawing.Size(57, 22);
+            this.textBox531.TabIndex = 554;
+            // 
+            // textBox532
+            // 
+            this.textBox532.Location = new System.Drawing.Point(303, 177);
+            this.textBox532.Name = "textBox532";
+            this.textBox532.Size = new System.Drawing.Size(57, 22);
+            this.textBox532.TabIndex = 553;
+            // 
+            // textBox533
+            // 
+            this.textBox533.Location = new System.Drawing.Point(303, 149);
+            this.textBox533.Name = "textBox533";
+            this.textBox533.Size = new System.Drawing.Size(57, 22);
+            this.textBox533.TabIndex = 552;
+            // 
+            // textBox534
+            // 
+            this.textBox534.Location = new System.Drawing.Point(303, 121);
+            this.textBox534.Name = "textBox534";
+            this.textBox534.Size = new System.Drawing.Size(57, 22);
+            this.textBox534.TabIndex = 551;
+            // 
+            // textBox535
+            // 
+            this.textBox535.Location = new System.Drawing.Point(303, 93);
+            this.textBox535.Name = "textBox535";
+            this.textBox535.Size = new System.Drawing.Size(57, 22);
+            this.textBox535.TabIndex = 549;
+            // 
+            // pictureBox72
+            // 
+            this.pictureBox72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox72.Location = new System.Drawing.Point(280, 60);
+            this.pictureBox72.Name = "pictureBox72";
+            this.pictureBox72.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox72.TabIndex = 550;
+            this.pictureBox72.TabStop = false;
+            // 
+            // label434
+            // 
+            this.label434.AutoSize = true;
+            this.label434.Location = new System.Drawing.Point(185, 73);
+            this.label434.Name = "label434";
+            this.label434.Size = new System.Drawing.Size(16, 17);
+            this.label434.TabIndex = 548;
+            this.label434.Text = "1";
+            // 
+            // textBox522
+            // 
+            this.textBox522.Location = new System.Drawing.Point(188, 233);
+            this.textBox522.Name = "textBox522";
+            this.textBox522.Size = new System.Drawing.Size(57, 22);
+            this.textBox522.TabIndex = 545;
+            // 
+            // textBox523
+            // 
+            this.textBox523.Location = new System.Drawing.Point(193, 205);
+            this.textBox523.Name = "textBox523";
+            this.textBox523.Size = new System.Drawing.Size(57, 22);
+            this.textBox523.TabIndex = 544;
+            // 
+            // textBox524
+            // 
+            this.textBox524.Location = new System.Drawing.Point(188, 177);
+            this.textBox524.Name = "textBox524";
+            this.textBox524.Size = new System.Drawing.Size(57, 22);
+            this.textBox524.TabIndex = 543;
+            // 
+            // textBox525
+            // 
+            this.textBox525.Location = new System.Drawing.Point(188, 149);
+            this.textBox525.Name = "textBox525";
+            this.textBox525.Size = new System.Drawing.Size(57, 22);
+            this.textBox525.TabIndex = 542;
+            // 
+            // textBox526
+            // 
+            this.textBox526.Location = new System.Drawing.Point(188, 121);
+            this.textBox526.Name = "textBox526";
+            this.textBox526.Size = new System.Drawing.Size(57, 22);
+            this.textBox526.TabIndex = 541;
+            // 
+            // textBox527
+            // 
+            this.textBox527.Location = new System.Drawing.Point(188, 93);
+            this.textBox527.Name = "textBox527";
+            this.textBox527.Size = new System.Drawing.Size(57, 22);
+            this.textBox527.TabIndex = 539;
+            // 
+            // pictureBox71
+            // 
+            this.pictureBox71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox71.Location = new System.Drawing.Point(165, 60);
+            this.pictureBox71.Name = "pictureBox71";
+            this.pictureBox71.Size = new System.Drawing.Size(109, 205);
+            this.pictureBox71.TabIndex = 540;
+            this.pictureBox71.TabStop = false;
+            // 
+            // label432
+            // 
+            this.label432.AutoSize = true;
+            this.label432.Location = new System.Drawing.Point(44, 73);
+            this.label432.Name = "label432";
+            this.label432.Size = new System.Drawing.Size(48, 17);
+            this.label432.TabIndex = 538;
+            this.label432.Text = "otb tot";
+            // 
+            // textBox519
+            // 
+            this.textBox519.Location = new System.Drawing.Point(47, 289);
+            this.textBox519.Name = "textBox519";
+            this.textBox519.Size = new System.Drawing.Size(57, 22);
+            this.textBox519.TabIndex = 537;
+            // 
+            // textBox518
+            // 
+            this.textBox518.Location = new System.Drawing.Point(47, 261);
+            this.textBox518.Name = "textBox518";
+            this.textBox518.Size = new System.Drawing.Size(57, 22);
+            this.textBox518.TabIndex = 536;
+            // 
+            // textBox517
+            // 
+            this.textBox517.Location = new System.Drawing.Point(47, 233);
+            this.textBox517.Name = "textBox517";
+            this.textBox517.Size = new System.Drawing.Size(57, 22);
+            this.textBox517.TabIndex = 535;
+            // 
+            // textBox516
+            // 
+            this.textBox516.Location = new System.Drawing.Point(52, 205);
+            this.textBox516.Name = "textBox516";
+            this.textBox516.Size = new System.Drawing.Size(57, 22);
+            this.textBox516.TabIndex = 534;
+            // 
+            // textBox467
+            // 
+            this.textBox467.Location = new System.Drawing.Point(47, 177);
+            this.textBox467.Name = "textBox467";
+            this.textBox467.Size = new System.Drawing.Size(57, 22);
+            this.textBox467.TabIndex = 533;
+            // 
+            // textBox460
+            // 
+            this.textBox460.Location = new System.Drawing.Point(47, 149);
+            this.textBox460.Name = "textBox460";
+            this.textBox460.Size = new System.Drawing.Size(57, 22);
+            this.textBox460.TabIndex = 532;
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(47, 121);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(57, 22);
+            this.textBox24.TabIndex = 531;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(47, 93);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(57, 22);
+            this.textBox23.TabIndex = 529;
+            this.textBox23.TextChanged += new System.EventHandler(this.textBox23_TextChanged_1);
             // 
             // label511
             // 
@@ -15063,6 +16029,15 @@
             this.label513.Size = new System.Drawing.Size(157, 20);
             this.label513.TabIndex = 524;
             this.label513.Text = "OTB Calculations";
+            // 
+            // pictureBox70
+            // 
+            this.pictureBox70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox70.Location = new System.Drawing.Point(24, 60);
+            this.pictureBox70.Name = "pictureBox70";
+            this.pictureBox70.Size = new System.Drawing.Size(109, 317);
+            this.pictureBox70.TabIndex = 530;
+            this.pictureBox70.TabStop = false;
             // 
             // menuStrip1
             // 
@@ -15467,6 +16442,254 @@
             this.datenow.TabIndex = 31;
             this.datenow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label517
+            // 
+            this.label517.AutoSize = true;
+            this.label517.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label517.Location = new System.Drawing.Point(392, 427);
+            this.label517.Name = "label517";
+            this.label517.Size = new System.Drawing.Size(87, 17);
+            this.label517.TabIndex = 227;
+            this.label517.Text = "BA Avaliable";
+            // 
+            // textBox598
+            // 
+            this.textBox598.Location = new System.Drawing.Point(485, 423);
+            this.textBox598.Name = "textBox598";
+            this.textBox598.ReadOnly = true;
+            this.textBox598.Size = new System.Drawing.Size(60, 22);
+            this.textBox598.TabIndex = 228;
+            this.textBox598.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label518
+            // 
+            this.label518.AutoSize = true;
+            this.label518.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label518.Location = new System.Drawing.Point(392, 398);
+            this.label518.Name = "label518";
+            this.label518.Size = new System.Drawing.Size(63, 17);
+            this.label518.TabIndex = 229;
+            this.label518.Text = "BA Used";
+            // 
+            // textBox599
+            // 
+            this.textBox599.Location = new System.Drawing.Point(485, 395);
+            this.textBox599.Name = "textBox599";
+            this.textBox599.Size = new System.Drawing.Size(60, 22);
+            this.textBox599.TabIndex = 230;
+            this.textBox599.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label519
+            // 
+            this.label519.AutoSize = true;
+            this.label519.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label519.Location = new System.Drawing.Point(392, 460);
+            this.label519.Name = "label519";
+            this.label519.Size = new System.Drawing.Size(67, 17);
+            this.label519.TabIndex = 231;
+            this.label519.Text = "BA Stage";
+            // 
+            // comboBox27
+            // 
+            this.comboBox27.FormattingEnabled = true;
+            this.comboBox27.Items.AddRange(new object[] {
+            "",
+            "Initial",
+            "Stage One",
+            "Stage Two"});
+            this.comboBox27.Location = new System.Drawing.Point(485, 457);
+            this.comboBox27.Name = "comboBox27";
+            this.comboBox27.Size = new System.Drawing.Size(90, 24);
+            this.comboBox27.TabIndex = 232;
+            // 
+            // label520
+            // 
+            this.label520.AutoSize = true;
+            this.label520.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label520.Location = new System.Drawing.Point(392, 511);
+            this.label520.Name = "label520";
+            this.label520.Size = new System.Drawing.Size(173, 17);
+            this.label520.TabIndex = 233;
+            this.label520.Text = "Emergency Team In Place";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.checkBox1.Location = new System.Drawing.Point(397, 537);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(54, 21);
+            this.checkBox1.TabIndex = 234;
+            this.checkBox1.Text = "Yes";
+            this.checkBox1.UseVisualStyleBackColor = false;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.checkBox2.Location = new System.Drawing.Point(494, 537);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(48, 21);
+            this.checkBox2.TabIndex = 235;
+            this.checkBox2.Text = "No";
+            this.checkBox2.UseVisualStyleBackColor = false;
+            // 
+            // label521
+            // 
+            this.label521.AutoSize = true;
+            this.label521.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label521.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label521.Location = new System.Drawing.Point(620, 358);
+            this.label521.Name = "label521";
+            this.label521.Size = new System.Drawing.Size(245, 25);
+            this.label521.TabIndex = 236;
+            this.label521.Text = "Equipment Management";
+            // 
+            // label522
+            // 
+            this.label522.AutoSize = true;
+            this.label522.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label522.Location = new System.Drawing.Point(655, 398);
+            this.label522.Name = "label522";
+            this.label522.Size = new System.Drawing.Size(94, 17);
+            this.label522.TabIndex = 237;
+            this.label522.Text = "Covering Jets";
+            // 
+            // textBox600
+            // 
+            this.textBox600.Location = new System.Drawing.Point(764, 395);
+            this.textBox600.Name = "textBox600";
+            this.textBox600.Size = new System.Drawing.Size(57, 22);
+            this.textBox600.TabIndex = 238;
+            // 
+            // textBox601
+            // 
+            this.textBox601.Location = new System.Drawing.Point(764, 421);
+            this.textBox601.Name = "textBox601";
+            this.textBox601.Size = new System.Drawing.Size(57, 22);
+            this.textBox601.TabIndex = 240;
+            // 
+            // label523
+            // 
+            this.label523.AutoSize = true;
+            this.label523.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label523.Location = new System.Drawing.Point(655, 424);
+            this.label523.Name = "label523";
+            this.label523.Size = new System.Drawing.Size(81, 17);
+            this.label523.TabIndex = 239;
+            this.label523.Text = "Hose Reels";
+            // 
+            // textBox602
+            // 
+            this.textBox602.Location = new System.Drawing.Point(764, 449);
+            this.textBox602.Name = "textBox602";
+            this.textBox602.Size = new System.Drawing.Size(57, 22);
+            this.textBox602.TabIndex = 242;
+            // 
+            // label524
+            // 
+            this.label524.AutoSize = true;
+            this.label524.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label524.Location = new System.Drawing.Point(655, 452);
+            this.label524.Name = "label524";
+            this.label524.Size = new System.Drawing.Size(65, 17);
+            this.label524.TabIndex = 241;
+            this.label524.Text = "Hydrants";
+            // 
+            // textBox603
+            // 
+            this.textBox603.Location = new System.Drawing.Point(764, 477);
+            this.textBox603.Name = "textBox603";
+            this.textBox603.Size = new System.Drawing.Size(57, 22);
+            this.textBox603.TabIndex = 244;
+            // 
+            // label525
+            // 
+            this.label525.AutoSize = true;
+            this.label525.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label525.Location = new System.Drawing.Point(655, 480);
+            this.label525.Name = "label525";
+            this.label525.Size = new System.Drawing.Size(114, 17);
+            this.label525.TabIndex = 243;
+            this.label525.Text = "Ground Monitors";
+            // 
+            // textBox604
+            // 
+            this.textBox604.Location = new System.Drawing.Point(764, 506);
+            this.textBox604.Name = "textBox604";
+            this.textBox604.Size = new System.Drawing.Size(57, 22);
+            this.textBox604.TabIndex = 246;
+            // 
+            // label526
+            // 
+            this.label526.AutoSize = true;
+            this.label526.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label526.Location = new System.Drawing.Point(655, 509);
+            this.label526.Name = "label526";
+            this.label526.Size = new System.Drawing.Size(95, 17);
+            this.label526.TabIndex = 245;
+            this.label526.Text = "Water Curtain";
+            // 
+            // textBox605
+            // 
+            this.textBox605.Location = new System.Drawing.Point(764, 534);
+            this.textBox605.Name = "textBox605";
+            this.textBox605.Size = new System.Drawing.Size(57, 22);
+            this.textBox605.TabIndex = 248;
+            // 
+            // label527
+            // 
+            this.label527.AutoSize = true;
+            this.label527.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label527.Location = new System.Drawing.Point(655, 537);
+            this.label527.Name = "label527";
+            this.label527.Size = new System.Drawing.Size(60, 17);
+            this.label527.TabIndex = 247;
+            this.label527.Text = "Ladders";
+            // 
+            // notes
+            // 
+            this.notes.BackColor = System.Drawing.Color.White;
+            this.notes.Controls.Add(this.label529);
+            this.notes.Controls.Add(this.label528);
+            this.notes.Controls.Add(this.textBox606);
+            this.notes.Location = new System.Drawing.Point(4, 25);
+            this.notes.Name = "notes";
+            this.notes.Size = new System.Drawing.Size(1267, 703);
+            this.notes.TabIndex = 10;
+            this.notes.Text = "Incident Notes";
+            // 
+            // textBox606
+            // 
+            this.textBox606.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.textBox606.Location = new System.Drawing.Point(88, 70);
+            this.textBox606.Multiline = true;
+            this.textBox606.Name = "textBox606";
+            this.textBox606.Size = new System.Drawing.Size(1045, 597);
+            this.textBox606.TabIndex = 0;
+            // 
+            // label528
+            // 
+            this.label528.AutoSize = true;
+            this.label528.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.label528.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label528.Location = new System.Drawing.Point(518, 13);
+            this.label528.Name = "label528";
+            this.label528.Size = new System.Drawing.Size(150, 25);
+            this.label528.TabIndex = 237;
+            this.label528.Text = "Incident Notes";
+            // 
+            // label529
+            // 
+            this.label529.AutoSize = true;
+            this.label529.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label529.ForeColor = System.Drawing.Color.Red;
+            this.label529.Location = new System.Drawing.Point(346, 50);
+            this.label529.Name = "label529";
+            this.label529.Size = new System.Drawing.Size(526, 20);
+            this.label529.TabIndex = 238;
+            this.label529.Text = "THESE NOTES WILL BE INCLUDED IN THE FINAL REPORT";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -15509,7 +16732,6 @@
             this.tabControl1.ResumeLayout(false);
             this.Summary.ResumeLayout(false);
             this.Summary.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
@@ -15545,9 +16767,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox41)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
             this.otbofficers.ResumeLayout(false);
             this.otbofficers.PerformLayout();
@@ -15589,8 +16811,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox44)).EndInit();
             this.otbcalculation.ResumeLayout(false);
             this.otbcalculation.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox81)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox80)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox79)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox78)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox77)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox76)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox74)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox73)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox72)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox71)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox68)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox69)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox70)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -15598,6 +16832,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.notes.ResumeLayout(false);
+            this.notes.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -15845,12 +17081,8 @@
         private System.Windows.Forms.Label label170;
         private System.Windows.Forms.PictureBox pictureBox21;
         private System.Windows.Forms.Label otbffQTY;
-        private System.Windows.Forms.Label otbccQTY;
-        private System.Windows.Forms.Label otbwcQTY;
         private System.Windows.Forms.Label otbofficersQTY;
         private System.Windows.Forms.Label label103;
-        private System.Windows.Forms.Label label104;
-        private System.Windows.Forms.Label label105;
         private System.Windows.Forms.Label label106;
         private System.Windows.Forms.Label label107;
         private System.Windows.Forms.Label label108;
@@ -15877,7 +17109,6 @@
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.Label label175;
         private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.ComboBox app1;
         private System.Windows.Forms.Label label179;
         private System.Windows.Forms.Label label178;
@@ -16040,162 +17271,15 @@
         private System.Windows.Forms.TextBox app1out;
         private System.Windows.Forms.TextBox app1in;
         private System.Windows.Forms.TextBox datenow;
-        private System.Windows.Forms.Label label299;
-        private System.Windows.Forms.ComboBox comboBox85;
-        private System.Windows.Forms.Label label300;
-        private System.Windows.Forms.ComboBox comboBox86;
-        private System.Windows.Forms.Label label301;
-        private System.Windows.Forms.ComboBox comboBox87;
-        private System.Windows.Forms.Label label302;
-        private System.Windows.Forms.ComboBox comboBox88;
-        private System.Windows.Forms.Label label303;
-        private System.Windows.Forms.ComboBox comboBox89;
-        private System.Windows.Forms.Label label304;
-        private System.Windows.Forms.ComboBox comboBox90;
-        private System.Windows.Forms.Label label305;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.ComboBox comboBox91;
-        private System.Windows.Forms.Label label306;
-        private System.Windows.Forms.Label label307;
-        private System.Windows.Forms.Label label308;
-        private System.Windows.Forms.PictureBox pictureBox39;
-        private System.Windows.Forms.Label label309;
-        private System.Windows.Forms.ComboBox comboBox92;
-        private System.Windows.Forms.Label label310;
-        private System.Windows.Forms.ComboBox comboBox93;
-        private System.Windows.Forms.Label label311;
-        private System.Windows.Forms.ComboBox comboBox94;
-        private System.Windows.Forms.Label label312;
-        private System.Windows.Forms.ComboBox comboBox95;
-        private System.Windows.Forms.Label label313;
-        private System.Windows.Forms.ComboBox comboBox96;
-        private System.Windows.Forms.Label label314;
-        private System.Windows.Forms.ComboBox comboBox97;
-        private System.Windows.Forms.Label label315;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.ComboBox comboBox98;
-        private System.Windows.Forms.Label label316;
-        private System.Windows.Forms.Label label317;
-        private System.Windows.Forms.Label label318;
-        private System.Windows.Forms.PictureBox pictureBox40;
-        private System.Windows.Forms.Label label319;
-        private System.Windows.Forms.ComboBox comboBox99;
-        private System.Windows.Forms.Label label320;
-        private System.Windows.Forms.ComboBox comboBox100;
-        private System.Windows.Forms.Label label321;
-        private System.Windows.Forms.ComboBox comboBox101;
-        private System.Windows.Forms.Label label322;
-        private System.Windows.Forms.ComboBox comboBox102;
-        private System.Windows.Forms.Label label323;
-        private System.Windows.Forms.ComboBox comboBox103;
-        private System.Windows.Forms.Label label324;
-        private System.Windows.Forms.ComboBox comboBox104;
-        private System.Windows.Forms.Label label325;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.ComboBox comboBox105;
-        private System.Windows.Forms.Label label326;
-        private System.Windows.Forms.Label label327;
-        private System.Windows.Forms.Label label328;
-        private System.Windows.Forms.PictureBox pictureBox41;
-        private System.Windows.Forms.Label label329;
-        private System.Windows.Forms.ComboBox comboBox106;
-        private System.Windows.Forms.Label label330;
-        private System.Windows.Forms.ComboBox comboBox107;
-        private System.Windows.Forms.Label label331;
-        private System.Windows.Forms.ComboBox comboBox108;
-        private System.Windows.Forms.Label label332;
-        private System.Windows.Forms.ComboBox comboBox109;
-        private System.Windows.Forms.Label label333;
-        private System.Windows.Forms.ComboBox comboBox110;
-        private System.Windows.Forms.Label label334;
-        private System.Windows.Forms.ComboBox comboBox111;
-        private System.Windows.Forms.Label label335;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
-        private System.Windows.Forms.ComboBox comboBox112;
-        private System.Windows.Forms.Label label336;
-        private System.Windows.Forms.Label label337;
-        private System.Windows.Forms.Label label338;
-        private System.Windows.Forms.PictureBox pictureBox42;
-        private System.Windows.Forms.Label label258;
-        private System.Windows.Forms.ComboBox comboBox57;
-        private System.Windows.Forms.Label label259;
-        private System.Windows.Forms.ComboBox comboBox58;
-        private System.Windows.Forms.Label label260;
-        private System.Windows.Forms.ComboBox comboBox59;
-        private System.Windows.Forms.Label label261;
-        private System.Windows.Forms.ComboBox comboBox60;
-        private System.Windows.Forms.Label label262;
-        private System.Windows.Forms.ComboBox comboBox61;
-        private System.Windows.Forms.Label label263;
-        private System.Windows.Forms.ComboBox comboBox62;
-        private System.Windows.Forms.Label label264;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.ComboBox comboBox63;
-        private System.Windows.Forms.Label label265;
-        private System.Windows.Forms.Label label266;
-        private System.Windows.Forms.Label label267;
-        private System.Windows.Forms.PictureBox pictureBox35;
-        private System.Windows.Forms.Label label268;
-        private System.Windows.Forms.ComboBox comboBox64;
-        private System.Windows.Forms.Label label269;
-        private System.Windows.Forms.ComboBox comboBox65;
-        private System.Windows.Forms.Label label270;
-        private System.Windows.Forms.ComboBox comboBox66;
-        private System.Windows.Forms.Label label271;
-        private System.Windows.Forms.ComboBox comboBox67;
-        private System.Windows.Forms.Label label272;
-        private System.Windows.Forms.ComboBox comboBox68;
-        private System.Windows.Forms.Label label273;
-        private System.Windows.Forms.ComboBox comboBox69;
-        private System.Windows.Forms.Label label274;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.ComboBox comboBox70;
-        private System.Windows.Forms.Label label275;
-        private System.Windows.Forms.Label label276;
-        private System.Windows.Forms.Label label277;
-        private System.Windows.Forms.PictureBox pictureBox36;
-        private System.Windows.Forms.Label label278;
-        private System.Windows.Forms.ComboBox comboBox71;
-        private System.Windows.Forms.Label label279;
-        private System.Windows.Forms.ComboBox comboBox72;
-        private System.Windows.Forms.Label label280;
-        private System.Windows.Forms.ComboBox comboBox73;
-        private System.Windows.Forms.Label label281;
-        private System.Windows.Forms.ComboBox comboBox74;
-        private System.Windows.Forms.Label label282;
-        private System.Windows.Forms.ComboBox comboBox75;
-        private System.Windows.Forms.Label label283;
-        private System.Windows.Forms.ComboBox comboBox76;
-        private System.Windows.Forms.Label label284;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.ComboBox comboBox77;
-        private System.Windows.Forms.Label label285;
-        private System.Windows.Forms.Label label286;
-        private System.Windows.Forms.Label label287;
-        private System.Windows.Forms.PictureBox pictureBox37;
         private System.Windows.Forms.Label label288;
-        private System.Windows.Forms.ComboBox comboBox78;
         private System.Windows.Forms.Label label289;
-        private System.Windows.Forms.ComboBox comboBox79;
         private System.Windows.Forms.Label label290;
-        private System.Windows.Forms.ComboBox comboBox80;
         private System.Windows.Forms.Label label291;
-        private System.Windows.Forms.ComboBox comboBox81;
         private System.Windows.Forms.Label label292;
-        private System.Windows.Forms.ComboBox comboBox82;
         private System.Windows.Forms.Label label293;
-        private System.Windows.Forms.ComboBox comboBox83;
         private System.Windows.Forms.Label label294;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.ComboBox comboBox84;
+        private System.Windows.Forms.TextBox otbapp1out;
+        private System.Windows.Forms.TextBox otbapp1in;
         private System.Windows.Forms.Label label295;
         private System.Windows.Forms.Label label296;
         private System.Windows.Forms.Label label297;
@@ -16916,6 +18000,289 @@
         private System.Windows.Forms.TextBox textBox459;
         private System.Windows.Forms.TextBox textBox458;
         private System.Windows.Forms.TextBox textBox457;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.Label label299;
+        private System.Windows.Forms.Label label300;
+        private System.Windows.Forms.Label label301;
+        private System.Windows.Forms.Label label302;
+        private System.Windows.Forms.Label label303;
+        private System.Windows.Forms.Label label304;
+        private System.Windows.Forms.Label label305;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox textBox488;
+        private System.Windows.Forms.Label label306;
+        private System.Windows.Forms.Label label307;
+        private System.Windows.Forms.Label label308;
+        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.TextBox textBox489;
+        private System.Windows.Forms.TextBox textBox490;
+        private System.Windows.Forms.TextBox textBox491;
+        private System.Windows.Forms.TextBox textBox492;
+        private System.Windows.Forms.TextBox textBox493;
+        private System.Windows.Forms.TextBox textBox494;
+        private System.Windows.Forms.TextBox textBox495;
+        private System.Windows.Forms.Label label309;
+        private System.Windows.Forms.Label label310;
+        private System.Windows.Forms.Label label311;
+        private System.Windows.Forms.Label label312;
+        private System.Windows.Forms.Label label313;
+        private System.Windows.Forms.Label label314;
+        private System.Windows.Forms.Label label315;
+        private System.Windows.Forms.TextBox textBox496;
+        private System.Windows.Forms.TextBox textBox497;
+        private System.Windows.Forms.Label label316;
+        private System.Windows.Forms.Label label317;
+        private System.Windows.Forms.Label label318;
+        private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.TextBox textBox498;
+        private System.Windows.Forms.TextBox textBox499;
+        private System.Windows.Forms.TextBox textBox500;
+        private System.Windows.Forms.TextBox textBox501;
+        private System.Windows.Forms.TextBox textBox502;
+        private System.Windows.Forms.TextBox textBox503;
+        private System.Windows.Forms.TextBox textBox504;
+        private System.Windows.Forms.Label label319;
+        private System.Windows.Forms.Label label320;
+        private System.Windows.Forms.Label label321;
+        private System.Windows.Forms.Label label322;
+        private System.Windows.Forms.Label label323;
+        private System.Windows.Forms.Label label324;
+        private System.Windows.Forms.Label label325;
+        private System.Windows.Forms.TextBox textBox505;
+        private System.Windows.Forms.TextBox textBox506;
+        private System.Windows.Forms.Label label326;
+        private System.Windows.Forms.Label label327;
+        private System.Windows.Forms.Label label328;
+        private System.Windows.Forms.PictureBox pictureBox41;
+        private System.Windows.Forms.TextBox textBox507;
+        private System.Windows.Forms.TextBox textBox508;
+        private System.Windows.Forms.TextBox textBox509;
+        private System.Windows.Forms.TextBox textBox510;
+        private System.Windows.Forms.TextBox textBox511;
+        private System.Windows.Forms.TextBox textBox512;
+        private System.Windows.Forms.TextBox textBox513;
+        private System.Windows.Forms.Label label329;
+        private System.Windows.Forms.Label label330;
+        private System.Windows.Forms.Label label331;
+        private System.Windows.Forms.Label label332;
+        private System.Windows.Forms.Label label333;
+        private System.Windows.Forms.Label label334;
+        private System.Windows.Forms.Label label335;
+        private System.Windows.Forms.TextBox textBox514;
+        private System.Windows.Forms.TextBox textBox515;
+        private System.Windows.Forms.Label label336;
+        private System.Windows.Forms.Label label337;
+        private System.Windows.Forms.Label label338;
+        private System.Windows.Forms.PictureBox pictureBox42;
+        private System.Windows.Forms.TextBox textBox479;
+        private System.Windows.Forms.TextBox textBox480;
+        private System.Windows.Forms.TextBox textBox481;
+        private System.Windows.Forms.TextBox textBox482;
+        private System.Windows.Forms.TextBox textBox483;
+        private System.Windows.Forms.TextBox textBox484;
+        private System.Windows.Forms.TextBox textBox485;
+        private System.Windows.Forms.Label label278;
+        private System.Windows.Forms.Label label279;
+        private System.Windows.Forms.Label label280;
+        private System.Windows.Forms.Label label281;
+        private System.Windows.Forms.Label label282;
+        private System.Windows.Forms.Label label283;
+        private System.Windows.Forms.Label label284;
+        private System.Windows.Forms.TextBox textBox486;
+        private System.Windows.Forms.TextBox textBox487;
+        private System.Windows.Forms.Label label285;
+        private System.Windows.Forms.Label label286;
+        private System.Windows.Forms.Label label287;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.TextBox textBox470;
+        private System.Windows.Forms.TextBox textBox471;
+        private System.Windows.Forms.TextBox textBox472;
+        private System.Windows.Forms.TextBox textBox473;
+        private System.Windows.Forms.TextBox textBox474;
+        private System.Windows.Forms.TextBox textBox475;
+        private System.Windows.Forms.TextBox textBox476;
+        private System.Windows.Forms.Label label268;
+        private System.Windows.Forms.Label label269;
+        private System.Windows.Forms.Label label270;
+        private System.Windows.Forms.Label label271;
+        private System.Windows.Forms.Label label272;
+        private System.Windows.Forms.Label label273;
+        private System.Windows.Forms.Label label274;
+        private System.Windows.Forms.TextBox textBox477;
+        private System.Windows.Forms.TextBox textBox478;
+        private System.Windows.Forms.Label label275;
+        private System.Windows.Forms.Label label276;
+        private System.Windows.Forms.Label label277;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox otbapp2;
+        private System.Windows.Forms.Label label258;
+        private System.Windows.Forms.Label label259;
+        private System.Windows.Forms.Label label260;
+        private System.Windows.Forms.Label label261;
+        private System.Windows.Forms.Label label262;
+        private System.Windows.Forms.Label label263;
+        private System.Windows.Forms.Label label264;
+        private System.Windows.Forms.TextBox textBox468;
+        private System.Windows.Forms.TextBox textBox469;
+        private System.Windows.Forms.Label label265;
+        private System.Windows.Forms.Label label266;
+        private System.Windows.Forms.Label label267;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private System.Windows.Forms.TextBox textBox466;
+        private System.Windows.Forms.TextBox textBox465;
+        private System.Windows.Forms.TextBox textBox464;
+        private System.Windows.Forms.TextBox textBox463;
+        private System.Windows.Forms.TextBox textBox462;
+        private System.Windows.Forms.TextBox textBox461;
+        private System.Windows.Forms.TextBox otbapp1;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.PictureBox pictureBox70;
+        private System.Windows.Forms.Label label432;
+        private System.Windows.Forms.TextBox textBox519;
+        private System.Windows.Forms.TextBox textBox518;
+        private System.Windows.Forms.TextBox textBox517;
+        private System.Windows.Forms.TextBox textBox516;
+        private System.Windows.Forms.TextBox textBox467;
+        private System.Windows.Forms.TextBox textBox460;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label515;
+        private System.Windows.Forms.TextBox textBox578;
+        private System.Windows.Forms.TextBox textBox579;
+        private System.Windows.Forms.TextBox textBox580;
+        private System.Windows.Forms.TextBox textBox581;
+        private System.Windows.Forms.TextBox textBox582;
+        private System.Windows.Forms.TextBox textBox583;
+        private System.Windows.Forms.PictureBox pictureBox78;
+        private System.Windows.Forms.Label label514;
+        private System.Windows.Forms.TextBox textBox570;
+        private System.Windows.Forms.TextBox textBox571;
+        private System.Windows.Forms.TextBox textBox572;
+        private System.Windows.Forms.TextBox textBox573;
+        private System.Windows.Forms.TextBox textBox574;
+        private System.Windows.Forms.TextBox textBox575;
+        private System.Windows.Forms.PictureBox pictureBox77;
+        private System.Windows.Forms.Label label462;
+        private System.Windows.Forms.TextBox textBox562;
+        private System.Windows.Forms.TextBox textBox563;
+        private System.Windows.Forms.TextBox textBox564;
+        private System.Windows.Forms.TextBox textBox565;
+        private System.Windows.Forms.TextBox textBox566;
+        private System.Windows.Forms.TextBox textBox567;
+        private System.Windows.Forms.PictureBox pictureBox76;
+        private System.Windows.Forms.Label label461;
+        private System.Windows.Forms.TextBox textBox554;
+        private System.Windows.Forms.TextBox textBox555;
+        private System.Windows.Forms.TextBox textBox556;
+        private System.Windows.Forms.TextBox textBox557;
+        private System.Windows.Forms.TextBox textBox558;
+        private System.Windows.Forms.TextBox textBox559;
+        private System.Windows.Forms.PictureBox pictureBox75;
+        private System.Windows.Forms.Label label460;
+        private System.Windows.Forms.TextBox textBox546;
+        private System.Windows.Forms.TextBox textBox547;
+        private System.Windows.Forms.TextBox textBox548;
+        private System.Windows.Forms.TextBox textBox549;
+        private System.Windows.Forms.TextBox textBox550;
+        private System.Windows.Forms.TextBox textBox551;
+        private System.Windows.Forms.PictureBox pictureBox74;
+        private System.Windows.Forms.Label label459;
+        private System.Windows.Forms.TextBox textBox538;
+        private System.Windows.Forms.TextBox textBox539;
+        private System.Windows.Forms.TextBox textBox540;
+        private System.Windows.Forms.TextBox textBox541;
+        private System.Windows.Forms.TextBox textBox542;
+        private System.Windows.Forms.TextBox textBox543;
+        private System.Windows.Forms.PictureBox pictureBox73;
+        private System.Windows.Forms.Label label436;
+        private System.Windows.Forms.TextBox textBox530;
+        private System.Windows.Forms.TextBox textBox531;
+        private System.Windows.Forms.TextBox textBox532;
+        private System.Windows.Forms.TextBox textBox533;
+        private System.Windows.Forms.TextBox textBox534;
+        private System.Windows.Forms.TextBox textBox535;
+        private System.Windows.Forms.PictureBox pictureBox72;
+        private System.Windows.Forms.Label label434;
+        private System.Windows.Forms.TextBox textBox522;
+        private System.Windows.Forms.TextBox textBox523;
+        private System.Windows.Forms.TextBox textBox524;
+        private System.Windows.Forms.TextBox textBox525;
+        private System.Windows.Forms.TextBox textBox526;
+        private System.Windows.Forms.TextBox textBox527;
+        private System.Windows.Forms.PictureBox pictureBox71;
+        private System.Windows.Forms.TextBox textBox520;
+        private System.Windows.Forms.TextBox textBox521;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.TextBox textBox528;
+        private System.Windows.Forms.TextBox textBox529;
+        private System.Windows.Forms.TextBox textBox536;
+        private System.Windows.Forms.TextBox textBox537;
+        private System.Windows.Forms.TextBox textBox544;
+        private System.Windows.Forms.TextBox textBox545;
+        private System.Windows.Forms.TextBox textBox552;
+        private System.Windows.Forms.TextBox textBox553;
+        private System.Windows.Forms.PictureBox pictureBox79;
+        private System.Windows.Forms.TextBox textBox587;
+        private System.Windows.Forms.TextBox textBox560;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.TextBox textBox561;
+        private System.Windows.Forms.TextBox textBox568;
+        private System.Windows.Forms.TextBox textBox569;
+        private System.Windows.Forms.TextBox textBox576;
+        private System.Windows.Forms.TextBox textBox577;
+        private System.Windows.Forms.TextBox textBox584;
+        private System.Windows.Forms.TextBox textBox585;
+        private System.Windows.Forms.TextBox textBox586;
+        private System.Windows.Forms.PictureBox pictureBox80;
+        private System.Windows.Forms.TextBox textBox588;
+        private System.Windows.Forms.TextBox textBox589;
+        private System.Windows.Forms.Label label516;
+        private System.Windows.Forms.TextBox textBox590;
+        private System.Windows.Forms.TextBox textBox591;
+        private System.Windows.Forms.TextBox textBox592;
+        private System.Windows.Forms.TextBox textBox593;
+        private System.Windows.Forms.TextBox textBox594;
+        private System.Windows.Forms.TextBox textBox595;
+        private System.Windows.Forms.TextBox textBox596;
+        private System.Windows.Forms.TextBox textBox597;
+        private System.Windows.Forms.PictureBox pictureBox81;
+        private System.Windows.Forms.TextBox textBox599;
+        private System.Windows.Forms.Label label518;
+        private System.Windows.Forms.TextBox textBox598;
+        private System.Windows.Forms.Label label517;
+        private System.Windows.Forms.TextBox textBox605;
+        private System.Windows.Forms.Label label527;
+        private System.Windows.Forms.TextBox textBox604;
+        private System.Windows.Forms.Label label526;
+        private System.Windows.Forms.TextBox textBox603;
+        private System.Windows.Forms.Label label525;
+        private System.Windows.Forms.TextBox textBox602;
+        private System.Windows.Forms.Label label524;
+        private System.Windows.Forms.TextBox textBox601;
+        private System.Windows.Forms.Label label523;
+        private System.Windows.Forms.TextBox textBox600;
+        private System.Windows.Forms.Label label522;
+        private System.Windows.Forms.Label label521;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label label520;
+        private System.Windows.Forms.ComboBox comboBox27;
+        private System.Windows.Forms.Label label519;
+        private System.Windows.Forms.TabPage notes;
+        private System.Windows.Forms.TextBox textBox606;
+        private System.Windows.Forms.Label label529;
+        private System.Windows.Forms.Label label528;
     }
 }
 
