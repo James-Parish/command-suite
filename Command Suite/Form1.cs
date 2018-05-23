@@ -176,7 +176,7 @@ namespace Command_Suite
             textBox529.Text = "0";
             textBox528.Text = "0";
             textBox521.Text = "0";
-            label150.Text = "0";
+            //label150.Text = "0";
 
             // cfrs appliance views
             label93.Text = null;
@@ -665,9 +665,9 @@ namespace Command_Suite
 
 
             // this will make the program go full screen on the device.
-            this.TopMost = true;
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.WindowState = FormWindowState.Maximized;
+         //   this.TopMost = true;
+          //  this.FormBorderStyle = FormBorderStyle.None;
+          //  this.WindowState = FormWindowState.Maximized;
             
 
 
@@ -1097,7 +1097,7 @@ namespace Command_Suite
 
             //
             label118.Text = otbapp1out.Text;
-            if (!String.IsNullOrEmpty(label118.Text))
+            if (!String.IsNullOrEmpty(otbapp1out.Text))
             {
                 textBox553.Text = label150.Text;
             }
@@ -44809,20 +44809,483 @@ namespace Command_Suite
 
 
             gfx3.DrawString("END OF PAGE THREE", fontArial10, XBrushes.Red, 250, 800);
+            //--------------------------------------------------------------------------------------------------------------
 
-            //CFRS COMMAND SUPPORT
 
-            //CFRS OFFICERS
+            PdfPage page4 = document.AddPage();
 
-            //OTB APPLIANCE + CREWS
+            XGraphics gfx4 = XGraphics.FromPdfPage(page4);
+            XPdfFontOptions options4 = new XPdfFontOptions(PdfFontEncoding.Unicode, PdfFontEmbedding.Always);
+            //fonts
 
-            //OTB OFFICERS
+            XFont cfontArial20 = new XFont("Arial", 20, XFontStyle.Bold, options);
+            XFont cfontArial12 = new XFont("Arial", 12, XFontStyle.Regular, options);
+            XFont cfontArial16 = new XFont("Arial", 16, XFontStyle.Bold, options);
+            XFont cfontArial10 = new XFont("Arial", 10, XFontStyle.Bold, options);
 
-            //OTHER AGENCIES
 
-            //INCIDENT NOTES
 
-            //--
+            // title
+            gfx4.DrawString("Incident Number -" + " " + incNo.Text, fontArial20, XBrushes.Black, 200, 20);
+            gfx4.DrawString("OTB Appliances", fontArial16, XBrushes.Black, 250, 40);
+
+            // appliance 1
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 50, 80);
+            gfx4.DrawString(otbapp1.Text, fontArial12, XBrushes.Red, 150, 80);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 50, 100);
+            gfx4.DrawString(textBox461.Text, fontArial12, XBrushes.Blue, 150, 100);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 50, 120);
+            gfx4.DrawString(textBox462.Text, fontArial12, XBrushes.Blue, 150, 120);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 50, 140);
+            gfx4.DrawString(textBox463.Text, fontArial12, XBrushes.Blue, 150, 140);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 50, 160);
+            gfx4.DrawString(textBox464.Text, fontArial12, XBrushes.Blue, 150, 160);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 50, 180);
+            gfx4.DrawString(textBox465.Text, fontArial12, XBrushes.Blue, 150, 180);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 50, 200);
+            gfx4.DrawString(textBox466.Text, fontArial12, XBrushes.Blue, 150, 200);
+
+            // appliance 2
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 300, 80);
+            gfx4.DrawString(otbapp2.Text, fontArial12, XBrushes.Red, 400, 80);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 300, 100);
+            gfx4.DrawString(textBox22.Text, fontArial12, XBrushes.Blue, 400, 100);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 300, 120);
+            gfx4.DrawString(textBox21.Text, fontArial12, XBrushes.Blue, 400, 120);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 300, 140);
+            gfx4.DrawString(textBox20.Text, fontArial12, XBrushes.Blue, 400, 140);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 300, 160);
+            gfx4.DrawString(textBox19.Text, fontArial12, XBrushes.Blue, 400, 160);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 300, 180);
+            gfx4.DrawString(textBox18.Text, fontArial12, XBrushes.Blue, 400, 180);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 300, 200);
+            gfx4.DrawString(textBox17.Text, fontArial12, XBrushes.Blue, 400, 200);
+
+
+
+            // appliance 3
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 50, 240);
+            gfx4.DrawString(textBox476.Text, fontArial12, XBrushes.Red, 150, 240);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 50, 260);
+            gfx4.DrawString(textBox475.Text, fontArial12, XBrushes.Blue, 150, 260);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 50, 280);
+            gfx4.DrawString(textBox474.Text, fontArial12, XBrushes.Blue, 150, 280);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 50, 300);
+            gfx4.DrawString(textBox473.Text, fontArial12, XBrushes.Blue, 150, 300);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 50, 320);
+            gfx4.DrawString(textBox472.Text, fontArial12, XBrushes.Blue, 150, 320);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 50, 340);
+            gfx4.DrawString(textBox471.Text, fontArial12, XBrushes.Blue, 150, 340);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 50, 360);
+            gfx4.DrawString(textBox470.Text, fontArial12, XBrushes.Blue, 150, 360);
+
+            // appliance 4
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 300, 240);
+            gfx4.DrawString(textBox485.Text, fontArial12, XBrushes.Red, 400, 240);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 300, 260);
+            gfx4.DrawString(textBox484.Text, fontArial12, XBrushes.Blue, 400, 260);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 300, 280);
+            gfx4.DrawString(textBox483.Text, fontArial12, XBrushes.Blue, 400, 280);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 300, 300);
+            gfx4.DrawString(textBox482.Text, fontArial12, XBrushes.Blue, 400, 300);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 300, 320);
+            gfx4.DrawString(textBox481.Text, fontArial12, XBrushes.Blue, 400, 320);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 300, 340);
+            gfx4.DrawString(textBox480.Text, fontArial12, XBrushes.Blue, 400, 340);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 300, 360);
+            gfx4.DrawString(textBox479.Text, fontArial12, XBrushes.Blue, 400, 360);
+
+            // appliance 5
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 50, 400);
+            gfx4.DrawString(textBox513.Text, fontArial12, XBrushes.Red, 150, 400);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 50, 420);
+            gfx4.DrawString(textBox512.Text, fontArial12, XBrushes.Blue, 150, 420);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 50, 440);
+            gfx4.DrawString(textBox511.Text, fontArial12, XBrushes.Blue, 150, 440);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 50, 460);
+            gfx4.DrawString(textBox510.Text, fontArial12, XBrushes.Blue, 150, 460);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 50, 480);
+            gfx4.DrawString(textBox509.Text, fontArial12, XBrushes.Blue, 150, 480);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 50, 500);
+            gfx4.DrawString(textBox508.Text, fontArial12, XBrushes.Blue, 150, 500);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 50, 520);
+            gfx4.DrawString(textBox507.Text, fontArial12, XBrushes.Blue, 150, 520);
+
+            // appliance 6
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 300, 400);
+            gfx4.DrawString(textBox504.Text, fontArial12, XBrushes.Red, 400, 400);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 300, 420);
+            gfx4.DrawString(textBox503.Text, fontArial12, XBrushes.Blue, 400, 420);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 300, 440);
+            gfx4.DrawString(textBox502.Text, fontArial12, XBrushes.Blue, 400, 440);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 300, 460);
+            gfx4.DrawString(textBox501.Text, fontArial12, XBrushes.Blue, 400, 460);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 300, 480);
+            gfx4.DrawString(textBox500.Text, fontArial12, XBrushes.Blue, 400, 480);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 300, 500);
+            gfx4.DrawString(textBox499.Text, fontArial12, XBrushes.Blue, 400, 500);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 300, 520);
+            gfx4.DrawString(textBox498.Text, fontArial12, XBrushes.Blue, 400, 520);
+
+            // appliance 7
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 50, 560);
+            gfx4.DrawString(textBox495.Text, fontArial12, XBrushes.Red, 150, 560);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 50, 580);
+            gfx4.DrawString(textBox494.Text, fontArial12, XBrushes.Blue, 150, 580);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 50, 600);
+            gfx4.DrawString(textBox493.Text, fontArial12, XBrushes.Blue, 150, 600);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 50, 620);
+            gfx4.DrawString(textBox492.Text, fontArial12, XBrushes.Blue, 150, 620);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 50, 640);
+            gfx4.DrawString(textBox491.Text, fontArial12, XBrushes.Blue, 150, 640);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 50, 660);
+            gfx4.DrawString(textBox490.Text, fontArial12, XBrushes.Blue, 150, 660);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 50, 680);
+            gfx4.DrawString(textBox489.Text, fontArial12, XBrushes.Blue, 150, 680);
+
+            // appliance 8
+            gfx4.DrawString("Appliance", fontArial12, XBrushes.Black, 300, 560);
+            gfx4.DrawString(textBox31.Text, fontArial12, XBrushes.Red, 400, 560);
+            gfx4.DrawString("OIC", fontArial12, XBrushes.Black, 300, 580);
+            gfx4.DrawString(textBox30.Text, fontArial12, XBrushes.Blue, 400, 580);
+            gfx4.DrawString("DVR", fontArial12, XBrushes.Black, 300, 600);
+            gfx4.DrawString(textBox29.Text, fontArial12, XBrushes.Blue, 400, 600);
+            gfx4.DrawString("BA1", fontArial12, XBrushes.Black, 300, 620);
+            gfx4.DrawString(textBox28.Text, fontArial12, XBrushes.Blue, 400, 620);
+            gfx4.DrawString("BA2", fontArial12, XBrushes.Black, 300, 640);
+            gfx4.DrawString(textBox27.Text, fontArial12, XBrushes.Blue, 400, 640);
+            gfx4.DrawString("ECO", fontArial12, XBrushes.Black, 300, 660);
+            gfx4.DrawString(textBox26.Text, fontArial12, XBrushes.Blue, 400, 660);
+            gfx4.DrawString("6", fontArial12, XBrushes.Black, 300, 680);
+            gfx4.DrawString(textBox25.Text, fontArial12, XBrushes.Blue, 400, 680);
+
+
+
+            gfx4.DrawString("END OF PAGE FOUR", fontArial10, XBrushes.Red, 250, 800);
+
+            //-----------------------------------------------------------------------------------
+            PdfPage page5 = document.AddPage();
+
+            XGraphics gfx5 = XGraphics.FromPdfPage(page5);
+            XPdfFontOptions options5 = new XPdfFontOptions(PdfFontEncoding.Unicode, PdfFontEmbedding.Always);
+            //fonts
+
+            XFont dfontArial20 = new XFont("Arial", 20, XFontStyle.Bold, options);
+            XFont dfontArial12 = new XFont("Arial", 12, XFontStyle.Regular, options);
+            XFont dfontArial16 = new XFont("Arial", 16, XFontStyle.Bold, options);
+            XFont dfontArial10 = new XFont("Arial", 10, XFontStyle.Bold, options);
+
+
+
+            // title
+            gfx5.DrawString("Incident Number -" + " " + incNo.Text, fontArial20, XBrushes.Black, 200, 20);
+            gfx5.DrawString("CFRS Officers", fontArial16, XBrushes.Black, 250, 40);
+
+
+            gfx5.DrawString("Officer", fontArial12, XBrushes.Black, 50, 80);
+            gfx5.DrawString("Contact", fontArial12, XBrushes.Black, 150, 80);
+            gfx5.DrawString("Vehicle", fontArial12, XBrushes.Black, 270, 80);
+            gfx5.DrawString("In", fontArial12, XBrushes.Black, 355, 80);
+            gfx5.DrawString("Out", fontArial12, XBrushes.Black, 400, 80);
+            gfx5.DrawString("Role", fontArial12, XBrushes.Black, 450, 80);
+
+            gfx5.DrawString(comboBox1.Text, fontArial12, XBrushes.Blue, 50, 100);
+            gfx5.DrawString(textBox205.Text, fontArial12, XBrushes.Blue, 150, 100);
+            gfx5.DrawString(textBox206.Text, fontArial12, XBrushes.Blue, 270, 100);
+            gfx5.DrawString(textBox207.Text, fontArial12, XBrushes.Blue, 355, 100);
+            gfx5.DrawString(textBox208.Text, fontArial12, XBrushes.Blue, 400, 100);
+            gfx5.DrawString(comboBox2.Text, fontArial12, XBrushes.Blue, 450, 100);
+
+            gfx5.DrawString(comboBox4.Text, fontArial12, XBrushes.Blue, 50, 120);
+            gfx5.DrawString(textBox212.Text, fontArial12, XBrushes.Blue, 150, 120);
+            gfx5.DrawString(textBox211.Text, fontArial12, XBrushes.Blue, 270, 120);
+            gfx5.DrawString(textBox210.Text, fontArial12, XBrushes.Blue, 355, 120);
+            gfx5.DrawString(textBox209.Text, fontArial12, XBrushes.Blue, 400, 120);
+            gfx5.DrawString(comboBox19.Text, fontArial12, XBrushes.Blue, 450, 120);
+
+            gfx5.DrawString(comboBox6.Text, fontArial12, XBrushes.Blue, 50, 140);
+            gfx5.DrawString(textBox216.Text, fontArial12, XBrushes.Blue, 150, 140);
+            gfx5.DrawString(textBox215.Text, fontArial12, XBrushes.Blue, 270, 140);
+            gfx5.DrawString(textBox214.Text, fontArial12, XBrushes.Blue, 355, 140);
+            gfx5.DrawString(textBox213.Text, fontArial12, XBrushes.Blue, 400, 140);
+            gfx5.DrawString(comboBox3.Text, fontArial12, XBrushes.Blue, 450, 140);
+
+            gfx5.DrawString(comboBox8.Text, fontArial12, XBrushes.Blue, 50, 160);
+            gfx5.DrawString(textBox220.Text, fontArial12, XBrushes.Blue, 150, 160);
+            gfx5.DrawString(textBox219.Text, fontArial12, XBrushes.Blue, 270, 160);
+            gfx5.DrawString(textBox218.Text, fontArial12, XBrushes.Blue, 355, 160);
+            gfx5.DrawString(textBox217.Text, fontArial12, XBrushes.Blue, 400, 160);
+            gfx5.DrawString(comboBox5.Text, fontArial12, XBrushes.Blue, 450, 160);
+
+            gfx5.DrawString(comboBox10.Text, fontArial12, XBrushes.Blue, 50, 180);
+            gfx5.DrawString(textBox224.Text, fontArial12, XBrushes.Blue, 150, 180);
+            gfx5.DrawString(textBox223.Text, fontArial12, XBrushes.Blue, 270, 180);
+            gfx5.DrawString(textBox222.Text, fontArial12, XBrushes.Blue, 355, 180);
+            gfx5.DrawString(textBox221.Text, fontArial12, XBrushes.Blue, 400, 180);
+            gfx5.DrawString(comboBox7.Text, fontArial12, XBrushes.Blue, 450, 180);
+
+            gfx5.DrawString(comboBox12.Text, fontArial12, XBrushes.Blue, 50, 200);
+            gfx5.DrawString(textBox228.Text, fontArial12, XBrushes.Blue, 150, 200);
+            gfx5.DrawString(textBox227.Text, fontArial12, XBrushes.Blue, 270, 200);
+            gfx5.DrawString(textBox226.Text, fontArial12, XBrushes.Blue, 355, 200);
+            gfx5.DrawString(textBox225.Text, fontArial12, XBrushes.Blue, 400, 200);
+            gfx5.DrawString(comboBox9.Text, fontArial12, XBrushes.Blue, 450, 200);
+
+            gfx5.DrawString(comboBox14.Text, fontArial12, XBrushes.Blue, 50, 220);
+            gfx5.DrawString(textBox232.Text, fontArial12, XBrushes.Blue, 150, 220);
+            gfx5.DrawString(textBox231.Text, fontArial12, XBrushes.Blue, 270, 220);
+            gfx5.DrawString(textBox230.Text, fontArial12, XBrushes.Blue, 355, 220);
+            gfx5.DrawString(textBox229.Text, fontArial12, XBrushes.Blue, 400, 220);
+            gfx5.DrawString(comboBox11.Text, fontArial12, XBrushes.Blue, 450, 220);
+
+            gfx5.DrawString(comboBox16.Text, fontArial12, XBrushes.Blue, 50, 240);
+            gfx5.DrawString(textBox236.Text, fontArial12, XBrushes.Blue, 150, 240);
+            gfx5.DrawString(textBox235.Text, fontArial12, XBrushes.Blue, 270, 240);
+            gfx5.DrawString(textBox234.Text, fontArial12, XBrushes.Blue, 355, 240);
+            gfx5.DrawString(textBox233.Text, fontArial12, XBrushes.Blue, 400, 240);
+            gfx5.DrawString(comboBox13.Text, fontArial12, XBrushes.Blue, 450, 240);
+
+            gfx5.DrawString(comboBox18.Text, fontArial12, XBrushes.Blue, 50, 260);
+            gfx5.DrawString(textBox240.Text, fontArial12, XBrushes.Blue, 150, 260);
+            gfx5.DrawString(textBox239.Text, fontArial12, XBrushes.Blue, 270, 260);
+            gfx5.DrawString(textBox238.Text, fontArial12, XBrushes.Blue, 355, 260);
+            gfx5.DrawString(textBox237.Text, fontArial12, XBrushes.Blue, 400, 260);
+            gfx5.DrawString(comboBox15.Text, fontArial12, XBrushes.Blue, 450, 260);
+
+            gfx5.DrawString("OTB Officers", fontArial16, XBrushes.Black, 250, 300);
+
+            gfx5.DrawString("Officer", fontArial12, XBrushes.Black, 50, 340);
+            gfx5.DrawString("Contact", fontArial12, XBrushes.Black, 150, 340);
+            gfx5.DrawString("Vehicle", fontArial12, XBrushes.Black, 270, 340);
+            gfx5.DrawString("In", fontArial12, XBrushes.Black, 355, 340);
+            gfx5.DrawString("Out", fontArial12, XBrushes.Black, 400, 340);
+            gfx5.DrawString("Role", fontArial12, XBrushes.Black, 450, 340);
+
+            // otb
+
+            gfx5.DrawString(textBox305.Text, fontArial12, XBrushes.Blue, 50, 360);
+            gfx5.DrawString(textBox296.Text, fontArial12, XBrushes.Blue, 150, 360);
+            gfx5.DrawString(textBox295.Text, fontArial12, XBrushes.Blue, 270, 360);
+            gfx5.DrawString(textBox294.Text, fontArial12, XBrushes.Blue, 355, 360);
+            gfx5.DrawString(textBox293.Text, fontArial12, XBrushes.Blue, 400, 360);
+            gfx5.DrawString(comboBox35.Text, fontArial12, XBrushes.Blue, 450, 360);
+
+            gfx5.DrawString(textBox304.Text, fontArial12, XBrushes.Blue, 50, 380);
+            gfx5.DrawString(textBox292.Text, fontArial12, XBrushes.Blue, 150, 380);
+            gfx5.DrawString(textBox291.Text, fontArial12, XBrushes.Blue, 270, 380);
+            gfx5.DrawString(textBox290.Text, fontArial12, XBrushes.Blue, 355, 380);
+            gfx5.DrawString(textBox289.Text, fontArial12, XBrushes.Blue, 400, 380);
+            gfx5.DrawString(comboBox26.Text, fontArial12, XBrushes.Blue, 450, 380);
+
+            gfx5.DrawString(textBox303.Text, fontArial12, XBrushes.Blue, 50, 400);
+            gfx5.DrawString(textBox288.Text, fontArial12, XBrushes.Blue, 150, 400);
+            gfx5.DrawString(textBox287.Text, fontArial12, XBrushes.Blue, 270, 400);
+            gfx5.DrawString(textBox286.Text, fontArial12, XBrushes.Blue, 355, 400);
+            gfx5.DrawString(textBox285.Text, fontArial12, XBrushes.Blue, 400, 400);
+            gfx5.DrawString(comboBox25.Text, fontArial12, XBrushes.Blue, 450, 400);
+
+            gfx5.DrawString(textBox302.Text, fontArial12, XBrushes.Blue, 50, 420);
+            gfx5.DrawString(textBox284.Text, fontArial12, XBrushes.Blue, 150, 420);
+            gfx5.DrawString(textBox283.Text, fontArial12, XBrushes.Blue, 270, 420);
+            gfx5.DrawString(textBox282.Text, fontArial12, XBrushes.Blue, 355, 420);
+            gfx5.DrawString(textBox281.Text, fontArial12, XBrushes.Blue, 400, 420);
+            gfx5.DrawString(comboBox24.Text, fontArial12, XBrushes.Blue, 450, 420);
+
+            gfx5.DrawString(textBox301.Text, fontArial12, XBrushes.Blue, 50, 440);
+            gfx5.DrawString(textBox280.Text, fontArial12, XBrushes.Blue, 150, 440);
+            gfx5.DrawString(textBox279.Text, fontArial12, XBrushes.Blue, 270, 440);
+            gfx5.DrawString(textBox278.Text, fontArial12, XBrushes.Blue, 355, 440);
+            gfx5.DrawString(textBox276.Text, fontArial12, XBrushes.Blue, 400, 440);
+            gfx5.DrawString(comboBox23.Text, fontArial12, XBrushes.Blue, 450, 440);
+
+            gfx5.DrawString(textBox300.Text, fontArial12, XBrushes.Blue, 50, 460);
+            gfx5.DrawString(textBox276.Text, fontArial12, XBrushes.Blue, 150, 460);
+            gfx5.DrawString(textBox275.Text, fontArial12, XBrushes.Blue, 270, 460);
+            gfx5.DrawString(textBox274.Text, fontArial12, XBrushes.Blue, 355, 460);
+            gfx5.DrawString(textBox273.Text, fontArial12, XBrushes.Blue, 400, 460);
+            gfx5.DrawString(comboBox22.Text, fontArial12, XBrushes.Blue, 450, 460);
+
+            gfx5.DrawString(textBox299.Text, fontArial12, XBrushes.Blue, 50, 480);
+            gfx5.DrawString(textBox272.Text, fontArial12, XBrushes.Blue, 150, 480);
+            gfx5.DrawString(textBox271.Text, fontArial12, XBrushes.Blue, 270, 480);
+            gfx5.DrawString(textBox270.Text, fontArial12, XBrushes.Blue, 355, 480);
+            gfx5.DrawString(textBox269.Text, fontArial12, XBrushes.Blue, 400, 480);
+            gfx5.DrawString(comboBox21.Text, fontArial12, XBrushes.Blue, 450, 480);
+
+            gfx5.DrawString(textBox298.Text, fontArial12, XBrushes.Blue, 50, 500);
+            gfx5.DrawString(textBox268.Text, fontArial12, XBrushes.Blue, 150, 500);
+            gfx5.DrawString(textBox267.Text, fontArial12, XBrushes.Blue, 270, 500);
+            gfx5.DrawString(textBox266.Text, fontArial12, XBrushes.Blue, 355, 500);
+            gfx5.DrawString(textBox265.Text, fontArial12, XBrushes.Blue, 400, 500);
+            gfx5.DrawString(comboBox20.Text, fontArial12, XBrushes.Blue, 450, 500);
+
+            gfx5.DrawString(textBox297.Text, fontArial12, XBrushes.Blue, 50, 520);
+            gfx5.DrawString(textBox264.Text, fontArial12, XBrushes.Blue, 150, 520);
+            gfx5.DrawString(textBox263.Text, fontArial12, XBrushes.Blue, 270, 520);
+            gfx5.DrawString(textBox262.Text, fontArial12, XBrushes.Blue, 355, 520);
+            gfx5.DrawString(textBox261.Text, fontArial12, XBrushes.Blue, 400, 520);
+            gfx5.DrawString(comboBox17.Text, fontArial12, XBrushes.Blue, 450, 520);
+
+
+
+            gfx5.DrawString("END OF PAGE FIVE", fontArial10, XBrushes.Red, 250, 800);
+
+
+            //-----------------------------------------------------------------------------------
+            PdfPage page6 = document.AddPage();
+
+            XGraphics gfx6 = XGraphics.FromPdfPage(page6);
+            XPdfFontOptions options6 = new XPdfFontOptions(PdfFontEncoding.Unicode, PdfFontEmbedding.Always);
+            //fonts
+
+            XFont efontArial20 = new XFont("Arial", 20, XFontStyle.Bold, options);
+            XFont efontArial12 = new XFont("Arial", 12, XFontStyle.Regular, options);
+            XFont efontArial16 = new XFont("Arial", 16, XFontStyle.Bold, options);
+            XFont efontArial10 = new XFont("Arial", 10, XFontStyle.Bold, options);
+
+
+
+            // title
+            gfx6.DrawString("Incident Number -" + " " + incNo.Text, fontArial20, XBrushes.Black, 200, 20);
+            gfx6.DrawString("Command Support", fontArial16, XBrushes.Black, 250, 40);
+
+            // appliance 1
+            gfx6.DrawString("Appliance", fontArial12, XBrushes.Black, 50, 80);
+            gfx6.DrawString(csapp1.Text, fontArial12, XBrushes.Red, 150, 80);
+            gfx6.DrawString("OIC", fontArial12, XBrushes.Black, 50, 100);
+            gfx6.DrawString(csapp1oic.Text, fontArial12, XBrushes.Blue, 150, 100);
+            gfx6.DrawString("DVR", fontArial12, XBrushes.Black, 50, 120);
+            gfx6.DrawString(csapp1driver.Text, fontArial12, XBrushes.Blue, 150, 120);
+
+            // appliance 2
+            gfx6.DrawString("Appliance", fontArial12, XBrushes.Black, 300, 80);
+            gfx6.DrawString(csapp2.Text, fontArial12, XBrushes.Red, 400, 80);
+            gfx6.DrawString("OIC", fontArial12, XBrushes.Black, 300, 100);
+            gfx6.DrawString(csapp2oic.Text, fontArial12, XBrushes.Blue, 400, 100);
+            gfx6.DrawString("DVR", fontArial12, XBrushes.Black, 300, 120);
+            gfx6.DrawString(csapp2driver.Text, fontArial12, XBrushes.Blue, 400, 120);
+            gfx6.DrawString("BA1", fontArial12, XBrushes.Black, 300, 140);
+            gfx6.DrawString(csapp2ba1.Text, fontArial12, XBrushes.Blue, 400, 140);
+            gfx6.DrawString("BA2", fontArial12, XBrushes.Black, 300, 160);
+            gfx6.DrawString(csapp2ba2.Text, fontArial12, XBrushes.Blue, 400, 160);
+            gfx6.DrawString("ECO", fontArial12, XBrushes.Black, 300, 180);
+            gfx6.DrawString(csapp2eco.Text, fontArial12, XBrushes.Blue, 400, 180);
+            gfx6.DrawString("6", fontArial12, XBrushes.Black, 300, 200);
+            gfx6.DrawString(csapp26.Text, fontArial12, XBrushes.Blue, 400, 200);
+
+            // appliance 3
+            gfx6.DrawString("Appliance", fontArial12, XBrushes.Black, 50, 240);
+            gfx6.DrawString(csapp3.Text, fontArial12, XBrushes.Red, 150, 240);
+            gfx6.DrawString("OIC", fontArial12, XBrushes.Black, 50, 260);
+            gfx6.DrawString(csapp3oic.Text, fontArial12, XBrushes.Blue, 150, 260);
+            gfx6.DrawString("DVR", fontArial12, XBrushes.Black, 50, 280);
+            gfx6.DrawString(csapp3driver.Text, fontArial12, XBrushes.Blue, 150, 280);
+            gfx6.DrawString("BA1", fontArial12, XBrushes.Black, 50, 300);
+            gfx6.DrawString(csapp3ba1.Text, fontArial12, XBrushes.Blue, 150, 300);
+            gfx6.DrawString("BA2", fontArial12, XBrushes.Black, 50, 320);
+            gfx6.DrawString(csapp3ba2.Text, fontArial12, XBrushes.Blue, 150, 320);
+            gfx6.DrawString("ECO", fontArial12, XBrushes.Black, 50, 340);
+            gfx6.DrawString(csapp3eco.Text, fontArial12, XBrushes.Blue, 150, 340);
+            gfx6.DrawString("6", fontArial12, XBrushes.Black, 50, 360);
+            gfx6.DrawString(csapp36.Text, fontArial12, XBrushes.Blue, 150, 360);
+
+            // other agenceis
+            gfx6.DrawString("Other Agencies", fontArial16, XBrushes.Black, 250, 400);
+
+            gfx6.DrawString("Full Name", fontArial12, XBrushes.Black, 50, 440);
+            gfx6.DrawString("Contact", fontArial12, XBrushes.Black, 150, 440);
+            gfx6.DrawString("Vehicle", fontArial12, XBrushes.Black, 270, 440);
+            gfx6.DrawString("In", fontArial12, XBrushes.Black, 355, 440);
+            gfx6.DrawString("Out", fontArial12, XBrushes.Black, 400, 440);
+            gfx6.DrawString("Agency", fontArial12, XBrushes.Black, 450, 440);
+
+            gfx6.DrawString(textBox377.Text, fontArial12, XBrushes.Blue, 50, 460);
+            gfx6.DrawString(textBox413.Text, fontArial12, XBrushes.Blue, 150, 460);
+            gfx6.DrawString(textBox412.Text, fontArial12, XBrushes.Blue, 270, 460);
+            gfx6.DrawString(textBox411.Text, fontArial12, XBrushes.Blue, 355, 460);
+            gfx6.DrawString(textBox410.Text, fontArial12, XBrushes.Blue, 400, 460);
+            gfx6.DrawString(textBox422.Text, fontArial12, XBrushes.Blue, 450, 460);
+
+            gfx6.DrawString(textBox376.Text, fontArial12, XBrushes.Blue, 50, 480);
+            gfx6.DrawString(textBox409.Text, fontArial12, XBrushes.Blue, 150, 480);
+            gfx6.DrawString(textBox408.Text, fontArial12, XBrushes.Blue, 270, 480);
+            gfx6.DrawString(textBox407.Text, fontArial12, XBrushes.Blue, 355, 480);
+            gfx6.DrawString(textBox406.Text, fontArial12, XBrushes.Blue, 400, 480);
+            gfx6.DrawString(textBox421.Text, fontArial12, XBrushes.Blue, 450, 480);
+
+            gfx6.DrawString(textBox375.Text, fontArial12, XBrushes.Blue, 50, 500);
+            gfx6.DrawString(textBox405.Text, fontArial12, XBrushes.Blue, 150, 500);
+            gfx6.DrawString(textBox404.Text, fontArial12, XBrushes.Blue, 270, 500);
+            gfx6.DrawString(textBox403.Text, fontArial12, XBrushes.Blue, 355, 500);
+            gfx6.DrawString(textBox402.Text, fontArial12, XBrushes.Blue, 400, 500);
+            gfx6.DrawString(textBox420.Text, fontArial12, XBrushes.Blue, 450, 500);
+
+            gfx6.DrawString(textBox374.Text, fontArial12, XBrushes.Blue, 50, 520);
+            gfx6.DrawString(textBox401.Text, fontArial12, XBrushes.Blue, 150, 520);
+            gfx6.DrawString(textBox400.Text, fontArial12, XBrushes.Blue, 270, 520);
+            gfx6.DrawString(textBox399.Text, fontArial12, XBrushes.Blue, 355, 520);
+            gfx6.DrawString(textBox398.Text, fontArial12, XBrushes.Blue, 400, 520);
+            gfx6.DrawString(textBox419.Text, fontArial12, XBrushes.Blue, 450, 520);
+
+            gfx6.DrawString(textBox373.Text, fontArial12, XBrushes.Blue, 50, 540);
+            gfx6.DrawString(textBox397.Text, fontArial12, XBrushes.Blue, 150, 540);
+            gfx6.DrawString(textBox396.Text, fontArial12, XBrushes.Blue, 270, 540);
+            gfx6.DrawString(textBox395.Text, fontArial12, XBrushes.Blue, 355, 540);
+            gfx6.DrawString(textBox394.Text, fontArial12, XBrushes.Blue, 400, 540);
+            gfx6.DrawString(textBox418.Text, fontArial12, XBrushes.Blue, 450, 540);
+
+            gfx6.DrawString(textBox372.Text, fontArial12, XBrushes.Blue, 50, 560);
+            gfx6.DrawString(textBox393.Text, fontArial12, XBrushes.Blue, 150, 560);
+            gfx6.DrawString(textBox392.Text, fontArial12, XBrushes.Blue, 270, 560);
+            gfx6.DrawString(textBox391.Text, fontArial12, XBrushes.Blue, 355, 560);
+            gfx6.DrawString(textBox390.Text, fontArial12, XBrushes.Blue, 400, 560);
+            gfx6.DrawString(textBox417.Text, fontArial12, XBrushes.Blue, 450, 560);
+
+            gfx6.DrawString(textBox371.Text, fontArial12, XBrushes.Blue, 50, 580);
+            gfx6.DrawString(textBox389.Text, fontArial12, XBrushes.Blue, 150, 580);
+            gfx6.DrawString(textBox388.Text, fontArial12, XBrushes.Blue, 270, 580);
+            gfx6.DrawString(textBox387.Text, fontArial12, XBrushes.Blue, 355, 580);
+            gfx6.DrawString(textBox386.Text, fontArial12, XBrushes.Blue, 400, 580);
+            gfx6.DrawString(textBox416.Text, fontArial12, XBrushes.Blue, 450, 580);
+
+            gfx6.DrawString(textBox370.Text, fontArial12, XBrushes.Blue, 50, 600);
+            gfx6.DrawString(textBox385.Text, fontArial12, XBrushes.Blue, 150, 600);
+            gfx6.DrawString(textBox384.Text, fontArial12, XBrushes.Blue, 270, 600);
+            gfx6.DrawString(textBox383.Text, fontArial12, XBrushes.Blue, 355, 600);
+            gfx6.DrawString(textBox382.Text, fontArial12, XBrushes.Blue, 400, 600);
+            gfx6.DrawString(textBox415.Text, fontArial12, XBrushes.Blue, 450, 600);
+
+            gfx6.DrawString(textBox369.Text, fontArial12, XBrushes.Blue, 50, 620);
+            gfx6.DrawString(textBox381.Text, fontArial12, XBrushes.Blue, 150, 620);
+            gfx6.DrawString(textBox380.Text, fontArial12, XBrushes.Blue, 270, 620);
+            gfx6.DrawString(textBox379.Text, fontArial12, XBrushes.Blue, 355, 620);
+            gfx6.DrawString(textBox378.Text, fontArial12, XBrushes.Blue, 400, 620);
+            gfx6.DrawString(textBox414.Text, fontArial12, XBrushes.Blue, 450, 620);
+
+
+            gfx6.DrawString("END OF PAGE Six", fontArial10, XBrushes.Red, 250, 800);
+            //-------------------------------------------------------------------------------------------------------------------
+
+            PdfPage page7 = document.AddPage();
+
+            XGraphics gfx7 = XGraphics.FromPdfPage(page7);
+            XPdfFontOptions options7 = new XPdfFontOptions(PdfFontEncoding.Unicode, PdfFontEmbedding.Always);
+            //fonts
+
+            XFont ffontArial20 = new XFont("Arial", 20, XFontStyle.Bold, options);
+            XFont ffontArial12 = new XFont("Arial", 12, XFontStyle.Regular, options);
+            XFont ffontArial16 = new XFont("Arial", 16, XFontStyle.Bold, options);
+            XFont ffontArial10 = new XFont("Arial", 10, XFontStyle.Bold, options);
+
+
+
+            // title
+            gfx7.DrawString("Incident Number -" + " " + incNo.Text, fontArial20, XBrushes.Black, 200, 20);
+            gfx7.DrawString("Incident Notes", fontArial16, XBrushes.Black, 250, 40);
+
+            gfx7.DrawString(textBox606.Text, fontArial12, XBrushes.Black, 50, 80);
+
+            gfx7.DrawString("END OF Document", fontArial10, XBrushes.Red, 250, 800);
 
 
 
