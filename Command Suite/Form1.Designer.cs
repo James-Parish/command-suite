@@ -1438,7 +1438,6 @@
             this.oN20minReminderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oN60minReminderToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turnARAReminderOFFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveIncidentReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.generateReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -1472,6 +1471,17 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.digitalclock = new System.Windows.Forms.Label();
             this.datenow = new System.Windows.Forms.TextBox();
+            this.textBox607 = new System.Windows.Forms.TextBox();
+            this.label530 = new System.Windows.Forms.Label();
+            this.textBox608 = new System.Windows.Forms.TextBox();
+            this.textBox609 = new System.Windows.Forms.TextBox();
+            this.textBox610 = new System.Windows.Forms.TextBox();
+            this.textBox611 = new System.Windows.Forms.TextBox();
+            this.textBox612 = new System.Windows.Forms.TextBox();
+            this.textBox613 = new System.Windows.Forms.TextBox();
+            this.textBox614 = new System.Windows.Forms.TextBox();
+            this.textBox615 = new System.Windows.Forms.TextBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.Summary.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
@@ -1565,6 +1575,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -15295,6 +15306,17 @@
             // 
             // otbcalculation
             // 
+            this.otbcalculation.Controls.Add(this.textBox607);
+            this.otbcalculation.Controls.Add(this.label530);
+            this.otbcalculation.Controls.Add(this.textBox608);
+            this.otbcalculation.Controls.Add(this.textBox609);
+            this.otbcalculation.Controls.Add(this.textBox610);
+            this.otbcalculation.Controls.Add(this.textBox611);
+            this.otbcalculation.Controls.Add(this.textBox612);
+            this.otbcalculation.Controls.Add(this.textBox613);
+            this.otbcalculation.Controls.Add(this.textBox614);
+            this.otbcalculation.Controls.Add(this.textBox615);
+            this.otbcalculation.Controls.Add(this.pictureBox24);
             this.otbcalculation.Controls.Add(this.textBox588);
             this.otbcalculation.Controls.Add(this.textBox589);
             this.otbcalculation.Controls.Add(this.label516);
@@ -16304,7 +16326,6 @@
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.setARAReminderToolStripMenuItem,
-            this.saveIncidentReportToolStripMenuItem,
             this.generateReportToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
@@ -16341,13 +16362,6 @@
             this.turnARAReminderOFFToolStripMenuItem.Size = new System.Drawing.Size(245, 26);
             this.turnARAReminderOFFToolStripMenuItem.Text = "Turn ARA reminders OFF";
             this.turnARAReminderOFFToolStripMenuItem.Click += new System.EventHandler(this.turnARAReminderOFFToolStripMenuItem_Click);
-            // 
-            // saveIncidentReportToolStripMenuItem
-            // 
-            this.saveIncidentReportToolStripMenuItem.Name = "saveIncidentReportToolStripMenuItem";
-            this.saveIncidentReportToolStripMenuItem.Size = new System.Drawing.Size(206, 26);
-            this.saveIncidentReportToolStripMenuItem.Text = "Save Incident";
-            this.saveIncidentReportToolStripMenuItem.Click += new System.EventHandler(this.saveIncidentReportToolStripMenuItem_Click);
             // 
             // generateReportToolStripMenuItem
             // 
@@ -16690,6 +16704,87 @@
             this.datenow.TabIndex = 31;
             this.datenow.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // textBox607
+            // 
+            this.textBox607.Location = new System.Drawing.Point(648, 573);
+            this.textBox607.Name = "textBox607";
+            this.textBox607.Size = new System.Drawing.Size(57, 22);
+            this.textBox607.TabIndex = 665;
+            // 
+            // label530
+            // 
+            this.label530.AutoSize = true;
+            this.label530.Location = new System.Drawing.Point(645, 302);
+            this.label530.Name = "label530";
+            this.label530.Size = new System.Drawing.Size(52, 17);
+            this.label530.TabIndex = 664;
+            this.label530.Text = "otb out";
+            // 
+            // textBox608
+            // 
+            this.textBox608.Location = new System.Drawing.Point(648, 518);
+            this.textBox608.Name = "textBox608";
+            this.textBox608.Size = new System.Drawing.Size(57, 22);
+            this.textBox608.TabIndex = 663;
+            // 
+            // textBox609
+            // 
+            this.textBox609.Location = new System.Drawing.Point(648, 490);
+            this.textBox609.Name = "textBox609";
+            this.textBox609.Size = new System.Drawing.Size(57, 22);
+            this.textBox609.TabIndex = 662;
+            // 
+            // textBox610
+            // 
+            this.textBox610.Location = new System.Drawing.Point(648, 462);
+            this.textBox610.Name = "textBox610";
+            this.textBox610.Size = new System.Drawing.Size(57, 22);
+            this.textBox610.TabIndex = 661;
+            // 
+            // textBox611
+            // 
+            this.textBox611.Location = new System.Drawing.Point(653, 434);
+            this.textBox611.Name = "textBox611";
+            this.textBox611.Size = new System.Drawing.Size(57, 22);
+            this.textBox611.TabIndex = 660;
+            // 
+            // textBox612
+            // 
+            this.textBox612.Location = new System.Drawing.Point(648, 406);
+            this.textBox612.Name = "textBox612";
+            this.textBox612.Size = new System.Drawing.Size(57, 22);
+            this.textBox612.TabIndex = 659;
+            // 
+            // textBox613
+            // 
+            this.textBox613.Location = new System.Drawing.Point(648, 378);
+            this.textBox613.Name = "textBox613";
+            this.textBox613.Size = new System.Drawing.Size(57, 22);
+            this.textBox613.TabIndex = 658;
+            // 
+            // textBox614
+            // 
+            this.textBox614.Location = new System.Drawing.Point(648, 350);
+            this.textBox614.Name = "textBox614";
+            this.textBox614.Size = new System.Drawing.Size(57, 22);
+            this.textBox614.TabIndex = 657;
+            // 
+            // textBox615
+            // 
+            this.textBox615.Location = new System.Drawing.Point(648, 322);
+            this.textBox615.Name = "textBox615";
+            this.textBox615.Size = new System.Drawing.Size(57, 22);
+            this.textBox615.TabIndex = 655;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.pictureBox24.Location = new System.Drawing.Point(625, 289);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(109, 317);
+            this.pictureBox24.TabIndex = 656;
+            this.pictureBox24.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -16834,6 +16929,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -16847,7 +16943,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem setARAReminderToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saveIncidentReportToolStripMenuItem;
         private System.Windows.Forms.TabPage command;
         private System.Windows.Forms.TabPage cfrsofficers;
         private System.Windows.Forms.TabPage otbappliances;
@@ -18283,6 +18378,17 @@
         private System.Windows.Forms.TextBox textBox606;
         private System.Windows.Forms.Label label529;
         private System.Windows.Forms.Label label528;
+        private System.Windows.Forms.TextBox textBox607;
+        private System.Windows.Forms.Label label530;
+        private System.Windows.Forms.TextBox textBox608;
+        private System.Windows.Forms.TextBox textBox609;
+        private System.Windows.Forms.TextBox textBox610;
+        private System.Windows.Forms.TextBox textBox611;
+        private System.Windows.Forms.TextBox textBox612;
+        private System.Windows.Forms.TextBox textBox613;
+        private System.Windows.Forms.TextBox textBox614;
+        private System.Windows.Forms.TextBox textBox615;
+        private System.Windows.Forms.PictureBox pictureBox24;
     }
 }
 

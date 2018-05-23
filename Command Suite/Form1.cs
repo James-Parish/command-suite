@@ -665,9 +665,9 @@ namespace Command_Suite
 
 
             // this will make the program go full screen on the device.
-         //   this.TopMost = true;
-          //  this.FormBorderStyle = FormBorderStyle.None;
-          //  this.WindowState = FormWindowState.Maximized;
+            this.TopMost = true;
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
             
 
 
@@ -2196,8 +2196,82 @@ namespace Command_Suite
 
             // ---------------------------------------------------------------------------------------
 
+            if (!String.IsNullOrEmpty(label166.Text))
+            {
+                textBox615.Text = "1";
+            }
+            else
+            {
+                textBox615.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label165.Text))
+            {
+                textBox614.Text = "1";
+            }
+            else
+            {
+                textBox614.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label164.Text))
+            {
+                textBox613.Text = "1";
+            }
+            else
+            {
+                textBox613.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label163.Text))
+            {
+                textBox612.Text = "1";
+            }
+            else
+            {
+                textBox612.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label162.Text))
+            {
+                textBox611.Text = "1";
+            }
+            else
+            {
+                textBox611.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label161.Text))
+            {
+                textBox610.Text = "1";
+            }
+            else
+            {
+                textBox610.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label160.Text))
+            {
+                textBox609.Text = "1";
+            }
+            else
+            {
+                textBox609.Text = "0";
+            }
+            if (!String.IsNullOrEmpty(label159.Text))
+            {
+                textBox608.Text = "1";
+            }
+            else
+            {
+                textBox608.Text = "0";
+            }
 
+            int ob1 = Int32.Parse(textBox615.Text);
+            int ob2 = Int32.Parse(textBox614.Text);
+            int ob3 = Int32.Parse(textBox613.Text);
+            int ob4 = Int32.Parse(textBox612.Text);
+            int ob5 = Int32.Parse(textBox611.Text);
+            int ob6 = Int32.Parse(textBox610.Text);
+            int ob7 = Int32.Parse(textBox609.Text);
+            int ob8 = Int32.Parse(textBox608.Text);
 
+            textBox607.Text = (ob1 + ob2 + ob3 + ob4 + ob5 + ob6 + ob7 + ob8).ToString();
+            otbpumpingQTY.Text = textBox607.Text;
 
 
 
