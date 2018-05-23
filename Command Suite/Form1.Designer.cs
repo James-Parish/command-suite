@@ -2587,7 +2587,7 @@
             // 
             this.label139.AutoSize = true;
             this.label139.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.label139.Location = new System.Drawing.Point(1054, 562);
+            this.label139.Location = new System.Drawing.Point(1054, 561);
             this.label139.Name = "label139";
             this.label139.Size = new System.Drawing.Size(16, 17);
             this.label139.TabIndex = 171;
